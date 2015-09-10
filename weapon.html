@@ -2,10 +2,27 @@
 <html>
 	<head>
 		<title>Waffenliste</title>
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 		<link rel="stylesheet" type="text/css" href="wep.css">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<script>
+		$(function() {
+			$( "#tabs" ).tabs();
+		});
+		</script>
 	</head>
 	<body>
-			<h2>Kleckser</h2>
+		<div id="tabs">
+			<ul>
+				<li><a href="#tabs-1">Kleckser</a></li>
+				<li><a href="#tabs-2">Blaster</a></li>
+				<li><a href="#tabs-3">Konzentrator</a></li>
+				<li><a href="#tabs-4">Roller</a></li>
+				<li><a href="#tabs-5">Schwapper</a></li>
+				<li><a href="#tabs-6">Splatling</a></li>
+			</ul>
+			<div id="tabs-1">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -232,6 +249,32 @@
 					<td>75</td>
 				</tr>
 				<tr>
+					<td><img src="weapon/wst_shot_expert00.png" alt="Profi-Kleckser" /></td>
+					<td><span title="Eine Weiterentwicklung des Klecksers f&uuml;r erfahrene K&auml;mpfer. Hoher Tintenverbrauch, geringe Feuerrate. Bei Reichweite und  Genauigkeit hat sich aber viel getan.">Profi-Kleckser</span></td>
+					<td>8000</td>
+					<td>10</td>
+					<td></td>
+					<td>1</td>
+					<td>Klecks-Bombe</td>
+					<td>Tintferno</td>
+					<td>68</td>
+					<td>55</td>
+					<td>40</td>
+				</tr>
+				<tr class="alt">
+					<td><img src="weapon/wst_shot_expert01.png" alt="Focus-Profi-Kleckser" /></td>
+					<td><span title="Profi-Kleckser in Kooperation mit Focus, dem f&uuml;hrenden Hersteller von Sportausr&uuml;stung im Premium- Segment. Solide Hauptwaffe, erg&auml;nzt durch einen Detektor.">Focus-Profi-Kleckser</span></td>
+					<td>19800</td>
+					<td>20</td>
+					<td></td>
+					<td>1</td>
+					<td>Detektor</td>
+					<td>Tintzooka</td>
+					<td>68</td>
+					<td>55</td>
+					<td>40</td>
+				</tr>
+				<tr>
 					<td><img src="weapon/wst_shot_heavy00.png" alt=".96 Gallon" /></td>
 					<td><span title="Verbesserte Mechanik und stabilere Schussfunktion zur .52 Gallon. Reichweite und Kraft wurden zulasten h&ouml;heren Tintenverbrauchs verbessert.">.96 Gallon</span></td>
 					<td>7600</td>
@@ -363,7 +406,8 @@
 				</tr>
 			</table>
 		</div>
-			<h2>Blaster</h2>
+		</div>
+			<div id="tabs-2">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -381,32 +425,6 @@
 						<th>Feuerrate</th>
 					</tr>
 				</thead>
-				<tr>
-					<td><img src="weapon/wst_shot_expert00.png" alt="Profi-Kleckser" /></td>
-					<td><span title="Eine Weiterentwicklung des Klecksers f&uuml;r erfahrene K&auml;mpfer. Hoher Tintenverbrauch, geringe Feuerrate. Bei Reichweite und  Genauigkeit hat sich aber viel getan.">Profi-Kleckser</span></td>
-					<td>8000</td>
-					<td>10</td>
-					<td></td>
-					<td>1</td>
-					<td>Klecks-Bombe</td>
-					<td>Tintferno</td>
-					<td>68</td>
-					<td>55</td>
-					<td>40</td>
-				</tr>
-				<tr class="alt">
-					<td><img src="weapon/wst_shot_expert01.png" alt="Focus-Profi-Kleckser" /></td>
-					<td><span title="Profi-Kleckser in Kooperation mit Focus, dem f&uuml;hrenden Hersteller von Sportausr&uuml;stung im Premium- Segment. Solide Hauptwaffe, erg&auml;nzt durch einen Detektor.">Focus-Profi-Kleckser</span></td>
-					<td>19800</td>
-					<td>20</td>
-					<td></td>
-					<td>1</td>
-					<td>Detektor</td>
-					<td>Tintzooka</td>
-					<td>68</td>
-					<td>55</td>
-					<td>40</td>
-				</tr>
 				<tr>
 					<td><img src="weapon/wst_shot_expshort00.png" alt="Luna-Blaster" /></td>
 					<td><span title="Ein Blaster f&uuml;r den Nahkampf, der kraftvoll detonierende Sch&uuml;sse auf kurze Distanz abgibt. Die Tintzooka k&uuml;mmert sich um weiter entfernte Gegner.">Luna-Blaster</span></td>
@@ -539,7 +557,8 @@
 				</tr>
 			</table>
 		</div>
-			<h2>Konzentrator</h2>
+		</div>
+			<div id="tabs-3">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -728,7 +747,8 @@
 				</tr>
 			</table>
 		</div>
-			<h2>Roller</h2>
+		</div>
+			<div id="tabs-4">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -891,7 +911,8 @@
 				</tr>
 			</table>
 		</div>
-		<h2>Schwapper</h2>
+		</div>
+			<div id="tabs-5">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -989,7 +1010,8 @@
 				</tr>
 			</table>
 		</div>
-			<h2>Splatling</h2>
+		</div>
+			<div id="tabs-6">
 		<div class="datagrid">
 			<table>
 				<thead>
@@ -1086,6 +1108,8 @@
 					<td>20</td>
 				</tr>
 			</table>
+		</div>
+		</div>
 		</div>
 	</body>
 </html>
