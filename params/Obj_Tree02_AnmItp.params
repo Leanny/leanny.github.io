@@ -1,0 +1,18 @@
+{
+	{
+		"mDefaultAnimFrame" 
+		0.00000000 
+	}
+	{
+		"DamageShot" 
+		4.00000000 
+	}
+	{
+		"DamageShotBend" 
+		-1.00000000 
+	}
+	{
+		"Wait" 
+		60.00000000 
+	}
+}

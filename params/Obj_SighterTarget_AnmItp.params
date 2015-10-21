@@ -1,0 +1,30 @@
+{
+	{
+		"mDefaultAnimFrame" 
+		0.00000000 
+	}
+	{
+		"Brust" 
+		-1.00000000 
+	}
+	{
+		"DamageShot" 
+		-1.00000000 
+	}
+	{
+		"DamageShotBend" 
+		-1.00000000 
+	}
+	{
+		"Expand" 
+		-1.00000000 
+	}
+	{
+		"Flick" 
+		-1.00000000 
+	}
+	{
+		"Obj_SighterTarget" 
+		30.00000000 
+	}
+}

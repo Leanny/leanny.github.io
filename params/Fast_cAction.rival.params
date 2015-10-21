@@ -1,0 +1,26 @@
+{
+	{
+		"parameterKind" 
+		1 
+	}
+	{
+		"moveActionLerpSpeed" 
+		0.05000000 
+	}
+	{
+		"lookActionLerpSpeed" 
+		0.05000000 
+	}
+	{
+		"shotActionLerpSpeed" 
+		0.05000000 
+	}
+	{
+		"shotActionAttackRange" 
+		155.00000000 
+	}
+	{
+		"shotActionBombRange" 
+		170.00000000 
+	}
+}

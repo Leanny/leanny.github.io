@@ -1,0 +1,26 @@
+{
+	{
+		"DokanWarp_TameFrm_Low" 
+		60.00000000 
+	}
+	{
+		"DokanWarp_TameFrm_Mid" 
+		45.00000000 
+	}
+	{
+		"DokanWarp_TameFrm_High" 
+		30.00000000 
+	}
+	{
+		"DokanWarp_MoveFrm_Low" 
+		240.00000000 
+	}
+	{
+		"DokanWarp_MoveFrm_Mid" 
+		180.00000000 
+	}
+	{
+		"DokanWarp_MoveFrm_High" 
+		120.00000000 
+	}
+}

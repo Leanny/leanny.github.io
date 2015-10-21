@@ -1,0 +1,14 @@
+{
+	{
+		"MoveVel_Human_Low" 
+		0.95999998 
+	}
+	{
+		"MoveVel_Human_Mid" 
+		1.20000005 
+	}
+	{
+		"MoveVel_Human_High" 
+		1.44000006 
+	}
+}

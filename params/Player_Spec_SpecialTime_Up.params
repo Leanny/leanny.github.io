@@ -1,0 +1,14 @@
+{
+	{
+		"SpecialRt_Keep_Low" 
+		1.00000000 
+	}
+	{
+		"SpecialRt_Keep_Mid" 
+		1.20000005 
+	}
+	{
+		"SpecialRt_Keep_High" 
+		1.39999998 
+	}
+}
