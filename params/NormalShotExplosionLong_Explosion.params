@@ -9,11 +9,11 @@
 	}
 	{
 		"mDamageNear" 
-		1.25000000 
+		0.80000001 
 	}
 	{
 		"mCollisionRadiusNear" 
-		5.00000000 
+		9.00000000 
 	}
 	{
 		"mDamageMiddle" 

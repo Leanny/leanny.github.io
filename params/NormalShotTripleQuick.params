@@ -85,11 +85,11 @@
 	}
 	{
 		"mPaintNearRadius" 
-		22.00000000 
+		23.00000000 
 	}
 	{
 		"mPaintFarRadius" 
-		22.00000000 
+		23.00000000 
 	}
 	{
 		"mSplashDrawRadius" 
@@ -101,7 +101,7 @@
 	}
 	{
 		"mSplashPaintRadius" 
-		15.00000000 
+		16.00000000 
 	}
 	{
 		"mDegBias" 

@@ -1,11 +1,11 @@
 {
 	{
 		"mSwingLiftFrame" 
-		18 
+		12 
 	}
 	{
 		"mSwingRepeatFrame" 
-		40 
+		34 
 	}
 	{
 		"mFirstGroupBulletNum" 
@@ -13,11 +13,11 @@
 	}
 	{
 		"mFirstGroupBulletFirstInitSpeedBase" 
-		8.00000000 
+		15.19999981 
 	}
 	{
 		"mFirstGroupBulletFirstInitSpeedJumpingBase" 
-		6.50000000 
+		14.00000000 
 	}
 	{
 		"mFirstGroupBulletAfterInitSpeedOffset" 
@@ -101,7 +101,7 @@
 	}
 	{
 		"mFirstGroupBulletFirstCollsionRadiusForPlayer" 
-		2.00000000 
+		2.50000000 
 	}
 	{
 		"mFirstGroupBulletAfterCollsionRadiusForPlayerOffset" 
@@ -109,11 +109,11 @@
 	}
 	{
 		"mFirstGroupBulletFirstDamageMaxValue" 
-		1.39999998 
+		0.75999999 
 	}
 	{
 		"mFirstGroupBulletFirstDamageMinValue" 
-		1.39999998 
+		0.38000000 
 	}
 	{
 		"mFirstGroupBulletDamageRateBias" 
@@ -137,7 +137,7 @@
 	}
 	{
 		"mFirstGroupSplashMaxNum" 
-		6 
+		4 
 	}
 	{
 		"mFirstGroupSplashDrawRadius" 
@@ -149,11 +149,11 @@
 	}
 	{
 		"mFirstGroupSplashPaintRadius" 
-		9.00000000 
+		10.00000000 
 	}
 	{
 		"mFirstGroupSplashDepthScaleRateByWidth" 
-		4.00000000 
+		2.50000000 
 	}
 	{
 		"mFirstGroupSplashBetween" 
@@ -161,11 +161,11 @@
 	}
 	{
 		"mFirstGroupSplashFirstDropRandomRateMin" 
-		1.00000000 
+		0.10000000 
 	}
 	{
 		"mFirstGroupSplashFirstDropRandomRateMax" 
-		1.00000000 
+		0.34999999 
 	}
 	{
 		"mFirstGroupBulletUnuseOneEmitterBulletNum" 
@@ -177,19 +177,19 @@
 	}
 	{
 		"mFirstGroupSideLine" 
-		1 
-	}
-	{
-		"mSecondGroupBulletNum" 
 		0 
 	}
 	{
+		"mSecondGroupBulletNum" 
+		4 
+	}
+	{
 		"mSecondGroupBulletFirstInitSpeedBase" 
-		8.00000000 
+		15.19999981 
 	}
 	{
 		"mSecondGroupBulletFirstInitSpeedJumpingBase" 
-		6.50000000 
+		14.00000000 
 	}
 	{
 		"mSecondGroupBulletAfterInitSpeedOffset" 
@@ -209,11 +209,11 @@
 	}
 	{
 		"mSecondGroupBulletFirstDrawRadius" 
-		6.00000000 
+		0.00000000 
 	}
 	{
 		"mSecondGroupBulletAfterDrawRadiusOffset" 
-		4.00000000 
+		0.00000000 
 	}
 	{
 		"mSecondGroupBulletFirstPaintNearD" 
@@ -225,7 +225,7 @@
 	}
 	{
 		"mSecondGroupBulletFirstPaintNearRate" 
-		0.00000000 
+		1.00000000 
 	}
 	{
 		"mSecondGroupBulletFirstPaintFarD" 
@@ -249,7 +249,7 @@
 	}
 	{
 		"mSecondGroupBulletSecondAfterPaintNearRate" 
-		0.00000000 
+		1.00000000 
 	}
 	{
 		"mSecondGroupBulletSecondAfterPaintFarD" 
@@ -277,15 +277,15 @@
 	}
 	{
 		"mSecondGroupBulletAfterCollsionRadiusForPlayerOffset" 
-		4.00000000 
+		5.00000000 
 	}
 	{
 		"mSecondGroupBulletFirstDamageMaxValue" 
-		0.10000000 
+		0.38000000 
 	}
 	{
 		"mSecondGroupBulletFirstDamageMinValue" 
-		0.05000000 
+		0.38000000 
 	}
 	{
 		"mSecondGroupBulletDamageRateBias" 
@@ -349,7 +349,7 @@
 	}
 	{
 		"mSecondGroupSideLine" 
-		1 
+		0 
 	}
 	{
 		"mThirdGroupBulletNum" 
@@ -517,11 +517,11 @@
 	}
 	{
 		"mThirdGroupCenterLine" 
-		1 
+		0 
 	}
 	{
 		"mThirdGroupSideLine" 
-		1 
+		0 
 	}
 	{
 		"mFirstGroupBulletAfterFrameOffset" 
@@ -529,11 +529,11 @@
 	}
 	{
 		"mSecondGroupBulletFirstFrameOffset" 
-		0 
+		1 
 	}
 	{
 		"mSecondGroupBulletAfterFrameOffset" 
-		0 
+		2 
 	}
 	{
 		"mThirdGroupBulletFirstFrameOffset" 
@@ -569,7 +569,7 @@
 	}
 	{
 		"mGuideCenterCheckCollisionFrame" 
-		18 
+		12 
 	}
 	{
 		"mGuideSideGroup" 
@@ -581,7 +581,7 @@
 	}
 	{
 		"mGuideSideCheckCollisionFrame" 
-		8 
+		10 
 	}
 	{
 		"mShotRandomDegreeExceptBulletForGuide" 
@@ -590,6 +590,14 @@
 	{
 		"mShotRandomBiasExceptBulletForGuide" 
 		0.44999999 
+	}
+	{
+		"mFreeStateGravity" 
+		0.60000002 
+	}
+	{
+		"mFreeStateAirResist" 
+		0.16000000 
 	}
 	{
 		"mDropSplashDrawRadius" 
@@ -637,15 +645,27 @@
 	}
 	{
 		"mSpiralSplashInitSpeed" 
-		2.00000000 
+		1.79999995 
+	}
+	{
+		"mSpiralSplashSpeedBaseDist" 
+		-15.00000000 
+	}
+	{
+		"mSpiralSplashSpeedMaxDist" 
+		-70.00000000 
+	}
+	{
+		"mSpiralSplashSpeedMaxRate" 
+		0.50000000 
 	}
 	{
 		"mSpiralSplashLifeFrame" 
-		8 
+		11 
 	}
 	{
 		"mSpiralSplashMinSpanFrame" 
-		1 
+		5 
 	}
 	{
 		"mSpiralSplashMinSpanBulletCounter" 
@@ -653,7 +673,7 @@
 	}
 	{
 		"mSpiralSplashMaxSpanFrame" 
-		3 
+		5 
 	}
 	{
 		"mSpiralSplashMaxSpanBulletCounter" 
@@ -661,35 +681,15 @@
 	}
 	{
 		"mSpiralSplashSameTimeBulletNum" 
-		2 
+		3 
 	}
 	{
 		"mSpiralSplashRoundSplitNum" 
-		9 
+		4 
 	}
 	{
 		"mSpiralSplashColRadiusForField" 
-		4.50000000 
-	}
-	{
-		"mSpiralSplashColRadiusForPlayer" 
-		7.00000000 
-	}
-	{
-		"mSpiralSplashMaxDamage" 
-		0.60000002 
-	}
-	{
-		"mSpiralSplashMinDamage" 
-		0.34999999 
-	}
-	{
-		"mSpiralSplashMaxDamageDist" 
-		5.00000000 
-	}
-	{
-		"mSpiralSplashMinDamageDist" 
-		25.00000000 
+		2.50000000 
 	}
 	{
 		"mScatterSplashGroup" 
@@ -701,7 +701,7 @@
 	}
 	{
 		"mScatterSplashInitSpeed" 
-		3.00000000 
+		1.50000000 
 	}
 	{
 		"mScatterSplashMinSpanBulletCounter" 
@@ -709,7 +709,7 @@
 	}
 	{
 		"mScatterSplashMinSpanFrame" 
-		2 
+		6 
 	}
 	{
 		"mScatterSplashMaxSpanBulletCounter" 
@@ -717,11 +717,11 @@
 	}
 	{
 		"mScatterSplashMaxSpanFrame" 
-		5 
+		12 
 	}
 	{
 		"mScatterSplashMaxNum" 
-		13 
+		6 
 	}
 	{
 		"mScatterSplashUpDegree" 
@@ -745,27 +745,43 @@
 	}
 	{
 		"mScatterSplashInitPosMinOffset" 
-		2.00000000 
+		8.00000000 
 	}
 	{
 		"mScatterSplashInitPosMaxOffset" 
-		15.00000000 
+		12.00000000 
 	}
 	{
 		"mInkConsume" 
-		0.08000000 
+		0.07000000 
 	}
 	{
 		"mInkRecoverStop" 
-		45.00000000 
+		42.00000000 
 	}
 	{
 		"mMoveSpeed" 
-		0.50000000 
+		0.72000003 
 	}
 	{
 		"mBulletStraightFrame" 
-		10 
+		5 
+	}
+	{
+		"mBulletPaintBaseDist" 
+		-15.00000000 
+	}
+	{
+		"mBulletPaintMaxDist" 
+		-70.00000000 
+	}
+	{
+		"mBulletPaintMaxRate" 
+		0.50000000 
+	}
+	{
+		"mPaintTextureCenterOffsetRate" 
+		0.00000000 
 	}
 	{
 		"mBulletDamageMaxDist" 
@@ -813,6 +829,26 @@
 	}
 	{
 		"mHitWallSplashDistanceRate" 
-		1.33329999 
+		1.50000000 
+	}
+	{
+		"mHitPlayerDrapDrawRadius" 
+		4.00000000 
+	}
+	{
+		"mHitPlayerDrapCollisionRadius" 
+		2.00000000 
+	}
+	{
+		"mHitPlayerDrapPaintRadiusRate" 
+		0.60000002 
+	}
+	{
+		"mHitPlayerDrapHitPlayerOffset" 
+		10.00000000 
+	}
+	{
+		"mHitPlayerDrapHitObjectOffset" 
+		0.00000000 
 	}
 }
