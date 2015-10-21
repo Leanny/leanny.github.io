@@ -56,10 +56,6 @@
 		1.00000000 
 	}
 	{
-		"mSplashInsideDamageRate" 
-		1.00000000 
-	}
-	{
 		"mCorePaintWidthHalf" 
 		6.00000000 
 	}
@@ -77,7 +73,7 @@
 	}
 	{
 		"mInkConsumeCore" 
-		0.00135000 
+		0.00150000 
 	}
 	{
 		"mInkConsumeSplash" 
@@ -130,22 +126,6 @@
 	{
 		"mSplashDamageMinValue" 
 		0.14000000 
-	}
-	{
-		"mSplashOutsideDamageMaxDist" 
-		10.00000000 
-	}
-	{
-		"mSplashOutsideDamageMinDist" 
-		80.00000000 
-	}
-	{
-		"mSplashOutsideDamageMaxValue" 
-		1.39999998 
-	}
-	{
-		"mSplashOutsideDamageMinValue" 
-		0.30000001 
 	}
 	{
 		"mSplashDamageRateBias" 
@@ -238,18 +218,6 @@
 	{
 		"mSplashSubCoverApertureFreeFrame" 
 		-1 
-	}
-	{
-		"mSplashPaintType" 
-		1 
-	}
-	{
-		"mArmorTypeObjectDamageRate" 
-		0.40000001 
-	}
-	{
-		"mArmorTypeGachihokoDamageRate" 
-		0.50000000 
 	}
 	{
 		"mPaintBrushType" 

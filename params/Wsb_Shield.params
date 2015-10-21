@@ -1,7 +1,7 @@
 {
 	{
 		"mMaxHp" 
-		6.00000000 
+		10.00000000 
 	}
 	{
 		"mLength" 
@@ -28,10 +28,6 @@
 		0.00000000 
 	}
 	{
-		"mBoundVelYZeroFrame" 
-		5 
-	}
-	{
 		"mPaintRepeatFrame" 
 		6 
 	}
@@ -50,21 +46,5 @@
 	{
 		"mDestroyWaitFrame" 
 		30 
-	}
-	{
-		"mImmediateDestroyDamage" 
-		1000.00000000 
-	}
-	{
-		"mImmediateDestroyDamageThreshold" 
-		999.00000000 
-	}
-	{
-		"mHitEffectLimitSpanFrame" 
-		8 
-	}
-	{
-		"mConveyerRadius" 
-		5.00000000 
 	}
 }

@@ -53,19 +53,19 @@
 	}
 	{
 		"mStraightFrame" 
-		6 
+		5 
 	}
 	{
 		"mGuideCheckCollisionFrame" 
-		9 
+		8 
 	}
 	{
 		"mCreateSplashNum" 
-		4.00000000 
+		3.50000000 
 	}
 	{
 		"mCreateSplashLength" 
-		48.00000000 
+		54.00000000 
 	}
 	{
 		"mDrawRadius" 
