@@ -5,11 +5,11 @@
 	}
 	{
 		"mFirstPeriodMaxChargeFrame" 
-		20 
+		18 
 	}
 	{
 		"mSecondPeriodMaxChargeFrame" 
-		30 
+		27 
 	}
 	{
 		"mFirstPeriodMaxChargeShootingFrame" 
@@ -74,5 +74,9 @@
 	{
 		"mInitVelDegBias" 
 		0.40000001 
+	}
+	{
+		"mPaintDepthScaleRate" 
+		1.00000000 
 	}
 }
