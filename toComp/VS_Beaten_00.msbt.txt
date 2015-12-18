@@ -1,0 +1,8 @@
+{000=Splatted!, 100=Squished by
+, T_Timer_00=Respawn in , 001=Splatted by
+inksplosion!, 002=The , 003=Splatted by
+the , 004=Splatted by the
+, 005=Splatted by the
+, 006=Splatted by ink
+from a propeller!, T_Beaten_00=Splatted by
+}
