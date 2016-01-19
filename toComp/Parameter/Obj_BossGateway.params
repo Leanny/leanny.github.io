@@ -1,0 +1,22 @@
+{
+	{
+		"mWarpColRadius" 
+		13.00000000 
+	}
+	{
+		"mStageIconOffsetY" 
+		20.00000000 
+	}
+	{
+		"mBalloonPlayerDetectRadius" 
+		13.00000000 
+	}
+	{
+		"mOpenDemoWaitFrame" 
+		60 
+	}
+	{
+		"mInWaitFrame" 
+		35 
+	}
+}

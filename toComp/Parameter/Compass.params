@@ -1,0 +1,14 @@
+{
+	{
+		"mRadius" 
+		20.00000000 
+	}
+	{
+		"mEffectOffsetYHuman" 
+		10.00000000 
+	}
+	{
+		"mEffectOffsetYSquid" 
+		4.00000000 
+	}
+}

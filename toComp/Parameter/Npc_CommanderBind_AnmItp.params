@@ -1,0 +1,30 @@
+{
+	{
+		"mDefaultAnimFrame" 
+		0.00000000 
+	}
+	{
+		"Break" 
+		20.00000000 
+	}
+	{
+		"Landing" 
+		-1.00000000 
+	}
+	{
+		"ReleaseCommander" 
+		-1.00000000 
+	}
+	{
+		"TakeCommander" 
+		-1.00000000 
+	}
+	{
+		"Talk" 
+		-1.00000000 
+	}
+	{
+		"Wait" 
+		-1.00000000 
+	}
+}

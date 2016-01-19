@@ -1,0 +1,14 @@
+{
+	{
+		"BombThrow_VelZ_Low" 
+		2.79999995 
+	}
+	{
+		"BombThrow_VelZ_Mid" 
+		3.50000000 
+	}
+	{
+		"BombThrow_VelZ_High" 
+		4.19999981 
+	}
+}

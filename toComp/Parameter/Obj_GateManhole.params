@@ -1,0 +1,22 @@
+{
+	{
+		"mWarpColRadius" 
+		23.00000000 
+	}
+	{
+		"mCommanderSearchProbability" 
+		420 
+	}
+	{
+		"mCommanderNoSearchFrame" 
+		100 
+	}
+	{
+		"mCommanderFirstBootDemoSearchProbability" 
+		180 
+	}
+	{
+		"mCommanderFirstBootDemoNoSearchFrame" 
+		100 
+	}
+}

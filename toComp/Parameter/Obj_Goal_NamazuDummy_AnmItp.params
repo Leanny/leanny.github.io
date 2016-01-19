@@ -1,0 +1,30 @@
+{
+	{
+		"mDefaultAnimFrame" 
+		0.00000000 
+	}
+	{
+		"BossWaitDummy" 
+		30.00000000 
+	}
+	{
+		"MsnDemo_Goal" 
+		-1.00000000 
+	}
+	{
+		"RelievedDummy" 
+		20.00000000 
+	}
+	{
+		"StartDummy" 
+		-1.00000000 
+	}
+	{
+		"SurprisedDummy" 
+		-1.00000000 
+	}
+	{
+		"WaitDummy" 
+		30.00000000 
+	}
+}

@@ -1,0 +1,14 @@
+{
+	{
+		"ConsumeRt_Sub_Low" 
+		1.00000000 
+	}
+	{
+		"ConsumeRt_Sub_Mid" 
+		0.87500000 
+	}
+	{
+		"ConsumeRt_Sub_High" 
+		0.75000000 
+	}
+}

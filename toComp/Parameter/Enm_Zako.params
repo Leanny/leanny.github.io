@@ -1,0 +1,34 @@
+{
+	{
+		"mLife" 
+		8.00000000 
+	}
+	{
+		"mDistanceWalk" 
+		60.00000000 
+	}
+	{
+		"mSpeedChase" 
+		0.50000000 
+	}
+	{
+		"mSpeedEscape" 
+		7.00000000 
+	}
+	{
+		"mRadiusSearch" 
+		75.00000000 
+	}
+	{
+		"mViewAngle" 
+		150.00000000 
+	}
+	{
+		"mGiveUpChase_Distance" 
+		75.00000000 
+	}
+	{
+		"mGiveUpEscape_Distance" 
+		200.00000000 
+	}
+}
