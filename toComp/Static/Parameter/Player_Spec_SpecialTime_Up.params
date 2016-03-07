@@ -11,4 +11,40 @@
 		"SpecialRt_Keep_High" 
 		1.39999998 
 	}
+	{
+		"SpecialRt_Keep_SuperShot_Low" 
+		1.00000000 
+	}
+	{
+		"SpecialRt_Keep_SuperShot_Mid" 
+		1.29999995 
+	}
+	{
+		"SpecialRt_Keep_SuperShot_High" 
+		1.60000002 
+	}
+	{
+		"SpecialRt_Keep_FreeBombs_Low" 
+		1.00000000 
+	}
+	{
+		"SpecialRt_Keep_FreeBombs_Mid" 
+		1.29999995 
+	}
+	{
+		"SpecialRt_Keep_FreeBombs_High" 
+		1.60000002 
+	}
+	{
+		"SpecialRt_Keep_NoShot_Low" 
+		1.00000000 
+	}
+	{
+		"SpecialRt_Keep_NoShot_Mid" 
+		0.50000000 
+	}
+	{
+		"SpecialRt_Keep_NoShot_High" 
+		0.00000000 
+	}
 }
