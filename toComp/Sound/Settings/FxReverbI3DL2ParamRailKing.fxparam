@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FxReverbI3DL2Param>
+	<Room>-100</Room>
+	<RoomHf>-50</RoomHf>
+	<DecayTime>3.200000</DecayTime>
+	<DecayHfRatio>0.400000</DecayHfRatio>
+	<Reflections>-300</Reflections>
+	<ReflectionsDelay>0.006300</ReflectionsDelay>
+	<Reverb>-2000</Reverb>
+	<ReverbDelay>0.021800</ReverbDelay>
+	<Diffusion>80.000000</Diffusion>
+	<Density>100.000000</Density>
+	<HfReference>4500.000000</HfReference>
+</FxReverbI3DL2Param>

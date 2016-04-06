@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FxDelayParam>
+	<Delay>0.100000</Delay>
+	<Feedback>0.500000</Feedback>
+	<OutGain>1.000000</OutGain>
+	<Lpf>1.000000</Lpf>
+</FxDelayParam>
