@@ -1,7 +1,7 @@
 {
 	{
 		"mSwingLiftFrame" 
-		15 
+		12 
 	}
 	{
 		"mSwingRepeatFrame" 
@@ -850,5 +850,9 @@
 	{
 		"mHitPlayerDrapHitObjectOffset" 
 		0.00000000 
+	}
+	{
+		"mPostDelayFrm_Main" 
+		5 
 	}
 }

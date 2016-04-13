@@ -5,7 +5,11 @@
 	}
 	{
 		"mMaxDistance" 
-		275.00000000 
+		200.00000000 
+	}
+	{
+		"mFullChargeDistance" 
+		286.00000000 
 	}
 	{
 		"mMinChargeFrame" 
@@ -33,11 +37,11 @@
 	}
 	{
 		"mInitVelH" 
-		48.00000000 
+		35.29000092 
 	}
 	{
-		"mInitPosBackOffset" 
-		13.50000000 
+		"mInitVelF" 
+		48.00000000 
 	}
 	{
 		"mInkConsume" 
@@ -90,10 +94,6 @@
 	{
 		"mSplashBetweenMinSplashPaintRadiusRate" 
 		1.32000005 
-	}
-	{
-		"mSplashBetweenMaxChargeRate" 
-		1.00000000 
 	}
 	{
 		"mSplashDepthMinChargeScaleRateByWidth" 

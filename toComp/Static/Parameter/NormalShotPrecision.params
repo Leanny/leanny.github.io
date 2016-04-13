@@ -9,11 +9,11 @@
 	}
 	{
 		"mInitVel" 
-		22.00000000 
+		24.00000000 
 	}
 	{
 		"mDegRandom" 
-		3.00000000 
+		2.70000005 
 	}
 	{
 		"mDegJumpRandom" 
@@ -61,7 +61,7 @@
 	}
 	{
 		"mCreateSplashNum" 
-		1.50000000 
+		1.64999998 
 	}
 	{
 		"mCreateSplashLength" 

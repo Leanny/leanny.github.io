@@ -13,7 +13,7 @@
 	}
 	{
 		"mDegRandom" 
-		4.50000000 
+		4.00000000 
 	}
 	{
 		"mDegJumpRandom" 
@@ -41,11 +41,11 @@
 	}
 	{
 		"mDamageMax" 
-		0.62000000 
+		0.51999998 
 	}
 	{
 		"mDamageMin" 
-		0.31000000 
+		0.25999999 
 	}
 	{
 		"mDamageMinFrame" 

@@ -11,4 +11,16 @@
 		"MoveVel_Stealth_High" 
 		2.40000010 
 	}
+	{
+		"MoveVel_Stealth_BigWeapon_Low" 
+		1.72800004 
+	}
+	{
+		"MoveVel_Stealth_BigWeapon_Mid" 
+		1.94400001 
+	}
+	{
+		"MoveVel_Stealth_BigWeapon_High" 
+		2.16000009 
+	}
 }

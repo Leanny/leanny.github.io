@@ -9,7 +9,7 @@
 	}
 	{
 		"mInitVel" 
-		22.00000000 
+		26.29500008 
 	}
 	{
 		"mDegRandom" 
@@ -53,7 +53,7 @@
 	}
 	{
 		"mStraightFrame" 
-		6 
+		5 
 	}
 	{
 		"mGuideCheckCollisionFrame" 
