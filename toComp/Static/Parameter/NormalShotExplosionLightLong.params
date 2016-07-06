@@ -17,7 +17,7 @@
 	}
 	{
 		"mDegJumpRandom" 
-		10.00000000 
+		5.00000000 
 	}
 	{
 		"mSplashSplitNum" 
@@ -37,7 +37,7 @@
 	}
 	{
 		"mMoveSpeed" 
-		0.50000000 
+		0.57499999 
 	}
 	{
 		"mDamageMax" 
@@ -102,6 +102,10 @@
 	{
 		"mSplashPaintRadius" 
 		11.50000000 
+	}
+	{
+		"mArmorTypeGachihokoDamageRate" 
+		1.00000000 
 	}
 	{
 		"mDegBias" 

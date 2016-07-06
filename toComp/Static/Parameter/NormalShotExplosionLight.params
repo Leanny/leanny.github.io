@@ -37,7 +37,7 @@
 	}
 	{
 		"mMoveSpeed" 
-		0.55000001 
+		0.61600000 
 	}
 	{
 		"mDamageMax" 
@@ -102,6 +102,10 @@
 	{
 		"mSplashPaintRadius" 
 		11.00000000 
+	}
+	{
+		"mArmorTypeGachihokoDamageRate" 
+		1.00000000 
 	}
 	{
 		"mDegBias" 

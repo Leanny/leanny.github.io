@@ -761,7 +761,7 @@
 	}
 	{
 		"mMoveSpeed" 
-		0.72000003 
+		0.80000001 
 	}
 	{
 		"mBulletStraightFrame" 
@@ -850,5 +850,9 @@
 	{
 		"mHitPlayerDrapHitObjectOffset" 
 		0.00000000 
+	}
+	{
+		"mPostDelayFrm_Main" 
+		10 
 	}
 }

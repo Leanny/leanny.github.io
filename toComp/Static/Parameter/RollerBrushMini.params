@@ -264,6 +264,18 @@
 		6 
 	}
 	{
+		"mPaintBrushNearestBulletLoopNum" 
+		6 
+	}
+	{
+		"mPaintBrushNearestBulletOrderNum" 
+		2 
+	}
+	{
+		"mPaintBrushNearestBulletRadius" 
+		20.00000000 
+	}
+	{
 		"mDropSplashDrawRadius" 
 		0.50000000 
 	}
