@@ -57,7 +57,7 @@
 	}
 	{
 		"mSplashInsideDamageRate" 
-		0.50000000 
+		0.38000000 
 	}
 	{
 		"mCorePaintWidthHalf" 
@@ -89,7 +89,7 @@
 	}
 	{
 		"mInkRecoverSplashStop" 
-		70 
+		80 
 	}
 	{
 		"mMoveSpeed" 
@@ -249,7 +249,7 @@
 	}
 	{
 		"mArmorTypeGachihokoDamageRate" 
-		0.25714287 
+		0.28799999 
 	}
 	{
 		"mPaintBrushType" 
@@ -262,6 +262,18 @@
 	{
 		"mPaintBrushSwingRepeatFrame" 
 		6 
+	}
+	{
+		"mPaintBrushNearestBulletLoopNum" 
+		6 
+	}
+	{
+		"mPaintBrushNearestBulletOrderNum" 
+		2 
+	}
+	{
+		"mPaintBrushNearestBulletRadius" 
+		10.00000000 
 	}
 	{
 		"mDropSplashDrawRadius" 

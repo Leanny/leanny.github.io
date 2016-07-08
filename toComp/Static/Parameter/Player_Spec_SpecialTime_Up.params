@@ -12,27 +12,15 @@
 		1.39999998 
 	}
 	{
-		"SpecialRt_Keep_SuperShot_Low" 
+		"SpecialRt_Keep_Long_Low" 
 		1.00000000 
 	}
 	{
-		"SpecialRt_Keep_SuperShot_Mid" 
+		"SpecialRt_Keep_Long_Mid" 
 		1.29999995 
 	}
 	{
-		"SpecialRt_Keep_SuperShot_High" 
-		1.60000002 
-	}
-	{
-		"SpecialRt_Keep_FreeBombs_Low" 
-		1.00000000 
-	}
-	{
-		"SpecialRt_Keep_FreeBombs_Mid" 
-		1.29999995 
-	}
-	{
-		"SpecialRt_Keep_FreeBombs_High" 
+		"SpecialRt_Keep_Long_High" 
 		1.60000002 
 	}
 	{
