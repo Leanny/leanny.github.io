@@ -19,6 +19,7 @@
 			  integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
 			  crossorigin="anonymous"></script>
 		<script src="jquery.colorbox.js"></script>
+		<script type="text/javascript" src="jquery.tablesorter.js"></script>
 		<link rel="stylesheet" href="colorbox.css" />
 		<script>
 			$(function() {
@@ -26,6 +27,13 @@
 			});
 			$(document).ready(function(){
 				$(".default_popup").colorbox({iframe:true, width:"500px", height:"400px"});
+				$("#table1").tablesorter({widgets: ['zebra'] }); 
+				$("#table2").tablesorter({widgets: ['zebra'] }); 
+				$("#table3").tablesorter({widgets: ['zebra'] }); 
+				$("#table4").tablesorter({widgets: ['zebra'] }); 
+				$("#table5").tablesorter({widgets: ['zebra'] }); 
+				$("#table6").tablesorter({widgets: ['zebra'] }); 
+				$("#table7").tablesorter({widgets: ['zebra'] }); 
 			});
 		</script>
 	</head>
@@ -50,7 +58,7 @@
 				<li><a href="#tabs-7">Shoes</a></li>
 			</ul>			<div id="tabs-1">
 				<div class="datagrid">
-					<table>
+					<table id="table1" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -72,10 +80,10 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_First_00.png" alt="Liquidateur Jr." /></td>
 								<td>Liquidateur Jr.</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>1</td>
 								<td>180</td>
@@ -108,10 +116,10 @@
 								<td>45</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_00.png" alt="Liquidateur" /></td>
 								<td>Liquidateur</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>2</td>
 								<td>180</td>
@@ -144,10 +152,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Normal_00.png" alt="Concentraceur" /></td>
 								<td>Concentraceur</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>3</td>
 								<td>180</td>
@@ -180,10 +188,10 @@
 								<td>-</td>
 								<td>55</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_H.png" alt="Rouleau héroïque (réplique)" /></td>
 								<td>Rouleau héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>3</td>
 								<td>180</td>
@@ -216,10 +224,10 @@
 								<td>45</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_00.png" alt="Double encreur" /></td>
 								<td>Double encreur</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>4</td>
 								<td>170</td>
@@ -252,10 +260,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_H.png" alt="Seauceur héroïque (réplique)" /></td>
 								<td>Seauceur héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>5</td>
 								<td>190</td>
@@ -288,10 +296,10 @@
 								<td>-</td>
 								<td>100</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_00.png" alt="Seauceur" /></td>
 								<td>Seauceur</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>5</td>
 								<td>190</td>
@@ -324,10 +332,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterMiddle_H.png" alt="Blaster héroïque (réplique)" /></td>
 								<td>Blaster héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>5</td>
 								<td>180</td>
@@ -360,10 +368,10 @@
 								<td>10</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Compact_00.png" alt="Rouleau carbone" /></td>
 								<td>Rouleau carbone</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>7</td>
 								<td>180</td>
@@ -396,10 +404,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_00.png" alt="Badigeonneur" /></td>
 								<td>Badigeonneur</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>8</td>
 								<td>180</td>
@@ -432,10 +440,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Short_00.png" alt="Marqueur lourd" /></td>
 								<td>Marqueur lourd</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>10</td>
 								<td>180</td>
@@ -468,10 +476,10 @@
 								<td>-</td>
 								<td>85</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="Liquidateur pro" /></td>
 								<td>Liquidateur pro</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>10</td>
 								<td>180</td>
@@ -504,10 +512,10 @@
 								<td>-</td>
 								<td>85</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_01.png" alt="Double encreur griffé" /></td>
 								<td>Double encreur griffé</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>11</td>
 								<td>170</td>
@@ -540,10 +548,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_01.png" alt="Rouleau griffé" /></td>
 								<td>Rouleau griffé</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut" />Balise de saut</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut"/>Balise de saut</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>12</td>
 								<td>180</td>
@@ -576,10 +584,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Gravity_00.png" alt="Calibre 2000" /></td>
 								<td>Calibre 2000</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>14</td>
 								<td>180</td>
@@ -612,10 +620,10 @@
 								<td>80</td>
 								<td>70</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_NormalScope_00.png" alt="Concentraceur zoom" /></td>
 								<td>Concentraceur zoom</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>15</td>
 								<td>180</td>
@@ -648,10 +656,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Long_00.png" alt="Nettoyeur XL" /></td>
 								<td>Nettoyeur XL</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>17</td>
 								<td>180</td>
@@ -684,10 +692,10 @@
 								<td>25</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterShort_00.png" alt="Proxiblaster" /></td>
 								<td>Proxiblaster</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>19</td>
 								<td>180</td>
@@ -720,10 +728,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Heavy_00.png" alt="Dynamo-rouleau" /></td>
 								<td>Dynamo-rouleau</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>20</td>
 								<td>180</td>
@@ -756,10 +764,10 @@
 								<td>75</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Keeper_00.png" alt="Détubeur" /></td>
 								<td>Détubeur</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>22</td>
 								<td>180</td>
@@ -792,10 +800,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Hunter_00.png" alt="Flexi-rouleau" /></td>
 								<td>Flexi-rouleau</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Lance-bombes splash"/>Lance-bombes splash</td>
 								<td>24</td>
 								<td>180</td>
@@ -828,10 +836,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_NormalScope_01.png" alt="Concentraceur zoom griffé" /></td>
 								<td>Concentraceur zoom griffé</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_LauncherSuction.png" alt="Lance-bombes gluantes"/>Lance-bombes gluantes</td>
 								<td>25</td>
 								<td>190</td>
@@ -864,10 +872,10 @@
 								<td>47</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterMiddle_01.png" alt="Éclablaster modifié" /></td>
 								<td>Éclablaster modifié</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>27</td>
 								<td>180</td>
@@ -900,10 +908,10 @@
 								<td>10</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleMiddle_00.png" alt="Arroseur lourd" /></td>
 								<td>Arroseur lourd</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>29</td>
 								<td>180</td>
@@ -936,10 +944,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_LongScope_00.png" alt="Extraceur + zoom" /></td>
 								<td>Extraceur + zoom</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>30</td>
 								<td>190</td>
@@ -960,7 +968,7 @@
 			</div>
 			<div id="tabs-2">
 				<div class="datagrid">
-					<table>
+					<table id="table2" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -1000,10 +1008,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushMini_01.png" alt="Épinceau nuancé" /></td>
 								<td>Épinceau nuancé</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>7</td>
 								<td>180</td>
@@ -1036,10 +1044,10 @@
 								<td>85</td>
 								<td>50</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_H.png" alt="Para-encre héroïque (réplique)" /></td>
 								<td>Para-encre héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>9</td>
 								<td>170</td>
@@ -1072,10 +1080,10 @@
 								<td>65</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="Rouleau carbone chic" /></td>
 								<td>Rouleau carbone chic</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>10</td>
 								<td>180</td>
@@ -1108,10 +1116,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_01.png" alt="Badigeonneur chic" /></td>
 								<td>Badigeonneur chic</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="Lance-bulles"/>Lance-bulles</td>
 								<td>12</td>
 								<td>180</td>
@@ -1144,10 +1152,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Launcher_00.png" alt="Encrifugeur" /></td>
 								<td>Encrifugeur</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>13</td>
 								<td>170</td>
@@ -1180,10 +1188,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="Épinceau brosse nuancé" /></td>
 								<td>Épinceau brosse nuancé</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut" />Balise de saut</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut"/>Balise de saut</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>15</td>
 								<td>180</td>
@@ -1216,10 +1224,10 @@
 								<td>65</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Dual_01.png" alt="Double nettoyeur modifié" /></td>
 								<td>Double nettoyeur modifié</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>16</td>
 								<td>190</td>
@@ -1252,10 +1260,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Flash_00.png" alt="Compresseur" /></td>
 								<td>Compresseur</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>16</td>
 								<td>180</td>
@@ -1288,10 +1296,10 @@
 								<td>80</td>
 								<td>70</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Quick_01.png" alt="Décap'express Bêta" /></td>
 								<td>Décap'express Bêta</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>17</td>
 								<td>180</td>
@@ -1324,10 +1332,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Light_00.png" alt="Bimbamboum Mk I" /></td>
 								<td>Bimbamboum Mk I</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>18</td>
 								<td>180</td>
@@ -1360,10 +1368,10 @@
 								<td>52</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Launcher_01.png" alt="Encrifugeur Néo" /></td>
 								<td>Encrifugeur Néo</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Lance-bombes splash"/>Lance-bombes splash</td>
 								<td>19</td>
 								<td>180</td>
@@ -1396,10 +1404,10 @@
 								<td>60</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Light_01.png" alt="Bimbamboum Mk II" /></td>
 								<td>Bimbamboum Mk II</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_LauncherQuick.png" alt="Lance-bombes ballons"/>Lance-bombes ballons</td>
 								<td>21</td>
 								<td>180</td>
@@ -1432,10 +1440,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Gravity_01.png" alt="Calibre 2000 chic" /></td>
 								<td>Calibre 2000 chic</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>22</td>
 								<td>180</td>
@@ -1468,10 +1476,10 @@
 								<td>25</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightLong_01.png" alt="Turboblaster pro chic" /></td>
 								<td>Turboblaster pro chic</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>24</td>
 								<td>180</td>
@@ -1504,10 +1512,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Heavy_01.png" alt="Dynamo-rouleau tesla" /></td>
 								<td>Dynamo-rouleau tesla</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>25</td>
 								<td>180</td>
@@ -1540,10 +1548,10 @@
 								<td>52</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Heavy_01.png" alt="Calibre 3000 chic" /></td>
 								<td>Calibre 3000 chic</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>26</td>
 								<td>180</td>
@@ -1576,10 +1584,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_01.png" alt="Badigeonneur XS griffé" /></td>
 								<td>Badigeonneur XS griffé</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>26</td>
 								<td>180</td>
@@ -1612,10 +1620,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Hyper_00.png" alt="Exteinteur" /></td>
 								<td>Exteinteur</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>27</td>
 								<td>190</td>
@@ -1648,10 +1656,10 @@
 								<td>35</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Hunter_01.png" alt="Flexi-rouleau alu" /></td>
 								<td>Flexi-rouleau alu</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>28</td>
 								<td>180</td>
@@ -1684,10 +1692,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Short_01.png" alt="Double moucheteur nuancé" /></td>
 								<td>Double moucheteur nuancé</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>29</td>
 								<td>180</td>
@@ -1720,10 +1728,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightShort_01.png" alt="Rafablaster Néo" /></td>
 								<td>Rafablaster Néo</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>30</td>
 								<td>180</td>
@@ -1756,10 +1764,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleMiddle_01.png" alt="Arroseur lourd Cétacé" /></td>
 								<td>Arroseur lourd Cétacé</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>30</td>
 								<td>190</td>
@@ -1779,7 +1787,7 @@
 			</div>
 			<div id="tabs-3">
 				<div class="datagrid">
-					<table>
+					<table id="table3" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -1818,10 +1826,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_H.png" alt="Lanceur héroïque (réplique)" /></td>
 								<td>Lanceur héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>2</td>
 								<td>180</td>
@@ -1854,10 +1862,10 @@
 								<td>45</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Normal_H.png" alt="Conc. héroïque (réplique)" /></td>
 								<td>Conc. héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>3</td>
 								<td>180</td>
@@ -1890,10 +1898,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_00.png" alt="Rouleau" /></td>
 								<td>Rouleau</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>3</td>
 								<td>180</td>
@@ -1926,10 +1934,10 @@
 								<td>-</td>
 								<td>55</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_01.png" alt="Liquidateur griffé" /></td>
 								<td>Liquidateur griffé</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>4</td>
 								<td>210</td>
@@ -1962,10 +1970,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_00.png" alt="Double encreur" /></td>
 								<td>Double encreur</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>4</td>
 								<td>170</td>
@@ -1998,10 +2006,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_H.png" alt="Seauceur héroïque (réplique)" /></td>
 								<td>Seauceur héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>5</td>
 								<td>190</td>
@@ -2034,10 +2042,10 @@
 								<td>-</td>
 								<td>100</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_00.png" alt="Seauceur" /></td>
 								<td>Seauceur</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante" />Bombe gluante</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Bombe gluante"/>Bombe gluante</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>5</td>
 								<td>190</td>
@@ -2070,10 +2078,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterMiddle_H.png" alt="Blaster héroïque (réplique)" /></td>
 								<td>Blaster héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>5</td>
 								<td>180</td>
@@ -2106,10 +2114,10 @@
 								<td>10</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushMini_01.png" alt="Épinceau nuancé" /></td>
 								<td>Épinceau nuancé</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>7</td>
 								<td>180</td>
@@ -2142,10 +2150,10 @@
 								<td>-</td>
 								<td>65</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_H.png" alt="Badigeon. héroïque (réplique)" /></td>
 								<td>Badigeon. héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>8</td>
 								<td>180</td>
@@ -2178,10 +2186,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_01.png" alt="Seauceur chic" /></td>
 								<td>Seauceur chic</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>8</td>
 								<td>190</td>
@@ -2214,10 +2222,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_H.png" alt="Para-encre héroïque (réplique)" /></td>
 								<td>Para-encre héroïque (réplique)</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>9</td>
 								<td>170</td>
@@ -2250,10 +2258,10 @@
 								<td>65</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Short_00.png" alt="Marqueur lourd" /></td>
 								<td>Marqueur lourd</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="Choc chromatique"/>Choc chromatique</td>
 								<td>10</td>
 								<td>180</td>
@@ -2286,10 +2294,10 @@
 								<td>-</td>
 								<td>85</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="Liquidateur pro" /></td>
 								<td>Liquidateur pro</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>10</td>
 								<td>180</td>
@@ -2322,10 +2330,10 @@
 								<td>-</td>
 								<td>85</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="Rouleau carbone chic" /></td>
 								<td>Rouleau carbone chic</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>10</td>
 								<td>180</td>
@@ -2358,10 +2366,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_QuickMiddle_01.png" alt="N-ZAP 89" /></td>
 								<td>N-ZAP 89</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>11</td>
 								<td>180</td>
@@ -2394,10 +2402,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_01.png" alt="Badigeonneur chic" /></td>
 								<td>Badigeonneur chic</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="Lance-bulles"/>Lance-bulles</td>
 								<td>12</td>
 								<td>180</td>
@@ -2430,10 +2438,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_01.png" alt="Rouleau griffé" /></td>
 								<td>Rouleau griffé</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut" />Balise de saut</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut"/>Balise de saut</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>12</td>
 								<td>180</td>
@@ -2466,10 +2474,10 @@
 								<td>90</td>
 								<td>40</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLight_00.png" alt="Turboblaster" /></td>
 								<td>Turboblaster</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Lance-bombes splash"/>Lance-bombes splash</td>
 								<td>13</td>
 								<td>180</td>
@@ -2502,10 +2510,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Gravity_00.png" alt="Calibre 2000" /></td>
 								<td>Calibre 2000</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>14</td>
 								<td>180</td>
@@ -2538,10 +2546,10 @@
 								<td>80</td>
 								<td>70</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="Épinceau brosse nuancé" /></td>
 								<td>Épinceau brosse nuancé</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut" />Balise de saut</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut"/>Balise de saut</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>15</td>
 								<td>180</td>
@@ -2574,10 +2582,10 @@
 								<td>65</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_NormalScope_00.png" alt="Concentraceur zoom" /></td>
 								<td>Concentraceur zoom</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>15</td>
 								<td>180</td>
@@ -2610,10 +2618,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Normal_01.png" alt="Concentraceur griffé" /></td>
 								<td>Concentraceur griffé</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_LauncherSuction.png" alt="Lance-bombes gluantes"/>Lance-bombes gluantes</td>
 								<td>16</td>
 								<td>190</td>
@@ -2646,10 +2654,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Flash_00.png" alt="Compresseur" /></td>
 								<td>Compresseur</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>16</td>
 								<td>180</td>
@@ -2682,10 +2690,10 @@
 								<td>80</td>
 								<td>70</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Quick_01.png" alt="Décap'express Bêta" /></td>
 								<td>Décap'express Bêta</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>17</td>
 								<td>180</td>
@@ -2718,10 +2726,10 @@
 								<td>35</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleQuick_00.png" alt="Arroseur léger" /></td>
 								<td>Arroseur léger</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>18</td>
 								<td>180</td>
@@ -2754,10 +2762,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Light_00.png" alt="Bimbamboum Mk I" /></td>
 								<td>Bimbamboum Mk I</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>18</td>
 								<td>180</td>
@@ -2790,10 +2798,10 @@
 								<td>52</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterShort_00.png" alt="Proxiblaster" /></td>
 								<td>Proxiblaster</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash" />Bombe splash</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Bombe splash"/>Bombe splash</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>19</td>
 								<td>180</td>
@@ -2826,10 +2834,10 @@
 								<td>90</td>
 								<td>40</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Long_00.png" alt="Extraceur +" /></td>
 								<td>Extraceur +</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>20</td>
 								<td>190</td>
@@ -2862,10 +2870,10 @@
 								<td>60</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Heavy_00.png" alt="Dynamo-rouleau" /></td>
 								<td>Dynamo-rouleau</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>20</td>
 								<td>180</td>
@@ -2898,10 +2906,10 @@
 								<td>75</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Light_01.png" alt="Bimbamboum Mk II" /></td>
 								<td>Bimbamboum Mk II</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_LauncherQuick.png" alt="Lance-bombes ballons"/>Lance-bombes ballons</td>
 								<td>21</td>
 								<td>180</td>
@@ -2934,10 +2942,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightLong_00.png" alt="Turboblaster pro" /></td>
 								<td>Turboblaster pro</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>22</td>
 								<td>170</td>
@@ -2970,10 +2978,10 @@
 								<td>75</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_00.png" alt="Badigeonneur XS" /></td>
 								<td>Badigeonneur XS</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>23</td>
 								<td>190</td>
@@ -3006,10 +3014,10 @@
 								<td>25</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightLong_01.png" alt="Turboblaster pro chic" /></td>
 								<td>Turboblaster pro chic</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>24</td>
 								<td>180</td>
@@ -3042,10 +3050,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Roller_Hunter_00.png" alt="Flexi-rouleau" /></td>
 								<td>Flexi-rouleau</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Lance-bombes splash"/>Lance-bombes splash</td>
 								<td>24</td>
 								<td>180</td>
@@ -3078,10 +3086,10 @@
 								<td>-</td>
 								<td>20</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Precision_00.png" alt="Marqueur léger" /></td>
 								<td>Marqueur léger</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Chromo-jet"/>Chromo-jet</td>
 								<td>25</td>
 								<td>180</td>
@@ -3114,10 +3122,10 @@
 								<td>52</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_NormalScope_01.png" alt="Concentraceur zoom griffé" /></td>
 								<td>Concentraceur zoom griffé</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre" />Mur d'encre</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Mur d'encre"/>Mur d'encre</td>
 								<td><img src="subspe/Wsp_LauncherSuction.png" alt="Lance-bombes gluantes"/>Lance-bombes gluantes</td>
 								<td>25</td>
 								<td>190</td>
@@ -3150,10 +3158,10 @@
 								<td>75</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_Long_01.png" alt="Extraceur + modifié" /></td>
 								<td>Extraceur + modifié</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut" />Balise de saut</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Balise de saut"/>Balise de saut</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="Lance-bulles"/>Lance-bulles</td>
 								<td>26</td>
 								<td>180</td>
@@ -3186,10 +3194,10 @@
 								<td>47</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_01.png" alt="Badigeonneur XS griffé" /></td>
 								<td>Badigeonneur XS griffé</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling" />Bombe curling</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Bombe curling"/>Bombe curling</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>26</td>
 								<td>180</td>
@@ -3222,10 +3230,10 @@
 								<td>22</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Hyper_00.png" alt="Exteinteur" /></td>
 								<td>Exteinteur</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot" />Bombe robot</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Bombe robot"/>Bombe robot</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="Armure d'encre"/>Armure d'encre</td>
 								<td>27</td>
 								<td>190</td>
@@ -3258,10 +3266,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Long_01.png" alt="Nettoyeur XL modifié" /></td>
 								<td>Nettoyeur XL modifié</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon" />Bombe ballon</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Bombe ballon"/>Bombe ballon</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Pigmalance"/>Pigmalance</td>
 								<td>27</td>
 								<td>180</td>
@@ -3294,10 +3302,10 @@
 								<td>-</td>
 								<td>45</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Blaze_01.png" alt="Aérogun premium" /></td>
 								<td>Aérogun premium</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="Chromo-sphère"/>Chromo-sphère</td>
 								<td>28</td>
 								<td>180</td>
@@ -3330,10 +3338,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Twins_Short_01.png" alt="Double moucheteur nuancé" /></td>
 								<td>Double moucheteur nuancé</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique" />Brume toxique</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Brume toxique"/>Brume toxique</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>29</td>
 								<td>180</td>
@@ -3366,10 +3374,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleMiddle_00.png" alt="Arroseur lourd" /></td>
 								<td>Arroseur lourd</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur" />Détecteur</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Détecteur"/>Détecteur</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>29</td>
 								<td>180</td>
@@ -3402,10 +3410,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightShort_01.png" alt="Rafablaster Néo" /></td>
 								<td>Rafablaster Néo</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine" />Fontaine</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Fontaine"/>Fontaine</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Multi-missile"/>Multi-missile</td>
 								<td>30</td>
 								<td>180</td>
@@ -3438,10 +3446,10 @@
 								<td>-</td>
 								<td>-</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="weapons/Wst_Charger_LongScope_00.png" alt="Extraceur + zoom" /></td>
 								<td>Extraceur + zoom</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine" />Mine</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Mine"/>Mine</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Pluie d'encre"/>Pluie d'encre</td>
 								<td>30</td>
 								<td>190</td>
@@ -3479,7 +3487,7 @@
 			</div>
 			<div id="tabs-4">
 				<div class="datagrid">
-					<table>
+					<table id="table4" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -3489,7 +3497,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B00.png" alt="Kalamarus Rex" /></td>
 								<td>Kalamarus Rex</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -3501,7 +3509,7 @@
 								<td><img src="skills/JumpTime_Save.png"/></td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B02.png" alt="Krakers" /></td>
 								<td>Krakers</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -3513,7 +3521,7 @@
 								<td><img src="skills/HumanMove_Up.png"/></td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B04.png" alt="Ezko" /></td>
 								<td>Ezko</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -3525,7 +3533,7 @@
 								<td><img src="skills/SpecialTime_Up.png"/></td>
 								<td><img src="skills/SubInk_Save.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B06.png" alt="Friture" /></td>
 								<td>Friture</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -3537,7 +3545,7 @@
 								<td><img src="skills/RespawnTime_Save.png"/></td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B08.png" alt="Gédéon" /></td>
 								<td>Gédéon</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
@@ -3549,7 +3557,7 @@
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B10.png" alt="OculR" /></td>
 								<td>OculR</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -3561,7 +3569,7 @@
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B15.png" alt="Aroz" /></td>
 								<td>Aroz</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -3573,7 +3581,7 @@
 								<td><img src="skills/BombDistance_Up.png"/></td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B17.png" alt="Thony K" /></td>
 								<td>Thony K</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -3585,7 +3593,7 @@
 								<td><img src="skills/.png"/></td>
 								<td><img src="skills/.png"/></td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="brands/B98.png" alt="Macalamar" /></td>
 								<td>Macalamar</td>
 								<td><img src="skills/.png"/></td>
@@ -3603,7 +3611,7 @@
 			</div>
 			<div id="tabs-5">
 				<div class="datagrid">
-					<table>
+					<table id="table5" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -3614,7 +3622,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_FST000.png" alt="Bandeau blanc" /></td>
 								<td>Bandeau blanc</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -3628,7 +3636,7 @@
 								<td><img src="brands/B07.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_CAP001.png" alt="Casquette légère" /></td>
 								<td>Casquette légère</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -3642,7 +3650,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_CAP005.png" alt="Casquette Sea Invader" /></td>
 								<td>Casquette Sea Invader</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -3656,7 +3664,7 @@
 								<td><img src="brands/B06.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_CAP007.png" alt="Casquette multi-face" /></td>
 								<td>Casquette multi-face</td>
 								<td><img src="skills/ComeBack.png"/></td>
@@ -3670,7 +3678,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_CAP014.png" alt="Casquette de cycliste pro" /></td>
 								<td>Casquette de cycliste pro</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -3684,7 +3692,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_CAP020.png" alt="Casquette rayée" /></td>
 								<td>Casquette rayée</td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
@@ -3698,7 +3706,7 @@
 								<td><img src="brands/B07.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_NCP000.png" alt="Bonnet à pompon" /></td>
 								<td>Bonnet à pompon</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -3712,7 +3720,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_NCP004.png" alt="Béret unité spéciale" /></td>
 								<td>Béret unité spéciale</td>
 								<td><img src="skills/StartAllUp.png"/></td>
@@ -3726,7 +3734,7 @@
 								<td><img src="brands/B06.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_NCP009.png" alt="Béret Aroz" /></td>
 								<td>Béret Aroz</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -3740,7 +3748,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_EYE002.png" alt="Lunettes d'aviateur" /></td>
 								<td>Lunettes d'aviateur</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -3754,7 +3762,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_EYE005.png" alt="Masque et tuba" /></td>
 								<td>Masque et tuba</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -3768,7 +3776,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_EYE008.png" alt="Lunettes de soleil 18 carats" /></td>
 								<td>Lunettes de soleil 18 carats</td>
 								<td><img src="skills/EndAllUp.png"/></td>
@@ -3782,7 +3790,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HAT000.png" alt="Chapeau de brousse" /></td>
 								<td>Chapeau de brousse</td>
 								<td><img src="skills/EndAllUp.png"/></td>
@@ -3796,7 +3804,7 @@
 								<td><img src="brands/B09.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HAT003.png" alt="Cloche Friture" /></td>
 								<td>Cloche Friture</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -3810,7 +3818,7 @@
 								<td><img src="brands/B09.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HAT005.png" alt="Canotier" /></td>
 								<td>Canotier</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -3824,7 +3832,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HAT009.png" alt="Bob patchwork" /></td>
 								<td>Bob patchwork</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -3838,7 +3846,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HDP002.png" alt="Casque DJ" /></td>
 								<td>Casque DJ</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -3852,7 +3860,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_VIS001.png" alt="Visière Friture" /></td>
 								<td>Visière Friture</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -3866,7 +3874,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_VIS003.png" alt="Visière Cubic" /></td>
 								<td>Visière Cubic</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -3880,7 +3888,7 @@
 								<td><img src="brands/B07.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MET005.png" alt="Casque de skate pro" /></td>
 								<td>Casque de skate pro</td>
 								<td><img src="skills/EndAllUp.png"/></td>
@@ -3894,7 +3902,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MET007.png" alt="Casque de hockey" /></td>
 								<td>Casque de hockey</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -3908,7 +3916,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MSK003.png" alt="Bandana crâne" /></td>
 								<td>Bandana crâne</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -3922,7 +3930,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MSK005.png" alt="Masque Aroz" /></td>
 								<td>Masque Aroz</td>
 								<td><img src="skills/StartAllUp.png"/></td>
@@ -3936,7 +3944,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MSK008.png" alt="Masque Friture" /></td>
 								<td>Masque Friture</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -3950,7 +3958,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HBD002.png" alt="Bandeau de squash" /></td>
 								<td>Bandeau de squash</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -3964,7 +3972,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_HBD005.png" alt="Bandeau de foot" /></td>
 								<td>Bandeau de foot</td>
 								<td><img src="skills/MinorityUp.png"/></td>
@@ -3978,7 +3986,7 @@
 								<td><img src="brands/B97.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_AMB000.png" alt="Barrette seiche" /></td>
 								<td>Barrette seiche</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -3992,7 +4000,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_AMB002.png" alt="Casque méca" /></td>
 								<td>Casque méca</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4006,7 +4014,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_AMB004.png" alt="Masque de ninja" /></td>
 								<td>Masque de ninja</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -4020,7 +4028,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MSN000.png" alt="Casque héroïque (réplique)" /></td>
 								<td>Casque héroïque (réplique)</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -4034,7 +4042,7 @@
 								<td><img src="brands/B98.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Hed_MSN101.png" alt="Casque audio héroïque (rép.)" /></td>
 								<td>Casque audio héroïque (rép.)</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -4047,7 +4055,7 @@
 			</div>
 			<div id="tabs-6">
 				<div class="datagrid">
-					<table>
+					<table id="table6" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -4058,7 +4066,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_FST001.png" alt="T-shirt basique" /></td>
 								<td>T-shirt basique</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -4072,7 +4080,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES001.png" alt="T-shirt OculR noir" /></td>
 								<td>T-shirt OculR noir</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -4086,7 +4094,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES007.png" alt="T-shirt belle journée" /></td>
 								<td>T-shirt belle journée</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4100,7 +4108,7 @@
 								<td><img src="brands/B06.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES011.png" alt="T-shirt menthe" /></td>
 								<td>T-shirt menthe</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4114,7 +4122,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES015.png" alt="T-shirt Abysma bleu" /></td>
 								<td>T-shirt Abysma bleu</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -4128,7 +4136,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES020.png" alt="T-shirt 8 bits blanc" /></td>
 								<td>T-shirt 8 bits blanc</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4142,7 +4150,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES030.png" alt="T-shirt col en V noir" /></td>
 								<td>T-shirt col en V noir</td>
 								<td><img src="skills/ThermalInk.png"/></td>
@@ -4156,7 +4164,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES032.png" alt="Pull à manches 3/4" /></td>
 								<td>Pull à manches 3/4</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -4170,7 +4178,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES034.png" alt="T-shirt 8 bits gris" /></td>
 								<td>T-shirt 8 bits gris</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4184,7 +4192,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES036.png" alt="T-shirt blanc oursin rock" /></td>
 								<td>T-shirt blanc oursin rock</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
@@ -4198,7 +4206,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES038.png" alt="T-shirt Wet Floor" /></td>
 								<td>T-shirt Wet Floor</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -4212,7 +4220,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES040.png" alt="T-shirt marine à logo" /></td>
 								<td>T-shirt marine à logo</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
@@ -4226,7 +4234,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES042.png" alt="T-shirt Chirpy Chips" /></td>
 								<td>T-shirt Chirpy Chips</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -4240,7 +4248,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TES044.png" alt="T-shirt col en V rouge" /></td>
 								<td>T-shirt col en V rouge</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -4254,7 +4262,7 @@
 								<td><img src="brands/B00.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TEL001.png" alt="Haut noir" /></td>
 								<td>Haut noir</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -4268,7 +4276,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TEL003.png" alt="Haut rayé marin" /></td>
 								<td>Haut rayé marin</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -4282,7 +4290,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TEL007.png" alt="Haut sportif blanc" /></td>
 								<td>Haut sportif blanc</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -4296,7 +4304,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TEL014.png" alt="Maillot Chromapolis" /></td>
 								<td>Maillot Chromapolis</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -4310,7 +4318,7 @@
 								<td><img src="brands/B15.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TEL016.png" alt="Haut rayé limette" /></td>
 								<td>Haut rayé limette</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -4324,7 +4332,7 @@
 								<td><img src="brands/B15.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TLY001.png" alt="Haut double moutarde" /></td>
 								<td>Haut double moutarde</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -4338,7 +4346,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TLY005.png" alt="Haut double ancre" /></td>
 								<td>Haut double ancre</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -4352,7 +4360,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TLY008.png" alt="Haut double fléché" /></td>
 								<td>Haut double fléché</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -4366,7 +4374,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TLY010.png" alt="Haut double rouge OculR" /></td>
 								<td>Haut double rouge OculR</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -4380,7 +4388,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_PLO000.png" alt="Polo rose crevette" /></td>
 								<td>Polo rose crevette</td>
 								<td><img src="skills/SquidMoveSpatter_Reduction.png"/></td>
@@ -4394,7 +4402,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_PLO007.png" alt="Maillot AS Vortex" /></td>
 								<td>Maillot AS Vortex</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4408,7 +4416,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT002.png" alt="Anorak framboise" /></td>
 								<td>Anorak framboise</td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
@@ -4422,7 +4430,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT006.png" alt="Blouson en cuir noir" /></td>
 								<td>Blouson en cuir noir</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4436,7 +4444,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT012.png" alt="Uniforme marin bleu" /></td>
 								<td>Uniforme marin bleu</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4450,7 +4458,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT017.png" alt="Anorak beau temps" /></td>
 								<td>Anorak beau temps</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -4464,7 +4472,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT019.png" alt="Anorak matcha" /></td>
 								<td>Anorak matcha</td>
 								<td><img src="skills/SquidMoveSpatter_Reduction.png"/></td>
@@ -4478,7 +4486,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT021.png" alt="Blouson aviateur (envers)" /></td>
 								<td>Blouson aviateur (envers)</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -4492,7 +4500,7 @@
 								<td><img src="brands/B17.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT024.png" alt="Blouson motif oiseaux" /></td>
 								<td>Blouson motif oiseaux</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -4506,7 +4514,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT027.png" alt="Anorak salamandre" /></td>
 								<td>Anorak salamandre</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -4520,7 +4528,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_JKT030.png" alt="Blouson aviateur 11 (endroit)" /></td>
 								<td>Blouson aviateur 11 (endroit)</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4534,7 +4542,7 @@
 								<td><img src="brands/B05.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TNK001.png" alt="Maillot de basket (extérieur)" /></td>
 								<td>Maillot de basket (extérieur)</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -4548,7 +4556,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_TNK004.png" alt="Débardeur DUX rayé" /></td>
 								<td>Débardeur DUX rayé</td>
 								<td><img src="skills/ThermalInk.png"/></td>
@@ -4562,7 +4570,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SWT002.png" alt="Sweat rétro" /></td>
 								<td>Sweat rétro</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4576,7 +4584,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SWT006.png" alt="Sweat ancre" /></td>
 								<td>Sweat ancre</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -4590,7 +4598,7 @@
 								<td><img src="brands/B17.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SWT008.png" alt="Chemise et pull court" /></td>
 								<td>Chemise et pull court</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
@@ -4604,7 +4612,7 @@
 								<td><img src="brands/B17.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT002.png" alt="Chemise vichy verte" /></td>
 								<td>Chemise vichy verte</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4618,7 +4626,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT007.png" alt="Chemise méduses" /></td>
 								<td>Chemise méduses</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4632,7 +4640,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT012.png" alt="Chemisette à logos" /></td>
 								<td>Chemisette à logos</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -4646,7 +4654,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT017.png" alt="Chemisette punk farniente" /></td>
 								<td>Chemisette punk farniente</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
@@ -4660,7 +4668,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT019.png" alt="Chemise tache d'encre" /></td>
 								<td>Chemise tache d'encre</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4674,7 +4682,7 @@
 								<td><img src="brands/B15.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_SHT021.png" alt="Chemise cravate méduses" /></td>
 								<td>Chemise cravate méduses</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -4688,7 +4696,7 @@
 								<td><img src="brands/B15.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_VST002.png" alt="Gilet urbain noir" /></td>
 								<td>Gilet urbain noir</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -4702,7 +4710,7 @@
 								<td><img src="brands/B06.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_PRK000.png" alt="Sweat zippé camouflage" /></td>
 								<td>Sweat zippé camouflage</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -4716,7 +4724,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_PRK004.png" alt="Chemise et sweat marine" /></td>
 								<td>Chemise et sweat marine</td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
@@ -4730,7 +4738,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_PRK006.png" alt="Sweat capuche gris" /></td>
 								<td>Sweat capuche gris</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4744,7 +4752,7 @@
 								<td><img src="brands/B97.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_AMB000.png" alt="Uniforme scolaire" /></td>
 								<td>Uniforme scolaire</td>
 								<td><img src="skills/InkRecovery_Up.png"/></td>
@@ -4758,7 +4766,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_AMB002.png" alt="Armure méca" /></td>
 								<td>Armure méca</td>
 								<td><img src="skills/RespawnTime_Save.png"/></td>
@@ -4772,7 +4780,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_AMB004.png" alt="Tenue de ninja" /></td>
 								<td>Tenue de ninja</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -4786,7 +4794,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_HAP001.png" alt="T-shirt festif" /></td>
 								<td>T-shirt festif</td>
 								<td><img src="skills/ExSkillDouble.png"/></td>
@@ -4800,7 +4808,7 @@
 								<td><img src="brands/B98.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Clt_MSN004.png" alt="Anorak encrifugé (réplique)" /></td>
 								<td>Anorak encrifugé (réplique)</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4820,7 +4828,7 @@
 			</div>
 			<div id="tabs-7">
 				<div class="datagrid">
-					<table>
+					<table id="table7" class="tablesorter">
 						<thead>
 							<tr>
 								<th>Image</th>
@@ -4831,7 +4839,7 @@
 							</tr>
 						</thead>
 						<tbody>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_FST000.png" alt="Tennis crème" /></td>
 								<td>Tennis crème</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/></td>
@@ -4845,7 +4853,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SLO008.png" alt="Baskets à scratch blanches" /></td>
 								<td>Baskets à scratch blanches</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -4859,7 +4867,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SLO011.png" alt="Chaussures à crampons DX" /></td>
 								<td>Chaussures à crampons DX</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -4873,7 +4881,7 @@
 								<td><img src="brands/B09.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SLO013.png" alt="Souliers d'escalade printemps" /></td>
 								<td>Souliers d'escalade printemps</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4887,7 +4895,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI003.png" alt="Hippo montantes violettes" /></td>
 								<td>Hippo montantes violettes</td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
@@ -4901,7 +4909,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI006.png" alt="Hippo montantes or" /></td>
 								<td>Hippo montantes or</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -4915,7 +4923,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI011.png" alt="Baskets montantes azur" /></td>
 								<td>Baskets montantes azur</td>
 								<td><img src="skills/SomersaultLanding.png"/></td>
@@ -4929,7 +4937,7 @@
 								<td><img src="brands/B01.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI013.png" alt="Mocassins piranha" /></td>
 								<td>Mocassins piranha</td>
 								<td><img src="skills/SuperJumpSign_Hide.png"/></td>
@@ -4943,7 +4951,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI015.png" alt="Tennis high-tech noires" /></td>
 								<td>Tennis high-tech noires</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4957,7 +4965,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI017.png" alt="Egings IV rouges et noires" /></td>
 								<td>Egings IV rouges et noires</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -4971,7 +4979,7 @@
 								<td><img src="brands/B16.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHI019.png" alt="Anguilles montantes grises" /></td>
 								<td>Anguilles montantes grises</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -4985,7 +4993,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHT000.png" alt="Baskets roses" /></td>
 								<td>Baskets roses</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -4999,7 +5007,7 @@
 								<td><img src="brands/B11.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHT002.png" alt="Anguilles vert fluo" /></td>
 								<td>Anguilles vert fluo</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -5013,7 +5021,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHT008.png" alt="Flèches délirium" /></td>
 								<td>Flèches délirium</td>
 								<td><img src="skills/SuperJumpSign_Hide.png"/></td>
@@ -5027,7 +5035,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHT011.png" alt="Baskets canari" /></td>
 								<td>Baskets canari</td>
 								<td><img src="skills/JumpTime_Save.png"/></td>
@@ -5041,7 +5049,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SHT013.png" alt="Flèches unies" /></td>
 								<td>Flèches unies</td>
 								<td><img src="skills/SomersaultLanding.png"/></td>
@@ -5055,7 +5063,7 @@
 								<td><img src="brands/B10.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SDL000.png" alt="Sabots huître" /></td>
 								<td>Sabots huître</td>
 								<td><img src="skills/HumanMove_Up.png"/></td>
@@ -5069,7 +5077,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_CFS000.png" alt="Chaussures myrtille" /></td>
 								<td>Chaussures myrtille</td>
 								<td><img src="skills/SubInk_Save.png"/></td>
@@ -5083,7 +5091,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SDL003.png" alt="Sandales fluo" /></td>
 								<td>Sandales fluo</td>
 								<td><img src="skills/BombDistance_Up.png"/></td>
@@ -5097,7 +5105,7 @@
 								<td><img src="brands/B04.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_SDL005.png" alt="Sandales poudreuse" /></td>
 								<td>Sandales poudreuse</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -5111,7 +5119,7 @@
 								<td><img src="brands/B09.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_TRS002.png" alt="Chaussures rando pro" /></td>
 								<td>Chaussures rando pro</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -5125,7 +5133,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_BOT003.png" alt="Bottes de moto bleues" /></td>
 								<td>Bottes de moto bleues</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/></td>
@@ -5139,7 +5147,7 @@
 								<td><img src="brands/B09.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_BOT006.png" alt="Bottines punk blanches" /></td>
 								<td>Bottines punk blanches</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/></td>
@@ -5153,7 +5161,7 @@
 								<td><img src="brands/B08.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_BOT013.png" alt="Bottines punk noires" /></td>
 								<td>Bottines punk noires</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -5167,7 +5175,7 @@
 								<td><img src="brands/B02.png"/></td>
 								<td>1</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_LTS000.png" alt="Compensées blanches" /></td>
 								<td>Compensées blanches</td>
 								<td><img src="skills/SquidMove_Up.png"/></td>
@@ -5181,7 +5189,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_LTS004.png" alt="Richelieu classiques" /></td>
 								<td>Richelieu classiques</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -5195,7 +5203,7 @@
 								<td><img src="brands/B03.png"/></td>
 								<td>3</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_LTS006.png" alt="Richelieu fumés" /></td>
 								<td>Richelieu fumés</td>
 								<td><img src="skills/ObjectEffect_Up.png"/></td>
@@ -5209,7 +5217,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_AMB001.png" alt="Bottes de samouraï" /></td>
 								<td>Bottes de samouraï</td>
 								<td><img src="skills/SpecialTime_Up.png"/></td>
@@ -5223,7 +5231,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_AMB003.png" alt="Mocassins à franges" /></td>
 								<td>Mocassins à franges</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/></td>
@@ -5237,7 +5245,7 @@
 								<td><img src="brands/B99.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_AMB005.png" alt="Bottes méca Mk I" /></td>
 								<td>Bottes méca Mk I</td>
 								<td><img src="skills/BombDamage_Reduction.png"/></td>
@@ -5251,7 +5259,7 @@
 								<td><img src="brands/B98.png"/></td>
 								<td>2</td>
 							</tr>
-							<tr class="alt">
+							<tr>
 								<td><img src="gear/Shs_MSN004.png" alt="Bottes encrifugées (répliques)" /></td>
 								<td>Bottes encrifugées (répliques)</td>
 								<td><img src="skills/MainInk_Save.png"/></td>
