@@ -1,1 +1,3067 @@
-{"data":{"rotation0":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"time":1504576800},"rotation1":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Museum d'Alfonsino"}},"time":1504591200},"rotation2":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Piranha Pit"}},"time":1504605600},"rotation3":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Ancho-V Games"}},"time":1504620000},"rotation4":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Mahi-Mahi Resort"}},"time":1504634400},"rotation5":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Hammerhead Bridge","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Bluefin Depot"}},"time":1504648800},"rotation6":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"time":1504663200},"rotation7":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Moray Towers"}},"time":1504677600},"rotation8":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Blackbelly Skatepark"}},"time":1504692000},"rotation9":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"time":1504706400},"rotation10":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Museum d'Alfonsino","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Ancho-V Games"}},"time":1504720800},"rotation11":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Camp Triggerfish"}},"time":1504735200},"rotation12":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Blackbelly Skatepark"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Hammerhead Bridge"}},"time":1504749600},"rotation13":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Mahi-Mahi Resort"}},"time":1504764000},"rotation14":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Piranha Pit"}},"time":1504778400},"rotation15":{"ranked":{"mode":"Tower Control","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Ancho-V Games"}},"time":1504792800},"rotation16":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"time":1504807200},"rotation17":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Flounder Heights"}},"time":1504821600},"rotation18":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Hammerhead Bridge"}},"time":1504836000},"rotation19":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Museum d'Alfonsino","map2":"Piranha Pit"}},"time":1504850400},"rotation20":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Port Mackerel","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"time":1504864800},"rotation21":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Bluefin Depot","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Arowana Mall"}},"time":1504879200},"rotation22":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"time":1504893600},"rotation23":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Bluefin Depot"}},"time":1504908000},"rotation24":{"ranked":{"mode":"Tower Control","maps":{"map1":"Museum d'Alfonsino","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Kelp Dome"}},"time":1504922400},"rotation25":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Blackbelly Skatepark"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Hammerhead Bridge"}},"time":1504936800},"rotation26":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Flounder Heights"}},"time":1504951200},"rotation27":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Museum d'Alfonsino","map2":"Ancho-V Games"}},"time":1504965600},"rotation28":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Mahi-Mahi Resort","map2":"Piranha Pit"}},"time":1504980000},"rotation29":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Port Mackerel"}},"time":1504994400},"rotation30":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Bluefin Depot","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Blackbelly Skatepark"}},"time":1505008800},"rotation31":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"time":1505023200},"rotation32":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Camp Triggerfish","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Kelp Dome"}},"time":1505037600},"rotation33":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Mahi-Mahi Resort"}},"time":1505052000},"rotation34":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Museum d'Alfonsino"}},"time":1505066400},"rotation35":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Ancho-V Games"}},"time":1505080800},"rotation36":{"ranked":{"mode":"Tower Control","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Piranha Pit"}},"time":1505095200},"rotation37":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Blackbelly Skatepark"}},"time":1505109600},"rotation38":{"ranked":{"mode":"Tower Control","maps":{"map1":"Flounder Heights","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Port Mackerel"}},"time":1505124000},"rotation39":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Blackbelly Skatepark"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Kelp Dome"}},"time":1505138400},"rotation40":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Bluefin Depot"}},"time":1505152800},"rotation41":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Bluefin Depot","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"time":1505167200},"rotation42":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Mahi-Mahi Resort"}},"time":1505181600},"rotation43":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Saltspray Rig","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Piranha Pit"}},"time":1505196000},"rotation44":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Ancho-V Games"}},"time":1505210400},"rotation45":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Moray Towers","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Bluefin Depot"}},"time":1505224800},"rotation46":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Blackbelly Skatepark"}},"time":1505239200},"rotation47":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"time":1505253600},"rotation48":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Port Mackerel"}},"time":1505268000},"rotation49":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Ancho-V Games"}},"time":1505282400},"rotation50":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Port Mackerel","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Museum d'Alfonsino"}},"time":1505296800},"rotation51":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Piranha Pit"}},"time":1505311200},"rotation52":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Mahi-Mahi Resort"}},"time":1505325600},"rotation53":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Moray Towers"}},"time":1505340000},"rotation54":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Bluefin Depot"}},"time":1505354400},"rotation55":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"time":1505368800},"rotation56":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Blackbelly Skatepark"}},"time":1505383200},"rotation57":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Ancho-V Games"}},"time":1505397600},"rotation58":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Camp Triggerfish"}},"time":1505412000},"rotation59":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"time":1505426400},"rotation60":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Piranha Pit"}},"time":1505440800},"rotation61":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Walleye Warehouse","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Hammerhead Bridge"}},"time":1505455200},"rotation62":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Piranha Pit","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Mahi-Mahi Resort"}},"time":1505469600},"rotation63":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"time":1505484000},"rotation64":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Ancho-V Games"}},"time":1505498400},"rotation65":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Kelp Dome"}},"time":1505512800},"rotation66":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Flounder Heights"}},"time":1505527200},"rotation67":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Museum d'Alfonsino"}},"time":1505541600},"rotation68":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Port Mackerel","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Moray Towers"}},"time":1505556000},"rotation69":{"ranked":{"mode":"Tower Control","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Piranha Pit"}},"time":1505570400},"rotation70":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Hammerhead Bridge"}},"time":1505584800},"rotation71":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Mahi-Mahi Resort"}},"time":1505599200},"rotation72":{"ranked":{"mode":"Tower Control","maps":{"map1":"Flounder Heights","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Ancho-V Games"}},"time":1505613600},"rotation73":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Flounder Heights"}},"time":1505628000},"rotation74":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Moray Towers","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Museum d'Alfonsino"}},"time":1505642400},"rotation75":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Moray Towers"}},"time":1505656800},"rotation76":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Piranha Pit"}},"time":1505671200},"rotation77":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Hammerhead Bridge"}},"time":1505685600},"rotation78":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Camp Triggerfish"}},"time":1505700000},"rotation79":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Mahi-Mahi Resort"}},"time":1505714400},"rotation80":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Blackbelly Skatepark"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Flounder Heights"}},"time":1505728800},"rotation81":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Museum d'Alfonsino"}},"time":1505743200},"rotation82":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Ancho-V Games"}},"time":1505757600},"rotation83":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Bluefin Depot","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Moray Towers"}},"time":1505772000},"rotation84":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"time":1505786400},"rotation85":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Port Mackerel","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Piranha Pit"}},"time":1505800800},"rotation86":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Walleye Warehouse","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Camp Triggerfish"}},"time":1505815200},"rotation87":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Mahi-Mahi Resort"}},"time":1505829600},"rotation88":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"time":1505844000},"rotation89":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Museum d'Alfonsino"}},"time":1505858400},"rotation90":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Hammerhead Bridge","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Moray Towers"}},"time":1505872800},"rotation91":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Ancho-V Games"}},"time":1505887200},"rotation92":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Hammerhead Bridge"}},"time":1505901600},"rotation93":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Piranha Pit"}},"time":1505916000},"rotation94":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Mahi-Mahi Resort"}},"time":1505930400},"rotation95":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Arowana Mall"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Flounder Heights"}},"time":1505944800},"rotation96":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Camp Triggerfish"}},"time":1505959200},"rotation97":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Port Mackerel","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Museum d'Alfonsino"}},"time":1505973600},"rotation98":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Moray Towers"}},"time":1505988000},"rotation99":{"ranked":{"mode":"Tower Control","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Hammerhead Bridge"}},"time":1506002400},"rotation100":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Ancho-V Games"}},"time":1506016800},"rotation101":{"ranked":{"mode":"Tower Control","maps":{"map1":"Moray Towers","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Piranha Pit"}},"time":1506031200},"rotation102":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Flounder Heights"}},"time":1506045600},"rotation103":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Mahi-Mahi Resort"}},"time":1506060000},"rotation104":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Museum d'Alfonsino"}},"time":1506074400},"rotation105":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Moray Towers","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Camp Triggerfish"}},"time":1506088800},"rotation106":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Bluefin Depot","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Hammerhead Bridge"}},"time":1506103200},"rotation107":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Blackbelly Skatepark"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Moray Towers"}},"time":1506117600},"rotation108":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Piranha Pit"}},"time":1506132000},"rotation109":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Ancho-V Games"}},"time":1506146400},"rotation110":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Flounder Heights"}},"time":1506160800},"rotation111":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Hammerhead Bridge"}},"time":1506175200},"rotation112":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Mahi-Mahi Resort"}},"time":1506189600},"rotation113":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Museum d'Alfonsino"}},"time":1506204000},"rotation114":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Moray Towers"}},"time":1506218400},"rotation115":{"ranked":{"mode":"Tower Control","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Camp Triggerfish"}},"time":1506232800},"rotation116":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Bluefin Depot","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Piranha Pit"}},"time":1506247200},"rotation117":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Museum d'Alfonsino"}},"time":1506261600},"rotation118":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Ancho-V Games"}},"time":1506276000},"rotation119":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Flounder Heights"}},"time":1506290400},"rotation120":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Mahi-Mahi Resort"}},"time":1506304800},"rotation121":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Piranha Pit"}},"time":1506319200},"rotation122":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Bluefin Depot","map2":"Ancho-V Games"}},"time":1506333600},"rotation123":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Bluefin Depot","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Mahi-Mahi Resort"}},"time":1506348000},"rotation124":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Camp Triggerfish"}},"time":1506362400},"rotation125":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Walleye Warehouse"}},"time":1506376800},"rotation126":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Arowana Mall"}},"time":1506391200},"rotation127":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Camp Triggerfish"}},"time":1506405600},"rotation128":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Hammerhead Bridge"}},"time":1506420000},"rotation129":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"time":1506434400},"rotation130":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Port Mackerel"}},"time":1506448800},"rotation131":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Moray Towers","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Museum d'Alfonsino","map2":"Mahi-Mahi Resort"}},"time":1506463200},"rotation132":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Piranha Pit","map2":"Ancho-V Games"}},"time":1506477600},"rotation133":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Saltspray Rig"}},"time":1506492000},"rotation134":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Arowana Mall"}},"time":1506506400},"rotation135":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Port Mackerel","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Flounder Heights"}},"time":1506520800},"rotation136":{"ranked":{"mode":"Tower Control","maps":{"map1":"Moray Towers","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Hammerhead Bridge"}},"time":1506535200},"rotation137":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Hammerhead Bridge","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Kelp Dome"}},"time":1506549600},"rotation138":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Bluefin Depot"}},"time":1506564000},"rotation139":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Museum d'Alfonsino","map2":"Piranha Pit"}},"time":1506578400},"rotation140":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Bluefin Depot","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Mahi-Mahi Resort","map2":"Ancho-V Games"}},"time":1506592800},"rotation141":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Saltspray Rig","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Arowana Mall"}},"time":1506607200},"rotation142":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"time":1506621600},"rotation143":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Kelp Dome"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Hammerhead Bridge"}},"time":1506636000},"rotation144":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Flounder Heights"}},"time":1506650400},"rotation145":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Hammerhead Bridge","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Blackbelly Skatepark","map2":"Bluefin Depot"}},"time":1506664800},"rotation146":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Arowana Mall","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Port Mackerel","map2":"Kelp Dome"}},"time":1506679200},"rotation147":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Museum d'Alfonsino","map2":"Ancho-V Games"}},"time":1506693600},"rotation148":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Mahi-Mahi Resort","map2":"Piranha Pit"}},"time":1506708000},"rotation149":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Port Mackerel"}},"time":1506722400},"rotation150":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Blackbelly Skatepark"}},"time":1506736800},"rotation151":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Kelp Dome"}},"time":1506751200},"rotation152":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Port Mackerel","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"time":1506765600},"rotation153":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Mahi-Mahi Resort"}},"time":1506780000},"rotation154":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Museum d'Alfonsino"}},"time":1506794400},"rotation155":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Port Mackerel","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Ancho-V Games"}},"time":1506808800},"rotation156":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Piranha Pit"}},"time":1506823200},"rotation157":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Blackbelly Skatepark"}},"time":1506837600},"rotation158":{"ranked":{"mode":"Tower Control","maps":{"map1":"Museum d'Alfonsino","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Port Mackerel"}},"time":1506852000},"rotation159":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Arowana Mall"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Kelp Dome"}},"time":1506866400},"rotation160":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Bluefin Depot"}},"time":1506880800},"rotation161":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Bluefin Depot","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"time":1506895200},"rotation162":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Urchin Underpass","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Mahi-Mahi Resort"}},"time":1506909600},"rotation163":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Piranha Pit"}},"time":1506924000},"rotation164":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Walleye Warehouse","map2":"Saltspray Rig"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Ancho-V Games"}},"time":1506938400},"rotation165":{"ranked":{"mode":"Tower Control","maps":{"map1":"Kelp Dome","map2":"Moray Towers"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Bluefin Depot"}},"time":1506952800},"rotation166":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Camp Triggerfish","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Blackbelly Skatepark"}},"time":1506967200},"rotation167":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Kelp Dome"}},"time":1506981600},"rotation168":{"ranked":{"mode":"Tower Control","maps":{"map1":"Walleye Warehouse","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Port Mackerel"}},"time":1506996000},"rotation169":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Arowana Mall","map2":"Hammerhead Bridge"}},"regular":{"mode":"Turf War","maps":{"map1":"Moray Towers","map2":"Ancho-V Games"}},"time":1507010400},"rotation170":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Blackbelly Skatepark","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Camp Triggerfish","map2":"Museum d'Alfonsino"}},"time":1507024800},"rotation171":{"ranked":{"mode":"Tower Control","maps":{"map1":"Urchin Underpass","map2":"Flounder Heights"}},"regular":{"mode":"Turf War","maps":{"map1":"Hammerhead Bridge","map2":"Piranha Pit"}},"time":1507039200},"rotation172":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Mahi-Mahi Resort"}},"time":1507053600},"rotation173":{"ranked":{"mode":"Tower Control","maps":{"map1":"Arowana Mall","map2":"Piranha Pit"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Moray Towers"}},"time":1507068000},"rotation174":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Port Mackerel","map2":"Camp Triggerfish"}},"regular":{"mode":"Turf War","maps":{"map1":"Arowana Mall","map2":"Bluefin Depot"}},"time":1507082400},"rotation175":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Moray Towers","map2":"Museum d'Alfonsino"}},"regular":{"mode":"Turf War","maps":{"map1":"Walleye Warehouse","map2":"Port Mackerel"}},"time":1507096800},"rotation176":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Urchin Underpass","map2":"Walleye Warehouse"}},"regular":{"mode":"Turf War","maps":{"map1":"Saltspray Rig","map2":"Blackbelly Skatepark"}},"time":1507111200},"rotation177":{"ranked":{"mode":"Tower Control","maps":{"map1":"Blackbelly Skatepark","map2":"Mahi-Mahi Resort"}},"regular":{"mode":"Turf War","maps":{"map1":"Kelp Dome","map2":"Ancho-V Games"}},"time":1507125600},"rotation178":{"ranked":{"mode":"Splat Zones","maps":{"map1":"Hammerhead Bridge","map2":"Ancho-V Games"}},"regular":{"mode":"Turf War","maps":{"map1":"Urchin Underpass","map2":"Camp Triggerfish"}},"time":1507140000},"rotation179":{"ranked":{"mode":"Rainmaker","maps":{"map1":"Kelp Dome","map2":"Bluefin Depot"}},"regular":{"mode":"Turf War","maps":{"map1":"Flounder Heights","map2":"Museum d'Alfonsino"}},"time":1507154400}}}
+
+
+{
+  "data": {
+    "rotation0": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1504576800
+    },
+    "rotation1": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1504591200
+    },
+    "rotation2": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1504605600
+    },
+    "rotation3": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1504620000
+    },
+    "rotation4": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1504634400
+    },
+    "rotation5": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1504648800
+    },
+    "rotation6": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1504663200
+    },
+    "rotation7": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1504677600
+    },
+    "rotation8": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1504692000
+    },
+    "rotation9": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1504706400
+    },
+    "rotation10": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1504720800
+    },
+    "rotation11": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1504735200
+    },
+    "rotation12": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1504749600
+    },
+    "rotation13": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1504764000
+    },
+    "rotation14": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1504778400
+    },
+    "rotation15": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1504792800
+    },
+    "rotation16": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1504807200
+    },
+    "rotation17": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1504821600
+    },
+    "rotation18": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1504836000
+    },
+    "rotation19": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1504850400
+    },
+    "rotation20": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1504864800
+    },
+    "rotation21": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Arowana Mall"
+        }
+      },
+      "time": 1504879200
+    },
+    "rotation22": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "time": 1504893600
+    },
+    "rotation23": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1504908000
+    },
+    "rotation24": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1504922400
+    },
+    "rotation25": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1504936800
+    },
+    "rotation26": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1504951200
+    },
+    "rotation27": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1504965600
+    },
+    "rotation28": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1504980000
+    },
+    "rotation29": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1504994400
+    },
+    "rotation30": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1505008800
+    },
+    "rotation31": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1505023200
+    },
+    "rotation32": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1505037600
+    },
+    "rotation33": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505052000
+    },
+    "rotation34": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505066400
+    },
+    "rotation35": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505080800
+    },
+    "rotation36": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505095200
+    },
+    "rotation37": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1505109600
+    },
+    "rotation38": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1505124000
+    },
+    "rotation39": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1505138400
+    },
+    "rotation40": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1505152800
+    },
+    "rotation41": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505167200
+    },
+    "rotation42": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505181600
+    },
+    "rotation43": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505196000
+    },
+    "rotation44": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505210400
+    },
+    "rotation45": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1505224800
+    },
+    "rotation46": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1505239200
+    },
+    "rotation47": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1505253600
+    },
+    "rotation48": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1505268000
+    },
+    "rotation49": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505282400
+    },
+    "rotation50": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505296800
+    },
+    "rotation51": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505311200
+    },
+    "rotation52": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505325600
+    },
+    "rotation53": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505340000
+    },
+    "rotation54": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1505354400
+    },
+    "rotation55": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1505368800
+    },
+    "rotation56": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1505383200
+    },
+    "rotation57": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505397600
+    },
+    "rotation58": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1505412000
+    },
+    "rotation59": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505426400
+    },
+    "rotation60": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505440800
+    },
+    "rotation61": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1505455200
+    },
+    "rotation62": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Piranha Pit",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505469600
+    },
+    "rotation63": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1505484000
+    },
+    "rotation64": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505498400
+    },
+    "rotation65": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1505512800
+    },
+    "rotation66": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1505527200
+    },
+    "rotation67": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505541600
+    },
+    "rotation68": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505556000
+    },
+    "rotation69": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505570400
+    },
+    "rotation70": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1505584800
+    },
+    "rotation71": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505599200
+    },
+    "rotation72": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505613600
+    },
+    "rotation73": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1505628000
+    },
+    "rotation74": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505642400
+    },
+    "rotation75": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505656800
+    },
+    "rotation76": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505671200
+    },
+    "rotation77": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1505685600
+    },
+    "rotation78": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1505700000
+    },
+    "rotation79": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505714400
+    },
+    "rotation80": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1505728800
+    },
+    "rotation81": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505743200
+    },
+    "rotation82": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505757600
+    },
+    "rotation83": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505772000
+    },
+    "rotation84": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1505786400
+    },
+    "rotation85": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505800800
+    },
+    "rotation86": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1505815200
+    },
+    "rotation87": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505829600
+    },
+    "rotation88": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1505844000
+    },
+    "rotation89": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505858400
+    },
+    "rotation90": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505872800
+    },
+    "rotation91": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1505887200
+    },
+    "rotation92": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1505901600
+    },
+    "rotation93": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1505916000
+    },
+    "rotation94": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1505930400
+    },
+    "rotation95": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Arowana Mall"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1505944800
+    },
+    "rotation96": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1505959200
+    },
+    "rotation97": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1505973600
+    },
+    "rotation98": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1505988000
+    },
+    "rotation99": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506002400
+    },
+    "rotation100": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506016800
+    },
+    "rotation101": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506031200
+    },
+    "rotation102": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1506045600
+    },
+    "rotation103": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506060000
+    },
+    "rotation104": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1506074400
+    },
+    "rotation105": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1506088800
+    },
+    "rotation106": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506103200
+    },
+    "rotation107": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1506117600
+    },
+    "rotation108": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506132000
+    },
+    "rotation109": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506146400
+    },
+    "rotation110": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1506160800
+    },
+    "rotation111": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506175200
+    },
+    "rotation112": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506189600
+    },
+    "rotation113": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1506204000
+    },
+    "rotation114": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1506218400
+    },
+    "rotation115": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1506232800
+    },
+    "rotation116": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506247200
+    },
+    "rotation117": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1506261600
+    },
+    "rotation118": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506276000
+    },
+    "rotation119": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1506290400
+    },
+    "rotation120": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506304800
+    },
+    "rotation121": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506319200
+    },
+    "rotation122": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506333600
+    },
+    "rotation123": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506348000
+    },
+    "rotation124": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1506362400
+    },
+    "rotation125": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Walleye Warehouse"
+        }
+      },
+      "time": 1506376800
+    },
+    "rotation126": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Arowana Mall"
+        }
+      },
+      "time": 1506391200
+    },
+    "rotation127": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1506405600
+    },
+    "rotation128": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506420000
+    },
+    "rotation129": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506434400
+    },
+    "rotation130": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1506448800
+    },
+    "rotation131": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506463200
+    },
+    "rotation132": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Piranha Pit",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506477600
+    },
+    "rotation133": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "time": 1506492000
+    },
+    "rotation134": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Arowana Mall"
+        }
+      },
+      "time": 1506506400
+    },
+    "rotation135": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1506520800
+    },
+    "rotation136": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506535200
+    },
+    "rotation137": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1506549600
+    },
+    "rotation138": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506564000
+    },
+    "rotation139": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506578400
+    },
+    "rotation140": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506592800
+    },
+    "rotation141": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Arowana Mall"
+        }
+      },
+      "time": 1506607200
+    },
+    "rotation142": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "time": 1506621600
+    },
+    "rotation143": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Kelp Dome"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "time": 1506636000
+    },
+    "rotation144": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Flounder Heights"
+        }
+      },
+      "time": 1506650400
+    },
+    "rotation145": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506664800
+    },
+    "rotation146": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1506679200
+    },
+    "rotation147": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506693600
+    },
+    "rotation148": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Mahi-Mahi Resort",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506708000
+    },
+    "rotation149": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1506722400
+    },
+    "rotation150": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1506736800
+    },
+    "rotation151": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1506751200
+    },
+    "rotation152": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506765600
+    },
+    "rotation153": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506780000
+    },
+    "rotation154": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1506794400
+    },
+    "rotation155": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506808800
+    },
+    "rotation156": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506823200
+    },
+    "rotation157": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1506837600
+    },
+    "rotation158": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Museum d'Alfonsino",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1506852000
+    },
+    "rotation159": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Arowana Mall"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1506866400
+    },
+    "rotation160": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506880800
+    },
+    "rotation161": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Bluefin Depot",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1506895200
+    },
+    "rotation162": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1506909600
+    },
+    "rotation163": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1506924000
+    },
+    "rotation164": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Saltspray Rig"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1506938400
+    },
+    "rotation165": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Moray Towers"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1506952800
+    },
+    "rotation166": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1506967200
+    },
+    "rotation167": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Kelp Dome"
+        }
+      },
+      "time": 1506981600
+    },
+    "rotation168": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1506996000
+    },
+    "rotation169": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Hammerhead Bridge"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1507010400
+    },
+    "rotation170": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Camp Triggerfish",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1507024800
+    },
+    "rotation171": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Flounder Heights"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Piranha Pit"
+        }
+      },
+      "time": 1507039200
+    },
+    "rotation172": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "time": 1507053600
+    },
+    "rotation173": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Piranha Pit"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Moray Towers"
+        }
+      },
+      "time": 1507068000
+    },
+    "rotation174": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Port Mackerel",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Arowana Mall",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "time": 1507082400
+    },
+    "rotation175": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Moray Towers",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Walleye Warehouse",
+          "map2": "Port Mackerel"
+        }
+      },
+      "time": 1507096800
+    },
+    "rotation176": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Walleye Warehouse"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Saltspray Rig",
+          "map2": "Blackbelly Skatepark"
+        }
+      },
+      "time": 1507111200
+    },
+    "rotation177": {
+      "ranked": {
+        "mode": "Tower Control",
+        "maps": {
+          "map1": "Blackbelly Skatepark",
+          "map2": "Mahi-Mahi Resort"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "time": 1507125600
+    },
+    "rotation178": {
+      "ranked": {
+        "mode": "Splat Zones",
+        "maps": {
+          "map1": "Hammerhead Bridge",
+          "map2": "Ancho-V Games"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Urchin Underpass",
+          "map2": "Camp Triggerfish"
+        }
+      },
+      "time": 1507140000
+    },
+    "rotation179": {
+      "ranked": {
+        "mode": "Rainmaker",
+        "maps": {
+          "map1": "Kelp Dome",
+          "map2": "Bluefin Depot"
+        }
+      },
+      "regular": {
+        "mode": "Turf War",
+        "maps": {
+          "map1": "Flounder Heights",
+          "map2": "Museum d'Alfonsino"
+        }
+      },
+      "time": 1507154400
+    }
+  }
+}
+
