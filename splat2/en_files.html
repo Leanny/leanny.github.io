@@ -25,6 +25,22 @@
 			$(function() {
 				$( "#tabs" ).tabs();
 			});
+
+			$.tablesorter.addParser({
+			  // set a unique id
+			  id: 'specials',
+			  is: function(s, table, cell, $cell) {
+				// return false so this parser is not auto detected
+				return false;
+			  },
+			  format: function(s, table, cell, cellIndex) {
+				// format your data for normalization
+				return s.split("").reverse().join("");
+			  },
+			  // set type, either numeric or text
+			  type: 'text'
+			});
+			
 			$(document).ready(function(){
 				$(".default_popup").colorbox({iframe:true, width:"500px", height:"400px"});
 				$("#table1").tablesorter({widgets: ['zebra'] }); 
@@ -64,7 +80,7 @@
 								<th>Image</th>
 								<th>Name</th>
 								<th>Sub</th>
-								<th>Special</th>
+								<th class="sorter-specials">Special</th>
 								<th>Level</th>
 								<th>Special Cost</th>
 								<th>Ink Saver Level</th>
