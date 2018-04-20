@@ -184,7 +184,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 1,
-          "mZakoActiveMaxEach": 15000,
+          "mPunchLife": 15000,
           "mSimpleShotSpeed": 0.7,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 130
@@ -306,7 +306,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 1,
-          "mZakoActiveMaxEach": 15000,
+          "mPunchLife": 15000,
           "mSimpleShotSpeed": 0.7,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 130
@@ -428,7 +428,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 1,
-          "mZakoActiveMaxEach": 15000,
+          "mPunchLife": 15000,
           "mSimpleShotSpeed": 0.7,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 130
@@ -550,7 +550,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 2,
-          "mZakoActiveMaxEach": 18000,
+          "mPunchLife": 18000,
           "mSimpleShotSpeed": 0.9,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 110
@@ -672,7 +672,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 2,
-          "mZakoActiveMaxEach": 22000,
+          "mPunchLife": 22000,
           "mSimpleShotSpeed": 1.2,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 90
@@ -794,7 +794,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 3,
-          "mZakoActiveMaxEach": 35000,
+          "mPunchLife": 35000,
           "mSimpleShotSpeed": 2.0,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 50
@@ -916,7 +916,7 @@
         },
         "mEventRally": {
           "mZakoActiveMaxEach": 3,
-          "mZakoActiveMaxEach": 25000,
+          "mPunchLife": 25000,
           "mSimpleShotSpeed": 1.5,
           "mSimpleShotActiveMax": 10,
           "mSimpleShotInterval": 70
