@@ -1,0 +1,129 @@
+{
+    "ActionParams": {
+        "mActionBuffer": {
+            "mActionBuffer[0]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 500,
+                            "mAnimName": "Wait00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 500,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Wait",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 500
+            },
+            "mActionBuffer[1]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 500,
+                            "mAnimName": "Fly",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 500,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mEdFrame": -1,
+                            "mEventName": "BreakBarrier",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": {
+                                "26d9587": 65
+                            },
+                            "mStFrame": 0,
+                            "mStrParamBuffer": null
+                        }
+                    }
+                },
+                "mName": "ShootFast",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 500
+            },
+            "mActionBuffer[2]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 65,
+                            "mAnimName": "PurgeSt",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 65,
+                            "mStFrame": 0
+                        },
+                        "mKeyBuffer[1]": {
+                            "mAnimEdFrame": 159,
+                            "mAnimName": "Purge",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 224,
+                            "mStFrame": 65
+                        },
+                        "mKeyBuffer[2]": {
+                            "mAnimEdFrame": 276,
+                            "mAnimName": "PurgeWait",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 500,
+                            "mStFrame": 224
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Purge",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 500
+            },
+            "mActionBuffer[3]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1000,
+                            "mAnimName": "Return",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 1000,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Return",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1000
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "DesignerParams": {
+        "c2343a10": {
+            "27c12a6f": -1.0,
+            "2a7de418": -1.0,
+            "4430d417": -1.0,
+            "630a7394": -1.0,
+            "8ed0ad55": -1.0,
+            "92004e98": -1.0,
+            "9352666": -1.0,
+            "AttackEnd": -1.0,
+            "AttackSt": -1.0,
+            "BreakL": -1.0,
+            "BreakR": -1.0,
+            "Wait00": 10.0,
+            "a41c4f8a": -1.0,
+            "ab67ffc3": -1.0,
+            "ecd82c2d": -1.0,
+            "mDefaultValue": 12.0
+        },
+        "mDamageEffectableParams": {
+            "mFactor": 0.0,
+            "mStartInterval": 5
+        },
+        "mSinkableParams": {
+            "mOfstMax": -4.0,
+            "mSinkAcc": 0.05,
+            "mSinkSpeed": 1.0,
+            "mSpringDamp": 0.95,
+            "mSpringEnable": true,
+            "mSpringK": 0.0
+        }
+    }
+}

@@ -1,0 +1,130 @@
+{
+    "DesignerParams": {
+        "9bbb71ce": {
+            "148898d": -1.0,
+            "Close": -1.0,
+            "Fire": -1.0,
+            "Open": -1.0,
+            "mDefaultValue": 4.0
+        },
+        "mDamageEffectableParams": {
+            "mFactor": 0.3
+        },
+        "mDynamicsSetParams": {
+            "mDynamicsParamsBuffer": {
+                "mDynamicsParamsBuffer[0]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legU00",
+                        "68d0e77b": "legU02",
+                        "a38c34de": "legU03",
+                        "be890466": "legU04",
+                        "ee4495d5": "legU01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[1]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legUL00",
+                        "68d0e77b": "legUL02",
+                        "a38c34de": "legUL03",
+                        "be890466": "legUL04",
+                        "ee4495d5": "legUL01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[2]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legUR00",
+                        "68d0e77b": "legUR02",
+                        "a38c34de": "legUR03",
+                        "be890466": "legUR04",
+                        "ee4495d5": "legUR01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[3]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legL00",
+                        "68d0e77b": "legL02",
+                        "a38c34de": "legL03",
+                        "be890466": "legL04",
+                        "ee4495d5": "legL01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[4]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legR00",
+                        "68d0e77b": "legR02",
+                        "a38c34de": "legR03",
+                        "be890466": "legR04",
+                        "ee4495d5": "legR01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[5]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legD00",
+                        "68d0e77b": "legD02",
+                        "a38c34de": "legD03",
+                        "be890466": "legD04",
+                        "ee4495d5": "legD01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[6]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legDL00",
+                        "68d0e77b": "legDL02",
+                        "a38c34de": "legDL03",
+                        "be890466": "legDL04",
+                        "ee4495d5": "legDL01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                },
+                "mDynamicsParamsBuffer[7]": {
+                    "4cbd8079": "cNone",
+                    "mAirRes": 0.9,
+                    "mBoneNames": {
+                        "25184670": "legDR00",
+                        "68d0e77b": "legDR02",
+                        "a38c34de": "legDR03",
+                        "be890466": "legDR04",
+                        "ee4495d5": "legDR01"
+                    },
+                    "mConnectionForce": 0.05,
+                    "mGravity": 0.1,
+                    "mLimitAngle": 45.0
+                }
+            }
+        }
+    }
+}

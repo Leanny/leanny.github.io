@@ -1,0 +1,182 @@
+{
+    "ActionParams": {
+        "mActionBuffer": {
+            "mActionBuffer[0]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Fin_Swim",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Wait",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[1]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Fin_Swim",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Chase",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[2]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Fin_Attack",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "PreAttack",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[3]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Attack00",
+                            "mAnimSetIdx": 1,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Attack",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 65
+            },
+            "mActionBuffer[4]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 65,
+                            "mAnimName": "Attack00",
+                            "mAnimSetIdx": 1,
+                            "mAnimStFrame": 65,
+                            "mEdFrame": 30,
+                            "mStFrame": 0
+                        },
+                        "mKeyBuffer[1]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Attack00",
+                            "mAnimSetIdx": 1,
+                            "mAnimStFrame": 65,
+                            "mEdFrame": -1,
+                            "mStFrame": 30
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Damaged",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 55
+            },
+            "mActionBuffer[5]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Attack00",
+                            "mAnimSetIdx": 1,
+                            "mAnimStFrame": 65,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "PostAttack",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 25
+            },
+            "mActionBuffer[6]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Fin_Swim",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Escape",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            }
+        }
+    }
+}

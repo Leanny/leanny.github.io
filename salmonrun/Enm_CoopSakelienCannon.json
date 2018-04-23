@@ -1,0 +1,87 @@
+{
+    "ActorParams": {
+        "6d4dd165": 1.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mAttackInterval": 240,
+        "mAttackableHeightIn": 100.0,
+        "mAttackableHeightOut": 120.0,
+        "mAttackableRangeInXZ": 250.0,
+        "mAttackableRangeOutXZ": 300.0,
+        "mBallDeg": 25.0,
+        "mBallDistance": 250.0,
+        "mBallLife": 1500,
+        "mBallSpeed": 1.5,
+        "mBallTargetOffset": [
+            0.0,
+            0.0,
+            120.0
+        ],
+        "mCheckKeepOutE": false,
+        "mDiePaintRadius": 80.0,
+        "mDieSplashRadius": 80.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 5.0,
+            "mIsKeepoutEReject": true,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 8.0,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        4.0,
+                        0.0
+                    ],
+                    "mRadius": 10.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mHeadRotDegMaxAxisX": 35.0,
+        "mHeadRotDegMaxAxisY": 75.0,
+        "mIsDroppable": true,
+        "mLife": 5000,
+        "mMonitorHalfSize": 10.0,
+        "mMoveSpeedCoefSink": 1.0,
+        "mOffsetY_InWater": -10.0,
+        "mPathPlannableParams": {
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mRotInterpRatio": 0.15,
+        "mRotInterpType": "cRate",
+        "mRotSpeed": 0.1,
+        "mRotSpeedAcc": 0.0025,
+        "mScale": 2.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cEuqlidDistance",
+            "mIsCheckCol": false
+        },
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mTrackPaintableOffsetZ": -10.0,
+        "mTrackPaintableRadius": 32.0,
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

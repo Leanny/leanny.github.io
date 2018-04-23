@@ -1,0 +1,16 @@
+{
+    "DesignerParams": {
+        "731d4f63": {
+            "30535ce4": -1.0,
+            "Appear": -1.0,
+            "Release": -1.0,
+            "Wait00": 15.0,
+            "bd5913c4": 15.0,
+            "mDefaultValue": 4.0
+        },
+        "mDamageEffectableParams": {
+            "mFactor": 0.3,
+            "mStartInterval": 5
+        }
+    }
+}

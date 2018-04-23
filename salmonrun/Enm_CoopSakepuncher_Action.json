@@ -1,0 +1,246 @@
+{
+    "ActionParams": {
+        "mActionBuffer": {
+            "mActionBuffer[0]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 200,
+                            "mAnimName": "Appear",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 200,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Appear",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 200
+            },
+            "mActionBuffer[1]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Wait00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Wait",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[2]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Ready",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "PreAttack",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[3]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 170,
+                            "mAnimName": "AttackSt",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 170,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "AttackSt",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 170
+            },
+            "mActionBuffer[4]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Attack",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Attack",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[5]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 115,
+                            "mAnimName": "AttackEnd",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 115,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "AttackEd",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 115
+            },
+            "mActionBuffer[6]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 115,
+                            "mAnimName": "VacuumSt",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 115,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "LostIkuraSt",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 115
+            },
+            "mActionBuffer[7]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Vacuum",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "LostIkura",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[8]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Damage",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "PostAttack0",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[9]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Damage2",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "PostAttack1",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            }
+        }
+    }
+}

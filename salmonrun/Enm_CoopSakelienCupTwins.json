@@ -1,0 +1,128 @@
+{
+    "ActorParams": {
+        "mActionSpeedMax": 3.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mAnimNameWaitSpawn": "Wait00",
+        "mAttackInterval": 180,
+        "mCheckKeepOutE": false,
+        "mCupDamage": 500,
+        "mCupKnockBack": 3.0,
+        "mDamageByBomb": 3600,
+        "mDiePaintRadius": 80.0,
+        "mDieSplashRadius": 100.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 8.0,
+            "mIsKeepoutE2Reject": false,
+            "mIsKeepoutEReject": true,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cNoDamage",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        15.0,
+                        8.0,
+                        -13.0
+                    ],
+                    "mRadius": 6.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[1]": {
+                    "31592ae8": "cNoDamage",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        -15.0,
+                        8.0,
+                        -13.0
+                    ],
+                    "mRadius": 6.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[2]": {
+                    "31592ae8": "cNoDamage",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mRadius": 9.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                }
+            }
+        },
+        "mFlyHeightMove": 80.0,
+        "mFlyHeightShot": 40.0,
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mHeadRotDegMaxAxisX": 35.0,
+        "mHeadRotDegMaxAxisY": 75.0,
+        "mIsDroppable": true,
+        "mIsEnablePassClosePath": true,
+        "mKnockbackRollerCore": 1.0,
+        "mLife": 3600,
+        "mMonitorHalfSize": 10.0,
+        "mMoveSpeedCoefSink": 0.7,
+        "mOffsetY_InWater": -10.0,
+        "mPathPlannableParams": {
+            "mEnableCoopAreaKeepOut": false,
+            "mEnableReachTarget": true,
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mRailFollowableParams": {
+            "mDetectJamDistance": 20.0,
+            "mIsUseIsochronous": false,
+            "mSlowDownRateInJam": 0.1
+        },
+        "mRotInterpRatio": 0.15,
+        "mRotInterpType": "cRate",
+        "mRotSpeed": 0.1,
+        "mRotSpeedAcc": 0.0025,
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cEuqlidDistance",
+            "mIsCheckCol": false
+        },
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mTrackPaintableOffsetZ": -10.0,
+        "mTrackPaintableRadius": 32.0,
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

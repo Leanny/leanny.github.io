@@ -1,0 +1,280 @@
+{
+    "ActionParams": {
+        "mActionBuffer": {
+            "mActionBuffer[0]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Wait00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Wait00",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 240
+            },
+            "mActionBuffer[1]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Walk00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Walk00",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[2]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Walk00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Walk01",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[3]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 90,
+                            "mAnimName": "ChargeStart00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 90,
+                            "mStFrame": 0
+                        },
+                        "mKeyBuffer[1]": {
+                            "mAnimEdFrame": 65,
+                            "mAnimName": "Charge00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 155,
+                            "mStFrame": 90
+                        },
+                        "mKeyBuffer[2]": {
+                            "mAnimEdFrame": 79,
+                            "mAnimName": "ChargeThrow00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 234,
+                            "mStFrame": 155
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mEdFrame": -1,
+                            "mEventName": "Prepare",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 78,
+                            "mStrParamBuffer": null
+                        },
+                        "mKeyBuffer[1]": {
+                            "mEdFrame": -1,
+                            "mEventName": "MatAnim",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 90,
+                            "mStrParamBuffer": {
+                                "6a70a198": "Charge00"
+                            }
+                        },
+                        "mKeyBuffer[2]": {
+                            "mEdFrame": -1,
+                            "mEventName": "MatAnim",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 155,
+                            "mStrParamBuffer": {
+                                "6a70a198": "Wait00"
+                            }
+                        },
+                        "mKeyBuffer[3]": {
+                            "mEdFrame": -1,
+                            "mEventName": "Shot",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 165,
+                            "mStrParamBuffer": null
+                        }
+                    }
+                },
+                "mName": "ShotNear",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 234
+            },
+            "mActionBuffer[4]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 90,
+                            "mAnimName": "ChargeStart00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 90,
+                            "mStFrame": 0
+                        },
+                        "mKeyBuffer[1]": {
+                            "mAnimEdFrame": 65,
+                            "mAnimName": "Charge00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 155,
+                            "mStFrame": 90
+                        },
+                        "mKeyBuffer[2]": {
+                            "mAnimEdFrame": 79,
+                            "mAnimName": "ChargeThrow00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 234,
+                            "mStFrame": 155
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mEdFrame": -1,
+                            "mEventName": "Prepare",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 78,
+                            "mStrParamBuffer": null
+                        },
+                        "mKeyBuffer[1]": {
+                            "mEdFrame": -1,
+                            "mEventName": "MatAnim",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 90,
+                            "mStrParamBuffer": {
+                                "6a70a198": "Charge00"
+                            }
+                        },
+                        "mKeyBuffer[2]": {
+                            "mEdFrame": -1,
+                            "mEventName": "MatAnim",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 155,
+                            "mStrParamBuffer": {
+                                "6a70a198": "Wait00"
+                            }
+                        },
+                        "mKeyBuffer[3]": {
+                            "mEdFrame": -1,
+                            "mEventName": "Shot",
+                            "mF32ParamBuffer": null,
+                            "mS32ParamBuffer": null,
+                            "mStFrame": 165,
+                            "mStrParamBuffer": null
+                        }
+                    }
+                },
+                "mName": "ShotFar",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 234
+            },
+            "mActionBuffer[5]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 1,
+                            "mAnimName": "Walk00",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": -1,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Escape",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 1
+            },
+            "mActionBuffer[6]": {
+                "mAnim": {
+                    "mKeyBuffer": {
+                        "mKeyBuffer[0]": {
+                            "mAnimEdFrame": 105,
+                            "mAnimName": "Appear",
+                            "mAnimSetIdx": 0,
+                            "mAnimStFrame": 0,
+                            "mEdFrame": 105,
+                            "mStFrame": 0
+                        }
+                    }
+                },
+                "mAttack": {
+                    "mKeyBuffer": null
+                },
+                "mEvent": {
+                    "mKeyBuffer": null
+                },
+                "mName": "Appear",
+                "mNextFrame": 0,
+                "mNextName": "",
+                "mTotalFrameNum": 105
+            }
+        }
+    }
+}

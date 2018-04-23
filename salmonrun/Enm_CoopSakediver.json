@@ -1,0 +1,104 @@
+{
+    "ActorParams": {
+        "mActionSpeedMax": 3.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mAttackPaintRadius": 80.0,
+        "mAttackShapeHeight": 60.0,
+        "mAttackShapeRadius": 18.0,
+        "mAttackShapeValidFrame": 15,
+        "mAttackStartRangeXZ": 50.0,
+        "mAttackStartRangeY": 15.0,
+        "mCheckKeepOutE": false,
+        "mDamagedByBomb": 1000,
+        "mDiePaintRadius": 80.0,
+        "mDieSplashRadius": 120.0,
+        "mEatBombRadius": 25.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 5.0,
+            "mIsKeepoutE2Reject": false,
+            "mIsKeepoutEReject": false,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "mRadius": 0.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "mObjColCapsuleParams[1]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        -1.0,
+                        0.0
+                    ],
+                    "mRadius": 0.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        "mFootPaintCheckThreshold": 0.33,
+        "mFrameEatBomb": 30,
+        "mFrameMoveMin": 30,
+        "mFrameSinkLure": 24,
+        "mFrameStartCheckBomb": 60,
+        "mGndColOffsetY": -5.0,
+        "mIsDroppable": true,
+        "mIsEnablePassClosePath": true,
+        "mKnockbackRollerCore": 1.0,
+        "mKnockbackShapeHeight": 20.0,
+        "mKnockbackShapeRadius": 25.0,
+        "mLife": 12000,
+        "mOffsetY_InWater": -10.0,
+        "mPathPlannableParams": {
+            "mEnableCoopAreaKeepOut": false,
+            "mEnableReachTarget": true,
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mReplanFrame": 180,
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mTrackPaintableOffsetZ": 5.0,
+        "mTrackPaintableRadius": 35.0,
+        "mWaitFramePreAttack": 60,
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

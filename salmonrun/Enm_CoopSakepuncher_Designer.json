@@ -1,0 +1,23 @@
+{
+    "DesignerParams": {
+        "691b47c5": {
+            "1bf9c3a": 1.0,
+            "7f9c2e52": -1.0,
+            "9919a62a": -1.0,
+            "Appear": -1.0,
+            "Attack": -1.0,
+            "AttackEnd": -1.0,
+            "AttackSt": -1.0,
+            "Damage": -1.0,
+            "Ready": -1.0,
+            "VacuumEx": -1.0,
+            "Wait00": -1.0,
+            "f6ea27eb": 1.0,
+            "mDefaultValue": 20.0
+        },
+        "mDamageEffectableParams": {
+            "mFactor": 0.1,
+            "mStartInterval": 5
+        }
+    }
+}

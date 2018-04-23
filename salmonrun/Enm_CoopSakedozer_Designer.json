@@ -1,0 +1,15 @@
+{
+    "DesignerParams": {
+        "28795e22": {
+            "3c5e4991": -1.0,
+            "42d26bf": -1.0,
+            "Down": -1.0,
+            "Walk": -1.0,
+            "mDefaultValue": 15.0
+        },
+        "mDamageEffectableParams": {
+            "mFactor": 0.0,
+            "mStartInterval": 5
+        }
+    }
+}

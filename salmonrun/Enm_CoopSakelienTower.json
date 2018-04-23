@@ -1,0 +1,240 @@
+{
+    "ActorParams": {
+        "mActionSpeedMax": 3.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mAnimNameWaitSpawn": "Wait00",
+        "mBlurLength": 10.0,
+        "mCheckKeepOutE": false,
+        "mCutterChaseDelayFrame": 30,
+        "mCutterRotDegPerFrame": 2.0,
+        "mDiePaintRadius": 80.0,
+        "mDieSplashRadius": 100.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 10.0,
+            "mIsKeepoutE2Reject": false,
+            "mIsKeepoutEReject": true,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cEnemyShield",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        -3.0,
+                        0.0
+                    ],
+                    "mRadius": 12.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[1]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        8.0,
+                        0.0
+                    ],
+                    "mRadius": 16.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[2]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        8.0,
+                        0.0
+                    ],
+                    "mRadius": 15.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[3]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        8.0,
+                        0.0
+                    ],
+                    "mRadius": 13.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[4]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        8.0,
+                        0.0
+                    ],
+                    "mRadius": 12.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[5]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        10.0,
+                        0.0
+                    ],
+                    "mRadius": 12.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[6]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        8.0,
+                        0.0
+                    ],
+                    "mRadius": 12.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[7]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        10.0,
+                        0.0
+                    ],
+                    "mRadius": 11.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                },
+                "mObjColCapsuleParams[8]": {
+                    "31592ae8": "cEnemyShield",
+                    "mHeight": 0.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        16.0,
+                        0.0
+                    ],
+                    "mRadius": 9.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mUseOwnerMtx": false
+                }
+            }
+        },
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mHeadRotDegMaxAxisX": 35.0,
+        "mHeadRotDegMaxAxisY": 75.0,
+        "mIsDroppable": true,
+        "mIsEnablePassClosePath": true,
+        "mKillIkuraNum_Block": 1,
+        "mKnockbackRollerCore": 1.0,
+        "mLife": 600,
+        "mMonitorHalfSize": 10.0,
+        "mMoveSpeedCoefSink": 0.25,
+        "mOffsetY_InWater": -10.0,
+        "mOffsetZ": {
+            "2d6934dd": 2.0,
+            "306c0465": 8.5,
+            "60a195d6": 4.0,
+            "7da4a56e": 5.5,
+            "abfd4673": 3.0,
+            "b6f876cb": 7.0,
+            "e635e778": 0.0,
+            "fb30d7c0": 0.0
+        },
+        "mPathPlannableParams": {
+            "mEnableCoopAreaKeepOut": false,
+            "mEnableReachTarget": true,
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mRotInterpRatio": 0.15,
+        "mRotInterpType": "cRate",
+        "mRotSpeed": 0.1,
+        "mRotSpeedAcc": 0.0025,
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mShotInterval": 120,
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mTrackPaintableOffsetZ": -10.0,
+        "mTrackPaintableRadius": 32.0,
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

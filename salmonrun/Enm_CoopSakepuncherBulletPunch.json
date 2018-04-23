@@ -1,0 +1,62 @@
+{
+    "ActorParams": {
+        "6d4dd165": 1.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mCheckKeepOutE": false,
+        "mDiePaintRadius": 80.0,
+        "mDropIkuraNum": 6,
+        "mEnemyPhysicsParams": {
+            "mGndColRadius": 16.0,
+            "mIsKeepoutEReject": false,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mRadius": 30.0
+                }
+            }
+        },
+        "mExplodeDamageRadiusFar": 1000,
+        "mExplodeDamageRadiusMiddle": 1000,
+        "mExplodeDamageRadiusNear": 1000,
+        "mExplodePaintRadius": 60.0,
+        "mExplodeRadiusFar": 60.0,
+        "mExplodeRadiusMiddle": 45.0,
+        "mExplodeRadiusNear": 30.0,
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mLife": 1000,
+        "mLostIkuraIntervalSecond": 3,
+        "mLostIkuraNum": 1,
+        "mOffsetY_InWater": -10.0,
+        "mParabolaOffsetY": 0.0,
+        "mPathPlannableParams": {
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

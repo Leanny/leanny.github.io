@@ -1,0 +1,70 @@
+{
+    "ActorParams": {
+        "6d4dd165": 1.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mBombDamage": 9000,
+        "mBombDamageRadius": 70.0,
+        "mBombPaintRadius": 100.0,
+        "mCheckKeepOutE": false,
+        "mCloudPutFrame": 140,
+        "mCloudPutInterval": 300,
+        "mCrossPaintRadius": 30.0,
+        "mCrossPaintRayLength": 60.0,
+        "mCrossPaintRayRadius": 1.0,
+        "mDiePaintRadius": 80.0,
+        "mEnemyPhysicsParams": {
+            "mGndColRadius": 5.0,
+            "mIsKeepoutEReject": false,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 0.0,
+                    "mNodeName": "",
+                    "mOffset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mRadius": 10.0
+                }
+            }
+        },
+        "mFallSpeedMax": 2.0,
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mGoRailSpeedCoef": 2.0,
+        "mLife": 2500,
+        "mOffsetY_InWater": -10.0,
+        "mPathPlannableParams": {
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mScale": 0.7,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mSplashColRadius": 2.0,
+        "mSplashDrawRadius": 3.0,
+        "mSplashNum": 15,
+        "mSplashOffsetY": 5.0,
+        "mSplashPaintRadius": 6.0,
+        "mSplashPitH": 60.0,
+        "mSplashPitL": 15.0,
+        "mSplashVelH": 4.0,
+        "mSplashVelL": 2.0,
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}

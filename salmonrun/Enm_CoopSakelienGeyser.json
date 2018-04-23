@@ -1,0 +1,133 @@
+{
+    "ActorParams": {
+        "mActionSpeedMax": 3.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mCheckKeepOutE": false,
+        "mDiePaintRadius": 80.0,
+        "mDieSplashRadius": 50.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 10.0,
+            "mIsKeepoutE2Reject": false,
+            "mIsKeepoutEReject": false,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 5.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "Root",
+                    "mOffset": [
+                        0.0,
+                        4.0,
+                        4.0
+                    ],
+                    "mRadius": 10.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            }
+        },
+        "mFootPaintCheckThreshold": 0.33,
+        "mFormParamsBuffer": {
+            "mFormParamsBuffer[0]": {
+                "mColHeight": 14.0,
+                "mColOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mColRadius": 16.0,
+                "mDropGoldenIkuraNum": 5,
+                "mDropIkuraNum": 50,
+                "mLife": 25000,
+                "mScale": 1.0,
+                "mSpeedCoef": 1.0,
+                "mSppedCoefInWater": 1.0
+            },
+            "mFormParamsBuffer[1]": {
+                "mColHeight": 10.0,
+                "mColOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mColRadius": 12.0,
+                "mDropGoldenIkuraNum": 5,
+                "mDropIkuraNum": 40,
+                "mLife": 20000,
+                "mScale": 0.75,
+                "mSpeedCoef": 1.2,
+                "mSppedCoefInWater": 1.0
+            },
+            "mFormParamsBuffer[2]": {
+                "mColHeight": 4.0,
+                "mColOffset": [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "mColRadius": 10.0,
+                "mDropGoldenIkuraNum": 6,
+                "mDropIkuraNum": 40,
+                "mLife": 20000,
+                "mScale": 0.5,
+                "mSpeedCoef": 1.4,
+                "mSppedCoefInWater": 1.0
+            }
+        },
+        "mGndColOffsetY": 0.0,
+        "mHeadRotDegMaxAxisX": 35.0,
+        "mHeadRotDegMaxAxisY": 75.0,
+        "mIsDroppable": false,
+        "mIsEnablePassClosePath": false,
+        "mKnockbackRollerCore": 1.0,
+        "mLife": 1000,
+        "mMonitorHalfSize": 10.0,
+        "mMoveSpeedCoefSink": 1.0,
+        "mOffsetY_InWater": -10.0,
+        "mOnGeyserFrame": 180,
+        "mPathPlannableParams": {
+            "mEnableCoopAreaKeepOut": false,
+            "mEnableReachTarget": true,
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 80.0
+        },
+        "mRotInterpRatio": 0.15,
+        "mRotInterpType": "cRate",
+        "mRotSpeed": 0.1,
+        "mRotSpeedAcc": 0.0025,
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mTrackPaintableOffsetZ": -10.0,
+        "mTrackPaintableRadius": 25.0,
+        "mWaveMovableParams": {
+            "mWaveRadiusMax": 10.0,
+            "mWaveRadiusMin": 5.0,
+            "mWaveTimeMax": 150,
+            "mWaveTimeMin": 100
+        },
+        "mWeight": 10.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 0
+    }
+}

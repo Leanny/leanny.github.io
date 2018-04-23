@@ -1,0 +1,154 @@
+{
+    "ActorParams": {
+        "mActionSpeedMax": 3.0,
+        "mAirBallPosOffset": [
+            0.0,
+            40.0,
+            0.0
+        ],
+        "mBulletPunchParam": {
+            "mLifeCoef": 15.0,
+            "mOffsetY": 0.0,
+            "mSpeedCoef": 2.0,
+            "mUpdateRateEd": 0.5,
+            "mUpdateRateLerpBias": 0.2,
+            "mUpdateRateSt": 1.0
+        },
+        "mBulletSimpleParam": {
+            "mLifeCoef": 1.0,
+            "mOffsetY": 0.0,
+            "mSpeedCoef": 2.4,
+            "mUpdateRateEd": 0.1,
+            "mUpdateRateLerpBias": 0.2,
+            "mUpdateRateSt": 1.0
+        },
+        "mCheckKeepOutE": false,
+        "mDiePaintRadius": 120.0,
+        "mDieSplashRadius": 40.0,
+        "mEnemyPhysicsParams": {
+            "mGndColOffset": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "mGndColRadius": 16.0,
+            "mIsKeepoutE2Reject": false,
+            "mIsKeepoutEReject": false,
+            "mObjColCapsuleParams": {
+                "mObjColCapsuleParams[0]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 50.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "Body",
+                    "mOffset": [
+                        0.0,
+                        0.0,
+                        -25.0
+                    ],
+                    "mRadius": 22.0,
+                    "mRotate": [
+                        90.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "mObjColCapsuleParams[1]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 50.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "Body",
+                    "mOffset": [
+                        30.0,
+                        0.0,
+                        -25.0
+                    ],
+                    "mRadius": 22.0,
+                    "mRotate": [
+                        90.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "mObjColCapsuleParams[2]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 50.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "Body",
+                    "mOffset": [
+                        -30.0,
+                        0.0,
+                        -25.0
+                    ],
+                    "mRadius": 22.0,
+                    "mRotate": [
+                        90.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "mObjColCapsuleParams[3]": {
+                    "31592ae8": "cZakoEnemy",
+                    "mHeight": 45.0,
+                    "mIsBombBreak": false,
+                    "mNodeName": "Screw",
+                    "mOffset": [
+                        -5.0,
+                        0.0,
+                        0.0
+                    ],
+                    "mRadius": 14.0,
+                    "mRotate": [
+                        0.0,
+                        0.0,
+                        90.0
+                    ]
+                }
+            }
+        },
+        "mFootPaintCheckThreshold": 0.33,
+        "mGndColOffsetY": 0.0,
+        "mIsDroppable": true,
+        "mIsEnablePassClosePath": true,
+        "mKnockbackRollerCore": 1.0,
+        "mLastSpawnNum": 5,
+        "mLife": 15000,
+        "mLostIkuraIntervalFrame": 180,
+        "mLostIkuraNum": 1,
+        "mOffsetY_InWater": -10.0,
+        "mPathPlannableParams": {
+            "mEnableCoopAreaKeepOut": false,
+            "mEnableReachTarget": true,
+            "mReachDistanceXZ": 20.0,
+            "mReachDistanceY": 20.0
+        },
+        "mPrepareFrame": 300,
+        "mRadiusShotBulletSimplMax": 500.0,
+        "mRadiusShotBulletSimplMin": 100.0,
+        "mRailFollowableParams": {
+            "mDetectJamDistance": 20.0,
+            "mIsUseIsochronous": true,
+            "mSlowDownRateInJam": 0.1
+        },
+        "mReturnSpeed": 6.0,
+        "mScale": 1.0,
+        "mSearchBombSearchPosOffsetY": 0.0,
+        "mSearchableParams": {
+            "40071f38": "cPathDistance",
+            "mIsCheckCol": false
+        },
+        "mShotSecondBulletPunch": {
+            "50670de7": 70,
+            "9b3bde42": 20
+        },
+        "mSimpleShotInterval": 120,
+        "mSimpleShotNumMaxOnField": 10,
+        "mSuperMissileTargetPosOffset": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "mWeight": 1.0,
+        "mmLifeCure": false,
+        "mmLifeCurePerSecond": 100
+    }
+}
