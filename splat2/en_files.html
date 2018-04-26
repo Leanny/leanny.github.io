@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Splatoon 2 Data From 3.0.0 (partially)</title>
+		<title>Splatoon 2 Data From 3.0.0</title>
 		<link rel="stylesheet" type="text/css" href="wep.css">
 		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 		<style type="text/css">
@@ -25,22 +25,6 @@
 			$(function() {
 				$( "#tabs" ).tabs();
 			});
-
-			$.tablesorter.addParser({
-			  // set a unique id
-			  id: 'specials',
-			  is: function(s, table, cell, $cell) {
-				// return false so this parser is not auto detected
-				return false;
-			  },
-			  format: function(s, table, cell, cellIndex) {
-				// format your data for normalization
-				return s.split("").reverse().join("");
-			  },
-			  // set type, either numeric or text
-			  type: 'text'
-			});
-			
 			$(document).ready(function(){
 				$(".default_popup").colorbox({iframe:true, width:"500px", height:"400px"});
 				$("#table1").tablesorter({widgets: ['zebra'] }); 
@@ -80,7 +64,7 @@
 								<th>Image</th>
 								<th>Name</th>
 								<th>Sub</th>
-								<th class="sorter-specials">Special</th>
+								<th>Special</th>
 								<th>Level</th>
 								<th>Special Cost</th>
 								<th>Ink Saver Level</th>
@@ -120,6 +104,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_Normal_H.png" alt="Hero Shot Replica" /></td>
+								<td>Hero Shot Replica</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>2</td>
+								<td>200</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>1500</td>
+
+								<td>50</td>
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>45</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_00.png" alt="Splattershot" /></td>
 								<td>Splattershot</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
@@ -141,24 +146,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Normal_H.png" alt="Hero Shot Replica" /></td>
-								<td>Hero Shot Replica</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>2</td>
-								<td>200</td>
+								<td><img src="weapons/Wst_Charger_Normal_00.png" alt="Splat Charger" /></td>
+								<td>Splat Charger</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
+								<td>3</td>
+								<td>190</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>1500</td>
+								<td>2200</td>
 
+								<td>88</td>
+								<td>-</td>
 								<td>50</td>
-								<td>60</td>
 								<td>-</td>
 								<td>-</td>
+								<td>40</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>45</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -225,48 +230,6 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Normal_00.png" alt="Splat Charger" /></td>
-								<td>Splat Charger</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
-								<td>3</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>2200</td>
-
-								<td>88</td>
-								<td>-</td>
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>40</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_First_01.png" alt="Custom Splattershot Jr." /></td>
-								<td>Custom Splattershot Jr.</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>4</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>1900</td>
-
-								<td>35</td>
-								<td>75</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_01.png" alt="Tentatek Splattershot" /></td>
 								<td>Tentatek Splattershot</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
@@ -285,27 +248,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>45</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Twins_Normal_H.png" alt="Hero Dualie Replicas" /></td>
-								<td>Hero Dualie Replicas</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>4</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>3100</td>
-
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>29</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -330,87 +272,45 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Strong_00.png" alt="Slosher" /></td>
-								<td>Slosher</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="weapons/Wst_Twins_Normal_H.png" alt="Hero Dualie Replicas" /></td>
+								<td>Hero Dualie Replicas</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>5</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>2500</td>
-
-								<td>58</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>85</td>
-								<td>50</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_BrushMini_00.png" alt="Inkbrush" /></td>
-								<td>Inkbrush</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>5</td>
-								<td>160</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>2600</td>
-
-								<td>5</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>100</td>
-								<td>-</td>
-								<td>100</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Slosher_Strong_H.png" alt="Hero Slosher Replica" /></td>
-								<td>Hero Slosher Replica</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>5</td>
+								<td>4</td>
 								<td>180</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>3100</td>
 
-								<td>58</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>85</td>
 								<td>50</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterMiddle_00.png" alt="Blaster" /></td>
-								<td>Blaster</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Toxic Mist"/>Toxic Mist</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>5</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>3000</td>
-
-								<td>27</td>
-								<td>20</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>70</td>
 								<td>-</td>
+								<td>29</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_First_01.png" alt="Custom Splattershot Jr." /></td>
+								<td>Custom Splattershot Jr.</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+								<td>4</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>1900</td>
+
+								<td>35</td>
+								<td>75</td>
 								<td>-</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>22</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -435,6 +335,90 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_BrushMini_00.png" alt="Inkbrush" /></td>
+								<td>Inkbrush</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>5</td>
+								<td>160</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>2600</td>
+
+								<td>5</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>100</td>
+								<td>-</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterMiddle_00.png" alt="Blaster" /></td>
+								<td>Blaster</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Toxic Mist"/>Toxic Mist</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>5</td>
+								<td>190</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>3000</td>
+
+								<td>27</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Slosher_Strong_H.png" alt="Hero Slosher Replica" /></td>
+								<td>Hero Slosher Replica</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>5</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>3100</td>
+
+								<td>58</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>50</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Slosher_Strong_00.png" alt="Slosher" /></td>
+								<td>Slosher</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>5</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>2500</td>
+
+								<td>58</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>50</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Blaze_00.png" alt="Aerospray MG" /></td>
 								<td>Aerospray MG</td>
 								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
@@ -454,27 +438,6 @@
 								<td>-</td>
 								<td>10</td>
 								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_BrushMini_01.png" alt="Inkbrush Nouveau" /></td>
-								<td>Inkbrush Nouveau</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
-								<td>7</td>
-								<td>160</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>7000</td>
-
-								<td>5</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>100</td>
-								<td>-</td>
-								<td>100</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Roller_Compact_00.png" alt="Carbon Roller" /></td>
@@ -498,15 +461,36 @@
 								<td>65</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Spinner_Standard_H.png" alt="Hero Splatling Replica" /></td>
-								<td>Hero Splatling Replica</td>
+								<td><img src="weapons/Wst_Roller_BrushMini_01.png" alt="Inkbrush Nouveau" /></td>
+								<td>Inkbrush Nouveau</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+								<td>7</td>
+								<td>160</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>7000</td>
+
+								<td>5</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>100</td>
+								<td>-</td>
+								<td>100</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Spinner_Standard_00.png" alt="Heavy Splatling" /></td>
+								<td>Heavy Splatling</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
 								<td>8</td>
 								<td>200</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>8600</td>
+								<td>7800</td>
 
 								<td>78</td>
 								<td>-</td>
@@ -519,15 +503,15 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Spinner_Standard_00.png" alt="Heavy Splatling" /></td>
-								<td>Heavy Splatling</td>
+								<td><img src="weapons/Wst_Spinner_Standard_H.png" alt="Hero Splatling Replica" /></td>
+								<td>Hero Splatling Replica</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
 								<td>8</td>
 								<td>200</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>7800</td>
+								<td>8600</td>
 
 								<td>78</td>
 								<td>-</td>
@@ -582,27 +566,6 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Umbrella_Normal_H.png" alt="Hero Brella Replica" /></td>
-								<td>Hero Brella Replica</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>9</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9000</td>
-
-								<td>43</td>
-								<td>-</td>
-								<td>-</td>
-								<td>60</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>65</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_00.png" alt="Splat Brella" /></td>
 								<td>Splat Brella</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
@@ -624,46 +587,25 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="Splattershot Pro" /></td>
-								<td>Splattershot Pro</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
+								<td><img src="weapons/Wst_Umbrella_Normal_H.png" alt="Hero Brella Replica" /></td>
+								<td>Hero Brella Replica</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>10</td>
-								<td>170</td>
-								<td>High</td>
+								<td>9</td>
+								<td>190</td>
 								<td>Middle</td>
-								<td>13800</td>
+								<td>Middle</td>
+								<td>9000</td>
 
-								<td>70</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
+								<td>43</td>
 								<td>-</td>
 								<td>-</td>
 								<td>60</td>
 								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="Carbon Roller Deco" /></td>
-								<td>Carbon Roller Deco</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
-								<td><img src="subspe/Wsp_LauncherRobo.png" alt="Autobomb Launcher"/>Autobomb Launcher</td>
-								<td>10</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>8500</td>
-
-								<td>20</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>63</td>
 								<td>-</td>
 								<td>65</td>
+								<td>-</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Shooter_Short_00.png" alt="Sploosh-o-matic" /></td>
@@ -687,6 +629,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_BrushNormal_00.png" alt="Octobrush" /></td>
+								<td>Octobrush</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
+								<td><img src="subspe/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
+								<td>10</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>8200</td>
+
+								<td>23</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>85</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushNormal_H.png" alt="Herobrush Replica" /></td>
 								<td>Herobrush Replica</td>
 								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
@@ -708,25 +671,46 @@
 								<td>85</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_BrushNormal_00.png" alt="Octobrush" /></td>
-								<td>Octobrush</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
-								<td><img src="subspe/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
+								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="Carbon Roller Deco" /></td>
+								<td>Carbon Roller Deco</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
+								<td><img src="subspe/Wsp_LauncherRobo.png" alt="Autobomb Launcher"/>Autobomb Launcher</td>
 								<td>10</td>
-								<td>180</td>
+								<td>190</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>8200</td>
+								<td>High</td>
+								<td>8500</td>
 
-								<td>23</td>
+								<td>20</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>80</td>
+								<td>63</td>
 								<td>-</td>
-								<td>85</td>
+								<td>65</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="Splattershot Pro" /></td>
+								<td>Splattershot Pro</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+								<td>10</td>
+								<td>170</td>
+								<td>High</td>
+								<td>Middle</td>
+								<td>13800</td>
+
+								<td>70</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_01.png" alt="Enperry Splat Dualies" /></td>
@@ -771,6 +755,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Normal_01.png" alt="Krak-On Splat Roller" /></td>
+								<td>Krak-On Splat Roller</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+								<td>12</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>9200</td>
+
+								<td>48</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>45</td>
+								<td>-</td>
+								<td>55</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Twins_Dual_00.png" alt="Dualie Squelchers" /></td>
 								<td>Dualie Squelchers</td>
 								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
@@ -789,6 +794,27 @@
 								<td>70</td>
 								<td>-</td>
 								<td>22</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Quick_00.png" alt="Classic Squiffer" /></td>
+								<td>Classic Squiffer</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
+								<td>12</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>8900</td>
+
+								<td>75</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -813,45 +839,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_Normal_01.png" alt="Krak-On Splat Roller" /></td>
-								<td>Krak-On Splat Roller</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
-								<td>12</td>
-								<td>180</td>
+								<td><img src="weapons/Wst_Umbrella_Compact_00.png" alt="Undercover Brella" /></td>
+								<td>Undercover Brella</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>13</td>
+								<td>160</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>9200</td>
+								<td>High</td>
+								<td>9100</td>
 
-								<td>48</td>
+								<td>50</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>45</td>
-								<td>-</td>
-								<td>55</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Quick_00.png" alt="Classic Squiffer" /></td>
-								<td>Classic Squiffer</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
-								<td>12</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>8900</td>
-
-								<td>75</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>60</td>
-								<td>-</td>
-								<td>-</td>
+								<td>30</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -897,24 +902,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Umbrella_Compact_00.png" alt="Undercover Brella" /></td>
-								<td>Undercover Brella</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>13</td>
-								<td>160</td>
+								<td><img src="weapons/Wst_Shooter_BlasterLong_00.png" alt="Range Blaster" /></td>
+								<td>Range Blaster</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+								<td>14</td>
+								<td>200</td>
 								<td>Middle</td>
-								<td>High</td>
-								<td>9100</td>
+								<td>Middle</td>
+								<td>9300</td>
 
-								<td>50</td>
+								<td>56</td>
+								<td>10</td>
 								<td>-</td>
 								<td>-</td>
-								<td>25</td>
+								<td>70</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>30</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -960,27 +965,6 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLong_00.png" alt="Range Blaster" /></td>
-								<td>Range Blaster</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>14</td>
-								<td>200</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9300</td>
-
-								<td>56</td>
-								<td>10</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Slosher_Diffusion_00.png" alt="Tri-Slosher" /></td>
 								<td>Tri-Slosher</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
@@ -1000,27 +984,6 @@
 								<td>-</td>
 								<td>75</td>
 								<td>70</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="Octobrush Nouveau" /></td>
-								<td>Octobrush Nouveau</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>15</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9900</td>
-
-								<td>23</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
-								<td>-</td>
-								<td>85</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_01.png" alt="Sorella Brella" /></td>
@@ -1044,6 +1007,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="Octobrush Nouveau" /></td>
+								<td>Octobrush Nouveau</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>15</td>
+								<td>170</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>9900</td>
+
+								<td>23</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>85</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Charger_NormalScope_00.png" alt="Splatterscope" /></td>
 								<td>Splatterscope</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
@@ -1065,24 +1049,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLight_01.png" alt="Rapid Blaster Deco" /></td>
-								<td>Rapid Blaster Deco</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
+								<td><img src="weapons/Wst_Twins_Dual_01.png" alt="Custom Dualie Squelchers" /></td>
+								<td>Custom Dualie Squelchers</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
 								<td>16</td>
-								<td>180</td>
+								<td>190</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>11500</td>
+								<td>12900</td>
 
-								<td>62</td>
-								<td>40</td>
-								<td>-</td>
-								<td>-</td>
-								<td>35</td>
+								<td>70</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>22</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1128,87 +1112,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Twins_Dual_01.png" alt="Custom Dualie Squelchers" /></td>
-								<td>Custom Dualie Squelchers</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>16</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>12900</td>
-
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Quick_01.png" alt="New Squiffer" /></td>
-								<td>New Squiffer</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
-								<td>17</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>11000</td>
-
-								<td>75</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>60</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Twins_Gallon_00.png" alt="Glooga Dualies" /></td>
-								<td>Glooga Dualies</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="weapons/Wst_Shooter_BlasterLight_01.png" alt="Rapid Blaster Deco" /></td>
+								<td>Rapid Blaster Deco</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
-								<td>17</td>
+								<td>16</td>
 								<td>180</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>11800</td>
+								<td>11500</td>
 
 								<td>62</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>35</td>
-								<td>-</td>
-								<td>76</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Long_00.png" alt="Jet Squelcher" /></td>
-								<td>Jet Squelcher</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="Toxic Mist"/>Toxic Mist</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>17</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>11300</td>
-
-								<td>82</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
+								<td>40</td>
 								<td>-</td>
 								<td>-</td>
 								<td>35</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1233,6 +1154,69 @@
 								<td>70</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Charger_Quick_01.png" alt="New Squiffer" /></td>
+								<td>New Squiffer</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+								<td>17</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>11000</td>
+
+								<td>75</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_Long_00.png" alt="Jet Squelcher" /></td>
+								<td>Jet Squelcher</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="Toxic Mist"/>Toxic Mist</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>17</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>11300</td>
+
+								<td>82</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Twins_Gallon_00.png" alt="Glooga Dualies" /></td>
+								<td>Glooga Dualies</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="subspe/Wsp_Jetpack.png" alt="Inkjet"/>Inkjet</td>
+								<td>17</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>11800</td>
+
+								<td>66</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>76</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLong_01.png" alt="Custom Range Blaster" /></td>
 								<td>Custom Range Blaster</td>
 								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
@@ -1249,27 +1233,6 @@
 								<td>-</td>
 								<td>70</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Light_00.png" alt="Bamboozler 14 Mk I" /></td>
-								<td>Bamboozler 14 Mk I</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>18</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>9500</td>
-
-								<td>78</td>
-								<td>-</td>
-								<td>90</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -1317,6 +1280,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Charger_Light_00.png" alt="Bamboozler 14 Mk I" /></td>
+								<td>Bamboozler 14 Mk I</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>18</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>9500</td>
+
+								<td>78</td>
+								<td>-</td>
+								<td>90</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Umbrella_Compact_01.png" alt="Undercover Sorella Brella" /></td>
 								<td>Undercover Sorella Brella</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
@@ -1335,6 +1319,27 @@
 								<td>-</td>
 								<td>-</td>
 								<td>30</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterShort_00.png" alt="Luna Blaster" /></td>
+								<td>Luna Blaster</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
+								<td>19</td>
+								<td>180</td>
+								<td>High</td>
+								<td>Middle</td>
+								<td>12100</td>
+
+								<td>9</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1359,22 +1364,43 @@
 								<td>40</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterShort_00.png" alt="Luna Blaster" /></td>
-								<td>Luna Blaster</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="Baller"/>Baller</td>
-								<td>19</td>
-								<td>180</td>
+								<td><img src="weapons/Wst_Shooter_Expert_01.png" alt="Forge Splattershot Pro" /></td>
+								<td>Forge Splattershot Pro</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
+								<td>20</td>
+								<td>200</td>
 								<td>High</td>
 								<td>Middle</td>
-								<td>12100</td>
+								<td>20800</td>
 
-								<td>9</td>
+								<td>70</td>
 								<td>30</td>
 								<td>-</td>
 								<td>-</td>
-								<td>70</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Long_00.png" alt="E-liter 4K" /></td>
+								<td>E-liter 4K</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
+								<td>20</td>
+								<td>170</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>13900</td>
+
+								<td>96</td>
+								<td>-</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>15</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -1401,45 +1427,24 @@
 								<td>20</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Long_00.png" alt="E-liter 4K" /></td>
-								<td>E-liter 4K</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="Ink Storm"/>Ink Storm</td>
-								<td>20</td>
-								<td>170</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>13900</td>
-
-								<td>96</td>
-								<td>-</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>15</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Expert_01.png" alt="Forge Splattershot Pro" /></td>
-								<td>Forge Splattershot Pro</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
-								<td>20</td>
-								<td>200</td>
-								<td>High</td>
+								<td><img src="weapons/Wst_Shooter_Heavy_00.png" alt=".96 Gal" /></td>
+								<td>.96 Gal</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
+								<td>21</td>
+								<td>190</td>
 								<td>Middle</td>
-								<td>20800</td>
+								<td>Middle</td>
+								<td>12600</td>
 
 								<td>70</td>
-								<td>30</td>
+								<td>10</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>60</td>
+								<td>80</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1485,24 +1490,24 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Heavy_00.png" alt=".96 Gal" /></td>
-								<td>.96 Gal</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="Sprinkler"/>Sprinkler</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
-								<td>21</td>
-								<td>190</td>
+								<td><img src="weapons/Wst_Charger_Keeper_00.png" alt="Goo Tuber" /></td>
+								<td>Goo Tuber</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>22</td>
+								<td>160</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>12600</td>
+								<td>13400</td>
 
+								<td>78</td>
+								<td>-</td>
+								<td>38</td>
+								<td>-</td>
+								<td>-</td>
 								<td>70</td>
-								<td>10</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1524,27 +1529,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>75</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Keeper_00.png" alt="Goo Tuber" /></td>
-								<td>Goo Tuber</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>22</td>
-								<td>160</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>13400</td>
-
-								<td>78</td>
-								<td>-</td>
-								<td>38</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1590,6 +1574,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Spinner_Quick_00.png" alt="Mini Splatling" /></td>
+								<td>Mini Splatling</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>23</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>12300</td>
+
+								<td>62</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>-</td>
+								<td>90</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Umbrella_Wide_00.png" alt="Tenta Brella" /></td>
 								<td>Tenta Brella</td>
 								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
@@ -1611,25 +1616,25 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Spinner_Quick_00.png" alt="Mini Splatling" /></td>
-								<td>Mini Splatling</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>23</td>
-								<td>180</td>
+								<td><img src="weapons/Wst_Roller_Hunter_00.png" alt="Flingza Roller" /></td>
+								<td>Flingza Roller</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Splash Wall"/>Splash Wall</td>
+								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Splat-Bomb Launcher"/>Splat-Bomb Launcher</td>
+								<td>24</td>
+								<td>190</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>12300</td>
+								<td>15700</td>
 
-								<td>62</td>
-								<td>-</td>
-								<td>80</td>
-								<td>-</td>
-								<td>-</td>
-								<td>90</td>
+								<td>58</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>45</td>
+								<td>-</td>
+								<td>45</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterShort_01.png" alt="Luna Blaster Neo" /></td>
@@ -1663,7 +1668,7 @@
 								<td>Middle</td>
 								<td>13700</td>
 
-								<td>62</td>
+								<td>66</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -1672,27 +1677,6 @@
 								<td>-</td>
 								<td>76</td>
 								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_Hunter_00.png" alt="Flingza Roller" /></td>
-								<td>Flingza Roller</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Splash Wall"/>Splash Wall</td>
-								<td><img src="subspe/Wsp_LauncherSplash.png" alt="Splat-Bomb Launcher"/>Splat-Bomb Launcher</td>
-								<td>24</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>15700</td>
-
-								<td>58</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>45</td>
-								<td>-</td>
-								<td>45</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightLong_01.png" alt="Rapid Blaster Pro Deco" /></td>
@@ -1713,27 +1697,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Flash_01.png" alt="Foil Squeezer" /></td>
-								<td>Foil Squeezer</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
-								<td>25</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>10900</td>
-
-								<td>77</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>52</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1800,6 +1763,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_Flash_01.png" alt="Foil Squeezer" /></td>
+								<td>Foil Squeezer</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
+								<td>25</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>10900</td>
+
+								<td>77</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>52</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_01.png" alt="Zink Mini Splatling " /></td>
 								<td>Zink Mini Splatling </td>
 								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
@@ -1818,48 +1802,6 @@
 								<td>90</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Long_01.png" alt="Custom E-liter 4K" /></td>
-								<td>Custom E-liter 4K</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
-								<td>26</td>
-								<td>170</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>17300</td>
-
-								<td>96</td>
-								<td>-</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>15</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Twins_Short_00.png" alt="Dapple Dualies" /></td>
-								<td>Dapple Dualies</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="Suction-Bomb Launcher"/>Suction-Bomb Launcher</td>
-								<td>26</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>14700</td>
-
-								<td>24</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
-								<td>-</td>
-								<td>47</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1884,6 +1826,48 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Twins_Short_00.png" alt="Dapple Dualies" /></td>
+								<td>Dapple Dualies</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="Suction-Bomb Launcher"/>Suction-Bomb Launcher</td>
+								<td>26</td>
+								<td>180</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>14700</td>
+
+								<td>24</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>47</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Long_01.png" alt="Custom E-liter 4K" /></td>
+								<td>Custom E-liter 4K</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="Bubble Blower"/>Bubble Blower</td>
+								<td>26</td>
+								<td>170</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>17300</td>
+
+								<td>96</td>
+								<td>-</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>15</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Precision_01.png" alt="Neo Splash-o-matic" /></td>
 								<td>Neo Splash-o-matic</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
@@ -1902,27 +1886,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Spinner_Hyper_00.png" alt="Hydra Splatling" /></td>
-								<td>Hydra Splatling</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
-								<td>27</td>
-								<td>190</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>18500</td>
-
-								<td>85</td>
-								<td>-</td>
-								<td>10</td>
-								<td>-</td>
-								<td>-</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1947,6 +1910,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Spinner_Hyper_00.png" alt="Hydra Splatling" /></td>
+								<td>Hydra Splatling</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="Autobomb"/>Autobomb</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="Splashdown"/>Splashdown</td>
+								<td>27</td>
+								<td>190</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>18500</td>
+
+								<td>85</td>
+								<td>-</td>
+								<td>10</td>
+								<td>-</td>
+								<td>-</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Long_01.png" alt="Custom Jet Squelcher" /></td>
 								<td>Custom Jet Squelcher</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="Burst Bomb"/>Burst Bomb</td>
@@ -1966,48 +1950,6 @@
 								<td>-</td>
 								<td>35</td>
 								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Umbrella_Wide_01.png" alt="Tenta Sorella Brella" /></td>
-								<td>Tenta Sorella Brella</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="Splash Wall"/>Splash Wall</td>
-								<td><img src="subspe/Wsp_LauncherCurling.png" alt="Curling-Bomb Launcher"/>Curling-Bomb Launcher</td>
-								<td>28</td>
-								<td>180</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>18600</td>
-
-								<td>62</td>
-								<td>-</td>
-								<td>-</td>
-								<td>85</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>85</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_Hunter_01.png" alt="Foil Flingza Roller" /></td>
-								<td>Foil Flingza Roller</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>28</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>21300</td>
-
-								<td>58</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>45</td>
-								<td>-</td>
-								<td>45</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Charger_Keeper_01.png" alt="Custom Goo Tuber" /></td>
@@ -2052,6 +1994,48 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Hunter_01.png" alt="Foil Flingza Roller" /></td>
+								<td>Foil Flingza Roller</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="Suction Bomb"/>Suction Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>28</td>
+								<td>190</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>21300</td>
+
+								<td>58</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>45</td>
+								<td>-</td>
+								<td>45</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Umbrella_Wide_01.png" alt="Tenta Sorella Brella" /></td>
+								<td>Tenta Sorella Brella</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="Splash Wall"/>Splash Wall</td>
+								<td><img src="subspe/Wsp_LauncherCurling.png" alt="Curling-Bomb Launcher"/>Curling-Bomb Launcher</td>
+								<td>28</td>
+								<td>180</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>18600</td>
+
+								<td>62</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleMiddle_00.png" alt="H-3 Nozzlenose" /></td>
 								<td>H-3 Nozzlenose</td>
 								<td><img src="subspe/Wsb_PointSensor.png" alt="Point Sensor"/>Point Sensor</td>
@@ -2070,27 +2054,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>58</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Spinner_Hyper_01.png" alt="Custom Hydra Splatling" /></td>
-								<td>Custom Hydra Splatling</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
-								<td>29</td>
-								<td>180</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>33300</td>
-
-								<td>85</td>
-								<td>-</td>
-								<td>10</td>
-								<td>-</td>
-								<td>-</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -2115,6 +2078,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Spinner_Hyper_01.png" alt="Custom Hydra Splatling" /></td>
+								<td>Custom Hydra Splatling</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="Ink Mine"/>Ink Mine</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="Ink Armor"/>Ink Armor</td>
+								<td>29</td>
+								<td>180</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>33300</td>
+
+								<td>85</td>
+								<td>-</td>
+								<td>10</td>
+								<td>-</td>
+								<td>-</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Charger_LongScope_01.png" alt="Custom E-liter 4K Scope" /></td>
 								<td>Custom E-liter 4K Scope</td>
 								<td><img src="subspe/Wsb_Flag.png" alt="Squid Beakon"/>Squid Beakon</td>
@@ -2131,48 +2115,6 @@
 								<td>-</td>
 								<td>-</td>
 								<td>5</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLightShort_00.png" alt="Clash Blaster" /></td>
-								<td>Clash Blaster</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
-								<td>30</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>18200</td>
-
-								<td>21</td>
-								<td>65</td>
-								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLightShort_01.png" alt="Clash Blaster Neo" /></td>
-								<td>Clash Blaster Neo</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
-								<td>30</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>20500</td>
-
-								<td>21</td>
-								<td>65</td>
-								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -2217,6 +2159,48 @@
 								<td>-</td>
 								<td>-</td>
 								<td>58</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLightShort_00.png" alt="Clash Blaster" /></td>
+								<td>Clash Blaster</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="Splat Bomb"/>Splat Bomb</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="Sting Ray"/>Sting Ray</td>
+								<td>30</td>
+								<td>170</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>18200</td>
+
+								<td>21</td>
+								<td>65</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLightShort_01.png" alt="Clash Blaster Neo" /></td>
+								<td>Clash Blaster Neo</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="Curling Bomb"/>Curling Bomb</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="Tenta Missiles"/>Tenta Missiles</td>
+								<td>30</td>
+								<td>170</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>20500</td>
+
+								<td>21</td>
+								<td>65</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 							</tr>
 						</tbody>					</table>
@@ -2395,6 +2379,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_CAP004.png" alt="Squid-Stitch Cap" /></td>
+								<td>Squid-Stitch Cap</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_CAP005.png" alt="Squidvader Cap" /></td>
 								<td>Squidvader Cap</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
@@ -2414,6 +2405,13 @@
 								<td><img src="skills/ComeBack.png"/>Comeback</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_CAP008.png" alt="Zekko Mesh" /></td>
+								<td>Zekko Mesh</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Hed_CAP009.png" alt="Backwards Cap" /></td>
@@ -2451,6 +2449,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_CAP018.png" alt="Long-Billed Cap" /></td>
+								<td>Long-Billed Cap</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_CAP019.png" alt="King Flip Mesh" /></td>
 								<td>King Flip Mesh</td>
 								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
@@ -2486,6 +2491,27 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_CAP025.png" alt="Blowfish Newsie" /></td>
+								<td>Blowfish Newsie</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_CAP026.png" alt="Do-Rag, Cap, & Glasses" /></td>
+								<td>Do-Rag, Cap, & Glasses</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_CAP027.png" alt="Pilot Hat" /></td>
+								<td>Pilot Hat</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_NCP000.png" alt="Bobble Hat" /></td>
 								<td>Bobble Hat</td>
 								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
@@ -2518,6 +2544,13 @@
 								<td>Special Forces Beret</td>
 								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
 								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_NCP005.png" alt="Squid Nordic" /></td>
+								<td>Squid Nordic</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
 								<td>3</td>
 							</tr>
 							<tr>
@@ -2591,6 +2624,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_EYE006.png" alt="White Arrowbands" /></td>
+								<td>White Arrowbands</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_EYE007.png" alt="Fake Contacts" /></td>
 								<td>Fake Contacts</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
@@ -2612,6 +2652,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_EYE010.png" alt="Octoglasses" /></td>
+								<td>Octoglasses</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_EYE011.png" alt="Half-Rim Glasses" /></td>
 								<td>Half-Rim Glasses</td>
 								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
@@ -2624,6 +2671,48 @@
 								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE013.png" alt="Zekko Cap" /></td>
+								<td>Zekko Cap</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE014.png" alt="SV925 Circle Shades" /></td>
+								<td>SV925 Circle Shades</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE015.png" alt="Annaki Beret & Glasses" /></td>
+								<td>Annaki Beret & Glasses</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE016.png" alt="Swim Goggles" /></td>
+								<td>Swim Goggles</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE017.png" alt="Ink-Guard Goggles" /></td>
+								<td>Ink-Guard Goggles</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_EYE018.png" alt="Toni Kensa Goggles" /></td>
+								<td>Toni Kensa Goggles</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Hed_HAT000.png" alt="Safari Hat" /></td>
@@ -2710,6 +2799,27 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_HAT012.png" alt="Seashell Bamboo Hat" /></td>
+								<td>Seashell Bamboo Hat</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_HAT013.png" alt="Hothouse Hat" /></td>
+								<td>Hothouse Hat</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_HAT014.png" alt="Mountie Hat" /></td>
+								<td>Mountie Hat</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_HDP000.png" alt="Studio Headphones" /></td>
 								<td>Studio Headphones</td>
 								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
@@ -2750,6 +2860,13 @@
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B98.png"/>Cuttlegear</td>
 								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_VIS000.png" alt="Golf Visor" /></td>
+								<td>Golf Visor</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Hed_VIS001.png" alt="FishFry Visor" /></td>
@@ -2829,9 +2946,30 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_MET009.png" alt="Octo Tackle Helmet Deco" /></td>
+								<td>Octo Tackle Helmet Deco</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_MET010.png" alt="Moist Ghillie Helmet" /></td>
 								<td>Moist Ghillie Helmet</td>
 								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_MET011.png" alt="Deca Tackle Visor Helmet" /></td>
+								<td>Deca Tackle Visor Helmet</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_MSK000.png" alt="Gas Mask" /></td>
+								<td>Gas Mask</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
 								<td><img src="brands/B05.png"/>Forge</td>
 								<td>3</td>
 							</tr>
@@ -2871,6 +3009,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_MSK006.png" alt="Octoking Facemask" /></td>
+								<td>Octoking Facemask</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_MSK007.png" alt="Squid Facemask" /></td>
 								<td>Squid Facemask</td>
 								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
@@ -2906,6 +3051,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_MSK012.png" alt="Digi-Camo Forge Mask" /></td>
+								<td>Digi-Camo Forge Mask</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_HBD001.png" alt="B-ball Headband" /></td>
 								<td>B-ball Headband</td>
 								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
@@ -2927,6 +3079,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Hed_HBD004.png" alt="Jogging Headband" /></td>
+								<td>Jogging Headband</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Hed_HBD005.png" alt="Soccer Headband" /></td>
 								<td>Soccer Headband</td>
 								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
@@ -2937,6 +3096,13 @@
 								<td><img src="gear/Hed_HBD007.png" alt="FishFry Biscuit Bandana" /></td>
 								<td>FishFry Biscuit Bandana</td>
 								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Hed_HBD008.png" alt="Black FishFry Bandana" /></td>
+								<td>Black FishFry Bandana</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
 								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>1</td>
 							</tr>
@@ -3098,6 +3264,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TES005.png" alt="Rockenberg Black" /></td>
+								<td>Rockenberg Black</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TES006.png" alt="Black Tee" /></td>
 								<td>Black Tee</td>
 								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
@@ -3154,10 +3327,31 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TES014.png" alt="Gray Vector Tee" /></td>
+								<td>Gray Vector Tee</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TES015.png" alt="Blue Peaks Tee" /></td>
 								<td>Blue Peaks Tee</td>
 								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES016.png" alt="Ivory Peaks Tee" /></td>
+								<td>Ivory Peaks Tee</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES017.png" alt="Squid-Stitch Tee" /></td>
+								<td>Squid-Stitch Tee</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
 								<td>1</td>
 							</tr>
 							<tr>
@@ -3214,6 +3408,20 @@
 								<td>Pearl Tee</td>
 								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
 								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES028.png" alt="Octo Tee" /></td>
+								<td>Octo Tee</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES029.png" alt="Herbivore Tee" /></td>
+								<td>Herbivore Tee</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>1</td>
 							</tr>
 							<tr>
@@ -3336,6 +3544,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TES047.png" alt="Annaki Polpo-Pic Tee" /></td>
+								<td>Annaki Polpo-Pic Tee</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TES048.png" alt="Firewave Tee" /></td>
 								<td>Firewave Tee</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
@@ -3357,6 +3572,27 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TES051.png" alt="Missus Shrug Tee" /></td>
+								<td>Missus Shrug Tee</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES052.png" alt="League Tee" /></td>
+								<td>League Tee</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES053.png" alt="Friend Tee" /></td>
+								<td>Friend Tee</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TES054.png" alt="Tentatek Slogan Tee" /></td>
 								<td>Tentatek Slogan Tee</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
@@ -3369,6 +3605,48 @@
 								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
 								<td><img src="brands/B07.png"/>Skalop</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES056.png" alt="Octoking HK Jersey" /></td>
+								<td>Octoking HK Jersey</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES057.png" alt="Dakro Nana Tee" /></td>
+								<td>Dakro Nana Tee</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES058.png" alt="Dakro Golden Tee" /></td>
+								<td>Dakro Golden Tee</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES059.png" alt="Black Velour Octoking Tee " /></td>
+								<td>Black Velour Octoking Tee </td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES060.png" alt="Green Velour Octoking Tee" /></td>
+								<td>Green Velour Octoking Tee</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TES061.png" alt="SWC Logo Tee" /></td>
+								<td>SWC Logo Tee</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>3</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_TEL000.png" alt="White Striped LS" /></td>
@@ -3427,6 +3705,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TEL008.png" alt="White LS" /></td>
+								<td>White LS</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TEL009.png" alt="Green Striped LS" /></td>
 								<td>Green Striped LS</td>
 								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
@@ -3438,6 +3723,20 @@
 								<td>Squidmark LS</td>
 								<td><img src="skills/DeathMarking.png"/>Haunt</td>
 								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL011.png" alt="Zink LS" /></td>
+								<td>Zink LS</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL012.png" alt="Striped Peaks LS" /></td>
+								<td>Striped Peaks LS</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>1</td>
 							</tr>
 							<tr>
@@ -3490,6 +3789,41 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TEL020.png" alt="Black Cuttlegear LS" /></td>
+								<td>Black Cuttlegear LS</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL021.png" alt="Takoroka Crazy Baseball LS" /></td>
+								<td>Takoroka Crazy Baseball LS</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL022.png" alt="Red Cuttlegear LS" /></td>
+								<td>Red Cuttlegear LS</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL023.png" alt="Khaki 16-Bit FishFry" /></td>
+								<td>Khaki 16-Bit FishFry</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TEL024.png" alt="Blue 16-Bit FishFry" /></td>
+								<td>Blue 16-Bit FishFry</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TLY000.png" alt="White Layered LS" /></td>
 								<td>White Layered LS</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
@@ -3500,6 +3834,20 @@
 								<td><img src="gear/Clt_TLY001.png" alt="Yellow Layered LS" /></td>
 								<td>Yellow Layered LS</td>
 								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TLY002.png" alt="Camo Layered LS" /></td>
+								<td>Camo Layered LS</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_TLY003.png" alt="Black Layered LS" /></td>
+								<td>Black Layered LS</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
 								<td><img src="brands/B00.png"/>SquidForce</td>
 								<td>1</td>
 							</tr>
@@ -3567,11 +3915,25 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TLY013.png" alt="Squid Yellow Layered LS" /></td>
+								<td>Squid Yellow Layered LS</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_PLO000.png" alt="Shrimp-Pink Polo" /></td>
 								<td>Shrimp-Pink Polo</td>
 								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
 								<td><img src="brands/B08.png"/>Splash Mob</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_PLO001.png" alt="Striped Rugby" /></td>
+								<td>Striped Rugby</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_PLO002.png" alt="Tricolor Rugby" /></td>
@@ -3658,6 +4020,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_JKT005.png" alt="Green Cardigan" /></td>
+								<td>Green Cardigan</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_JKT006.png" alt="Black Inky Rider" /></td>
 								<td>Black Inky Rider</td>
 								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
@@ -3672,6 +4041,13 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_JKT008.png" alt="Retro Gamer Jersey" /></td>
+								<td>Retro Gamer Jersey</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_JKT009.png" alt="Orange Cardigan" /></td>
 								<td>Orange Cardigan</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
@@ -3682,6 +4058,13 @@
 								<td><img src="gear/Clt_JKT010.png" alt="Forge Inkling Parka" /></td>
 								<td>Forge Inkling Parka</td>
 								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT011.png" alt="Forge Octarian Jacket" /></td>
+								<td>Forge Octarian Jacket</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
 								<td><img src="brands/B05.png"/>Forge</td>
 								<td>2</td>
 							</tr>
@@ -3777,6 +4160,13 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_JKT025.png" alt="Deep-Octo Satin Jacket" /></td>
+								<td>Deep-Octo Satin Jacket</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_JKT026.png" alt="Zekko Redleaf Coat" /></td>
 								<td>Zekko Redleaf Coat</td>
 								<td><img src="skills/DeathMarking.png"/>Haunt</td>
@@ -3861,6 +4251,48 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_JKT038.png" alt="White Leather F-3" /></td>
+								<td>White Leather F-3</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT039.png" alt="Chili-Pepper Ski Jacket" /></td>
+								<td>Chili-Pepper Ski Jacket</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT040.png" alt="Whale-Knit Sweater" /></td>
+								<td>Whale-Knit Sweater</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT041.png" alt="Rockin' Leather Jacket" /></td>
+								<td>Rockin' Leather Jacket</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT042.png" alt="Kung-Fu Zip-Up" /></td>
+								<td>Kung-Fu Zip-Up</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_JKT043.png" alt="Panda Kung-Fu Zip-Up" /></td>
+								<td>Panda Kung-Fu Zip-Up</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_TNK000.png" alt="B-ball Jersey (Home)" /></td>
 								<td>B-ball Jersey (Home)</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
@@ -3896,6 +4328,13 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_TNK006.png" alt="Lob-Stars Jersey" /></td>
+								<td>Lob-Stars Jersey</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_SWT000.png" alt="Gray College Sweat" /></td>
 								<td>Gray College Sweat</td>
 								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
@@ -3922,6 +4361,13 @@
 								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
 								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SWT004.png" alt="Navy College Sweat" /></td>
+								<td>Navy College Sweat</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_SWT005.png" alt="Reel Sweat" /></td>
@@ -3966,6 +4412,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_SWT011.png" alt="Annaki Yellow Cuff" /></td>
+								<td>Annaki Yellow Cuff</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_SWT012.png" alt="Annaki Red Cuff" /></td>
 								<td>Annaki Red Cuff</td>
 								<td><img src="skills/DeathMarking.png"/>Haunt</td>
@@ -3977,6 +4430,20 @@
 								<td>N-Pacer Sweat</td>
 								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
 								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SWT014.png" alt="Octarian Retro" /></td>
+								<td>Octarian Retro</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SWT015.png" alt="Takoroka Jersey" /></td>
+								<td>Takoroka Jersey</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
 								<td>3</td>
 							</tr>
 							<tr>
@@ -4020,6 +4487,13 @@
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B05.png"/>Forge</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SHT006.png" alt="Red-Check Shirt" /></td>
+								<td>Red-Check Shirt</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_SHT007.png" alt="Baby-Jelly Shirt" /></td>
@@ -4134,9 +4608,51 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_SHT024.png" alt="Chili Octo Aloha" /></td>
+								<td>Chili Octo Aloha</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SHT025.png" alt="Annaki Flannel Hoodie" /></td>
+								<td>Annaki Flannel Hoodie</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SHT026.png" alt="Ink-Wash Shirt" /></td>
+								<td>Ink-Wash Shirt</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SHT027.png" alt="Dots-On-Dots Shirt" /></td>
+								<td>Dots-On-Dots Shirt</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_SHT028.png" alt="Toni K. Baseball Jersey" /></td>
+								<td>Toni K. Baseball Jersey</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_VST000.png" alt="Mountain Vest" /></td>
 								<td>Mountain Vest</td>
 								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_VST001.png" alt="Forest Vest" /></td>
+								<td>Forest Vest</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>3</td>
 							</tr>
@@ -4153,6 +4669,13 @@
 								<td><img src="skills/DeathMarking.png"/>Haunt</td>
 								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_VST004.png" alt="Squid-Pattern Waistcoat" /></td>
+								<td>Squid-Pattern Waistcoat</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_VST005.png" alt="Squidstar Waistcoat" /></td>
@@ -4173,6 +4696,13 @@
 								<td>Front Zip Vest</td>
 								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
 								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_VST009.png" alt="Silver Tentatek Vest" /></td>
+								<td>Silver Tentatek Vest</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>2</td>
 							</tr>
 							<tr>
@@ -4218,6 +4748,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Clt_PRK007.png" alt="Hothouse Hoodie" /></td>
+								<td>Hothouse Hoodie</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Clt_PRK008.png" alt="Pink Hoodie" /></td>
 								<td>Pink Hoodie</td>
 								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
@@ -4229,6 +4766,13 @@
 								<td>Olive Zekko Parka</td>
 								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Clt_PRK010.png" alt="Black Hoodie" /></td>
+								<td>Black Hoodie</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
 								<td>2</td>
 							</tr>
 							<tr>
@@ -4368,10 +4912,31 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SLO001.png" alt="Banana Basics" /></td>
+								<td>Banana Basics</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO002.png" alt="LE Lo-Tops" /></td>
+								<td>LE Lo-Tops</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_SLO003.png" alt="White Seahorses" /></td>
 								<td>White Seahorses</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO004.png" alt="Orange Lo-Tops" /></td>
+								<td>Orange Lo-Tops</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>1</td>
 							</tr>
 							<tr>
@@ -4387,6 +4952,13 @@
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
 								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO007.png" alt="Yellow Seahorses" /></td>
+								<td>Yellow Seahorses</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_SLO008.png" alt="Strapping Whites" /></td>
@@ -4452,6 +5024,34 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SLO017.png" alt="Suede Gray Lace-Ups" /></td>
+								<td>Suede Gray Lace-Ups</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO018.png" alt="Suede Nation Lace-Ups" /></td>
+								<td>Suede Nation Lace-Ups</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO019.png" alt="Suede Marine Lace-Ups" /></td>
+								<td>Suede Marine Lace-Ups</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SLO020.png" alt="Toni Kensa Soccer Shoes" /></td>
+								<td>Toni Kensa Soccer Shoes</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_SHI000.png" alt="Red Hi-Horses" /></td>
 								<td>Red Hi-Horses</td>
 								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
@@ -4463,6 +5063,13 @@
 								<td>Zombie Hi-Horses</td>
 								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
 								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI002.png" alt="Cream Hi-Tops" /></td>
+								<td>Cream Hi-Tops</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
 							</tr>
 							<tr>
@@ -4505,6 +5112,13 @@
 								<td>Mawcasins</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI010.png" alt="Chocolate Dakroniks" /></td>
+								<td>Chocolate Dakroniks</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
 								<td>2</td>
 							</tr>
 							<tr>
@@ -4606,6 +5220,20 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SHI025.png" alt="Red & White Squidkid V" /></td>
+								<td>Red & White Squidkid V</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI026.png" alt="Honey & Orange Squidkid V" /></td>
+								<td>Honey & Orange Squidkid V</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_SHI027.png" alt="Sun & Shade Squidkid IV" /></td>
 								<td>Sun & Shade Squidkid IV</td>
 								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
@@ -4641,11 +5269,67 @@
 								<td>1</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SHI032.png" alt="Blue Iromaki 750s" /></td>
+								<td>Blue Iromaki 750s</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI033.png" alt="Orange Iromaki 750s" /></td>
+								<td>Orange Iromaki 750s</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI034.png" alt="Red Power Stripes" /></td>
+								<td>Red Power Stripes</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI035.png" alt="Blue Power Stripes" /></td>
+								<td>Blue Power Stripes</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI036.png" alt="Toni Kensa Black Hi-Tops" /></td>
+								<td>Toni Kensa Black Hi-Tops</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_SHI037.png" alt="Sesame Salt 270s" /></td>
 								<td>Sesame Salt 270s</td>
 								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
 								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI038.png" alt="Black & Blue Squidkid V" /></td>
+								<td>Black & Blue Squidkid V</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI039.png" alt="Orca Passion Hi-Tops" /></td>
+								<td>Orca Passion Hi-Tops</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHI040.png" alt="Truffle Canvas Hi-Tops" /></td>
+								<td>Truffle Canvas Hi-Tops</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_SHT000.png" alt="Pink Trainers" /></td>
@@ -4679,6 +5363,13 @@
 								<td><img src="gear/Shs_SHT004.png" alt="Cyan Trainers" /></td>
 								<td>Cyan Trainers</td>
 								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHT005.png" alt="Blue Sea Slugs" /></td>
+								<td>Blue Sea Slugs</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
 								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>1</td>
 							</tr>
@@ -4746,6 +5437,13 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SHT015.png" alt="N-Pacer CaO" /></td>
+								<td>N-Pacer CaO</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_SHT016.png" alt="N-Pacer Ag" /></td>
 								<td>N-Pacer Ag</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
@@ -4765,6 +5463,13 @@
 								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
 								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SHT019.png" alt="Athletic Arrows" /></td>
+								<td>Athletic Arrows</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_SDL000.png" alt="Oyster Clogs" /></td>
@@ -4830,11 +5535,32 @@
 								<td>2</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_SDL008.png" alt="Yellow FishFry Sandals" /></td>
+								<td>Yellow FishFry Sandals</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_SDL009.png" alt="Musselforge Flip-Flops" /></td>
+								<td>Musselforge Flip-Flops</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_TRS000.png" alt="Trail Boots" /></td>
 								<td>Trail Boots</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_TRS001.png" alt="Custom Trail Boots" /></td>
+								<td>Custom Trail Boots</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_TRS002.png" alt="Pro Trail Boots" /></td>
@@ -4856,6 +5582,13 @@
 								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
 								<td><img src="brands/B03.png"/>Rockenberg</td>
 								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_BOT002.png" alt="Red Work Boots" /></td>
+								<td>Red Work Boots</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_BOT003.png" alt="Blue Moto Boots" /></td>
@@ -4893,6 +5626,13 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_BOT008.png" alt="Punk Yellows" /></td>
+								<td>Punk Yellows</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_BOT009.png" alt="Bubble Rain Boots" /></td>
 								<td>Bubble Rain Boots</td>
 								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
@@ -4903,6 +5643,13 @@
 								<td><img src="gear/Shs_BOT010.png" alt="Snowy Down Boots" /></td>
 								<td>Snowy Down Boots</td>
 								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_BOT011.png" alt="Icy Down Boots" /></td>
+								<td>Icy Down Boots</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
 								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>3</td>
 							</tr>
@@ -4932,6 +5679,27 @@
 								<td>Moist Ghillie Boots</td>
 								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
 								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_BOT016.png" alt="Annaki Arachno Boots" /></td>
+								<td>Annaki Arachno Boots</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_BOT017.png" alt="New-Leaf Leather Boots" /></td>
+								<td>New-Leaf Leather Boots</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_BOT018.png" alt="Tea-Green Hunting Boots" /></td>
+								<td>Tea-Green Hunting Boots</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
 								<td>3</td>
 							</tr>
 							<tr>
@@ -5033,6 +5801,20 @@
 								<td>3</td>
 							</tr>
 							<tr>
+								<td><img src="gear/Shs_LTS011.png" alt="Annaki Tigers" /></td>
+								<td>Annaki Tigers</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td><img src="gear/Shs_LTS009.png" alt="Inky Kid Clams" /></td>
+								<td>Inky Kid Clams</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
 								<td><img src="gear/Shs_COP101.png" alt="Angry Rain Boots" /></td>
 								<td>Angry Rain Boots</td>
 								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
@@ -5126,46 +5908,376 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td>Squid-Stitch Cap</td>
-								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
-								<td><img src="brands/B07.png"/>Skalop</td>
-								<td>3</td>
-							</tr>
-							<tr>
-								<td>Zekko Mesh</td>
-								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
-								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>White Headband</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Squid Nordic</td>
-								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td>Urchins Cap</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
 								<td><img src="brands/B07.png"/>Skalop</td>
-								<td>3</td>
+								<td>1</td>
 							</tr>
 							<tr>
-								<td>White Arrowbands</td>
-								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
-								<td><img src="brands/B04.png"/>Zekko</td>
-								<td>3</td>
+								<td>Lightweight Cap</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
 							</tr>
 							<tr>
-								<td>Octoglasses</td>
-								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td>Takoroka Mesh</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Streetstyle Cap</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squidvader Cap</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Camo Mesh</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
 								<td><img src="brands/B06.png"/>Firefin</td>
-								<td>3</td>
+								<td>1</td>
 							</tr>
 							<tr>
-								<td>Colored Egg Shades</td>
+								<td>Five-Panel Cap</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Backwards Cap</td>
 								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Golf Visor</td>
-								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td>Two-Stripe Mesh</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Jet Cap</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Cycling Cap</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
 								<td><img src="brands/B01.png"/>Zink</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td>Cycle King Cap</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>King Flip Mesh</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hickory Work Cap</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Woolly Urchins Classic</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Jellyvader Cap</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>House-Tag Denim Cap</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Bobble Hat</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Short Beanie</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Striped Beanie</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sporty Bobble Hat</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Special Forces Beret</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Knitted Hat</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Annaki Beret</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Yamagiri Beanie</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sneaky Beanie</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Retro Specs</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Splash Goggles</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Pilot Goggles</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Tinted Shades</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Arrowbands</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Snorkel Mask</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Fake Contacts</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>18K Aviators</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Full Moon Glasses</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Half-Rim Glasses</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Double Egg Shades</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Safari Hat</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Jungle Hat</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Camping Hat</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Blowfish Bell Hat</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Bamboo Hat</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Straw Boater</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Classic Straw Boater</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Treasure Hunter</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Bucket Hat</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Patched Hat</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Tulip Parasol</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Fugu Bell Hat</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Studio Headphones</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Designer Headphones</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Noise Cancelers</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Squidfin Hook Cans</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squidlife Headphones</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Studio Octophones</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>FishFry Visor</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sun Visor</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Takoroka Visor</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Face Visor</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Bike Helmet</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Stealth Goggles</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
 							</tr>
 							<tr>
 								<td>Tentacles Helmet</td>
@@ -5174,16 +6286,220 @@
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Gas Mask</td>
+								<td>Skate Helmet</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Visor Skate Helmet</td>
+								<td><img src="skills/EndAllUp.png"/>Last-Ditch Effort</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>MTB Helmet</td>
 								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Hockey Helmet</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
 								<td><img src="brands/B05.png"/>Forge</td>
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Jogging Headband</td>
-								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td>Matte Bike Helmet</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Moist Ghillie Helmet</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Paintball Mask</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Paisley Bandana</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td>Skull Bandana</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Painter's Mask</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Annaki Mask</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squid Facemask</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Firefin Facemask</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>King Facemask</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Motocross Nose Guard</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Forge Mask</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>B-ball Headband</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squash Headband</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Tennis Headband</td>
+								<td><img src="skills/ComeBack.png"/>Comeback</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Soccer Headband</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>FishFry Biscuit Bandana</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Eminence Cuff</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Headlamp Helmet</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Dust Blocker 2000</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Welding Mask</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Cap of Legend</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Oceanic Hard Hat</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Squid Hairclip</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Samurai Helmet</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Mask</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squid Clip-Ons</td>
+								<td><img src="skills/StartAllUp.png"/>Opening Gambit</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squinja Mask</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Mask Mk I</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Headset Replica</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Armor Helmet Replica</td>
+								<td><img src="skills/MinorityUp.png"/>Tenacity</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Headphones Replica</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td>Octoling Goggles</td>
@@ -5192,130 +6508,1090 @@
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Rockenberg Black</td>
+								<td>Basic Tee</td>
 								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Tee</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Squideye</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sky-Blue Squideye</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Rockenberg White</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
 								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Black Tee</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Gray Vector Tee</td>
-								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
-								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>Sunny-Day Tee</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Ivory Peaks Tee</td>
-								<td><img src="skills/DeathMarking.png"/>Haunt</td>
-								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>Rainy-Day Tee</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Squid-Stitch Tee</td>
-								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td>Reggae Tee</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
 								<td><img src="brands/B07.png"/>Skalop</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Octo Tee</td>
-								<td><img src="skills/DeathMarking.png"/>Haunt</td>
-								<td><img src="brands/B98.png"/>Cuttlegear</td>
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Herbivore Tee</td>
-								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td>Fugu Tee</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
 								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>White LS</td>
+								<td>Mint Tee</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Grape Tee</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
-								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Zink LS</td>
-								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
-								<td><img src="brands/B01.png"/>Zink</td>
+								<td>Red Vector Tee</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Striped Peaks LS</td>
-								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td>Blue Peaks Tee</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Camo Layered LS</td>
-								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
-								<td><img src="brands/B00.png"/>SquidForce</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Black Layered LS</td>
-								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
-								<td><img src="brands/B00.png"/>SquidForce</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Striped Rugby</td>
-								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
-								<td><img src="brands/B11.png"/>Takoroka</td>
-								<td>2</td>
-							</tr>
-							<tr>
-								<td>Green Cardigan</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td>Pirate-Stripe Tee</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
 								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sailor-Stripe Tee</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White 8-Bit FishFry</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black 8-Bit FishFry</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Anchor Tee</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Retro Gamer Jersey</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td>Black Anchor Tee</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Carnivore Tee</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Pearl Tee</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black V-Neck Tee</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>White Deca Logo Tee</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
 								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Half-Sleeve Sweater</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>King Jersey</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Gray 8-Bit FishFry</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White V-Neck Tee</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>White Urchin Rock Tee</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Urchin Rock Tee</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Wet Floor Band Tee</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squid Squad Band Tee</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Navy Deca Logo Tee</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Mister Shrug Tee</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Forge Octarian Jacket</td>
-								<td><img src="skills/DeathMarking.png"/>Haunt</td>
-								<td><img src="brands/B05.png"/>Forge</td>
+								<td>Chirpy Chips Band Tee</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Hightide Era Band Tee</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red V-Neck Limited Tee</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>White Leather F-3</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
-								<td><img src="brands/B05.png"/>Forge</td>
+								<td>Green V-Neck Limited Tee</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>ω-3 Tee</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Navy College Sweat</td>
+								<td>Firewave Tee</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Takoroka Galactic Tie Dye</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Takoroka Rainbow Tie Dye</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Tentatek Slogan Tee</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Icewave Tee</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Striped LS</td>
 								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
 								<td><img src="brands/B08.png"/>Splash Mob</td>
-								<td>1</td>
+								<td>2</td>
 							</tr>
 							<tr>
-								<td>Annaki Yellow Cuff</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
-								<td><img src="brands/B15.png"/>Annaki</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Red-Check Shirt</td>
-								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td>Black LS</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Forest Vest</td>
+								<td>Purple Camo LS</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Navy Striped LS</td>
 								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Zekko Baseball LS</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Varsity Baseball LS</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Baseball LS</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Baseball LS</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Green Striped LS</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squidmark LS</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Pink Easy-Stripe Shirt</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Inkopolis Squaps Jersey</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Annaki Drive Tee </td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Lime Easy-Stripe Shirt</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Annaki Evolution Tee</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Zekko Long Carrot Tee</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Zekko Long Radish Tee</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Layered LS</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Yellow Layered LS</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Zink Layered LS</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Layered Anchor LS</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Choco Layered LS</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Part-Time Pirate</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Layered Vector LS</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Green Tee</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Tentatek Tee</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Blue Tentatek Tee</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Octo Layered LS</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Shrimp-Pink Polo</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Tricolor Rugby</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sage Polo</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Polo</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Cycling Shirt</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Cycle King Jersey</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Slipstream United</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>FC Albacore</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Olive Ski Jacket</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Squid-Pattern Waistcoat</td>
+								<td>Takoroka Nylon Vintage</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Berry Ski Jacket</td>
 								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Varsity Jacket</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>School Jersey</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Black Inky Rider</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>White Inky Rider</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Orange Cardigan</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Forge Inkling Parka</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Blue Sailor Suit</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>White Sailor Suit</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squid Satin Jacket</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Zapfish Satin Jacket</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Krak-On 528</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
 								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
+							</tr>
+							<tr>
+								<td>Chilly Mountain Coat</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Takoroka Windcrusher</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Matcha Down Jacket</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>FA-01 Jacket</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>FA-01 Reversed</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Pullover Coat</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Kensa Coat</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Birded Corduroy Jacket</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Zekko Redleaf Coat</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Eggplant Mountain Coat</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Zekko Jade Coat</td>
+								<td><img src="skills/Exorcist.png"/>Respawn Punisher</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Light Bomber Jacket</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Brown FA-11 Bomber</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Gray FA-11 Bomber</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Milky Eminence Jacket</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Navy Eminence Jacket</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Tumeric Zekko Coat</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Custom Painted F-3 </td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Dark Bomber Jacket</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Moist Ghillie Suit</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>B-ball Jersey (Home)</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>B-ball Jersey (Away)</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White King Tank</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Slash King Tank</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Navy King Tank</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Gray College Sweat</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squidmark Sweat</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Retro Sweat</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Firefin Navy Sweat</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Reel Sweat</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Anchor Sweat</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B00.png"/>SquidForce</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Negative Longcuff Sweater</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Short Knit Layers</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Positive Longcuff Sweater</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Annaki Blue Cuff</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Annaki Red Cuff</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>N-Pacer Sweat</td>
+								<td><img src="skills/ThermalInk.png"/>Thermal Ink</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Lumberjack Shirt</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Rodeo Shirt</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Green-Check Shirt</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>White Shirt</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Urchins Jersey</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Aloha Shirt</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Baby-Jelly Shirt</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Baseball Jersey</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Gray Mixed Shirt</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Vintage Check Shirt</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Round-Collar Shirt</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Logo Aloha Shirt</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Striped Shirt</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Linen Shirt</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Shirt & Tie</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Hula Punk Shirt</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Octobowler Shirt</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Inkfall Shirt</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Crimson Parashooter</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Baby-Jelly Shirt & Tie</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Prune Parashooter</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Red Hula Punk with Tie</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Mountain Vest</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Dark Urban Vest</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Yellow Urban Vest</td>
+								<td><img src="skills/DeathMarking.png"/>Haunt</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squidstar Waistcoat</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Fishing Vest</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Front Zip Vest</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Camo Zip Hoodie</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Green Zip Hoodie</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Zekko Hoodie</td>
+								<td><img src="skills/SquidMoveSpatter_Reduction.png"/>Ninja Squid</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Shirt with Blue Hoodie</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Grape Hoodie</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Gray Hoodie</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B07.png"/>Skalop</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Pink Hoodie</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Olive Zekko Parka</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squiddor Polo</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Anchor Life Vest</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Juice Parka</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Garden Gear</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Crustwear XXL</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>School Uniform</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Samurai Jacket</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Armor</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>School Cardigan</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squinja Suit</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Armor Mk I</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Jacket Replica</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Armor Jacket Replica</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Hoodie Replica</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td>Octoling Armor</td>
@@ -5324,82 +7600,652 @@
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Banana Basics</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td>Cream Basics</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
 								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>LE Lo-Tops</td>
-								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
-								<td><img src="brands/B04.png"/>Zekko</td>
-								<td>3</td>
-							</tr>
-							<tr>
-								<td>Orange Lo-Tops</td>
-								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td>Blue Lo-Tops</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
 								<td><img src="brands/B04.png"/>Zekko</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Yellow Seahorses</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td>White Seahorses</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Seahorses</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
 								<td><img src="brands/B01.png"/>Zink</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Cream Hi-Tops</td>
-								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td>Clownfish Basics</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
 								<td><img src="brands/B02.png"/>Krak-On</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Blue Iromaki 750s</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
-								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>Strapping Whites</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Strapping Reds</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
 								<td>1</td>
 							</tr>
 							<tr>
-								<td>Orange Iromaki 750s</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
-								<td><img src="brands/B10.png"/>Tentatek</td>
-								<td>1</td>
+								<td>Soccer Shoes</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>3</td>
 							</tr>
 							<tr>
-								<td>Blue Sea Slugs</td>
-								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
-								<td><img src="brands/B10.png"/>Tentatek</td>
-								<td>1</td>
+								<td>LE Soccer Shoes</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>3</td>
 							</tr>
 							<tr>
-								<td>N-Pacer CaO</td>
-								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
-								<td><img src="brands/B16.png"/>Enperry</td>
-								<td>1</td>
-							</tr>
-							<tr>
-								<td>Custom Trail Boots</td>
-								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td>Sunny Climbing Shoes</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
 								<td><img src="brands/B09.png"/>Inkline</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Red Work Boots</td>
-								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
-								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>Birch Climbing Shoes</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Green Laceups</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Laceless Dakroniks</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Blue Laceless Dakroniks</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Hi-Horses</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Zombie Hi-Horses</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Purple Hi-Horses</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Hunter Hi-Tops</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Hi-Tops</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Gold Hi-Horses</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B01.png"/>Zink</td>
 								<td>3</td>
 							</tr>
 							<tr>
-								<td>Punk Yellows</td>
+								<td>Shark Moccasins</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Mawcasins</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Mint Dakroniks</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Black Dakroniks</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B01.png"/>Zink</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Piranha Moccasins</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>White Norimaki 750s</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Black Norimaki 750s</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Sunset Orca Hi-Tops</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Red & Black Squidkid IV</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Blue & Black Squidkid IV</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Gray Sea-Slug Hi-Tops</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Orca Hi-Tops</td>
 								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Milky Enperrials</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Navy Enperrials</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Amber Sea Slug Hi-Tops</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Yellow Iromaki 750s</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sun & Shade Squidkid IV</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Orca Woven Hi-Tops</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Green Iromaki 750s</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Purple Iromaki 750s</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Iromaki 750s</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Sesame Salt 270s</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Pink Trainers</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Orange Arrows</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Neon Sea Slugs</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>White Arrows</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Cyan Trainers</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Sea Slugs</td>
+								<td><img src="skills/RespawnSpecialGauge_Save.png"/>Special Saver</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Purple Sea Slugs</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Crazy Arrows</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B11.png"/>Takoroka</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Black Trainers</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Violet Trainers</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Canary Trainers</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Yellow-Mesh Sneakers</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Arrow Pull-Ons</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B17.png"/>Toni Kensa</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Red-Mesh Sneakers</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>N-Pacer Ag</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>N-Pacer Au</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B16.png"/>Enperry</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Sea Slug Volt 95s</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B10.png"/>Tentatek</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Oyster Clogs</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Choco Clogs</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Blueberry Casuals</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Plum Casuals</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Neon Delta Straps</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Black Flip-Flops</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B04.png"/>Zekko</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Snow Delta Straps</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Luminous Delta Straps</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Red FishFry Sandals</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B06.png"/>Firefin</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Trail Boots</td>
+								<td><img src="skills/InkRecovery_Up.png"/>Ink Recovery Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Pro Trail Boots</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Moto Boots</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
 								<td><img src="brands/B03.png"/>Rockenberg</td>
 								<td>2</td>
 							</tr>
 							<tr>
-								<td>Icy Down Boots</td>
+								<td>Tan Work Boots</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Blue Moto Boots</td>
+								<td><img src="skills/OpInkEffect_Reduction.png"/>Ink Resistance Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Green Rain Boots</td>
 								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Acerola Rain Boots</td>
+								<td><img src="skills/HumanMove_Up.png"/>Run Speed Up</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Punk Whites</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Punk Cherries</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Bubble Rain Boots</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B09.png"/>Inkline</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Snowy Down Boots</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
 								<td><img src="brands/B10.png"/>Tentatek</td>
 								<td>3</td>
+							</tr>
+							<tr>
+								<td>Hunting Boots</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B08.png"/>Splash Mob</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Punk Blacks</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Deepsea Leather Boots</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Moist Ghillie Boots</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B05.png"/>Forge</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Blue Slip-Ons</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Red Slip-Ons</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Squid-Stitch Slip-Ons</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Polka-dot Slip-Ons</td>
+								<td><img src="skills/SomersaultLanding.png"/>Drop Roller</td>
+								<td><img src="brands/B02.png"/>Krak-On</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>White Kicks</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Cherry Kicks</td>
+								<td><img src="skills/SuperJumpSign_Hide.png"/>Stealth Jump</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Turquoise Kicks</td>
+								<td><img src="skills/SpecialIncrease_Up.png"/>Special Charge Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squink Wingtips</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Roasted Brogues</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>1</td>
+							</tr>
+							<tr>
+								<td>Kid Clams</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Smoky Wingtips</td>
+								<td><img src="skills/ObjectEffect_Up.png"/>Object Shredder</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Navy Red-Soled Wingtips</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Gray Yellow-Soled Wingtips</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B03.png"/>Rockenberg</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Annaki Habaneros</td>
+								<td><img src="skills/BombDistance_Up.png"/>Sub Power Up</td>
+								<td><img src="brands/B15.png"/>Annaki</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Angry Rain Boots</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>Non-slip Senseis</td>
+								<td><img src="skills/RespawnTime_Save.png"/>Quick Respawn</td>
+								<td><img src="brands/B97.png"/>Grizzco</td>
+								<td>3</td>
+							</tr>
+							<tr>
+								<td>School Shoes</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Samurai Shoes</td>
+								<td><img src="skills/SpecialTime_Up.png"/>Special Power Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Boots</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Fringed Loafers</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>Cold-Blooded</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Squinja Boots</td>
+								<td><img src="skills/SquidMove_Up.png"/>Swim Speed Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Power Boots Mk I</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>Bomb Defense Up</td>
+								<td><img src="brands/B99.png"/>amiibo</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Runner Replicas</td>
+								<td><img src="skills/JumpTime_Save.png"/>Quick Super Jump</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Armor Boot Replicas</td>
+								<td><img src="skills/MainInk_Save.png"/>Ink Saver (Main)</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
+							</tr>
+							<tr>
+								<td>Hero Snowboots Replicas</td>
+								<td><img src="skills/SubInk_Save.png"/>Ink Saver (Sub)</td>
+								<td><img src="brands/B98.png"/>Cuttlegear</td>
+								<td>2</td>
 							</tr>
 							<tr>
 								<td>Octoling Boots</td>
@@ -5413,6 +8259,6 @@
 			</div>
 			</div>
 		</div>
-	<p>Help provided by <a url="https://twitter.com/OatmealDome">OatmealDome</a> and <a url="https://twitter.com/WemI0">WemI0</a>.</p>
+	<p>Special thanks to <a href="https://twitter.com/OatmealDome">OatmealDome</a> and <a href="https://twitter.com/WemI0">WemI0</a> for providing missing data/images.</p>
 	</body>
 </html>
