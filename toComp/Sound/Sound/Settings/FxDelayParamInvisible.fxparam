@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FxDelayParam>
-	<Delay>0.280000</Delay>
-	<Feedback>0.200000</Feedback>
-	<OutGain>0.200000</OutGain>
-	<Lpf>0.670000</Lpf>
-</FxDelayParam>
