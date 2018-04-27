@@ -40,7 +40,7 @@
 	font-weight: normal;
  }
  
-.datagrid table tbody .alt td {
+.datagrid table tbody .odd td {
 	background: #E1EEF4;
 	color: #00496B;
  }
