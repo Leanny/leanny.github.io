@@ -3581,7 +3581,7 @@
          Ink consumption (Salmon Run)
         </td>
         <td>
-         0.01
+         0.009
         </td>
         <td>
          0
@@ -3904,7 +3904,7 @@
          Initial Velocity Z (Unused for Splatlings)
         </td>
         <td>
-         23.0
+         24.0
         </td>
         <td>
          0
@@ -3921,7 +3921,7 @@
          Ink consumption (maximum charge for splatlings)
         </td>
         <td>
-         0.01
+         0.009
         </td>
         <td>
          0
@@ -4102,6 +4102,23 @@
        </tr>
        <tr>
         <td>
+         PlayerColRadius
+        </td>
+        <td>
+         Player collision radius (same as field collision radius when negative)
+        </td>
+        <td>
+         -1.0
+        </td>
+        <td>
+         -1
+        </td>
+        <td>
+         10
+        </td>
+       </tr>
+       <tr>
+        <td>
          RepeatFrame
         </td>
         <td>
@@ -4278,7 +4295,7 @@
          Forced speed at end of straightforward frame (does no change when initial speed is smaller than this value)
         </td>
         <td>
-         22.69
+         23.032
         </td>
         <td>
          0
@@ -5447,7 +5464,7 @@
          Maximum bias
         </td>
         <td>
-         0.4
+         0.3
         </td>
         <td>
          0
@@ -5481,7 +5498,7 @@
          Bias transition (not used for Splatlings)
         </td>
         <td>
-         0.05
+         0.03
         </td>
         <td>
          0
@@ -5498,7 +5515,7 @@
          Minimum bias (not used for Splatlings)
         </td>
         <td>
-         0.15
+         0.04
         </td>
         <td>
          0
@@ -5747,6 +5764,40 @@
        </tr>
        <tr>
         <td>
+         NearestSplashMaxScaleClamp
+        </td>
+        <td>
+         Closest splash occurance
+        </td>
+        <td>
+         1.2
+        </td>
+        <td>
+         1
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         NearestSplashPaintRadiusTimes
+        </td>
+        <td>
+         Spray radius multiplicator occurring at the nearest place
+        </td>
+        <td>
+         1.4
+        </td>
+        <td>
+         1
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
          PaintFarDistance
         </td>
         <td>
@@ -5815,6 +5866,23 @@
        </tr>
        <tr>
         <td>
+         PlayerColRadius
+        </td>
+        <td>
+         Player collision radius (same as field collision radius when negative)
+        </td>
+        <td>
+         -1.0
+        </td>
+        <td>
+         -1
+        </td>
+        <td>
+         10
+        </td>
+       </tr>
+       <tr>
+        <td>
          RepeatFrame
         </td>
         <td>
@@ -5862,6 +5930,74 @@
         </td>
         <td>
          10
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SplashMaxScaleClamp
+        </td>
+        <td>
+         Other Splashes
+        </td>
+        <td>
+         1.2
+        </td>
+        <td>
+         1
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SplashMaxScaleHighest
+        </td>
+        <td>
+         Use maximum stretch scale if the height to landing is less than this value
+        </td>
+        <td>
+         30.0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         400
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SplashMinScaleClamp
+        </td>
+        <td>
+         Minimum Stretch Scale
+        </td>
+        <td>
+         1.0
+        </td>
+        <td>
+         1
+        </td>
+        <td>
+         3
+        </td>
+       </tr>
+       <tr>
+        <td>
+         SplashMinScaleHighest
+        </td>
+        <td>
+         Use the minimum extension scale if the height to landing is over this value
+        </td>
+        <td>
+         100.0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         400
         </td>
        </tr>
        <tr>
@@ -5947,6 +6083,23 @@
         </td>
         <td>
          180
+        </td>
+       </tr>
+       <tr>
+        <td>
+         VariableShotFrame
+        </td>
+        <td>
+         Frame until shift type to continuous fire (0 for no shift)
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+         90
         </td>
        </tr>
       </tbody>
@@ -11077,7 +11230,7 @@
          Forces a splash even if you already shot the number of bullets needed. (0 for Off)
         </td>
         <td>
-         0
+         7
         </td>
         <td>
          0
@@ -11468,7 +11621,7 @@
          Number of droplet splits (Z)
         </td>
         <td>
-         10
+         15
         </td>
         <td>
          1
