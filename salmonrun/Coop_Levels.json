@@ -1,0 +1,982 @@
+{
+    "CoopLevelsConfig": {
+        "mLevelBuffer": {
+            "mLevelBuffer[0]": {
+                "mDifficulty": 0,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 20,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 0
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 80,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.3
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 3
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 13
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 15000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 130,
+                    "mSimpleShotSpeed": 0.7,
+                    "mZakoActiveMaxEach": 1
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.0
+                },
+                "mRareFollowerNum": 1,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 3,
+                        "mEnemyActiveMax2ndHalf": 5,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 2,
+                        "mRareAppearNum": 3
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 3,
+                        "mEnemyActiveMax2ndHalf": 5,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 3,
+                        "mRareAppearNum": 3
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 4,
+                        "mEnemyActiveMax2ndHalf": 7,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 4,
+                        "mRareAppearNum": 3
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 3,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 1,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[1]": {
+                "mDifficulty": 40,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 20,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 0
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 80,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.3
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 3
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 13
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 15000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 130,
+                    "mSimpleShotSpeed": 0.7,
+                    "mZakoActiveMaxEach": 1
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.0
+                },
+                "mRareFollowerNum": 1,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 3,
+                        "mEnemyActiveMax2ndHalf": 5,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 4,
+                        "mRareAppearNum": 3
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 4,
+                        "mEnemyActiveMax2ndHalf": 7,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 5,
+                        "mRareAppearNum": 3
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 5,
+                        "mEnemyActiveMax2ndHalf": 8,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 6,
+                        "mRareAppearNum": 4
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 3,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 1,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[2]": {
+                "mDifficulty": 100,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 9
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 15,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 80,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.3
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 3
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 13
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 15000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 130,
+                    "mSimpleShotSpeed": 0.7,
+                    "mZakoActiveMaxEach": 1
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.2
+                },
+                "mRareFollowerNum": 2,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 7,
+                        "mEnemyActiveMax2ndHalf": 11,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 6,
+                        "mRareAppearNum": 5
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 8,
+                        "mEnemyActiveMax2ndHalf": 12,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 7,
+                        "mRareAppearNum": 6
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 9,
+                        "mEnemyActiveMax2ndHalf": 13,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 8,
+                        "mRareAppearNum": 7
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 4,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 1,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[3]": {
+                "mDifficulty": 200,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 12
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 0
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 17,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 70,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.5
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 4
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 13
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 15000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 130,
+                    "mSimpleShotSpeed": 0.7,
+                    "mZakoActiveMaxEach": 1
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.4
+                },
+                "mRareFollowerNum": 2,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 8,
+                        "mEnemyActiveMax2ndHalf": 12,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 7,
+                        "mRareAppearNum": 6
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 9,
+                        "mEnemyActiveMax2ndHalf": 14,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 8,
+                        "mRareAppearNum": 7
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 10,
+                        "mEnemyActiveMax2ndHalf": 16,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 10,
+                        "mRareAppearNum": 9
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 4,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[4]": {
+                "mDifficulty": 300,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 18
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 19,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 60,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.7
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 4
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 16
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 18000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 110,
+                    "mSimpleShotSpeed": 0.9,
+                    "mZakoActiveMaxEach": 2
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.6
+                },
+                "mRareFollowerNum": 2,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 9,
+                        "mEnemyActiveMax2ndHalf": 14,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 8,
+                        "mRareAppearNum": 7
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 10,
+                        "mEnemyActiveMax2ndHalf": 16,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 9,
+                        "mRareAppearNum": 9
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 12,
+                        "mEnemyActiveMax2ndHalf": 18,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 11,
+                        "mRareAppearNum": 11
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 80,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 5,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 5,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[5]": {
+                "mDifficulty": 400,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 18
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 22,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 5,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 40,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 1.9
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 5
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 20
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 22000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 90,
+                    "mSimpleShotSpeed": 1.2,
+                    "mZakoActiveMaxEach": 2
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 2.8
+                },
+                "mRareFollowerNum": 3,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 10,
+                        "mEnemyActiveMax2ndHalf": 16,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 10,
+                        "mRareAppearNum": 9
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 12,
+                        "mEnemyActiveMax2ndHalf": 18,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 11,
+                        "mRareAppearNum": 11
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 14,
+                        "mEnemyActiveMax2ndHalf": 20,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 13,
+                        "mRareAppearNum": 13
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 80,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 8,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 3,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[6]": {
+                "mDifficulty": 500,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 18
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 25,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 30,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 2.1
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 5
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 24
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 25000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 70,
+                    "mSimpleShotSpeed": 1.5,
+                    "mZakoActiveMaxEach": 3
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 3.0
+                },
+                "mRareFollowerNum": 0,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 12,
+                        "mEnemyActiveMax2ndHalf": 18,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 13,
+                        "mRareAppearNum": 11
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 14,
+                        "mEnemyActiveMax2ndHalf": 20,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 14,
+                        "mRareAppearNum": 13
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 16,
+                        "mEnemyActiveMax2ndHalf": 22,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 16,
+                        "mRareAppearNum": 15
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 6,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 3,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 2,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            },
+            "mLevelBuffer[7]": {
+                "mDifficulty": 1000,
+                "mEventArray": {
+                    "Dozer": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Fog": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Geyser": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Missile": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "None": {
+                        "mEnemyActiveMax": -1,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 18
+                    },
+                    "Rally": {
+                        "mEnemyActiveMax": 20,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": -1,
+                        "mWeight": 1
+                    },
+                    "Rush": {
+                        "mEnemyActiveMax": 32,
+                        "mEnemyActiveMaxCoef": 100,
+                        "mEnemyAppearInterval": 10,
+                        "mWeight": 1
+                    }
+                },
+                "mEventDozer": {
+                    "mDozerIncrSecond": 10,
+                    "mDozerInterval": 3,
+                    "mDozerSpeedCoef": 2.3
+                },
+                "mEventFog": {
+                    "mRareAppearCycle": 5
+                },
+                "mEventGeyser": {
+                    "mZakoActiveMax": 48
+                },
+                "mEventMissile": null,
+                "mEventRally": {
+                    "mPunchLife": 35000,
+                    "mSimpleShotActiveMax": 10,
+                    "mSimpleShotInterval": 50,
+                    "mSimpleShotSpeed": 2.0,
+                    "mZakoActiveMaxEach": 3
+                },
+                "mEventRush": {
+                    "mRareAppearCycle": 20,
+                    "mZakoSpeedCoef": 3.5
+                },
+                "mRareFollowerNum": 0,
+                "mRoundArray": {
+                    "mRoundArray[0]": {
+                        "mEnemyActiveMax1stHalf": 22,
+                        "mEnemyActiveMax2ndHalf": 28,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 21,
+                        "mRareAppearNum": 20
+                    },
+                    "mRoundArray[1]": {
+                        "mEnemyActiveMax1stHalf": 24,
+                        "mEnemyActiveMax2ndHalf": 30,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 23,
+                        "mRareAppearNum": 22
+                    },
+                    "mRoundArray[2]": {
+                        "mEnemyActiveMax1stHalf": 26,
+                        "mEnemyActiveMax2ndHalf": 32,
+                        "mEnemyAppearInterval1stHalf": 30,
+                        "mEnemyAppearInterval2ndHalf": 20,
+                        "mNormaGoldenIkuraNum": 25,
+                        "mRareAppearNum": 24
+                    }
+                },
+                "mWaterArray": {
+                    "High": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Low": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 1
+                    },
+                    "Mid": {
+                        "mEnemyActiveMaxCoef": 100,
+                        "mWeight": 3
+                    }
+                },
+                "mWaveChangeNum": 8,
+                "mZakoActiveMaxArray": {
+                    "SakelienLarge": 7,
+                    "SakelienSmall": 0,
+                    "SakelienStandard": 0
+                },
+                "mZakoAppearWeightArray": {
+                    "SakelienLarge": 4,
+                    "SakelienSmall": 1,
+                    "SakelienStandard": 10
+                }
+            }
+        }
+    }
+}

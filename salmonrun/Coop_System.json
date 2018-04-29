@@ -1,0 +1,411 @@
+{
+    "CoopSystemConfig": {
+        "mEnemyArray": {
+            "Sakediver": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 15,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.6
+            },
+            "Sakedozer": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 60,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 10,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "Sakeflyer": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 10,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakelienBagman": {
+                "mActorMax": 32,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 3,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.2
+            },
+            "SakelienBagmanLarge": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 0.6,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 5,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.2
+            },
+            "SakelienBomber": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 8,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 7,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.8
+            },
+            "SakelienCannon": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 0,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.7
+            },
+            "SakelienCup": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 10,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.8
+            },
+            "SakelienCupTwins": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 12,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 6,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakelienEscape": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 30,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakelienGeyser": {
+                "mActorMax": 2,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 10,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakelienGolden": {
+                "mActorMax": 8,
+                "mBaseSpeedCoef": 0.8,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 12,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 6,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.6
+            },
+            "SakelienLarge": {
+                "mActorMax": 32,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 10,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.6
+            },
+            "SakelienShield": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 13,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.3
+            },
+            "SakelienSmall": {
+                "mActorMax": 32,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 1,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 2,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.2
+            },
+            "SakelienSnake": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 13,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakelienStandard": {
+                "mActorMax": 32,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 3,
+                "mInWaterSpeedCoef": 1.5,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.8
+            },
+            "SakelienTower": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 1,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "Sakepuncher": {
+                "mActorMax": 1,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 0,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakepuncherBulletPunch": {
+                "mActorMax": 0,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 0,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakepuncherBulletSimpl": {
+                "mActorMax": 32,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 1,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 0.5
+            },
+            "Sakerocket": {
+                "mActorMax": 4,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 18,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 3,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            },
+            "SakerocketBullet": {
+                "mActorMax": 8,
+                "mBaseSpeedCoef": 1.0,
+                "mGraphIdx": 0,
+                "mHitIkuraNum": 0,
+                "mInWaterSpeedCoef": 1.0,
+                "mKillIkuraNum": 0,
+                "mLifeCoef": 1.0,
+                "mMoveSpeedCoef": 1.0
+            }
+        },
+        "mItemArray": {
+            "GoldenIkura": {
+                "mActorMax": 96
+            }
+        },
+        "mReward": {
+            "mLocal": {
+                "mRandomRewardBuffer": [
+                    {
+                        "CoopRewardType": "Money",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "Food",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "Drink",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "GearSkillChip",
+                        "CoopRewardRarity": 1
+                    }
+                ],
+                "mRandomRewardOffsetScale": 4,
+                "mRandomRewardStartScale": 4
+            },
+            "mOnline": {
+                "mRandomRewardBuffer": [
+                    {
+                        "CoopRewardType": "Money",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "Food",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "Drink",
+                        "CoopRewardRarity": 1
+                    },
+                    {
+                        "CoopRewardType": "GearSkillChip",
+                        "CoopRewardRarity": 1
+                    }
+                ],
+                "mDailyRewardBuffer": [
+                    {
+                        "CoopRewardType": "Money",
+                        "CoopRewardRarity": 30
+                    },
+                    {
+                        "CoopRewardType": "Food",
+                        "CoopRewardRarity": 30
+                    },
+                    {
+                        "CoopRewardType": "Drink",
+                        "CoopRewardRarity": 30
+                    },
+                    {
+                        "CoopRewardType": "GearSkillChip",
+                        "CoopRewardRarity": 30
+                    },
+                    {
+                        "CoopRewardType": "GearRandom",
+                        "CoopRewardRarity": 10
+                    }
+                ],
+                "mFirstHalf": {
+                    "mDailyRewardOffsetScale": 6,
+                    "mDailyRewardStartScale": 6,
+                    "mMonthlyRewardOffsetScale": 6,
+                    "mMonthlyRewardStartScale": 2
+                },
+                "mHalfScale": 12,
+                "mSecondHalf": {
+                    "mGearRewardOffsetScale": 4,
+                    "mGearRewardStartScale": 4,
+                    "mMonthlyRewardOffsetScale": 4,
+                    "mMonthlyRewardStartScale": 2
+                }
+            },
+            "mRarityWeightTable": {
+                "Drink": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "Food": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "GearMonthly": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "GearRandom": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "GearSkillChip": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "Money": {
+                    "Common": 50,
+                    "None": 0,
+                    "Rare": 40,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 10
+                },
+                "None": {
+                    "Common": 0,
+                    "None": 0,
+                    "Rare": 0,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 0
+                },
+                "Unknown": {
+                    "Common": 0,
+                    "None": 0,
+                    "Rare": 0,
+                    "SuperRare": 0,
+                    "Unknown": 0,
+                    "VeryRare": 0
+                }
+            }
+        },
+        "mRule": {
+            "mCommon": {
+                "mSpecialWeaponNameBuffer": [
+                    "LauncherSplash",
+                    "WaterCutter",
+                    "Jetpack",
+                    "SuperLanding"
+                ],
+                "mSubWeaponName": "Bomb_Splash"
+            },
+            "mNormal": {
+                "mRareMainWeaponNameBuffer": [
+                    "Shooter_BlasterCoopBurst",
+                    "Umbrella_CoopAutoAssault",
+                    "Slosher_CoopVase",
+                    "Charger_CoopSpark"
+                ],
+                "mRareMainWeaponPer": 20
+            },
+            "mTutorial": {
+                "mMainWeaponName": "Shooter_Normal_00",
+                "mMapName": "Fld_Shakeup00_Cop",
+                "mSpecialWeaponName": "SuperLanding"
+            }
+        }
+    }
+}
