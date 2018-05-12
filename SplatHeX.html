@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SplatHeX - A Splatoon Save Editor</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
+        <link href="wep.css" rel="stylesheet" type="text/css"/>
+        <link href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+        <style type="text/css">
+            div.popup {overflow: hidden;}
+        </style>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+        <script crossorigin="anonymous" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="jquery.colorbox.js"></script>
+        <link href="colorbox.css" rel="stylesheet" />
+        <script>
+            $(function() {$( "#tabs" ).tabs();});
+            $(function() {$( "#tabs2" ).tabs();});
+        </script>
+    </head>
+    <body>
+        <h1><img src="splathex/splathex2logo.png" alt="" width="100" height="87" /> SplatHeX - A Splatoon Save Editor <img src="splathex/splathex2logo.png" alt="" width="100" height="87" /></h1>
+        <p><strong>SplatHeX</strong> is a WIP Splatoon/Splatoon 2 save editor developed by WemIO and Lean. It support every Splatoon 1 save file, and support the latest version of Splatoon 2.</p>
+        <h2>
+        Splatoon 1</h1>
+        <p><strong>SplatHeX</strong> supports Splatoon 1 to the fullest with a lot of features. An overview of the tool is provided here:</p>
+        <div id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Main Window</a></li>
+                <li><a href="#tabs-2">Gear Editor</a></li>
+                <li><a href="#tabs-3">Weapon Editor</a></li>
+                <li><a href="#tabs-4">Player Editor</a></li>
+                <li><a href="#tabs-5">Hero Mode Editor</a></li>
+                <li><a href="#tabs-6">Bulk Editor</a></li>
+                <li><a href="#tabs-7">Flag Editor</a></li>
+                <li><a href="#tabs-8">Plaza Editor</a></li>
+                <li><a href="#tabs-9">amiibo Challange Editor</a></li>
+                <li><a href="#tabs-10">Minigame Editor</a></li>
+                <li><a href="#tabs-11">Spyke Order Editor</a></li>
+                <li><a href="#tabs-12">Legality Check</a></li>
+            </ul>
+            <div id="tabs-1">
+                <h3>Main Window</h3>
+                <img src="splathex/splat1_image1.png"/><br />
+                The Main Window provides an overview of all functionality that is supported right now.
+            </div>
+            <div id="tabs-2">
+                <h3>Gear Editor</h3>
+                <img src="splathex/splat1_image2.png"/><br />
+                The Gear Editor lists all of your gear and allows you to modify all attriubtes of the gear freely. You can change the number of unlocked slots, the abilities on it and more. It is also possible to delete/add gear to your inventory!
+            </div>
+            <div id="tabs-3">
+                <h3>Weapon Editor</h3>
+                <img src="splathex/splat1_image3.png"/><br />
+                The Weapon Editor lists all of your weapons and allows you to modify the turf inked. It is also possible to delete/add weapons to your inventory!
+            </div>
+            <div id="tabs-4">
+                <h3>Player Editor</h3>
+                <img src="splathex/splat1_image4.png"/><br />
+                The Player Editor allows you to modify your character and your options. Further, you can also modify your level, rank, money, and snails.
+            </div>
+            <div id="tabs-5">
+                <h3>Hero Mode Editor</h3>
+                <img src="splathex/splat1_image5.png"/><br />
+                The Hero Mode Editor allows you to modify anything story mode related. 
+            </div>
+            <div id="tabs-6">
+                <h3>Bulk Editor</h3>
+                <img src="splathex/splat1_image6.png"/><br />
+                The Bulk Editor allows you to export/import all your weapons/gear/plaza information with a simple click, as well as unlock all gear pieces and weapons.
+            </div>
+            <div id="tabs-7">
+                <h3>Flag Editor</h3>
+                <img src="splathex/splat1_image7.png"/><br />
+                The Flag Editor edit flags that were set by the game. This is used to trigger specific tutorial boxes and/or providing you with additional info.
+            </div>
+            <div id="tabs-8">
+                <h3>Plaza Editor</h3>
+                <img src="splathex/splat1_image8.png"/><br />
+                You always wanted to choose the people who are in your plaza? Now you can! The Plaza Editor allows you to freely manipulate anyone who is currently in your laza.
+            </div>
+            <div id="tabs-9">
+                <h3>amiibo Challange Editor</h3>
+                <img src="splathex/splat1_image9.png"/><br />
+                The amiibo Challange Editor allows you to set the state of amiibo challanges.
+            </div>
+            <div id="tabs-10">
+                <h3>Minigame Editor</h3>
+                <img src="splathex/splat1_image10.png"/><br />
+                You always wanted to beat your friends with the highest highscore in Squid Jump? With the Minigame Editor you can freely unlock games and modify stored highscores.
+            </div>
+            <div id="tabs-11">
+                <h3>Spyke Order Editor</h3>
+                <img src="splathex/splat1_image11.png"/><br />
+                You cannot find a piece of gear in your plaza to order it? Now you are able to tell Spyke directly what you want to order!
+            </div>
+            <div id="tabs-12">
+                <h3>Legality Check</h3>
+                <img src="splathex/splat1_image12.png"/><br />
+                Are you afraid of making mistakes while editing that could get you banned? We provide a Work-in-Progress solution that will find many common invalid things and warns you.
+            </div>
+        </div>
+        <h2>
+        Splatoon 2</h1>
+        <p><strong>SplatHeX</strong> supports Splatoon 2 partially and is currently Work-in-Progress:</p>
+        <div id="tabs2">
+            <ul>
+                <li><a href="#tabs2-1">Gear Editor</a></li>
+                <li><a href="#tabs2-2">Weapon Editor</a></li>
+                <li><a href="#tabs2-3">Player Editor</a></li>
+                <li><a href="#tabs2-4">Hero Mode Editor</a></li>
+                <li><a href="#tabs2-5">Bulk Editor</a></li>
+                <li><a href="#tabs2-6">Flag Editor</a></li>
+                <li><a href="#tabs2-7">Salmonrun Editor</a></li>
+                <li><a href="#tabs2-8">Ticket/Chunk Editor</a></li>
+            </ul>
+            <div id="tabs2-1">
+                <h3>Gear Editor</h3>
+                <img src="splathex/splat2_image1.png"/><br />
+                The Gear Editor lists all of your gear and allows you to modify all attriubtes of the gear freely. You can change the number of unlocked slots, the abilities on it and more. It is also possible to delete/add gear to your inventory! It is also possible to change the main ability of most of your gear, but be aware that the gear with this main ability might not have been on Splatnet yet.
+            </div>
+            <div id="tabs2-2">
+                <h3>Weapon Editor</h3>
+                <img src="splathex/splat2_image2.png"/><br />
+                The Weapon Editor lists all of your weapons and allows you to modify the turf inked. It is also possible to delete/add weapons to your inventory!
+            </div>
+            <div id="tabs2-3">
+                <h3>Player Editor</h3>
+                <img src="splathex/splat2_image3.png"/><br />
+                The Player Editor allows you to modify your character and your options. Further, you can also modify your level, rank, money, and snails. This editor is work in progress and will be available at a later time.
+            </div>
+            <div id="tabs2-4">
+                <h3>Hero Mode Editor</h3>
+                <img src="splathex/splat2_image4.png"/><br />
+                The Hero Mode Editor allows you to modify anything story mode related. 
+            </div>
+            <div id="tabs2-5">
+                <h3>Bulk Editor</h3>
+                <img src="splathex/splat2_image5.png"/><br />
+                The Bulk Editor allows you to unlock all gear pieces and weapons.
+            </div>
+            <div id="tabs2-6">
+                <h3>Flag Editor</h3>
+                <img src="splathex/splat2_image6.png"/><br />
+                The Flag Editor edit flags that were set by the game. This is used to trigger specific tutorial boxes and/or providing you with additional info.
+            </div>
+            <div id="tabs2-7">
+                <h3>Salmonrun Editor</h3>
+                <img src="splathex/splat2_image7.png"/><br />
+                The Salmonrun Editor is able to change your stats as well as showing you your loot boxes.
+            </div>
+            <div id="tabs2-8">
+                <h3>Ticket/Chunk Editor</h3>
+                <img src="splathex/splat2_image8.png"/><br />
+                This editor window allows you to edit the number of tickets and chunks you own.
+            </div>
+        </div>
+        <h2>Changelog:</h2>
+        <ul>
+            <li>
+                v 0.1
+                <p>First beta release</p>
+            </li>
+        </ul>
+        <h2>System Requirements</h2>
+        <p><strong>SplatHeX</strong> can be run by any Windows system, where <a href="https://www.microsoft.com/de-ch/download/details.aspx?id=30653">Microsoft .NET Framework 4.5</a> is installed. If you are using a Mac, you can use WineBottler.</p>
+        <h2>Download</h2>
+        <p>You can download the latest version <a href="SplatHeX.zip">here</a></p>
+        <h2>Special thanks</h2>
+        <p>Special thanks to these people:</p>
+        <ul>
+            <li>OatmealDome Help with save encryption</li>
+            <li>random - UI idea</li>
+            <li>Sc0tline - Some resources</li>
+			<li>hartie95 - providing test data</li>
+        </ul>
+    </body>
+</html>
