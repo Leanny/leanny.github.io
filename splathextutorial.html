@@ -13,7 +13,7 @@
         <ul>
             <li>A micro SD card that is preferably not from Samsung</li>
             <li>A savegame manager (e.g. <a href="https://github.com/BernardoGiordano/Checkpoint/releases/tag/v3.1.0">Checkpoint.nro</a>))
-            <li><a href="https://github.com/rajkosto/TegraRcmSmash">TegraRcmSmash</a> (<a href="https://switchtools.sshnuke.net/">Download here</a>, <a href="https://gbatemp.net/threads/tegrarcmgui-simple-gui-for-tegrarcmsmash.503510/">GUI version here</a>) if you are using Windows, or <a href="https://github.com/reswitched/fusee-launcher">Fusée Launcher</a> for Linux and Mac.</li>
+            <li><a href="https://github.com/reswitched/fusee-launcher">Fusée Launcher</a> (recomended, for all OSs). Alternative you can use <a href="https://github.com/rajkosto/TegraRcmSmash">TegraRcmSmash</a> (<a href="https://switchtools.sshnuke.net/">Download here</a>, <a href="https://gbatemp.net/threads/tegrarcmgui-simple-gui-for-tegrarcmsmash.503510/">GUI version here</a>).</li>
             <li><a href="https://github.com/Jan4V/hekate-ipl-50x/releases">Hekate Mod by Jan4V</a>. Download payload.bin and sdfiles.zip.</li>
         </ul>
         Kiri prepared the <a href="https://www.dropbox.com/s/4xviiw8wcrlw2q3/HBL.rar?dl=0">following pacakge</a> which contains most files needed. 
@@ -27,7 +27,7 @@
             <li>Copy and paste all the file from the savemanager that you downloaded into the switch folder (or in a subfolder if you want it to be more organized)</li>
         </ul>
         <h2>Step 2: Getting your pc ready</h2>
-        This is just the windows version of how to launch a payload. Linux and Mac can be found at the <a href="https://github.com/reswitched/fusee-launcher">Fusée Launcher</a> page.
+        It is recomended to use Fusée Launcher. A tutorial for windows can be found <a href="https://github.com/reswitched/fusee-launcher/wiki/Instructions-(Windows)">here</a>. 
         Way 1:
         <ul>
             <li>Go to HBL\Nintendo_Switch_APX_Mode and run "InstallDrivers.exe" as administrator. Hit next then finish.</li>
@@ -51,13 +51,19 @@
             <li>While the pin/jig/screwdriver is in place hold down the power button + the VOLUME UP button on the switch until the little switch icon on the program we opened earlier becomes green.</li>
         </ul>
         <h2>Step 4: Injecting the payload</h2>
-        If you are using the GUI version:
+		If you are using Fusée Launcher:
+		<ul>
+			<li>Use the following command in the commandline: 
+			<pre><code>python fusee-launcher.py payload.bin</code></pre>
+			</li>
+		</ul>
+        If you are using the GUI version of tegrasmash:
         <ul>
             <li>On the computer click on the little folder icon and choose the file "HBL\FW 5.0.0, 5.0.1, 5.0.2\payload.bin"</li>
             <li>Click inject payload.</li>
             <li>On your switch used the power button to choose "launch software" then go down with the volume button to choose "CFW" with the power button again.</li>
         </ul>
-        If you are using the cmd version:
+        If you are using the cmd version of tegrasmash:
         <ul>
             <li>Drag & Drop payload.bin into tegrasmash.exe</li>
             <li>On your switch used the power button to choose "launch software" then go down with the volume button to choose "CFW" with the power button again.</li>
@@ -82,7 +88,8 @@
 	<ul>
 		<li><a href="https://www.youtube.com/watch?v=nJvnOS0pUFo">Youtube Tutorial on how to get your savegame</a></li>
 		<li><a href="https://youtu.be/h_kZQEoYTNU">Video Tutorial by Mystic</a></li>
-		<li><a href="https://www.youtube.com/watch?v=AmYPPKrlolQ">German video tuorial by Gaia</a></li>
+		<li><a href="https://www.youtube.com/watch?v=AmYPPKrlolQ">German video tutorial by Gaia</a></li>
+		<li><a href="https://www.youtube.com/watch?v=yhuhiOEBhQY">Video Tutorial by Crimson Aegislash/Mckinley</a></li>
 	</ul>
 	</ul>
     </body>
