@@ -2,7 +2,7 @@
 <html>
  <head>
   <title>
-   Splatoon 2 Parameter - Splatling
+   Splatoon 2 Parameter - Splatling v3.1.0
   </title>
   <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
   <link href="../wep.css" rel="stylesheet" type="text/css"/>
@@ -27,7 +27,7 @@
  </head>
  <body>
   <h1>
-   Splatoon 2 Parameter - Splatling
+   Splatoon 2 Parameter - Splatling v3.1.0
   </h1>
   <div id="tabs">
    <ul>
@@ -53,7 +53,7 @@
     </li>
     <li>
      <a href="#tabs-5">
-      Codename: Downpour
+      クーゲルシュライバー
      </a>
     </li>
    </ul>
@@ -2533,6 +2533,20 @@
        </tr>
        <tr>
         <td>
+         PaintDepthScaleRate
+        </td>
+        <td>
+        </td>
+        <td>
+         1.0
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          PaintFarDistance
         </td>
         <td>
@@ -4677,7 +4691,7 @@
          しぶき発生移動距離
         </td>
         <td>
-         120.0
+         200.0
         </td>
         <td>
          0.1f
@@ -4694,7 +4708,7 @@
          しぶき発生数
         </td>
         <td>
-         1.5
+         1.0
         </td>
         <td>
          0
@@ -4711,7 +4725,7 @@
          [#]ダメージ最大量
         </td>
         <td>
-         280
+         320
         </td>
         <td>
          0
@@ -4728,7 +4742,7 @@
          [#]ダメージ最大量(最大チャージ時)
         </td>
         <td>
-         280
+         320
         </td>
         <td>
          0
@@ -4745,7 +4759,7 @@
          [#]ダメージ最小量
         </td>
         <td>
-         140
+         160
         </td>
         <td>
          0
@@ -4915,7 +4929,7 @@
          ジャンプ時初期
         </td>
         <td>
-         3.6
+         7.0
         </td>
         <td>
          0
@@ -4932,7 +4946,7 @@
          通常時
         </td>
         <td>
-         3.6
+         3.5
         </td>
         <td>
          0
@@ -4983,7 +4997,7 @@
          第1チャージ終了フレーム
         </td>
         <td>
-         40
+         50
         </td>
         <td>
          1
@@ -5000,7 +5014,7 @@
          第1チャージ終了フレームでのショット継続フレーム
         </td>
         <td>
-         64
+         72
         </td>
         <td>
          1
@@ -5024,40 +5038,6 @@
         </td>
         <td>
          120
-        </td>
-       </tr>
-       <tr>
-        <td>
-         FirstShootingTermDamage
-        </td>
-        <td>
-         第1発射期間ダメージ最大量
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         2000
-        </td>
-       </tr>
-       <tr>
-        <td>
-         FirstShootingTermRepeatFrame
-        </td>
-        <td>
-         第1発射期間内連射フレーム
-        </td>
-        <td>
-         4
-        </td>
-        <td>
-         1
-        </td>
-        <td>
-         90
         </td>
        </tr>
        <tr>
@@ -5102,7 +5082,7 @@
          初速Z
         </td>
         <td>
-         22.0
+         21.0
         </td>
         <td>
          0
@@ -5130,53 +5110,16 @@
        </tr>
        <tr>
         <td>
-         InitVelDegNarrowEndFrame
+         InitVelDegBias_Repeat
         </td>
         <td>
-         初速ブレ縮小終了フレーム
         </td>
         <td>
-         1
+         0.3
         </td>
         <td>
-         0
         </td>
         <td>
-         300
-        </td>
-       </tr>
-       <tr>
-        <td>
-         InitVelDegNarrowRate
-        </td>
-        <td>
-         初速ブレ最終縮小率
-        </td>
-        <td>
-         1.0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         1
-        </td>
-       </tr>
-       <tr>
-        <td>
-         InitVelDegNarrowStartFrame
-        </td>
-        <td>
-         初速ブレ縮小開始フレーム
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         300
         </td>
        </tr>
        <tr>
@@ -5187,7 +5130,7 @@
          方向ブレ最大(度)
         </td>
         <td>
-         1.3
+         1.6
         </td>
         <td>
          0
@@ -5198,13 +5141,27 @@
        </tr>
        <tr>
         <td>
+         InitVelDegRandom_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.0
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          InitVelFirstPeriodMaxCharge
         </td>
         <td>
          第1チャージ終了時初速
         </td>
         <td>
-         19.0
+         21.0
         </td>
         <td>
          0
@@ -5238,7 +5195,7 @@
          第2チャージ終了時初速
         </td>
         <td>
-         19.0
+         21.0
         </td>
         <td>
          0
@@ -5255,7 +5212,7 @@
          第2チャージ開始時初速
         </td>
         <td>
-         19.0
+         21.0
         </td>
         <td>
          0
@@ -5283,13 +5240,27 @@
        </tr>
        <tr>
         <td>
+         InitVelSpeedBias_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.3
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          InitVelSpeedRateRandom
         </td>
         <td>
          速度ブレ率最大
         </td>
         <td>
-         0.11
+         0.12
         </td>
         <td>
          0
@@ -5300,13 +5271,27 @@
        </tr>
        <tr>
         <td>
+         InitVelSpeedRateRandom_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.0
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          InkConsume
         </td>
         <td>
          [#]インク消費量
         </td>
         <td>
-         0.18
+         0.225
         </td>
         <td>
          0
@@ -5385,19 +5370,16 @@
        </tr>
        <tr>
         <td>
-         LastShootingTermRepeatFrame
+         MaxShotFollowDecreaseTimes
         </td>
         <td>
-         最終発射期間内連射フレーム
         </td>
         <td>
-         4
+         0
         </td>
         <td>
-         1
         </td>
         <td>
-         90
         </td>
        </tr>
        <tr>
@@ -5425,7 +5407,7 @@
          発射中の移動速度
         </td>
         <td>
-         0.7
+         0.66
         </td>
         <td>
          0
@@ -5442,7 +5424,7 @@
          移動速度
         </td>
         <td>
-         0.5
+         0.6
         </td>
         <td>
          0
@@ -5476,7 +5458,7 @@
          最も近いところで発生する飛沫
         </td>
         <td>
-         1.4
+         1.6
         </td>
         <td>
          1
@@ -5595,7 +5577,7 @@
          攻撃前：遅延追加Ｆ(チャージキープ)
         </td>
         <td>
-         15
+         19
         </td>
         <td>
          0
@@ -5612,7 +5594,7 @@
          構え Ｆ
         </td>
         <td>
-         10
+         14
         </td>
         <td>
          0
@@ -5646,7 +5628,7 @@
          第2チャージ終了(最大チャージ)フレーム
         </td>
         <td>
-         60
+         75
         </td>
         <td>
          1
@@ -5663,64 +5645,13 @@
          第2チャージ終了フレームでのショット継続フレーム
         </td>
         <td>
-         128
+         144
         </td>
         <td>
          1
         </td>
         <td>
          300
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermBulletNum
-        </td>
-        <td>
-         第2発射期間弾数
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         120
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermDamage
-        </td>
-        <td>
-         第2発射期間ダメージ最大量
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         2000
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermRepeatFrame
-        </td>
-        <td>
-         第2発射期間内連射フレーム
-        </td>
-        <td>
-         4
-        </td>
-        <td>
-         1
-        </td>
-        <td>
-         90
         </td>
        </tr>
        <tr>
@@ -5765,7 +5696,7 @@
          それ以外の飛沫
         </td>
         <td>
-         1.4
+         1.6
         </td>
         <td>
          1
@@ -5799,7 +5730,7 @@
          最小伸ばしスケール
         </td>
         <td>
-         1.4
+         1.6
         </td>
         <td>
          1
@@ -5867,7 +5798,7 @@
          フルチャージの時にチャージ量が減らされ始めるまでの待ちフレーム
         </td>
         <td>
-         150
+         0
         </td>
         <td>
          0
@@ -5884,7 +5815,7 @@
          弾の直進ステートフレーム数
         </td>
         <td>
-         7
+         8
         </td>
         <td>
          0
@@ -5901,7 +5832,7 @@
          直進フレーム終了時強制速度(初速がこの値より小さい時は変更なし)
         </td>
         <td>
-         18.215
+         15.105
         </td>
         <td>
          0
@@ -5925,6 +5856,20 @@
         </td>
         <td>
          180
+        </td>
+       </tr>
+       <tr>
+        <td>
+         VariableInterpolatedFrame
+        </td>
+        <td>
+        </td>
+        <td>
+         0
+        </td>
+        <td>
+        </td>
+        <td>
         </td>
        </tr>
        <tr>
@@ -6001,8 +5946,8 @@
    </div>
    <div id="tabs-5">
     <h2>
-     <img alt="Codename: Downpour" height="40" src="../splat2/weapons/Wst__00.png"/>
-     Codename: Downpour
+     <img alt="クーゲルシュライバー" height="40" src="../splat2/weapons/Wst_Spinner_Downpour_00.png"/>
+     クーゲルシュライバー
     </h2>
     <br/>
     <div class="datagrid">
@@ -6171,7 +6116,7 @@
          しぶき発生移動距離
         </td>
         <td>
-         150.0
+         110.0
         </td>
         <td>
          0.1f
@@ -6188,7 +6133,7 @@
          しぶき発生数
         </td>
         <td>
-         1.5
+         1.0
         </td>
         <td>
          0
@@ -6205,7 +6150,7 @@
          [#]ダメージ最大量
         </td>
         <td>
-         300
+         320
         </td>
         <td>
          0
@@ -6222,7 +6167,7 @@
          [#]ダメージ最大量(最大チャージ時)
         </td>
         <td>
-         300
+         0
         </td>
         <td>
          0
@@ -6239,7 +6184,7 @@
          [#]ダメージ最小量
         </td>
         <td>
-         150
+         160
         </td>
         <td>
          0
@@ -6426,7 +6371,7 @@
          通常時
         </td>
         <td>
-         7.0
+         6.0
         </td>
         <td>
          0
@@ -6477,7 +6422,7 @@
          第1チャージ終了フレーム
         </td>
         <td>
-         60
+         1
         </td>
         <td>
          1
@@ -6494,7 +6439,7 @@
          第1チャージ終了フレームでのショット継続フレーム
         </td>
         <td>
-         96
+         1
         </td>
         <td>
          1
@@ -6518,40 +6463,6 @@
         </td>
         <td>
          120
-        </td>
-       </tr>
-       <tr>
-        <td>
-         FirstShootingTermDamage
-        </td>
-        <td>
-         第1発射期間ダメージ最大量
-        </td>
-        <td>
-         300
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         2000
-        </td>
-       </tr>
-       <tr>
-        <td>
-         FirstShootingTermRepeatFrame
-        </td>
-        <td>
-         第1発射期間内連射フレーム
-        </td>
-        <td>
-         3
-        </td>
-        <td>
-         1
-        </td>
-        <td>
-         90
         </td>
        </tr>
        <tr>
@@ -6596,7 +6507,7 @@
          初速Z
         </td>
         <td>
-         23.2
+         11.0
         </td>
         <td>
          0
@@ -6613,7 +6524,7 @@
          方向ブレバイアス
         </td>
         <td>
-         0.5
+         0.4
         </td>
         <td>
          0
@@ -6624,53 +6535,16 @@
        </tr>
        <tr>
         <td>
-         InitVelDegNarrowEndFrame
+         InitVelDegBias_Repeat
         </td>
         <td>
-         初速ブレ縮小終了フレーム
         </td>
         <td>
-         51
+         0.2
         </td>
         <td>
-         0
         </td>
         <td>
-         300
-        </td>
-       </tr>
-       <tr>
-        <td>
-         InitVelDegNarrowRate
-        </td>
-        <td>
-         初速ブレ最終縮小率
-        </td>
-        <td>
-         0.08
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         1
-        </td>
-       </tr>
-       <tr>
-        <td>
-         InitVelDegNarrowStartFrame
-        </td>
-        <td>
-         初速ブレ縮小開始フレーム
-        </td>
-        <td>
-         36
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         300
         </td>
        </tr>
        <tr>
@@ -6681,7 +6555,7 @@
          方向ブレ最大(度)
         </td>
         <td>
-         3.0
+         2.5
         </td>
         <td>
          0
@@ -6692,13 +6566,27 @@
        </tr>
        <tr>
         <td>
+         InitVelDegRandom_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.5
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          InitVelFirstPeriodMaxCharge
         </td>
         <td>
          第1チャージ終了時初速
         </td>
         <td>
-         9.405
+         1.0
         </td>
         <td>
          0
@@ -6715,7 +6603,7 @@
          最小チャージ時初速
         </td>
         <td>
-         9.405
+         1.0
         </td>
         <td>
          0
@@ -6732,7 +6620,7 @@
          第2チャージ終了時初速
         </td>
         <td>
-         23.2
+         1.0
         </td>
         <td>
          0
@@ -6749,7 +6637,7 @@
          第2チャージ開始時初速
         </td>
         <td>
-         23.2
+         1.0
         </td>
         <td>
          0
@@ -6777,6 +6665,20 @@
        </tr>
        <tr>
         <td>
+         InitVelSpeedBias_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.2
+        </td>
+        <td>
+        </td>
+        <td>
+        </td>
+       </tr>
+       <tr>
+        <td>
          InitVelSpeedRateRandom
         </td>
         <td>
@@ -6790,6 +6692,20 @@
         </td>
         <td>
          1
+        </td>
+       </tr>
+       <tr>
+        <td>
+         InitVelSpeedRateRandom_Repeat
+        </td>
+        <td>
+        </td>
+        <td>
+         0.03
+        </td>
+        <td>
+        </td>
+        <td>
         </td>
        </tr>
        <tr>
@@ -6879,19 +6795,16 @@
        </tr>
        <tr>
         <td>
-         LastShootingTermRepeatFrame
+         MaxShotFollowDecreaseTimes
         </td>
         <td>
-         最終発射期間内連射フレーム
         </td>
         <td>
-         6
+         2
         </td>
         <td>
-         1
         </td>
         <td>
-         90
         </td>
        </tr>
        <tr>
@@ -6919,7 +6832,7 @@
          発射中の移動速度
         </td>
         <td>
-         0.5
+         0.96
         </td>
         <td>
          0
@@ -6970,7 +6883,7 @@
          最も近いところで発生する飛沫
         </td>
         <td>
-         2.0
+         1.6
         </td>
         <td>
          1
@@ -7123,7 +7036,7 @@
          カサ開きっぱなしの連射フレーム(0で連射オフ)
         </td>
         <td>
-         4
+         3
         </td>
         <td>
          0
@@ -7140,7 +7053,7 @@
          第2チャージ終了(最大チャージ)フレーム
         </td>
         <td>
-         90
+         100
         </td>
         <td>
          1
@@ -7157,64 +7070,13 @@
          第2チャージ終了フレームでのショット継続フレーム
         </td>
         <td>
-         192
+         200
         </td>
         <td>
          1
         </td>
         <td>
          300
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermBulletNum
-        </td>
-        <td>
-         第2発射期間弾数
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         120
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermDamage
-        </td>
-        <td>
-         第2発射期間ダメージ最大量
-        </td>
-        <td>
-         300
-        </td>
-        <td>
-         0
-        </td>
-        <td>
-         2000
-        </td>
-       </tr>
-       <tr>
-        <td>
-         SecondShootingTermRepeatFrame
-        </td>
-        <td>
-         第2発射期間内連射フレーム
-        </td>
-        <td>
-         6
-        </td>
-        <td>
-         1
-        </td>
-        <td>
-         90
         </td>
        </tr>
        <tr>
@@ -7259,7 +7121,7 @@
          それ以外の飛沫
         </td>
         <td>
-         2.0
+         1.6
         </td>
         <td>
          1
@@ -7293,7 +7155,7 @@
          最小伸ばしスケール
         </td>
         <td>
-         2.0
+         1.6
         </td>
         <td>
          1
@@ -7327,7 +7189,7 @@
          塗り半径
         </td>
         <td>
-         12.5
+         12.8
         </td>
         <td>
          0
@@ -7395,7 +7257,7 @@
          直進フレーム終了時強制速度(初速がこの値より小さい時は変更なし)
         </td>
         <td>
-         22.963
+         10.27
         </td>
         <td>
          0
@@ -7419,6 +7281,20 @@
         </td>
         <td>
          180
+        </td>
+       </tr>
+       <tr>
+        <td>
+         VariableInterpolatedFrame
+        </td>
+        <td>
+        </td>
+        <td>
+         10
+        </td>
+        <td>
+        </td>
+        <td>
         </td>
        </tr>
        <tr>
@@ -7531,15 +7407,14 @@
    <a href="parameter_splatling_jp_300.html">
     3.0.0
    </a>
+   <a href="parameter_splatling_jp_310.html">
+    3.1.0
+   </a>
   </p>
   <p>
    Help provided by
    <a href="https://twitter.com/OatmealDome">
     OatmealDome
-   </a>
-   ,
-   <a href="https://twitter.com/Simon1844">
-    Simonx22
    </a>
    and
    <a href="https://twitter.com/WemI0">
