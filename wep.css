@@ -119,3 +119,40 @@ div.dhtmlx_window_active, div.dhx_modal_cover_dv {
 .ui-widget-content {
     display: inline-block;
 }
+body { padding: 20px; }
+div.container {top: 40px; right: 40px; border: 1px dotted lightgray; height: 50px; }
+div.controls > div { 
+    display: inline-block; 
+    height: 46px; 
+    width: 46px; 
+    opacity: .5;
+    background-image: url('https://openclipart.org/image/300px/svg_to_png/172203/Icon_set_player.png');
+    background-size: 150px;
+}
+div.controls > div:hover {    
+    opacity: 1.0;
+}
+div#prev { 
+    background-position: 0px 0px;
+}
+div#play { 
+    background-position: -52px 0px;
+}
+div#next { 
+    background-position: 46px 0px;
+}
+div#stop { 
+    background-position: 0px 46px;
+}
+div#pause { 
+    background-position: 98px 46px;
+}
+div#record { 
+    background-position: 46px 46px;
+}
+
+span# { background }
+
+audio {  }
+
+
