@@ -1,3 +1,11 @@
+v0.4.3:
+    - Splat 1: Fix rarity of gear
+    - Fix a bug in Player Editor that did not allow to display the octoling gender correctly.
+    - Add compability with Octo Expansion Gear
+    - Add support for Octoshot
+    - Add New Albacore Hotel to unlockable maps
+    - Allow SplatHeX to decrypt/encrypt savegames by drag & drop them into the SplatHeX.exe file.
+    - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience.
 v0.4.2:
     - Fix a bug with Plaza Image Editor.
     - Fix a bug in salmon run editor where it was not possible to store changes.
