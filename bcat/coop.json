@@ -1,0 +1,1616 @@
+{
+  "MonthlyRewardGears": [
+    {
+      "DateTime": "2000-01-01T00:00:00",
+      "GearID": 21000,
+      "GearKind": "cClothes"
+    },
+    {
+      "DateTime": "2017-08-01T00:00:00",
+      "GearID": 21000,
+      "GearKind": "cHead"
+    },
+    {
+      "DateTime": "2017-09-01T00:00:00",
+      "GearID": 21001,
+      "GearKind": "cClothes"
+    },
+    {
+      "DateTime": "2017-10-01T00:00:00",
+      "GearID": 21002,
+      "GearKind": "cClothes"
+    },
+    {
+      "DateTime": "2017-11-01T00:00:00",
+      "GearID": 21001,
+      "GearKind": "cHead"
+    },
+    {
+      "DateTime": "2017-12-01T00:00:00",
+      "GearID": 21001,
+      "GearKind": "cShoes"
+    },
+    {
+      "DateTime": "2018-01-01T00:00:00",
+      "GearID": 21003,
+      "GearKind": "cClothes"
+    },
+    {
+      "DateTime": "2018-02-01T00:00:00",
+      "GearID": 21002,
+      "GearKind": "cHead"
+    },
+    {
+      "DateTime": "2018-03-01T00:00:00",
+      "GearID": 21004,
+      "GearKind": "cClothes"
+    },
+    {
+      "DateTime": "2018-04-01T00:00:00",
+      "GearID": 21006,
+      "GearKind": "cHead"
+    },
+    {
+      "DateTime": "2018-05-01T00:00:00",
+      "GearID": 21002,
+      "GearKind": "cShoes"
+    },
+    {
+      "DateTime": "2018-06-01T00:00:00",
+      "GearID": 21005,
+      "GearKind": "cHead"
+    },
+    {
+      "DateTime": "2018-07-01T00:00:00",
+      "GearID": 21007,
+      "GearKind": "cClothes"
+    }
+  ],
+  "Phases": [
+    {
+      "EndDateTime": "2017-12-20T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2017-12-19T12:00:00",
+      "WeaponSets": [
+        20,
+        1000,
+        3020,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-22T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2017-12-21T06:00:00",
+      "WeaponSets": [
+        0,
+        50,
+        90,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-24T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2017-12-23T00:00:00",
+      "WeaponSets": [
+        60,
+        210,
+        310,
+        5030
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-26T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2017-12-25T00:00:00",
+      "WeaponSets": [
+        10,
+        5010,
+        1010,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-27T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2017-12-26T18:00:00",
+      "WeaponSets": [
+        200,
+        3000,
+        1030,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-29T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2017-12-28T12:00:00",
+      "WeaponSets": [
+        20,
+        30,
+        220,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2017-12-31T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2017-12-30T06:00:00",
+      "WeaponSets": [
+        40,
+        230,
+        3010,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-02T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-01-01T06:00:00",
+      "WeaponSets": [
+        400,
+        1110,
+        2050,
+        6000
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-04T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-01-03T00:00:00",
+      "WeaponSets": [
+        70,
+        240,
+        1000,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-06T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-01-04T18:00:00",
+      "WeaponSets": [
+        50,
+        300,
+        3020,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-08T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-01-06T12:00:00",
+      "WeaponSets": [
+        6020,
+        210,
+        90,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-09T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-01-08T12:00:00",
+      "WeaponSets": [
+        0,
+        400,
+        4000,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-11T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-01-10T06:00:00",
+      "WeaponSets": [
+        10,
+        5030,
+        1100,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-13T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-01-11T18:00:00",
+      "WeaponSets": [
+        5020,
+        80,
+        1020,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-15T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-01-13T18:00:00",
+      "WeaponSets": [
+        5000,
+        200,
+        310,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-17T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-01-15T18:00:00",
+      "WeaponSets": [
+        6020,
+        220,
+        1010,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-18T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-01-17T12:00:00",
+      "WeaponSets": [
+        20,
+        5010,
+        3000,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-20T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-01-19T06:00:00",
+      "WeaponSets": [
+        30,
+        3010,
+        1030,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-22T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-01-21T00:00:00",
+      "WeaponSets": [
+        40,
+        1000,
+        240,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-24T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-01-23T00:00:00",
+      "WeaponSets": [
+        70,
+        210,
+        6000,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-26T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-01-24T18:00:00",
+      "WeaponSets": [
+        50,
+        2050,
+        250,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-28T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-01-26T12:00:00",
+      "WeaponSets": [
+        0,
+        300,
+        230,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-01-29T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-01-28T12:00:00",
+      "WeaponSets": [
+        80,
+        200,
+        1110,
+        5030
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-02T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-02-01T00:00:00",
+      "WeaponSets": [
+        10,
+        6020,
+        1020,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-04T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-02-02T18:00:00",
+      "WeaponSets": [
+        60,
+        400,
+        1010,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-06T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-02-04T18:00:00",
+      "WeaponSets": [
+        5000,
+        1100,
+        220,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-07T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-02-06T12:00:00",
+      "WeaponSets": [
+        20,
+        80,
+        3020,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-09T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-02-08T06:00:00",
+      "WeaponSets": [
+        5010,
+        230,
+        1030,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-11T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-02-10T00:00:00",
+      "WeaponSets": [
+        0,
+        210,
+        310,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-13T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-02-12T00:00:00",
+      "WeaponSets": [
+        50,
+        70,
+        2050,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-15T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-02-13T18:00:00",
+      "WeaponSets": [
+        10,
+        90,
+        240,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-16T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-02-15T12:00:00",
+      "WeaponSets": [
+        60,
+        3000,
+        4010,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-18T20:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-02-17T08:00:00",
+      "WeaponSets": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-20T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-02-19T06:00:00",
+      "WeaponSets": [
+        5020,
+        3010,
+        6020,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-22T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-02-21T00:00:00",
+      "WeaponSets": [
+        200,
+        300,
+        5030,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-24T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-02-22T18:00:00",
+      "WeaponSets": [
+        30,
+        1110,
+        400,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-26T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-02-24T12:00:00",
+      "WeaponSets": [
+        40,
+        6000,
+        250,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-02-27T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-02-26T12:00:00",
+      "WeaponSets": [
+        20,
+        5000,
+        220,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-01T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-02-28T06:00:00",
+      "WeaponSets": [
+        80,
+        230,
+        1100,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-03T04:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-03-01T22:00:00",
+      "WeaponSets": [
+        0,
+        210,
+        1010,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-05T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-03T18:00:00",
+      "WeaponSets": [
+        70,
+        3000,
+        2050,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-07T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-03-05T18:00:00",
+      "WeaponSets": [
+        50,
+        200,
+        3010,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-08T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-03-07T12:00:00",
+      "WeaponSets": [
+        60,
+        3020,
+        6020,
+        240
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-10T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-09T06:00:00",
+      "WeaponSets": [
+        300,
+        4000,
+        5030,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-12T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-03-11T00:00:00",
+      "WeaponSets": [
+        5040,
+        1000,
+        70,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-14T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-03-13T00:00:00",
+      "WeaponSets": [
+        30,
+        200,
+        2010,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-16T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-14T18:00:00",
+      "WeaponSets": [
+        5000,
+        6020,
+        80,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-18T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-03-16T12:00:00",
+      "WeaponSets": [
+        310,
+        5030,
+        1100,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-19T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-03-18T12:00:00",
+      "WeaponSets": [
+        5010,
+        5020,
+        230,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-21T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-20T06:00:00",
+      "WeaponSets": [
+        0,
+        6010,
+        3020,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-23T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-03-22T00:00:00",
+      "WeaponSets": [
+        70,
+        10,
+        220,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-25T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-03-23T18:00:00",
+      "WeaponSets": [
+        50,
+        3010,
+        1010,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-27T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-03-25T18:00:00",
+      "WeaponSets": [
+        5040,
+        250,
+        300,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-28T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-27T12:00:00",
+      "WeaponSets": [
+        3020,
+        5020,
+        230,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-03-30T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-03-29T06:00:00",
+      "WeaponSets": [
+        4000,
+        40,
+        310,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-01T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-03-31T00:00:00",
+      "WeaponSets": [
+        80,
+        6000,
+        6020,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-03T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-04-02T00:00:00",
+      "WeaponSets": [
+        400,
+        20,
+        5030,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-05T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-04-03T18:00:00",
+      "WeaponSets": [
+        240,
+        1000,
+        5020,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-06T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-04-05T12:00:00",
+      "WeaponSets": [
+        5010,
+        3010,
+        1010,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-08T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-04-07T06:00:00",
+      "WeaponSets": [
+        200,
+        3000,
+        6020,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-10T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-04-09T06:00:00",
+      "WeaponSets": [
+        5030,
+        1020,
+        6010,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-12T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-04-11T00:00:00",
+      "WeaponSets": [
+        30,
+        240,
+        300,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-14T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-04-12T18:00:00",
+      "WeaponSets": [
+        400,
+        3020,
+        60,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-16T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-04-14T12:00:00",
+      "WeaponSets": [
+        1030,
+        80,
+        5040,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-17T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-04-16T12:00:00",
+      "WeaponSets": [
+        250,
+        1110,
+        0,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-19T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-04-18T06:00:00",
+      "WeaponSets": [
+        1000,
+        210,
+        4020,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-21T04:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-04-19T22:00:00",
+      "WeaponSets": [
+        400,
+        240,
+        5010,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-23T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-04-21T18:00:00",
+      "WeaponSets": [
+        3020,
+        5000,
+        3010,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-25T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-04-23T18:00:00",
+      "WeaponSets": [
+        1020,
+        60,
+        20,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-26T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-04-25T12:00:00",
+      "WeaponSets": [
+        80,
+        6000,
+        1100,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-28T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-04-27T06:00:00",
+      "WeaponSets": [
+        250,
+        0,
+        300,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-04-30T12:00:00",
+      "RareWeaponID": 20020,
+      "StageID": 5002,
+      "StartDateTime": "2018-04-29T00:00:00",
+      "WeaponSets": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-02T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-05-01T00:00:00",
+      "WeaponSets": [
+        5040,
+        6010,
+        70,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-04T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-05-02T18:00:00",
+      "WeaponSets": [
+        310,
+        5020,
+        3000,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-06T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-05-04T12:00:00",
+      "WeaponSets": [
+        6000,
+        1020,
+        2000,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-07T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-05-06T12:00:00",
+      "WeaponSets": [
+        5000,
+        210,
+        300,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-09T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-05-08T06:00:00",
+      "WeaponSets": [
+        1030,
+        5010,
+        6020,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-11T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-05-10T00:00:00",
+      "WeaponSets": [
+        5020,
+        230,
+        80,
+        5030
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-13T06:00:00",
+      "RareWeaponID": 20020,
+      "StageID": 5001,
+      "StartDateTime": "2018-05-11T18:00:00",
+      "WeaponSets": [
+        400,
+        1000,
+        4010,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-15T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-05-13T18:00:00",
+      "WeaponSets": [
+        20,
+        3000,
+        310,
+        240
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-16T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-05-15T12:00:00",
+      "WeaponSets": [
+        1010,
+        40,
+        300,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-18T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-05-17T06:00:00",
+      "WeaponSets": [
+        5000,
+        4000,
+        30,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-20T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-05-19T00:00:00",
+      "WeaponSets": [
+        200,
+        1100,
+        90,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-22T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-05-21T00:00:00",
+      "WeaponSets": [
+        5030,
+        5020,
+        4010,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-24T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-05-22T18:00:00",
+      "WeaponSets": [
+        1030,
+        0,
+        240,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-25T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-05-24T12:00:00",
+      "WeaponSets": [
+        1020,
+        300,
+        20,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-27T20:00:00",
+      "RareWeaponID": 20020,
+      "StageID": 5002,
+      "StartDateTime": "2018-05-26T08:00:00",
+      "WeaponSets": [
+        5000,
+        60,
+        2000,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-29T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-05-28T06:00:00",
+      "WeaponSets": [
+        6000,
+        5040,
+        10,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-05-31T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-05-30T00:00:00",
+      "WeaponSets": [
+        210,
+        400,
+        4000,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-02T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-05-31T18:00:00",
+      "WeaponSets": [
+        250,
+        5010,
+        30,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-04T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-06-02T12:00:00",
+      "WeaponSets": [
+        200,
+        60,
+        1000,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-05T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-06-04T12:00:00",
+      "WeaponSets": [
+        70,
+        1020,
+        50,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-07T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-06-06T06:00:00",
+      "WeaponSets": [
+        80,
+        20,
+        220,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-09T04:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-06-07T22:00:00",
+      "WeaponSets": [
+        6020,
+        230,
+        5000,
+        240
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-11T06:00:00",
+      "RareWeaponID": 20030,
+      "StageID": 5000,
+      "StartDateTime": "2018-06-09T18:00:00",
+      "WeaponSets": [
+        5010,
+        210,
+        3020,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-13T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5003,
+      "StartDateTime": "2018-06-11T18:00:00",
+      "WeaponSets": [
+        3010,
+        1110,
+        1010,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-14T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-06-13T12:00:00",
+      "WeaponSets": [
+        3000,
+        20,
+        250,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-16T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-06-15T06:00:00",
+      "WeaponSets": [
+        1100,
+        60,
+        1020,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-18T12:00:00",
+      "RareWeaponID": 20030,
+      "StageID": 5001,
+      "StartDateTime": "2018-06-17T00:00:00",
+      "WeaponSets": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-20T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-06-19T00:00:00",
+      "WeaponSets": [
+        30,
+        1000,
+        80,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-22T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-06-20T18:00:00",
+      "WeaponSets": [
+        1030,
+        5030,
+        300,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-24T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-06-22T12:00:00",
+      "WeaponSets": [
+        210,
+        5040,
+        5000,
+        2030
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-25T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-06-24T12:00:00",
+      "WeaponSets": [
+        1020,
+        4000,
+        3010,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-27T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-06-26T06:00:00",
+      "WeaponSets": [
+        200,
+        6020,
+        1110,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-06-29T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-06-28T00:00:00",
+      "WeaponSets": [
+        40,
+        0,
+        20,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-01T06:00:00",
+      "RareWeaponID": 20030,
+      "StageID": 5003,
+      "StartDateTime": "2018-06-29T18:00:00",
+      "WeaponSets": [
+        5010,
+        5020,
+        2000,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-03T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-07-01T18:00:00",
+      "WeaponSets": [
+        5040,
+        1010,
+        50,
+        6010
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-04T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-07-03T12:00:00",
+      "WeaponSets": [
+        70,
+        230,
+        3020,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-06T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-07-05T06:00:00",
+      "WeaponSets": [
+        60,
+        400,
+        3010,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-08T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-07-07T00:00:00",
+      "WeaponSets": [
+        4000,
+        10,
+        6020,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-10T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-07-09T00:00:00",
+      "WeaponSets": [
+        200,
+        1020,
+        5000,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-12T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-07-10T18:00:00",
+      "WeaponSets": [
+        1010,
+        5030,
+        40,
+        4010
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-13T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-07-12T12:00:00",
+      "WeaponSets": [
+        70,
+        6000,
+        30,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-16T04:00:00",
+      "RareWeaponID": 20030,
+      "StageID": 5003,
+      "StartDateTime": "2018-07-14T06:00:00",
+      "WeaponSets": [
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-17T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-07-16T06:00:00",
+      "WeaponSets": [
+        210,
+        5040,
+        250,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-19T06:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-07-18T00:00:00",
+      "WeaponSets": [
+        1030,
+        1100,
+        80,
+        240
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-21T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-07-19T18:00:00",
+      "WeaponSets": [
+        6000,
+        5020,
+        4010,
+        2020
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-23T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-07-21T12:00:00",
+      "WeaponSets": [
+        10,
+        5010,
+        1010,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-24T18:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5001,
+      "StartDateTime": "2018-07-23T12:00:00",
+      "WeaponSets": [
+        0,
+        30,
+        3010,
+        2000
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-26T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-07-25T06:00:00",
+      "WeaponSets": [
+        3020,
+        50,
+        230,
+        2060
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-28T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-07-27T00:00:00",
+      "WeaponSets": [
+        1030,
+        5040,
+        40,
+        2050
+      ]
+    },
+    {
+      "EndDateTime": "2018-07-30T06:00:00",
+      "RareWeaponID": 20030,
+      "StageID": 5003,
+      "StartDateTime": "2018-07-28T18:00:00",
+      "WeaponSets": [
+        200,
+        4000,
+        1010,
+        -1
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-01T00:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5002,
+      "StartDateTime": "2018-07-30T18:00:00",
+      "WeaponSets": [
+        30,
+        5030,
+        1020,
+        4020
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-02T18:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5000,
+      "StartDateTime": "2018-08-01T12:00:00",
+      "WeaponSets": [
+        6000,
+        230,
+        50,
+        2010
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-04T12:00:00",
+      "RareWeaponID": 20010,
+      "StageID": 5001,
+      "StartDateTime": "2018-08-03T06:00:00",
+      "WeaponSets": [
+        5040,
+        60,
+        2060,
+        2040
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-06T12:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5000,
+      "StartDateTime": "2018-08-05T00:00:00",
+      "WeaponSets": [
+        80,
+        1010,
+        400,
+        250
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-08T06:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5003,
+      "StartDateTime": "2018-08-07T00:00:00",
+      "WeaponSets": [
+        1030,
+        1100,
+        6010,
+        90
+      ]
+    },
+    {
+      "EndDateTime": "2018-08-10T00:00:00",
+      "RareWeaponID": 20000,
+      "StageID": 5002,
+      "StartDateTime": "2018-08-08T18:00:00",
+      "WeaponSets": [
+        310,
+        1000,
+        40,
+        2020
+      ]
+    }
+  ],
+  "RateRanges": [
+    0,
+    100,
+    200,
+    300,
+    400
+  ],
+  "Version": 7
+}
+
