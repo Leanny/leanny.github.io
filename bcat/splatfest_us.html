@@ -2,7 +2,7 @@
 <html>
    <head>
       <title>
-         Splatoon 2 - Splatfest EU
+         Splatoon 2 - Splatfest NA
       </title>
       <meta content="text/html; charset=utf-8" http-equiv="Content-type"/>
       <link href="http://leanny.github.io/wep.css" rel="stylesheet" type="text/css"/>
@@ -53,12 +53,8 @@
 		<div id="tabs-1">
 			<ul>
 				<li><a href="#tabs-11"><img src="http://leanny.github.io/splat2/flags/en.png" width="20px"/></a></li>
-				<li><a href="#tabs-12"><img src="http://leanny.github.io/splat2/flags/de.png" width="20px"/></a></li>
-				<li><a href="#tabs-13"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
-				<li><a href="#tabs-14"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
-				<li><a href="#tabs-15"><img src="http://leanny.github.io/splat2/flags/it.png" width="20px"/></a></li>
-				<li><a href="#tabs-16"><img src="http://leanny.github.io/splat2/flags/nl.png" width="20px"/></a></li>
-				<li><a href="#tabs-17"><img src="http://leanny.github.io/splat2/flags/ru.png" width="20px"/></a></li>
+				<li><a href="#tabs-12"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
+				<li><a href="#tabs-13"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
 			</ul>
 			<div id="tabs-11">
 			</div>
@@ -66,24 +62,12 @@
 			</div>
 			<div id="tabs-13">
 			</div>
-			<div id="tabs-14">
-			</div>
-			<div id="tabs-15">
-			</div>
-			<div id="tabs-16">
-			</div>
-			<div id="tabs-17">
-			</div>
 		</div>
 		<div id="tabs-2">
 			<ul>
 				<li><a href="#tabs-21"><img src="http://leanny.github.io/splat2/flags/en.png" width="20px"/></a></li>
-				<li><a href="#tabs-22"><img src="http://leanny.github.io/splat2/flags/de.png" width="20px"/></a></li>
-				<li><a href="#tabs-23"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
-				<li><a href="#tabs-24"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
-				<li><a href="#tabs-25"><img src="http://leanny.github.io/splat2/flags/it.png" width="20px"/></a></li>
-				<li><a href="#tabs-26"><img src="http://leanny.github.io/splat2/flags/nl.png" width="20px"/></a></li>
-				<li><a href="#tabs-27"><img src="http://leanny.github.io/splat2/flags/ru.png" width="20px"/></a></li>
+				<li><a href="#tabs-22"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
+				<li><a href="#tabs-23"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
 			</ul>
 			<div id="tabs-21">
 			</div>
@@ -91,24 +75,12 @@
 			</div>
 			<div id="tabs-23">
 			</div>
-			<div id="tabs-24">
-			</div>
-			<div id="tabs-25">
-			</div>
-			<div id="tabs-26">
-			</div>
-			<div id="tabs-27">
-			</div>
 		</div>
 		<div id="tabs-3">
 			<ul>
 				<li><a href="#tabs-31"><img src="http://leanny.github.io/splat2/flags/en.png" width="20px"/></a></li>
-				<li><a href="#tabs-32"><img src="http://leanny.github.io/splat2/flags/de.png" width="20px"/></a></li>
-				<li><a href="#tabs-33"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
-				<li><a href="#tabs-34"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
-				<li><a href="#tabs-35"><img src="http://leanny.github.io/splat2/flags/it.png" width="20px"/></a></li>
-				<li><a href="#tabs-36"><img src="http://leanny.github.io/splat2/flags/nl.png" width="20px"/></a></li>
-				<li><a href="#tabs-37"><img src="http://leanny.github.io/splat2/flags/ru.png" width="20px"/></a></li>
+				<li><a href="#tabs-32"><img src="http://leanny.github.io/splat2/flags/es.png" width="20px"/></a></li>
+				<li><a href="#tabs-33"><img src="http://leanny.github.io/splat2/flags/fr.png" width="20px"/></a></li>
 			</ul>
 			<div id="tabs-31">
 			</div>
@@ -116,26 +88,18 @@
 			</div>
 			<div id="tabs-33">
 			</div>
-			<div id="tabs-34">
-			</div>
-			<div id="tabs-35">
-			</div>
-			<div id="tabs-36">
-			</div>
-			<div id="tabs-37">
-			</div>
 		</div>
 	  </div>
       <script>
-        $.getJSON( "https://oatmealdome.me/bcat/festival_eu.json", function( data ) {
+        $.getJSON( "https://oatmealdome.me/bcat/festival_na.json", function( data ) {
 			$("#announce").append(new Date(data["Time"]["Announce"]))
 			$("#start").append(new Date(data["Time"]["Start"]))
 			$("#end").append(new Date(data["Time"]["End"]))
 			$("#result").append(new Date(data["Time"]["Result"]))
 			$("#image").append("<img src=\"https://oatmealdome.me/bcat/images/"+data["FestivalId"]+".PNG\" />")
-		    var pearl = ['Pearl', 'Perla', 'Perla', 'Perle', 'Alga', 'Lorelei', 'Жемчик']
-		    var marina = ['Marina', 'Marina', 'Marina', 'Coralie', 'Nori', 'Mariana', 'Мариша']
-		    var languages = ["EUen", "EUde", "EUes", "EUfr", "EUit", "EUnl", "EUru"]
+		    var pearl = ['Pearl', 'Perla', 'Perle']
+		    var marina = ['Marina', 'Marina', 'Coralie']
+		    var languages = ["USen", "USes", "USfr"]
 		    $.each( languages, function (i, lang) {
 				var items = [];
 			    $.each( data["News"][0][lang], function( key, message ) {
