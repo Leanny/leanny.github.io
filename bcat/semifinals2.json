@@ -1,0 +1,2596 @@
+{
+  "FesSameTeamMatchWaitTime": 30,
+  "FestivalId": 5054,
+  "News": [
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Welcher Teenage Mutant Ninja Turtle ist\neuer Favorit? Mikey oder Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer diese Runde gewinnt, steht im\nFinale!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Ich bin für Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Er ist einfach so... wild. Wie ich!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Stimmt schon. Aber ich finde Donnie\ntrotzdem viel besser als Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Donnie ist ein GENIE. Er hat seinen\nHigh-Tech-Stab selbst gebastelt!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Und als Weichschildkröte hat er sich\neine Zusatzpanzerung gebaut.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wie du weißt, wird mein Herz bei\nTechnik ganz weich.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Also „weich“... Weil er ja eine\nWeichschildkröte ist!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA HA!\nICH BIN SO KOMISCH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Eher etwas schräg...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer ist euer Favorit? Trefft eure Wahl\nam Splatfest-Wahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Who's your favorite Teenage Mutant\nNinja Turtle? Mikey or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Whoever wins this round will move on\nto the finals!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "I gotta go with Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "He's wild, yo. Just like me!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "I can see that. I like Donnie way more\nthan Mikey though.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Donnie is a mechanical GENIUS. He\ndesigned his Tech Bo-Staff by himself!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "And he's a soft-shell turtle, so he\nmakes Battle Shells to cover his back.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "As you know, I've got a real \"soft spot\"\nfor tech geeks.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "You know... \"Soft spot\"?\nCause he's a soft-shell turtle?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA HA!\nI MADE A FUNNY!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "That was weird.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Which turtle is your favorite? Head to\nthe Splatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Qué Tortuga Ninja os mola más:\nMichelangelo o Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Los ganadores de este enfrentamiento\npasarán a la gran final.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Yo creo que voy con Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Me identifico con él porque es joven\ny alocado... igualito que yo.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Puede que tengas razón, pero yo\nprefiero a Donnie.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Sabe un montón y es el más mañoso.\n¡Hasta diseña sus propias armas!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Y, como es una tortuga de caparazón\nblando, se defiende de maravilla.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Además, ya sabes que siento debilidad\npor quienes dominan la tecnología.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Lo pillas? «Caparazón blando»...\n«Debilidad»...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Ja, ja, ja! Me ha salido un juego de\npalabras de lo más original.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Esto...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Y luego eres tú la que dices que mis\nchistes son rebuscados...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Tenéis ya un personaje favorito?\n¡Toca pasarse por el terminal de voto!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Parmi les Tortues Ninjas, vous préférez\nqui : Michelangelo ou Donatello ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Le gagnant de ce festival passera\ndirectement en finale du tournoi !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Pour moi, pas de doute : je rejoins\nl'équipe Mikey !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Les excentriques dans son genre,\nça me parle, à moi !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Oui, je l'aime bien aussi. Mais pas\nautant que Donnie, quand même !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "C'est un vrai génie de la mécanique !\nC'est lui qui a construit son bâton Bo !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Sans oublier toutes ses carapaces de\ncombat, bien sûr.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Tu savais que les tortues de son espèce\nn'ont qu'un cuir assez mou sur le dos ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ce qui ne les empêche pas d'être des\ndurs à cuire !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA ! Tu as vu, Perle ?\nJ'ai fait un jeu de mots !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Elle est mignonne...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Alors, votre tortue préférée ? Rendez-\nvous à la borne festive pour trancher !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Qual è la vostra tartaruga ninja\npreferita tra Michelangelo e Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Il vincitore di questo turno volerà\nin finale!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Io voto Mikey!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "È il più esuberante. Proprio come me!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Questo lo vedo. Però io preferisco\nDonnie.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "È un inventore geniale. Il suo bastone\nsuper tecnologico l'ha inventato lui!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Ed è una tartaruga dal guscio molle,\ncosì in battaglia usa degli scudi.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Come ben sai, io ho un debole per chi è\ncarapace di escogitare cose così geniali!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Beh... Com'è che non ridi?\nCarapace... perché è una tartaruga!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "AH AH AH! Sono la simpatia\nfatta calamaro!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Non fa ridere...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "E voi quale tartaruga ninja preferite?\nCorrete al terminal e scegliete!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Welke Teenage Mutant Ninja Turtle is\nje favoriet? Michelangelo of Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wie deze ronde wint, gaat\ndoor naar de finale!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Ik kies voor Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Hij is wild, net als ik!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Da's waar. Maar ik vind Donnie\nveel beter dan Mikey!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Donnie is een technisch genie! Hij heeft\nz'n bo-staf helemaal zelf gemaakt!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "En omdat hij een weekschildpad is,\nheeft hij extra bepantsering gemaakt.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Zoals je weet, heb ik een zwakke plek\nvoor techneuten.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Je weet wel... Zwakke plek. Vanwege z'n\nzachte schild...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Hahaha! Ik tapte een mopje!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Dat was eh... vreemd!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Welke Turtle is je favoriet? Maak je\nkeuze bij de Splatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Кто из черепашек-ниндзя круче?\nМикеланджело или Донателло?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Победитель пройдет в финал!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Я за Микеланджело!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Он вообще зверь! Прямо как я!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ага, одно лицо. Но мне больше\nДонателло нравится.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Он так классно разбирается в технике!\nСам придумал свой техно-посох бо!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "А так как он мягкотелая черепаха, он\nсоздал себе бронированный панцирь.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Так классно, правда? Черепашка,\nа мягкая! Ми-ми-ми!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Жаль только, что не пушистая...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Вот было бы здорово!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Знаешь, все-таки ты странная.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Какая черепашка круче? Скорее\nк терминалу и выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Announce",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Who's your favorite Teenage Mutant\nNinja Turtle? Mikey or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Whoever wins this round will move on\nto the finals!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "I gotta go with Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "He's wild, yo. Just like me!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "I can see that. I like Donnie way more\nthan Mikey though.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Donnie is a mechanical GENIUS. He\ndesigned his Tech Bo-Staff by himself!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "And he's a soft-shell turtle, so he\nmakes Battle Shells to cover his back.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "As you know, I've got a real \"soft spot\"\nfor tech geeks.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "You know... \"Soft spot\"?\nCause he's a soft-shell turtle?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA HA!\nI MADE A FUNNY!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "That was weird.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Which turtle is your favorite? Head to\nthe Splatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Cuál de las Tortugas Ninja es su\npreferida? ¿Mikey o Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡El ganador de esta ronda avanzará\na la gran final!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Yo voy con Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Tiene una personalidad divertida.\n¡Como yo!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Entiendo tu elección. Pero Donnie\nsiempre me ha caído mejor.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Es un genio de la mecánica!\n¡Diseñó su propia arma!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Y como es una tortuga de caparazón\nblando, ¡crea armadura para protegerse!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Les tengo cierta... \"ternura\" a los que\ntrabajan con la tecnología.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Lo captas? ¿\"Ternura\"? ¿Porque\ntiene el caparazón blando? ¿Y tierno?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡JA, JA, JA! ¡QUÉ GRACIOSO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "A veces no te entiendo.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Cuál es su tortuga favorita? ¡Vayan a\nla terminal de voto y elijan un equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Qui est ta tortue ninja préférée?\nMichelangelo ou Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Celui qui gagne cette ronde\npassera en finale!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "Je dois y aller avec Mikey.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Il est déjanté. En plein comme moi!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Je vois ça. J'aime Donnie beaucoup\nplus que Mikey par contre.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Donnie est un GÉNIE de la mécanique.\nIl a conçu son bo techno tout seul!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Sa carapace est molle, et il a conçu des\ncarapaces de combat pour se protéger.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Et comme tu le sais, j'aime ceux\nqui ont la piqure de la technologie.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Tu sais... « Piqure »?\nComme la pointe de son bo?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA HA! J'ai fait une farce!\nHA HA HA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "C'était bizarre.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Qui est ta tortue préférée? Va à la\nborne festive pour choisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Welcher Teenage Mutant Ninja Turtle ist\neuer Favorit? Mikey oder Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Trefft eure Wahl am Splatfest-\nWahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which Teenage Mutant Ninja Turtle is\nyour favorite? Mikey or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿A qué Tortuga Ninja preferís:\na Michelangelo o a Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Elegid vuestro bando en el terminal\nde voto.",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Quelle Tortue Ninja préférez-vous entre\nMichelangelo et Donatello ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Faites votre choix ! La borne festive\nvous attend !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Qual è la vostra tartaruga ninja\npreferita tra Michelangelo e Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Correte al terminal di voto e scegliete\nda che parte stare!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Welke Teenage Mutant Ninja Turtle is\nje favoriet? Michelangelo of Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Maak je keuze bij de\nSplatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Кто из черепашек-ниндзя круче?\nМикеланджело или Донателло?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Скорее к терминалу\nи выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Start",
+      "USen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which Teenage Mutant Ninja Turtle is\nyour favorite? Mikey or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Cuál de las Tortugas Ninja es su\npreferida? ¿Mikey o Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Vayan a la terminal de voto y elijan\nun equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Qui est ta tortue ninja préférée?\nMichelangelo ou Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Va à la borne festive pour\nchoisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Zieh dich in deinen Panzer zurück,\nTeam Donnie!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Ach menno...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Team Mikey hat's euch voll gezeigt,\nTeam Donnie hat es glatt vergeigt!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Tut mir leid, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-TROLLO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Y'ALL GOT SHELL SHOCKED!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Aw man...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Team Mikey so stacked,\ngot ya psyche so cracked!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "We've failed you, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Vuestros caparazones se han quedado\nde piedra! ¡Hemos ganado!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Me lo temía...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Es el final de la historia:\n¡Michelangelo logra la victoria!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "¡Cowabunga!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "No hemos estado a la altura, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "¡Al equipo de Donatello\nle hemos dado para el pelo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "No hace falta pasarse...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡En la plaza os esperan los premios por\nhaber participado! ¡Echad un ojo!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Qu'est-ce que vous dites de ça,\nles carapaces molles ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "C'est pas vrai...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "C'est la vie, mets-toi ça en TÊTE !\nContre Mikey, tu peux pas TEST !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Pardonne-nous, Donnie... On n'a pas\nété à la hauteur...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Dommage pour toi, Don-Intello !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "MONDO PIZZA, ABBIAMO VINTO!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Oh, nooo...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "♪ Mikey, immensa tartaruga!\nDonatello, datti alla fuga! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGAAA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Mi spiace tanto, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Non avremmo mai potuto perdere contro\nuna tartaruga dal guscio molle!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Kruip maar lekker terug in jullie schild!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Jammer...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Mikey geeft iedereen op z'n dak,\nen steekt de overwinning in z'n zak!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Het spijt ons, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Doei, doei, Donnepon!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "ОП, ПО ПАНЦИРЮ ХЛОП!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Начинается...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Круче всех команда Микеланджело!\nДонателло, кыш со сцены, живо!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "КАВАБАНГА, ЙО!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Мы тебя подвели, Донателло...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Донателло, Донателло... ДОННЫЙ ИЛ,\nкак Денди говорит!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultA",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Y'ALL GOT SHELL SHOCKED!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Aw man...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Team Mikey so stacked,\ngot ya psyche so cracked!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "We've failed you, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡PODER TORTUGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Qué mal...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡El Equipo Mikey se va a la final!\n¡Lucharemos por la vida contra el mal!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "¡COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Te fallamos, mi Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "¡Hasta luego, Don-apesto!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "PIF PAF POUF!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Ah, zut...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Mikey est trop génial,\nil est trop fort, le champion mondial!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "COWABUNGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "On t'a fait honte, Donatello...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Ciao ciao, Donatello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ach menno...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Gute Arbeit, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ich freue mich schon, mit Donnie im\nFinale zu sein und hoffe, ihr seid dabei!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Pah... Ich werde nie auf\nDona-Trollos Seite stehen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Im Finale ist er fällig! So!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Aw man...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Nice work, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "I can't wait to fight for Donnie's honor in\nthe finals! I hope you'll stick with us!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ugh...\nI'll NEVER side with Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "You're going down in the finals...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Cowabunga!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Qué desastre...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Bravo, equipo Donatello! ¡Hemos\nconseguido la victoria!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Espero que sigáis apoyando a vuestra\ntortuga favorita en la final!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Conmigo no cuentes.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Los seguidores de Donatello no lo\ntendréis tan fácil en la final. ¡Seguro!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡En la plaza os esperan los premios por\nhaber participado! ¡Pasad por allí!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "C'est pas vrai !!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Beau travail, l'équipe Donnie !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "T'as encore une chance de te rattraper\nen finale, Perle ! Vote pour Donnie !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Moi, rejoindre le camp de Don-Intello ?!\nAlors là tu rêves, Coralie !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Profite bien de ta victoire avant le dur\nretour à la réalité !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "MONDO PIZZA, ABBIAMO VINTO!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Grrr...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Ottimo lavoro, squadra Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Non vedo l'ora di tifare per Donatello\nanche in finale. Sei dei nostri, Alga?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Cosa? Non farò MAI il tifo per una\ntartaruga dal guscio molle!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "In finale vi prendono a pizze in faccia!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Jammer...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Goed werk, team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ik kan niet wachten om Donnie te helpen\nin de finale. Ik hoop dat jullie erbij zijn!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Hmpf... Ik zal nooit voor Donnepon zijn!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Je gaat eraan in de finale...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "КАВАБАНГА!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Бе-бе-бе...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Донателло лучший! Молодцы,\nкоманда!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Мне уже не терпится поболеть за него\nв финале! До победного, плотва!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Мариша, у него в имени опечатка.\nДолжно быть «Дно-нателло»!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Вот увидишь, в финале он получит!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultB",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Aw man...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Nice work, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "I can't wait to fight for Donnie's honor in\nthe finals! I hope you'll stick with us!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ugh...\nI'll NEVER side with Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "You're going down in the finals...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡No puede ser!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Buen trabajo, Equipo Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Que ganas tengo de luchar por mi\nDonnie en la final!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡JAMÁS apoyaré a Don-apesto!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ya verás cuando llegue la final...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "COWABUNGA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "C'est pas vrai!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Beau travail, les fans de Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Battons-nous pour l'honneur de Donnie\ndans la finale. Tous avec moi!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Pff... Pas question que\nje prenne pour l'équipe de Donatello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Tu vas perdre dans la finale...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    }
+  ],
+  "RegionAttr": {
+    "EU": 0,
+    "JP": 0,
+    "US": 0
+  },
+  "RequiredBattleTimes": 7,
+  "Rule": "cPnt",
+  "SpecialStage": 9999,
+  "StartDelayTimeMax": 300,
+  "Teams": [
+    {
+      "Color": [
+        0.96,
+        0.439,
+        0.094,
+        1
+      ],
+      "Name": {
+        "EUde": "MICHELANGELO",
+        "EUen": "MIKEY",
+        "EUes": "Voy con Michelangelo",
+        "EUfr": "MICHELANGELO",
+        "EUit": "Preferisco\nMICHELANGELO!",
+        "EUnl": "Michelangelo",
+        "EUru": "МИКЕЛАНДЖЕЛО",
+        "USen": "MIKEY",
+        "USes": "MIKEY",
+        "USfr": "MIKEY"
+      },
+      "ShortName": {
+        "EUde": "Mikey",
+        "EUen": "Mikey",
+        "EUes": "Mikey",
+        "EUfr": "Mikey",
+        "EUit": "Mikey",
+        "EUnl": "Mikey",
+        "EUru": "Майки",
+        "USen": "Mikey",
+        "USes": "Mikey",
+        "USfr": "Mikey"
+      }
+    },
+    {
+      "Color": [
+        0.305,
+        0.082,
+        0.549,
+        1
+      ],
+      "Name": {
+        "EUde": "DONATELLO",
+        "EUen": "DONNIE",
+        "EUes": "Voy con Donatello",
+        "EUfr": "DONATELLO",
+        "EUit": "Preferisco\nDONATELLO!",
+        "EUnl": "Donatello",
+        "EUru": "ДОНАТЕЛЛО",
+        "USen": "DONNIE",
+        "USes": "DONNIE",
+        "USfr": "DONNIE"
+      },
+      "ShortName": {
+        "EUde": "Donnie",
+        "EUen": "Donnie",
+        "EUes": "Donnie",
+        "EUfr": "Donnie",
+        "EUit": "Donnie",
+        "EUnl": "Donnie",
+        "EUru": "Донни",
+        "USen": "Donnie",
+        "USes": "Donnie",
+        "USfr": "Donnie"
+      }
+    },
+    {
+      "Color": [
+        0.133,
+        0.694,
+        0.298,
+        1
+      ]
+    }
+  ],
+  "Time": {
+    "Announce": "2018-05-09T02:00:00+00:00",
+    "End": "2018-05-13T04:00:00+00:00",
+    "Result": "2018-05-13T16:00:00+00:00",
+    "Start": "2018-05-12T04:00:00+00:00"
+  },
+  "Version": 1,
+  "VoteAnimType": 0,
+  "VoteTextType": 0,
+  "cPnt": {
+    "HighRate1": 2000,
+    "HighRate2": 2300,
+    "LowRate": 1400,
+    "ShrinkRatio": 0.3
+  }
+}

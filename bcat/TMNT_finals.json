@@ -1,0 +1,2196 @@
+{
+  "FesSameTeamMatchWaitTime": 30,
+  "FestivalId": 5056,
+  "News": [
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Da wären wir also...\nZeit fürs Finale.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer von den Teenage Mutant Ninja\nTurtles wird der Sieger sein?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "In dieser Ecke: die größte, fieseste\nSchildkröte überhaupt – Raph!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Und in dieser Ecke: das Technikgenie mit\nder weichen Schale – Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Du und Ralph seid geliefert, Perla!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "ZUM LETZTEN MAL – ER HEISST RAPH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Es geht um die geballte Turtle-Power!\nKämpft mit ganzem Herzen!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wer ist euer Favorit? Trefft eure Wahl\nam Splatfest-Wahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "THIS IS IT...\nThe finals.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Which Teenage Mutant Ninja Turtle will\nreign supreme?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "In this corner, the biggest, baddest\nturtle in the land: RAPH!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "And in this corner, the soft-shelled\ntechnological genius: DONNIE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "You and your boy Ralph are going down,\nPearl.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "FOR THE LAST TIME—HIS NAME IS RAPH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "All the turtle power is on the line.\nFight your hearts out!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Which turtle is your favorite? Head to\nthe Splatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Llega la hora de la verdad: ¡la gran final!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Qué Tortuga Ninja se convertirá en\nla mejor de las mejores?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "A un lado, el implacable, el grandullón\nmás belicoso... ¡Raphael!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Y, al otro, el genio de la tecnología con\nsu caparazón blando... ¡Donatello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Con el equipo de Raph no tendrás\nninguna posibilidad de ganar, Perla.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Eso lo veremos!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¿Tenéis listas vuestras habilidades\ntortuguiles? ¡Pues toca combatir!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Id al terminal de voto para elegir\nvuestro bando preferido!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "On y est, les amis ! C'est l'heure\nde la grande finale !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Quelle est la Tortue Ninja suprême, celle\nqui l'emporte sur toutes les autres ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "D'un côté, Raph, le colosse badass !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "De l'autre, Donnie, le super génie !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Je te préviens, Perle : pour Ralph et\ntoi, l'aventure s'arrête ici !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "MAIS T'AS FINI DE L'APPELER RALPH ?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "En tout cas, la bataille va être épique !\nLa hiérarchie tortuesque est en jeu !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Alors, votre tortue préférée ? Rendez-\nvous à la borne festive pour trancher !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Ci siamo... è arrivato il giorno\ndella finale!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Quale tartaruga ninja sarà la\nvincitrice?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "È uno scontro tra titani: vincerà il\npossente e agguerritissimo Raffaello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "O il geniale inventore Donatello?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Preparati, Alga. Tu e il tuo amico\nRalf siete spacciati!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "PER L'ULTIMA VOLTA: SI CHIAMA RAF!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "È tutto pronto per la grande sfida.\nChe vinca il migliore, cioè Donnie!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "E voi quale tartaruga ninja preferite?\nCorrete al terminal e scegliete!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Het is zover...\nTijd voor de finale!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Welke Teenage Mutant Ninja Turtle\nzal zegevieren?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "In deze hoek: de grootste, gemeenste\nTurtle ter wereld, Raph!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "En in deze hoek: de techneut met het\nzachte schild, Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Jij en die Ralph van je\ngaan eraan, Lorelei!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ik zeg het nog één keer: hij heet Raph!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Turtles, vecht alsof\nhet een lieve lust is!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Welke Turtle is je favoriet? Maak je\nkeuze bij de Splatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "МОМЕНТ ИСТИНЫ, ЙО! ФИНАЛ!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Кто из черепашек-ниндзя будет\nпризнан самым-самым крутым?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "В левом углу — самый мощный,\nсамый четкий! Рафаэль!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "А в правом углу — гений-инженер\nс мягким панцирем! Донателло!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Прости, Жемчик, но твоему\nРальфаэлю крышка.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "В последний раз повторяю!\nЕГО ЗОВУТ НЕ РАЛЬФАЭЛЬ!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "На кону черепашья сила!\nНе подведите, плотва!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Какая черепашка круче? Скорее\nк терминалу и выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Announce",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "THIS IS IT...\nThe finals.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Which Teenage Mutant Ninja Turtle will\nreign supreme?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "In this corner, the biggest, baddest\nturtle in the land: RAPH!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "And in this corner, the soft-shelled\ntechnological genius: DONNIE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "You and your boy Ralph are going down,\nPearl.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "FOR THE LAST TIME—HIS NAME IS RAPH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "All the turtle power is on the line.\nFight your hearts out!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Which turtle is your favorite? Head to\nthe Splatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Es... ¡LA GRAN FINAL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Cuál de las Tortugas Ninja será\nnombrado campeón?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "En esta esquina, la tortuga más grande\ny ruda de todas: ¡RAFA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Y en esta esquina, el genio tecnológico\nde caparazón blando: ¡DONNIE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Tú y tu querido Raúl recibirán su\nmerecido en la final, Perlita.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡YA TE DIJE, SE LLAMA RAFA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Es hora de luchar por la vida...\n¡CONTRA EL MAL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Cuál es su tortuga favorita? ¡Vayan a\nla terminal de voto y elijan un equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "NOUS Y VOICI...\nLa finale.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Quelle tortue ninja remportera\nla victoire ultime?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "De ce côté, nous avons la plus grande\net extrême des tortues : RAPHAEL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Et de l'autre, le génie de la technologie\nà la carapace molle : DONATELLO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Toi et ton petit Ralph allez perdre,\nma chère Perle.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "POUR LA DERNIÈRE FOIS,\nIL S'APPELLE RAPH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "C'est toute la puissance des tortues\nqui est en jeu. Bats-toi à fond!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Qui est ta tortue préférée? Va à la\nborne festive pour choisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Welcher Teenage Mutant Ninja Turtle ist\neuer Favorit? Raphael oder Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Trefft eure Wahl am Splatfest-\nWahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which Teenage Mutant Ninja Turtle is\nyour favorite? Raph or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿A qué Tortuga Ninja queréis apoyar:\na Raphael o a Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Podéis uniros a uno de los bandos en\nel terminal de voto.",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Quelle Tortue Ninja préférez-vous entre\nRaphael et Donatello ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Faites votre choix ! La borne festive\nvous attend !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Qual è la vostra tartaruga ninja\npreferita tra Raffaello e Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Correte al terminal di voto e scegliete\nda che parte stare!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Welke Teenage Mutant Ninja Turtle is\nje favoriet? Raphael of Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Maak je keuze bij de\nSplatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Кто из черепашек-ниндзя круче?\nРафаэль или Донателло?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Скорее к терминалу\nи выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Start",
+      "USen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which Teenage Mutant Ninja Turtle is\nyour favorite? Raph or Donnie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Cuál de las Tortugas Ninja es su\npreferida? ¿Rafael o Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Vayan a la terminal de voto y elijan\nun equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Qui est ta tortue ninja préférée?\nRaphael ou Donatello?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Va à la borne festive pour\nchoisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "RAPH RÄUMT AB!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Neiiiiiiiiiiiiiiiiiiiiiiiiin!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph rockt das Haus,\nDonnie fliegt raus!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Tut mir leid, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-TROLLO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Damit ist bewiesen, dass Raph der\nunangefochtene König der Turtles ist!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "RAPH WINS IT ALL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "NOOOOOOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph got 'em SHELL SHOCKED!\nDonnie got his BELL ROCKED!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "We've failed you, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raph is the undisputed king of the\nTeenage Mutant Ninja Turtles!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡La victoria definitiva es para Raphael!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "¡Oh, nooooo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph no tiene rival en la lucha.\n¡Nuestra tinta os ha dado una ducha!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "No hemos estado a la altura de Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Al equipo de Donatello\nle hemos dado para el pelo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Tampoco te pases...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Con esto queda demostrado que Raph\nes el rey de las Tortugas Ninja!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Y no olvidéis pasaros por la plaza!\n¡Os esperan los premios por participar!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "VICTOIRE POUR RAPH !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "NOOOOOON !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph déboule et pète les SCORES ! T'as\ncompris, Donnie, ou t'en veux ENCORE ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Pardonne-nous, Donnie... On n'a pas\nété à la hauteur...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Dommage pour toi, Don-Intello !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Oh !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Nous avons prouvé que Raphael est\nbien le vrai boss des Tortues Ninjas !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "RAF SPACCAAAAAA!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Oh, noooooo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "♪ La squadra Raf trionfa!\nMica male questi tonfa! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Mi dispiace tanto, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Caro Donnie, non c'è invenzione che\npossa battere il possente Raf!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Non provare a mettere in discussione\nle sue doti di genio meccanico!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raf è la tartaruga ninja vincitrice\ndi questo torneo festival!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raphael wint!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "NEEEEEEE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph gaat helemaal los!\nDonnie is de klos!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Het spijt ons, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Doei, doei, Donnepon!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raph is de onbetwiste koning van de\nTeenage Mutant Ninja Turtles!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ха-ха! Я же говорила, йо!\nРАФАЭЛЬ КРУЧЕ ВСЕХ!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Не-е-ет!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Рафаэль надрал всем панцирь!\nКрут как бронированный шушпанцер!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Мы тебя подвели, Донателло...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Донателло, Донателло... ДОННЫЙ ИЛ,\nкак Денди говорит!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Самая крутая черепашка-ниндзя\nна свете — это Рафаэль!!! ЙО-ХО!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultA",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "RAPH WINS IT ALL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "NOOOOOOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph got 'em SHELL SHOCKED!\nDonnie got his BELL ROCKED!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "We've failed you, Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ciao, Dona-smello!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raph is the undisputed king of the\nTeenage Mutant Ninja Turtles!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡RAFA CAMPEÓÓÓN!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "¡NOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Rafa tiene el poder TORTUGA!\n¡Donnie se marchitó como una LECHUGA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Te fallamos, mi Donnie...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Adiós, Don-apesto!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Rafa es el rey indiscutido de las\nTortugas Ninja!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "RAPH REMPORTE LA FINALE!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "NOOOOON!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Raph a battu tout le MONDE,\nparce que Donnie est IMMONDE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "On t'a fait honte, Donatello...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ciao ciao, Donatello...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Raph est le roi incontesté\ndes tortues ninja!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "DONNIE RÄUMT AB!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Neiiiiiiiiiiiiiiiiiiiiiiiiin!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Gut gemacht, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Damit ist bewiesen, dass Donnie der\nunangefochtene König der Turtles ist!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Ich kann nicht glauben, dass Team\nDona-Trollo gewonnen hat...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Man muss auch mal verlieren können,\nPerla...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "DONNIE WINS IT ALL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NOOOOOOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Great job, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Today we proved that Donnie is the\nundisputed king of the Ninja Turtles.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Ugh...\nI can't believe that Dona-smello won.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Stay classy, Pearl...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡La victoria final es de Donatello!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Nooooo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¡Buen trabajo, equipo Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Desde hoy ya sabemos quién es el rey\nindiscutible de las Tortugas Ninja!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "No puedo creer que ese tal Donatello\nnos haya dado para el pelo...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Me alegra ver que al menos te lo tomas\ncon humor.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Ahora pasaos por la plaza! ¡Os esperan\nlos premios por haber participado!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "VICTOIRE POUR DONNIE !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NOOOOOON !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Félicitations, l'équipe Donnie !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Nous avons prouvé que Donatello est\nle vrai boss des Tortues Ninjas !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Aaah, pitié !!! Pas Don-Intello !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Pas de mauvais esprit, Perle !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "DONNIE VINCE! LA GENIALITÀ AL POTERE!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NOOOOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ottimo lavoro, squadra Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Donatello è la tartaruga ninja più amata!\nE qual è la sorpresa?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Quel cervellone deve aver manipolato\ni risultati con qualche aggeggio...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Tsk, non sai proprio perdere...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Donatello wint!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NEEEEEEE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Goed werk, team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "We hebben bewezen dat Donnie de\nonbetwiste koning van de Turtles is!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Bah... Ik kan niet geloven dat\nDonnepon heeft gewonnen...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Kom op, Lorelei...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Я говорила! Донателло круче всех!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "НЕ-Е-ЕТ!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Молодцы, команда!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Вот так мы узнали, что самый крутой\nчерепах — Донателло!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Фу! Не могу поверить, что этот твой\nДонателло-Мягкотелло победил...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Жемчик, не перегибай палку...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultB",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "DONNIE WINS IT ALL!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NOOOOOOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Great job, Team Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Today we proved that Donnie is the\nundisputed king of the Ninja Turtles.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Ugh...\nI can't believe that Dona-smello won.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Stay classy, Pearl...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡DONNIE CAMPEÓÓÓN!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡NOOO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¡Buen trabajo, Equipo Donnie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Hoy demostramos que Donatello es el\nrey indiscutido de las Tortugas Ninja.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "No puedo creer que haya ganado\nDon-apesto...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Pórtate bien, Perlita.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "DONNIE REMPORTE LES HONNEURS!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NOOOOON!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Beau travail, les fans de Mikey!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "On a prouvé à tout le monde que Donnie\nest la meilleure tortue ninja.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Argh, j'arrive pas à croire que la tortue\nà lunettes a réussi à gagner.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "On reste polie, Perle...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    }
+  ],
+  "RegionAttr": {
+    "EU": 0,
+    "JP": 0,
+    "US": 0
+  },
+  "RequiredBattleTimes": 7,
+  "Rule": "cPnt",
+  "SpecialStage": 9999,
+  "StartDelayTimeMax": 300,
+  "Teams": [
+    {
+      "Color": [
+        0.88,
+        0.22,
+        0.31,
+        1
+      ],
+      "Name": {
+        "EUde": "RAPHAEL",
+        "EUen": "RAPH",
+        "EUes": "Voy con Raphael",
+        "EUfr": "RAPHAEL",
+        "EUit": "Preferisco\nRAFFAELLO!",
+        "EUnl": "Raphael",
+        "EUru": "РАФАЭЛЬ",
+        "USen": "RAPH",
+        "USes": "RAFA",
+        "USfr": "RAPH"
+      },
+      "ShortName": {
+        "EUde": "Raph",
+        "EUen": "Raph",
+        "EUes": "Raph",
+        "EUfr": "Raph",
+        "EUit": "Raf",
+        "EUnl": "Raph",
+        "EUru": "Раф",
+        "USen": "Raph",
+        "USes": "Rafa",
+        "USfr": "Raph"
+      }
+    },
+    {
+      "Color": [
+        0.372,
+        0.15,
+        0.733,
+        1
+      ],
+      "Name": {
+        "EUde": "DONATELLO",
+        "EUen": "DONNIE",
+        "EUes": "Voy con Donatello",
+        "EUfr": "DONATELLO",
+        "EUit": "Preferisco\nDONATELLO!",
+        "EUnl": "Donatello",
+        "EUru": "ДОНАТЕЛЛО",
+        "USen": "DONNIE",
+        "USes": "DONNIE",
+        "USfr": "DONNIE"
+      },
+      "ShortName": {
+        "EUde": "Donnie",
+        "EUen": "Donnie",
+        "EUes": "Donnie",
+        "EUfr": "Donnie",
+        "EUit": "Donnie",
+        "EUnl": "Donnie",
+        "EUru": "Донни",
+        "USen": "Donnie",
+        "USes": "Donnie",
+        "USfr": "Donnie"
+      }
+    },
+    {
+      "Color": [
+        0.133,
+        0.694,
+        0.298,
+        1
+      ]
+    }
+  ],
+  "Time": {
+    "Announce": "2018-05-16T02:00:00+00:00",
+    "End": "2018-05-20T14:00:00+00:00",
+    "Result": "2018-05-20T16:00:00+00:00",
+    "Start": "2018-05-19T14:00:00+00:00"
+  },
+  "Version": 1,
+  "VoteAnimType": 0,
+  "VoteTextType": 0,
+  "cPnt": {
+    "HighRate1": 2000,
+    "HighRate2": 2300,
+    "LowRate": 1400,
+    "ShrinkRatio": 0.3
+  }
+}
