@@ -82,7 +82,7 @@ Splatoon 2 - Future Salmon Run Rotations</h2>
 		var items = [];
 		var n = new Date().getTime();
 		var i = 1;
-		var weapons = {"-1": '?', 0: 'Sploosh-o-matic', 10: 'Splattershot Jr.', 20: 'Splash-o-matic', 30: 'Aerospray MG', 40: 'Splattershot', 50: '.52 Gal', 60: "N-ZAP '85", 70: 'Splattershot Pro', 80: '.96 Gal', 90: 'Jet Squelcher', 200: 'Luna Blaster', 210: 'Blaster', 220: 'Range Blaster', 230: 'Clash Blaster', 240: 'Rapid Blaster', 250: 'Rapid Blaster Pro', 300: 'L-3 Nozzlenose', 310: 'H-3 Nozzlenose', 400: 'Squeezer', 1000: 'Carbon Roller', 1010: 'Splat Roller', 1020: 'Dynamo Roller', 1030: 'Flingza Roller', 1100: 'Inkbrush', 1110: 'Octobrush', 2000: 'Classic Squiffer', 2010: 'Splat Charger', 2020: 'Splatterscope', 2030: 'E-liter 4K', 2040: 'E-liter 4K Scope',2050: 'Bamboozler 14 Mk I', 2060: 'Goo Tuber', 3000: 'Slosher', 3010: 'Tri-Slosher', 3020: 'Sloshing Machine', 3030: '?', 3040: 'Explosher', 4000: 'Mini Splatling', 4010: 'Heavy Splatling', 4020: 'Hydra Splatling', 4030: 'Ballpoint Splatling', 4040: '?', 5000: 'Dapple Dualies', 5010: 'Splat Dualies', 5020: 'Glooga Dualies', 5030: 'Dualie Squelchers', 5040: 'Dark Tetra Dualies', 6000: 'Splat Brella', 6010: 'Tenta Brella', 6020: 'Undercover Brella', 20000: 'Grizzco Blaster', 20010: 'Grizzco Brella', 20020: 'Grizzco Charger', 20030: 'Grizzco Slosher'}
+		var weapons = {"-1": '', 0: 'Sploosh-o-matic', 10: 'Splattershot Jr.', 20: 'Splash-o-matic', 30: 'Aerospray MG', 40: 'Splattershot', 50: '.52 Gal', 60: "N-ZAP '85", 70: 'Splattershot Pro', 80: '.96 Gal', 90: 'Jet Squelcher', 200: 'Luna Blaster', 210: 'Blaster', 220: 'Range Blaster', 230: 'Clash Blaster', 240: 'Rapid Blaster', 250: 'Rapid Blaster Pro', 300: 'L-3 Nozzlenose', 310: 'H-3 Nozzlenose', 400: 'Squeezer', 1000: 'Carbon Roller', 1010: 'Splat Roller', 1020: 'Dynamo Roller', 1030: 'Flingza Roller', 1100: 'Inkbrush', 1110: 'Octobrush', 2000: 'Classic Squiffer', 2010: 'Splat Charger', 2020: 'Splatterscope', 2030: 'E-liter 4K', 2040: 'E-liter 4K Scope',2050: 'Bamboozler 14 Mk I', 2060: 'Goo Tuber', 3000: 'Slosher', 3010: 'Tri-Slosher', 3020: 'Sloshing Machine', 3030: '?', 3040: 'Explosher', 4000: 'Mini Splatling', 4010: 'Heavy Splatling', 4020: 'Hydra Splatling', 4030: 'Ballpoint Splatling', 4040: '?', 5000: 'Dapple Dualies', 5010: 'Splat Dualies', 5020: 'Glooga Dualies', 5030: 'Dualie Squelchers', 5040: 'Dark Tetra Dualies', 6000: 'Splat Brella', 6010: 'Tenta Brella', 6020: 'Undercover Brella', 20000: 'Grizzco Blaster', 20010: 'Grizzco Brella', 20020: 'Grizzco Charger', 20030: 'Grizzco Slosher'}
 		var imagenames = {"-1": "questionmark.png", 0: 'Wst_Shooter_Short_00.png', 10: 'Wst_Shooter_First_00.png', 20: 'Wst_Shooter_Precision_00.png', 30: 'Wst_Shooter_Blaze_00.png', 40: 'Wst_Shooter_Normal_00.png', 50: 'Wst_Shooter_Gravity_00.png', 60: 'Wst_Shooter_QuickMiddle_00.png', 70: 'Wst_Shooter_Expert_00.png', 80: 'Wst_Shooter_Heavy_00.png', 90: 'Wst_Shooter_Long_00.png', 200: 'Wst_Shooter_BlasterShort_00.png', 210: 'Wst_Shooter_BlasterMiddle_00.png', 220: 'Wst_Shooter_BlasterLong_00.png', 230: 'Wst_Shooter_BlasterLightShort_00.png', 240: 'Wst_Shooter_BlasterLight_00.png', 250: 'Wst_Shooter_BlasterLightLong_00.png', 300: 'Wst_Shooter_TripleQuick_00.png', 310: 'Wst_Shooter_TripleMiddle_00.png', 400: 'Wst_Shooter_Flash_00.png', 1000: 'Wst_Roller_Compact_00.png', 1010: 'Wst_Roller_Normal_00.png', 1020: 'Wst_Roller_Heavy_00.png', 1030: 'Wst_Roller_Hunter_00.png', 1100: 'Wst_Roller_BrushMini_00.png', 1110: 'Wst_Roller_BrushNormal_00.png', 2000: 'Wst_Charger_Quick_00.png', 2010: 'Wst_Charger_Normal_00.png', 2020: 'Wst_Charger_NormalScope_00.png', 2030: 'Wst_Charger_Long_00.png', 2040: 'Wst_Charger_LongScope_00.png', 2050: 'Wst_Charger_Light_00.png',2060: 'Wst_Charger_Keeper_00.png', 3000: 'Wst_Slosher_Strong_00.png', 3010: 'Wst_Slosher_Diffusion_00.png', 3020: 'Wst_Slosher_Launcher_00.png', 3030: 'Wst_Slosher_Bathtub_00.png', 3040: 'Wst_Slosher_Washtub_00.png', 4000: 'Wst_Spinner_Quick_00.png', 4010: 'Wst_Spinner_Standard_00.png', 4020: 'Wst_Spinner_Hyper_00.png', 4030: 'Wst_Spinner_Downpour_00.png', 4040: 'Wst_Spinner_Serein_00.png', 5000:'Wst_Twins_Short_00.png', 5010: 'Wst_Twins_Normal_00.png', 5020: 'Wst_Twins_Gallon_00.png', 5030: 'Wst_Twins_Dual_00.png', 5040: 'Wst_Twins_Stepper_00.png', 6000: 'Wst_Umbrella_Normal_00.png', 6010: 'Wst_Umbrella_Wide_00.png', 6020: 'Wst_Umbrella_Compact_00.png', 20000: 'Wst_Shooter_BlasterCoopBurst.png', 20010: 'Wst_Umbrella_CoopAutoAssault.png', 20020: 'Wst_Charger_CoopSpark.png', 20030: 'Wst_Slosher_CoopVase.png'}  
 		var stages = {5000: 'Spawning Grounds', 5001: "Marooner's Bay", 5002: "Lost Outpost", 5003: "Salmonid Smokeyard"}
 		$.each( data["Phases"], function( key, val ) {
@@ -90,14 +90,15 @@ Splatoon 2 - Future Salmon Run Rotations</h2>
 			var rare = ""
 			var x = new Date(val["EndDateTime"]).getTime();
 			if(x > n) {
-				var startDateTime = new Date(Date.parse(val["StartDateTime"]));
-				var endDateTime = new Date(Date.parse(val["EndDateTime"]));
+				var dateOptions = {weekday: "short", month:"numeric",day:"numeric",hour:"numeric", minute:"2-digit", timeZoneName:"short", timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone};
+				var startDateTime = new Date(Date.parse(val["StartDateTime"]+"+00:00")).toLocaleString('en-US', dateOptions);
+				var endDateTime =   new Date(Date.parse(val["EndDateTime"]+"+00:00")).toLocaleString('en-US', dateOptions); 
 				if(val["WeaponSets"][0] == -1 || val["WeaponSets"][1] == -1 || val["WeaponSets"][2] == -1 || val["WeaponSets"][3] == -1) {
 					rare = "Rare Weapon: <div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + imagenames[val["RareWeaponID"]] + "\" /> <div class=\"caption\">" + weapons[val["RareWeaponID"]] + "</div></div><br />"
 				}
 				items.push( 
 					"<h2>Rotation: "+ (i) + "</h2>" + "<div class=\"codebox\"><dt style=\"height:10px; text-align: left;\"></dt><dd><div class=\"content\" name=\"spoiler\" >" +
-					"<div class=\"rotInfo\">Start: " + startDateTime + "<br />End: " + endDateTime + "<br />Stage: " + stages[val["StageID"]] +  "</div>" +
+					"<div class=\"rotInfo\">" + startDateTime + " — " + endDateTime + "<br />Stage: " + stages[val["StageID"]] +  "</div>" +
 					"<div class=\"weaponslist\">" +
 					"<div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + imagenames[val["WeaponSets"][0]] + "\" /> <div class=\"caption\">" + weapons[val["WeaponSets"][0]] + "</div></div>" +
 					"<div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + imagenames[val["WeaponSets"][1]] + "\" /> <div class=\"caption\">" + weapons[val["WeaponSets"][1]] + "</div></div>" +
@@ -115,7 +116,7 @@ Splatoon 2 - Future Salmon Run Rotations</h2>
 		}).appendTo( "body" );
 	});
 </script>
-<small>Data provided by <a href="https://twitter.com/OatmealDome">OatmealDome</a> and <a href="https://twitter.com/Simon1844">Simon</a>. Webpage made by <a href="https://twitter.com/LeanYoshi">Lean</a>, design by missingno1234.</small>
+<small>Data provided by <a href="https://twitter.com/OatmealDome">OatmealDome</a> and <a href="https://twitter.com/Simon1844">Simon</a>. Webpage made by <a href="https://twitter.com/LeanYoshi">Lean</a>, design by <a href="https://twitter.com/MissingNO123">MissingNO123</a>.</small>
 </body>
 </html>
 <!-- Julia was here -->
