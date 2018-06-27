@@ -1,0 +1,84 @@
+/* coop.css - stylesheet for splatoon 2 salmon run rotation schedule by MissingNO123 */
+
+body {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+	font-family: Splatoon2, Arial;
+	background-image: url("grizzco_b.png");
+	background-size: 128px 96px;
+	color: white;
+	text-shadow: 1px 1px #00000088;
+}
+
+a { 
+	text-decoration: none;
+	color: #FE5100;
+}
+
+.navbar {text-shadow: none;}
+
+.codebox {
+	border: 4px solid #C5743B66;
+	border-radius: 12px;
+	background-color: #E47F37;
+	margin:20px; 
+	margin-top:5px;  
+	max-width: 750px;
+	background-image: url("grizzco.png");
+	background-size: 128px;
+	transform: rotate(-1deg);
+}
+
+.weaponslist { 
+    display:flex;
+	flex-direction:row;
+}
+ 
+.weapon img {
+	width: 128px;
+	transform: rotate(2deg);
+	/* background-color: #E47F37; */
+}
+ 
+.weapon {
+	transform: rotate(-1deg);
+	text-align: center;
+	width: 130px;
+	/* background-color: #E47F37; */
+	/* background-color: #161301; */
+	background-image: url("grizzco_stage.png");
+	background-size: 8px;
+	padding: 10px 10px;
+	border-radius: 12px;
+	margin: 10px 10px;
+	display:flex;
+    flex-direction:column;
+	box-shadow: 0px 3px 3px #00000022;
+ }
+ 
+ .rare {
+	 /* background-color: #FE5100; */
+	 margin: 5px 10px;
+	 padding: 5px;
+ }
+ 
+ @media only screen and (max-width: 840px) {
+	 .weapon {width:106px;}
+	 .weapon img {width: 96px;}
+	 .codebox {max-width: 666px}
+ }
+ 
+ @media only screen and (max-width: 750px) {
+	 .weapon {width:94px; display:block; margin: 5px 5px;}
+	 .weapon img {width: 64px;}
+	 .codebox {max-width: 666px}
+ }
+ 
+ @media only screen and (max-width: 600px) {
+	 .weaponslist {display: block;}
+	 .weapon {display: block; margin: 6px auto; width: 75%; max-width: 400px;}
+	 .weapon img {width: 96px;}
+ }
+ 
+ @font-face { font-family: Splatoon2; src: url("https://frozenpandaman.github.io/Splatoon2.otf") format("opentype"); }
