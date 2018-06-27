@@ -91,12 +91,12 @@
 		</div>
 	  </div>
       <script>
-        $.getJSON( "https://oatmealdome.me/bcat/festival_na.json", function( data ) {
+        $.getJSON( "https://files.oatmealdome.me/bcat/festival_na.json", function( data ) {
 			$("#announce").append(new Date(data["Time"]["Announce"]))
 			$("#start").append(new Date(data["Time"]["Start"]))
 			$("#end").append(new Date(data["Time"]["End"]))
 			$("#result").append(new Date(data["Time"]["Result"]))
-			$("#image").append("<img src=\"https://oatmealdome.me/bcat/images/"+data["FestivalId"]+".PNG\" />")
+			$("#image").append("<img src=\"https://files.oatmealdome.me/bcat/images/"+data["FestivalId"]+".PNG\" />")
 		    var pearl = ['Pearl', 'Perla', 'Perle']
 		    var marina = ['Marina', 'Marina', 'Coralie']
 		    var languages = ["USen", "USes", "USfr"]
