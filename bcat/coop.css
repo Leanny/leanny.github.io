@@ -27,21 +27,84 @@ a {
 	max-width: 750px;
 	background-image: url("grizzco.png");
 	background-size: 128px;
-	transform: rotate(-1deg);
+	overflow: hidden;
+}
+
+.codebox:nth-child(1n) {
+	/* transform: rotate(-0.5deg); */
+}
+
+.codebox:nth-child(even) {
+	transform: rotate(0.5deg);
+}
+
+.codebox:nth-child(4n) { 
+	transform: rotate(-0.5deg);
+}
+
+.stage {margin-bottom: -2em;}
+
+.stage img {
+	border-radius: 12px;
+	width: 93%;
+}
+
+.stageName {
+    position: relative;
+    bottom: 58px;
+    left: 0px;
+    font-size: 25px;
+    line-height: 1.5em;
+    background-color: #000;
+    padding: 5px 10px;
+    border-radius: 12px;
+	display: inline-block;
 }
 
 .weaponslist { 
     display:flex;
 	flex-direction:row;
+	width: 93%;
 }
  
 .weapon img {
+	width: 128px;
+	/* transform: rotate(2deg); */
+	/* background-color: #E47F37; */
+}
+ 
+.weapon {
+	text-align: center;
+	width: 130px;
+	/* background-color: #E47F37; */
+	/* background-color: #161301; */
+	background-image: url("grizzco_stage.png");
+	background-size: 8px;
+	padding: 10px 10px;
+	border-radius: 12px;
+	margin: 0px 20px 20px 0px;
+	display:flex;
+    flex-direction:column;
+	box-shadow: 0px 3px 2px #00000044;
+ }
+ 
+.rare {
+	margin: 0;
+} 
+ 
+.gearlist { 
+    display:flex;
+	flex-direction:row;	
+	flex-wrap: wrap;
+}
+ 
+.gear img {
 	width: 128px;
 	transform: rotate(2deg);
 	/* background-color: #E47F37; */
 }
  
-.weapon {
+.gear {
 	transform: rotate(-1deg);
 	text-align: center;
 	width: 130px;
@@ -56,12 +119,7 @@ a {
     flex-direction:column;
 	box-shadow: 0px 3px 3px #00000022;
  }
- 
- .rare {
-	 /* background-color: #FE5100; */
-	 margin: 5px 10px;
-	 padding: 5px;
- }
+
  
  @media only screen and (max-width: 840px) {
 	 .weapon {width:106px;}
