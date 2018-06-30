@@ -93,8 +93,8 @@
 			$.getJSON("https://leanny.github.io/bcat/GearInfo_Clothes.json", function(clothes) {
 				$.getJSON("https://leanny.github.io/bcat/GearInfo_Head.json", function(head) {
 					$.getJSON("https://leanny.github.io/bcat/GearInfo_Shoes.json", function(shoes) {
-						past.push("<div class=\"codebox\"><div class=\"gearlist\">")
-						future.push("<div class=\"codebox\"><div class=\"gearlist\">")
+						past.push("<div class=\"codebox\"><dd><div class=\"gearlist\">")
+						future.push("<div class=\"codebox\"><dd><div class=\"gearlist\">")
 						$.each( data["MonthlyRewardGears"], function( key, val ) {
 							var x = new Date(val["DateTime"]).getTime();
 							var entry;
@@ -113,8 +113,8 @@
 								future.push("<div class=\"gear\"><img src=\"https://leanny.github.io/splat2/gear/" + entry["ModelName"] + ".png\" /> <div class=\"caption\">" + lang_dict[entry["ModelName"]] + "</div></div>")
 							}
 						});
-						past.push("</div></div>")
-						future.push("</div></div>")
+						past.push("</div></dd></div>")
+						future.push("</div></dd></div>")
 						$("#pastgear").append(past.join( "" ))
 						$("#futuregear").append(future.join( "" ))
 					});
@@ -144,7 +144,7 @@
 								rare = "Rare Weapon: <div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["RareWeaponID"]][1] + "\" /> <div class=\"caption\">" + weapons[val["RareWeaponID"]][0] + "</div></div><br />"
 							}
 							items.push( 
-								"<h2>Rotation: "+ (i) + "</h2>" + "<div class=\"codebox\">" +
+								"<h2>Rotation: "+ (i) + "</h2>" + "<div class=\"codebox\"><dd>" +
 								"<div class=\"rotInfo\">" + startDateTime + "<wbr> — <wbr>" + endDateTime + "<br />" +
 								"<div class=\"stage\"><img src=\"https://leanny.github.io/stages/" + stages[val["StageID"]][1] + ".png\" /><br /><div class=\"stageName\">" + stages[val["StageID"]][0] +  "</div></div></div>" +
 								"<div class=\"weaponslist\">"
@@ -152,7 +152,7 @@
 							for (k = 0; k < 4; k++) {
 								items.push("<div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["WeaponSets"][k]][1] + "\" /> <div class=\"caption\">" + weapons[val["WeaponSets"][k]][0] + "</div></div>")
 							} 
-							items.push( "</div><div class=\"rare\">"+rare+"</div></div></div>");
+							items.push( "</div><div class=\"rare\">"+rare+"</div></div></dd></div>");
 							i = i + 1;
 						}
 					});
