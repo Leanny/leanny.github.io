@@ -76,12 +76,60 @@
 </head>
 <body>
 <h1>Splatoon 2 - Future Salmon Run Rotations</h1>
+<div id="language"></div>
 <div id="salmonrun"></div>
 <h2>Past Rewards</h2>
 <div id="pastgear"></div>
 <h2>Future Rewards</h2>
 <div id="futuregear"></div>
 <script>
+	const splatoonRegions = [
+		{ key: null, name: 'Global', demonym: 'Global' },
+		{ key: 'na', name: 'North America & Oceania', demonym: 'North American & Oceanian' },
+		{ key: 'eu', name: 'Europe', demonym: 'European' },
+		{ key: 'jp', name: 'Japan', demonym: 'Japanese' },
+	];
+
+	const languages = [
+		{ ext: 'USen', region: 'NA', language: 'en',    name: 'English' },
+		{ ext: 'EUen', region: 'EU', language: 'en',    name: 'English (UK)' },
+		{ ext: 'EUes', region: 'EU', language: 'es',    name: 'Español' },
+		{ ext: 'USes', region: 'NA', language: 'es-MX', name: 'Español (MX)' },
+		{ ext: 'EUfr', region: 'EU', language: 'fr',    name: 'Français' },
+		{ ext: 'USfr', region: 'NA', language: 'fr-CA', name: 'Français (CA)' },
+		{ ext: 'EUde', region: 'EU', language: 'de',    name: 'Deutsch' },
+		{ ext: 'EUnl', region: 'EU', language: 'nl',    name: 'Nederlands' },
+		{ ext: 'EUit', region: 'EU', language: 'it',    name: 'Italiano' },
+		{ ext: 'EUru', region: 'EU', language: 'ru',    name: 'Pусский' },
+		{ ext: 'JPja', region: 'JP', language: 'ja',    name: '日本語' },
+	];
+
+	function getRegionByKey(key) {
+		return splatoonRegions.find(r => r.key == key);
+	}
+
+	function detectSplatoonLanguage() {
+		let browserLanguages = window.navigator.languages.map(l => l.toLowerCase());
+		let availableLanguages = languages.map(l => l.language.toLowerCase());
+		var resultLanguages = {};
+		$.each( languages, function(key, lang) {
+			resultLanguages[lang["language"]] = lang["ext"]
+		});
+
+		// Try to find a match based on the first part of the available languages (i.e., match "es" for "es-ES")
+		for (let language of browserLanguages) {
+			for (let availableLanguage of availableLanguages) {
+				if (language.startsWith(availableLanguage)) {
+					return resultLanguages[availableLanguage];
+				}
+			}
+		}
+	}
+	var current_lang = detectSplatoonLanguage();
+	if(typeof current_lang === "undefined") {
+		current_lang = "EUen"
+	}
+	
 	$.getJSON( "https://files.oatmealdome.me/bcat/coop.json", function( data ) {
 		var items = [];
 		var past = [];
@@ -89,7 +137,7 @@
 		var n = new Date().getTime();
 		var i = 1;
 		var k;
-		$.getJSON("https://leanny.github.io/bcat/lang_dict_EUen.json", function(lang_dict) {
+		$.getJSON("https://leanny.github.io/bcat/lang_dict_"+current_lang+".json", function(lang_dict) {
 			$.getJSON("https://leanny.github.io/bcat/GearInfo_Clothes.json", function(clothes) {
 				$.getJSON("https://leanny.github.io/bcat/GearInfo_Head.json", function(head) {
 					$.getJSON("https://leanny.github.io/bcat/GearInfo_Shoes.json", function(shoes) {
@@ -107,10 +155,10 @@
 							}
 							if(x < n) {
 								// past rewards 
-								past.push("<div class=\"gear\"><img src=\"https://leanny.github.io/splat2/gear/" + entry["ModelName"] + ".png\" /> <div class=\"caption\">" + lang_dict[entry["ModelName"]] + "</div></div>")
+								past.push("<div class=\"gear\"><img src=\"https://leanny.github.io/splat2/gear/" + entry["ModelName"] + ".png\" /> <div class=\"caption\" data-translate=\""+entry["ModelName"]+"\">" + lang_dict[entry["ModelName"]] + "</div></div>")
 							} else {
 								// future rewards
-								future.push("<div class=\"gear\"><img src=\"https://leanny.github.io/splat2/gear/" + entry["ModelName"] + ".png\" /> <div class=\"caption\">" + lang_dict[entry["ModelName"]] + "</div></div>")
+								future.push("<div class=\"gear\"><img src=\"https://leanny.github.io/splat2/gear/" + entry["ModelName"] + ".png\" /> <div class=\"caption\" data-translate=\""+entry["ModelName"]+"\">" + lang_dict[entry["ModelName"]] + "</div></div>")
 							}
 						});
 						past.push("</div></dd></div>")
@@ -126,12 +174,11 @@
 			$.getJSON("https://leanny.github.io/bcat/WeaponInfo_Main.json", function(weapon_data) {
 				$.getJSON("https://leanny.github.io/bcat/MapInfo.json", function(map_data) {
 					$.each( weapon_data, function(key, val) {
-						weapons[val["Id"]] = [lang_dict[val["Name"]], "Wst_" + val["Name"] + ".png"]
+						weapons[val["Id"]] = [lang_dict[val["Name"]], "Wst_" + val["Name"] + ".png", val["Name"]]
 					});
 					$.each( map_data, function(key, val) {
-						stages[val["Id"]] = [lang_dict[val["MapFileName"]], val["MapFileName"].replace("00", "")]
-					});
-					console.log(stages)
+						stages[val["Id"]] = [lang_dict[val["MapFileName"]], val["MapFileName"].replace("00", ""), val["MapFileName"]]
+					});	
 					$.each( data["Phases"], function( key, val ) {
 						var content = [];
 						var rare = ""
@@ -141,16 +188,16 @@
 							var startDateTime = new Date(Date.parse(val["StartDateTime"]+"+00:00")).toLocaleString('en-US', dateOptions);
 							var endDateTime =   new Date(Date.parse(val["EndDateTime"]+"+00:00")).toLocaleString('en-US', dateOptions); 
 							if(val["WeaponSets"][0] < 0 || val["WeaponSets"][1] < 0 || val["WeaponSets"][2] < 0 || val["WeaponSets"][3] < 0) {
-								rare = "Rare Weapon: <div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["RareWeaponID"]][1] + "\" /> <div class=\"caption\">" + weapons[val["RareWeaponID"]][0] + "</div></div><br />"
+								rare = "Rare Weapon: <div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["RareWeaponID"]][1] + "\" /> <div class=\"caption\" data-translate=\""+weapons[val["RareWeaponID"]][2]+"\">" + weapons[val["RareWeaponID"]][0] + "</div></div><br />"
 							}
 							items.push( 
 								"<h2>Rotation: "+ (i) + "</h2>" + "<div class=\"codebox\"><dd>" +
 								"<div class=\"rotInfo\">" + startDateTime + "<wbr> — <wbr>" + endDateTime + "<br />" +
-								"<div class=\"stage\"><img src=\"https://leanny.github.io/stages/" + stages[val["StageID"]][1] + ".png\" /><br /><div class=\"stageName\">" + stages[val["StageID"]][0] +  "</div></div></div>" +
+								"<div class=\"stage\"><img src=\"https://leanny.github.io/stages/" + stages[val["StageID"]][1] + ".png\" /><br /><div class=\"stageName\" data-translate=\""+stages[val["StageID"]][2]+"\">" + stages[val["StageID"]][0] +  "</div></div></div>" +
 								"<div class=\"weaponslist\">"
 							);
 							for (k = 0; k < 4; k++) {
-								items.push("<div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["WeaponSets"][k]][1] + "\" /> <div class=\"caption\">" + weapons[val["WeaponSets"][k]][0] + "</div></div>")
+								items.push("<div class=\"weapon\"><img src=\"https://leanny.github.io/splat2/weapons/" + weapons[val["WeaponSets"][k]][1] + "\" /> <div class=\"caption\" data-translate=\""+weapons[val["WeaponSets"][k]][2]+"\">" + weapons[val["WeaponSets"][k]][0] + "</div></div>")
 							} 
 							items.push( "</div><div class=\"rare\">"+rare+"</div></div></dd></div>");
 							i = i + 1;
@@ -161,8 +208,32 @@
 			});
 		});
 	});
+
+	window.change_lang = function(lang) {
+		current_lang = lang;
+		$("#language").empty()
+		$.each( languages, function(key, lang) {
+			if(lang["ext"] == current_lang) {
+				$("#language").append("<a href=\"#\" onclick=\change_lang('"+lang["ext"]+"')\"><strong style=\"color:white;\">"+lang["name"]+"</strong> </a>")
+			} else {
+				$("#language").append("<a href=\"#\" onclick=\"change_lang('"+lang["ext"]+"')\">"+lang["name"]+" </a>")
+			}
+		});
+		translate();
+	}
+
+	function translate() {
+		$.getJSON("https://leanny.github.io/bcat/lang_dict_"+current_lang+".json", function(lang_dict) {
+			$("[data-translate]").each(function(){
+				var key = $(this).data('translate');
+				$(this).html(lang_dict[key] || "");
+			});
+		});
+	}
+	
+	change_lang(current_lang);
 </script>
-<small>Data provided by <a href="https://twitter.com/OatmealDome">OatmealDome</a> and <a href="https://twitter.com/Simon1844">Simon</a>. Webpage made by <a href="https://twitter.com/LeanYoshi">Lean</a>, design by <a href="https://twitter.com/MissingNO123">MissingNO123</a>.</small>
+<div><small>Data provided by <a href="https://twitter.com/OatmealDome">OatmealDome</a> and <a href="https://twitter.com/Simon1844">Simon</a>. Webpage made by <a href="https://twitter.com/LeanYoshi">Lean</a>, design by <a href="https://twitter.com/MissingNO123">MissingNO123</a>. Special thanks to <a href=\"https://github.com/misenhower\">Matt Isenhower</a> for his <a href=\"https://raw.githubusercontent.com/misenhower/splatoon2.ink/master/src/js/regions.js\">region detection script</a>.</small></div>
 </body>
 </html>
 <!-- Julia was here -->
