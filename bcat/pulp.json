@@ -1,0 +1,2996 @@
+{
+  "FesSameTeamMatchWaitTime": 30,
+  "FestivalId": 5059,
+  "News": [
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wie mögt ihr euren Orangensaft?\nMit oder ohne Fruchtfleisch?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Welcher Barbar mag denn Fruchtfleisch\nim Orangen--",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Gebt mir das volle Fruchtfleisch-\nErlebnis!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ich hab's nicht so mit vegetarischem\nEssen... Ich brauch mein Fruchtfleisch!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Je mehr, desto besser!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "O-Saft ohne Fruchtfleisch ist kein Saft,\nsondern Orangenwasser.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Fruchtfleisch ist eklig. Ich will nach dem\nTrinken nicht mit Zahnseide hantieren.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Streust du in deinen Caffè Latte auch\nKaffeebohnen?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Wer das Fruchtfleisch nicht ehrt, ist\ndes O-Safts nicht wert.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Wenn du Orangenstücke im Mund haben\nwillst, iss doch einfach eine Orange!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Warum musst du gleich den O-Saft für\nuns andere ruinieren?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Saft mit Fruchtfleisch ist für Leute, die\nnicht wissen, was sie wollen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Wer kein Fruchtfleisch mag, mit dem\nstimmt grundlegend was nicht...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Okay, wir haben beide nicht sehr nette\nDinge gesagt...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Beim Splatfest und in der Liebe ist alles\nerlaubt.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wie mögt ihr euren O-Saft? Trefft\neure Wahl am Splatfest-Wahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "How do you like your orange juice?\nPulp or no pulp?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "No contest. What kind of barbarian likes\npulp in their or—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "PULP ME UP, YO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Put me on the pulpit...\n'CAUSE I'M A PULPITARIAN FUH LIFE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "I'm so pulpified I majored in pulpology at\nthe University of Pulpsburgh.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Seriously, orange juice without pulp ain't\neven juice. IT'S ORANGE WATER.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Pulp is NASTY. I shouldn't have to floss\nmy teeth after drinking something.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Do you sprinkle coffee grounds in\nyour lattes too?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "If you can't appreciate OJ in its natural\nstate, you don't deserve to drink it.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "If you want orange chunks in your\nmouth, JUST EAT AN ORANGE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Why you gotta ruin OJ for the rest of\nus?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "OJ with pulp is for indecisive cowards\nwho can't make up their minds!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "People who don't like pulp are\nbroken inside...AND I DON'T TRUST 'EM!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Look, we both said some things...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "All's fair in love and Splatfest.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "How do you like your OJ? Head over to\nthe Splatfest terminal and pick a side...",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Esta vez el gran dilema es si el zumo\nde naranja mola más con o sin pulpa.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Hay que ser muy poco refinado para\ntomarse un zumo sin quitarle la pulpa.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¿Pero qué dices? ¿Se te ha ido la\npulp... digo la pinza?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Si no te gusta la pulpa, los demás\nno tenemos la culpa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "¡Es la esencia! ¡Un zumo sin sol es como\nun día sin pulpa! ¿O era al revés?...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Como sea: sin pulpa no estarás tomando\nzumo, sino agua con regusto a naranja.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Pues cuando esa pasta pegajosa se te\nqueda entre los dientes es un asquito.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Acaso no se filtra el café? ¿O te\nechas los granos molidos en la taza?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "No se inventó el zumo de naranja para\nla gente que no sabe apreciarlo...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "¡Si quisiera llenarme la boca de trocitos\nde naranja, me comería una sin exprimir!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "¿No puedes respetar que a mucha\ngente no nos gusten los tropezones?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Qué irresponsabilidad... Qué falta\nabsoluta de buen gusto...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Jamás confiaría en alguien que le quita\nla pulpa al zumo.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "¿Pero qué dices?...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Tal vez la rivalidad se nos está yendo\nun poco de las manos.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "No todo vale cuando se trata de ganar\nun festival... ¿o sí?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Pasad por el terminal de voto y elegid\ncómo tomáis el zumo de naranja.",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Le thème de cette fois-ci : pour ou\ncontre la pulpe dans le jus d'orange ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Beurk, quelle question ! Faudrait être un\nbarbare pour vouloir de la pulpe dans...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Je t'arrête tout de suite, les barbares,\nc'est ceux qui savent pas boire !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "La pulpe, c'est BADASS !\nSans pulpe, c'est FADASSE !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Eh ouais, la pulpe, ça pulse ! Pour boire\nsans pulpe, faut être dérangé du bulbe !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Les anti-pulpe, ils sont secoués !\nVive le naturel, à bas l'aseptisé !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Si tu veux en avoir plein les dents,\nc'est sûr... Réfléchis un peu, Perle !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Quand tu prends un café, me dis\npas que tu bois le marc avec ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Ouais mais la pulpe, c'est des bouts\nd'orange. Je vois pas ce qui te dérange.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Oui, eh ben, si je voulais des bouts\nd'orange, j'en mangerais une, d'orange !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Je sais pas, moi ! Soit tu manges, soit\ntu bois. Tu fais pas les deux à la fois !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "En fait, tu aimes la pulpe par facilité !\nTu es incapable de prendre une décision.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ah ouais ? Ça serait pas plutôt parce\nque je suis pas une grosse chochotte ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "On s'est peut-être un peu laissé\nemporter...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Le mieux, c'est de laisser le festival\ndécider !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Foncez à l'urne festive et que\nle meilleur jus l'emporte !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Come preferite la spremuta d'arancia?\nCon o senza polpa?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Non c'è nemmeno da chiederlo.\nQuale barbaro potrebbe mai lasciar...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "♪ Polpa a più non polpo!\nTi splatto in un sol colpo! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "♪ Non ti piace la polpa?\nTe ne faccio una colpa! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "La spremuta senza stelle è come un cielo\nsenza polpa... o era il contrario?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Cioè, sul serio... senza polpa non è\nnemmeno spremuta, è... aranciata!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Brrr... che schifo la polpa. Poi ti\nrimane tutta attaccata ai denti.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "E poi, scusa, mica ti bevi il cappuccino\nlasciandoci dentro i fondi del caffè, no?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Se non sai apprezzare la VERA spremuta,\nallora meglio se ti dai ai frullati...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Piuttosto, se ti piacciono i pezzi interi,\nmangiati direttamente un'arancia, no?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "E invece no, vuoi privare il piacere\ndi bere la spremuta a TUTTI!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "La spremuta con la polpa è per quelli che\nnon sanno scegliere da che parte stare.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Tsk... chi non ama la polpa è solo\nda fare a polpette!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Ci siamo piuttosto scaldate con\nquesto argomento, eh?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Nei festival è tutto concesso! Quando\nfinisce (e vinco io), amiche come prima!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "E voi che ne pensate? Andate al terminal\ndi voto e scegliete una squadra!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Hoe vind jij sinaasappelsap het\nlekkerst? Met of zonder pulp?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Dat is niet moeilijk. Welke barbaar houdt\ner nou van pulp in zijn sinaas-",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Yo, barbaren, kruip niet in je schulp!\nSta op voor ons recht op sap met pulp!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Rauw en ongefilterd, net als ons geluid.\n't Leven is een vrucht, pers er alles uit!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Haal dus het onderste uit de kan.\nSap met pulp? Ik lust er wel pap van!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Sinaasappelsap zonder pulp is niet eens\nsap! Het is hooguit sinaasappelwater!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Pulp is naar! Het zou niet nodig moeten\nzijn om te flossen nadat je iets drinkt!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Je doet toch ook geen koffieprut in\nje espresso?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Als je puur sap niet kunt waarderen,\nben je het niet waard!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Je kunt ook een sinaasappel eten als je\nzo graag op vruchtvlees kauwt...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Maar nee! Jij vindt het blijkbaar oké om\nsinaasappelsap voor ons te verpesten!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Sap met pulp is voor Inklings die niet\nweten wat ze willen.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Liever dat dan onavontuurlijke\ntypes die geen pulp lusten!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Eh... We zijn allebei een beetje te\nver gegaan...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Tja, zo gaat dat bij liefde en Splatfests.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Hoe vinden jullie je sap lekkerder? Maak\nje keuze bij de Splatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Мариша! Какой апельсиновый сок\nлучше — с мякотью или без?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Ой, ну что за вопрос! Без, конечно!\nМякоть никто не любит...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Как, никто?! Очень даже кто!\nЯ, например!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ты тут волну не гони!\nМЯКОТЬ ТАЩИТ, ЙО!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "И не смотри, что я суровый рэпер.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Сок без мякоти — это и не сок вообще!\nТак, водичка...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Ой, ну перестань! Эта гадость в зубах\nзастревает! И вообще...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Может, ты и в кофе целые зерна\nбросаешь?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Сок — это жидкость. А жидкость\nдолжна быть жидкой!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "А если хочешь мякоти, просто слопай\nапельсин, не изобретай велосипед!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Так нет же, нужно всем жизнь\nиспортить!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "В общем! Сок с мякотью пьют\nтолько мягкотелые! Вот!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Мариша, МЫ И ЕСТЬ мягкотелые!\nПолучше учебники читай, ботаник!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "К сведению зрителей: произошедшая\nсейчас перепалка была постановкой.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "У нас все хорошо, и мы не ссоримся.\nА вас ждет Сплатфест!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Какой сок вам по душе? Вперед\nк терминалу и выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Announce",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "How do you like your orange juice?\nPulp or no pulp?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "No contest. What kind of barbarian likes\npulp in their or—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "PULP ME UP, YO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Put me on the pulpit...\n'CAUSE I'M A PULPITARIAN FUH LIFE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "I'm so pulpified I majored in pulpology at\nthe University of Pulpsburgh.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Seriously, orange juice without pulp ain't\neven juice. IT'S ORANGE WATER.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Pulp is NASTY. I shouldn't have to floss\nmy teeth after drinking something.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Do you sprinkle coffee grounds in\nyour lattes too?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "If you can't appreciate OJ in its natural\nstate, you don't deserve to drink it.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "If you want orange chunks in your\nmouth, JUST EAT AN ORANGE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Why you gotta ruin OJ for the rest of\nus?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "OJ with pulp is for indecisive cowards\nwho can't make up their minds!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "People who don't like pulp are\nbroken inside...AND I DON'T TRUST 'EM!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Look, we both said some things...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "All's fair in love and Splatfest.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "How do you like your OJ? Head over to\nthe Splatfest terminal and pick a side...",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Cómo prefieren su jugo de naranja?\n¿Con pulpa o sin pulpa?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Fácil. ¿Qué tipo de depravado toma\njugo de naranja con pul...?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡PULPA POR SIEMPREEE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Lo profeso desde el púlpito: ¡mi amor\npor la pulpa es palpable!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "Soy licenciada en pulpalogía por la\nUniversidad Pulpatécnica.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Sin pulpa, el jugo de naranja no es más\nque agua anaranjada.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "La pulpa es ASQUEROSA. Un buen jugo se\nbebe, no se mastica.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Preparas el café sin filtro también?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Si no eres capaz de apreciar el jugo en\nsu estado natural, no te lo mereces.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Si lo que quieres es sentir una naranja\nen la boca, ¡CÓMETE UNA NARANJA!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "¡No nos arruines el jugo a los demás!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Dejar la pulpa en el jugo es para\ncobardes indecisos que lo quieren todo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Los que toman jugo sin pulpa tienen\nproblemas muy graves. ¡NO SON DE FIAR!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Oye, creo que las dos dijimos\ncosas que...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "En el amor y en el festival, todo se vale.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Qué tipo de jugo les gusta más? Vayan\na la terminal de voto y elijan un equipo.",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Comment préfères-tu ton jus d'orange?\nAvec de la pulpe ou sans pulpe?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "La question se pose pas. Faut être\nbarbare pour aimer la pul...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "J'ADORE LA PULPE D'ORANGE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Je suis mes pulsions de personne\npulpeuse et J'AIME LA PULPE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Left",
+          "Text": "J'ai même étudié la pulpation pour\nparfaitement pulper mes oranges.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "Sérieux, sans pulpe, c'est pas du jus\nd'orange, mais de L'EAU D'ORANGE.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "La pulpe, c'est pas bon. Je veux pas me\npasser la soie dentaire après avoir bu.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Est-ce que tu mets des grains de café\ndans ton latté aussi?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Si tu aimes pas le jus d'orange à son\nétat naturel, tu mérites pas d'en boire.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Si tu veux des bouts d'oranges dans\nta bouche, MANGE UNE ORANGE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "Mais nooooon, faut que tu ruines le\njus d'orange pour tout le monde!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Le jus avec pulpe, c'est pour les gens\nqui sont pas capables de se décider!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ceux qui n'aiment pas la pulpe ont des\nproblèmes et j'leur fais pas confiance!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Both",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Écoute, on a dit des choses\nregrettables toutes les deux...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Tout est permis dans les débats\nde festivals.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Comment bois-tu ton jus d'orange? Va à\nla borne festive pour choisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Wie mögt ihr euren O-Saft?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Trefft eure Wahl am Splatfest-\nWahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "How do you like your orange juice?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Tomáis el zumo de naranja con pulpa\no sin pulpa?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Ya tardáis en elegir vuestra opción\nen el terminal de voto!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "La pulpe, ça vous parle\nou ça vous hérisse le poil ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Tous à l'urne festive pour défendre\nles couleurs du meilleur jus d'orange !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Preferite la spremuta con o senza\npolpa?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Correte al terminal di voto e scegliete\nda che parte stare!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Hoe vind jij sinaasappelsap\nhet lekkerst?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Maak je keuze bij de\nSplatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Сок лучше с мякотью или без?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Скорее к терминалу\nи выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Start",
+      "USen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "How do you like your orange juice?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Qué tipo de jugo de naranja les\ngusta más?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Vayan a la terminal de voto y elijan\nun equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Comment bois-tu ton jus d'orange?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Va à la borne festive pour\nchoisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Fruchtfleisch am Tag!\nFruchtfleisch bei Nacht!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Igitt...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Für Fruchtfleisch-Hasser ist Schicht\nim Schacht!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Hilfe...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Tja, Team Pur hatte wohl nicht genug\nSubstanz.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ihr müsst bissfester werden...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "PULPIN' ALL DAY!\nPULPIN' ALL NIGHT! UNNNGH!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Gettin' delicious pulp\nwith every nutritious gulp!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Disgusting...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "So Team No-Pulp didn't have any real\nsubstance? SHOCKING.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Get good, chumps!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Alegraos, calamares y pulpos!\n¡La victoria es para el equipo pulpero!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Qué decepción...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Nos debéis una disculpa por haber\ndespreciado la pulpa.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Qué asco...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Nuestros rivales han demostrado tener\nmuy poca sustancia.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Bien hecho, equipo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Esta derrota ha hecho pupa...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "En la plaza podéis recoger vuestros\npremios todos los participantes.",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "La pulpe, c'est la solution !\nSans pulpe, c'est la dilution !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "C'est dur à avaler...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Sans pulpe, c'est trop liquide !\nSans pulpe, c'est insipide !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "C'est bon, Perle, on a compris...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "On dirait que les anti-pulpe ont manqué\nde consistance sur ce coup-là...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "... tandis que les pro-pulpe, trop forts,\nont récolté le fruit de leurs efforts !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "C'est pas vrai... Elle va me faire boire\nsa saleté de pulpe jusqu'à la lie !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Abbiamo vinto!!! Vai con la musica\ne senti come POLPANO LE CASSE!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Dai, Nori, ti offro da bere. Una bella\naranciata con pezzettoni di frutta!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Che schifo...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Visto? Impossibile vincere il festival\nper una squadra senza polpa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Sarà per la prossima volta!\nForse...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "DE PULPHATERS ZIJN UITGEPERST!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Ik heb een raadsel voor je! Ork, ork, ork,\nsinaasappelsap drink je met een...?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Bleh, wat vies...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Ah, is je favoriete team helemaal tot\npulp geschoten?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Hadden jullie maar meer vezels moeten\ndrinken, luitjes!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Кто себе сок без мякоти наливает...\nПО ВСЕМ ПАРАМЕТРАМ ПРОЛЕТАЕТ!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Ну зачем сразу так...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Лучше в стакане апельсин всмятку,\nчем пить пустой сок всухомятку!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Погоди, что?..",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Ну, помог вам сок без мякоти, йо?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Отдыхайте, жидкие!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Жемчик!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultA",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "PULPIN' ALL DAY!\nPULPIN' ALL NIGHT! UNNNGH!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Gettin' delicious pulp\nwith every nutritious gulp!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Disgusting...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "So Team No-Pulp didn't have any real\nsubstance? SHOCKING.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Get good, chumps!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡TODA LA PULPA PARA MÍ!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Si a ti no te gusta la pulpa,\nyo no tengo la culpa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Qué asco...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "El Equipo Antipulpa salió todo aguado.\n¡Qué sorpresa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Lástima para ustedes!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "D'LA PULPE POUR DÉJEUNER!\nD'LA PULPE TOUTE LA JOURNÉE!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "D'la bonne pulpe qui descend\ndans mon gosier!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Dégoûtant...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "L'équipe pas de pulpe s'est fait\nPULVÉRISER? Pas étonnant...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Faut être bon, les amis!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ja! Nieder mit dem Fruchtfleisch!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Wenn ich „Fruchtfleisch“ sage, sagt ihr\n„BÄÄÄÄÄÄH“!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Fruchtfleisch!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Hör auf.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "BÄÄÄÄÄÄH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Team Fruchtfleisch hatte also weder\ngenug Substanz noch Saft. Hehe.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "YESSSSS!\nPULP IS THE WORRRRRRRRST!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "When I say \"pulp,\" you say \"gross!\"",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "PULP!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Stop.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "GROSS!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "So Team Pulp didn't have any substance\nafter all. Funny how that works...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Síii! ¡Hemos dejado la pulpa hecha\npapilla!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Oh, no...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Ahora repetid conmigo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¿Qué nos da asco?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Déjalo ya...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡La pulpa! ¡La pulpa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Para defender la pulpa, vuestro equipo\nha demostrado tener poca sustancia.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "En la plaza podéis recoger vuestros\npremios todos los participantes.",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "YES ! Bye-bye la pulpe ! C'est un grand\njour pour le jus d'orange !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Oh non...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "La pulpe, ça pue ! La pulpe, ça pue !\nAllez, Perle, répète après moi !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "La pulpe...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Arrête un peu.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "... ça pue !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "En tout cas, pour des fans de la pulpe,\nvous avez manqué de consistance !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Lo sapevo! La squadra del buon\ngusto trionfaaa!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Una squadra tutta polpa, ma... niente\nsostanza! Beccati questo, Alga!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "D'altra parte, non mi aspettavo\nnessun... polpo di scena!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Ehm... Che ne dici di smetterla?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Niente affatto, anzi, potrei andare\navanti all'infinito!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Dev'essere questo il vero significato\ndella parola \"polpandemonio\"!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "GERECHTIGHEID! PULP IS SMERIG!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Oké, als ik \"pulp is...\" roep, moeten\njullie \"smerig\" roepen! Begrepen?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "PULP IS...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Hou op!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "SMERIG!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Grappig toch, hoe je favoriete team\nhelemaal tot pulp is geschoten...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "УРА-А-А! СКАЖЕМ НЕТ МЯКОТИ!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Ох йо...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Я серьезно. Скажи: «Мякоти — нет!»",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ну? МЯКОТИ...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Перестань.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "...НЕТ!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Надо же, любители мякоти и в бою\nразмякли. Кто бы мог подумать, а!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultB",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "YESSSSS!\nPULP IS THE WORRRRRRRRST!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "When I say \"pulp,\" you say \"gross!\"",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "PULP!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Stop.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "GROSS!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "So Team Pulp didn't have any substance\nafter all. Funny how that works...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡GANAMOOOS!\n¡ABAJO LA PULPA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Cuando yo digo \"pulpa\", dicen \"asco\"!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡PULPA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "No.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡ASCO!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Al final el Equipo Pulpa es el que salió\ntodo aguado. ¡Qué sorpresa!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "OUAIIIIIS!\nLA PULPE C'EST MAUVAIS!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Quand je dis « pulpe »,\nvous dîtes « beurk »!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "PULPE!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "Arrête...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "BEURK!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "L'équipe de la pulpe était pas très\nconsistante. Oh, l'ironie...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    }
+  ],
+  "RegionAttr": {
+    "EU": 0,
+    "JP": 0,
+    "US": 0
+  },
+  "RequiredBattleTimes": 7,
+  "Rule": "cPnt",
+  "SpecialStage": 9999,
+  "StartDelayTimeMax": 300,
+  "Teams": [
+    {
+      "Color": [
+        0.819,
+        0.415,
+        0.066,
+        1
+      ],
+      "Name": {
+        "EUde": "Ich mag meinen O-Saft\nMIT FRUCHTFLEISCH!",
+        "EUen": "I like my OJ\nWITH PULP",
+        "EUes": "Me gusta el zumo\nde naranja con pulpa",
+        "EUfr": "Je préfère le jus\nd'orange avec pulpe",
+        "EUit": "La spremuta mi piace\nCON LA POLPA!",
+        "EUnl": "Sinaasappelsap is het\nlekkerst met pulp!",
+        "EUru": "Сок с мякотью!",
+        "USen": "I like my OJ\nWITH PULP",
+        "USes": "Jugo de naranja\nCON PULPA",
+        "USfr": "J'aime mon jus\nd'orange AVEC PULPE"
+      },
+      "ShortName": {
+        "EUde": "Pulpa",
+        "EUen": "Pulp",
+        "EUes": "Con pulpa",
+        "EUfr": "Avec pulpe",
+        "EUit": "Con polpa",
+        "EUnl": "Met pulp",
+        "EUru": "С мякотью",
+        "USen": "Pulp",
+        "USes": "Pulpa",
+        "USfr": "Pulpe"
+      }
+    },
+    {
+      "Color": [
+        0.243,
+        0.628,
+        0.298,
+        1
+      ],
+      "Name": {
+        "EUde": "Ich mag meinen O-Saft\nPUR!",
+        "EUen": "I like my OJ\nWITHOUT PULP",
+        "EUes": "Me gusta el zumo\nde naranja sin pulpa",
+        "EUfr": "Je préfère le jus\nd'orange sans pulpe",
+        "EUit": "La spremuta mi piace\nSENZA POLPA!",
+        "EUnl": "Sinaasappelsap is het\nlekkerst zonder pulp!",
+        "EUru": "Сок без мякоти!",
+        "USen": "I like my OJ\nWITHOUT PULP",
+        "USes": "Jugo de naranja\nSIN PULPA",
+        "USfr": "J'aime mon jus\nd'orange SANS PULPE"
+      },
+      "ShortName": {
+        "EUde": "Pur",
+        "EUen": "No-Pulp",
+        "EUes": "Sin pulpa",
+        "EUfr": "Sans pulpe",
+        "EUit": "Senza polpa",
+        "EUnl": "Zonder pulp",
+        "EUru": "Без мякоти",
+        "USen": "No-Pulp",
+        "USes": "Antipulpa",
+        "USfr": "Sans pulpe"
+      }
+    },
+    {
+      "Color": [
+        0.023,
+        0.69,
+        0.807,
+        1
+      ]
+    }
+  ],
+  "Time": {
+    "Announce": "2018-06-16T02:00:00+00:00",
+    "End": "2018-06-24T14:00:00+00:00",
+    "Result": "2018-06-24T16:00:00+00:00",
+    "Start": "2018-06-23T14:00:00+00:00"
+  },
+  "Version": 1,
+  "VoteAnimType": 0,
+  "VoteTextType": 0,
+  "cPnt": {
+    "HighRate1": 2000,
+    "HighRate2": 2300,
+    "LowRate": 1400,
+    "ShrinkRatio": 0.3
+  }
+}
