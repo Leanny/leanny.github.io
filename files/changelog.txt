@@ -1,3 +1,8 @@
+v0.4.4:
+    - Add basic OctoExpansion Editor
+    - Add new released weapons
+    - Allow SplatHeX to load decrypted savefiles
+    - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience.
 v0.4.3:
     - Splat 1: Fix rarity of gear
     - Fix a bug in Player Editor that did not allow to display the octoling gender correctly.
