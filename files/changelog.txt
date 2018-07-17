@@ -1,3 +1,6 @@
+v0.4.5:
+    - Add 3.2 update stuff.
+    - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience.
 v0.4.4:
     - Add basic OctoExpansion Editor
     - Add new released weapons
