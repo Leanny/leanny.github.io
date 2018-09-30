@@ -1,3 +1,7 @@
+v0.4.6:
+    - Add proper support for all savegame revisions
+    - Add Splatoon 4.0 support
+    - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience.
 v0.4.5:
     - Add 3.2 update stuff.
     - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience.
