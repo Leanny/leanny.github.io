@@ -1,3 +1,6 @@
+v0.4.8:
+    -Fix a crash when opening the player editor as octoling
+    -Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience
 v0.4.6:
     - Add proper support for all savegame revisions
     - Add Splatoon 4.0 support
