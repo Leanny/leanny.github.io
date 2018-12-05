@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Splatoon 2 Data From 4.2.0</title>
+		<title>Splatoon 2 Data From 4.3.0</title>
 		<link rel="stylesheet" type="text/css" href="wep.css">
 		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 		<style type="text/css">
@@ -67,6 +67,8 @@
 								<th>Special</th>
 								<th>Level</th>
 								<th>Special Cost</th>
+								<th>Main Power Up</th>
+								<th>Shoot Move Velocity Type</th>
 								<th>Ink Saver Level</th>
 								<th>Speed Level</th>
 								<th>Price</th>
@@ -89,6 +91,8 @@
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
 								<td>1</td>
 								<td>180</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>0</td>
@@ -110,6 +114,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>2</td>
 								<td>200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>900</td>
@@ -131,6 +137,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>2</td>
 								<td>200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>1500</td>
@@ -152,6 +160,8 @@
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>3</td>
 								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>2700</td>
@@ -167,33 +177,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_Normal_H.png" alt="ヒーローローラー レプリカ" /></td>
-								<td>ヒーローローラー レプリカ</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
-								<td>3</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>2300</td>
-
-								<td>48</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>45</td>
-								<td>-</td>
-								<td>55</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_00.png" alt="スプラローラー" /></td>
 								<td>スプラローラー</td>
 								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>3</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>1800</td>
@@ -215,6 +206,8 @@
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>3</td>
 								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>2200</td>
@@ -230,12 +223,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Normal_H.png" alt="ヒーローローラー レプリカ" /></td>
+								<td>ヒーローローラー レプリカ</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
+								<td>3</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>2300</td>
+
+								<td>48</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>45</td>
+								<td>-</td>
+								<td>55</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Normal_01.png" alt="スプラシューターコラボ" /></td>
 								<td>スプラシューターコラボ</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>4</td>
 								<td>210</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>2100</td>
@@ -251,12 +269,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_First_01.png" alt="もみじシューター" /></td>
+								<td>もみじシューター</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>4</td>
+								<td>170</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>1900</td>
+
+								<td>35</td>
+								<td>75</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>22</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_00.png" alt="スプラマニューバー" /></td>
 								<td>スプラマニューバー</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>4</td>
 								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>2400</td>
@@ -278,6 +321,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>4</td>
 								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>3100</td>
@@ -293,33 +338,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_First_01.png" alt="もみじシューター" /></td>
-								<td>もみじシューター</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
-								<td>4</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>1900</td>
-
-								<td>35</td>
-								<td>75</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_H.png" alt="ヒーロースロッシャー レプリカ" /></td>
 								<td>ヒーロースロッシャー レプリカ</td>
 								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>5</td>
 								<td>190</td>
+								<td>DamageReductionDown</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>3100</td>
@@ -341,30 +367,11 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>5</td>
 								<td>190</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>3800</td>
-
-								<td>27</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterMiddle_00.png" alt="ホットブラスター" /></td>
-								<td>ホットブラスター</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
-								<td>5</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>3000</td>
 
 								<td>27</td>
 								<td>20</td>
@@ -383,6 +390,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>5</td>
 								<td>150</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>2600</td>
@@ -398,12 +407,37 @@
 								<td>100</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterMiddle_00.png" alt="ホットブラスター" /></td>
+								<td>ホットブラスター</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
+								<td>5</td>
+								<td>190</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>3000</td>
+
+								<td>27</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Slosher_Strong_00.png" alt="バケットスロッシャー" /></td>
 								<td>バケットスロッシャー</td>
 								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>5</td>
 								<td>190</td>
+								<td>DamageReductionDown</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>2500</td>
@@ -425,6 +459,8 @@
 								<td><img src="subspe/Wsp_LauncherCurling.png" alt="カーリングボムピッチャー"/>カーリングボムピッチャー</td>
 								<td>6</td>
 								<td>160</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>4900</td>
@@ -446,6 +482,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>6</td>
 								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>5300</td>
@@ -461,33 +499,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_Compact_00.png" alt="カーボンローラー" /></td>
-								<td>カーボンローラー</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
-								<td>7</td>
-								<td>160</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>6200</td>
-
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>63</td>
-								<td>-</td>
-								<td>65</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Roller_BrushMini_01.png" alt="パブロ・ヒュー" /></td>
 								<td>パブロ・ヒュー</td>
 								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>7</td>
 								<td>160</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>7000</td>
@@ -503,25 +522,27 @@
 								<td>100</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Strong_01.png" alt="バケットスロッシャーデコ" /></td>
-								<td>バケットスロッシャーデコ</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
-								<td>8</td>
-								<td>220</td>
+								<td><img src="weapons/Wst_Roller_Compact_00.png" alt="カーボンローラー" /></td>
+								<td>カーボンローラー</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>7</td>
+								<td>160</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>8000</td>
+								<td>High</td>
+								<td>6200</td>
 
-								<td>58</td>
+								<td>20</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>63</td>
 								<td>-</td>
-								<td>85</td>
-								<td>50</td>
+								<td>65</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_H.png" alt="ヒーロースピナー レプリカ" /></td>
@@ -530,6 +551,8 @@
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>8</td>
 								<td>200</td>
+								<td>ShootingFrameUp</td>
+								<td>D</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>8600</td>
@@ -551,6 +574,8 @@
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>8</td>
 								<td>200</td>
+								<td>ShootingFrameUp</td>
+								<td>D</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>7800</td>
@@ -566,25 +591,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_First_02.png" alt="おちばシューター" /></td>
-								<td>おちばシューター</td>
-								<td><img src="subspe/Wsb_Bomb_Tako.png" alt="トーピード"/>トーピード</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
-								<td>9</td>
-								<td>190</td>
+								<td><img src="weapons/Wst_Slosher_Strong_01.png" alt="バケットスロッシャーデコ" /></td>
+								<td>バケットスロッシャーデコ</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>8</td>
+								<td>220</td>
+								<td>DamageReductionDown</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>High</td>
-								<td>8700</td>
+								<td>Middle</td>
+								<td>8000</td>
 
-								<td>35</td>
-								<td>75</td>
+								<td>58</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>22</td>
 								<td>-</td>
+								<td>85</td>
+								<td>50</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_H.png" alt="ヒーローシェルター レプリカ" /></td>
@@ -592,7 +619,9 @@
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>9</td>
-								<td>190</td>
+								<td>200</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9000</td>
@@ -613,7 +642,9 @@
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>9</td>
-								<td>190</td>
+								<td>200</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>8300</td>
@@ -635,11 +666,36 @@
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
 								<td>9</td>
 								<td>210</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>7100</td>
 
 								<td>50</td>
+								<td>75</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>22</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_First_02.png" alt="おちばシューター" /></td>
+								<td>おちばシューター</td>
+								<td><img src="subspe/Wsb_Bomb_Tako.png" alt="トーピード"/>トーピード</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
+								<td>9</td>
+								<td>200</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>8700</td>
+
+								<td>35</td>
 								<td>75</td>
 								<td>-</td>
 								<td>-</td>
@@ -656,6 +712,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>10</td>
 								<td>160</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>9700</td>
@@ -671,12 +729,60 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="カーボンローラーデコ" /></td>
+								<td>カーボンローラーデコ</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
+								<td><img src="subspe/Wsp_LauncherRobo.png" alt="ロボボムピッチャー"/>ロボボムピッチャー</td>
+								<td>10</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>8500</td>
+
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>63</td>
+								<td>-</td>
+								<td>65</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="プライムシューター" /></td>
+								<td>プライムシューター</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>10</td>
+								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Middle</td>
+								<td>13800</td>
+
+								<td>70</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Roller_BrushNormal_H.png" alt="ヒーローブラシ レプリカ" /></td>
 								<td>ヒーローブラシ レプリカ</td>
 								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>10</td>
 								<td>180</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9400</td>
@@ -698,6 +804,8 @@
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>10</td>
 								<td>180</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>8200</td>
@@ -713,54 +821,14 @@
 								<td>85</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Expert_00.png" alt="プライムシューター" /></td>
-								<td>プライムシューター</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
-								<td>10</td>
-								<td>170</td>
-								<td>High</td>
-								<td>Middle</td>
-								<td>13800</td>
-
-								<td>70</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>60</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Roller_Compact_01.png" alt="カーボンローラーデコ" /></td>
-								<td>カーボンローラーデコ</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
-								<td><img src="subspe/Wsp_LauncherRobo.png" alt="ロボボムピッチャー"/>ロボボムピッチャー</td>
-								<td>10</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>8500</td>
-
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>63</td>
-								<td>-</td>
-								<td>65</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Twins_Normal_01.png" alt="スプラマニューバーコラボ" /></td>
 								<td>スプラマニューバーコラボ</td>
 								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>11</td>
 								<td>220</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9000</td>
@@ -782,6 +850,8 @@
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>11</td>
 								<td>180</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>10000</td>
@@ -803,6 +873,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>11</td>
 								<td>190</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>8800</td>
@@ -818,24 +890,26 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Quick_00.png" alt="スクイックリンα" /></td>
-								<td>スクイックリンα</td>
+								<td><img src="weapons/Wst_Twins_Dual_00.png" alt="デュアルスイーパー" /></td>
+								<td>デュアルスイーパー</td>
 								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>12</td>
-								<td>180</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>8900</td>
+								<td>9800</td>
 
-								<td>75</td>
-								<td>-</td>
 								<td>70</td>
 								<td>-</td>
 								<td>-</td>
-								<td>60</td>
 								<td>-</td>
 								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>22</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -845,6 +919,8 @@
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>12</td>
 								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9200</td>
@@ -860,33 +936,14 @@
 								<td>55</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Twins_Dual_00.png" alt="デュアルスイーパー" /></td>
-								<td>デュアルスイーパー</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
-								<td>12</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9800</td>
-
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Spinner_Standard_01.png" alt="バレルスピナーデコ" /></td>
 								<td>バレルスピナーデコ</td>
 								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
 								<td>12</td>
 								<td>180</td>
+								<td>ShootingFrameUp</td>
+								<td>D</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9600</td>
@@ -902,12 +959,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Charger_Quick_00.png" alt="スクイックリンα" /></td>
+								<td>スクイックリンα</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>12</td>
+								<td>180</td>
+								<td>RangeUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>8900</td>
+
+								<td>75</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Umbrella_Compact_00.png" alt="スパイガジェット" /></td>
 								<td>スパイガジェット</td>
 								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>13</td>
 								<td>150</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>9100</td>
@@ -923,33 +1005,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLight_00.png" alt="ラピッドブラスター" /></td>
-								<td>ラピッドブラスター</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
-								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
-								<td>13</td>
-								<td>200</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9800</td>
-
-								<td>62</td>
-								<td>40</td>
-								<td>-</td>
-								<td>-</td>
-								<td>35</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Slosher_Launcher_00.png" alt="スクリュースロッシャー" /></td>
 								<td>スクリュースロッシャー</td>
 								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>13</td>
 								<td>190</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12600</td>
@@ -965,12 +1028,37 @@
 								<td>40</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLight_00.png" alt="ラピッドブラスター" /></td>
+								<td>ラピッドブラスター</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
+								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
+								<td>13</td>
+								<td>200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>9800</td>
+
+								<td>62</td>
+								<td>40</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Twins_Stepper_00.png" alt="クアッドホッパーブラック" /></td>
 								<td>クアッドホッパーブラック</td>
 								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>14</td>
 								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>10700</td>
@@ -986,33 +1074,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLong_00.png" alt="ロングブラスター" /></td>
-								<td>ロングブラスター</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
-								<td>14</td>
-								<td>200</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9300</td>
-
-								<td>56</td>
-								<td>10</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Roller_Normal_02.png" alt="スプラローラーベッチュー" /></td>
 								<td>スプラローラーベッチュー</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
 								<td>14</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12300</td>
@@ -1028,12 +1097,37 @@
 								<td>55</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLong_00.png" alt="ロングブラスター" /></td>
+								<td>ロングブラスター</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>14</td>
+								<td>200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>9300</td>
+
+								<td>56</td>
+								<td>10</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Gravity_00.png" alt=".52ガロン" /></td>
 								<td>.52ガロン</td>
 								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>14</td>
 								<td>170</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>9500</td>
@@ -1049,33 +1143,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_NormalScope_00.png" alt="スプラスコープ" /></td>
-								<td>スプラスコープ</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
-								<td>15</td>
-								<td>210</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>11400</td>
-
-								<td>91</td>
-								<td>-</td>
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Slosher_Diffusion_00.png" alt="ヒッセン" /></td>
 								<td>ヒッセン</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
 								<td>15</td>
 								<td>190</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>10200</td>
@@ -1091,33 +1166,14 @@
 								<td>70</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="ホクサイ・ヒュー" /></td>
-								<td>ホクサイ・ヒュー</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
-								<td>15</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>9900</td>
-
-								<td>23</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
-								<td>-</td>
-								<td>85</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Umbrella_Normal_01.png" alt="パラシェルターソレーラ" /></td>
 								<td>パラシェルターソレーラ</td>
 								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
 								<td>15</td>
 								<td>180</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12000</td>
@@ -1133,87 +1189,49 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLight_01.png" alt="ラピッドブラスターデコ" /></td>
-								<td>ラピッドブラスターデコ</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
-								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
-								<td>16</td>
-								<td>190</td>
+								<td><img src="weapons/Wst_Roller_BrushNormal_01.png" alt="ホクサイ・ヒュー" /></td>
+								<td>ホクサイ・ヒュー</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
+								<td>15</td>
+								<td>170</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>11500</td>
+								<td>9900</td>
 
-								<td>62</td>
-								<td>40</td>
-								<td>-</td>
-								<td>-</td>
-								<td>35</td>
+								<td>23</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>85</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Normal_01.png" alt="スプラチャージャーコラボ" /></td>
-								<td>スプラチャージャーコラボ</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
-								<td>16</td>
-								<td>210</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>10600</td>
-
-								<td>88</td>
-								<td>-</td>
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>40</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Twins_Normal_02.png" alt="スプラマニューバーベッチュー" /></td>
-								<td>スプラマニューバーベッチュー</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
-								<td>16</td>
-								<td>210</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>13000</td>
-
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>29</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Flash_00.png" alt="ボトルガイザー" /></td>
-								<td>ボトルガイザー</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="weapons/Wst_Charger_NormalScope_00.png" alt="スプラスコープ" /></td>
+								<td>スプラスコープ</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
-								<td>16</td>
-								<td>180</td>
+								<td>15</td>
+								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>9400</td>
+								<td>11400</td>
 
-								<td>77</td>
+								<td>91</td>
+								<td>-</td>
+								<td>50</td>
+								<td>-</td>
+								<td>-</td>
 								<td>30</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>52</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1223,6 +1241,8 @@
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>16</td>
 								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12900</td>
@@ -1238,25 +1258,96 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Diffusion_01.png" alt="ヒッセン・ヒュー" /></td>
-								<td>ヒッセン・ヒュー</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
-								<td>17</td>
-								<td>180</td>
+								<td><img src="weapons/Wst_Twins_Normal_02.png" alt="スプラマニューバーベッチュー" /></td>
+								<td>スプラマニューバーベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>16</td>
+								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>High</td>
-								<td>11700</td>
+								<td>Middle</td>
+								<td>13000</td>
 
-								<td>31</td>
+								<td>50</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>75</td>
 								<td>70</td>
+								<td>-</td>
+								<td>29</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Normal_01.png" alt="スプラチャージャーコラボ" /></td>
+								<td>スプラチャージャーコラボ</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
+								<td>16</td>
+								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>10600</td>
+
+								<td>88</td>
+								<td>-</td>
+								<td>50</td>
+								<td>-</td>
+								<td>-</td>
+								<td>40</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLight_01.png" alt="ラピッドブラスターデコ" /></td>
+								<td>ラピッドブラスターデコ</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
+								<td>16</td>
+								<td>190</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>11500</td>
+
+								<td>62</td>
+								<td>40</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_Flash_00.png" alt="ボトルガイザー" /></td>
+								<td>ボトルガイザー</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
+								<td>16</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>9400</td>
+
+								<td>77</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>52</td>
+								<td>-</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Charger_Quick_01.png" alt="スクイックリンβ" /></td>
@@ -1265,6 +1356,8 @@
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>17</td>
 								<td>180</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>11000</td>
@@ -1286,6 +1379,8 @@
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>17</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>11800</td>
@@ -1307,6 +1402,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>17</td>
 								<td>180</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>11300</td>
@@ -1322,67 +1419,27 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Washtub_00.png" alt="エクスプロッシャー" /></td>
-								<td>エクスプロッシャー</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
-								<td>18</td>
-								<td>200</td>
-								<td>Middle</td>
-								<td>Low</td>
-								<td>10800</td>
-
-								<td>77</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>65</td>
-								<td>20</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Light_00.png" alt="14式竹筒銃・甲" /></td>
-								<td>14式竹筒銃・甲</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
-								<td>18</td>
+								<td><img src="weapons/Wst_Slosher_Diffusion_01.png" alt="ヒッセン・ヒュー" /></td>
+								<td>ヒッセン・ヒュー</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>17</td>
 								<td>180</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
-								<td>9500</td>
+								<td>11700</td>
 
-								<td>78</td>
-								<td>-</td>
-								<td>90</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
+								<td>31</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Short_01.png" alt="ボールドマーカーネオ" /></td>
-								<td>ボールドマーカーネオ</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
-								<td>18</td>
-								<td>170</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>12200</td>
-
-								<td>12</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>75</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>52</td>
-								<td>-</td>
+								<td>70</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleQuick_00.png" alt="L3リールガン" /></td>
@@ -1391,6 +1448,8 @@
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>18</td>
 								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>10400</td>
@@ -1412,6 +1471,8 @@
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
 								<td>18</td>
 								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>11400</td>
@@ -1427,25 +1488,73 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Launcher_01.png" alt="スクリュースロッシャーネオ" /></td>
-								<td>スクリュースロッシャーネオ</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
-								<td>19</td>
-								<td>180</td>
+								<td><img src="weapons/Wst_Shooter_Short_01.png" alt="ボールドマーカーネオ" /></td>
+								<td>ボールドマーカーネオ</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
+								<td>18</td>
+								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>19800</td>
+								<td>High</td>
+								<td>12200</td>
 
-								<td>60</td>
+								<td>12</td>
+								<td>75</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>52</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Light_00.png" alt="14式竹筒銃・甲" /></td>
+								<td>14式竹筒銃・甲</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
+								<td>18</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>9500</td>
+
+								<td>78</td>
 								<td>-</td>
 								<td>90</td>
-								<td>40</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Slosher_Washtub_00.png" alt="エクスプロッシャー" /></td>
+								<td>エクスプロッシャー</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
+								<td>18</td>
+								<td>200</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Low</td>
+								<td>10800</td>
+
+								<td>77</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>65</td>
+								<td>20</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Umbrella_Compact_01.png" alt="スパイガジェットソレーラ" /></td>
@@ -1454,6 +1563,8 @@
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>19</td>
 								<td>180</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>11900</td>
@@ -1469,12 +1580,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Slosher_Launcher_01.png" alt="スクリュースロッシャーネオ" /></td>
+								<td>スクリュースロッシャーネオ</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
+								<td>19</td>
+								<td>180</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>19800</td>
+
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>90</td>
+								<td>40</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Charger_Normal_02.png" alt="スプラチャージャーベッチュー" /></td>
 								<td>スプラチャージャーベッチュー</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>19</td>
 								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>14500</td>
@@ -1496,6 +1632,8 @@
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>19</td>
 								<td>180</td>
+								<td>DamageAreaUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>High</td>
 								<td>12100</td>
@@ -1511,54 +1649,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_Heavy_00.png" alt="ダイナモローラー" /></td>
-								<td>ダイナモローラー</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
-								<td>20</td>
-								<td>180</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>24500</td>
-
-								<td>76</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
-								<td>20</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_Expert_01.png" alt="プライムシューターコラボ" /></td>
-								<td>プライムシューターコラボ</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
-								<td>20</td>
-								<td>200</td>
-								<td>High</td>
-								<td>Middle</td>
-								<td>20800</td>
-
-								<td>70</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>60</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Roller_BrushNormal_02.png" alt="ホクサイベッチュー" /></td>
 								<td>ホクサイベッチュー</td>
 								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
 								<td><img src="subspe/Wsp_SuperStamp.png" alt="ウルトラハンコ"/>ウルトラハンコ</td>
 								<td>20</td>
-								<td>190</td>
+								<td>180</td>
+								<td>BrushSpeedUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>13200</td>
@@ -1574,12 +1672,37 @@
 								<td>85</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Heavy_00.png" alt="ダイナモローラー" /></td>
+								<td>ダイナモローラー</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
+								<td>20</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>24500</td>
+
+								<td>76</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+								<td>20</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Charger_Long_00.png" alt="リッター4K" /></td>
 								<td>リッター4K</td>
 								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>20</td>
 								<td>170</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>13900</td>
@@ -1595,46 +1718,50 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Light_01.png" alt="14式竹筒銃・乙" /></td>
-								<td>14式竹筒銃・乙</td>
-								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
-								<td><img src="subspe/Wsp_LauncherQuick.png" alt="クイックボムピッチャー"/>クイックボムピッチャー</td>
-								<td>21</td>
-								<td>160</td>
+								<td><img src="weapons/Wst_Slosher_Bathtub_01.png" alt="オーバーフロッシャーデコ" /></td>
+								<td>オーバーフロッシャーデコ</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
+								<td>20</td>
+								<td>180</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>High</td>
-								<td>10500</td>
+								<td>Middle</td>
+								<td>17600</td>
 
-								<td>78</td>
-								<td>-</td>
-								<td>90</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
+								<td>85</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>29</td>
+								<td>50</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Slosher_Launcher_02.png" alt="スクリュースロッシャーベッチュー" /></td>
-								<td>スクリュースロッシャーベッチュー</td>
-								<td><img src="subspe/Wsb_Bomb_Piyo.png" alt="タンサンボム"/>タンサンボム</td>
-								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
-								<td>21</td>
-								<td>170</td>
+								<td><img src="weapons/Wst_Shooter_Expert_01.png" alt="プライムシューターコラボ" /></td>
+								<td>プライムシューターコラボ</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
+								<td>20</td>
+								<td>200</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>High</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>20700</td>
+								<td>20800</td>
 
+								<td>70</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
 								<td>60</td>
 								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>90</td>
-								<td>40</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Shooter_Heavy_00.png" alt=".96ガロン" /></td>
@@ -1643,6 +1770,8 @@
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
 								<td>21</td>
 								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12600</td>
@@ -1658,12 +1787,83 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLight_02.png" alt="ラピッドブラスターベッチュー" /></td>
+								<td>ラピッドブラスターベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Tako.png" alt="トーピード"/>トーピード</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>21</td>
+								<td>200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>13500</td>
+
+								<td>62</td>
+								<td>40</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Slosher_Launcher_02.png" alt="スクリュースロッシャーベッチュー" /></td>
+								<td>スクリュースロッシャーベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Piyo.png" alt="タンサンボム"/>タンサンボム</td>
+								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
+								<td>21</td>
+								<td>170</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>20700</td>
+
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>90</td>
+								<td>40</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Light_01.png" alt="14式竹筒銃・乙" /></td>
+								<td>14式竹筒銃・乙</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
+								<td><img src="subspe/Wsp_LauncherQuick.png" alt="クイックボムピッチャー"/>クイックボムピッチャー</td>
+								<td>21</td>
+								<td>160</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>10500</td>
+
+								<td>78</td>
+								<td>-</td>
+								<td>90</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Twins_Stepper_01.png" alt="クアッドホッパーホワイト" /></td>
 								<td>クアッドホッパーホワイト</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
 								<td><img src="subspe/Wsp_LauncherRobo.png" alt="ロボボムピッチャー"/>ロボボムピッチャー</td>
 								<td>21</td>
 								<td>200</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>13300</td>
@@ -1685,6 +1885,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>22</td>
 								<td>160</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>13400</td>
@@ -1700,33 +1902,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Gravity_01.png" alt=".52ガロンデコ" /></td>
-								<td>.52ガロンデコ</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
-								<td>22</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>12700</td>
-
-								<td>55</td>
-								<td>25</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>75</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Shooter_BlasterLightLong_00.png" alt="Rブラスターエリート" /></td>
 								<td>Rブラスターエリート</td>
 								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>22</td>
 								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12800</td>
@@ -1742,25 +1925,50 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Umbrella_Wide_00.png" alt="キャンピングシェルター" /></td>
-								<td>キャンピングシェルター</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
-								<td>23</td>
+								<td><img src="weapons/Wst_Shooter_Gravity_01.png" alt=".52ガロンデコ" /></td>
+								<td>.52ガロンデコ</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
+								<td>22</td>
 								<td>190</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>14200</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>12700</td>
 
-								<td>62</td>
+								<td>55</td>
+								<td>25</td>
 								<td>-</td>
 								<td>-</td>
-								<td>85</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>85</td>
+								<td>75</td>
 								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Slosher_Washtub_01.png" alt="エクスプロッシャーカスタム" /></td>
+								<td>エクスプロッシャーカスタム</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>22</td>
+								<td>190</td>
+								<td>PaintUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Low</td>
+								<td>12400</td>
+
+								<td>77</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>65</td>
+								<td>20</td>
 							</tr>
 							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_00.png" alt="スプラスピナー" /></td>
@@ -1769,6 +1977,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>23</td>
 								<td>190</td>
+								<td>ShootingFrameUp</td>
+								<td>E</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12300</td>
@@ -1790,6 +2000,8 @@
 								<td><img src="subspe/Wsp_SuperBall.png" alt="ナイスダマ"/>ナイスダマ</td>
 								<td>23</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Middle</td>
 								<td>21900</td>
@@ -1805,12 +2017,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Umbrella_Wide_00.png" alt="キャンピングシェルター" /></td>
+								<td>キャンピングシェルター</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
+								<td>23</td>
+								<td>190</td>
+								<td>CanopyHPUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>14200</td>
+
+								<td>62</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>85</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_TripleQuick_01.png" alt="L3リールガンD" /></td>
 								<td>L3リールガンD</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>23</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>12500</td>
@@ -1826,75 +2063,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterShort_01.png" alt="ノヴァブラスターネオ" /></td>
-								<td>ノヴァブラスターネオ</td>
-								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
-								<td>24</td>
-								<td>170</td>
-								<td>High</td>
-								<td>High</td>
-								<td>13600</td>
-
-								<td>9</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLightLong_01.png" alt="Rブラスターエリートデコ" /></td>
-								<td>Rブラスターエリートデコ</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
-								<td>24</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>14000</td>
-
-								<td>72</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>35</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Umbrella_Compact_02.png" alt="スパイガジェットベッチュー" /></td>
-								<td>スパイガジェットベッチュー</td>
-								<td><img src="subspe/Wsb_Bomb_Tako.png" alt="トーピード"/>トーピード</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
-								<td>24</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>14800</td>
-
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>30</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Roller_Hunter_00.png" alt="ヴァリアブルローラー" /></td>
 								<td>ヴァリアブルローラー</td>
 								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
 								<td><img src="subspe/Wsp_LauncherSplash.png" alt="スプラッシュボムピッチャー"/>スプラッシュボムピッチャー</td>
 								<td>24</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>15700</td>
@@ -1910,12 +2086,37 @@
 								<td>45</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLightLong_01.png" alt="Rブラスターエリートデコ" /></td>
+								<td>Rブラスターエリートデコ</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>24</td>
+								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>14000</td>
+
+								<td>72</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Twins_Gallon_01.png" alt="ケルビン525デコ" /></td>
 								<td>ケルビン525デコ</td>
 								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>24</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>13700</td>
@@ -1931,45 +2132,72 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Roller_Heavy_01.png" alt="ダイナモローラーテスラ" /></td>
-								<td>ダイナモローラーテスラ</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
-								<td>25</td>
-								<td>190</td>
+								<td><img src="weapons/Wst_Shooter_BlasterShort_01.png" alt="ノヴァブラスターネオ" /></td>
+								<td>ノヴァブラスターネオ</td>
+								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
+								<td>24</td>
+								<td>170</td>
+								<td>DamageAreaUp</td>
+								<td>B</td>
 								<td>High</td>
-								<td>Low</td>
-								<td>29000</td>
+								<td>High</td>
+								<td>13600</td>
 
-								<td>76</td>
+								<td>9</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
-								<td>20</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_NormalScope_01.png" alt="スプラスコープコラボ" /></td>
-								<td>スプラスコープコラボ</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
-								<td>25</td>
-								<td>210</td>
+								<td><img src="weapons/Wst_Umbrella_Compact_02.png" alt="スパイガジェットベッチュー" /></td>
+								<td>スパイガジェットベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Tako.png" alt="トーピード"/>トーピード</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>24</td>
+								<td>180</td>
+								<td>CanopyRecoveryUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>13900</td>
+								<td>High</td>
+								<td>14800</td>
 
-								<td>91</td>
-								<td>-</td>
 								<td>50</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>30</td>
 								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_Gravity_02.png" alt=".52ガロンベッチュー" /></td>
+								<td>.52ガロンベッチュー</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_SuperBall.png" alt="ナイスダマ"/>ナイスダマ</td>
+								<td>25</td>
+								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>15600</td>
+
+								<td>55</td>
+								<td>25</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>75</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -1979,6 +2207,8 @@
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>25</td>
 								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>11200</td>
@@ -2000,6 +2230,8 @@
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
 								<td>25</td>
 								<td>200</td>
+								<td>DamageUp</td>
+								<td>C</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>11600</td>
@@ -2015,12 +2247,60 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Roller_Heavy_01.png" alt="ダイナモローラーテスラ" /></td>
+								<td>ダイナモローラーテスラ</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>25</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>29000</td>
+
+								<td>76</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+								<td>20</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_NormalScope_01.png" alt="スプラスコープコラボ" /></td>
+								<td>スプラスコープコラボ</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
+								<td>25</td>
+								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>13900</td>
+
+								<td>91</td>
+								<td>-</td>
+								<td>50</td>
+								<td>-</td>
+								<td>-</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Flash_01.png" alt="ボトルガイザーフォイル" /></td>
 								<td>ボトルガイザーフォイル</td>
 								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
 								<td>25</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>10900</td>
@@ -2036,75 +2316,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Twins_Short_00.png" alt="スパッタリー" /></td>
-								<td>スパッタリー</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
-								<td>26</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>14700</td>
-
-								<td>24</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>80</td>
-								<td>-</td>
-								<td>47</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Charger_Long_01.png" alt="リッター4Kカスタム" /></td>
-								<td>リッター4Kカスタム</td>
-								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
-								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
-								<td>26</td>
-								<td>170</td>
-								<td>High</td>
-								<td>Low</td>
-								<td>17300</td>
-
-								<td>96</td>
-								<td>-</td>
-								<td>20</td>
-								<td>-</td>
-								<td>-</td>
-								<td>15</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Spinner_Serein_00.png" alt="ノーチラス47" /></td>
-								<td>ノーチラス47</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
-								<td>26</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>14700</td>
-
-								<td>74</td>
-								<td>-</td>
-								<td>37</td>
-								<td>-</td>
-								<td>-</td>
-								<td>70</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Spinner_Quick_01.png" alt="スプラスピナーコラボ" /></td>
 								<td>スプラスピナーコラボ</td>
 								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>26</td>
 								<td>180</td>
+								<td>ShootingFrameUp</td>
+								<td>E</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>15400</td>
@@ -2120,22 +2339,70 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterShort_02.png" alt="ノヴァブラスターベッチュー" /></td>
-								<td>ノヴァブラスターベッチュー</td>
-								<td><img src="subspe/Wsb_Bomb_Piyo.png" alt="タンサンボム"/>タンサンボム</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td><img src="weapons/Wst_Twins_Short_00.png" alt="スパッタリー" /></td>
+								<td>スパッタリー</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
 								<td>26</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
 								<td>High</td>
-								<td>High</td>
-								<td>16600</td>
+								<td>14700</td>
 
-								<td>9</td>
-								<td>30</td>
+								<td>24</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>47</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Spinner_Serein_00.png" alt="ノーチラス47" /></td>
+								<td>ノーチラス47</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>26</td>
+								<td>180</td>
+								<td>ShootingFrameUp</td>
+								<td>C</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>14700</td>
+
+								<td>74</td>
+								<td>-</td>
+								<td>37</td>
 								<td>-</td>
 								<td>-</td>
 								<td>70</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Long_01.png" alt="リッター4Kカスタム" /></td>
+								<td>リッター4Kカスタム</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
+								<td>26</td>
+								<td>170</td>
+								<td>RangeUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Low</td>
+								<td>17300</td>
+
+								<td>96</td>
+								<td>-</td>
+								<td>20</td>
+								<td>-</td>
+								<td>-</td>
+								<td>15</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -2147,6 +2414,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>26</td>
 								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>16200</td>
@@ -2162,39 +2431,20 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_Precision_01.png" alt="シャープマーカーネオ" /></td>
-								<td>シャープマーカーネオ</td>
-								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
-								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
-								<td>27</td>
-								<td>210</td>
-								<td>Middle</td>
+								<td><img src="weapons/Wst_Shooter_BlasterShort_02.png" alt="ノヴァブラスターベッチュー" /></td>
+								<td>ノヴァブラスターベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Piyo.png" alt="タンサンボム"/>タンサンボム</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>26</td>
+								<td>180</td>
+								<td>DamageAreaUp</td>
+								<td>B</td>
 								<td>High</td>
-								<td>16800</td>
+								<td>High</td>
+								<td>16600</td>
 
-								<td>42</td>
-								<td>75</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>22</td>
-								<td>-</td>
-							</tr>
-							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterMiddle_01.png" alt="ホットブラスターカスタム" /></td>
-								<td>ホットブラスターカスタム</td>
-								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
-								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
-								<td>27</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>15300</td>
-
-								<td>27</td>
-								<td>20</td>
+								<td>9</td>
+								<td>30</td>
 								<td>-</td>
 								<td>-</td>
 								<td>70</td>
@@ -2204,12 +2454,60 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_TripleQuick_02.png" alt="L3リールガンベッチュー" /></td>
+								<td>L3リールガンベッチュー</td>
+								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
+								<td><img src="subspe/Wsp_SuperStamp.png" alt="ウルトラハンコ"/>ウルトラハンコ</td>
+								<td>27</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>17700</td>
+
+								<td>62</td>
+								<td>65</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Twins_Gallon_02.png" alt="ケルビン525ベッチュー" /></td>
+								<td>ケルビン525ベッチュー</td>
+								<td><img src="subspe/Wsb_Bomb_Piyo.png" alt="タンサンボム"/>タンサンボム</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>27</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>17000</td>
+
+								<td>66</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>35</td>
+								<td>-</td>
+								<td>76</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Shooter_Long_01.png" alt="ジェットスイーパーカスタム" /></td>
 								<td>ジェットスイーパーカスタム</td>
 								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
 								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
 								<td>27</td>
 								<td>180</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>15900</td>
@@ -2231,6 +2529,8 @@
 								<td><img src="subspe/Wsp_SuperLanding.png" alt="スーパーチャクチ"/>スーパーチャクチ</td>
 								<td>27</td>
 								<td>170</td>
+								<td>DamageUp</td>
+								<td>D</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>18500</td>
@@ -2246,43 +2546,47 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_TripleQuick_02.png" alt="L3リールガンベッチュー" /></td>
-								<td>L3リールガンベッチュー</td>
-								<td><img src="subspe/Wsb_Shield.png" alt="スプラッシュシールド"/>スプラッシュシールド</td>
-								<td><img src="subspe/Wsp_SuperStamp.png" alt="ウルトラハンコ"/>ウルトラハンコ</td>
+								<td><img src="weapons/Wst_Shooter_Precision_01.png" alt="シャープマーカーネオ" /></td>
+								<td>シャープマーカーネオ</td>
+								<td><img src="subspe/Wsb_Bomb_Quick.png" alt="クイックボム"/>クイックボム</td>
+								<td><img src="subspe/Wsp_LauncherSuction.png" alt="キューバンボムピッチャー"/>キューバンボムピッチャー</td>
 								<td>27</td>
-								<td>190</td>
+								<td>210</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>Middle</td>
-								<td>17700</td>
+								<td>High</td>
+								<td>16800</td>
 
-								<td>62</td>
-								<td>65</td>
+								<td>42</td>
+								<td>75</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
-								<td>25</td>
+								<td>22</td>
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_Keeper_01.png" alt="ソイチューバーカスタム" /></td>
-								<td>ソイチューバーカスタム</td>
-								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
+								<td><img src="weapons/Wst_Shooter_BlasterMiddle_01.png" alt="ホットブラスターカスタム" /></td>
+								<td>ホットブラスターカスタム</td>
+								<td><img src="subspe/Wsb_Bomb_Robo.png" alt="ロボットボム"/>ロボットボム</td>
 								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
-								<td>28</td>
-								<td>170</td>
+								<td>27</td>
+								<td>190</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
-								<td>19300</td>
+								<td>15300</td>
 
-								<td>78</td>
-								<td>-</td>
-								<td>38</td>
+								<td>27</td>
+								<td>20</td>
 								<td>-</td>
 								<td>-</td>
 								<td>70</td>
+								<td>-</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -2294,6 +2598,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>28</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>Middle</td>
 								<td>21300</td>
@@ -2309,33 +2615,14 @@
 								<td>45</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Charger_NormalScope_02.png" alt="スプラスコープベッチュー" /></td>
-								<td>スプラスコープベッチュー</td>
-								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
-								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
-								<td>28</td>
-								<td>190</td>
-								<td>Middle</td>
-								<td>Middle</td>
-								<td>20400</td>
-
-								<td>91</td>
-								<td>-</td>
-								<td>50</td>
-								<td>-</td>
-								<td>-</td>
-								<td>30</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Shooter_Blaze_01.png" alt="プロモデラーRG" /></td>
 								<td>プロモデラーRG</td>
 								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
 								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
 								<td>28</td>
 								<td>170</td>
+								<td>PaintUp</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>16900</td>
@@ -2357,6 +2644,8 @@
 								<td><img src="subspe/Wsp_LauncherCurling.png" alt="カーリングボムピッチャー"/>カーリングボムピッチャー</td>
 								<td>28</td>
 								<td>170</td>
+								<td>CanopyHPUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>18600</td>
@@ -2372,24 +2661,95 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_TripleMiddle_00.png" alt="H3リールガン" /></td>
-								<td>H3リールガン</td>
-								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
-								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
-								<td>29</td>
-								<td>180</td>
-								<td>High</td>
+								<td><img src="weapons/Wst_Charger_NormalScope_02.png" alt="スプラスコープベッチュー" /></td>
+								<td>スプラスコープベッチュー</td>
+								<td><img src="subspe/Wsb_Sprinkler.png" alt="スプリンクラー"/>スプリンクラー</td>
+								<td><img src="subspe/Wsp_AquaBall.png" alt="イカスフィア"/>イカスフィア</td>
+								<td>28</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>Middle</td>
-								<td>17200</td>
+								<td>Middle</td>
+								<td>20400</td>
 
-								<td>70</td>
+								<td>91</td>
+								<td>-</td>
+								<td>50</td>
+								<td>-</td>
+								<td>-</td>
 								<td>30</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Charger_Keeper_01.png" alt="ソイチューバーカスタム" /></td>
+								<td>ソイチューバーカスタム</td>
+								<td><img src="subspe/Wsb_Bomb_Curling.png" alt="カーリングボム"/>カーリングボム</td>
+								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
+								<td>28</td>
+								<td>170</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>19300</td>
+
+								<td>78</td>
+								<td>-</td>
+								<td>38</td>
 								<td>-</td>
 								<td>-</td>
-								<td>58</td>
+								<td>70</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Spinner_Downpour_01.png" alt="クーゲルシュライバー・ヒュー" /></td>
+								<td>クーゲルシュライバー・ヒュー</td>
+								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>28</td>
+								<td>190</td>
+								<td>DamageUp</td>
+								<td>C</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>15800</td>
+
+								<td>85</td>
+								<td>-</td>
+								<td>18</td>
+								<td>-</td>
+								<td>-</td>
+								<td>60</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Twins_Short_01.png" alt="スパッタリー・ヒュー" /></td>
+								<td>スパッタリー・ヒュー</td>
+								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
+								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td>29</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>17500</td>
+
+								<td>24</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>80</td>
+								<td>-</td>
+								<td>47</td>
 								<td>-</td>
 							</tr>
 							<tr>
@@ -2399,6 +2759,8 @@
 								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
 								<td>29</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>D</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>33300</td>
@@ -2420,6 +2782,8 @@
 								<td><img src="subspe/Wsp_SuperBall.png" alt="ナイスダマ"/>ナイスダマ</td>
 								<td>29</td>
 								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>32300</td>
@@ -2435,36 +2799,40 @@
 								<td>20</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Twins_Short_01.png" alt="スパッタリー・ヒュー" /></td>
-								<td>スパッタリー・ヒュー</td>
+								<td><img src="weapons/Wst_Spinner_Quick_02.png" alt="スプラスピナーベッチュー" /></td>
+								<td>スプラスピナーベッチュー</td>
 								<td><img src="subspe/Wsb_PoisonFog.png" alt="ポイズンミスト"/>ポイズンミスト</td>
-								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
+								<td><img src="subspe/Wsp_SuperStamp.png" alt="ウルトラハンコ"/>ウルトラハンコ</td>
 								<td>29</td>
 								<td>180</td>
+								<td>ShootingFrameUp</td>
+								<td>E</td>
 								<td>Middle</td>
-								<td>High</td>
-								<td>17500</td>
+								<td>Middle</td>
+								<td>18800</td>
 
-								<td>24</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
+								<td>62</td>
 								<td>-</td>
 								<td>80</td>
 								<td>-</td>
-								<td>47</td>
+								<td>-</td>
+								<td>90</td>
+								<td>-</td>
+								<td>-</td>
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_TripleMiddle_01.png" alt="H3リールガンD" /></td>
-								<td>H3リールガンD</td>
-								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
-								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
-								<td>30</td>
-								<td>200</td>
+								<td><img src="weapons/Wst_Shooter_TripleMiddle_00.png" alt="H3リールガン" /></td>
+								<td>H3リールガン</td>
+								<td><img src="subspe/Wsb_PointSensor.png" alt="ポイントセンサー"/>ポイントセンサー</td>
+								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
+								<td>29</td>
+								<td>180</td>
+								<td>DamageUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Middle</td>
-								<td>18400</td>
+								<td>17200</td>
 
 								<td>70</td>
 								<td>30</td>
@@ -2477,33 +2845,14 @@
 								<td>-</td>
 							</tr>
 							<tr>
-								<td><img src="weapons/Wst_Shooter_BlasterLightShort_00.png" alt="クラッシュブラスター" /></td>
-								<td>クラッシュブラスター</td>
-								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
-								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
-								<td>30</td>
-								<td>180</td>
-								<td>Middle</td>
-								<td>High</td>
-								<td>18200</td>
-
-								<td>21</td>
-								<td>65</td>
-								<td>-</td>
-								<td>-</td>
-								<td>25</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-								<td>-</td>
-							</tr>
-							<tr>
 								<td><img src="weapons/Wst_Charger_LongScope_00.png" alt="4Kスコープ" /></td>
 								<td>4Kスコープ</td>
 								<td><img src="subspe/Wsb_TimerTrap.png" alt="トラップ"/>トラップ</td>
 								<td><img src="subspe/Wsp_RainCloud.png" alt="アメフラシ"/>アメフラシ</td>
 								<td>30</td>
 								<td>170</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>23200</td>
@@ -2519,12 +2868,37 @@
 								<td>-</td>
 							</tr>
 							<tr>
+								<td><img src="weapons/Wst_Shooter_BlasterLightShort_00.png" alt="クラッシュブラスター" /></td>
+								<td>クラッシュブラスター</td>
+								<td><img src="subspe/Wsb_Bomb_Splash.png" alt="スプラッシュボム"/>スプラッシュボム</td>
+								<td><img src="subspe/Wsp_WaterCutter.png" alt="ハイパープレッサー"/>ハイパープレッサー</td>
+								<td>30</td>
+								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
+								<td>Middle</td>
+								<td>High</td>
+								<td>18200</td>
+
+								<td>21</td>
+								<td>65</td>
+								<td>-</td>
+								<td>-</td>
+								<td>25</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
 								<td><img src="weapons/Wst_Charger_LongScope_01.png" alt="4Kスコープカスタム" /></td>
 								<td>4Kスコープカスタム</td>
 								<td><img src="subspe/Wsb_Flag.png" alt="ジャンプビーコン"/>ジャンプビーコン</td>
 								<td><img src="subspe/Wsp_SuperBubble.png" alt="バブルランチャー"/>バブルランチャー</td>
 								<td>30</td>
 								<td>170</td>
+								<td>RangeUp</td>
+								<td>B</td>
 								<td>High</td>
 								<td>Low</td>
 								<td>29900</td>
@@ -2546,6 +2920,8 @@
 								<td><img src="subspe/Wsp_SuperMissile.png" alt="マルチミサイル"/>マルチミサイル</td>
 								<td>30</td>
 								<td>180</td>
+								<td>ReduceDegJump</td>
+								<td>B</td>
 								<td>Middle</td>
 								<td>High</td>
 								<td>20500</td>
@@ -2556,6 +2932,52 @@
 								<td>-</td>
 								<td>25</td>
 								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Shooter_TripleMiddle_01.png" alt="H3リールガンD" /></td>
+								<td>H3リールガンD</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_SuperArmor.png" alt="インクアーマー"/>インクアーマー</td>
+								<td>30</td>
+								<td>200</td>
+								<td>DamageUp</td>
+								<td>B</td>
+								<td>High</td>
+								<td>Middle</td>
+								<td>18400</td>
+
+								<td>70</td>
+								<td>30</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+								<td>58</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<td><img src="weapons/Wst_Spinner_Serein_01.png" alt="ノーチラス79" /></td>
+								<td>ノーチラス79</td>
+								<td><img src="subspe/Wsb_Bomb_Suction.png" alt="キューバンボム"/>キューバンボム</td>
+								<td><img src="subspe/Wsp_Jetpack.png" alt="ジェットパック"/>ジェットパック</td>
+								<td>30</td>
+								<td>180</td>
+								<td>ShootingFrameUp</td>
+								<td>C</td>
+								<td>Middle</td>
+								<td>Middle</td>
+								<td>27900</td>
+
+								<td>74</td>
+								<td>-</td>
+								<td>37</td>
+								<td>-</td>
+								<td>-</td>
+								<td>70</td>
 								<td>-</td>
 								<td>-</td>
 								<td>-</td>
@@ -2724,7 +3146,7 @@
 							<tr>
 								<td><img src="gear/Hed_CAP002.png" alt="ヤコメッシュ" /></td>
 								<td>ヤコメッシュ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B11.png"/>ヤコ</td>
 								<td>1</td>
 							</tr>
@@ -2801,7 +3223,7 @@
 							<tr>
 								<td><img src="gear/Hed_CAP014.png" alt="チャリキング帽" /></td>
 								<td>チャリキング帽</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B10.png"/>アロメ</td>
 								<td>2</td>
 							</tr>
@@ -2857,7 +3279,7 @@
 							<tr>
 								<td><img src="gear/Hed_CAP026.png" alt="ドゥーラグキャップガサネ" /></td>
 								<td>ドゥーラグキャップガサネ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B07.png"/>ホタックス</td>
 								<td>3</td>
 							</tr>
@@ -2934,7 +3356,7 @@
 							<tr>
 								<td><img src="gear/Hed_NCP010.png" alt="ヤマギリビーニー" /></td>
 								<td>ヤマギリビーニー</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B09.png"/>シグレニ</td>
 								<td>1</td>
 							</tr>
@@ -2955,7 +3377,7 @@
 							<tr>
 								<td><img src="gear/Hed_EYE001.png" alt="スプラッシュゴーグル" /></td>
 								<td>スプラッシュゴーグル</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>2</td>
 							</tr>
@@ -3158,7 +3580,7 @@
 							<tr>
 								<td><img src="gear/Hed_HAT009.png" alt="パッチハット" /></td>
 								<td>パッチハット</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B07.png"/>ホタックス</td>
 								<td>2</td>
 							</tr>
@@ -3277,7 +3699,7 @@
 							<tr>
 								<td><img src="gear/Hed_VIS004.png" alt="フェイスバイザー" /></td>
 								<td>フェイスバイザー</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B17.png"/>タタキケンサキ</td>
 								<td>3</td>
 							</tr>
@@ -3319,7 +3741,7 @@
 							<tr>
 								<td><img src="gear/Hed_MET007.png" alt="イカロスHKメット" /></td>
 								<td>イカロスHKメット</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>3</td>
 							</tr>
@@ -3333,7 +3755,7 @@
 							<tr>
 								<td><img src="gear/Hed_MET009.png" alt="オクトメットプライズデコ" /></td>
 								<td>オクトメットプライズデコ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>3</td>
 							</tr>
@@ -3382,7 +3804,7 @@
 							<tr>
 								<td><img src="gear/Hed_MSK004.png" alt="ペインターマスク" /></td>
 								<td>ペインターマスク</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B00.png"/>バトロイカ</td>
 								<td>2</td>
 							</tr>
@@ -3431,7 +3853,7 @@
 							<tr>
 								<td><img src="gear/Hed_MSK011.png" alt="フォーリマスク" /></td>
 								<td>フォーリマスク</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>1</td>
 							</tr>
@@ -3487,7 +3909,7 @@
 							<tr>
 								<td><img src="gear/Hed_HBD008.png" alt="クロヤキフグバンダナ" /></td>
 								<td>クロヤキフグバンダナ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B06.png"/>ホッコリー</td>
 								<td>1</td>
 							</tr>
@@ -3592,7 +4014,7 @@
 							<tr>
 								<td><img src="gear/Hed_AMB002.png" alt="パワードマスク" /></td>
 								<td>パワードマスク</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B99.png"/>amiibo</td>
 								<td>2</td>
 							</tr>
@@ -3620,7 +4042,7 @@
 							<tr>
 								<td><img src="gear/Hed_AMB006.png" alt="ヒメイトクラウン" /></td>
 								<td>ヒメイトクラウン</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B99.png"/>amiibo</td>
 								<td>2</td>
 							</tr>
@@ -3756,7 +4178,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES003.png" alt="イカノメＴ ライトブルー" /></td>
 								<td>イカノメＴ ライトブルー</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B10.png"/>アロメ</td>
 								<td>1</td>
 							</tr>
@@ -3812,7 +4234,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES011.png" alt="ミントＴ" /></td>
 								<td>ミントＴ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B07.png"/>ホタックス</td>
 								<td>1</td>
 							</tr>
@@ -3882,7 +4304,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES021.png" alt="ヤキフグ8bit ブラック" /></td>
 								<td>ヤキフグ8bit ブラック</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B06.png"/>ホッコリー</td>
 								<td>1</td>
 							</tr>
@@ -3903,7 +4325,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES026.png" alt="ニクショクＴ" /></td>
 								<td>ニクショクＴ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B06.png"/>ホッコリー</td>
 								<td>1</td>
 							</tr>
@@ -4015,7 +4437,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES042.png" alt="バンドT ABXY" /></td>
 								<td>バンドT ABXY</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B03.png"/>ロッケンベルグ</td>
 								<td>1</td>
 							</tr>
@@ -4134,7 +4556,7 @@
 							<tr>
 								<td><img src="gear/Clt_TES059.png" alt="キングオクトTブラックベロア" /></td>
 								<td>キングオクトTブラックベロア</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B16.png"/>エンペリー</td>
 								<td>2</td>
 							</tr>
@@ -4183,7 +4605,7 @@
 							<tr>
 								<td><img src="gear/Clt_TEL004.png" alt="エゾッコラグラン" /></td>
 								<td>エゾッコラグラン</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B04.png"/>エゾッコ</td>
 								<td>1</td>
 							</tr>
@@ -4253,7 +4675,7 @@
 							<tr>
 								<td><img src="gear/Clt_TEL014.png" alt="トビウォーズHKユニ" /></td>
 								<td>トビウォーズHKユニ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B01.png"/>アイロニック</td>
 								<td>1</td>
 							</tr>
@@ -4309,7 +4731,7 @@
 							<tr>
 								<td><img src="gear/Clt_TEL022.png" alt="タコロンT 赤" /></td>
 								<td>タコロンT 赤</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B98.png"/>アタリメイド</td>
 								<td>2</td>
 							</tr>
@@ -4449,7 +4871,7 @@
 							<tr>
 								<td><img src="gear/Clt_PLO003.png" alt="よもぎポロ" /></td>
 								<td>よもぎポロ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>1</td>
 							</tr>
@@ -4463,21 +4885,21 @@
 							<tr>
 								<td><img src="gear/Clt_PLO005.png" alt="テッカサイクルシャツ" /></td>
 								<td>テッカサイクルシャツ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B01.png"/>アイロニック</td>
 								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_PLO006.png" alt="チャリキングジャージ" /></td>
 								<td>チャリキングジャージ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B10.png"/>アロメ</td>
 								<td>3</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_PLO007.png" alt="FCカラスミ" /></td>
 								<td>FCカラスミ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B11.png"/>ヤコ</td>
 								<td>2</td>
 							</tr>
@@ -4617,7 +5039,7 @@
 							<tr>
 								<td><img src="gear/Clt_JKT018.png" alt="ヤコナイロンレトロ" /></td>
 								<td>ヤコナイロンレトロ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B11.png"/>ヤコ</td>
 								<td>3</td>
 							</tr>
@@ -4666,7 +5088,7 @@
 							<tr>
 								<td><img src="gear/Clt_JKT025.png" alt="ウラタコスカジャン" /></td>
 								<td>ウラタコスカジャン</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B04.png"/>エゾッコ</td>
 								<td>3</td>
 							</tr>
@@ -4701,14 +5123,14 @@
 							<tr>
 								<td><img src="gear/Clt_JKT030.png" alt="FA-11オモテ カスタム" /></td>
 								<td>FA-11オモテ カスタム</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_JKT031.png" alt="FA-11ウラ カスタム" /></td>
 								<td>FA-11ウラ カスタム</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B05.png"/>フォーリマ</td>
 								<td>2</td>
 							</tr>
@@ -4862,7 +5284,7 @@
 							<tr>
 								<td><img src="gear/Clt_SWT002.png" alt="レトロジャッジ" /></td>
 								<td>レトロジャッジ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B00.png"/>バトロイカ</td>
 								<td>3</td>
 							</tr>
@@ -4890,7 +5312,7 @@
 							<tr>
 								<td><img src="gear/Clt_SWT006.png" alt="イカリスウェット" /></td>
 								<td>イカリスウェット</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B00.png"/>バトロイカ</td>
 								<td>2</td>
 							</tr>
@@ -5009,7 +5431,7 @@
 							<tr>
 								<td><img src="gear/Clt_SHT007.png" alt="ベイビークラゲシャツ" /></td>
 								<td>ベイビークラゲシャツ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>1</td>
 							</tr>
@@ -5100,7 +5522,7 @@
 							<tr>
 								<td><img src="gear/Clt_SHT021.png" alt="タイツキベイビークラゲ" /></td>
 								<td>タイツキベイビークラゲ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>2</td>
 							</tr>
@@ -5121,14 +5543,14 @@
 							<tr>
 								<td><img src="gear/Clt_SHT024.png" alt="チリメンタコアロハ" /></td>
 								<td>チリメンタコアロハ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B02.png"/>クラーゲス</td>
 								<td>2</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Clt_SHT025.png" alt="アナアキオンブレネル" /></td>
 								<td>アナアキオンブレネル</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B15.png"/>アナアキ</td>
 								<td>3</td>
 							</tr>
@@ -5177,7 +5599,7 @@
 							<tr>
 								<td><img src="gear/Clt_VST002.png" alt="アーバンベスト ナイト" /></td>
 								<td>アーバンベスト ナイト</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B06.png"/>ホッコリー</td>
 								<td>3</td>
 							</tr>
@@ -5198,7 +5620,7 @@
 							<tr>
 								<td><img src="gear/Clt_VST005.png" alt="イカノボリベスト" /></td>
 								<td>イカノボリベスト</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B02.png"/>クラーゲス</td>
 								<td>1</td>
 							</tr>
@@ -5275,7 +5697,7 @@
 							<tr>
 								<td><img src="gear/Clt_PRK008.png" alt="シャツノゾキピンク" /></td>
 								<td>シャツノゾキピンク</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>2</td>
 							</tr>
@@ -5509,14 +5931,14 @@
 							<tr>
 								<td><img src="gear/Shs_SLO000.png" alt="グリッチョ ブルー" /></td>
 								<td>グリッチョ ブルー</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B04.png"/>エゾッコ</td>
 								<td>1</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_SLO001.png" alt="キャンバス バナナ" /></td>
 								<td>キャンバス バナナ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B02.png"/>クラーゲス</td>
 								<td>1</td>
 							</tr>
@@ -5558,7 +5980,7 @@
 							<tr>
 								<td><img src="gear/Shs_SLO007.png" alt="シーホース イエロー" /></td>
 								<td>シーホース イエロー</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B01.png"/>アイロニック</td>
 								<td>2</td>
 							</tr>
@@ -5579,7 +6001,7 @@
 							<tr>
 								<td><img src="gear/Shs_SLO010.png" alt="ユデスパイカ" /></td>
 								<td>ユデスパイカ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B11.png"/>ヤコ</td>
 								<td>3</td>
 							</tr>
@@ -5607,7 +6029,7 @@
 							<tr>
 								<td><img src="gear/Shs_SLO014.png" alt="ヒモヒモグリーン" /></td>
 								<td>ヒモヒモグリーン</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>1</td>
 							</tr>
@@ -5733,7 +6155,7 @@
 							<tr>
 								<td><img src="gear/Shs_SHI012.png" alt="デカロニックブラック" /></td>
 								<td>デカロニックブラック</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B01.png"/>アイロニック</td>
 								<td>2</td>
 							</tr>
@@ -5782,7 +6204,7 @@
 							<tr>
 								<td><img src="gear/Shs_SHI019.png" alt="ウミウシタウンHi グレー" /></td>
 								<td>ウミウシタウンHi グレー</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B10.png"/>アロメ</td>
 								<td>3</td>
 							</tr>
@@ -5838,7 +6260,7 @@
 							<tr>
 								<td><img src="gear/Shs_SHI027.png" alt="エギング4 キイコン" /></td>
 								<td>エギング4 キイコン</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B16.png"/>エンペリー</td>
 								<td>3</td>
 							</tr>
@@ -6027,7 +6449,7 @@
 							<tr>
 								<td><img src="gear/Shs_SHT012.png" alt="アロメッシュイエロー" /></td>
 								<td>アロメッシュイエロー</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B10.png"/>アロメ</td>
 								<td>1</td>
 							</tr>
@@ -6132,7 +6554,7 @@
 							<tr>
 								<td><img src="gear/Shs_SDL006.png" alt="デルタストラップ ルミナス" /></td>
 								<td>デルタストラップ ルミナス</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B09.png"/>シグレニ</td>
 								<td>2</td>
 							</tr>
@@ -6146,7 +6568,7 @@
 							<tr>
 								<td><img src="gear/Shs_SDL008.png" alt="ヤキフグシャワサン キ" /></td>
 								<td>ヤキフグシャワサン キ</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B06.png"/>ホッコリー</td>
 								<td>2</td>
 							</tr>
@@ -6230,7 +6652,7 @@
 							<tr>
 								<td><img src="gear/Shs_BOT007.png" alt="ロッキンチェリー" /></td>
 								<td>ロッキンチェリー</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B03.png"/>ロッケンベルグ</td>
 								<td>3</td>
 							</tr>
@@ -6265,14 +6687,14 @@
 							<tr>
 								<td><img src="gear/Shs_BOT012.png" alt="ハンティングブーツ" /></td>
 								<td>ハンティングブーツ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B08.png"/>ジモン</td>
 								<td>3</td>
 							</tr>
 							<tr>
 								<td><img src="gear/Shs_BOT013.png" alt="ロッキンブラック" /></td>
 								<td>ロッキンブラック</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/MarkingTime_Reduction.png"/>メイン性能アップ</td>
 								<td><img src="brands/B03.png"/>ロッケンベルグ</td>
 								<td>3</td>
 							</tr>
@@ -6328,7 +6750,7 @@
 							<tr>
 								<td><img src="gear/Shs_SLP002.png" alt="スリッポン チドリ" /></td>
 								<td>スリッポン チドリ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B02.png"/>クラーゲス</td>
 								<td>2</td>
 							</tr>
@@ -6370,7 +6792,7 @@
 							<tr>
 								<td><img src="gear/Shs_LTS004.png" alt="イカヤキチップ" /></td>
 								<td>イカヤキチップ</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B03.png"/>ロッケンベルグ</td>
 								<td>1</td>
 							</tr>
@@ -6482,7 +6904,7 @@
 							<tr>
 								<td><img src="gear/Shs_AMB003.png" alt="キルトローファー" /></td>
 								<td>キルトローファー</td>
-								<td><img src="skills/MarkingTime_Reduction.png"/>マーキング時間短縮</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B99.png"/>amiibo</td>
 								<td>2</td>
 							</tr>
@@ -6496,7 +6918,7 @@
 							<tr>
 								<td><img src="gear/Shs_AMB005.png" alt="パワードレッグス オリジン" /></td>
 								<td>パワードレッグス オリジン</td>
-								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減</td>
+								<td><img src="skills/BombDamage_Reduction.png"/>爆風ダメージ軽減・改</td>
 								<td><img src="brands/B99.png"/>amiibo</td>
 								<td>2</td>
 							</tr>
