@@ -1,3 +1,6 @@
+v0.4.11:
+	-Add Splatoon 2 4.3 support
+	-Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience
 v0.4.10:
 	-Add Splatoon 2 4.3 support
 	-Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience
