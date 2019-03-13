@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <!-- Bootstrap CSS -->
+  <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet"/>
+  <title>
+   Loadout Databse - Luna Blaster Neo
+  </title>
+  <style>
+   .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    .themed-grid-col {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      background-color: rgba(86, 61, 124, .15);
+      border: 1px solid rgba(86, 61, 124, .2);
+    }
+  </style>
+ </head>
+ <body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+   <a class="navbar-brand" href="#">
+    Loadout Database
+   </a>
+   <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarCollapse" data-toggle="collapse" type="button">
+    <span class="navbar-toggler-icon">
+    </span>
+   </button>
+   <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+     <li class="nav-item">
+      <a class="nav-link" href="index.html">
+       Home
+      </a>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="shooterdropdown">
+       Shooter
+      </a>
+      <div aria-labelledby="shooterdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="sploosh_o_matic.html">
+        Sploosh-o-matic
+       </a>
+       <a class="dropdown-item" href="neo_sploosh_o_matic.html">
+        Neo Sploosh-o-matic
+       </a>
+       <a class="dropdown-item" href="splattershot_jr.html">
+        Splattershot Jr.
+       </a>
+       <a class="dropdown-item" href="custom_splattershot_jr.html">
+        Custom Splattershot Jr.
+       </a>
+       <a class="dropdown-item" href="kensa_splattershot_jr.html">
+        Kensa Splattershot Jr.
+       </a>
+       <a class="dropdown-item" href="splash_o_matic.html">
+        Splash-o-matic
+       </a>
+       <a class="dropdown-item" href="neo_splash_o_matic.html">
+        Neo Splash-o-matic
+       </a>
+       <a class="dropdown-item" href="aerospray_mg.html">
+        Aerospray MG
+       </a>
+       <a class="dropdown-item" href="splattershot.html">
+        Splattershot
+       </a>
+       <a class="dropdown-item" href="tentatek_splattershot.html">
+        Tentatek Splattershot
+       </a>
+       <a class="dropdown-item" href="kensa_splattershot.html">
+        Kensa Splattershot
+       </a>
+       <a class="dropdown-item" href="kensa_52_gal.html">
+        Kensa .52 Gal
+       </a>
+       <a class="dropdown-item" href="n_zap_'85.html">
+        N-ZAP '85
+       </a>
+       <a class="dropdown-item" href="n_zap_'89.html">
+        N-ZAP '89
+       </a>
+       <a class="dropdown-item" href="splattershot_pro.html">
+        Splattershot Pro
+       </a>
+       <a class="dropdown-item" href="forge_splattershot_pro.html">
+        Forge Splattershot Pro
+       </a>
+       <a class="dropdown-item" href="kensa_splattershot_pro.html">
+        Kensa Splattershot Pro
+       </a>
+       <a class="dropdown-item" href="96_gal.html">
+        .96 Gal
+       </a>
+       <a class="dropdown-item" href="96_gal_deco.html">
+        .96 Gal Deco
+       </a>
+       <a class="dropdown-item" href="jet_squelcher.html">
+        Jet Squelcher
+       </a>
+       <a class="dropdown-item" href="custom_jet_squelcher.html">
+        Custom Jet Squelcher
+       </a>
+       <a class="dropdown-item" href="l_3_nozzlenose_d.html">
+        L-3 Nozzlenose D
+       </a>
+       <a class="dropdown-item" href="kensa_l_3_nozzlenose.html">
+        Kensa L-3 Nozzlenose
+       </a>
+       <a class="dropdown-item" href="h_3_nozzlenose_d.html">
+        H-3 Nozzlenose D
+       </a>
+       <a class="dropdown-item" href="squeezer.html">
+        Squeezer
+       </a>
+       <a class="dropdown-item" href="foil_squeezer.html">
+        Foil Squeezer
+       </a>
+       <div aria-labelledby="shooter" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="blasterdropdown">
+       Blaster
+      </a>
+      <div aria-labelledby="blasterdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="luna_blaster.html">
+        Luna Blaster
+       </a>
+       <a class="dropdown-item" href="luna_blaster_neo.html">
+        Luna Blaster Neo
+       </a>
+       <a class="dropdown-item" href="kensa_luna_blaster.html">
+        Kensa Luna Blaster
+       </a>
+       <a class="dropdown-item" href="blaster.html">
+        Blaster
+       </a>
+       <a class="dropdown-item" href="custom_blaster.html">
+        Custom Blaster
+       </a>
+       <a class="dropdown-item" href="range_blaster.html">
+        Range Blaster
+       </a>
+       <a class="dropdown-item" href="clash_blaster.html">
+        Clash Blaster
+       </a>
+       <a class="dropdown-item" href="clash_blaster_neo.html">
+        Clash Blaster Neo
+       </a>
+       <a class="dropdown-item" href="rapid_blaster_deco.html">
+        Rapid Blaster Deco
+       </a>
+       <a class="dropdown-item" href="kensa_rapid_blaster.html">
+        Kensa Rapid Blaster
+       </a>
+       <a class="dropdown-item" href="rapid_blaster_pro.html">
+        Rapid Blaster Pro
+       </a>
+       <a class="dropdown-item" href="rapid_blaster_pro_deco.html">
+        Rapid Blaster Pro Deco
+       </a>
+       <div aria-labelledby="blaster" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="chargerdropdown">
+       Charger
+      </a>
+      <div aria-labelledby="chargerdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="classic_squiffer.html">
+        Classic Squiffer
+       </a>
+       <a class="dropdown-item" href="new_squiffer.html">
+        New Squiffer
+       </a>
+       <a class="dropdown-item" href="splat_charger.html">
+        Splat Charger
+       </a>
+       <a class="dropdown-item" href="firefin_splat_charger.html">
+        Firefin Splat Charger
+       </a>
+       <a class="dropdown-item" href="kensa_charger.html">
+        Kensa Charger
+       </a>
+       <a class="dropdown-item" href="splatterscope.html">
+        Splatterscope
+       </a>
+       <a class="dropdown-item" href="e_liter_4k.html">
+        E-liter 4K
+       </a>
+       <a class="dropdown-item" href="bamboozler_14_mk_i.html">
+        Bamboozler 14 Mk I
+       </a>
+       <div aria-labelledby="charger" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="rollerdropdown">
+       Roller
+      </a>
+      <div aria-labelledby="rollerdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="carbon_roller.html">
+        Carbon Roller
+       </a>
+       <a class="dropdown-item" href="carbon_roller_deco.html">
+        Carbon Roller Deco
+       </a>
+       <a class="dropdown-item" href="splat_roller.html">
+        Splat Roller
+       </a>
+       <a class="dropdown-item" href="dynamo_roller.html">
+        Dynamo Roller
+       </a>
+       <a class="dropdown-item" href="gold_dynamo_roller.html">
+        Gold Dynamo Roller
+       </a>
+       <a class="dropdown-item" href="kensa_dynamo_roller.html">
+        Kensa Dynamo Roller
+       </a>
+       <a class="dropdown-item" href="foil_flingza_roller.html">
+        Foil Flingza Roller
+       </a>
+       <a class="dropdown-item" href="inkbrush.html">
+        Inkbrush
+       </a>
+       <a class="dropdown-item" href="inkbrush_nouveau.html">
+        Inkbrush Nouveau
+       </a>
+       <a class="dropdown-item" href="octobrush.html">
+        Octobrush
+       </a>
+       <a class="dropdown-item" href="octobrush_nouveau.html">
+        Octobrush Nouveau
+       </a>
+       <a class="dropdown-item" href="kensa_octobrush.html">
+        Kensa Octobrush
+       </a>
+       <div aria-labelledby="roller" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="splatlingdropdown">
+       Splatling
+      </a>
+      <div aria-labelledby="splatlingdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="kensa_mini_splatling.html">
+        Kensa Mini Splatling
+       </a>
+       <a class="dropdown-item" href="heavy_splatling.html">
+        Heavy Splatling
+       </a>
+       <a class="dropdown-item" href="hydra_splatling.html">
+        Hydra Splatling
+       </a>
+       <a class="dropdown-item" href="custom_hydra_splatling.html">
+        Custom Hydra Splatling
+       </a>
+       <a class="dropdown-item" href="ballpoint_splatling.html">
+        Ballpoint Splatling
+       </a>
+       <a class="dropdown-item" href="ballpoint_splatling_nouveau.html">
+        Ballpoint Splatling Nouveau
+       </a>
+       <a class="dropdown-item" href="nautilus_47.html">
+        Nautilus 47
+       </a>
+       <div aria-labelledby="splatling" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="slosherdropdown">
+       Slosher
+      </a>
+      <div aria-labelledby="slosherdropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="slosher.html">
+        Slosher
+       </a>
+       <a class="dropdown-item" href="slosher_deco.html">
+        Slosher Deco
+       </a>
+       <a class="dropdown-item" href="sloshing_machine.html">
+        Sloshing Machine
+       </a>
+       <a class="dropdown-item" href="kensa_sloshing_machine.html">
+        Kensa Sloshing Machine
+       </a>
+       <a class="dropdown-item" href="bloblobber.html">
+        Bloblobber
+       </a>
+       <a class="dropdown-item" href="bloblobber_deco.html">
+        Bloblobber Deco
+       </a>
+       <a class="dropdown-item" href="explosher.html">
+        Explosher
+       </a>
+       <a class="dropdown-item" href="custom_explosher.html">
+        Custom Explosher
+       </a>
+       <div aria-labelledby="slosher" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="dualiedropdown">
+       Dualie
+      </a>
+      <div aria-labelledby="dualiedropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="dapple_dualies.html">
+        Dapple Dualies
+       </a>
+       <a class="dropdown-item" href="dapple_dualies_nouveau.html">
+        Dapple Dualies Nouveau
+       </a>
+       <a class="dropdown-item" href="splat_dualies.html">
+        Splat Dualies
+       </a>
+       <a class="dropdown-item" href="enperry_splat_dualies.html">
+        Enperry Splat Dualies
+       </a>
+       <a class="dropdown-item" href="kensa_splat_dualies.html">
+        Kensa Splat Dualies
+       </a>
+       <a class="dropdown-item" href="glooga_dualies_deco.html">
+        Glooga Dualies Deco
+       </a>
+       <a class="dropdown-item" href="kensa_glooga_dualies.html">
+        Kensa Glooga Dualies
+       </a>
+       <a class="dropdown-item" href="dualie_squelchers.html">
+        Dualie Squelchers
+       </a>
+       <a class="dropdown-item" href="custom_dualie_squelchers.html">
+        Custom Dualie Squelchers
+       </a>
+       <a class="dropdown-item" href="dark_tetra_dualies.html">
+        Dark Tetra Dualies
+       </a>
+       <a class="dropdown-item" href="light_tetra_dualies.html">
+        Light Tetra Dualies
+       </a>
+       <div aria-labelledby="dualie" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+     <li class="nav-item dropdown">
+      <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="umbrelladropdown">
+       Umbrella
+      </a>
+      <div aria-labelledby="umbrelladropdown" class="dropdown-menu">
+       <a class="dropdown-item" href="splat_brella.html">
+        Splat Brella
+       </a>
+       <a class="dropdown-item" href="sorella_brella.html">
+        Sorella Brella
+       </a>
+       <a class="dropdown-item" href="tenta_brella.html">
+        Tenta Brella
+       </a>
+       <a class="dropdown-item" href="undercover_brella.html">
+        Undercover Brella
+       </a>
+       <a class="dropdown-item" href="kensa_undercover_brella.html">
+        Kensa Undercover Brella
+       </a>
+       <div aria-labelledby="umbrella" class="dropdown-menu">
+       </div>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </nav>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js">
+  </script>
+  <script crossorigin="anonymous" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+  </script>
+  <main role="main">
+   <div class="jumbotron">
+    <div class="col-sm-8 mx-auto">
+     <h1>
+      <img alt="Luna Blaster Neo" height="128" src="http://leanny.github.io/splat2/weapons/Wst_Shooter_BlasterShort_01.png"/>
+      Luna Blaster Neo
+     </h1>
+     <ul class="nav nav-tabs" id="modes" role="tablist">
+      <li class="nav-item">
+       <a aria-controls="sz" aria-selected="true" class="nav-link active" data-toggle="tab" href="#sz" id="sz-tab" role="tab">
+        Splat Zones
+       </a>
+      </li>
+      <li class="nav-item">
+       <a aria-controls="tc" aria-selected="false" class="nav-link" data-toggle="tab" href="#tc" id="tc-tab" role="tab">
+        Tower Control
+       </a>
+      </li>
+      <li class="nav-item">
+       <a aria-controls="rm" aria-selected="false" class="nav-link" data-toggle="tab" href="#rm" id="rm-tab" role="tab">
+        Rainmaker
+       </a>
+      </li>
+      <li class="nav-item">
+       <a aria-controls="cb" aria-selected="false" class="nav-link" data-toggle="tab" href="#cb" id="cb-tab" role="tab">
+        Clam Blitz
+       </a>
+      </li>
+     </ul>
+     <div class="tab-content" id="modeTabControl">
+      <div aria-labelledby="sz-tab" class="tab-pane fade show active" id="sz" role="tabpanel">
+       <p>
+        <table class="table table-striped">
+         <thead>
+          <tr>
+           <th scope="col">
+            Ability
+           </th>
+           <th scope="col">
+            Useage
+           </th>
+           <th scope="col">
+            Average AP (Mean)
+           </th>
+           <th scope="col">
+            Average AP (median)
+           </th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>
+            <img alt="swim_speed_up" height="64" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+           </td>
+           <td>
+            66%
+           </td>
+           <td>
+            11
+           </td>
+           <td>
+            9
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="quick_respawn" height="64" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+           </td>
+           <td>
+            55%
+           </td>
+           <td>
+            15
+           </td>
+           <td>
+            18
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="comeback" height="64" src="http://leanny.github.io/splat2/skills/ComeBack.png"/>
+           </td>
+           <td>
+            55%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="ninja_squid" height="64" src="http://leanny.github.io/splat2/skills/SquidMoveSpatter_Reduction.png"/>
+           </td>
+           <td>
+            44%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="sub_power_up" height="64" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+           </td>
+           <td>
+            44%
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            9
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="ink_saver_sub" height="64" src="http://leanny.github.io/splat2/skills/SubInk_Save.png"/>
+           </td>
+           <td>
+            44%
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="quick_super_jump" height="64" src="http://leanny.github.io/splat2/skills/JumpTime_Save.png"/>
+           </td>
+           <td>
+            33%
+           </td>
+           <td>
+            9
+           </td>
+           <td>
+            9
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="ink_recovery_up" height="64" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+           </td>
+           <td>
+            33%
+           </td>
+           <td>
+            7
+           </td>
+           <td>
+            9
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="special_saver" height="64" src="http://leanny.github.io/splat2/skills/RespawnSpecialGauge_Save.png"/>
+           </td>
+           <td>
+            33%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="stealth_jump" height="64" src="http://leanny.github.io/splat2/skills/SuperJumpSign_Hide.png"/>
+           </td>
+           <td>
+            22%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="ink_saver_main" height="64" src="http://leanny.github.io/splat2/skills/MainInk_Save.png"/>
+           </td>
+           <td>
+            22%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="run_speed_up" height="64" src="http://leanny.github.io/splat2/skills/HumanMove_Up.png"/>
+           </td>
+           <td>
+            22%
+           </td>
+           <td>
+            33
+           </td>
+           <td>
+            33
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="special_power_up" height="64" src="http://leanny.github.io/splat2/skills/SpecialTime_Up.png"/>
+           </td>
+           <td>
+            11%
+           </td>
+           <td>
+            6
+           </td>
+           <td>
+            6
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="drop_roller" height="64" src="http://leanny.github.io/splat2/skills/SomersaultLanding.png"/>
+           </td>
+           <td>
+            11%
+           </td>
+           <td>
+            10
+           </td>
+           <td>
+            10
+           </td>
+          </tr>
+          <tr>
+           <td>
+            <img alt="ink_resistance_up" height="64" src="http://leanny.github.io/splat2/skills/OpInkEffect_Reduction.png"/>
+           </td>
+           <td>
+            11%
+           </td>
+           <td>
+            3
+           </td>
+           <td>
+            3
+           </td>
+          </tr>
+         </tbody>
+        </table>
+        <p>
+         <button aria-controls="collapseSetsz1" aria-expanded="false" class="btn btn-primary" data-target="#collapseSetsz1" data-toggle="collapse" type="button">
+          Example Set 1
+         </button>
+         <div class="collapse" id="collapseSetsz1">
+          <p>
+           <div class="row mb-3">
+            <div class="col-4 themed-grid-col">
+             <img alt="comeback" height="64" src="http://leanny.github.io/splat2/skills/ComeBack.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ninja_squid" height="64" src="http://leanny.github.io/splat2/skills/SquidMoveSpatter_Reduction.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ink_saver_sub" height="64" src="http://leanny.github.io/splat2/skills/SubInk_Save.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+            </div>
+           </div>
+          </p>
+         </div>
+        </p>
+        <p>
+         <button aria-controls="collapseSetsz2" aria-expanded="false" class="btn btn-primary" data-target="#collapseSetsz2" data-toggle="collapse" type="button">
+          Example Set 2
+         </button>
+         <div class="collapse" id="collapseSetsz2">
+          <p>
+           <div class="row mb-3">
+            <div class="col-4 themed-grid-col">
+             <img alt="comeback" height="64" src="http://leanny.github.io/splat2/skills/ComeBack.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="special_saver" height="64" src="http://leanny.github.io/splat2/skills/RespawnSpecialGauge_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ink_saver_main" height="64" src="http://leanny.github.io/splat2/skills/MainInk_Save.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+            </div>
+           </div>
+          </p>
+         </div>
+        </p>
+        <p>
+         <button aria-controls="collapseSetsz3" aria-expanded="false" class="btn btn-primary" data-target="#collapseSetsz3" data-toggle="collapse" type="button">
+          Example Set 3
+         </button>
+         <div class="collapse" id="collapseSetsz3">
+          <p>
+           <div class="row mb-3">
+            <div class="col-4 themed-grid-col">
+             <img alt="swim_speed_up" height="64" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="run_speed_up" height="32" src="http://leanny.github.io/splat2/skills/HumanMove_Up.png"/>
+             <img alt="run_speed_up" height="32" src="http://leanny.github.io/splat2/skills/HumanMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="quick_respawn" height="64" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="run_speed_up" height="32" src="http://leanny.github.io/splat2/skills/HumanMove_Up.png"/>
+             <img alt="special_power_up" height="32" src="http://leanny.github.io/splat2/skills/SpecialTime_Up.png"/>
+             <img alt="special_power_up" height="32" src="http://leanny.github.io/splat2/skills/SpecialTime_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="quick_respawn" height="64" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="quick_respawn" height="32" src="http://leanny.github.io/splat2/skills/RespawnTime_Save.png"/>
+             <img alt="ink_resistance_up" height="32" src="http://leanny.github.io/splat2/skills/OpInkEffect_Reduction.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+            </div>
+           </div>
+          </p>
+         </div>
+        </p>
+        <p>
+         <button aria-controls="collapseSetsz4" aria-expanded="false" class="btn btn-primary" data-target="#collapseSetsz4" data-toggle="collapse" type="button">
+          Example Set 4
+         </button>
+         <div class="collapse" id="collapseSetsz4">
+          <p>
+           <div class="row mb-3">
+            <div class="col-4 themed-grid-col">
+             <img alt="comeback" height="64" src="http://leanny.github.io/splat2/skills/ComeBack.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ninja_squid" height="64" src="http://leanny.github.io/splat2/skills/SquidMoveSpatter_Reduction.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ink_saver_sub" height="64" src="http://leanny.github.io/splat2/skills/SubInk_Save.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+            </div>
+           </div>
+          </p>
+         </div>
+        </p>
+        <p>
+         <button aria-controls="collapseSetsz5" aria-expanded="false" class="btn btn-primary" data-target="#collapseSetsz5" data-toggle="collapse" type="button">
+          Example Set 5
+         </button>
+         <div class="collapse" id="collapseSetsz5">
+          <p>
+           <div class="row mb-3">
+            <div class="col-4 themed-grid-col">
+             <img alt="ink_saver_main" height="64" src="http://leanny.github.io/splat2/skills/MainInk_Save.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+             <img alt="ink_recovery_up" height="32" src="http://leanny.github.io/splat2/skills/InkRecovery_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ninja_squid" height="64" src="http://leanny.github.io/splat2/skills/SquidMoveSpatter_Reduction.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+             <img alt="swim_speed_up" height="32" src="http://leanny.github.io/splat2/skills/SquidMove_Up.png"/>
+            </div>
+            <div class="col-4 themed-grid-col">
+             <img alt="ink_saver_sub" height="64" src="http://leanny.github.io/splat2/skills/SubInk_Save.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+             <img alt="sub_power_up" height="32" src="http://leanny.github.io/splat2/skills/BombDistance_Up.png"/>
+            </div>
+           </div>
+          </p>
+         </div>
+        </p>
+       </p>
+      </div>
+      <div aria-labelledby="tc-tab" class="tab-pane fade" id="tc" role="tabpanel">
+       <p>
+        No data yet.
+       </p>
+      </div>
+      <div aria-labelledby="rm-tab" class="tab-pane fade" id="rm" role="tabpanel">
+       <p>
+        No data yet.
+       </p>
+      </div>
+      <div aria-labelledby="cb-tab" class="tab-pane fade" id="cb" role="tabpanel">
+       <p>
+        No data yet.
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <footer class="footer">
+   <div class="container text-muted">
+    <div class="footer-notice">
+     Last update: 2019-03-13 17:10:06.361670 UTC+0
+     <br/>
+     Data was extracted from
+     <a href="https://stat.ink">
+      stat.ink
+     </a>
+     .
+     <br/>
+     Feedback or suggestions are welcome. Please contact me via Twitter.
+     <a href="https://twitter.com/LeanYoshi">
+      <span class="fa fa-twitter">
+      </span>
+     </a>
+    </div>
+   </div>
+  </footer>
+ </body>
+</html>
