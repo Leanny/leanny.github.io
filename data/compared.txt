@@ -1,0 +1,474 @@
+Changed gear Woolly Urchins Classic in 200:
+- Rarity: 0 -> 1
+- Price: 0 -> 3800
+- Ability: Special Power Up -> Comeback
+- Brand: Skalop -> Krak-On
+Changed gear Tulip Parasol in 200:
+- Ability: Cold-Blooded (Main Power Up) -> Ink Resistance Up
+- Brand: Skalop -> Inkline
+- Price: 99999 -> 1280
+Changed gear Face Visor in 200:
+- Rarity: 0 -> 2
+- Ability: Quick Super Jump -> Bomb Defense Up (DX)
+- Price: 99999 -> 10300
+Changed gear Eminence Cuff in 200:
+- Ability: Quick Respawn -> Ink Saver (Main)
+- HowToGet: cShop -> cOther
+- Brand: Tentatek -> Enperry
+- Rarity: 0 -> 2
+- Price: 99999 -> 10000
+Changed gear Long-Billed Cap in 300:
+- Ability: Quick Respawn -> Ink Recovery Up
+- Brand: None -> Krak-On
+- Price: 99999 -> 9800
+- Rarity: 0 -> 2
+Changed gear Blowfish Newsie in 300:
+- Rarity: 0 -> 1
+- Brand: Splash Mob -> Firefin
+- Ability: Special Charge Up -> Quick Super Jump
+- Price: 99999 -> 4200
+Changed gear Do-Rag, Cap, & Glasses in 300:
+- Brand: None -> Skalop
+- Price: 99999 -> 9500
+- Ability: Special Charge Up -> Cold-Blooded (Main Power Up)
+- Rarity: 0 -> 2
+Changed gear Sennyu Bon Bon Beanie in 300:
+- Brand: None -> Splash Mob
+- Rarity: 0 -> 1
+- Ability: Quick Respawn -> Quick Super Jump
+- HowToGet: cShop -> cOther
+Changed gear Zekko Cap in 300:
+- Price: 99999 -> 2700
+- Ability: Quick Respawn -> Opening Gambit
+- Rarity: 0 -> 1
+Changed gear SV925 Circle Shades in 300:
+- Price: 99999 -> 11000
+- Brand: None -> Rockenberg
+- Ability: Quick Respawn -> Swim Speed Up
+- Rarity: 0 -> 2
+Changed gear Seashell Bamboo Hat in 300:
+- Ability: Ink Saver (Main) -> Quick Respawn
+- Price: 99999 -> 3200
+- Rarity: 0 -> 1
+Changed gear Octo Tackle Helmet Deco in 300:
+- Ability: Run Speed Up -> Bomb Defense Up (DX)
+- Price: 99999 -> 8888
+Changed gear Deca Tackle Visor Helmet in 300:
+- Price: 99999 -> 10100
+- Ability: Run Speed Up -> Sub Power Up
+Changed gear Octoking Facemask in 300:
+- Price: 99999 -> 1450
+- Ability: Quick Respawn -> Tenacity
+- Brand: SquidForce -> Enperry
+Changed gear Digi-Camo Forge Mask in 300:
+- Rarity: 0 -> 1
+- Brand: Toni Kensa -> Forge
+- Price: 9999 -> 1800
+- Ability: Ink Saver (Sub) -> Swim Speed Up
+Changed gear Sennyu Bon Bon Beanie in 310:
+- Ability: Quick Super Jump -> Ink Saver (Sub)
+- Rarity: 1 -> 2
+- Price: 99999 -> 0
+Changed gear Sennyu Goggles in 310:
+- Ability: Sub Power Up -> Ink Resistance Up
+- Rarity: 1 -> 2
+- Price: 99999 -> 0
+Changed gear Sennyu Specs in 310:
+- Ability: Quick Respawn -> Swim Speed Up
+- Rarity: 0 -> 2
+- Price: 99999 -> 0
+Changed gear Sennyu Headphones in 310:
+- Rarity: 1 -> 2
+- Price: 99999 -> 0
+Changed gear Eminence Cuff in 310:
+- Price: 10000 -> 0
+Changed gear Pearlescent Crown in 310:
+- Ability: Ink Resistance Up -> Cold-Blooded (Main Power Up)
+Changed gear Marinated Headphones in 310:
+- Ability: Ink Resistance Up -> Special Saver
+Changed gear Octoling Shades in 310:
+- Ability: Quick Respawn -> Last-Ditch Effort
+- Rarity: 0 -> 1
+Changed gear Null Visor Replica in 310:
+- Ability: Quick Respawn -> Special Power Up
+- Rarity: 0 -> 1
+Changed gear Old-Timey Hat in 310:
+- Ability: Quick Respawn -> Comeback
+- Rarity: 0 -> 1
+Changed gear Conductor Cap in 310:
+- Ability: Quick Respawn -> Sub Power Up
+- Rarity: 0 -> 1
+Changed gear Golden Toothpick in 310:
+- Ability: Quick Respawn -> Special Charge Up
+- Rarity: 0 -> 2
+Changed gear Kyonshi Hat in 410:
+- Brand: None -> SquidForce
+- Ability: Opening Gambit -> Run Speed Up
+- Rarity: 1 -> 2
+Changed gear Li'l Devil Horns in 410:
+- Ability: Opening Gambit -> Ink Saver (Sub)
+- Brand: None -> SquidForce
+- Rarity: 1 -> 2
+Changed gear Hockey Mask in 410:
+- Ability: Opening Gambit -> Ink Recovery Up
+- Brand: None -> SquidForce
+- Rarity: 1 -> 2
+Changed gear Anglerfish Mask in 410:
+- Ability: Opening Gambit -> Ink Saver (Main)
+- Brand: None -> SquidForce
+- Rarity: 1 -> 2
+Changed gear Kyonshi Hat in 420:
+- Price: 0 -> 9500
+- HowToGet: cOther -> cOrder
+Changed gear Li'l Devil Horns in 420:
+- Price: 0 -> 7700
+- HowToGet: cOther -> cOrder
+Changed gear Hockey Mask in 420:
+- HowToGet: cOther -> cOrder
+- Price: 0 -> 8800
+Changed gear Anglerfish Mask in 420:
+- Price: 0 -> 6980
+- HowToGet: cOther -> cOrder
+Changed gear Enchanted Hat in 420:
+- Ability: None -> Ink Saver (Main)
+Changed gear Steel Helm in 420:
+- Ability: None -> Special Charge Up
+Changed gear Fresh Fish Head in 420:
+- Ability: None -> Comeback
+Changed gear Pearlescent Crown in 430:
+- Ability: Cold-Blooded (Main Power Up) -> Bomb Defense Up (DX)
+Changed gear Sailor Cap in 450:
+- Ability: Special Power Up -> Quick Respawn
+Changed gear Red V-Neck Limited Tee in 111:
+- Ability: Special Saver -> Quick Respawn
+- Rarity: 2 -> 1
+Changed gear Green V-Neck Limited Tee in 111:
+- Ability: Special Saver -> Quick Super Jump
+- Rarity: 2 -> 1
+Changed gear Brown FA-11 Bomber in 111:
+- Ability: Ink Recovery Up -> Bomb Defense Up (DX)
+- Rarity: 2 -> 1
+Changed gear Gray FA-11 Bomber in 111:
+- Ability: Ink Recovery Up -> Cold-Blooded (Main Power Up)
+- Rarity: 2 -> 1
+Changed gear Rockenberg White in 200:
+- Rarity: 0 -> 1
+Changed gear Reggae Tee in 200:
+- Rarity: 0 -> 2
+Changed gear Black Anchor Tee in 200:
+- Ability: Quick Respawn -> Respawn Punisher
+- Rarity: 0 -> 1
+Changed gear Octo Tee in 200:
+- Rarity: 0 -> 2
+Changed gear White Striped LS in 200:
+- Rarity: 0 -> 1
+Changed gear Varsity Baseball LS in 200:
+- Ability: Quick Respawn -> Haunt
+Changed gear Zekko Long Carrot Tee in 200:
+- Rarity: 0 -> 1
+- Brand: Annaki -> Zekko
+- Price: 99999 -> 1800
+- Ability: Respawn Punisher -> Ink Resistance Up
+Changed gear Part-Time Pirate in 200:
+- Ability: Quick Respawn -> Respawn Punisher
+- Price: 99999 -> 800
+Changed gear Striped Rugby in 200:
+- Rarity: 0 -> 1
+Changed gear Black Polo in 200:
+- Ability: Quick Respawn -> Ninja Squid
+Changed gear Cycling Shirt in 200:
+- Rarity: 0 -> 1
+Changed gear Olive Ski Jacket in 200:
+- Ability: Quick Respawn -> Run Speed Up
+- Rarity: 0 -> 2
+Changed gear School Jersey in 200:
+- Rarity: 0 -> 1
+Changed gear Green Cardigan in 200:
+- Rarity: 0 -> 1
+Changed gear Retro Gamer Jersey in 200:
+- Rarity: 0 -> 2
+Changed gear Forge Inkling Parka in 200:
+- Rarity: 0 -> 1
+Changed gear Forge Octarian Jacket in 200:
+- Rarity: 0 -> 1
+Changed gear White Sailor Suit in 200:
+- Rarity: 0 -> 1
+Changed gear Zapfish Satin Jacket in 200:
+- Rarity: 0 -> 1
+Changed gear Kensa Coat in 200:
+- Brand: SquidForce -> Toni Kensa
+- Ability: Quick Respawn -> Respawn Punisher
+- Rarity: 0 -> 2
+- Price: 99999 -> 9200
+Changed gear Light Bomber Jacket in 200:
+- Ability: Quick Respawn -> Quick Super Jump
+- Rarity: 0 -> 2
+- Price: 9999 -> 12800
+Changed gear Milky Eminence Jacket in 200:
+- Ability: Ink Recovery Up -> Run Speed Up
+Changed gear Navy Eminence Jacket in 200:
+- Ability: Ink Recovery Up -> Ink Saver (Main)
+- HowToGet: cOther -> cShop
+- Price: 0 -> 10500
+Changed gear Tumeric Zekko Coat in 200:
+- Rarity: 2 -> 1
+- Price: 9999 -> 4600
+- Brand: Enperry -> Zekko
+- HowToGet: cOther -> cShop
+- Ability: Ink Recovery Up -> Thermal Ink
+Changed gear Custom Painted F-3  in 200:
+- Rarity: 0 -> 2
+- Ability: Ink Saver (Main) -> Ink Resistance Up
+- Price: 96999 -> 9700
+Changed gear B-ball Jersey (Home) in 200:
+- Rarity: 0 -> 1
+Changed gear Firefin Navy Sweat in 200:
+- Rarity: 0 -> 1
+Changed gear White Shirt in 200:
+- Price: 1800 -> 7500
+- Rarity: 0 -> 2
+Changed gear Red-Check Shirt in 200:
+- Rarity: 0 -> 1
+Changed gear Baseball Jersey in 200:
+- Rarity: 0 -> 2
+Changed gear Gray Mixed Shirt in 200:
+- Rarity: 0 -> 1
+Changed gear Round-Collar Shirt in 200:
+- Price: 600 -> 1600
+- Rarity: 0 -> 1
+Changed gear Striped Shirt in 200:
+- Rarity: 0 -> 1
+Changed gear Mountain Vest in 200:
+- Rarity: 0 -> 2
+Changed gear Forest Vest in 200:
+- Rarity: 0 -> 2
+Changed gear Fishing Vest in 200:
+- Price: 99999 -> 4200
+- Brand: None -> Inkline
+- Rarity: 0 -> 1
+Changed gear Green Zip Hoodie in 200:
+- Rarity: 0 -> 1
+Changed gear Hothouse Hoodie in 200:
+- Ability: Special Charge Up -> Quick Respawn
+Changed gear Fresh Octo Tee in 230:
+- Price: 99999 -> 300
+Changed gear Octo Tee in 230:
+- Price: 0 -> 99999
+Changed gear Fresh Octo Tee in 300:
+- HowToGet: cOrder -> cOther
+Changed gear Rockenberg Black in 300:
+- Ability: Quick Respawn -> Respawn Punisher
+Changed gear Octo Tee in 300:
+- Price: 99999 -> 8888
+Changed gear Annaki Polpo-Pic Tee in 300:
+- Price: 99999 -> 6660
+- Ability: Quick Respawn -> Run Speed Up
+- Rarity: 1 -> 2
+Changed gear Missus Shrug Tee in 300:
+- Ability: Quick Respawn -> Ink Saver (Sub)
+- Rarity: 1 -> 2
+- Price: 99999 -> 9200
+Changed gear League Tee in 300:
+- Ability: Quick Respawn -> Special Power Up
+- Price: 99999 -> 3800
+Changed gear Friend Tee in 300:
+- Ability: Quick Respawn -> Thermal Ink
+- Rarity: 1 -> 0
+- Price: 99999 -> 1200
+Changed gear Octoking HK Jersey in 300:
+- Rarity: 0 -> 1
+- Ability: Ninja Squid -> Special Charge Up
+- Price: 99999 -> 5800
+- Brand: None -> Enperry
+Changed gear Black Cuttlegear LS in 300:
+- Rarity: 0 -> 1
+- Brand: Annaki -> Cuttlegear
+- Price: 99999 -> 5800
+- Ability: Quick Respawn -> Swim Speed Up
+Changed gear Takoroka Crazy Baseball LS in 300:
+- Ability: Quick Respawn -> Ninja Squid
+- Rarity: 0 -> 1
+- Price: 99999 -> 4200
+- Brand: Annaki -> Takoroka
+Changed gear Red Cuttlegear LS in 300:
+- Price: 99999 -> 5800
+- Rarity: 0 -> 1
+- Ability: Quick Respawn -> Bomb Defense Up (DX)
+- Brand: Annaki -> Cuttlegear
+Changed gear Green Cardigan in 300:
+- Ability: Quick Respawn -> Ink Saver (Sub)
+Changed gear Deep-Octo Satin Jacket in 300:
+- Price: 99999 -> 12300
+- Rarity: 0 -> 2
+- Ability: Quick Respawn -> Cold-Blooded (Main Power Up)
+Changed gear White Leather F-3 in 300:
+- Price: 99999 -> 8900
+- Ability: Quick Respawn -> Respawn Punisher
+- Rarity: 0 -> 2
+Changed gear Navy College Sweat in 300:
+- Ability: Quick Respawn -> Ink Resistance Up
+Changed gear Annaki Yellow Cuff in 300:
+- Price: 99999 -> 4800
+- Rarity: 0 -> 1
+Changed gear Chili Octo Aloha in 300:
+- Price: 99999 -> 4850
+- Rarity: 0 -> 1
+- Brand: Zink -> Krak-On
+- Ability: Quick Respawn -> Bomb Defense Up (DX)
+Changed gear Hothouse Hoodie in 300:
+- Rarity: 0 -> 1
+- Price: 99999 -> 3800
+- Brand: Firefin -> Skalop
+- Ability: Quick Respawn -> Run Speed Up
+Changed gear Fresh Octo Tee in 310:
+- Ability: Quick Respawn -> Ink Saver (Sub)
+- Brand: SquidForce -> Cuttlegear
+Changed gear Sennyu Suit in 310:
+- Ability: Sub Power Up -> Ninja Squid
+- Brand: None -> Cuttlegear
+- Price: 99999 -> 0
+Changed gear Pearlescent Hoodie in 310:
+- Ability: Ink Resistance Up -> Respawn Punisher
+Changed gear Marinated Top in 310:
+- Ability: Ink Recovery Up -> Special Power Up
+Changed gear Neo Octoling Armor in 310:
+- Ability: Quick Respawn -> Haunt
+- Rarity: 0 -> 1
+Changed gear Null Armor Replica in 310:
+- Ability: Quick Respawn -> Ink Resistance Up
+- Rarity: 0 -> 1
+Changed gear Old-Timey Clothes in 310:
+- Ability: Quick Respawn -> Thermal Ink
+- Rarity: 0 -> 1
+Changed gear SWC Logo Tee in 420:
+- HowToGet: cOther -> cOrder
+- Price: 0 -> 9800
+Changed gear Enchanted Robe in 420:
+- Ability: Special Power Up -> Thermal Ink
+Changed gear Steel Platemail in 420:
+- Ability: Special Power Up -> Ink Saver (Sub)
+Changed gear Fresh Fish Gloves in 420:
+- Ability: Special Power Up -> Quick Super Jump
+Changed gear Gray FA-11 Bomber in 430:
+- Ability: Cold-Blooded (Main Power Up) -> Bomb Defense Up (DX)
+Changed gear Green Laceups in 200:
+- Rarity: 2 -> 0
+- Price: 99999 -> 1300
+- Ability: Ink Saver (Sub) -> Cold-Blooded (Main Power Up)
+Changed gear Navy Enperrials in 200:
+- Rarity: 0 -> 2
+- Ability: Run Speed Up -> Ink Saver (Main)
+- Price: 99999 -> 11000
+Changed gear Amber Sea Slug Hi-Tops in 200:
+- Ability: Bomb Defense Up (DX) -> Drop Roller
+- Rarity: 0 -> 2
+- Price: 99999 -> 11000
+Changed gear Yellow Iromaki 750s in 200:
+- Price: 99999 -> 1050
+- Ability: Bomb Defense Up (DX) -> Special Saver
+Changed gear Cyan Trainers in 200:
+- Ability: Quick Respawn -> Stealth Jump
+Changed gear Violet Trainers in 200:
+- Ability: Quick Respawn -> Object Shredder
+- Price: 99999 -> 1000
+Changed gear N-Pacer CaO in 200:
+- Ability: Ink Saver (Main) -> Quick Respawn
+Changed gear N-Pacer Ag in 200:
+- Ability: Ink Saver (Main) -> Ink Recovery Up
+- Price: 99999 -> 4900
+- Rarity: 0 -> 1
+Changed gear Luminous Delta Straps in 200:
+- Ability: Swim Speed Up -> Cold-Blooded (Main Power Up)
+- Price: 99999 -> 5000
+- Rarity: 2 -> 1
+Changed gear Red FishFry Sandals in 200:
+- Ability: Swim Speed Up -> Object Shredder
+- Rarity: 0 -> 1
+- HowToGet:  -> cShop
+- Price: 0 -> 2880
+Changed gear Bubble Rain Boots in 200:
+- Ability: Quick Respawn -> Drop Roller
+Changed gear Deepsea Leather Boots in 200:
+- Ability: Cold-Blooded (Main Power Up) -> Ink Saver (Sub)
+- Rarity: 0 -> 2
+- Price: 99999 -> 12000
+Changed gear Navy Red-Soled Wingtips in 200:
+- Rarity: 2 -> 1
+- Ability: Object Shredder -> Ink Saver (Main)
+- Price: 0 -> 4600
+Changed gear Red Power Stripes in 230:
+- Brand: Tentatek -> Takoroka
+Changed gear Suede Gray Lace-Ups in 300:
+- Ability: Quick Respawn -> Ink Recovery Up
+- Brand: Zink -> Zekko
+- Price: 99999 -> 1200
+Changed gear Chocolate Dakroniks in 300:
+- Price: 99999 -> 1700
+- Ability: Quick Respawn -> Ink Resistance Up
+- Rarity: 0 -> 1
+Changed gear Red & White Squidkid V in 300:
+- Price: 38000 -> 12800
+- Brand: Tentatek -> Enperry
+- Ability: Quick Respawn -> Run Speed Up
+- Rarity: 0 -> 2
+Changed gear Honey & Orange Squidkid V in 300:
+- Ability: Quick Respawn -> Ink Saver (Sub)
+- Rarity: 0 -> 1
+- Price: 38000 -> 5800
+- Brand: Tentatek -> Enperry
+Changed gear Blue Iromaki 750s in 300:
+- Price: 99999 -> 1050
+- Ability: Quick Respawn -> Ink Saver (Main)
+Changed gear Orange Iromaki 750s in 300:
+- Price: 99999 -> 1050
+- Ability: Quick Respawn -> Drop Roller
+Changed gear Red Power Stripes in 300:
+- Rarity: 0 -> 1
+- Ability: Quick Respawn -> Run Speed Up
+- Price: 99999 -> 5880
+Changed gear Toni Kensa Black Hi-Tops in 300:
+- Price: 99999 -> 9880
+- Ability: Quick Respawn -> Sub Power Up
+- Brand: Takoroka -> Toni Kensa
+- Rarity: 0 -> 2
+Changed gear N-Pacer CaO in 300:
+- Price: 99999 -> 3900
+- Ability: Quick Respawn -> Object Shredder
+- Rarity: 0 -> 1
+Changed gear Yellow FishFry Sandals in 300:
+- Ability: Object Shredder -> Cold-Blooded (Main Power Up)
+- Price: 999999 -> 2880
+Changed gear Annaki Tigers in 300:
+- Ability: Sub Power Up -> Special Power Up
+- Price: 999999 -> 9990
+Changed gear Inky Kid Clams in 300:
+- Ability: Quick Respawn -> Ink Recovery Up
+- Brand: Annaki -> Rockenberg
+- Price: 0 -> 10500
+- Rarity: 0 -> 2
+Changed gear Sennyu Inksoles in 310:
+- Ability: Special Power Up -> Stealth Jump
+- Rarity: 0 -> 2
+- Price: 99999 -> 0
+Changed gear Pearlescent Kicks in 310:
+- Ability: Bomb Defense Up (DX) -> Special Charge Up
+Changed gear Marinated Slip-Ons in 310:
+- Ability: Bomb Defense Up (DX) -> Ink Recovery Up
+Changed gear Neo Octoling Boots in 310:
+- Ability: Quick Respawn -> Object Shredder
+- Rarity: 0 -> 1
+Changed gear Null Boots Replica in 310:
+- Ability: Quick Respawn -> Drop Roller
+- Rarity: 0 -> 1
+Changed gear Old-Timey Shoes in 310:
+- HowToGet: cShop -> cOther
+- Ability: Quick Respawn -> Run Speed Up
+- Rarity: 0 -> 1
+Changed gear Enchanted Boots in 420:
+- Ability: Ink Recovery Up -> Run Speed Up
+Changed gear Steel Greaves in 420:
+- Ability: Ink Recovery Up -> Object Shredder
+Changed gear Fresh Fish Feet in 420:
+- Ability: Ink Recovery Up -> Quick Respawn
+Changed gear Fringed Loafers in 430:
+- Ability: Cold-Blooded (Main Power Up) -> Bomb Defense Up (DX)
