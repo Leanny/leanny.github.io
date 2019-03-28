@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Splatoon 2 - Weapon and Gear Database</title>
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        
+        .themed-grid-col {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            background-color: rgba(86, 61, 124, .15);
+            border: 1px solid rgba(86, 61, 124, .2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Weapon and Gear Database</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="col-sm-8 mx-auto">
+                <h1>Splatoon 2 - Weapon and Gear Database</h1>
+
+                <div class="toolbar">
+                    <select class="form-control" id="language">
+
+                    </select>
+                    <select class="form-control" id="version">
+
+                    </select>
+                </div>
+
+                <ul class="nav nav-tabs" id="modes" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="weapons-tab" data-toggle="tab" href="#weapons" role="tab" aria-controls="weapons" aria-selected="true">General Weapon Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="subweapons-tab" data-toggle="tab" href="#subweapons" role="tab" aria-controls="subweapons" aria-selected="false">Sub Weapons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="heads-tab" data-toggle="tab" href="#heads" role="tab" aria-controls="heads" aria-selected="false">Heads</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="clothes-tab" data-toggle="tab" href="#clothes" role="tab" aria-controls="clothes" aria-selected="false">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="shoes-tab" data-toggle="tab" href="#shoes" role="tab" aria-controls="shoes" aria-selected="false">Shoes</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="modeTabControl">
+                    <div class="tab-pane fade show active" id="weapons" role="tabpanel" aria-labelledby="weapons-tab">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="weapon-table" data-sortable="true" data-search="true" data-detail-view="true" data-detail-formatter="detailFormatterWeapon" data-show-columns="true" data-show-pagination-switch="true" data-show-fullscreen="true">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                        <th scope="col" data-field="NameClean" data-formatter="imgFormatter" data-sortable="false">Image</th>
+                                        <th scope="col" data-field="Name" data-sortable="true">Name</th>
+                                        <th scope="col" data-field="Sub" data-formatter="subFormatter" data-sortable="true">Sub</th>
+                                        <th scope="col" data-field="Special" data-formatter="specialFormatter" data-sortable="true">Special</th>
+                                        <th scope="col" data-field="Range" data-sortable="true">Range</th>
+                                        <th scope="col" data-field="MainUpGearPowerType" data-formatter="mpuFormatter" data-sortable="true" data-visible="false">Main Power Up</th>
+                                        <th scope="col" data-field="MoveVelLv" data-sortable="true">Mobility</th>
+                                        <th scope="col" data-field="InkSaverLv" data-sortable="true">Ink Saver Level</th>
+                                        <th scope="col" data-field="Rank" data-sortable="true" data-visible="false">Unlock Level</th>
+                                        <th scope="col" data-field="SpecialCost" data-sortable="true">Special Costs</th>
+                                        <th scope="col" data-field="Price" data-sortable="true" data-visible="false">Price</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="subweapons" role="tabpanel" aria-labelledby="subweapon-tab">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="subweapon-table" data-sortable="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-fullscreen="true">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                        <th scope="col" data-field="NameClean" data-formatter="subimgFormatter" data-sortable="false">Image</th>
+                                        <th scope="col" data-field="Name" data-sortable="true">Name</th>
+                                        <th scope="col" data-field="InkSaverType" data-sortable="true">Ink Saver Type</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="heads" role="tabpanel" aria-labelledby="heads-tab">
+                       <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="heads-table" data-sortable="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-fullscreen="true">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                        <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">Image</th>
+                                        <th scope="col" data-field="Name" data-sortable="true">Name</th>
+                                        <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">Brand</th>
+                                        <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">Main Ability</th>
+                                        <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                        <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="clothes" role="tabpanel" aria-labelledby="clothes-tab">
+                       <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="clothes-table" data-sortable="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-fullscreen="true">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                        <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">Image</th>
+                                        <th scope="col" data-field="Name" data-sortable="true">Name</th>
+                                        <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">Brand</th>
+                                        <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">Main Ability</th>
+                                        <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                        <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="shoes" role="tabpanel" aria-labelledby="shoes-tab">
+                       <div class="table-responsive">
+                            <table class="table table-striped table-hover" id="shoes-table" data-sortable="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-fullscreen="true">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
+                                        <th scope="col" data-field="NameClean" data-formatter="gearimgFormatter" data-sortable="false">Image</th>
+                                        <th scope="col" data-field="Name" data-sortable="true">Name</th>
+                                        <th scope="col" data-field="Brand" data-formatter="brandFormatter" data-sortable="true">Brand</th>
+                                        <th scope="col" data-field="Skill0" data-formatter="skillFormatter" data-sortable="true">Main Ability</th>
+                                        <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                        <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var version = 100
+
+            var lang_dict = {}
+            var weapon_data = {}
+            var subweapon_data = {}
+            var hed_gear = {}
+            var clt_gear = {}
+            var shs_gear = {}
+
+            function imgFormatter(value) {
+                return "<img src=\"https://leanny.github.io/splat2/weapons/Wst_" + value + ".png\" width=\"96\" />";
+            }
+            
+            function gearimgFormatter(value) {
+                return "<img src=\"https://leanny.github.io/splat2/gear/" + value + ".png\" width=\"96\" />";
+            }
+            
+            function skillFormatter(value) {
+                return "<p><img src=\"https://leanny.github.io/splat2/skills/" + value + ".png\" width=\"64\" /><br />" + lang_dict[value] + "</p>";
+            }
+            
+            function brandFormatter(value) {
+                return "<p><img src=\"https://leanny.github.io/splat2/brands/" + value + ".png\" width=\"64\" /><br />" + lang_dict[value] + "</p>";
+            }
+            
+            function subimgFormatter(value) {
+                return "<img src=\"https://leanny.github.io/splat2/subspe/Wsb_" + value + ".png\" width=\"64\" />";
+            }
+
+            function subFormatter(value) {
+                return "<p><img src=\"https://leanny.github.io/splat2/subspe/Wsb_" + value[0] + ".png\" width=\"64\" /><br />" + value[1] + "</p>";
+            }
+
+            function specialFormatter(value) {
+                return "<p><img src=\"https://leanny.github.io/splat2/subspe/Wsp_" + value[0] + ".png\" width=\"64\" /><br />" + value[1] + "</p>";
+            }
+
+            function mpuFormatter(value) {
+                return value[1];
+            }
+
+            const languages = [{
+                ext: 'USen',
+                region: 'NA',
+                language: 'en',
+                name: 'English'
+            }, {
+                ext: 'EUen',
+                region: 'EU',
+                language: 'en',
+                name: 'English (UK)'
+            }, {
+                ext: 'EUes',
+                region: 'EU',
+                language: 'es',
+                name: 'Español'
+            }, {
+                ext: 'USes',
+                region: 'NA',
+                language: 'es-MX',
+                name: 'Español (MX)'
+            }, {
+                ext: 'EUfr',
+                region: 'EU',
+                language: 'fr',
+                name: 'Français'
+            }, {
+                ext: 'USfr',
+                region: 'NA',
+                language: 'fr-CA',
+                name: 'Français (CA)'
+            }, {
+                ext: 'EUde',
+                region: 'EU',
+                language: 'de',
+                name: 'Deutsch'
+            }, {
+                ext: 'EUnl',
+                region: 'EU',
+                language: 'nl',
+                name: 'Nederlands'
+            }, {
+                ext: 'EUit',
+                region: 'EU',
+                language: 'it',
+                name: 'Italiano'
+            }, {
+                ext: 'EUru',
+                region: 'EU',
+                language: 'ru',
+                name: 'Pусский'
+            }, {
+                ext: 'JPja',
+                region: 'JP',
+                language: 'ja',
+                name: '日本語'
+            }, ];
+
+            $.each(languages, function(idx, lang) {
+                $("#language").append(new Option(lang["name"], lang["ext"]));
+            });
+
+            function detectSplatoonLanguage() {
+                let browserLanguages = window.navigator.languages.map(l => l.toLowerCase());
+                let availableLanguages = languages.map(l => l.language.toLowerCase());
+                var resultLanguages = {};
+                $.each(languages, function(key, lang) {
+                    resultLanguages[lang["language"]] = lang["ext"]
+                });
+
+                // Try to find a match based on the first part of the available languages (i.e., match "es" for "es-ES")
+                for (let language of browserLanguages) {
+                    for (let availableLanguage of availableLanguages) {
+                        if (language.startsWith(availableLanguage)) {
+                            return resultLanguages[availableLanguage];
+                        }
+                    }
+                }
+            }
+            
+            $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
+                var last = 0
+                $.each(vers, function(key, ver) {
+                    $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
+                    last = ver
+                });
+                $("#version").val(last);
+                version = last;
+                loadData();
+            });
+            
+            function loadData() {
+                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Main.json", function(weapon_dict) {
+                    weapon_data = {}
+                    subweapon_data = {}
+                    hed_gear = {}
+                    clt_gear = {}
+                    shs_gear = {}
+                    
+                    $.each(weapon_dict, function(idx, weapon) {
+                        if (weapon["Id"] < 20000) {
+                            weapon_data[weapon["Id"]] = weapon
+                        }
+                    });
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Sub.json", function(subweapon_dict) {
+                        $.each(subweapon_dict, function(idx, subweapon) {
+                            if (subweapon["Id"] < 100) {
+                                subweapon_data[subweapon["Id"]] = subweapon
+                            }
+                        });
+                        $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Head.json", function(hed_dict) {
+                            $.each(hed_dict, function(idx, hed) {
+                                hed_gear[hed["Id"]] = hed
+                            });
+                            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Clothes.json", function(clt_dict) {
+                                $.each(clt_dict, function(idx, clt) {
+                                    clt_gear[clt["Id"]] = clt
+                                });
+                                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Shoes.json", function(shs_dict) {
+                                    $.each(shs_dict, function(idx, shs) {
+                                        shs_gear[shs["Id"]] = shs
+                                    });
+                                    change_lang(current_lang);
+                                });
+                            });
+                        });
+                    });
+                });
+            }
+
+            var current_lang = detectSplatoonLanguage();
+            if (typeof current_lang === "undefined") {
+                current_lang = "EUen"
+            }
+            window.change_lang = function(lang) {
+                current_lang = lang;
+                $.getJSON("https://leanny.github.io/data/Languages/lang_dict_" + current_lang + ".json", function(d) {
+                    $.each(d, function(key, val) {
+                        lang_dict[key] = val
+                    });
+                    load_weapons();
+                    load_subweapons();
+                    load_gear();
+                });
+
+            }
+
+            function detailFormatterWeapon(index, row) {
+                var html = []
+                weapon = weapon_data[row["Id"]]
+                html.push('<p><b>Name:</b> ' + row["Name"] + '</p>')
+                html.push('<p><b>Sub:</b> ' + row["Sub"][1] + '</p>')
+                html.push('<p><b>Special:</b> ' + row["Special"][1] + '</p>')
+                html.push('<p><b>' + lang_dict[weapon["Param0"]] + ':</b> ' + weapon["ParamValue0"] + '</p>');
+                html.push('<p><b>' + lang_dict[weapon["Param1"]] + ':</b> ' + weapon["ParamValue1"] + '</p>');
+                html.push('<p><b>' + lang_dict[weapon["Param2"]] + ':</b> ' + weapon["ParamValue2"] + '</p>');
+                html.push('<p><b>Inksaver Level:</b> ' + weapon["InkSaverLv"] + '</p>');
+                html.push('<p><b>Mobility Class:</b> ' + weapon["MoveVelLv"] + '</p>');
+                if ("MainUpGearPowerType" in weapon) {
+                    html.push('<p><b>Main Power Up Effect:</b> ' + lang_dict["MPU_" + weapon["MainUpGearPowerType"]] + '</p>');
+                }
+                if ("ShotMoveVelType" in weapon) {
+                    html.push('<p><b>Shoot Move Velocity Type:</b> ' + weapon["ShotMoveVelType"] + '</p>');
+                }
+                if ("Range" in weapon) {
+                    html.push('<p><b>Matchmaking Range:</b> ' + weapon["Range"] + '</p>');
+                }
+                return html.join('');
+
+            }
+
+            function load_weapons() {
+                $(function() {
+                    var data = []
+                    $.each(weapon_data, function(idx, weapon) {
+                        if (weapon["Id"] < 20000) {
+                            var row = ({
+                                Id: weapon["Id"],
+                                NameClean: weapon["Name"],
+                                Name: lang_dict[weapon["Name"]],
+                                Price: weapon["Price"],
+                                Sub: [weapon["Sub"], lang_dict[weapon["Sub"]]],
+                                Special: [weapon["Special"], lang_dict[weapon["Special"]]],
+                                Rank: weapon["Rank"],
+                                SpecialCost: weapon["SpecialCost"],
+                                Price: weapon["Price"],
+                                Range: weapon["Range"],
+                                MainUpGearPowerType: [weapon["MainUpGearPowerType"], lang_dict["MPU_" + weapon["MainUpGearPowerType"]]],
+                                InkSaverLv: weapon["InkSaverLv"],
+                                MoveVelLv: weapon["MoveVelLv"]
+                            });
+                            data.push(row);
+                        }
+                    });
+                    $('#weapon-table').bootstrapTable('refreshOptions', {
+                        "data": data
+                    });
+                });
+            }
+
+            function load_subweapons() {
+                $(function() {
+                    var subdata = []
+                    $.each(subweapon_data, function(idx, subweapon) {
+                        if (subweapon["Id"] < 100) {
+                            var row = ({
+                                Id: subweapon["Id"],
+                                NameClean: subweapon["Name"],
+                                Name: lang_dict[subweapon["Name"]],
+                                InkSaverType: subweapon["InkSaverType"],
+                            });
+                            subdata.push(row);
+                        }
+                    });
+                    $('#subweapon-table').bootstrapTable('refreshOptions',{"data": subdata});
+                });
+            }
+            
+            function load_gear_into_table(ref_table, ref_dict) {
+                $(function() {
+                    var geardata = []
+                    $.each(ref_dict, function(idx, gear) {
+                        if (gear["ModelName"] in lang_dict) {
+                            var row = ({
+                                Id: gear["Id"],
+                                NameClean: gear["ModelName"],
+                                Name: lang_dict[gear["ModelName"]],
+                                Brand: gear["Brand"],
+                                Price: gear["Price"],
+                                Rarity: gear["Rarity"] + 1,
+                                Skill0: gear["Skill0"]
+                            });
+                            geardata.push(row);
+                        }
+                    });
+                    $(ref_table).bootstrapTable('refreshOptions',{"data": geardata});
+                });
+            }
+            
+            function load_gear() {
+                load_gear_into_table('#heads-table', hed_gear)
+                load_gear_into_table('#clothes-table', clt_gear)
+                load_gear_into_table('#shoes-table', shs_gear)
+            }
+
+            $(function() {
+                $('#weapon-table').bootstrapTable({});
+                $('#subweapon-table').bootstrapTable({});
+                $('#heads-table').bootstrapTable({});
+                $('#clothes-table').bootstrapTable({});
+                $('#shoes-table').bootstrapTable({});
+                $("#language").val(current_lang);
+                $('#language').change(function() {
+                    change_lang($(this).val())
+                })
+                $('#version').change(function() {
+                    version = ($(this).val())
+                    loadData();
+                })
+            })
+        </script>
+    </main>
+    <footer class="footer">
+        <div class="container text-muted">
+            <div class="footer-notice">
+                <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. Overall support provided by <a href="https://twitter.com/WemI0"><span class="fa fa-twitter">WemI0</span></a>, <a href="https://twitter.com/OatmealDome"><span class="fa fa-twitter">OatmealDome</span></a>, and <a href="https://twitter.com/Simon1844"><span class="fa fa-twitter">Simon</span></a></p>
+                <p>Feedback or suggestions are welcome. Please contact me via Twitter. <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<!--
+      <th scope="col">Main Power Up</th>
+      <th scope="col">Shoot Move Velocity Type</th>
+      <th scope="col">Matchmaking Range</th>
+      <th scope="col">Inksaver Level</th>
+      <th scope="col">Weight Class</th>
+     -->
