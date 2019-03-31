@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Splatoon 2 - Damage Multipliers</title>
+      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+      <style>
+         .bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         }
+         @media (min-width: 768px) {
+         .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+         }
+         }
+         .themed-grid-col {
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: rgba(86, 61, 124, .15);
+         border: 1px solid rgba(86, 61, 124, .2);
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">Damage Multipliers</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+      <main role="main">
+         <div class="jumbotron">
+            <div class="col-sm-8 mx-auto">
+               <h1>Splatoon 2 - Damage Multipliers</h1>
+               <div class="toolbar">
+                  <select class="form-control" id="version">
+                  </select>
+               </div>
+               <div class="toolbar">
+                  <select class="form-control" id="object">
+                  </select>
+               </div>
+               <div class="table-responsive">
+                  <table class="table table-striped table-hover" id="dmg-table">
+                     <thead>
+                        <tr>
+                           <th scope="col" data-field="Name" data-sortable="true">Dealer</th>
+                           <th scope="col" data-field="Multiplier" data-sortable="true">Multiplier</th>
+                        </tr>
+                     </thead>
+                  </table>
+               </div>
+            </div>
+         </div>
+         <script>
+            $('#dmg-table').bootstrapTable({});
+            var dealsTo = {
+                'AquaBall': 'Baller',
+                'AquaBallBombCore': 'Baller Explosion',
+                'Blaster': 'Blaster',
+                'Blaster_BlasterMiddle': 'Blaster Indirect (Close)',
+                'Blaster_BlasterShort': 'Blaster Indirect (Far)',
+                'Blaster_KillOneShot': 'Blaster Direct',
+                'Bomb': 'Bomb',
+                'Bomb_Piyo': 'Fizzy Bomb',
+                'Bomb_Tako': 'Torpedo',
+                'BrushCore': 'Brush Running',
+                'BrushSplash': 'Brush Swinging',
+                'BulletBombCurling': 'Curling Bomb',
+                'BulletGachihoko': 'Rainmaker Shot',
+                'Cannon': 'Cannon',
+                'CannonBombCore': 'Cannon Explosion',
+                'Charger': 'Charger',
+                'ChargerFull': 'Charger Full Charged',
+                'ChargerFull_Keeper': 'Goo-Tuber Full Charged',
+                'ChargerFull_Light': 'Bamboozler Full Charged',
+                'ChargerFull_Long': 'E-Liter 4k Full Charged',
+                'ChargerFull_Normal': 'Splat Charger Full Charged',
+                'Charger_Keeper': 'Goo-Tuber',
+                'Charger_Light': 'Bamboozler',
+                'Charger_Long': 'E-Liter 4k',
+                'Charger_Normal': 'Splat Charger',
+                'GachihokoBombCore': 'Rainmaker Explosion',
+                'JetPack': 'Jetpack Shot',
+                'JetPackBombCore': 'Jetpack Shot Explosion',
+                'JetPackJet': 'Jetpack Exhaust',
+                'NearBy_GeyserVersus': 'Geyser',
+                'RainCloud': 'Ink Storm',
+                'RollerCore': 'Roller Running',
+                'RollerSplash': 'Roller Flicking',
+                'Roller_HeavyCore': 'Dynamo Running',
+                'Roller_HeavySplash': 'Dynamo Flicking',
+                'Shield': 'Splash Wall',
+                'Shooter': 'Shooter',
+                'Shooter_Flash': 'Squeezer (Single Shot)',
+                'Shooter_FlashRepeat': 'Squeezer (Continuation Mode)',
+                'Shooter_Gravity': '.52 Gal',
+                'Shooter_Heavy': '.96 Gal',
+                'Shooter_Short': 'Sploosh-o-matic',
+                'Shooter_TripleMiddle': 'H-3 Nozzlenose',
+                'Shooter_TripleQuick': 'L-3 Nozzlenose',
+                'Slosher': 'Slosher',
+                'Slosher_Bathtub': 'Bloblobber',
+                'Slosher_Washtub': 'Explosher',
+                'Slosher_WashtubBombCore': 'Explosher Explosion',
+                'Spinner': 'Splatlings',
+                'SplashBurst': 'Splatbomb Explosion',
+                'Sprinkler': 'Sprinkler',
+                'SuperBall': 'Booyah Bomb',
+                'SuperBubble': 'Bubble Blower',
+                'SuperLanding': 'Splashdown',
+                'SuperMissile': 'Tenta Missiles',
+                'SuperMissileBombCore': 'Tenta Missiles Explosion',
+                'SuperStamp_Swing': 'Ultra Stamp Swinging',
+                'SuperStamp_Throw': 'Ultra Stramp Throwing',
+                'Twins': 'Dualies',
+                'Umbrella': 'Umbrella',
+                'UmbrellaCanopy': 'Umbrella Canopy',
+                'VictoryRocket': 'Victory Rocket',
+                'WaterCutter': 'Sting Ray'
+            }
+            var headlines = {
+                'Wsb_Flag': 'Ink Mine',
+                'Wsb_Sprinkler': 'Sprinkler',
+                'Wsb_Shield': 'Splash Wall',
+                'BulletSpSuperBubble': 'Bubble Blower',
+                'AquaBall': 'Baller',
+                'SuperArmor': 'Ink Armor',
+                'SuperBallArmor': 'Booyah Bomb Armor',
+                'BulletBombTako': 'Torpedo',
+                'BulletUmbrellaCanopy': 'Umbrella Canopy',
+                'BulletUmbrellaCanopyNormal': 'Splat Brella Canopy',
+                'BulletUmbrellaCanopyOther': 'Other Brella Canopy',
+                'TakolienShield': 'Takolien Shield',
+                'SpongeVersus': 'Sponge (Multiplayer)',
+                'BulletUmbrellaCanopyMission': 'Umbrella Canopy (Story Mode)',
+                'BulletUmbrellaCanopyNormal_Octa': 'Splat Brella Canopy (Octo Expansion)',
+                'BulletUmbrellaCanopyOther_Octa': 'Other Brella Canopy (Octo Expansion)',
+                'AquaBallOcta': 'Baller (Octo Expansion)'
+            }
+            
+            var dmginfodata = {}
+            
+            $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
+            var last = 0
+            $.each(vers, function(key, ver) {
+                $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
+                last = ver
+            });
+            $("#version").val(last);
+            version = last;
+            loadData();
+            });
+            
+            $('#version').change(function() {
+            version = ($(this).val())
+            loadData();
+            })
+            
+            $('#object').change(function() {
+            loadIntoTable($(this).val())
+            })
+            
+            function loadIntoTable(name) {
+            var data = []
+            var toUse = dmginfodata[name] || []
+            $.each(toUse, function(key, val) {
+                if (key != "Name") {
+                    entry = {
+                        "Name": dealsTo[key] || key ,
+                        "Multiplier": val
+                    }
+                    data.push(entry);
+                }
+            });
+            $('#dmg-table').bootstrapTable('refreshOptions', {
+                "data": data
+            });
+            }
+            
+            function loadData() {
+            dmginfodata = {}
+            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/DamageRateInfo.json", function(dmgrateinfo) {
+                $("#object").children().remove()
+                $.each(dmgrateinfo, function(idx, dmginfo) {
+                    if(dmginfo["Name"] != "") {
+                        dmginfodata[dmginfo["Name"]] = dmginfo
+                    }
+                });
+                var sorted = [];
+                for(var key in dmginfodata) {
+                    sorted[sorted.length] = key;
+                }
+                sorted.sort();
+                $.each(sorted, function(idx, key) {
+                    $("#object").append(new Option(headlines[dmginfodata[key]["Name"]] || dmginfodata[key]["Name"], key));
+                }); 
+                
+                loadIntoTable(sorted[0])
+            });
+            }
+            
+         </script>
+      </main>
+      <footer class="footer">
+         <div class="container text-muted">
+            <div class="footer-notice">
+               <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. Overall support provided by <a href="https://twitter.com/WemI0"><span class="fa fa-twitter">WemI0</span></a>, <a href="https://twitter.com/OatmealDome"><span class="fa fa-twitter">OatmealDome</span></a>, and <a href="https://twitter.com/Simon1844"><span class="fa fa-twitter">Simon</span></a></p>
+               <p>Feedback or suggestions are welcome. Please contact me via Twitter. <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a></p>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
