@@ -1,3 +1,7 @@
+v0.5a:
+    - Fix exclusive gear abilities for shoes/clothes.
+    - In some cases updated images were not downloaded, this is fixed now.
+    - Further improvements to overall software stability and other minor adjustments have been made to enhance the user experience
 v0.5:
     - Add gear for 4.5.1
     - Add auto update for gear/weapons
