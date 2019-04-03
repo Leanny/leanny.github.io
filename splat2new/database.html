@@ -98,6 +98,7 @@
                                  <th scope="col" data-field="Range" data-sortable="true">Matchmaking Range</th>
                                  <th scope="col" data-field="MainUpGearPowerType" data-formatter="mpuFormatter" data-sortable="true" data-visible="false">Main Power Up</th>
                                  <th scope="col" data-field="MoveVelLv" data-sortable="true">Mobility</th>
+                                 <th scope="col" data-field="StealthMoveAccLv" data-sortable="true">Stealth Acceleration</th>
                                  <th scope="col" data-field="InkSaverLv" data-sortable="true">Ink Saver Level</th>
                                  <th scope="col" data-field="Rank" data-sortable="true" data-visible="false">Unlock Level</th>
                                  <th scope="col" data-field="SpecialCost" data-sortable="true">Special Costs</th>
@@ -374,6 +375,7 @@
                 html.push('<p><b>' + lang_dict[weapon["Param2"]] + ':</b> ' + weapon["ParamValue2"] + '</p>');
                 html.push('<p><b>Inksaver Level:</b> ' + weapon["InkSaverLv"] + '</p>');
                 html.push('<p><b>Mobility Class:</b> ' + weapon["MoveVelLv"] + '</p>');
+                html.pish('<p><b>Stealth Acceleration:</b> ' + weapon["StealthMoveAccLv"] + '</p>');
                 if ("MainUpGearPowerType" in weapon) {
                     html.push('<p><b>Main Power Up Effect:</b> ' + lang_dict["MPU_" + weapon["MainUpGearPowerType"]] + '</p>');
                 }
@@ -403,6 +405,7 @@
                                 SpecialCost: weapon["SpecialCost"],
                                 Price: weapon["Price"],
                                 Range: weapon["Range"],
+                                StealthMoveAccLv: weapon["StealthMoveAccLv"],
                                 MainUpGearPowerType: [weapon["MainUpGearPowerType"], lang_dict["MPU_" + weapon["MainUpGearPowerType"]]],
                                 InkSaverLv: weapon["InkSaverLv"],
                                 MoveVelLv: weapon["MoveVelLv"]
