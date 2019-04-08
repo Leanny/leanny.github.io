@@ -48,6 +48,11 @@
                <li class="nav-item">
                   <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
                </li>
+               <!--
+               <li class="nav-item">
+                  <a class="nav-link" href="parameters.html">Parameter Database</a>
+               </li>
+               -->
             </ul>
          </div>
       </nav>
@@ -92,6 +97,7 @@
                               <tr>
                                  <th scope="col" data-field="Id" data-sortable="true" data-visible="false">Internal ID</th>
                                  <th scope="col" data-field="NameClean" data-formatter="imgFormatter" data-sortable="false">Image</th>
+                                 <th scope="col" data-field="InternalName" data-sortable="true" data-visible="false">Internal Name</th>
                                  <th scope="col" data-field="Name" data-sortable="true">Name</th>
                                  <th scope="col" data-field="Sub" data-formatter="subFormatter" data-sortable="true">Sub</th>
                                  <th scope="col" data-field="Special" data-formatter="specialFormatter" data-sortable="true">Special</th>
@@ -397,6 +403,7 @@
                             var row = ({
                                 Id: weapon["Id"],
                                 NameClean: weapon["Name"],
+                                InternalName: weapon["Name"],
                                 Name: lang_dict[weapon["Name"]],
                                 Price: weapon["Price"],
                                 Sub: [weapon["Sub"], lang_dict[weapon["Sub"]]],
