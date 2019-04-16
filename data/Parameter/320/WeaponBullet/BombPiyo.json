@@ -1,5 +1,6 @@
 {
     "param": {
+        "%s_S[3]": 30.0,
         "mBringCloseRateCrossVec": 0.7,
         "mBringCloseRateMoveVec": 0.7,
         "mCharge_FrameTo2": 45,
