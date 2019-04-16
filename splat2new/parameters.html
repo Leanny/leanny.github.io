@@ -399,8 +399,12 @@
                     });
                     $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Special.json", function(specialdata) {
                         $.each(specialdata, function(idx, specialweapon) {
-                            if(specialweapon["Id"] != 13 && specialweapon["Id"] != 14 && specialweapon["Id"] != 15 && specialweapon["Id"] != 16) {
-                                $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], specialweapon["Name"].replace("Launcher", "BombLauncher")));
+                            if(specialweapon["Id"] != 14 && specialweapon["Id"] != 15 && specialweapon["Id"] != 16) {
+                                if(specialweapon["Id"] == 13) {
+                                    $("#special-select").append(new Option("Rainmaker", "Gachihoko"));
+                                } else {
+                                    $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], specialweapon["Name"].replace("Launcher", "BombLauncher")));
+                                }
                             }
                         });
                         load_init();
