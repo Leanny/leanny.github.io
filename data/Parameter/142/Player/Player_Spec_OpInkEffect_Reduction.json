@@ -1,0 +1,22 @@
+{
+    "OpInkEffect_Reduction": {
+        "OpInk_Damage_High": 0.003,
+        "OpInk_Damage_Lmt_High": 0.35,
+        "OpInk_Damage_Lmt_Low": 0.4,
+        "OpInk_Damage_Lmt_Mid": 0.375,
+        "OpInk_Damage_Low": 0.003,
+        "OpInk_Damage_Mid": 0.003,
+        "OpInk_JumpGnd_High": 1.05,
+        "OpInk_JumpGnd_Low": 0.6,
+        "OpInk_JumpGnd_Mid": 0.825,
+        "OpInk_VelGnd_High": 0.72,
+        "OpInk_VelGnd_Low": 0.24,
+        "OpInk_VelGnd_Mid": 0.48,
+        "OpInk_VelGnd_ShotK_High": 1.0,
+        "OpInk_VelGnd_ShotK_Low": 0.5,
+        "OpInk_VelGnd_ShotK_Mid": 0.75,
+        "OpInk_VelGnd_Shot_High": 0.4,
+        "OpInk_VelGnd_Shot_Low": 0.12,
+        "OpInk_VelGnd_Shot_Mid": 0.26
+    }
+}

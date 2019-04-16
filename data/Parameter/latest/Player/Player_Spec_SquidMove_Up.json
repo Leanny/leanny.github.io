@@ -1,0 +1,13 @@
+{
+    "SquidMove_Up": {
+        "MoveVel_Stealth_BigWeapon_High": 2.4,
+        "MoveVel_Stealth_BigWeapon_Low": 1.728,
+        "MoveVel_Stealth_BigWeapon_Mid": 2.16,
+        "MoveVel_Stealth_High": 2.4,
+        "MoveVel_Stealth_Low": 1.92,
+        "MoveVel_Stealth_Mid": 2.16,
+        "MoveVel_Stealth_ShortWeapon_High": 2.4,
+        "MoveVel_Stealth_ShortWeapon_Low": 2.016,
+        "MoveVel_Stealth_ShortWeapon_Mid": 2.208
+    }
+}

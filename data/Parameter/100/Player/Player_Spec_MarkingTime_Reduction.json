@@ -1,0 +1,13 @@
+{
+    "MarkingTime_Reduction": {
+        "MarkingTime_ShortRt_High": 0.25,
+        "MarkingTime_ShortRt_Low": 1.0,
+        "MarkingTime_ShortRt_Mid": 0.625,
+        "MarkingTime_ShortRt_Thermal_High": 1.0,
+        "MarkingTime_ShortRt_Thermal_Low": 1.0,
+        "MarkingTime_ShortRt_Thermal_Mid": 1.0,
+        "MarkingTime_ShortRt_Trap_High": 0.25,
+        "MarkingTime_ShortRt_Trap_Low": 1.0,
+        "MarkingTime_ShortRt_Trap_Mid": 0.625
+    }
+}

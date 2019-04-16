@@ -1,0 +1,7 @@
+{
+    "BombDistance_Up": {
+        "BombThrow_VelZ_High": 16.8,
+        "BombThrow_VelZ_Low": 11.2,
+        "BombThrow_VelZ_Mid": 14.0
+    }
+}

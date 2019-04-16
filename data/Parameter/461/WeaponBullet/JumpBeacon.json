@@ -1,0 +1,24 @@
+{
+    "param": {
+        "mColHeight": 15.0,
+        "mColRadius": 5.0,
+        "mConveyerRadius": 5.0,
+        "mDestroyWaitFrame": 0,
+        "mGndColOnMovingObj_OffsetY": 3.0,
+        "mGndColOnMovingObj_Radius": 3.0,
+        "mImmediateDestroyDamage": 99999,
+        "mImmediateDestroyDamageThreshold": 99900,
+        "mInkConsume": 0.75,
+        "mMapFoundDistance": 150.0,
+        "mMaxHp": 1200,
+        "mNoPlaceDistance": 8.0,
+        "mObjectDamageRateHigh": 10.0,
+        "mObjectDamageRateMid": 10.0,
+        "mPaintRadius": 10.0,
+        "mSubRt_Effect_JumpTime_Save": 1.0,
+        "mThermalDistance": -1.0,
+        "mWarpDestroyDamage": 10000,
+        "mWarpDestroyDamageThreshold": 9900,
+        "mWarpDestroyWaitFrame": 5
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "param": {
+        "mBombCoreCrossPaintRadius": 25.0,
+        "mBombCoreCrossPaintRayLength": 25.0,
+        "mBombCoreCrossPaintRayRadius": 1.0,
+        "mBombCoreDamageFar": 200,
+        "mBombCoreDamageMiddle": 350,
+        "mBombCoreDamageNear": 350,
+        "mBombCoreOffsetY": 4.5,
+        "mBombCorePaintRadius": 50.0,
+        "mBombCoreRadiusFar": 80.0,
+        "mBombCoreRadiusMiddle": 50.0,
+        "mBombCoreRadiusNear": 50.0,
+        "mBombCoreRadiusRateHigh": 1.375,
+        "mBombCoreRadiusRateMid": 1.1875,
+        "mExposePaintRate": 0.1,
+        "mHalfSphereThresholdY": -5.0,
+        "mHalfSphereThresholdY2": -15.0,
+        "mInkConsume": 0.6,
+        "mMarkingFrame": 300,
+        "mMaxHp": 1000,
+        "mPaintRadius": 10.0,
+        "mPlayerColRadius": 30.0,
+        "mPlayerColRadiusHigh": 40.0,
+        "mPlayerColRadiusMid": 35.0,
+        "mPresageFrame": 45,
+        "mTimerFrame": -1
+    }
+}

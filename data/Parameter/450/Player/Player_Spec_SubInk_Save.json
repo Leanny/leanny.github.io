@@ -1,0 +1,22 @@
+{
+    "SubInk_Save": {
+        "ConsumeRt_Sub_A_High": 0.8,
+        "ConsumeRt_Sub_A_Low": 1.0,
+        "ConsumeRt_Sub_A_Mid": 0.9,
+        "ConsumeRt_Sub_B_High": 0.7,
+        "ConsumeRt_Sub_B_Low": 1.0,
+        "ConsumeRt_Sub_B_Mid": 0.85,
+        "ConsumeRt_Sub_C_High": 0.65,
+        "ConsumeRt_Sub_C_Low": 1.0,
+        "ConsumeRt_Sub_C_Mid": 0.825,
+        "ConsumeRt_Sub_D_High": 0.6,
+        "ConsumeRt_Sub_D_Low": 1.0,
+        "ConsumeRt_Sub_D_Mid": 0.8,
+        "ConsumeRt_Sub_E_High": 0.5,
+        "ConsumeRt_Sub_E_Low": 1.0,
+        "ConsumeRt_Sub_E_Mid": 0.75,
+        "ConsumeRt_Sub_F_High": 1.0,
+        "ConsumeRt_Sub_F_Low": 1.0,
+        "ConsumeRt_Sub_F_Mid": 1.0
+    }
+}

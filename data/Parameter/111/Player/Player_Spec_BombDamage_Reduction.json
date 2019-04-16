@@ -1,0 +1,16 @@
+{
+    "BombDamage_Reduction": {
+        "BurstDamageRt_Main_High": 1.0,
+        "BurstDamageRt_Main_Low": 1.0,
+        "BurstDamageRt_Main_Mid": 1.0,
+        "BurstDamageRt_Special_High": 0.65,
+        "BurstDamageRt_Special_Low": 1.0,
+        "BurstDamageRt_Special_Mid": 0.825,
+        "BurstDamageRt_SubH_High": 0.5,
+        "BurstDamageRt_SubH_Low": 1.0,
+        "BurstDamageRt_SubH_Mid": 0.75,
+        "BurstDamageRt_SubL_High": 0.6,
+        "BurstDamageRt_SubL_Low": 1.0,
+        "BurstDamageRt_SubL_Mid": 0.8
+    }
+}

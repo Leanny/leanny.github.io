@@ -1,0 +1,19 @@
+{
+    "HumanMove_Up": {
+        "MoveVelRt_Human_ShotG_High": 1.3,
+        "MoveVelRt_Human_ShotG_Low": 1.0,
+        "MoveVelRt_Human_ShotG_Mid": 1.15,
+        "MoveVelRt_Human_Shot_High": 1.25,
+        "MoveVelRt_Human_Shot_Low": 1.0,
+        "MoveVelRt_Human_Shot_Mid": 1.125,
+        "MoveVel_Human_BigWeapon_High": 1.44,
+        "MoveVel_Human_BigWeapon_Low": 0.88,
+        "MoveVel_Human_BigWeapon_Mid": 1.16,
+        "MoveVel_Human_High": 1.44,
+        "MoveVel_Human_Low": 0.96,
+        "MoveVel_Human_Mid": 1.2,
+        "MoveVel_Human_ShortWeapon_High": 1.44,
+        "MoveVel_Human_ShortWeapon_Low": 1.04,
+        "MoveVel_Human_ShortWeapon_Mid": 1.24
+    }
+}

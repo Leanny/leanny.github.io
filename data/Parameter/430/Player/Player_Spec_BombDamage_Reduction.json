@@ -1,0 +1,25 @@
+{
+    "BombDamage_Reduction": {
+        "BurstDamageRt_Main_High": 1.0,
+        "BurstDamageRt_Main_Low": 1.0,
+        "BurstDamageRt_Main_Mid": 1.0,
+        "BurstDamageRt_Special_High": 0.65,
+        "BurstDamageRt_Special_Low": 1.0,
+        "BurstDamageRt_Special_Mid": 0.825,
+        "BurstDamageRt_SubH_High": 0.5,
+        "BurstDamageRt_SubH_Low": 1.0,
+        "BurstDamageRt_SubH_Mid": 0.75,
+        "BurstDamageRt_SubL_High": 0.6,
+        "BurstDamageRt_SubL_Low": 1.0,
+        "BurstDamageRt_SubL_Mid": 0.8,
+        "MarkingTime_ShortRt_High": 0.1,
+        "MarkingTime_ShortRt_Low": 1.0,
+        "MarkingTime_ShortRt_Mid": 0.55,
+        "MarkingTime_ShortRt_Thermal_High": 1.0,
+        "MarkingTime_ShortRt_Thermal_Low": 1.0,
+        "MarkingTime_ShortRt_Thermal_Mid": 1.0,
+        "MarkingTime_ShortRt_Trap_High": 0.1,
+        "MarkingTime_ShortRt_Trap_Low": 1.0,
+        "MarkingTime_ShortRt_Trap_Mid": 0.55
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "param": {
+        "mChargeKeepAnytime": false,
+        "mCoopDamageMaxMaxCharge": 350,
+        "mDamageMaxMaxCharge": 280,
+        "mEmptyChargeTimes": 4,
+        "mFirstPeriodMaxChargeFrame": 50,
+        "mFirstPeriodMaxChargeShootingFrame": 60,
+        "mFirstShootingTermBulletNum": 0,
+        "mInitVelDegBias": 0.4,
+        "mInitVelDegRandom": 1.4,
+        "mInitVelFirstPeriodMaxCharge": 19.5,
+        "mInitVelMinCharge": 10.5,
+        "mInitVelSecondPeriodMaxCharge": 19.5,
+        "mInitVelSecondPeriodMinCharge": 19.5,
+        "mInitVelSpeedBias": 0.2,
+        "mInitVelSpeedRateRandom": 0.11,
+        "mJumpGnd_Charge": 0.8,
+        "mJumpGnd_Shooting": -0.1,
+        "mMinChargeFrame": 8,
+        "mMoveSpeed_Charge": 0.6,
+        "mPreDelayFrm_KeepCharge": 25,
+        "mPreDelayFrm_KeepChargePre": 20,
+        "mSecondPeriodMaxChargeFrame": 75,
+        "mSecondPeriodMaxChargeShootingFrame": 120,
+        "mSquidChangeReduceWaitFullFrame": 75,
+        "mVelGnd_Bias_Charge": 0.9,
+        "mVelGnd_DownRt_Charge": 0.05,
+        "mWaitShootingFrame": 0
+    }
+}

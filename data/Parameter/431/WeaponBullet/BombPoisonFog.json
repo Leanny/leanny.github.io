@@ -1,0 +1,30 @@
+{
+    "param": {
+        "mBringCloseRateCrossVec": 0.7,
+        "mBringCloseRateMoveVec": 0.7,
+        "mBurstEffectFrame": 300,
+        "mBurst_Radius_Far": 55.0,
+        "mBurst_Radius_Middle": 54.0,
+        "mBurst_Radius_Near": 55.0,
+        "mEffectShakeRange": 0.0,
+        "mFly_Gravity": 0.16,
+        "mFly_InitPit": 0.4,
+        "mFly_InitRol": 0.12,
+        "mFly_RotI": 20.0,
+        "mFly_RotKd": 0.98015,
+        "mFly_VelKd": 0.941337,
+        "mInkConsume": 0.6,
+        "mInkConsumeRate": 0.05,
+        "mInkRecoverFrame": 10,
+        "mLossLv1CycleFrm": 60,
+        "mLossLv1Num": 3,
+        "mLossLv2CycleFrm": 30,
+        "mLossLv2Num": 4,
+        "mLossLv3CycleFrm": 15,
+        "mPoisonFrame": 2,
+        "mShape_SphereD": 5.0,
+        "mShape_SphereR": 2.0,
+        "mSideStepInkConsumeScale": 3.5,
+        "mThroughWall": true
+    }
+}

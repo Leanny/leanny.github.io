@@ -1,0 +1,7 @@
+{
+    "SpecialIncrease_Up": {
+        "SpecialRt_Charge_High": 1.3,
+        "SpecialRt_Charge_Low": 1.0,
+        "SpecialRt_Charge_Mid": 1.15
+    }
+}

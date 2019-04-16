@@ -1,0 +1,22 @@
+{
+    "param": {
+        "mBringCloseRateCrossVec": 0.7,
+        "mBringCloseRateMoveVec": 0.7,
+        "mBurstEffectFrame": 150,
+        "mBurst_Radius_Far": 60.0,
+        "mBurst_Radius_Middle": 59.0,
+        "mBurst_Radius_Near": 60.0,
+        "mEffectShakeRange": 0.0,
+        "mFly_Gravity": 0.16,
+        "mFly_InitPit": 0.4,
+        "mFly_InitRol": 0.12,
+        "mFly_RotI": 20.0,
+        "mFly_RotKd": 0.98015,
+        "mFly_VelKd": 0.941337,
+        "mInkConsume": 0.6,
+        "mMarkingFrame": 480,
+        "mShape_SphereD": 5.0,
+        "mShape_SphereR": 2.0,
+        "mThroughWall": true
+    }
+}

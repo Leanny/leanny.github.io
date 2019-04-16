@@ -1,0 +1,25 @@
+{
+    "param": {
+        "mBreakAfterglowFrm": 12,
+        "mEnergyAbsorbFrm": 90,
+        "mEnergyAbsorbFrmH": 30,
+        "mEnergyAbsorbFrmM": 60,
+        "mFinishNoticeFrm": 180,
+        "mInvokeMotion_Frm": 30,
+        "mInvokeMotion_JumpGnd": 0.0,
+        "mInvokeMotion_NoSquidFrm": 40,
+        "mInvokeMotion_VelGnd": 0.0,
+        "mMaxDamageInPlayer": 800,
+        "mMoveDistH": 600.0,
+        "mMoveFrmH": 30,
+        "mMoveFrmL": 10,
+        "mObjectEffect_Up_DamageRt_High": 3.0,
+        "mObjectEffect_Up_DamageRt_Low": 1.0,
+        "mObjectEffect_Up_DamageRt_Mid": 3.0,
+        "mOverDamageInPlayer": 1000,
+        "mPaintGauge_PointFull": 180,
+        "mPaintGauge_SpecialFrm": 360,
+        "mPaintGauge_SpecialFrmH": 540,
+        "mPaintGauge_SpecialFrmM": 450
+    }
+}

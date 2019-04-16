@@ -1,0 +1,16 @@
+{
+    "param": {
+        "mChargeFrmH": 20,
+        "mChargeFrmL": 0,
+        "mDelayFrm_Squid": 10,
+        "mPaintGauge_PointFull": 180,
+        "mPaintGauge_SpecialFrm": 360,
+        "mPaintGauge_SpecialFrmH": 480,
+        "mPaintGauge_SpecialFrmM": 420,
+        "mShotSpanFrm": 30,
+        "mSpeedB": 0.5,
+        "mSpeedH": 18.0,
+        "mSpeedL": 9.5,
+        "mUnrelaxFrmNoBomb": 60
+    }
+}

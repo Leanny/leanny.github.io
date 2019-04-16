@@ -1,0 +1,7 @@
+{
+    "RespawnSpecialGauge_Save": {
+        "SpecialRt_Restart_High": 1.0,
+        "SpecialRt_Restart_Low": 0.5,
+        "SpecialRt_Restart_Mid": 0.7
+    }
+}

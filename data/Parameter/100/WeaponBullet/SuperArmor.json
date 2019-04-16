@@ -1,0 +1,20 @@
+{
+    "param": {
+        "mEnergyAbsorbFrm": 90,
+        "mFinishNoticeFrm": 180,
+        "mInvokeMotion_Frm": 30,
+        "mInvokeMotion_JumpGnd": 0.0,
+        "mInvokeMotion_NoSquidFrm": 40,
+        "mInvokeMotion_VelGnd": 0.0,
+        "mMoveDistH": 600.0,
+        "mMoveFrmH": 30,
+        "mMoveFrmL": 10,
+        "mObjectEffect_Up_DamageRt_High": 3.0,
+        "mObjectEffect_Up_DamageRt_Low": 1.0,
+        "mObjectEffect_Up_DamageRt_Mid": 3.0,
+        "mPaintGauge_PointFull": 180,
+        "mPaintGauge_SpecialFrm": 360,
+        "mPaintGauge_SpecialFrmH": 540,
+        "mPaintGauge_SpecialFrmM": 450
+    }
+}
