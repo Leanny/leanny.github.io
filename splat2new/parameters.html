@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Splatoon 2 - Parameter Database</title>
+      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+      <style>
+         .bd-placeholder-img {
+         font-size: 1.125rem;
+         text-anchor: middle;
+         -webkit-user-select: none;
+         -moz-user-select: none;
+         -ms-user-select: none;
+         user-select: none;
+         }
+         @media (min-width: 768px) {
+         .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+         }
+         }
+         .themed-grid-col {
+         padding-top: 15px;
+         padding-bottom: 15px;
+         background-color: rgba(86, 61, 124, .15);
+         border: 1px solid rgba(86, 61, 124, .2);
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+         <a class="navbar-brand" href="#">Weapon and Gear Database</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+               <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="database.html">Weapon and Gear Database</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="parameters.html">Parameter Database</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+      <main role="main">
+         <div class="jumbotron">
+            <div class="col-sm-8 mx-auto">
+               <h1>Splatoon 2 - Parameter Database</h1>
+               <select class="form-control" id="version">
+               </select>
+               <ul class="nav nav-tabs" id="modes" role="tablist">
+                  <li class="nav-item">
+                     <a class="nav-link active" id="weapons-tab" data-toggle="tab" href="#weapons" role="tab" aria-controls="weapons" aria-selected="true">Main Weapons</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="subweapons-tab" data-toggle="tab" href="#subweapons" role="tab" aria-controls="subweapons" aria-selected="false">Sub Weapons</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="specialweapons-tab" data-toggle="tab" href="#specialweapons" role="tab" aria-controls="specialweapons" aria-selected="false">Special Weapons</a>
+                  </li>
+               </ul>
+               <div class="tab-content" id="modeTabControl">
+                  <div class="tab-pane fade show active" id="weapons" role="tabpanel" aria-labelledby="weapons-tab">
+                     <ul class="nav nav-tabs" id="weapontype" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="shooter-tab" data-toggle="tab" href="#shooter" role="tab" aria-controls="shooter" aria-selected="true">Shooter Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="blaster-tab" data-toggle="tab" href="#blaster" role="tab" aria-controls="blaster" aria-selected="false">Blaster Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="charger-tab" data-toggle="tab" href="#charger" role="tab" aria-controls="charger" aria-selected="false">Charger Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="roller-tab" data-toggle="tab" href="#roller" role="tab" aria-controls="roller" aria-selected="false">Roller Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="splatlings-tab" data-toggle="tab" href="#splatlings" role="tab" aria-controls="splatlings" aria-selected="false">Splatling Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="slosher-tab" data-toggle="tab" href="#slosher" role="tab" aria-controls="slosher" aria-selected="false">Slosher Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="twins-tab" data-toggle="tab" href="#twins" role="tab" aria-controls="twins" aria-selected="false">Dualie Weapons</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="brella-tab" data-toggle="tab" href="#brella" role="tab" aria-controls="brella" aria-selected="false">Umbrella Weapons</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="weaponsTabControl">
+                        <div class="tab-pane fade show active" id="shooter" role="tabpanel" aria-labelledby="shooter-tab">
+                           <select class="form-control" id="shooter-select">
+                           </select>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="shooter-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="blaster" role="tabpanel" aria-labelledby="blaster-tab">
+                           <select class="form-control" id="blaster-select">
+                           </select>
+                           <h2>Main Weapon</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="blaster-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                           <h2>Explosion</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="blasterblast-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="charger" role="tabpanel" aria-labelledby="charger-tab">
+                           <select class="form-control" id="charger-select">
+                           </select>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="charger-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="roller" role="tabpanel" aria-labelledby="roller-tab">
+                           <select class="form-control" id="roller-select">
+                           </select>
+                           <h2>Main Weapon</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="roller-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                           <h2>Standing</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="rollerstand-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                           <h2>Jumping</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="rollerjump-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="splatlings" role="tabpanel" aria-labelledby="splatlings-tab">
+                           <select class="form-control" id="splatlings-select">
+                           </select>
+                           <h2>Main Weapon</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="splatlings-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                           <h2>Shooting Related</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="splatlings2-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="slosher" role="tabpanel" aria-labelledby="slosher-tab">
+                           <select class="form-control" id="slosher-select">
+                           </select>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="slosher-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="twins" role="tabpanel" aria-labelledby="twins-tab">
+                           <select class="form-control" id="twins-select">
+                           </select>
+                           <h2>Main Weapon</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="twins-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                           <h2>Sliding</h2>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="twins2-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="brella" role="tabpanel" aria-labelledby="brella-tab">
+                           <select class="form-control" id="brella-select">
+                           </select>
+                           <div class="table-responsive">
+                              <table class="table table-striped table-hover" id="brella-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                 <thead>
+                                    <tr>
+                                       <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                       <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                    </tr>
+                                 </thead>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="subweapons" role="tabpanel" aria-labelledby="subweapons-tab">
+                     <select class="form-control" id="sub-select">
+                     </select>
+                     <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="subweapons-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                           <thead>
+                              <tr>
+                                 <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                 <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                              </tr>
+                           </thead>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="tab-pane fade" id="specialweapons" role="tabpanel" aria-labelledby="specialweapons-tab">
+                     <select class="form-control" id="special-select">
+                     </select>
+                     <div class="table-responsive">
+                        <table class="table table-striped table-hover" id="specialweapons-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                           <thead>
+                              <tr>
+                                 <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                 <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                              </tr>
+                           </thead>
+                        </table>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <script>
+            var version = 100
+            var lang_dict = {}
+            $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
+                var last = 0
+                $.each(vers, function(key, ver) {
+                    $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
+                    last = ver
+                });
+                $("#version").val(last);
+                version = last;
+                $.getJSON("https://leanny.github.io/data/Languages/lang_dict_EUen.json", function(d) {
+                    $.each(d, function(key, val) {
+                        lang_dict[key] = val
+                    });
+                    load_weapons();
+                });
+            });
+           
+            function load_weapons() {
+                $("#shooter-select").children().remove();
+                $("#blaster-select").children().remove();
+                $("#roller-select").children().remove();
+                $("#splatlings-select").children().remove();
+                $("#twins-select").children().remove();
+                $("#brella-select").children().remove();
+                $("#slosher-select").children().remove();
+                $("#sub-select").children().remove();
+                $("#special-select").children().remove();
+                $.each(lang_dict, function(name, translation) {
+                    if (name.includes("Shooter") && !name.includes("Blaster") && name.includes("_00")) {
+                        $("#shooter-select").append(new Option(translation, name.replace("Shooter_", "Shooter").replace("_00", "")));
+                        if (name.includes("Flash") && version >= "200") {
+                            $("#shooter-select").append(new Option(translation + " (Repeat)", name.replace("Shooter_", "Shooter").replace("_00", "") + "Repeat"));
+                        }
+                    }
+                    if (name.includes("Blaster") && name.includes("_00")) {
+                        $("#blaster-select").append(new Option(translation, name.replace("Shooter_", "").replace("_00", "")));
+                    }
+                    if (name.includes("Charger") && name.includes("_00")) {
+                        $("#charger-select").append(new Option(translation, name.replace("Charger_", "Charger").replace("_00", "")));
+                    }
+                    if (name.includes("Roller") && name.includes("_00")) {
+                        $("#roller-select").append(new Option(translation, name.replace("Roller_", "Roller").replace("_00", "")));
+                    }
+                    if (name.includes("Spinner") && name.includes("_00")) {
+                        if (!(name.includes("Downpour") && version < "120") && !(name.includes("Serein") && version < "200")) { 
+                            $("#splatlings-select").append(new Option(translation, name.replace("Spinner_", "Spinner").replace("_00", "")));
+                            if (name.includes("Downpour") && version >= "310") {
+                                $("#splatlings-select").append(new Option(translation + " (Repeat)", name.replace("Spinner_", "Spinner").replace("_00", "")  + "Repeat"));  
+                            }
+                        }
+                    }
+                    if (name.includes("Twins") && name.includes("_00")) {
+                        $("#twins-select").append(new Option(translation, name.replace("Twins_", "Twins").replace("_00", "")));
+                    }
+                    if (name.includes("Umbrella") && name.includes("_00")) {
+                        $("#brella-select").append(new Option(translation, name.replace("Umbrella_", "Umbrella").replace("_00", "")));
+                    }
+                    if (name.includes("Slosher") && name.includes("_00")) {
+                        if (!(name.includes("Bathtub") && version < "120") && !(name.includes("Washtub") && version < "310")) { //310
+                            $("#slosher-select").append(new Option(translation, name.replace("Slosher_", "Slosher").replace("_00", "")));
+                        }
+                    }
+                });
+                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Sub.json", function(subsdata) {
+                    $.each(subsdata, function(idx, subweapon) {
+                        if (subweapon["Id"] < 100) {
+                            name = subweapon["Name"];
+                            internal_name = name;
+                            if(name.includes("Bomb_")) {
+                                internal_name = name.replace("Bomb_", "Bomb")
+                            }
+                            if(name == "TimerTrap") {
+                                internal_name = "Trap"
+                            }
+                            if(name.includes("Poison") || name.includes("Point")) {
+                                internal_name = "Bomb" + name
+                            }
+                            
+                            if(name == "Flag") {
+                                internal_name = "JumpBeacon"
+                            }
+
+                            $("#sub-select").append(new Option(lang_dict[subweapon["Name"]], internal_name));
+                        }
+                    });
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Special.json", function(specialdata) {
+                        $.each(specialdata, function(idx, specialweapon) {
+                            if(specialweapon["Id"] != 13 && specialweapon["Id"] != 14 && specialweapon["Id"] != 15 && specialweapon["Id"] != 16) {
+                                $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], specialweapon["Name"].replace("Launcher", "BombLauncher")));
+                            }
+                        });
+                        load_init();
+                    });
+                });
+            }
+            
+            function load_params(name, table) {
+                $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + name + ".json", function(data) {
+                    var rowData = []
+                    $.each(data["param"], function(key, val) {
+                            var row = ({
+                                Name: key.substring(1),
+                                Value: val
+                            });
+                            rowData.push(row);
+                    });
+                    $(table).bootstrapTable('refreshOptions',{"data": rowData});
+                })  
+            }
+            
+            function load_init() {
+                $("#shooter-select").change();
+                $("#charger-select").change();
+                $("#slosher-select").change();
+                $("#brella-select").change();
+                $("#blaster-select").change();
+                $("#roller-select").change();
+                $("#twins-select").change();
+                $("#splatlings-select").change();
+                $("#sub-select").change();
+                $("#special-select").change();
+            }
+            
+            $(function() {
+                $('#shooter-table').bootstrapTable({});
+                $('#blaster-table').bootstrapTable({});
+                $('#blasterblast-table').bootstrapTable({});
+                $('#charger-table').bootstrapTable({});
+                $('#roller-table').bootstrapTable({});
+                $('#splatlings-table').bootstrapTable({});
+                $('#twins-table').bootstrapTable({});
+                $('#brella-table').bootstrapTable({});
+                $('#slosher-table').bootstrapTable({});
+                $('#twins2-table').bootstrapTable({});
+                $('#rollerjump-table').bootstrapTable({});
+                $('#splatlings2-table').bootstrapTable({});
+                $('#rollerstand-table').bootstrapTable({});
+                $('#subweapons-table').bootstrapTable({});
+                $('#specialweapons-table').bootstrapTable({});
+                $('#version').change(function() {
+                    version = ($(this).val());
+                    load_weapons();
+                });
+                $('#shooter-select').change(function() {
+                    load_params($(this).val(), '#shooter-table');
+                })
+                $('#charger-select').change(function() {
+                    load_params($(this).val(), '#charger-table');
+                })
+                $('#slosher-select').change(function() {
+                    load_params($(this).val(), '#slosher-table');
+                })
+                $('#brella-select').change(function() {
+                    load_params($(this).val(), '#brella-table');
+                })
+                $('#blaster-select').change(function() {
+                    load_params($(this).val(), '#blaster-table');
+                    load_params($(this).val() + "_Burst", '#blasterblast-table');
+                })
+                $('#roller-select').change(function() {
+                    load_params($(this).val(), '#roller-table');
+                    load_params($(this).val() + "_Stand", '#rollerstand-table');
+                    load_params($(this).val() + "_Jump", '#rollerjump-table');
+                })
+                $('#twins-select').change(function() {
+                    load_params($(this).val(), '#twins-table');
+                    load_params($(this).val() + "_2", '#twins2-table');
+                })
+                $('#splatlings-select').change(function() {
+                    if($(this).val() == "SpinnerDownpour_Repeat") {
+                        load_params($(this).val(), '#splatlings-table');
+                        load_params("SpinnerDownpour_2", '#splatlings2-table');
+                    } else {
+                        load_params($(this).val(), '#splatlings-table');
+                        load_params($(this).val() + "_2", '#splatlings2-table');
+                    }
+                })
+                $('#sub-select').change(function() {
+                    load_params($(this).val(), '#subweapons-table');
+                })
+                $('#special-select').change(function() {
+                    load_params($(this).val(), '#specialweapons-table');
+                })
+            })
+         </script>
+      </main>
+      <footer class="footer">
+         <div class="container text-muted">
+            <div class="footer-notice">
+               <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. Overall support provided by <a href="https://twitter.com/WemI0"><span class="fa fa-twitter">WemI0</span></a>, <a href="https://twitter.com/OatmealDome"><span class="fa fa-twitter">OatmealDome</span></a>, and <a href="https://twitter.com/Simon1844"><span class="fa fa-twitter">Simon</span></a></p>
+               <p>Feedback or suggestions are welcome. Please contact me via Twitter. <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a></p>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>

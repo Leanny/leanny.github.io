@@ -48,6 +48,9 @@
                <li class="nav-item">
                   <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
                </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="parameters.html">Parameter Database</a>
+               </li>
             </ul>
          </div>
       </nav>
@@ -171,62 +174,62 @@
             var dmginfodata = {}
             
             $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
-            var last = 0
-            $.each(vers, function(key, ver) {
-                $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
-                last = ver
-            });
-            $("#version").val(last);
-            version = last;
-            loadData();
+                var last = 0
+                $.each(vers, function(key, ver) {
+                    $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
+                    last = ver
+                });
+                $("#version").val(last);
+                version = last;
+                loadData();
             });
             
             $('#version').change(function() {
-            version = ($(this).val())
-            loadData();
+                version = ($(this).val())
+                loadData();
             })
             
             $('#object').change(function() {
-            loadIntoTable($(this).val())
+                loadIntoTable($(this).val())
             })
             
             function loadIntoTable(name) {
-            var data = []
-            var toUse = dmginfodata[name] || []
-            $.each(toUse, function(key, val) {
-                if (key != "Name") {
-                    entry = {
-                        "Name": dealsTo[key] || key ,
-                        "Multiplier": val
+                var data = []
+                var toUse = dmginfodata[name] || []
+                $.each(toUse, function(key, val) {
+                    if (key != "Name") {
+                        entry = {
+                            "Name": dealsTo[key] || key ,
+                            "Multiplier": val
+                        }
+                        data.push(entry);
                     }
-                    data.push(entry);
-                }
-            });
-            $('#dmg-table').bootstrapTable('refreshOptions', {
-                "data": data
-            });
+                });
+                $('#dmg-table').bootstrapTable('refreshOptions', {
+                    "data": data
+                });
             }
             
             function loadData() {
-            dmginfodata = {}
-            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/DamageRateInfo.json", function(dmgrateinfo) {
-                $("#object").children().remove()
-                $.each(dmgrateinfo, function(idx, dmginfo) {
-                    if(dmginfo["Name"] != "") {
-                        dmginfodata[dmginfo["Name"]] = dmginfo
+                dmginfodata = {}
+                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/DamageRateInfo.json", function(dmgrateinfo) {
+                    $("#object").children().remove()
+                    $.each(dmgrateinfo, function(idx, dmginfo) {
+                        if(dmginfo["Name"] != "") {
+                            dmginfodata[dmginfo["Name"]] = dmginfo
+                        }
+                    });
+                    var sorted = [];
+                    for(var key in dmginfodata) {
+                        sorted[sorted.length] = key;
                     }
+                    sorted.sort();
+                    $.each(sorted, function(idx, key) {
+                        $("#object").append(new Option(headlines[dmginfodata[key]["Name"]] || dmginfodata[key]["Name"], key));
+                    }); 
+                    
+                    loadIntoTable(sorted[0])
                 });
-                var sorted = [];
-                for(var key in dmginfodata) {
-                    sorted[sorted.length] = key;
-                }
-                sorted.sort();
-                $.each(sorted, function(idx, key) {
-                    $("#object").append(new Option(headlines[dmginfodata[key]["Name"]] || dmginfodata[key]["Name"], key));
-                }); 
-                
-                loadIntoTable(sorted[0])
-            });
             }
             
          </script>
