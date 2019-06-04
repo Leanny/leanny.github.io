@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/css/bootstrap-slider.css" integrity="sha256-jdZgwzG/YTTVCVs+8oG9il7UD/T5P1oaQ2S83BF1D8s=" crossorigin="anonymous" />
+        <title>Splatoon 2 - Ability Effect Database</title>
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .themed-grid-col {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: rgba(86, 61, 124, .15);
+                border: 1px solid rgba(86, 61, 124, .2);
+            }
+            canvas{
+                -moz-user-select: none;
+                -webkit-user-select: none;
+                -ms-user-select: none;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Weapon and Gear Database</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parameters.html">Parameter Database</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.1/bootstrap-slider.js" integrity="sha256-WzyQA5KtHvGY2wDq2tVFehwI8SnSjpoUahzv9QEPDCU=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+        <script src="js/Chart.min.js"></script>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="col-sm-8 mx-auto">
+                    <h1>Splatoon 2 - Ability Effect Database</h1>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapsePlot" aria-expanded="false" aria-controls="collapsePlot">
+                        Graphical View
+                    </button>
+                    <div class="collapse" id="collapsePlot">
+                      <div class="card card-body">
+                        <canvas id="canvas"></canvas>
+                      </div>
+                      <button type="button" class="btn btn-primary" onclick="clearPlot()">Clear Plot</button>
+                    </div>
+                    <select class="form-control" id="version">
+                    </select>
+                    <ul class="nav nav-tabs" id="modes" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="ability-tab" data-toggle="tab" href="#ability" role="tab" aria-controls="ability" aria-selected="true">General Abilities</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="main-tab" data-toggle="tab" href="#main" role="tab" aria-controls="main" aria-selected="false">Main Weapon Dependant</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="sub-tab" data-toggle="tab" href="#sub" role="tab" aria-controls="sub" aria-selected="false">Sub Weapon Dependent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="spec-tab" data-toggle="tab" href="#spec" role="tab" aria-controls="spec" aria-selected="false">Special Weapon Dependent</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="modeTabControl">
+                        <div class="tab-pane fade show active" id="ability" role="tabpanel" aria-labelledby="ability-tab">
+                            <ul class="nav nav-tabs" id="generalabilities" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="qr-tab" data-toggle="tab" href="#qr" role="tab" aria-controls="qr" aria-selected="true">Quick Respawn</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="inkres-tab" data-toggle="tab" href="#inkres" role="tab" aria-controls="inkres" aria-selected="false">Ink Resistance Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="cb-tab" data-toggle="tab" href="#cb" role="tab" aria-controls="cb" aria-selected="false">Cold-Blooded</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="qsj-tab" data-toggle="tab" href="#qsj" role="tab" aria-controls="qsj" aria-selected="false">Quick Super Jump</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="iru-tab" data-toggle="tab" href="#iru" role="tab" aria-controls="iru" aria-selected="false">Ink Recovery Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="bdu-tab" data-toggle="tab" href="#bdu" role="tab" aria-controls="bdu" aria-selected="false">Bomb Defense Up</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="abilityTabControl">
+                                <div class="tab-pane fade show active" id="qr" role="tabpanel" aria-labelledby="qr-tab">
+                                    <h2>Dying Frames</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('qr1');">Add "Dying Frames" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="qr1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Frames" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Deathcam Frames</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('qr2');">Add "Deathcam Frames" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="qr2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Frames" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="inkres" role="tabpanel" aria-labelledby="inkres-tab">
+                                    <h2>Jump in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres1');">Add "Jump in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Height</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Shoot in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres2');">Add "Shoot in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Distance Units per Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Runspeed in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres3');">Add "Runspeed in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Distance Units per Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Damage Limit in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres4');">Add "Damage Limit in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres4-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Damage Limit</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Damage per Frame in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres5');">Add "Damage Limit in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres5-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Damage per Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Armor in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('inkres6');">Add "Armor in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="inkres6-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Armor Duration in Frames</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="cb" role="tabpanel" aria-labelledby="cb-tab">
+                                    <h2>Marking Time - Point Sensors</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('cb1');">Add "Marking Time - Point Sensors" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="cb1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Duration Multiplier</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Marking Time - Ink Mines</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('cb2');">Add "Marking Time - Ink Mines" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="cb2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Duration Multiplier</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Thermal-Ink Sillhoute - Far Range Distance</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('cb3');">Add "Thermal-Ink Sillhoute - Far Range Distance" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="cb3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Distance</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Thermal-Ink Sillhoute - Close Range Distance</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('cb4');">Add "Thermal-Ink Sillhoute - Close Range Distance" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="cb4-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Distance</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qsj" role="tabpanel" aria-labelledby="qsj-tab">
+                                    <h2>Prepare Frames</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('qsj1');">Add "Prepare Frames" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="qsj1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Jump Frames</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('qsj2');">Add "Jump Frames" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="qsj2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="iru" role="tabpanel" aria-labelledby="iru-tab">
+                                   <h2>Recovery Time in Ink</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('iru1');">Add "Recovery Time in Ink" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="iru1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Recovery Time Standing</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('iru2');">Add "Recovery Time Standing" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="iru2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Frames</th>
+                                                <th scope="col" data-field="Seconds" data-sortable="true">Seconds</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="bdu" role="tabpanel" aria-labelledby="bdu-tab">
+                                   <h2>Special Damage Multiplier</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('bdu1');">Add "Special Damage Multiplier" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="bdu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Mutliplier</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                   <h2>Close Hit Sub Damage Multiplier</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('bdu2');">Add "Close Hit Sub Damage Multiplier" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="bdu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Mutliplier</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2>Far Hit Sub Damage Multiplier</h2>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('bdu3');">Add "Far Hit Sub Damage Multiplier" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="bdu3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Mutliplier</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--
+                                <div class="table-responsive">
+                                   <table class="table table-striped table-hover" id="main-table" data-sortable="true" data-search="true" data-show-pagination-switch="true">
+                                      <thead>
+                                         <tr>
+                                            <th scope="col" data-field="Name" data-sortable="true">Parameter Name</th>
+                                            <th scope="col" data-field="Value" data-sortable="true">Value</th>
+                                         </tr>
+                                      </thead>
+                                   </table>
+                                </div>
+                                -->
+                        </div>
+                        <div class="tab-pane fade" id="main" role="tabpanel" aria-labelledby="main-tab">
+                            <select class="form-control" id="mainweapon">
+                            </select>
+                            <div id="WeaponInfo">
+                            </div>
+                            <ul class="nav nav-tabs" id="mainabilities" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="ism-tab" data-toggle="tab" href="#ism" role="tab" aria-controls="ism" aria-selected="true">Ink Saver (Main)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="rsu-tab" data-toggle="tab" href="#rsu" role="tab" aria-controls="rsu" aria-selected="false">Run Speed Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="ssu-tab" data-toggle="tab" href="#ssu" role="tab" aria-controls="ssu" aria-selected="false">Swim Speed Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="scu-tab" data-toggle="tab" href="#scu" role="tab" aria-controls="scu" aria-selected="false">Special Charge Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="sps-tab" data-toggle="tab" href="#sps" role="tab" aria-controls="sps" aria-selected="false">Special Saver</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="mpu-tab" data-toggle="tab" href="#mpu" role="tab" aria-controls="mpu" aria-selected="false">Main Power Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="issm-tab" data-toggle="tab" href="#issm" role="tab" aria-controls="issm" aria-selected="false">Main/Sub Ink Consume Table</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="mainTabControl">
+                                <div class="tab-pane fade show active" id="ism" role="tabpanel" aria-labelledby="ism-tab">
+                                    <div id="charger" style="display: none;">
+                                        <p><input id="chargeFramesSlider" type="text" data-slider-min="8" data-slider-max="20" data-slider-step="1" data-slider-value="8" />
+                                        <span id="currentChargeFrame">Charge Frames: <span id="chargeFrameVal">8 (0%)</span></span></p>
+                                    </div>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('ism');">Add "Ink Consumption" to Plot</button>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('ism2');">Add "Maximum Number of Shots" to Plot</button>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="ism-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Ink Consumption per Shot</th>
+                                                <th scope="col" data-field="MaxShots" data-sortable="true">Maximum Number of Shots</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="rsu" role="tabpanel" aria-labelledby="rsu-tab">
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('rsu1');">Add "Run Speed" to Plot</button>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('rsu2');">Add "Run Speed (Shooting)" to Plot</button>
+                                    <h2>Run Speed</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="rsu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">DU/Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                   </div>
+                                   <h2>Run Speed (Shooting)</h2>
+                                   <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="rsu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">DU/Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="ssu" role="tabpanel" aria-labelledby="ssu-tab">
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('ssu1');">Add "Swim Speed" to Plot</button>
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('ssu2');">Add "Swim Speed (Ninja Squid)" to Plot</button>
+                                    <h2>Swim Speed</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="ssu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">DU/Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                   </div>
+                                   <h2>Swim Speed (Ninja)</h2>
+                                   <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="ssu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">DU/Frame</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="scu" role="tabpanel" aria-labelledby="scu-tab">
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('scu');">Add "Special Charge Up" to Plot</button>
+                                    <h2>Special Charge Up</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="scu-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Special Costs</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                   </div>
+                                </div>
+                                <div class="tab-pane fade" id="sps" role="tabpanel" aria-labelledby="sps-tab">
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('sps');">Add "Special Saver Up" to Plot</button>
+                                    <h2>Special Charge Up</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="sps-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Special Remaining (full special)</th>
+                                                <th scope="col" data-field="Effect2" data-sortable="true">Special Remaining (percentage)</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                   </div>
+                                </div>
+                                <div class="tab-pane fade" id="mpu" role="tabpanel" aria-labelledby="mpu-tab">
+                                    <button type="button" id="mpu1-button" class="btn btn-info" onclick="addToPlot('mpu1');">Add "Main Power Up Effect 1" to Plot</button>
+                                    <button type="button" id="mpu2-button" class="btn btn-info" onclick="addToPlot('mpu2');">Add "Main Power Up Effect 2" to Plot</button>
+                                    <button type="button" id="mpu3-button" class="btn btn-info" onclick="addToPlot('mpu3');">Add "Main Power Up Effect 3" to Plot</button>
+                                    <button type="button" id="mpu4-button" class="btn btn-info" onclick="addToPlot('mpu4');">Add "Main Power Up Effect 4" to Plot</button>
+                                    <button type="button" id="mpu5-button" class="btn btn-info" onclick="addToPlot('mpu5');">Add "Main Power Up Effect 5" to Plot</button>
+                                    <button type="button" id="mpu6-button" class="btn btn-info" onclick="addToPlot('mpu6');">Add "Main Power Up Effect 6" to Plot</button>
+                                    <h2 id="mpu1-headline">Main Power Up Effect 1</h2>
+                                    <div class="table-responsive" id="mpu1-table-div">
+                                       <table class="table table-striped table-hover" id="mpu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="mpu2-headline">Main Power Up Effect 2</h2>
+                                    <div class="table-responsive" id="mpu2-table-div">
+                                       <table class="table table-striped table-hover" id="mpu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="mpu3-headline">Main Power Up Effect 3</h2>
+                                    <div class="table-responsive" id="mpu3-table-div">
+                                       <table class="table table-striped table-hover" id="mpu3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="mpu4-headline">Main Power Up Effect 4</h2>
+                                    <div class="table-responsive" id="mpu4-table-div">
+                                       <table class="table table-striped table-hover" id="mpu4-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="mpu5-headline">Main Power Up Effect 5</h2>
+                                    <div class="table-responsive" id="mpu5-table-div">
+                                       <table class="table table-striped table-hover" id="mpu5-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="mpu6-headline">Main Power Up Effect 6</h2>
+                                    <div class="table-responsive" id="mpu6-table-div">
+                                       <table class="table table-striped table-hover" id="mpu6-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                
+                                <div class="tab-pane fade" id="issm" role="tabpanel" aria-labelledby="issm-tab">
+                                    <h2>Ink Saver (Main + Sub) - Number of Shots After Using Subweapon</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="issm-table" data-sortable="true" data-show-columns="true">
+                                       </table>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="sub" role="tabpanel" aria-labelledby="sub-tab">
+                            <select class="form-control" id="subweapon-select">
+                            </select>
+                            <div id="SubWeaponInfo">
+                            </div>
+                            <ul class="nav nav-tabs" id="subabilities" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="iss-tab" data-toggle="tab" href="#iss" role="tab" aria-controls="iss" aria-selected="true">Ink Saver (Sub)</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="subpu-tab" data-toggle="tab" href="#subpu" role="tab" aria-controls="subpu" aria-selected="false">Sub Power Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="qsjsubpu-tab" data-toggle="tab" href="#qsjsubpu" role="tab" aria-controls="qsjsubpu" aria-selected="false">Beakon SPU/QSJ Table</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="subTabControl">
+                                <div class="tab-pane fade show active" id="iss" role="tabpanel" aria-labelledby="iss-tab">
+                                    <button type="button" class="btn btn-info" onclick="addToPlot('iss');">Add "Sub Ink Consumption" to Plot</button>
+                                    <h2>Ink Consumption</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="iss-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Ink Consumption</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="subpu" role="tabpanel" aria-labelledby="subpu-tab">
+                                    <button type="button" id="subpu1-button" class="btn btn-info" onclick="addToPlot('subpu1');">Add "Sub Power Up Effect 1" to Plot</button>
+                                    <button type="button" id="subpu2-button" class="btn btn-info" onclick="addToPlot('subpu2');">Add "Sub Power Up Effect 2" to Plot</button>
+                                    <button type="button" id="subpu3-button" class="btn btn-info" onclick="addToPlot('subpu3');">Add "Sub Power Up Effect 3" to Plot</button>
+                                    <h2 id="subpu1-headline">Sub Power Up Effect 1</h2>
+                                    <div class="table-responsive" id="subpu1-table-div">
+                                       <table class="table table-striped table-hover" id="subpu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="subpu2-headline">Sub Power Up Effect 2</h2>
+                                    <div class="table-responsive" id="subpu2-table-div">
+                                       <table class="table table-striped table-hover" id="subpu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="subpu3-headline">Sub Power Up Effect 3</h2>
+                                    <div class="table-responsive" id="subpu3-table-div">
+                                       <table class="table table-striped table-hover" id="subpu3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="qsjsubpu" role="tabpanel" aria-labelledby="qsjsubpu-tab">
+                                    <h2>Jump Speed (Prepare) for Beakons with Quick Super Jump and Sub Power Up</h2>
+                                    <div class="table-responsive">
+                                       <table class="table table-striped table-hover" id="qsjsubpu-table" data-sortable="true" data-show-columns="true">
+                                       </table>
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="spec" role="tabpanel" aria-labelledby="spec-tab">
+                            <select class="form-control" id="speweapon-select">
+                            </select>
+                            <ul class="nav nav-tabs" id="specialabilities" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="spepu-tab" data-toggle="tab" href="#spepu" role="tab" aria-controls="spepu" aria-selected="true">Special Power Up</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="specialTabControl">
+                                <div class="tab-pane fade show active" id="spepu" role="tabpanel" aria-labelledby="spepu-tab">
+                                    <button type="button" id="spepu1-button" class="btn btn-info" onclick="addToPlot('spepu1');">Add "Special Power Up Effect 1" to Plot</button>
+                                    <button type="button" id="spepu2-button" class="btn btn-info" onclick="addToPlot('spepu2');">Add "Special Power Up Effect 2" to Plot</button>
+                                    <button type="button" id="spepu3-button" class="btn btn-info" onclick="addToPlot('spepu3');">Add "Special Power Up Effect 3" to Plot</button>
+                                    <button type="button" id="spepu4-button" class="btn btn-info" onclick="addToPlot('spepu4');">Add "Special Power Up Effect 4" to Plot</button>
+                                    <button type="button" id="spepu5-button" class="btn btn-info" onclick="addToPlot('spepu5');">Add "Special Power Up Effect 5" to Plot</button>
+                                    <h2 id="spepu1-headline">Sub Power Up Effect 1</h2>
+                                    <div class="table-responsive" id="spepu1-table-div">
+                                       <table class="table table-striped table-hover" id="spepu1-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="spepu2-headline">Sub Power Up Effect 2</h2>
+                                    <div class="table-responsive" id="spepu2-table-div">
+                                       <table class="table table-striped table-hover" id="spepu2-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="spepu3-headline">Sub Power Up Effect 3</h2>
+                                    <div class="table-responsive" id="spepu3-table-div">
+                                       <table class="table table-striped table-hover" id="spepu3-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="spepu4-headline">Sub Power Up Effect 4</h2>
+                                    <div class="table-responsive" id="spepu4-table-div">
+                                       <table class="table table-striped table-hover" id="spepu4-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="spepu5-headline">Sub Power Up Effect 5</h2>
+                                    <div class="table-responsive" id="spepu5-table-div">
+                                       <table class="table table-striped table-hover" id="spepu5-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var version = 100
+                var lang_dict = {}
+                //var APs = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 47]
+                var APs = [0, 3, 6, 9, 10, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 41, 42, 44, 45, 47, 48, 51, 54, 57]
+                var APsNS = [0, 3, 6, 9, 10, 12, 13, 15, 16, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 34, 35, 37, 38, 41, 44, 47]
+                var dataset_collection = {}
+                var dataset_labels = {}
+                var loaded_weapons = {}
+                var loaded_subweapons = {}
+                var loaded_specialweapons = {}
+                var min_charge = 0
+                var max_charge = 0
+                var current_charge = 0
+                var percentage_charged = 0
+                var current_weapon = 0
+                
+                var chartColors = [
+                    'rgb(255, 99, 132)',
+                    'rgb(255, 205, 86)',
+                    'rgb(75, 192, 192)',
+                    'rgb(54, 162, 235)',
+                    'rgb(153, 102, 255)',
+                    'rgb(201, 203, 207)'
+                ];
+                
+                var dataset = []
+                
+                function AP2MainSub(ap) {
+                    var main = 0;
+                    var sub = 0;
+                    while((ap > 27 || ap%3 != 0) && ap >= 0) {
+                        main++;
+                        ap -=10;
+                    }
+                    sub = ap / 3;
+                    return  main + "." + sub
+                }
+                
+                function calcSkillPoint2Percent(ap) {
+                    return Math.min(3.3 * ap - 0.027 * Math.pow(ap, 2), 100);
+                }
+                
+                function get_slope(high, mid, low) {
+                    if(mid == low) {
+                        return 0
+                    }
+                    return (mid - low) / (high - low)
+                }
+                
+                function lerpN(p, s) {
+                    if(s.toFixed(3) == 0.5) {
+                        return p;
+                    }
+                    if(p == 0.0) {
+                        return p;
+                    }
+                    if(p == 1.0) {
+                        return p;
+                    }
+                    if(s != 0.5) {
+                        return Math.pow(Math.E,-1 * (Math.log(p) * Math.log(s) / Math.log(2)))
+                    }
+                }
+                
+                function get_effect(abilityVals, ap) {
+                    high = abilityVals[0]
+                    mid = abilityVals[1]
+                    low = abilityVals[2]
+                    slope = get_slope(high, mid, low)
+                    tmp = calcSkillPoint2Percent(ap)
+                    percentage = tmp / 100.0
+                    result = low + (high - low) * lerpN(slope, percentage)
+
+                    return [result, lerpN(slope, percentage)]
+                }
+                
+                function get_effectNS(abilityVals, ap) {
+                    high = abilityVals[0]
+                    mid = abilityVals[1]
+                    low = abilityVals[2]
+                    slope = get_slope(high, mid, low)
+                    tmp = calcSkillPoint2Percent(ap) * 0.8
+                    percentage = tmp / 100.0
+                    result = low + (high - low) * lerpN(slope, percentage)
+
+                    return [result * 0.9, lerpN(slope, percentage)]
+                }
+                
+                $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
+                    var last = 0
+                    $.each(vers, function(key, ver) {
+                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
+                        last = ver
+                    });
+                    $("#version").val(last);
+                    version = last;
+                    $.getJSON("https://leanny.github.io/data/Languages/lang_dict_EUen.json", function(d) {
+                        $.each(d, function(key, val) {
+                            lang_dict[key] = val
+                        });
+                    });
+                    $('#version').change()
+                });
+                
+                
+                function load_data() {
+                    load_qr();
+                    load_inkres();
+                    load_cb();
+                    load_qsj();
+                    load_iru();
+                    load_bdu();
+                    load_weapons();
+                    load_subweapons();
+                    load_beakonqsj();
+                    load_specialweapons();
+                }
+                
+                function addToPlot(keyName) {
+                    var i = dataset.length;
+                    if (i >= chartColors.length) {
+                        dataset.shift();
+                    }
+                    var newEntry = {
+                        label: dataset_labels[keyName],
+                        data: dataset_collection[keyName],
+                        fill: false
+                    }
+                    dataset.push(newEntry)
+                    for(var counter = 0; counter < dataset.length; counter++) {
+                        dataset[counter]["borderColor"] = chartColors[counter]
+                    }
+                    load_graphics();
+                }
+                
+                function load_values(data, name) {
+                    var high = 0
+                    var mid = 0
+                    var low = 0
+                    if ((name + "_High") in data) {
+                        high = data[name + "_High"]
+                        mid = data[name + "_Mid"]
+                        low = data[name + "_Low"] || data[name] || 0.0
+                    } else if ((name + "High") in data) {
+                        high = data[name + "High"]
+                        mid = data[name + "Mid"]
+                        low = data[name + "Low"] || data[name] || 1.0
+                    } else {
+                        high = data[name + "H"]
+                        mid = data[name + "M"]
+                        low = data[name + "L"] || data[name] || 1.0
+                    }
+                    return [high, mid, low]
+                }
+                
+                
+                function load_values_MWPUG(data, name) {
+                    var high = data[name + "_MWPUG_High"] || data["Stand_" + name + "_MWPUG_High"] || data["Jump_" + name + "_MWPUG_High"]
+                    var mid = data[name + "_MWPUG_Mid"] || data["Stand_" + name + "_MWPUG_Mid"] || data["Jump_" + name + "_MWPUG_Mid"]
+                    var low = data[name] || data["Stand_" + name] || data["Jump_" + name] || 1.0
+                    return [high, mid, low]
+                }
+                
+                
+                function load_qr() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_RespawnTime_Save.json", function(data) {
+                        var rowData1 = []
+                        var rowData2 = []
+                        var qrdata = data["RespawnTime_Save"]
+                        var qr1data = load_values(qrdata, "Dying_ChaseFrm")
+                        var qr2data = load_values(qrdata, "Dying_AroudFrm")
+                        var dataset1 = []
+                        var dataset2 = []
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(qr1data, a)
+                            var effect2 = get_effect(qr2data, a)
+                            var row = ({
+                                GAP: res,
+                                AP: a,
+                                Frames: Math.ceil(effect1[0]),
+                                Seconds: (Math.ceil(effect1[0]) / 60).toFixed(2),
+                                Per: (effect1[1] * 100).toFixed(2)
+                            });
+                            rowData1.push(row);
+                            
+                            var row2 = ({
+                                GAP: res,
+                                AP: a,
+                                Frames: Math.ceil(effect2[0]),
+                                Seconds: (Math.ceil(effect2[0]) / 60).toFixed(2),
+                                Per: (effect2[1] * 100).toFixed(2)
+                            });
+                            rowData2.push(row2);
+                            
+                            dataset1.push(effect1[0]);
+                            dataset2.push(effect2[0]);
+                        })
+                        dataset_collection["qr1"] = dataset1
+                        dataset_collection["qr2"] = dataset2
+                        dataset_labels["qr1"] = "Quick Respawn - Dying Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["qr2"] = "Quick Respawn - Deatcam Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                        $('#qr1-table').bootstrapTable('refreshOptions',{"data": rowData1});
+                        $('#qr2-table').bootstrapTable('refreshOptions',{"data": rowData2});
+                    });
+                }
+                
+                function load_inkres() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_OpInkEffect_Reduction.json", function(data) {
+                        var rowData = [[], [], [], [], [], []]
+                        var varData = data["OpInkEffect_Reduction"]
+                        var calculatedData = [load_values(varData, "OpInk_JumpGnd"), load_values(varData, "OpInk_VelGnd_Shot"), load_values(varData, "OpInk_VelGnd"),
+                                           load_values(varData, "OpInk_Damage_Lmt"), load_values(varData, "OpInk_Damage"), load_values(varData, "OpInk_Armor_HP")]
+                        var dsetcollection = [[], [], [], [], [], []]
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            for (var c = 0; c < dsetcollection.length - 1; c++) {
+                                var effect1 = get_effect(calculatedData[c], a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: effect1[0].toFixed(4),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData[c].push(row);
+                                dsetcollection[c].push(effect1[0].toFixed(4));
+                            }
+
+                            var effect6 = get_effect(calculatedData[5], a)
+                            var row6 = ({
+                                GAP: res,
+                                AP: a,
+                                Effect: Math.ceil(effect6[0]),
+                                Per: (effect6[1] * 100).toFixed(2)
+                            });
+                            rowData[5].push(row6);
+                            dsetcollection[5].push(Math.ceil(effect6[0]));
+                        })
+                        
+                        for (var c = 0; c < dsetcollection.length; c++) {
+                            dataset_collection["inkres" + (c+1)] = dsetcollection[c];
+                            $('#inkres' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                        }
+                        
+                        dataset_labels["inkres1"] = "Ink Resistance Up - Jump in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["inkres2"] = "Ink Resistance Up - Shoot in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["inkres3"] = "Ink Resistance Up - Runspeed in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["inkres4"] = "Ink Resistance Up - Damage Limit in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["inkres5"] = "Ink Resistance Up - Damage per Frame in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["inkres6"] = "Ink Resistance Up - Armor in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                    });
+                }
+                
+                function load_cb() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_MarkingTime_Reduction.json", function(data) {
+                    
+                        var rowData = [[], [], [], []]
+                        var varData = data["MarkingTime_Reduction"]
+                        var calculatedData = [load_values(varData, "MarkingTime_ShortRt"), load_values(varData, "MarkingTime_ShortRt_Trap"), 
+                                           load_values(varData, "Silhouette_DistFar"), load_values(varData, "Silhouette_DistNear")]
+                        var dsetcollection = [[], [], [], []]
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                var effect1 = get_effect(calculatedData[c], a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: effect1[0].toFixed(4),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData[c].push(row);
+                                dsetcollection[c].push(effect1[0].toFixed(4));
+                            }
+                        })
+                        
+                        for (var c = 0; c < dsetcollection.length; c++) {
+                            dataset_collection["cb" + (c+1)] = dsetcollection[c];
+                            $('#cb' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                        }                    
+                    
+                        dataset_labels["cb1"] = "Cold-Blooded - Marking Time - Point Sensors - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["cb2"] = "Cold-Blooded - Marking Time - Ink Mines - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["cb3"] = "Cold-Blooded - Thermal-Ink Sillhoute - Far Range Distance - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["cb4"] = "Cold-Blooded - Thermal-Ink Sillhoute - Close Range Distance - v" + version[0] + "." + version[1] + "." + version[2];
+                    });
+                }
+                
+                function load_qsj() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_JumpTime_Save.json", function(data) {
+                    
+                        var rowData = [[], []]
+                        var varData = data["JumpTime_Save"]
+                        var calculatedData = [load_values(varData, "DokanWarp_TameFrm"), load_values(varData, "DokanWarp_MoveFrm")]
+                        var dsetcollection = [[], []]
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                var effect1 = get_effect(calculatedData[c], a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: Math.ceil(effect1[0]),
+                                    Seconds: (Math.ceil(effect1[0]) / 60).toFixed(2),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData[c].push(row);
+                                dsetcollection[c].push(effect1[0].toFixed(4));
+                            }
+                        })
+                        
+                        for (var c = 0; c < dsetcollection.length; c++) {
+                            dataset_collection["qsj" + (c+1)] = dsetcollection[c];
+                            $('#qsj' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                        }                    
+                    
+                        dataset_labels["qsj1"] = "Quick Super Jump - Prepare Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["qsj2"] = "Quick Super Jump - Jump Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                    });
+                }
+                
+                function load_iru() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_InkRecovery_Up.json", function(data) {
+                    
+                        var rowData = [[], []]
+                        var varData = data["InkRecovery_Up"]
+                        var calculatedData = [load_values(varData, "RecoverFullFrm_Ink"), load_values(varData, "RecoverNrmlFrm_Ink")]
+                        var dsetcollection = [[], []]
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                var effect1 = get_effect(calculatedData[c], a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: Math.ceil(effect1[0]),
+                                    Seconds: (Math.ceil(effect1[0]) / 60).toFixed(2),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData[c].push(row);
+                                dsetcollection[c].push(effect1[0].toFixed(4));
+                            }
+                        })
+                        
+                        for (var c = 0; c < dsetcollection.length; c++) {
+                            dataset_collection["iru" + (c+1)] = dsetcollection[c];
+                            $('#iru' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                        }                    
+                    
+                        dataset_labels["iru1"] = "Ink Recovery Up - Recovery in Ink - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["iru2"] = "Ink Recovery Up - Recovery Standing - v" + version[0] + "." + version[1] + "." + version[2];
+                    });
+                }
+                
+                function load_bdu() {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_BombDamage_Reduction.json", function(data) {
+                    
+                        var rowData = [[], [], []]
+                        var varData = data["BombDamage_Reduction"]
+                        var calculatedData = [load_values(varData, "BurstDamageRt_Special"), load_values(varData, "BurstDamageRt_SubH"), 
+                                           load_values(varData, "BurstDamageRt_SubL")]
+                        var dsetcollection = [[], [], []]
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                var effect1 = get_effect(calculatedData[c], a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: effect1[0].toFixed(4),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData[c].push(row);
+                                dsetcollection[c].push(effect1[0].toFixed(4));
+                            }
+                        })
+                        
+                        for (var c = 0; c < dsetcollection.length; c++) {
+                            dataset_collection["bdu" + (c+1)] = dsetcollection[c];
+                            $('#bdu' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                        }                    
+                    
+                        dataset_labels["bdu1"] = "Bomb Defense Up - Special Damage Multiplier - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["bdu2"] = "Bomb Defense Up - Close Hit Sub Damage Multiplier - v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["bdu3"] = "Bomb Defense Up - Far Hit Sub Damage Multiplier - v" + version[0] + "." + version[1] + "." + version[2];
+                    });
+                }
+                
+                function load_weapons() {
+                    $('#mainweapon').children().remove()
+                    var loaded_once = false
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Main.json", function(data) {
+                        $.each(data, function(idx, weapon) {
+                            var weaponname = weapon["Name"].substring(0, weapon["Name"].length - 3).replace("_", "")
+                            if(weaponname.includes("Blaster")) {
+                                weaponname = weaponname.substring(7)
+                            }
+                            $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + weaponname  + ".json", function(wdata) {
+                                loaded_weapons[weapon["Name"]] = [weapon, wdata["param"]]
+                                $("#mainweapon").append(new Option(lang_dict[weapon["Name"]], weapon["Name"]));
+                                if(!loaded_once) {
+                                    loaded_once = true;
+                                    $("#mainweapon").change()
+                                }
+                                if (weapon["Name"].includes("Spinner") || weapon["Name"].includes("Twins")) {
+                                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + weapon["Name"].substring(0, weapon["Name"].length - 3).replace("_", "")  + "_2.json", function(wdata2) {
+                                        loaded_weapons[weapon["Name"]] = [weapon, Object.assign({}, wdata["param"], wdata2["param"])]
+                                    })
+                                }
+                                if (weapon["Name"].includes("Blaster")) {
+                                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + weaponname + "_Burst.json", function(wdata2) {
+                                        loaded_weapons[weapon["Name"]] = [weapon, Object.assign({}, wdata["param"], wdata2["param"])]
+                                    })
+                                }
+                                
+                                if (weapon["Name"].includes("Roller")) {
+                                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + weapon["Name"].substring(0, weapon["Name"].length - 3).replace("_", "")  + "_Stand.json", function(wdata2) {
+                                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + weapon["Name"].substring(0, weapon["Name"].length - 3).replace("_", "")  + "_Jump.json", function(wdata3) {
+                                        
+                                            var weapon_data = {}
+                                            $.each(wdata["param"], function(key, val) {
+                                                weapon_data[key] = val;
+                                            })
+                                            $.each(wdata2["param"], function(key, val) {
+                                                weapon_data["Stand_" + key] = val;
+                                            })
+                                            $.each(wdata3["param"], function(key, val) {
+                                                weapon_data["Jump_" + key] = val;
+                                            })
+                                            loaded_weapons[weapon["Name"]] = [weapon, weapon_data]
+                                        })
+                                    })
+                                }
+                            })
+                        })
+                        
+                    });
+                }
+                
+                function load_subweapons() {
+                    $('#subweapon-select').children().remove()
+                    var loaded_once = false
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Sub.json", function(data) {
+                        $.each(data, function(idx, subweapon) {
+                            if (subweapon["Id"] < 100) {
+                                var subname = subweapon["Name"];
+                                var sub_internal_name = subname;
+                                if(subname.includes("Bomb_")) {
+                                    sub_internal_name = subname.replace("Bomb_", "Bomb")
+                                }
+                                if(subname == "TimerTrap") {
+                                    sub_internal_name = "Trap"
+                                }
+                                if(subname.includes("Poison") || subname.includes("Point")) {
+                                    sub_internal_name = "Bomb" + subname
+                                }
+                                if(subname == "Flag") {
+                                    sub_internal_name = "JumpBeacon"
+                                }
+                                $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + sub_internal_name  + ".json", function(swdata) {
+                                    loaded_subweapons[subweapon["Name"]] = [subweapon, swdata["param"]]
+                                    $("#subweapon-select").append(new Option(lang_dict[subweapon["Name"]], subweapon["Name"]));
+
+                                    if(!loaded_once) {
+                                        loaded_once = true;
+                                        $("#subweapon-select").change()
+                                    }
+                                })
+                            }
+                        })
+                        
+                    });
+                }
+                
+                function load_specialweapons() {
+                    $('#speweapon-select').children().remove()
+                    var loaded_once = false
+                    
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Special.json", function(data) {
+                        $.each(data, function(idx, specialweapon) {
+                            if (specialweapon["Id"] != 15 && specialweapon["Id"] != 16 && specialweapon["Id"] != 13 && specialweapon["Id"] <= 18 ) {
+
+                                var special_internal_name = specialweapon["Name"]
+                                if(specialweapon["Name"].includes("Launcher")) {
+                                    special_internal_name = "Bomb"+specialweapon["Name"].replace("Launcher", "")+"Launcher"
+                                }                                
+                                $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/" + special_internal_name  + ".json", function(swdata) {
+                                    var loc = lang_dict[specialweapon["Name"]]
+                                    specialweapon["Name"] = special_internal_name
+                                    loaded_specialweapons[special_internal_name] = [specialweapon, swdata["param"]]
+                                    $("#speweapon-select").append(new Option(loc, special_internal_name));
+                                    
+                                    if(!loaded_once) {
+                                        loaded_once = true;
+                                        $("#speweapon-select").change()
+                                    }
+                                })
+                            }
+                        })
+                        
+                    });
+                }
+                
+                function load_ism(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_MainInk_Save.json", function(data) {                
+                        var rowData = []
+                        var varData = data["MainInk_Save"]
+                        var calculatedData = [0, 0, 0]
+                        var dsetcollection = [[], []]
+                        var inkconsume =  0
+                        
+                        if (weapon_data[0]["Name"].includes("Charge")) {
+                            var min_consumption = weapon_data[1]["mMinChargeInkConsume"] || 0
+                            var max_consumption = weapon_data[1]["mMaxChargeInkConsume"] || weapon_data[1]["mInkConsume"]
+
+                            if (current_charge == max_charge) {
+                                inkconsume = weapon_data[1]["mFullChargeInkConsume"] || weapon_data[1]["mInkConsume"]
+                            } else {
+                                var charge_frames = max_charge - min_charge
+                                var consumption = max_consumption - min_consumption
+                                inkconsume = min_consumption + current_charge * consumption / charge_frames
+                            }
+                            
+                        } else if (weapon_data[0]["Name"].includes("Roller")) {
+                            inkconsume = weapon_data[1]["Stand_mInkConsumeSplash"]
+                        } else {
+                            inkconsume = weapon_data[1]["mInkConsume"]
+                        }
+                        
+                        if (weapon_data[0]["InkSaverLv"] == "Low") {
+                            calculatedData = load_values(varData, "ConsumeRt_Main_Low")
+                        } else if (weapon_data[0]["InkSaverLv"] == "High") {
+                            calculatedData = load_values(varData, "ConsumeRt_Main_High")
+                        } else {
+                            calculatedData = load_values(varData, "ConsumeRt_Main")
+                        } 
+                        var inktanksize = weapon_data[1]["mInkMagazineRatio"] || 1.0
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(calculatedData, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": (effect1[0] * inkconsume).toFixed(5),
+                                "MaxShots": Math.floor(inktanksize / (effect1[0] * inkconsume)),
+                                "Per": (effect1[1] * 100).toFixed(2)
+                            }
+                            rowData.push(row);
+                            dsetcollection[0].push(row["Effect"]);
+                            dsetcollection[1].push(row["MaxShots"]);
+                        })
+                        dataset_collection["ism"] = dsetcollection[0];
+                        dataset_collection["ism2"] = dsetcollection[1];
+                        $('#ism-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        var weapon_name = lang_dict[weapon[0]["Name"]]
+                        if (weapon_data[0]["Name"].includes("Charge")) {
+                            weapon_name = weapon_name + " (" + Math.round(percentage_charged) + "%)"
+                        } 
+                        dataset_labels["ism"] = "Ink Saver Main - Ink Consumption per Shot - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["ism2"] = "Ink Saver Main - Maximum Number of Shots - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function load_iss(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_SubInk_Save.json", function(data) {                
+                        var rowData = []
+                        var varData = data["SubInk_Save"]
+                        var calculatedData = [0, 0, 0]
+                        var dsetcollection = []
+                        var inkconsume = weapon_data[1]["mInkConsume"]
+                        
+                        if ("ConsumeRt_Sub_A_Low" in varData) {
+                            calculatedData = load_values(varData, "ConsumeRt_Sub_" + weapon_data[0]["InkSaverType"] )
+                        } else {
+                            if(weapon_data[0]["InkSaverLv"] == "Middle") {
+                                calculatedData = load_values(varData, "ConsumeRt_Sub")
+                            } else {
+                                calculatedData = load_values(varData, "ConsumeRt_Sub_" + weapon_data[0]["InkSaverLv"])
+                            }
+                        }
+                        
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(calculatedData, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": (effect1[0] * inkconsume).toFixed(5),
+                                "Per": (effect1[1] * 100).toFixed(2)
+                            }
+                            rowData.push(row);
+                            dsetcollection.push(row["Effect"]);
+                        })
+                        dataset_collection["iss"] = dsetcollection;
+                        $('#iss-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        var weapon_name = lang_dict[weapon_data[0]["Name"]]
+                        dataset_labels["iss"] = "Ink Saver Sub - Ink Consumption per Use - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function hide_subpu(num) {
+                    $('#subpu' + num + '-headline').hide()
+                    $('#subpu' + num + '-table-div').hide()
+                    $('#subpu' + num + '-button').hide()
+                }
+                
+                function show_subpu(num) {
+                    $('#subpu' + num + '-headline').show()
+                    $('#subpu' + num + '-table-div').show()
+                    $('#subpu' + num + '-button').show()
+                }
+                
+                function hide_spepu(num) {
+                    $('#spepu' + num + '-headline').hide()
+                    $('#spepu' + num + '-table-div').hide()
+                    $('#spepu' + num + '-button').hide()
+                }
+                
+                function show_spepu(num) {
+                    $('#spepu' + num + '-headline').show()
+                    $('#spepu' + num + '-table-div').show()
+                    $('#spepu' + num + '-button').show()
+                }
+                
+                function hide_mpu(num) {
+                    $('#mpu' + num + '-headline').hide()
+                    $('#mpu' + num + '-table-div').hide()
+                    $('#mpu' + num + '-button').hide()
+                }
+                
+                function show_mpu(num) {
+                    $('#mpu' + num + '-headline').show()
+                    $('#mpu' + num + '-table-div').show()
+                    $('#mpu' + num + '-button').show()
+                }
+                
+                function load_spepu(weapon_data) {
+
+                    if(weapon_data[0]["Name"] == "SuperLanding") {
+                        weapon_data[1]["mBurst_Landing_AddHeight"] = 0.0
+                        weapon_data[1]["mBurst_Landing_AddHeight_SJ"] = 0.0
+                    }
+                    if(weapon_data[0]["Name"] == "SuperBubble") {
+                        weapon_data[1]["mBombCoreRadiusRate"] = 1.0
+                    }
+                    var keys = {
+                        "mBurst_PaintR": "Paint Radius",
+                        "mTargetInCircleRadius": "Circle Radius",
+                        "mEnergyAbsorbFrm": "Armor Wind Up Time",
+                        "mPaintGauge_SpecialFrm": "Special Duration Time",
+                        "mBurst_SplashPaintR": "Splash Paint Radius",
+                        "mBurst_SplashVelL": "Splash Velocity L",
+                        "mBurst_SplashVelH": "Splash Velocity H",
+                        "mBurst_Landing_AddHeight": "Additional High",
+                        "mBurst_Landing_AddHeight_SJ": "Additional High (Super Jump)",
+                        "mRainAreaFrame": "Rain Duration",
+                        "mBurst_Radius_Far": "Explosion Radius (Far)",
+                        "mBurst_Radius_Middle": "Explosion Radius (Middle)",
+                        "mBurst_Radius_Near": "Explosion Radius (Near)",
+                        "mHP": "HP",
+                        "mBombCoreRadiusRate": "Bubble Size Radius Rate",
+                        "mCollisionPlayerRadiusMax": "Explosion Effect Radius",
+                        "mChargeRtAutoIncr": "Booyah Charge Speed"
+                    }
+                    var frameKeys = ["mRainAreaFrame", "mEnergyAbsorbFrm", "mPaintGauge_SpecialFrm"]
+
+                    var rowData = []
+                    var dsetcollection = []
+                    var translations = []
+                    $.each(keys, function(name, translation) {
+                        if(name in weapon_data[1] || name + "_Low" in weapon_data[1]) {
+                            // second check
+                            if(name + "H" in weapon_data[1] || name + "High" in weapon_data[1] || name + "_High" in weapon_data[1]) {
+                                var calculatedData = load_values(weapon_data[1], name)
+                                translations.push(translation)
+                                var dsetcollectionUnit = []
+                                var rowDataUnit = []
+                                $.each(APs, function(idx, a) {
+                                    var res = AP2MainSub(a)
+                                    var effect1 = get_effect(calculatedData, a)
+                                    var eff = 0
+                                    if (name == "mHP") {
+                                        eff = Math.floor(effect1[0] * 1) / 10
+                                    } else if (frameKeys.includes(name)) {
+                                        eff = Math.ceil(effect1[0] * 1)
+                                    } else {
+                                        eff = (effect1[0] * 1).toFixed(5)
+                                    }
+                                    var row = ({
+                                        GAP: res,
+                                        AP: a,
+                                        Effect: eff,
+                                        Per: (effect1[1] * 100).toFixed(2)
+                                    });
+                                    rowDataUnit.push(row);
+                                    dsetcollectionUnit.push(row["Effect"]);
+                                })
+                                rowData.push(rowDataUnit)
+                                dsetcollection.push(dsetcollectionUnit)
+                            }
+                        }
+                    })
+
+                    for (var c = 0; c < dsetcollection.length; c++) {
+                        show_spepu(c+1);
+                        dataset_collection["spepu" + (c+1)] = dsetcollection[c];
+                        $('#spepu' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});                
+                        dataset_labels["subpu" + (c+1)] = "Special Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - " + translations[c] + " - v" + version[0] + "." + version[1] + "." + version[2];
+                        $('#spepu' + (c+1) + '-headline').text("Special Power Up Effect " + (c+1) + ": " + translations[c])
+                    }
+                    for (var c = dsetcollection.length; c < 5; c++) {
+                        hide_spepu(c+1);
+                    }
+                }
+                
+
+                function load_mpu(weapon_data) {
+                    var keys = {
+                        'mBulletDamageMaxDist': 'Bullet Damage Max Distance',
+                        'mBulletDamageMinDist': 'Bullet Damage Min Distance',
+                        'mCanopyHP': 'Canopy HP',
+                        'mCanopyNakedFrame': 'Canopy Recovery Time',
+                        'mCollisionRadiusFarRate': 'Collision Radius Far',
+                        'mCollisionRadiusMiddleRate': 'Collision Radius Middle',
+                        'mCollisionRadiusNearRate': 'Collision Radius Near',
+                        'mCoreDamageRate': 'Core Damage Rate',
+                        'mCorePaintWidthHalfRate': 'Core Paint Width Half Rate',
+                        'mDamageMaxMaxChargeRate': 'Damage Max Charge Rate',
+                        'mDamageRate': 'Damage',
+                        'mDashSpeed': 'Dash Speed',
+                        'mDegBias': 'Degree Bias',
+                        'mDegJumpBiasInterpolateRate': 'Jump Bias Interpolation Rate',
+                        'mDegJumpBias': 'Degree Jump Bias',
+                        'mDegJumpRandom': 'Degree Jump Random',
+                        'mDegRandom': 'Degree Random',
+                        'mDropSplashPaintRadiusRate': 'Drop Splash Paint Radius Rate',
+                        'mFirstGroupBulletBoundPaintRadiusRate': 'Group 1 Bullet Paint Radius Rate (Outer)',
+                        'mFirstGroupBulletDamageRate': 'Group 1 Bullet Damage Rate',
+                        'mFirstGroupBulletFirstPaintRRate': 'Group 1 Bullet Paint Radius Rate',
+                        'mFirstGroupBurst_PaintRRate': 'Group 1 Bullet PaintR Rate',
+                        'mFirstGroupSplashPaintRadiusRate': 'Group 1 Bullet Splash Paint Radius Rate',
+                        'mFirstSecondMaxChargeShootingFrameTimes': 'Splatling Max Charge Frame',
+                        'mFullChargeDamageRate': 'Full Charge Damage',
+                        'mFullChargeDistance': 'Full Charge Distance',
+                        'mInitVelRate': 'Init Velocity Rate',
+                        'mInkConsumeCoreMaxSpeed': 'Ink Consume Max Speed',
+                        'mInkConsumeCoreMinSpeed': 'Ink Consume Min Speed',
+                        'mKnockBackRadiusRate': 'Knock Back Radius',
+                        'mMaxDistance': 'Max Distance',
+                        'mMinMaxChargeDamageRate': 'Max Shooting Damage',
+                        'mMoveSpeed': 'Move Speed',
+                        'mSecondGroupBulletBoundPaintRadiusRate': 'Group 2 Bullet Paint Radius Rate (Outer)',
+                        'mSecondGroupBulletDamageRate': 'Group 2 Bullet Damage Rate',
+                        'mSecondGroupBulletFirstPaintRRate': 'Group 2 Bullet Paint Radius Rate',
+                        'mSecondGroupBurst_PaintRRate': 'Group 2 Bullet PaintR Rate',
+                        'mSecondGroupSplashPaintRadiusRate': 'Group 2 Bullet Splash Paint Radius Rate',
+                        'mSideStepOneMuzzleDamageRate': 'Side Step One Muzzle Damage',
+                        'mSphereSplashDropPaintRadiusRate': 'Sphere Splash Drop Paint Radius',
+                        'mSplashDamageInsideRate': 'Splash Damage Inside Rate',
+                        'mSplashDamageOutsideRate': 'Splash Damage Outside Rate',
+                        'mSplashPaintRadiusRate': 'Paint Radius Rate',
+                        'mSplashPaintRadius': 'Paint Radius',
+                        'mThirdGroupBulletBoundPaintRadiusRate': 'Group 3 Bullet Paint Radius Rate (Outer)',
+                        'mThirdGroupBulletDamageRate': 'Group 3 Bullet Damage Rate',
+                        'mThirdGroupBulletFirstPaintRRate': 'Group 3 Bullet Paint Radius Rate',
+                        'mThirdGroupBurst_PaintRRate': 'Group 3 Bullet PaintR Rate',
+                        'mThirdGroupSplashPaintRadiusRate': 'Group 3 Bullet Splash Paint Radius Rate'
+                    }
+                    var dmgKeys = ["mDamageRate", "mMinMaxChargeDamageRate", "mFullChargeDamageRate", "mDamageMaxMaxChargeRate", "mCoreDamageRate", "mSideStepOneMuzzleDamageRate"]
+                    var rates = ["mCollisionRadiusFarRate", "mCollisionRadiusMiddleRate", "mCollisionRadiusNearRate", "mKnockBackRadiusRate", "mSphereSplashDropPaintRadiusRate"]
+                    var rowData = []
+                    var dsetcollection = []
+                    var translations = []
+                    console.log(weapon_data[0]["Name"])
+                    $.each(keys, function(name, translation) {
+                        if(name + "_MWPUG_High" in weapon_data[1] || "Stand_" + name + "_MWPUG_High" in weapon_data[1] || "Jump_" + name + "_MWPUG_High" in weapon_data[1]) {
+                            var calculatedData = load_values_MWPUG(weapon_data[1], name)
+                                if(calculatedData[0] != calculatedData[1]) {
+                                console.log("  " + name)
+                                console.log(calculatedData)
+                                translations.push(translation)
+                                var dsetcollectionUnit = []
+                                var rowDataUnit = []
+                                $.each(APs, function(idx, a) {
+                                    var res = AP2MainSub(a)
+                                    var effect1 = get_effect(calculatedData, a)
+                                    var eff = 0
+                                    if (name == "mCanopyHP") {
+                                        eff = Math.floor(effect1[0] * 1) / 10
+                                    } else if (name == "mCanopyNakedFrame") {
+                                        eff = Math.ceil(effect1[0] * 1)
+                                    } else if (name == "mFirstSecondMaxChargeShootingFrameTimes") {
+                                        var f1 = weapon_data[1]["mFirstPeriodMaxChargeShootingFrame"]
+                                        var f2 = weapon_data[1]["mSecondPeriodMaxChargeShootingFrame"]
+                                        eff = Math.ceil(effect1[0] * (f1 + f2))
+                                    } else if (dmgKeys.includes(name)) {
+                                        var dmg = 0
+                                        var dmg_max = 0
+                                        
+                                        if (name == "mDamageRate") {
+                                            dmg = weapon_data[1]["mDamageMax"]
+                                            dmg_max = weapon_data[1]["mDamage_MWPUG_Max"]
+                                        }
+                                        if (name == "mDamageMaxMaxChargeRate") {
+                                            dmg = weapon_data[1]["mDamageMaxMaxCharge"]
+                                            dmg_max = weapon_data[1]["mDamageMaxMaxCharge_MWPUG_Max"]
+                                        }
+                                        if (name == "mMinMaxChargeDamageRate") {
+                                            dmg = weapon_data[1]["mMaxChargeDamage"]
+                                            dmg_max = weapon_data[1]["mMinMaxChargeDamage_MWPUG_Max"]
+                                        }
+                                        if (name == "mFullChargeDamageRate") {
+                                            dmg = weapon_data[1]["mFullChargeDamage"]
+                                            dmg_max = weapon_data[1]["mFullChargeDamage_MWPUG_Max"]
+                                        }
+                                        if (name == "mCoreDamageRate") {
+                                            dmg = weapon_data[1]["mCoreDamage"]
+                                            dmg_max = weapon_data[1]["mCoreDamage_MWPUG_Max"]
+                                        }
+                                        if (name == "mSideStepOneMuzzleDamageRate") {
+                                            dmg = weapon_data[1]["mSideStepOneMuzzleDamageMax"]
+                                            dmg_max = weapon_data[1]["mSideStepOneMuzzleDamage_MWPUG_Max"]
+                                        }
+                                        eff = Math.floor(effect1[0] * dmg)
+                                        if (eff > dmg_max) {
+                                            eff = dmg_max
+                                        }
+                                        eff = eff / 10
+                                    } else if (rates.includes(name)) {
+                                        if (name == "mCollisionRadiusFarRate") {
+                                            radius = weapon_data[1]["mCollisionRadiusFar"]
+                                            radius_max = weapon_data[1]["mCollisionRadiusFar_MWPUG_Max"]
+                                        }
+                                        if (name == "mCollisionRadiusMiddleRate") {
+                                            radius = weapon_data[1]["mCollisionRadiusMiddle"]
+                                            radius_max = weapon_data[1]["mCollisionRadiusMiddle_MWPUG_Max"]
+                                        }
+                                        if (name == "mCollisionRadiusNearRate") {
+                                            radius = weapon_data[1]["mCollisionRadiusNear"]
+                                            radius_max = weapon_data[1]["mCollisionRadiusNear_MWPUG_Max"]
+                                        }
+                                        if(name == "mKnockBackRadiusRate") {
+                                            radius = weapon_data[1]["mKnockBackRadius"]
+                                            radius_max = weapon_data[1]["mKnockBackRadius_MWPUG_Max"]
+                                        }
+                                        if (name == "mSphereSplashDropPaintRadius") {
+                                            radius = weapon_data[1]["mSphereSplashDropPaintRadius"]
+                                            radius_max = 999
+                                        }
+                                        eff = (effect1[0] * radius).toFixed(5)
+                                        if (eff > radius_max) {
+                                            eff = radius_max
+                                        }
+                                    
+                                    } else {
+                                        eff = (effect1[0] * 1).toFixed(5)
+                                    }
+                                    var row = ({
+                                        GAP: res,
+                                        AP: a,
+                                        Effect: eff,
+                                        Per: (effect1[1] * 100).toFixed(2)
+                                    });
+                                    rowDataUnit.push(row);
+                                    dsetcollectionUnit.push(row["Effect"]);
+                                })
+                                rowData.push(rowDataUnit)
+                                dsetcollection.push(dsetcollectionUnit)
+                            }
+                        }
+                    })
+
+                    for (var c = 0; c < dsetcollection.length; c++) {
+                        show_mpu(c+1);
+                        dataset_collection["mpu" + (c+1)] = dsetcollection[c];
+                        $('#mpu' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});                
+                        dataset_labels["mpu" + (c+1)] = "Main Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - " + translations[c] + " - v" + version[0] + "." + version[1] + "." + version[2];
+                        $('#mpu' + (c+1) + '-headline').text("Main Power Up Effect " + (c+1) + ": " + translations[c])
+                    }
+                    for (var c = dsetcollection.length; c < 6; c++) {
+                        hide_mpu(c+1);
+                    }
+                }
+                
+                function load_subpu(weapon_data) {
+                    var bru = ["Bomb_Splash", "Bomb_Suction", "Bomb_Quick", "PointSensor", "PoisonFog", "Bomb_Robo", "Bomb_Tako", "Bomb_Piyo"]
+                    if (bru.includes(weapon_data[0]["Name"])) {
+                        // case 1: bomblike object + tako + piyo + point sensors
+                        // Player_Spec_BombDistance_Up
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_BombDistance_Up.json", function(data) {
+                            var calculatedData = []
+                            var rowData = []
+                            var varData = data["BombDistance_Up"]
+                            var dsetcollection = []
+                            if (weapon_data[0]["Name"] == "Bomb_Piyo") {
+                                calculatedData = load_values(varData, "BombThrow_VelZ_BombPiyo")
+                            } else if (weapon_data[0]["Name"] == "Bomb_Tako") {
+                                calculatedData = load_values(varData, "BombThrow_VelZ_BombTako")
+                            } else if (weapon_data[0]["Name"] == "PointSensor") {
+                                calculatedData = load_values(varData, "BombThrow_VelZ_PointSensor")
+                            } else {
+                                calculatedData = load_values(varData, "BombThrow_VelZ")
+                            }
+                            $.each(APs, function(idx, a) {
+                                var res = AP2MainSub(a)
+                                var effect1 = get_effect(calculatedData, a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: (effect1[0] * 1).toFixed(5),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData.push(row);
+                                dsetcollection.push(row["Effect"]);
+                            })
+                            dataset_collection["subpu1"] = dsetcollection;
+                            $('#subpu1-table').bootstrapTable('refreshOptions',{"data": rowData});                
+                            dataset_labels["subpu1"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Throwing Velocity - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu1-headline').text("Sub Power Up Effect 1: Throw Velocity")
+                            
+                            
+                            if ("PointSensor" == weapon_data[0]["Name"]) {
+                                // special case: PointSensor, MarkingFrame
+                               $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/BombPointSensor.json", function(data2) {
+                                    var calculatedData = load_values(data2["param"], "mMarkingFrame")
+                                    var rowData = []
+                                    var dsetcollection = []
+                                    $.each(APs, function(idx, a) {
+                                        var res = AP2MainSub(a)
+                                        var effect1 = get_effect(calculatedData, a)
+                                        var row = ({
+                                            GAP: res,
+                                            AP: a,
+                                            Effect: Math.ceil(effect1[0]),
+                                            Per: (effect1[1] * 100).toFixed(2)
+                                        });
+                                        rowData.push(row);
+                                        dsetcollection.push(row["Effect"]);
+                                    })
+                                    dataset_collection["subpu2"] = dsetcollection;
+                                    $('#subpu2-table').bootstrapTable('refreshOptions',{"data": rowData});                
+                                    dataset_labels["subpu2"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Marking Time - v" + version[0] + "." + version[1] + "." + version[2];
+                                    $('#subpu2-headline').text("Sub Power Up Effect 2: Marking Time")
+                                    
+                                    show_subpu(1)
+                                    show_subpu(2)
+                                    hide_subpu(3)
+                                })
+                            } else {
+                                show_subpu(1)
+                                hide_subpu(2)
+                                hide_subpu(3)
+                            }
+                        });
+                    }    
+                    
+                    if ("Bomb_Curling" == weapon_data[0]["Name"]) {
+                        // case 2: Bomb_Curling, param file "InitVelAndBaseSpeed"
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/BombCurling.json", function(data) {
+                            var calculatedData = load_values(data["param"], "mInitVelAndBaseSpeed")
+                            var rowData = []
+                            var dsetcollection = []
+                            $.each(APs, function(idx, a) {
+                                var res = AP2MainSub(a)
+                                var effect1 = get_effect(calculatedData, a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: (effect1[0] * 1).toFixed(5),
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData.push(row);
+                                dsetcollection.push(row["Effect"]);
+                            })
+                            dataset_collection["subpu1"] = dsetcollection;
+                            $('#subpu1-table').bootstrapTable('refreshOptions',{"data": rowData});                
+                            dataset_labels["subpu1"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Base Speed - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu1-headline').text("Sub Power Up Effect 1: Base Speed")
+                            show_subpu(1)
+                            hide_subpu(2)
+                            hide_subpu(3)
+                        })
+                    }
+                    if ("TimerTrap" == weapon_data[0]["Name"]) {
+                        // case 3: TimerTrap, BombCoreRadiusRate, MarkingFrame, PlayerColRadius
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/Trap.json", function(data) {
+                            var calculatedData = [load_values(data["param"], "mBombCoreRadiusRate"), load_values(data["param"], "mPlayerColRadius"), load_values(data["param"], "mMarkingFrame")]
+                            var rowData = [[], [], []]
+                            var dsetcollection = [[], [], []]
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                $.each(APs, function(idx, a) {
+                                    var res = AP2MainSub(a)
+                                    var effect1 = get_effect(calculatedData[c], a)
+                                    var eff = 0;
+                                    if (c < 2) {
+                                        eff = (effect1[0] * 1).toFixed(5)
+                                    } else {
+                                        eff = Math.ceil(effect1[0] * 1)
+                                    }
+                                    var row = ({
+                                        GAP: res,
+                                        AP: a,
+                                        Effect: eff,
+                                        Per: (effect1[1] * 100).toFixed(2)
+                                    });
+                                    rowData[c].push(row);
+                                    dsetcollection[c].push(row["Effect"]);
+                                })
+                                dataset_collection["subpu"+(c+1)] = dsetcollection[c];
+                                $('#subpu'+(c+1)+'-table').bootstrapTable('refreshOptions',{"data": rowData[c]}); 
+                            }  
+                            dataset_labels["subpu1"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Explosion Radius Rate - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu1-headline').text("Sub Power Up Effect 1: Explosion Radius Rate")
+                            dataset_labels["subpu2"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Marking Radius - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu2-headline').text("Sub Power Up Effect 2: Marking Radius")
+                            dataset_labels["subpu3"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Marking Duration - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu3-headline').text("Sub Power Up Effect 3: Marking Duration")
+                            show_subpu(1)
+                            show_subpu(2)
+                            show_subpu(3)
+                        })
+                    }  
+                    if ("Sprinkler" == weapon_data[0]["Name"]) {
+                        // case 4: Sprinkler, Period_First, Second
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/Sprinkler.json", function(data) {
+                            var calculatedData = [load_values(data["param"], "mPeriod_First"), load_values(data["param"], "mPeriod_Second")]
+                            var rowData = [[], []]
+                            var dsetcollection = [[], []]
+                            for (var c = 0; c < dsetcollection.length ; c++) {
+                                $.each(APs, function(idx, a) {
+                                    var res = AP2MainSub(a)
+                                    var effect1 = get_effect(calculatedData[c], a)
+                                    var row = ({
+                                        GAP: res,
+                                        AP: a,
+                                        Effect: Math.ceil(effect1[0] * 1),
+                                        Per: (effect1[1] * 100).toFixed(2)
+                                    });
+                                    rowData[c].push(row);
+                                    dsetcollection[c].push(row["Effect"]);
+                                })
+                                dataset_collection["subpu"+(c+1)] = dsetcollection[c];
+                                $('#subpu'+(c+1)+'-table').bootstrapTable('refreshOptions',{"data": rowData[c]}); 
+                            }  
+                            dataset_labels["subpu1"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - First Phase Duration - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu1-headline').text("First Phase Duration")
+                            dataset_labels["subpu2"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Second Phase Duration - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu2-headline').text("Second Phase Duration")
+                            show_subpu(1)
+                            show_subpu(2)
+                            hide_subpu(3)
+                        })
+                    }  
+                    if ("Shield" == weapon_data[0]["Name"]) {
+                        // case 5: Shield, MaxHp
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/Shield.json", function(data) {
+                            var calculatedData = load_values(data["param"], "mMaxHp")
+                            var rowData = []
+                            var dsetcollection = []
+                            $.each(APs, function(idx, a) {
+                                var res = AP2MainSub(a)
+                                var effect1 = get_effect(calculatedData, a)
+                                var row = ({
+                                    GAP: res,
+                                    AP: a,
+                                    Effect: Math.floor(effect1[0] * 1) / 10.0,
+                                    Per: (effect1[1] * 100).toFixed(2)
+                                });
+                                rowData.push(row);
+                                dsetcollection.push(row["Effect"]);
+                            })
+                            dataset_collection["subpu1"] = dsetcollection;
+                            $('#subpu1-table').bootstrapTable('refreshOptions',{"data": rowData});                
+                            dataset_labels["subpu1"] = "Sub Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - Max HP - v" + version[0] + "." + version[1] + "." + version[2];
+                            $('#subpu1-headline').text("Sub Power Up Effect 1: Max HP")
+                            show_subpu(1)
+                            hide_subpu(2)
+                            hide_subpu(3)
+                        })
+                    }
+                    if ("Flag" == weapon_data[0]["Name"]) {
+                        // case 6: Flag, SubRt_Effect_JumpTime_Save
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_JumpTime_Save.json", function(data) {
+                            $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/JumpBeacon.json", function(data2) {
+                                if (version >= "470") {
+                                    var multiplier = load_values(data2["param"], "mSubRt_Effect_ActualCnt")
+                                    var rowData = [[], []]
+                                    var varData = data["JumpTime_Save"]
+                                    var calculatedData = [load_values(varData, "DokanWarp_TameFrm"), load_values(varData, "DokanWarp_MoveFrm")]
+                                    var dsetcollection = [[], []]
+                                    $.each(APs, function(idx, a) {
+                                        var res = AP2MainSub(a)
+                                        var NewAP = a
+                                        var v7 = (((multiplier[1] - multiplier[2]) / multiplier[0]) - (17.8 / multiplier[0])) / ((17.8 / multiplier[0]) * ((17.8 / multiplier[0]) + -1.0));
+                                        var v8 = (NewAP / multiplier[0]) * (((NewAP / multiplier[0]) * v7) + (1.0 - v7));
+                                        var v9 = Math.floor(multiplier[2] + ((multiplier[0] - multiplier[2]) * v8));
+                                        for (var c = 0; c < dsetcollection.length ; c++) {
+                                            var effect1 = get_effect(calculatedData[c], v9)
+                                            var row = ({
+                                                GAP: res,
+                                                AP: a,
+                                                Effect: Math.ceil(effect1[0]),
+                                                Per: (effect1[1] * 100).toFixed(2)
+                                            });
+                                            rowData[c].push(row);
+                                            dsetcollection[c].push(row["Effect"].toFixed(4));
+                                        }
+                                    })
+                                } else {
+                                    var multiplier = data2["param"]["mSubRt_Effect_JumpTime_Save"]
+                                    var rowData = [[], []]
+                                    var varData = data["JumpTime_Save"]
+                                    var calculatedData = [load_values(varData, "DokanWarp_TameFrm"), load_values(varData, "DokanWarp_MoveFrm")]
+                                    var dsetcollection = [[], []]
+                                    $.each(APs, function(idx, a) {
+                                        var res = AP2MainSub(a)
+                                        for (var c = 0; c < dsetcollection.length ; c++) {
+                                            var effect1 = get_effect(calculatedData[c], math.floor(a * multiplier))
+                                            var row = ({
+                                                GAP: res,
+                                                AP: a,
+                                                Effect: Math.ceil(effect1[0]),
+                                                Per: (effect1[1] * 100).toFixed(2)
+                                            });
+                                            rowData[c].push(row);
+                                            dsetcollection[c].push(row["Effect"].toFixed(4));
+                                        }
+                                    })
+                                }
+                                for (var c = 0; c < dsetcollection.length; c++) {
+                                    dataset_collection["subpu" + (c+1)] = dsetcollection[c];
+                                    $('#subpu' + (c+1) + '-table').bootstrapTable('refreshOptions',{"data": rowData[c]});
+                                }                    
+                            
+                                dataset_labels["subpu1"] = "Sub Power Up - Beakon - Prepare Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                                dataset_labels["subpu2"] = "Sub Power Up - Beakon - Jump Frames - v" + version[0] + "." + version[1] + "." + version[2];
+                                $('#subpu1-headline').text("Prepare Frames")
+                                $('#subpu2-headline').text("Jump Frames")
+                                show_subpu(1)
+                                show_subpu(2)
+                                hide_subpu(3)
+                            });
+                        });
+                    } 
+                }
+                
+                function load_shottable(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_MainInk_Save.json", function(ismdata) {
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_SubInk_Save.json", function(issdata) {
+                            var ismCalcData = ismdata["MainInk_Save"]
+                            var issCalcData = issdata["SubInk_Save"]
+                            var calculatedData = [[0, 0, 0], [0, 0, 0]]
+                            var inkconsumeWeapon =  weapon_data[1]["mFullChargeInkConsume"] || weapon_data[1]["mInkConsume"] || weapon_data[1]["Stand_mInkConsumeSplash"]
+                            
+                            if (weapon_data[0]["InkSaverLv"] == "Low") {
+                                calculatedData[0] = load_values(ismCalcData, "ConsumeRt_Main_Low")
+                            } else if (weapon_data[0]["InkSaverLv"] == "High") {
+                                calculatedData[0] = load_values(ismCalcData, "ConsumeRt_Main_High")
+                            } else {
+                                calculatedData[0] = load_values(ismCalcData, "ConsumeRt_Main")
+                            } 
+                            var inktanksize = weapon_data[1]["mInkMagazineRatio"] || 1.0
+                            
+                            var subWeapon = loaded_subweapons[weapon_data[0]["Sub"]]
+                            
+                            var inkconsumeSub = subWeapon[1]["mInkConsume"]
+                            
+                            if ("ConsumeRt_Sub_A_Low" in issCalcData) {
+                                calculatedData[1] = load_values(issCalcData, "ConsumeRt_Sub_" + subWeapon[0]["InkSaverType"] )
+                            } else {
+                                if(subWeapon[0]["InkSaverLv"] == "Middle") {
+                                    calculatedData[1] = load_values(issCalcData, "ConsumeRt_Sub")
+                                } else {
+                                    calculatedData[1] = load_values(issCalcData, "ConsumeRt_Sub_" + subWeapon[0]["InkSaverLv"])
+                                }
+                            }
+                            
+                            var rowData = []
+                            $.each(APs, function(idx1, a1) {
+                                var row = {
+                                    "ismiss": a1
+                                }
+                                $.each(APs, function(idx2, a2) {
+                                    if(a1 + a2 <= 71) { // LDE gives up to 24 AP + 47 AP freely configurable
+                                        var resISM = AP2MainSub(a1)
+                                        var effectISM = get_effect(calculatedData[0], a1)
+                                        var resISS = AP2MainSub(a2)
+                                        var effectISS = get_effect(calculatedData[1], a2)
+                                        row["ap"+a2] = Math.floor((inktanksize - (effectISS[0] * inkconsumeSub)) / (effectISM[0] * inkconsumeWeapon))
+                                    }
+                                })
+                                rowData.push(row);
+                            })
+                            $('#issm-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        })
+                    })
+                }
+                
+                function load_beakonqsj() {                
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_JumpTime_Save.json", function(data) {
+                        $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/WeaponBullet/JumpBeacon.json", function(data2) {
+                            var rowData = []
+                            if (version >= "470") {
+                                var multiplier = load_values(data2["param"], "mSubRt_Effect_ActualCnt")
+                                var varData = data["JumpTime_Save"]
+                                var calculatedData = [load_values(varData, "DokanWarp_TameFrm"), load_values(varData, "DokanWarp_MoveFrm")]
+                                var dsetcollection = [[], []]
+                                $.each(APs, function(idx, a) {
+                                    var row = {
+                                        "qsjsubpuAP": a
+                                    }
+                                    var NewAP = a
+                                    var slope = (((multiplier[1] - multiplier[2]) / multiplier[0]) - (17.8 / multiplier[0])) / ((17.8 / multiplier[0]) * ((17.8 / multiplier[0]) + -1.0));
+                                    var percentage = (NewAP / multiplier[0]) * (((NewAP / multiplier[0]) * slope) + (1.0 - slope));
+                                    var usedAP = Math.floor(multiplier[2] + ((multiplier[0] - multiplier[2]) * percentage));
+                                    $.each(APs, function(idx, a2) {
+                                        if (a2 + a <= 57) {
+                                            var effect1 = get_effect(calculatedData[0], usedAP + a2)
+                                            row["ap"+a2] = Math.ceil(effect1[0])
+                                        }
+                                    })
+                                    rowData.push(row);
+                                })
+                                
+                            } else {
+                                var multiplier = data2["param"]["mSubRt_Effect_JumpTime_Save"]
+                                var rowData = []
+                                var varData = data["JumpTime_Save"]
+                                var calculatedData = [load_values(varData, "DokanWarp_TameFrm"), load_values(varData, "DokanWarp_MoveFrm")]
+                                $.each(APs, function(idx, a) {
+                                    var row = {
+                                        "qsjsubpuAP": a
+                                    }
+                                    $.each(APs, function(idx, a2) {
+                                        if (a2 + a <= 57) {
+                                            var effect1 = get_effect(calculatedData[0], Math.floor(a * multiplier) + a2)
+                                            row["ap"+a2] = Math.ceil(effect1[0])
+                                        }
+                                    })
+                                    rowData.push(row);
+                                })
+                            }
+                            $('#qsjsubpu-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        });
+                    });
+                }
+                
+                function load_rsu(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_HumanMove_Up.json", function(data) {                
+                        var rowData = [[], []]
+                        var varData = data["HumanMove_Up"]
+                        var calculatedData = [0, 0, 0]
+                        var calculatedDataWeapon = [0, 0, 0]
+                        var dsetcollection = [[], []]
+                        var base_speed = [1, weapon_data[1]["mMoveSpeed"]]
+
+                        
+                        if (weapon_data[0]["MoveVelLv"] == "Low") {
+                            calculatedData = load_values(varData, "MoveVel_Human_BigWeapon")
+                        } else if (weapon_data[0]["MoveVelLv"] == "High") {
+                            calculatedData = load_values(varData, "MoveVel_Human_ShortWeapon")
+                        } else {
+                            calculatedData = load_values(varData, "MoveVel_Human")
+                        } 
+                        
+                        calculatedDataWeapon = load_values(varData, "MoveVelRt_Human_Shot" + (weapon_data[0]["ShotMoveVelType"] || ""))
+                        var calc_with = [calculatedData, calculatedDataWeapon]
+                        
+                        for(var i=0; i < 2; i++) {
+                            $.each(APs, function(idx, a) {
+                                var res = AP2MainSub(a)
+                                var effect1 = get_effect(calc_with[i], a)
+                                var row = {
+                                    "GAP": res,
+                                    "AP": a,
+                                    "Effect": (effect1[0] * base_speed[i]).toFixed(5),
+                                    "Per": (effect1[1] * 100).toFixed(2)
+                                }
+                                rowData[i].push(row);
+                                dsetcollection[i].push(row["Effect"]);
+                            })
+                        }
+                        dataset_collection["rsu1"] = dsetcollection[0];
+                        dataset_collection["rsu2"] = dsetcollection[1];
+                        $('#rsu1-table').bootstrapTable('refreshOptions',{"data": rowData[0]});
+                        $('#rsu2-table').bootstrapTable('refreshOptions',{"data": rowData[1]});
+                        var weapon_name = lang_dict[weapon[0]["Name"]]
+                        dataset_labels["rsu1"] = "Run Speed Up - Normal - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["rsu2"] = "Run Speed Up - Shooting - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function load_ssu(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_SquidMove_Up.json", function(data) {                
+                        var rowData = [[], []]
+                        var varData = data["SquidMove_Up"]
+                        var calc_with = [0, 0, 0]
+                        var dsetcollection = [[], []]
+
+                        
+                        if (weapon_data[0]["MoveVelLv"] == "Low") {
+                            calc_with = load_values(varData, "MoveVel_Stealth_BigWeapon")
+                        } else if (weapon_data[0]["MoveVelLv"] == "High") {
+                            calc_with = load_values(varData, "MoveVel_Stealth_ShortWeapon")
+                        } else {
+                            calc_with = load_values(varData, "MoveVel_Stealth")
+                        } 
+                        
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(calc_with, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": (effect1[0]).toFixed(5),
+                                "Per": (effect1[1] * 100).toFixed(2)
+                            }
+                            rowData[0].push(row);
+                            dsetcollection[0].push(row["Effect"]);
+                        })
+                        
+                        $.each(APsNS, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effectNS(calc_with, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": (effect1[0]).toFixed(5),
+                                "Per": (effect1[1] * 100).toFixed(2)
+                            }
+                            rowData[1].push(row);
+                            dsetcollection[1].push(row["Effect"]);
+                        })
+                        
+                        dataset_collection["ssu1"] = dsetcollection[0];
+                        dataset_collection["ssu2"] = dsetcollection[1];
+                        $('#ssu1-table').bootstrapTable('refreshOptions',{"data": rowData[0]});
+                        $('#ssu2-table').bootstrapTable('refreshOptions',{"data": rowData[1]});
+                        var weapon_name = lang_dict[weapon[0]["Name"]]
+                        dataset_labels["ssu1"] = "Swim Speed Up - Normal - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                        dataset_labels["ssu2"] = "Swim Speed Up - Ninja Squid - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function load_scu(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_SpecialIncrease_Up.json", function(data) {                
+                        var rowData = []
+                        var varData = data["SpecialIncrease_Up"]
+                        var calc_with = calc_with = load_values(varData, "SpecialRt_Charge")
+                        var dsetcollection = []
+                        
+                        var min_points = weapon[0]["SpecialCost"] - Math.ceil(weapon[0]["SpecialCost"] / calc_with[0])
+                        
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(calc_with, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": Math.ceil(weapon[0]["SpecialCost"] / effect1[0]),
+                                "Per": ((weapon[0]["SpecialCost"] - Math.ceil(weapon[0]["SpecialCost"] / effect1[0])) * 100 / min_points).toFixed(2)
+                            }
+                            rowData.push(row);
+                            dsetcollection.push(row["Effect"]);
+                        })
+                        
+                        dataset_collection["scu"] = dsetcollection;
+                        $('#scu-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        var weapon_name = lang_dict[weapon[0]["Name"]]
+                        dataset_labels["scu"] = "Special Charge Up - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function load_sps(weapon_data) {
+                    $.getJSON("https://leanny.github.io/data/Parameter/" + version + "/Player/Player_Spec_RespawnSpecialGauge_Save.json", function(data) {                
+                        var rowData = []
+                        var varData = data["RespawnSpecialGauge_Save"]
+                        var calc_with = calc_with = load_values(varData, "SpecialRt_Restart")
+                        var dsetcollection = []
+
+                        $.each(APs, function(idx, a) {
+                            var res = AP2MainSub(a)
+                            var effect1 = get_effect(calc_with, a)
+                            var row = {
+                                "GAP": res,
+                                "AP": a,
+                                "Effect": Math.ceil(weapon[0]["SpecialCost"] * effect1[0]),
+                                "Effect2": (100 * effect1[0]).toFixed(4),
+                                "Per": (effect1[1] * 100).toFixed(2)
+                            }
+                            rowData.push(row);
+                            dsetcollection.push(row["Effect2"]);
+                        })
+                        
+                        dataset_collection["sps"] = dsetcollection;
+                        $('#sps-table').bootstrapTable('refreshOptions',{"data": rowData});
+                        var weapon_name = lang_dict[weapon[0]["Name"]]
+                        dataset_labels["sps"] = "Special Saver Up - " + weapon_name + "- v" + version[0] + "." + version[1] + "." + version[2];
+                    })
+                }
+                
+                function load_graphics() {
+                    config = {
+                            type: 'line',
+                            data: {
+                                labels: APs,
+                                datasets: dataset
+                            },
+                            options: {
+                                responsive: true,
+                                title: {
+                                    display: true,
+                                    text: 'Ability Overview'
+                                },
+                                animation: {
+                                    duration: 0
+                                },
+                                hover: {
+                                    animationDuration: 0
+                                },
+                                responsiveAnimationDuration: 0,
+                                scales: {
+                                    xAxes: [{
+                                        display: true,
+                                        scaleLabel: {
+                                            display: true,
+                                            labelString: 'AP'
+                                        }
+                                    }],
+                                    yAxes: [{
+                                        display: true,
+                                        scaleLabel: {
+                                            display: true,
+                                            labelString: 'Effect'
+                                        }
+                                    }]
+                                }
+                            }
+                        };
+
+                        var c = new Chart(document.getElementById('canvas'), config);
+                        c.update()
+                }
+                
+                function clearPlot() {
+                    dataset = []
+                    load_graphics();
+                }
+                
+                $("#chargeFramesSlider").slider();
+                $("#chargeFramesSlider").on("slide", function(slideEvt) {
+                    current_charge = slideEvt.value
+                    percentage_charged = (100 * (slideEvt.value - min_charge) / (max_charge - min_charge))
+                    $("#chargeFrameVal").text(current_charge + " (" + Math.round(percentage_charged) + "%)");
+                    load_ism(current_weapon)
+                });
+                
+                $(function() {
+                    columnsName = [{
+                        title: 'ISM/ISS',
+                        field: 'ismiss'
+                      }]
+                    $.each(APs, function(idx, a) {
+                      columnsName.push({
+                        title: a,
+                        field: 'ap'+a
+                      })
+                    })
+                    
+                    $("#issm-table").bootstrapTable({
+                      columns: columnsName
+                    })
+                    
+                    columnsName = [{
+                        title: 'SubPU/QSJ',
+                        field: 'qsjsubpuAP'
+                      }]
+                    $.each(APs, function(idx, a) {
+                      columnsName.push({
+                        title: a,
+                        field: 'ap'+a
+                      })
+                    })
+                    
+                    $("#qsjsubpu-table").bootstrapTable({
+                      columns: columnsName
+                    })
+                
+                    var table_names = [["qr", 2], ["inkres", 6], ["cb", 4], ["qsj", 2], ["subpu", 3], ["spepu", 5], ["mpu", 6], ["iru", 2], ["bdu", 3], ["ism", 1], ["rsu", 2], ["ssu", 2], ["scu", 1], ["sps", 1], ["iss", 1]]
+                    for (var i = 0; i < table_names.length; i++) {
+                        var name = table_names[i][0];
+                        var max_c = table_names[i][1];
+                        if (max_c == 1) {
+                            $('#' + name + '-table').bootstrapTable({});
+                        } else {
+                            for (var c = 0; c < max_c; c++) {
+                                $('#' + name + (c+1) + '-table').bootstrapTable({});
+                            }
+                        }
+                    }
+                    $('#version').change(function() {
+                        version = ($(this).val());
+                        load_data();
+                    });
+                    $('#mainweapon').change(function() {
+                        weapon = loaded_weapons[$(this).val()]
+                        $('#WeaponInfo').children().remove()
+                        
+                        $('#WeaponInfo').append("<p><strong>Sub Weapon:</strong> " + lang_dict[weapon[0]["Sub"]] + "</p>")
+                        $('#WeaponInfo').append("<p><strong>Special Weapon:</strong> " + lang_dict[weapon[0]["Special"]] + "</p>")
+                        $('#WeaponInfo').append("<p><strong>Special Points:</strong> " + weapon[0]["SpecialCost"] + "</p>")
+                        $('#WeaponInfo').append("<p><strong>Ink Saver Level:</strong> " + weapon[0]["InkSaverLv"] + "</p>")
+                        $('#WeaponInfo').append("<p><strong>Weight Class:</strong> " + weapon[0]["MoveVelLv"] + "</p>")
+                        $('#WeaponInfo').append("<p><strong>Base Runspeed Shooting:</strong> " + weapon[1]["mMoveSpeed"] + "</p>")
+                        
+                        if(weapon[0]["Name"].includes("Charge")) {
+                            $('#charger').show()
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption (Min):</strong> " + weapon[1]["mMinChargeInkConsume"] + "</p>")
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption (Max):</strong> " + weapon[1]["mMaxChargeInkConsume"] + "</p>")
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption (Full):</strong> " + weapon[1]["mFullChargeInkConsume"] + "</p>")
+                            min_charge = weapon[1]["mMinChargeFrame"]
+                            max_charge = weapon[1]["mFullChargeFrame"]
+
+                            $("#chargeFramesSlider").slider('setAttribute', 'max', max_charge);
+                            $("#chargeFramesSlider").slider('setAttribute', 'min', min_charge);
+                            $("#chargeFramesSlider").slider('refresh');
+                        } else if (weapon[0]["Name"].includes("Roller")) {
+                            $('#charger').hide()
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption (Standing):</strong> " + weapon[1]["Stand_mInkConsumeSplash"] + "</p>")
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption (Jumping):</strong> " + weapon[1]["Jump_mInkConsumeSplash"] + "</p>")
+                        } else {
+                            $('#charger').hide()
+                            $('#WeaponInfo').append("<p><strong>Ink Consumption:</strong> " + weapon[1]["mInkConsume"] + "</p>")
+                        }
+                        current_weapon = weapon
+                        load_ism(weapon)
+                        load_rsu(weapon)
+                        load_ssu(weapon)
+                        load_scu(weapon)
+                        load_sps(weapon)
+                        load_mpu(weapon)
+                        load_shottable(weapon)
+                    });
+                    $('#subweapon-select').change(function() {
+                        sub_weapon = loaded_subweapons[$(this).val()]
+                        $('#SubWeaponInfo').children().remove()
+                        $('#SubWeaponInfo').append("<p><strong>Ink Consumption:</strong> " + sub_weapon[1]["mInkConsume"] + "</p>")
+                        if("InkSaverLv" in sub_weapon[0]) {
+                            $('#SubWeaponInfo').append("<p><strong>Ink Saver Level:</strong> " + sub_weapon[0]["InkSaverLv"] + "</p>")
+                        } else {
+                            $('#SubWeaponInfo').append("<p><strong>Ink Saver Level:</strong> " + sub_weapon[0]["InkSaverType"] + "</p>")
+                        }
+
+                        load_iss(sub_weapon)
+                        load_subpu(sub_weapon)
+                    });
+                    $('#speweapon-select').change(function() {
+                        special_weapon = loaded_specialweapons[$(this).val()]
+                        load_spepu(special_weapon)
+                    });
+                })
+                                
+            </script>
+        </main>
+        <footer class="footer">
+            <div class="container text-muted">
+                <div class="footer-notice">
+                    <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. Overall support provided by <a href="https://twitter.com/WemI0"><span class="fa fa-twitter">WemI0</span></a>, <a href="https://twitter.com/OatmealDome"><span class="fa fa-twitter">OatmealDome</span></a>, and <a href="https://twitter.com/Simon1844"><span class="fa fa-twitter">Simon</span></a></p>
+                    <p>Feedback or suggestions are welcome. Please contact me via Twitter. <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a></p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
