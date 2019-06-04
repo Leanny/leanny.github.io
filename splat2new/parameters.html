@@ -403,7 +403,11 @@
                                 if(specialweapon["Id"] == 13) {
                                     $("#special-select").append(new Option("Rainmaker", "Gachihoko"));
                                 } else {
-                                    $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], specialweapon["Name"].replace("Launcher", "BombLauncher")));
+                                    if(specialweapon["Name"].includes("Launcher")) {
+                                        $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], "Bomb"+specialweapon["Name"].replace("Launcher", "")+"Launcher"));
+                                    } else {
+                                        $("#special-select").append(new Option(lang_dict[specialweapon["Name"]], specialweapon["Name"]));
+                                    }
                                 }
                             }
                         });
