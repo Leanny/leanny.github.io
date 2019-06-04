@@ -1606,13 +1606,11 @@
                     var rowData = []
                     var dsetcollection = []
                     var translations = []
-                    console.log(weapon_data[0]["Name"])
+                    
                     $.each(keys, function(name, translation) {
                         if(name + "_MWPUG_High" in weapon_data[1] || "Stand_" + name + "_MWPUG_High" in weapon_data[1] || "Jump_" + name + "_MWPUG_High" in weapon_data[1]) {
                             var calculatedData = load_values_MWPUG(weapon_data[1], name)
-                                if(calculatedData[0] != calculatedData[1]) {
-                                console.log("  " + name)
-                                console.log(calculatedData)
+                            if(calculatedData[0] != calculatedData[1]) {
                                 translations.push(translation)
                                 var dsetcollectionUnit = []
                                 var rowDataUnit = []
