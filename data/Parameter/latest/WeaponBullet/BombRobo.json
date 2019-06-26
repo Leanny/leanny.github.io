@@ -4,7 +4,7 @@
         "mBringCloseRateMoveVec": 0.7,
         "mBurst_Damage_Far": 300,
         "mBurst_Damage_Far_Mission": 300,
-        "mBurst_Damage_Near": 1500,
+        "mBurst_Damage_Near": 1800,
         "mBurst_Damage_Near_Mission": 1500,
         "mBurst_KnockBackCoreImpact": 2.0,
         "mBurst_KnockBackKb": 0.8,

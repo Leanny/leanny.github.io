@@ -30,7 +30,7 @@
         "mChaseDistanceYPlus": 30.0,
         "mColRadiusVsBullet": 7.0,
         "mColRadiusVsPlayer": 6.0,
-        "mCollisionSeSilentFrame": 4,
+        "mCollisionSeSilentFrame": 8,
         "mCollisionSeVelDotGndNrm": 0.08,
         "mCollisionSeVelDotGndTimes": 1.2,
         "mContactDashPanelAddSpeed": 9.5,

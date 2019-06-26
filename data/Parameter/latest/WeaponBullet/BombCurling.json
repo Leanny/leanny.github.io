@@ -16,7 +16,7 @@
         "mBurst_Damage_Far": 300,
         "mBurst_Damage_Far_Enemy": 300,
         "mBurst_Damage_Far_Mission": 300,
-        "mBurst_Damage_Near": 1500,
+        "mBurst_Damage_Near": 1800,
         "mBurst_Damage_Near_Enemy": 1500,
         "mBurst_Damage_Near_Mission": 1500,
         "mBurst_EachLength_Bias": 0.65,
