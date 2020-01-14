@@ -297,7 +297,7 @@
 				var result = []
 				seed = advanceFrame(seed, start)
 				end = start + limit 
-				for(i = 0;; i++) {
+				for(i = start;; i++) {
 					res = getData(seed, i, entries[$("#species")[0].selectedIndex])
 					seed += XC
 					seed &= MASK
