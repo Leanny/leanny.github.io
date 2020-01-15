@@ -379,22 +379,20 @@
 				});
 			}
 
-            $(function() {
-				load_dens();
-				load_rarity();
-				load_game();
-                $('#seed-table').bootstrapTable({});
-                $('#den').change(function() {
-                    change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
-                })
-                $('#denrarity').change(function() {
-                    change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
-                })
-                $('#game').change(function() {
-                    change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
-                })
+			load_dens();
+			load_rarity();
+			load_game();
+			$('#seed-table').bootstrapTable({});
+			$('#den').change(function() {
 				change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
-            })
+			})
+			$('#denrarity').change(function() {
+				change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
+			})
+			$('#game').change(function() {
+				change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
+			})
+			change_species($('#den').val(), $('#denrarity').val(), $('#game').val())
          </script>
       </main>
       <footer class="footer">
