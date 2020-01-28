@@ -41,6 +41,7 @@
       <link rel="stylesheet" type="text/css" href="https://unpkg.com/bootstrap-table@1.15.5/dist/extensions/filter-control/bootstrap-table-filter-control.css">
       <script src="https://unpkg.com/bootstrap-table@1.15.5/dist/extensions/filter-control/bootstrap-table-filter-control.js"></script>
       <script src="https://peterolson.github.io/BigInteger.js/BigInteger.js"></script>
+	  <script src="common.js"></script>
       <main role="main">
          <div class="jumbotron">
             <div class="col-sm-8 mx-auto">
@@ -114,140 +115,12 @@
             </div>
          </div>
          <script>
-        var EventHash = bigInt("1721953670860364124");
-
-        var Nests = [[16, 52, 12], [37, 64, 12], [31, 90, 12], [03, 51, 12], [04, 46, 12], [33, 62, 12], [39, 65, 12], [01, 48, 12], [31, 90, 12], [26, 59, 02], [28, 79, 02], [26, 58, 02], [04, 92, 02], [26, 59, 02], [02, 50, 15], [06, 47, 15], [00, 00, 15], [07, 44, 04], [39, 65, 04], [31, 61, 04], [31, 61, 04], [09, 75, 16], [09, 75, 16], [44, 42, 16], [07, 44, 16], [09, 91, 16], [35, 63, 16], [38, 64, 00], [08, 91, 13], [41, 76, 13], [41, 76, 13], [05, 46, 13], [01, 43, 13], [15, 51, 07], [12, 45, 07], [11, 49, 07], [15, 83, 07], [11, 84, 07], [10, 48, 11], [41, 76, 11], [29, 60, 11], [41, 76, 11], [29, 60, 11], [29, 86, 04], [10, 48, 11], [14, 50, 10], [30, 60, 10], [24, 56, 10], [40, 65, 10], [34, 82, 01], [13, 87, 01], [08, 44, 01], [16, 52, 01], [40, 65, 01], [04, 92, 01], [05, 46, 01], [36, 63, 01], [27, 59, 01], [40, 66, 14], [01, 81, 14], [03, 51, 14], [19, 80, 14], [06, 43, 14], [27, 59, 14], [02, 50, 14], [12, 85, 14], [22, 55, 14], [14, 50, 14], [18, 54, 14], [35, 63, 14], [17, 93, 03], [17, 52, 03], [15, 93, 03], [09, 75, 03], [11, 49, 03], [10, 48, 03], [21, 55, 03], [20, 54, 03], [28, 43, 06], [36, 88, 03], [42, 67, 06], [36, 69, 06], [27, 70, 06], [25, 72, 06], [12, 45, 08], [32, 61, 08], [30, 57, 08], [19, 53, 08], [23, 73, 08], [33, 62, 08], [14, 68, 08], [30, 60, 05], [23, 55, 05], [18, 71, 05], [32, 89, 05], [24, 78, 05], [25, 56, 09], [18, 77, 09], [08, 44, 09], [34, 74, 09]]
-            
             var LocationNames = ["Axew's Eye", "Bridge Field", "Dappled Grove", "Dusty Bowl", "East Lake Axewell", "Giant's Cap", "Giant's Mirror", "Giant's Seat", "Hammerlocke Hills", "Lake of Outrage", "Motostoke Riverbank", "North Lake Miloch", "Rolling Fields", "South Lake Miloch", "Stony Wilderness", "Watchtower Ruins", "West Lake Axewell"]    
             var Nature = ["Hardy", "Lonely", "Brave", "Adamant", "Naughty", "Bold", "Docile", "Relaxed", "Impish", "Lax", "Timid", "Hasty", "Serious", "Jolly", "Naive", "Modest", "Mild", "Quiet", "Bashful", "Rash", "Calm", "Gentle", "Sassy", "Careful", "Quirky"]
             var Names = ["Egg", "Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon", "Charizard", "Squirtle", "Wartortle", "Blastoise", "Caterpie", "Metapod", "Butterfree", "Weedle", "Kakuna", "Beedrill", "Pidgey", "Pidgeotto", "Pidgeot", "Rattata", "Raticate", "Spearow", "Fearow", "Ekans", "Arbok", "Pikachu", "Raichu", "Sandshrew", "Sandslash", "Nidoranâ™€", "Nidorina", "Nidoqueen", "Nidoranâ™‚", "Nidorino", "Nidoking", "Clefairy", "Clefable", "Vulpix", "Ninetales", "Jigglypuff", "Wigglytuff", "Zubat", "Golbat", "Oddish", "Gloom", "Vileplume", "Paras", "Parasect", "Venonat", "Venomoth", "Diglett", "Dugtrio", "Meowth", "Persian", "Psyduck", "Golduck", "Mankey", "Primeape", "Growlithe", "Arcanine", "Poliwag", "Poliwhirl", "Poliwrath", "Abra", "Kadabra", "Alakazam", "Machop", "Machoke", "Machamp", "Bellsprout", "Weepinbell", "Victreebel", "Tentacool", "Tentacruel", "Geodude", "Graveler", "Golem", "Ponyta", "Rapidash", "Slowpoke", "Slowbro", "Magnemite", "Magneton", "Farfetchâ€™d", "Doduo", "Dodrio", "Seel", "Dewgong", "Grimer", "Muk", "Shellder", "Cloyster", "Gastly", "Haunter", "Gengar", "Onix", "Drowzee", "Hypno", "Krabby", "Kingler", "Voltorb", "Electrode", "Exeggcute", "Exeggutor", "Cubone", "Marowak", "Hitmonlee", "Hitmonchan", "Lickitung", "Koffing", "Weezing", "Rhyhorn", "Rhydon", "Chansey", "Tangela", "Kangaskhan", "Horsea", "Seadra", "Goldeen", "Seaking", "Staryu", "Starmie", "Mr. Mime", "Scyther", "Jynx", "Electabuzz", "Magmar", "Pinsir", "Tauros", "Magikarp", "Gyarados", "Lapras", "Ditto", "Eevee", "Vaporeon", "Jolteon", "Flareon", "Porygon", "Omanyte", "Omastar", "Kabuto", "Kabutops", "Aerodactyl", "Snorlax", "Articuno", "Zapdos", "Moltres", "Dratini", "Dragonair", "Dragonite", "Mewtwo", "Mew", "Chikorita", "Bayleef", "Meganium", "Cyndaquil", "Quilava", "Typhlosion", "Totodile", "Croconaw", "Feraligatr", "Sentret", "Furret", "Hoothoot", "Noctowl", "Ledyba", "Ledian", "Spinarak", "Ariados", "Crobat", "Chinchou", "Lanturn", "Pichu", "Cleffa", "Igglybuff", "Togepi", "Togetic", "Natu", "Xatu", "Mareep", "Flaaffy", "Ampharos", "Bellossom", "Marill", "Azumarill", "Sudowoodo", "Politoed", "Hoppip", "Skiploom", "Jumpluff", "Aipom", "Sunkern", "Sunflora", "Yanma", "Wooper", "Quagsire", "Espeon", "Umbreon", "Murkrow", "Slowking", "Misdreavus", "Unown", "Wobbuffet", "Girafarig", "Pineco", "Forretress", "Dunsparce", "Gligar", "Steelix", "Snubbull", "Granbull", "Qwilfish", "Scizor", "Shuckle", "Heracross", "Sneasel", "Teddiursa", "Ursaring", "Slugma", "Magcargo", "Swinub", "Piloswine", "Corsola", "Remoraid", "Octillery", "Delibird", "Mantine", "Skarmory", "Houndour", "Houndoom", "Kingdra", "Phanpy", "Donphan", "Porygon2", "Stantler", "Smeargle", "Tyrogue", "Hitmontop", "Smoochum", "Elekid", "Magby", "Miltank", "Blissey", "Raikou", "Entei", "Suicune", "Larvitar", "Pupitar", "Tyranitar", "Lugia", "Ho-Oh", "Celebi", "Treecko", "Grovyle", "Sceptile", "Torchic", "Combusken", "Blaziken", "Mudkip", "Marshtomp", "Swampert", "Poochyena", "Mightyena", "Zigzagoon", "Linoone", "Wurmple", "Silcoon", "Beautifly", "Cascoon", "Dustox", "Lotad", "Lombre", "Ludicolo", "Seedot", "Nuzleaf", "Shiftry", "Taillow", "Swellow", "Wingull", "Pelipper", "Ralts", "Kirlia", "Gardevoir", "Surskit", "Masquerain", "Shroomish", "Breloom", "Slakoth", "Vigoroth", "Slaking", "Nincada", "Ninjask", "Shedinja", "Whismur", "Loudred", "Exploud", "Makuhita", "Hariyama", "Azurill", "Nosepass", "Skitty", "Delcatty", "Sableye", "Mawile", "Aron", "Lairon", "Aggron", "Meditite", "Medicham", "Electrike", "Manectric", "Plusle", "Minun", "Volbeat", "Illumise", "Roselia", "Gulpin", "Swalot", "Carvanha", "Sharpedo", "Wailmer", "Wailord", "Numel", "Camerupt", "Torkoal", "Spoink", "Grumpig", "Spinda", "Trapinch", "Vibrava", "Flygon", "Cacnea", "Cacturne", "Swablu", "Altaria", "Zangoose", "Seviper", "Lunatone", "Solrock", "Barboach", "Whiscash", "Corphish", "Crawdaunt", "Baltoy", "Claydol", "Lileep", "Cradily", "Anorith", "Armaldo", "Feebas", "Milotic", "Castform", "Kecleon", "Shuppet", "Banette", "Duskull", "Dusclops", "Tropius", "Chimecho", "Absol", "Wynaut", "Snorunt", "Glalie", "Spheal", "Sealeo", "Walrein", "Clamperl", "Huntail", "Gorebyss", "Relicanth", "Luvdisc", "Bagon", "Shelgon", "Salamence", "Beldum", "Metang", "Metagross", "Regirock", "Regice", "Registeel", "Latias", "Latios", "Kyogre", "Groudon", "Rayquaza", "Jirachi", "Deoxys", "Turtwig", "Grotle", "Torterra", "Chimchar", "Monferno", "Infernape", "Piplup", "Prinplup", "Empoleon", "Starly", "Staravia", "Staraptor", "Bidoof", "Bibarel", "Kricketot", "Kricketune", "Shinx", "Luxio", "Luxray", "Budew", "Roserade", "Cranidos", "Rampardos", "Shieldon", "Bastiodon", "Burmy", "Wormadam", "Mothim", "Combee", "Vespiquen", "Pachirisu", "Buizel", "Floatzel", "Cherubi", "Cherrim", "Shellos", "Gastrodon", "Ambipom", "Drifloon", "Drifblim", "Buneary", "Lopunny", "Mismagius", "Honchkrow", "Glameow", "Purugly", "Chingling", "Stunky", "Skuntank", "Bronzor", "Bronzong", "Bonsly", "Mime Jr.", "Happiny", "Chatot", "Spiritomb", "Gible", "Gabite", "Garchomp", "Munchlax", "Riolu", "Lucario", "Hippopotas", "Hippowdon", "Skorupi", "Drapion", "Croagunk", "Toxicroak", "Carnivine", "Finneon", "Lumineon", "Mantyke", "Snover", "Abomasnow", "Weavile", "Magnezone", "Lickilicky", "Rhyperior", "Tangrowth", "Electivire", "Magmortar", "Togekiss", "Yanmega", "Leafeon", "Glaceon", "Gliscor", "Mamoswine", "Porygon-Z", "Gallade", "Probopass", "Dusknoir", "Froslass", "Rotom", "Uxie", "Mesprit", "Azelf", "Dialga", "Palkia", "Heatran", "Regigigas", "Giratina", "Cresselia", "Phione", "Manaphy", "Darkrai", "Shaymin", "Arceus", "Victini", "Snivy", "Servine", "Serperior", "Tepig", "Pignite", "Emboar", "Oshawott", "Dewott", "Samurott", "Patrat", "Watchog", "Lillipup", "Herdier", "Stoutland", "Purrloin", "Liepard", "Pansage", "Simisage", "Pansear", "Simisear", "Panpour", "Simipour", "Munna", "Musharna", "Pidove", "Tranquill", "Unfezant", "Blitzle", "Zebstrika", "Roggenrola", "Boldore", "Gigalith", "Woobat", "Swoobat", "Drilbur", "Excadrill", "Audino", "Timburr", "Gurdurr", "Conkeldurr", "Tympole", "Palpitoad", "Seismitoad", "Throh", "Sawk", "Sewaddle", "Swadloon", "Leavanny", "Venipede", "Whirlipede", "Scolipede", "Cottonee", "Whimsicott", "Petilil", "Lilligant", "Basculin", "Sandile", "Krokorok", "Krookodile", "Darumaka", "Darmanitan", "Maractus", "Dwebble", "Crustle", "Scraggy", "Scrafty", "Sigilyph", "Yamask", "Cofagrigus", "Tirtouga", "Carracosta", "Archen", "Archeops", "Trubbish", "Garbodor", "Zorua", "Zoroark", "Minccino", "Cinccino", "Gothita", "Gothorita", "Gothitelle", "Solosis", "Duosion", "Reuniclus", "Ducklett", "Swanna", "Vanillite", "Vanillish", "Vanilluxe", "Deerling", "Sawsbuck", "Emolga", "Karrablast", "Escavalier", "Foongus", "Amoonguss", "Frillish", "Jellicent", "Alomomola", "Joltik", "Galvantula", "Ferroseed", "Ferrothorn", "Klink", "Klang", "Klinklang", "Tynamo", "Eelektrik", "Eelektross", "Elgyem", "Beheeyem", "Litwick", "Lampent", "Chandelure", "Axew", "Fraxure", "Haxorus", "Cubchoo", "Beartic", "Cryogonal", "Shelmet", "Accelgor", "Stunfisk", "Mienfoo", "Mienshao", "Druddigon", "Golett", "Golurk", "Pawniard", "Bisharp", "Bouffalant", "Rufflet", "Braviary", "Vullaby", "Mandibuzz", "Heatmor", "Durant", "Deino", "Zweilous", "Hydreigon", "Larvesta", "Volcarona", "Cobalion", "Terrakion", "Virizion", "Tornadus", "Thundurus", "Reshiram", "Zekrom", "Landorus", "Kyurem", "Keldeo", "Meloetta", "Genesect", "Chespin", "Quilladin", "Chesnaught", "Fennekin", "Braixen", "Delphox", "Froakie", "Frogadier", "Greninja", "Bunnelby", "Diggersby", "Fletchling", "Fletchinder", "Talonflame", "Scatterbug", "Spewpa", "Vivillon", "Litleo", "Pyroar", "FlabÃ©bÃ©", "Floette", "Florges", "Skiddo", "Gogoat", "Pancham", "Pangoro", "Furfrou", "Espurr", "Meowstic", "Honedge", "Doublade", "Aegislash", "Spritzee", "Aromatisse", "Swirlix", "Slurpuff", "Inkay", "Malamar", "Binacle", "Barbaracle", "Skrelp", "Dragalge", "Clauncher", "Clawitzer", "Helioptile", "Heliolisk", "Tyrunt", "Tyrantrum", "Amaura", "Aurorus", "Sylveon", "Hawlucha", "Dedenne", "Carbink", "Goomy", "Sliggoo", "Goodra", "Klefki", "Phantump", "Trevenant", "Pumpkaboo", "Gourgeist", "Bergmite", "Avalugg", "Noibat", "Noivern", "Xerneas", "Yveltal", "Zygarde", "Diancie", "Hoopa", "Volcanion", "Rowlet", "Dartrix", "Decidueye", "Litten", "Torracat", "Incineroar", "Popplio", "Brionne", "Primarina", "Pikipek", "Trumbeak", "Toucannon", "Yungoos", "Gumshoos", "Grubbin", "Charjabug", "Vikavolt", "Crabrawler", "Crabominable", "Oricorio", "Cutiefly", "Ribombee", "Rockruff", "Lycanroc", "Wishiwashi", "Mareanie", "Toxapex", "Mudbray", "Mudsdale", "Dewpider", "Araquanid", "Fomantis", "Lurantis", "Morelull", "Shiinotic", "Salandit", "Salazzle", "Stufful", "Bewear", "Bounsweet", "Steenee", "Tsareena", "Comfey", "Oranguru", "Passimian", "Wimpod", "Golisopod", "Sandygast", "Palossand", "Pyukumuku", "Type: Null", "Silvally", "Minior", "Komala", "Turtonator", "Togedemaru", "Mimikyu", "Bruxish", "Drampa", "Dhelmise", "Jangmo-o", "Hakamo-o", "Kommo-o", "Tapu Koko", "Tapu Lele", "Tapu Bulu", "Tapu Fini", "Cosmog", "Cosmoem", "Solgaleo", "Lunala", "Nihilego", "Buzzwole", "Pheromosa", "Xurkitree", "Celesteela", "Kartana", "Guzzlord", "Necrozma", "Magearna", "Marshadow", "Poipole", "Naganadel", "Stakataka", "Blacephalon", "Zeraora", "Meltan", "Melmetal", "Grookey", "Thwackey", "Rillaboom", "Scorbunny", "Raboot", "Cinderace", "Sobble", "Drizzile", "Inteleon", "Skwovet", "Greedent", "Rookidee", "Corvisquire", "Corviknight", "Blipbug", "Dottler", "Orbeetle", "Nickit", "Thievul", "Gossifleur", "Eldegoss", "Wooloo", "Dubwool", "Chewtle", "Drednaw", "Yamper", "Boltund", "Rolycoly", "Carkol", "Coalossal", "Applin", "Flapple", "Appletun", "Silicobra", "Sandaconda", "Cramorant", "Arrokuda", "Barraskewda", "Toxel", "Toxtricity", "Sizzlipede", "Centiskorch", "Clobbopus", "Grapploct", "Sinistea", "Polteageist", "Hatenna", "Hattrem", "Hatterene", "Impidimp", "Morgrem", "Grimmsnarl", "Obstagoon", "Perrserker", "Cursola", "Sirfetchâ€™d", "Mr. Rime", "Runerigus", "Milcery", "Alcremie", "Falinks", "Pincurchin", "Snom", "Frosmoth", "Stonjourner", "Eiscue", "Indeedee", "Morpeko", "Cufant", "Copperajah", "Dracozolt", "Arctozolt", "Dracovish", "Arctovish", "Duraludon", "Dreepy", "Drakloak", "Dragapult", "Zacian", "Zamazenta", "Eternatus"]
             var Gender = ["Male", "Female", "Genderless"]
-            var GenderRatios = [255, 31, 31, 31, 31, 31, 31, 31, 31, 31, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 191, 191, 191, 191, 255, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 127, 127, 127, 127, 255, 255, 255, 255, 63, 63, 255, 255, 255, 255, 255, 255, 63, 63, 63, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 127, 255, 255, 255, 255, 255, 255, 127, 127, 127, 127, 127, 127, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 0, 0, 255, 127, 127, 127, 127, 255, 255, 255, 255, 255, 127, 127, 255, 255, 127, 255, 255, 255, 255, 255, 255, 127, 127, 127, 255, 31, 31, 31, 31, 255, 255, 255, 255, 255, 255, 31, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 127, 127, 127, 191, 255, 31, 31, 127, 127, 255, 255, 255, 127, 255, 255, 127, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 31, 31, 255, 255, 255, 255, 127, 255, 255, 255, 255, 255, 127, 255, 255, 127, 255, 127, 255, 127, 255, 255, 255, 255, 127, 127, 191, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 0, 0, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 127, 127, 127, 127, 127, 127, 255, 255, 127, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 127, 255, 255, 255, 255, 127, 127, 255, 255, 127, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 127, 127, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 31, 254, 255, 255, 255, 127, 127, 127, 127, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 31, 31, 31, 127, 127, 127, 127, 127, 127, 255, 255, 255, 127, 127, 127, 127, 255, 255, 127, 255, 255, 255, 31, 255, 31, 31, 255, 127, 255, 0, 255, 127, 254, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 127, 127, 127, 127, 127, 255, 255, 127, 127, 127, 127, 127, 127, 127, 255, 63, 63, 63, 127, 127, 127, 0, 0, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 127, 255, 255, 255, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 255, 255, 255, 255, 127, 127, 255, 255, 191, 191, 191, 191, 191, 127, 127, 127, 255, 255, 127, 127, 127, 255, 255, 255, 127, 127, 255, 255, 127, 127, 255, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 255, 127, 127, 127, 255, 255, 255, 255, 255, 127, 127, 255, 0, 0, 254, 254, 127, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 255, 127, 0, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 31, 127, 255, 255, 127, 127, 127, 255, 127, 127, 127, 127, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 31, 31, 31, 31, 31, 31, 31, 31, 31, 255, 255, 255, 255, 255, 127, 127, 127, 255, 255, 255, 127, 127, 255, 255, 127, 127, 127, 127, 127, 127, 127, 255, 255, 127, 127, 31, 254, 127, 127, 254, 254, 254, 255, 127, 127, 127, 127, 255, 255, 127, 255, 255, 255, 255, 127, 127, 127, 255, 127, 255, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 31, 31, 31, 31, 31, 31, 31, 31, 31, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 127, 255, 255, 254, 254, 254, 0, 0, 0, 127, 127, 191, 127, 127, 127, 254, 254, 255, 127, 127, 127, 127, 127, 0, 127, 127, 127, 255, 255, 255, 255, 127, 127, 127, 127, 255, 255, 255, 255, 255, 0, 0, 0, 0, 0, 0, 0, 127, 255, 255, 191, 191, 127, 127, 127, 127, 127, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 191, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 127, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 254, 127, 127, 127, 127, 127, 127, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 255, 127, 255, 255, 255, 127, 127, 127, 255, 255, 254, 254, 254, 254, 254, 254, 254, 254, 127, 254, 127, 255, 255, 255]
-            var ShinyType = ["No", "Star", "Square"]
-            var ToxtricityAmplifiedNatures = [ 0x03, 0x04, 0x02, 0x08, 0x09, 0x13, 0x16, 0x0B, 0x0D, 0x0E, 0x18 ];
-            var ToxtricityLowKeyNatures = [ 0x01, 0x05, 0x07, 0x0A, 0x0C, 0x0F, 0x10, 0x11, 0x12, 0x14, 0x15, 0x17 ];
-            var s0 = 0
-            var s1 = 0
-            var XC = bigInt("82A2B175229D6A5B", 16)
+			var nestName = "Nest"
 
-            function rotl(x, k) {
-                var a = x.shiftLeft(k) 
-                a = a.and(MASK)
-                var b = x.shiftRight(bigInt("64").minus(k))
-                return a.or(b)
-            }
-            
-            function next() {
-                var res = s0.plus(s1) 
-                res = res.and(MASK)
-                s1 = s0.xor(s1)
-                s0 = rotl(s0, bigInt("24")).xor(s1).xor((s1.shiftLeft(bigInt("16"))).and(MASK))
-                s1 = rotl(s1, bigInt("37"))
-                return res 
-            }
-            
-            function setSeed(x) {
-                s0 = x 
-                s1 = XC
-            }
-            
-            function nextInt(num, mask) {
-                var s = next().and(mask)
-                while(s.compare(num) >= 0) {
-                    s = next().and(mask)
-                }
-                return Number(s);
-            }
-            
-            function GetShinyValue(n) {
-                return GetShinyXor(n) >>> 4
-            }
-            
-            function GetShinyXor(n) {
-                return (n >>> 16) ^ (n&0xFFFF)
-            }
-            
-            function GetShinyType(pid, tidsid) {
-                var p = GetShinyXor(pid);
-                var t = GetShinyXor(tidsid);
-                if (p == t)
-                    return 2; // square;
-                if ((p ^ t) < 0x10)
-                    return 1; // star
-                return 0;
-            }
-
-            function getData(seed, idx, pkmn) {
-                setSeed(seed)
-                var ec = nextInt(SMASK, SMASK)
-                var sidtid = nextInt(SMASK, SMASK)
-                var pid = nextInt(SMASK, SMASK)
-                var shiny = GetShinyType(pid, sidtid)
-                var iv = [-1, -1, -1, -1, -1, -1]
-                var i = 0
-                while(i < pkmn["FlawlessIVs"]) {
-                    var s = nextInt(bigInt("6"), bigInt("7"))
-                    if (iv[s] == -1) {
-                        i += 1
-                        iv[s] = 31
-                    }
-                }
-                for(i = 0; i < 6; i++) {
-                    if(iv[i] == -1) {
-                        iv[i] = nextInt(bigInt("32"), bigInt("31"))
-                    }
-                }
-                var ability = 0;
-                var abilityNames = ["1", "2", "H"]
-                if(pkmn["Ability"] < 3) {
-                    ability = pkmn["Ability"]
-                } else {
-                    if(pkmn["Ability"] == 3) {
-                        ability = abilityNames[nextInt(bigInt("2"), bigInt("1"))];
-                    } else {
-                        ability = abilityNames[nextInt(bigInt("3"), bigInt("3"))];
-                    }
-                }
-                
-                var gt = GenderRatios[pkmn["Species"]]
-                var gender = 0
-                if(gt == 255) {
-                    gender = Gender[2]
-                } else if (gt == 254) {
-                    gender = Gender[1]
-                } else if (gt == 0) {
-                    gender = Gender[0]
-                } else {
-                    gender = Gender[nextInt(bigInt("253"), bigInt("255")) + 1 < gt? 1 : 0]
-                }
-                
-                var nature;
-                if(pkmn["Species"] == 849) {
-                    if (pkmn["AltForm"] == 0) {
-                        nature = ToxtricityAmplifiedNatures[nextInt(bigInt(ToxtricityAmplifiedNatures.length), bigInt("31"))]
-                    } else {
-                        nature = ToxtricityLowKeyNatures[nextInt(bigInt(ToxtricityLowKeyNatures.length), bigInt("31"))]
-                    }
-                } else {
-                    nature = nextInt(bigInt("25"), bigInt("31"));
-                }
-                var res = {"Shiny": ShinyType[shiny], "HP": iv[0], "ATK": iv[1], "DEF": iv[2], "SPA": iv[3], "SPD": iv[4], "SPE": iv[5], "Nature": Nature[nature], "Gender": gender, "Ability": ability, "Seed": seed, "Index": idx}
-                return res
-            }
-
-            var MASK = bigInt("FFFFFFFFFFFFFFFF", 16)
-            var SMASK = bigInt("FFFFFFFF", 16)
-            var start = 0
-            var end = 100
-            
-            function advanceFrame(seed, frame) {
-                for(var i=0; i<frame; i++) {
-                    seed = seed.plus(XC)
-                    seed = seed.and(MASK)
-                }
-                return seed;
-            }
-            
             function load_dens() {
                 counter = {}
                 $.each(LocationNames, function(idx, n) {
@@ -262,13 +135,7 @@
                 });
             }
 			
-            function load_nests() {
-                for(var i = 1; i <= 96; i++) {
-					$("#nest").append(new Option("Nest " + i, i-1));
-                }
-            }
-            
-            function load_rarity() {
+			function load_rarity() {
                 $("#denrarity").append(new Option("Normal", 0))
                 $("#denrarity").append(new Option("Rare", 1))
             }
@@ -277,139 +144,6 @@
                 $("#game").append(new Option("Sword", 1))
                 $("#game").append(new Option("Shield", 2))
             }
-            
-            var entries = []
-            
-			function get_nest(den, rarity) {
-                data = den.split(",")
-                nestdata = [Number(data[0]), Number(data[1])]
-                nestID = nestdata[rarity] - 1
-				$("#nest").val(nestID);
-				return nestID 
-			}
-			
-            function change_species(nestID, game) {
-                $("#species").children().remove().end()
-                $.getJSON("https://leanny.github.io/seedchecker/nest" + game + ".json", function(data) {
-                    entries = data[nestID]["Entries"]
-                    $.each(data[nestID]["Entries"], function(idx, entry) {
-                        var minRank = Number(entry["MinRank"]) + 1
-                        var maxRank = Number(entry["MaxRank"]) + 1
-                        var gmax = ""
-                        if(entry["IsGigantamax"]) gmax = "(G-Max) "
-                        var rank = "" + minRank + "-" + maxRank
-                        if(minRank == maxRank) rank = "" + minRank
-                        $("#species").append(new Option(Names[entry["Species"]] + " " + gmax + " " + rank + " \u2605", entry))
-                    });
-                });
-            }
-            
-            function calculateShinyFrame() {
-                var str = $("#seedbox").val();
-                try {
-                    seed = bigInt(str, 16)
-                } catch(e) {
-                    alert("Invalid Seed")
-                    return;
-                }
-                var minstr = $("#startframe").val();
-                start = parseInt(minstr)
-                if(isNaN(start)) {
-                    alert("Invalid Start Frame")
-                    return;
-                }
-                var maxstr = $("#endframe").val();
-                limit = parseInt(maxstr)
-                if(isNaN(end)) {
-                    alert("Invalid Number of Frames")
-                    return;
-                }
-                var data = []
-                var result = []
-                seed = advanceFrame(seed, start)
-                end = start + limit 
-                for(i = start;; i++) {
-                    res = getData(seed, i, entries[$("#species")[0].selectedIndex])
-                    seed = seed.plus(XC)
-                    seed = seed.and(MASK)
-                    if(res["Shiny"] != "No"){
-                        result.push(res)
-                        break
-                    }
-                }
-                $.each(result, function(idx, res) {
-                    var row = ({
-                        Frame: res["Index"],
-                        HP:  res["HP"],
-                        ATK: res["ATK"],
-                        DEF: res["DEF"],
-                        SPA: res["SPA"],
-                        SPD: res["SPD"],
-                        SPE: res["SPE"],
-                        Shiny: res["Shiny"],
-                        Nature: res["Nature"],
-                        Gender: res["Gender"],
-                        Ability: res["Ability"],
-                        Seed: res["Seed"].toString(16)
-                    });
-                    data.push(row);
-                });
-                $('#seed-table').bootstrapTable('refreshOptions', {
-                    "data": data
-                });
-            }
-
-            function calculateFrames() {
-                var str = $("#seedbox").val();
-                try {
-                    seed = bigInt(str, 16)
-                } catch(e) {
-                    alert("Invalid Seed")
-                    return;
-                }
-                var minstr = $("#startframe").val();
-                start = parseInt(minstr)
-                if(isNaN(start)) {
-                    alert("Invalid Start Frame")
-                    return;
-                }
-                var maxstr = $("#endframe").val();
-                limit = parseInt(maxstr)
-                if(isNaN(end)) {
-                    alert("Invalid Number of Frames")
-                    return;
-                }
-                var data = []
-                var result = []
-                seed = advanceFrame(seed, start)
-                end = start + limit 
-                for(i = start; i < end; i++) {
-                    result.push(getData(seed, i, entries[$("#species")[0].selectedIndex]))
-                    seed = seed.plus(XC)
-                    seed = seed.and(MASK)
-                }
-                $.each(result, function(idx, res) {
-                    var row = ({
-                        Frame: res["Index"],
-                        HP:  res["HP"],
-                        ATK: res["ATK"],
-                        DEF: res["DEF"],
-                        SPA: res["SPA"],
-                        SPD: res["SPD"],
-                        SPE: res["SPE"],
-                        Shiny: res["Shiny"],
-                        Nature: res["Nature"],
-                        Gender: res["Gender"],
-                        Ability: res["Ability"],
-                        Seed: res["Seed"].toString(16)
-                    });
-                    data.push(row);
-                });
-                $('#seed-table').bootstrapTable('refreshOptions', {
-                    "data": data
-                });
-            }
-
             $(function() {
                 load_dens();
                 load_rarity();
