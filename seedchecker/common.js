@@ -202,6 +202,12 @@
                         SPA: res["SPA"],
                         SPD: res["SPD"],
                         SPE: res["SPE"],
+						HPJ:  judge[res["HP"]],
+                        ATKJ: judge[res["ATK"]],
+                        DEFJ: judge[res["DEF"]],
+                        SPAJ: judge[res["SPA"]],
+                        SPDJ: judge[res["SPD"]],
+                        SPEJ: judge[res["SPE"]],
                         Shiny: res["Shiny"],
                         Nature: res["Nature"],
                         Gender: res["Gender"],
@@ -213,7 +219,19 @@
                 $('#seed-table').bootstrapTable('refreshOptions', {
                     "data": data
                 });
+                $('#seed-tableJ').bootstrapTable('refreshOptions', {
+                    "data": data
+                });
             }
+
+			function changeIVRep() {
+				var visibility = $('#seed-table')[0]["tHead"]["rows"][0]["cells"][8]["hidden"]
+				for(var i = 2; i < 8; i++) {
+					$('#seed-table')[0]["tHead"]["rows"][0]["cells"][i]["hidden"] = visibility
+					$('#seed-table')[0]["tHead"]["rows"][0]["cells"][i+6]["hidden"] = !visibility
+				}
+			}
+			
 
             function calculateFrames() {
                 var str = $("#seedbox").val();
@@ -253,6 +271,12 @@
                         SPA: res["SPA"],
                         SPD: res["SPD"],
                         SPE: res["SPE"],
+						HPJ:  judge[res["HP"]],
+                        ATKJ: judge[res["ATK"]],
+                        DEFJ: judge[res["DEF"]],
+                        SPAJ: judge[res["SPA"]],
+                        SPDJ: judge[res["SPD"]],
+                        SPEJ: judge[res["SPE"]],
                         Shiny: res["Shiny"],
                         Nature: res["Nature"],
                         Gender: res["Gender"],
@@ -262,6 +286,9 @@
                     data.push(row);
                 });
                 $('#seed-table').bootstrapTable('refreshOptions', {
+                    "data": data
+                });
+                $('#seed-tableJ').bootstrapTable('refreshOptions', {
                     "data": data
                 });
             }
