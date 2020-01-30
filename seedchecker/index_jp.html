@@ -34,6 +34,9 @@
    <body>
       <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	  <script>
+	  var sortorder = {"ダメかも":"5: ダメかも", "まあまあ": "4: まあまあ", "かなりいい": "3: かなりいい", "すごくいい": "2: すごくいい", "すばらしい":"1: すばらしい", "さいこう":"0: さいこう"}
+	  </script>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -115,7 +118,7 @@
                              <th scope="col" data-field="SPA" data-sortable="true" data-filter-control="input">C</th>
                              <th scope="col" data-field="SPD" data-sortable="true" data-filter-control="input">D</th>
                              <th scope="col" data-field="SPE" data-sortable="true" data-filter-control="input">S</th>
-                             <th scope="col" data-field="Nature" data-sortable="true" data-filter-control="input">性格</th>
+                             <th scope="col" data-field="Nature" data-sortable="true" data-filter-control="select">性格</th>
                              <th scope="col" data-field="Gender" data-sortable="true">性別</th>
                              <th scope="col" data-field="Ability" data-sortable="true">特性</th>
                              <th scope="col" data-field="Seed">seed</th>
@@ -131,13 +134,13 @@
 								  <tr>
                              <th scope="col" data-field="Frame" data-sortable="true">消費</th>
                              <th scope="col" data-field="Shiny" data-sortable="true" data-filter-control="select">色</th>
-							 <th scope="col" data-field="HPJ"  data-sortable="true" data-filter-control="select">H</th>
-                             <th scope="col" data-field="ATKJ" data-sortable="true" data-filter-control="select">A</th>
-                             <th scope="col" data-field="DEFJ" data-sortable="true" data-filter-control="select">B</th>
-                             <th scope="col" data-field="SPAJ" data-sortable="true" data-filter-control="select">C</th>
-                             <th scope="col" data-field="SPDJ" data-sortable="true" data-filter-control="select">D</th>
-                             <th scope="col" data-field="SPEJ" data-sortable="true" data-filter-control="select">S</th>
-                             <th scope="col" data-field="Nature" data-sortable="true" data-filter-control="input">性格</th>
+							 <th scope="col" data-field="HPJ"  data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>H</th>
+                             <th scope="col" data-field="ATKJ" data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>A</th>
+                             <th scope="col" data-field="DEFJ" data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>B</th>
+                             <th scope="col" data-field="SPAJ" data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>C</th>
+                             <th scope="col" data-field="SPDJ" data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>D</th>
+                             <th scope="col" data-field="SPEJ" data-sortable="true" data-filter-control="select" data-filter-data='var:sortorder'>S</th>
+                             <th scope="col" data-field="Nature" data-sortable="true" data-filter-control="select">性格</th>
                              <th scope="col" data-field="Gender" data-sortable="true">性別</th>
                              <th scope="col" data-field="Ability" data-sortable="true">特性</th>
                              <th scope="col" data-field="Seed">seed</th>
@@ -156,7 +159,6 @@
             var Gender = ["♂", "♀", "-"]
 			var nestName = "巣穴"
 			var judge = ['ダメかも', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'まあまあ', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'かなりいい', 'すごくいい', 'すごくいい', 'すごくいい', 'すごくいい', 'すばらしい', 'さいこう']
-
             function load_dens() {
                 $.each(Nests, function(idx, nest) {
                     if(idx != 16) {
