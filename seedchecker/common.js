@@ -9,7 +9,7 @@
             var s0 = 0
             var s1 = 0
             var XC = bigInt("82A2B175229D6A5B", 16)
-
+			var eventActive = false;
             function rotl(x, k) {
                 var a = x.shiftLeft(k) 
                 a = a.and(MASK)
@@ -133,6 +133,14 @@
 					$("#nest").append(new Option(nestName + " " + i, i-1));
                 }
             }
+			
+			function load_event() {
+				$.getJSON("https://raw.githubusercontent.com/Leanny/SeedSearcher/master/Events/files.json", function(data) {
+					$.each(data, function(idx, name) {
+						$("#event").append(new Option(name.substring(0, name.length - 5), name));
+					});
+				});
+            }
 
             var entries = []
             
@@ -146,18 +154,34 @@
 			
             function change_species(nestID, game) {
                 $("#species").children().remove().end()
-                $.getJSON("https://leanny.github.io/seedchecker/nest" + game + ".json", function(data) {
-                    entries = data[nestID]["Entries"]
-                    $.each(data[nestID]["Entries"], function(idx, entry) {
-                        var minRank = Number(entry["MinRank"]) + 1
-                        var maxRank = Number(entry["MaxRank"]) + 1
-                        var gmax = ""
-                        if(entry["IsGigantamax"]) gmax = "(G-Max) "
-                        var rank = "" + minRank + "-" + maxRank
-                        if(minRank == maxRank) rank = "" + minRank
-                        $("#species").append(new Option(Names[entry["Species"]] + " " + gmax + " " + rank + " \u2605", entry))
-                    });
-                });
+				if(eventActive) {
+					$.getJSON("https://raw.githubusercontent.com/Leanny/SeedSearcher/master/Events/" + nestID, function(data) {
+						entries = data["Tables"][game]["Entries"]
+						$.each(entries, function(idx, entry) {
+							var minRank = Number(entry["MinRank"]) + 1
+							var maxRank = Number(entry["MaxRank"]) + 1
+							var gmax = ""
+							if(entry["IsGigantamax"]) gmax = "(G-Max) "
+							var rank = "" + minRank + "-" + maxRank
+							if(minRank == maxRank) rank = "" + minRank
+							$("#species").append(new Option(Names[entry["Species"]] + " " + gmax + " " + rank + " \u2605", entry))
+						});
+					});
+
+				} else {
+					$.getJSON("https://leanny.github.io/seedchecker/nest" + game + ".json", function(data) {
+						entries = data[nestID]["Entries"]
+						$.each(entries, function(idx, entry) {
+							var minRank = Number(entry["MinRank"]) + 1
+							var maxRank = Number(entry["MaxRank"]) + 1
+							var gmax = ""
+							if(entry["IsGigantamax"]) gmax = "(G-Max) "
+							var rank = "" + minRank + "-" + maxRank
+							if(minRank == maxRank) rank = "" + minRank
+							$("#species").append(new Option(Names[entry["Species"]] + " " + gmax + " " + rank + " \u2605", entry))
+						});
+					});
+				}
             }
             
             function calculateShinyFrame() {
@@ -292,3 +316,40 @@
                     "data": data
                 });
             }
+			
+            $(function() {
+                load_dens();
+                load_rarity();
+                load_game();
+				load_nests();
+				load_event();
+                $('#seed-table').bootstrapTable({});
+				$('#seed-tableJ').bootstrapTable({});
+                $('#den').change(function() {
+					eventActive = false;
+                    get_nest($('#den').val(), $('#denrarity').val())
+					change_species($('#nest').val(), $('#game').val())
+                })
+                $('#nest').change(function() {
+					eventActive = false;
+                    change_species($('#nest').val(), $('#game').val())
+                })
+                $('#event').change(function() {
+					eventActive = true;
+                    change_species($('#event').val(), $('#game').val())
+                })
+                $('#denrarity').change(function() {
+					eventActive = false;
+                    get_nest($('#den').val(), $('#denrarity').val())
+					change_species($('#nest').val(), $('#game').val())
+                })
+                $('#game').change(function() {
+					if(eventActive) {
+						change_species($('#event').val(), $('#game').val())
+					} else {
+						change_species($('#nest').val(), $('#game').val())
+					}
+                })
+				get_nest($('#den').val(), $('#denrarity').val())
+				change_species($('#nest').val(), $('#game').val())
+            })

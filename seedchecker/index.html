@@ -56,6 +56,9 @@
                   <li class="nav-item">
                      <a class="nav-link" id="nests-tab" data-toggle="tab" href="#nests" role="tab" aria-controls="nests" aria-selected="false">By Nest</a>
                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="false">By Event</a>
+                  </li>
                </ul>
                <div class="tab-content" id="modeTabControl">
                   <div class="tab-pane fade show active" id="dens" role="tabpanel" aria-labelledby="dens-tab">
@@ -66,6 +69,10 @@
                    </div>
 				   <div class="tab-pane fade" id="nests" role="tabpanel" aria-labelledby="nests-tab">
                    <p>Nest: <select class="form-control" id="nest">
+                      </select></p>
+				   </div>
+				   <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+                   <p>Event: <select class="form-control" id="event">
                       </select></p>
 				   </div>
                </div>    
@@ -180,31 +187,6 @@
                 $("#game").append(new Option("Sword", 1))
                 $("#game").append(new Option("Shield", 2))
             }
-            $(function() {
-                load_dens();
-                load_rarity();
-                load_game();
-				load_nests();
-                $('#seed-table').bootstrapTable({});
-				$('#seed-tableJ').bootstrapTable({});
-                $('#den').change(function() {
-                    get_nest($('#den').val(), $('#denrarity').val())
-					change_species($('#nest').val(), $('#game').val())
-                })
-                $('#nest').change(function() {
-                    change_species($('#nest').val(), $('#game').val())
-                })
-                $('#denrarity').change(function() {
-                    get_nest($('#den').val(), $('#denrarity').val())
-					change_species($('#nest').val(), $('#game').val())
-                })
-                $('#game').change(function() {
-                    change_species($('#nest').val(), $('#game').val())
-                })
-				get_nest($('#den').val(), $('#denrarity').val())
-				change_species($('#nest').val(), $('#game').val())
-            })
-
          </script>
       </main>
       <footer class="footer">
