@@ -137,7 +137,9 @@
 			function load_event() {
 				$.getJSON("https://raw.githubusercontent.com/Leanny/SeedSearcher/master/Events/files.json", function(data) {
 					$.each(data, function(idx, name) {
-						$("#event").append(new Option(name.substring(0, name.length - 5), name));
+						eventName = name.substring(0, name.length - 5)
+						eventName = name.substring(0, 2) + "-" + name.substring(2, 4) + "-" + name.substring(4, 6)
+						$("#event").append(new Option(eventName, name));
 					});
 				});
             }
