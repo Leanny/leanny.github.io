@@ -63,6 +63,9 @@
                 var sidtid = nextInt(SMASK, SMASK)
                 var pid = nextInt(SMASK, SMASK)
                 var shiny = GetShinyType(pid, sidtid)
+				if("ShinyForced" in pkmn && pkmn["ShinyForced"] == 2) {
+					shiny = 2
+				}
                 var iv = [-1, -1, -1, -1, -1, -1]
                 var i = 0
                 while(i < pkmn["FlawlessIVs"]) {
