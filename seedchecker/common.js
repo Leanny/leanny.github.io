@@ -161,7 +161,7 @@
                 $("#species").children().remove().end()
 				if(eventActive) {
 					$.getJSON("https://raw.githubusercontent.com/Leanny/SeedSearcher/master/Events/" + nestID, function(data) {
-						entries = data["Tables"][game]["Entries"]
+						entries = data["Tables"][game-1]["Entries"]
 						$.each(entries, function(idx, entry) {
 							var minRank = Number(entry["MinRank"]) + 1
 							var maxRank = Number(entry["MaxRank"]) + 1
