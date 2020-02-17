@@ -128,7 +128,7 @@
                 } else {
                     nature = nextInt(bigInt("25"), bigInt("31"));
                 }
-                var res = {"Shiny": ShinyType[shiny], "HP": iv[0], "ATK": iv[1], "DEF": iv[2], "SPA": iv[3], "SPD": iv[4], "SPE": iv[5], "Nature": Nature[nature], "Gender": gender, "Ability": ability, "Seed": seed, "Index": idx}
+                var res = {"Shiny": ShinyType[shiny], "Date": new Date(Date.now() + 1000 * 3600 * 24 * idx).toISOString().split("T")[0],"HP": iv[0], "ATK": iv[1], "DEF": iv[2], "SPA": iv[3], "SPD": iv[4], "SPE": iv[5], "Nature": Nature[nature], "Gender": gender, "Ability": ability, "Seed": seed, "Index": idx}
                 return res
             }
 
@@ -233,6 +233,7 @@
                 $.each(result, function(idx, res) {
                     var row = ({
                         Frame: res["Index"],
+                        Date: res["Date"],
                         HP:  res["HP"],
                         ATK: res["ATK"],
                         DEF: res["DEF"],
@@ -302,6 +303,7 @@
                 $.each(result, function(idx, res) {
                     var row = ({
                         Frame: res["Index"],
+                        Date: res["Date"],
                         HP:  res["HP"],
                         ATK: res["ATK"],
                         DEF: res["DEF"],
