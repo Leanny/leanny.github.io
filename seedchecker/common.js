@@ -203,6 +203,70 @@
 				}
             }
             
+            function calculateNextShinyFrames() {
+                var str = $("#seedbox").val();
+                try {
+                    seed = bigInt(str, 16)
+                } catch(e) {
+                    alert("Invalid Seed")
+                    return;
+                }
+                var minstr = $("#startframe").val();
+                start = parseInt(minstr)
+                if(isNaN(start)) {
+                    alert("Invalid Start Frame")
+                    return;
+                }
+                var data = []
+                var result = []
+                seed = advanceFrame(seed, start)
+                var first = "-"
+                
+                for(i = start;; i++) {
+                    res = getData(seed, i, entries[$("#species")[0].selectedIndex])
+                    seed = seed.plus(XC)
+                    seed = seed.and(MASK)
+                    if(res["Shiny"] != "-"){
+                        result.push(res)
+                        if (first == "-") {
+                            first = res["Shiny"]
+                        } else if (first != res["Shiny"]) {
+                            break
+                        }
+                    }
+                }
+                $.each(result, function(idx, res) {
+                    var row = ({
+                        Frame: res["Index"],
+                        Date: res["Date"],
+                        HP:  res["HP"],
+                        ATK: res["ATK"],
+                        DEF: res["DEF"],
+                        SPA: res["SPA"],
+                        SPD: res["SPD"],
+                        SPE: res["SPE"],
+						HPJ:  judge[res["HP"]],
+                        ATKJ: judge[res["ATK"]],
+                        DEFJ: judge[res["DEF"]],
+                        SPAJ: judge[res["SPA"]],
+                        SPDJ: judge[res["SPD"]],
+                        SPEJ: judge[res["SPE"]],
+                        Shiny: res["Shiny"],
+                        Nature: res["Nature"],
+                        Gender: res["Gender"],
+                        Ability: res["Ability"],
+                        Seed: res["Seed"].toString(16)
+                    });
+                    data.push(row);
+                });
+                $('#seed-table').bootstrapTable('refreshOptions', {
+                    "data": data
+                });
+                $('#seed-tableJ').bootstrapTable('refreshOptions', {
+                    "data": data
+                });
+            }
+            
             function calculateShinyFrame() {
                 var str = $("#seedbox").val();
                 try {
