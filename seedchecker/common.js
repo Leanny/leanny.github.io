@@ -217,12 +217,6 @@
                     alert("Invalid Start Frame")
                     return;
                 }
-                var maxstr = $("#endframe").val();
-                limit = parseInt(maxstr)
-                if(isNaN(end)) {
-                    alert("Invalid Number of Frames")
-                    return;
-                }
                 var data = []
                 var result = []
                 seed = advanceFrame(seed, start)
