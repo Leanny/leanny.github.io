@@ -220,7 +220,6 @@
                 var data = []
                 var result = []
                 seed = advanceFrame(seed, start)
-                end = start + limit 
                 for(i = start;; i++) {
                     res = getData(seed, i, entries[$("#species")[0].selectedIndex])
                     seed = seed.plus(XC)
