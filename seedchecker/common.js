@@ -412,6 +412,7 @@ function calculateShinyFrame() {
         if (type > 0) {
             res = getData(seed, i, entries[$("#species")[0].selectedIndex])
             result.push(res)
+            break
         }
         seed = seed.plus(XC)
         seed = seed.and(MASK)
