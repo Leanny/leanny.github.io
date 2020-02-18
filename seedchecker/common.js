@@ -176,9 +176,6 @@ function GetShinyFromSeed(seed) {
     var sidtid = nextInt(SMASK, SMASK)
     var pid = nextInt(SMASK, SMASK)
     var shiny = GetShinyType(pid, sidtid)
-    if ("ShinyForced" in pkmn && pkmn["ShinyForced"] == 2) {
-        shiny = 2
-    }
     return shiny
 }
 
