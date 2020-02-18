@@ -344,7 +344,7 @@ function calculateNextShinyFrames() {
     seed = advanceFrame(seed, start)
     var first = "-"
 
-    for (i = start; i < start + 100000; i++) { // limit at 100k
+    for (i = start; i < start + 20000 || first == "-"; i++) { // limit at 20k
         var type = GetShinyFromSeed(seed)
         if (type > 0) {
             res = getData(seed, i, entries[$("#species")[0].selectedIndex])
