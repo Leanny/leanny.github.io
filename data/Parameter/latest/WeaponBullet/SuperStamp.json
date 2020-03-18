@@ -1,14 +1,14 @@
 {
     "param": {
-        "mAirResistXZ": 0.9700000286102295,
-        "mAirResistY": 0.9700000286102295,
+        "mAirResistXZ": 0.97,
+        "mAirResistY": 0.97,
         "mBangDownBig_Backswing_AnimFrame": 29.0,
         "mBangDownBig_Backswing_Frame": 23,
         "mBangDownBig_BangDown_Frame": 14,
         "mBangDownBig_BulletCollisionEnFrame": 32,
         "mBangDownBig_BulletCollisionStFrame": 26,
         "mBangDownBig_MoveImpact_Frame": 20,
-        "mBangDownBig_MoveImpact_Magnitude": 1.600000023841858,
+        "mBangDownBig_MoveImpact_Magnitude": 1.6,
         "mBangDownBig_PaintAndBlast_Frame": 28,
         "mBangDownBig_ShaftCollisionStFrame": 23,
         "mBangDownSmall_Backswing_AnimFrame": 31.0,
@@ -20,22 +20,22 @@
         "mBangDownSmall_BulletCollisionEnFrame": 13,
         "mBangDownSmall_BulletCollisionStFrame": 9,
         "mBangDownSmall_BulletShieldThickNess": 0.0,
-        "mBangDownSmall_BulletShieldWidth": 31.799999237060547,
+        "mBangDownSmall_BulletShieldWidth": 31.8,
         "mBangDownSmall_JumpGnd": 1.0,
         "mBangDownSmall_MoveImpact_Frame": 10,
-        "mBangDownSmall_MoveImpact_Magnitude": 2.200000047683716,
+        "mBangDownSmall_MoveImpact_Magnitude": 2.2,
         "mBangDownSmall_PaintAndBlast_Frame": 11,
-        "mBangDownSmall_TurnLimitAngleDeg": 5.199999809265137,
+        "mBangDownSmall_TurnLimitAngleDeg": 5.2,
         "mDebugViewBulletCollision": false,
         "mEmptySign_RemainingFrame": 120,
         "mFly_StraightFrame": 8,
         "mGird_Frame": 10,
         "mGird_NoSquidFrame": 4,
         "mGird_TurnLimitAngleDeg": 4,
-        "mGird_VelGndBias": 0.4000000059604645,
-        "mGird_VelGndEn": 0.4000000059604645,
+        "mGird_VelGndBias": 0.4,
+        "mGird_VelGndEn": 0.4,
         "mGird_VelGndSt": 0.0,
-        "mGravity": 0.12999999523162842,
+        "mGravity": 0.13,
         "mHoldCollsionValid": 1,
         "mHoldPlayerBulletCollisionOffset0": [
             0.0,
@@ -44,17 +44,17 @@
         ],
         "mHoldPlayerBulletCollisionOffset1": [
             0.0,
-            -0.30000001192092896,
+            -0.3,
             -4.5
         ],
         "mHoldPlayerBulletCollisionSize0": [
-            31.799999237060547,
-            31.799999237060547,
+            31.8,
+            31.8,
             10.0
         ],
         "mHoldPlayerBulletCollisionSize1": [
             18.0,
-            18.299999237060547,
+            18.3,
             16.0
         ],
         "mPaintGauge_SpecialFrm": 540,
@@ -71,7 +71,7 @@
         "mSwingBigBurst_Damage_Middle": 400,
         "mSwingBigBurst_Damage_Near": 400,
         "mSwingBigBurst_KnockBackCoreImpact": 2.0,
-        "mSwingBigBurst_KnockBackKb": 0.800000011920929,
+        "mSwingBigBurst_KnockBackKb": 0.8,
         "mSwingBigBurst_KnockBackRadius": 80.0,
         "mSwingBigBurst_Radius_Far": 28.0,
         "mSwingBigBurst_Radius_Middle": 20.0,
@@ -98,17 +98,17 @@
         ],
         "mSwingJumpPlayerBulletCollisionOffset1": [
             0.0,
-            -0.30000001192092896,
+            -0.3,
             -4.5
         ],
         "mSwingJumpPlayerBulletCollisionSize0": [
-            31.799999237060547,
-            31.799999237060547,
+            31.8,
+            31.8,
             10.0
         ],
         "mSwingJumpPlayerBulletCollisionSize1": [
             18.0,
-            18.299999237060547,
+            18.3,
             16.0
         ],
         "mSwingJumpPlayerCollisionUseHoldCollision": true,
@@ -119,7 +119,7 @@
         ],
         "mSwingPlayerBulletCollisionOffset1": [
             0.0,
-            -0.30000001192092896,
+            -0.3,
             -4.5
         ],
         "mSwingPlayerBulletCollisionOffset2SolidPosZ": [
@@ -128,24 +128,24 @@
             8.5
         ],
         "mSwingPlayerBulletCollisionSize0": [
-            31.799999237060547,
-            31.799999237060547,
+            31.8,
+            31.8,
             10.0
         ],
         "mSwingPlayerBulletCollisionSize1": [
             18.0,
-            18.299999237060547,
+            18.3,
             16.0
         ],
         "mSwingPlayerBulletCollisionSize2Max": [
-            47.70000076293945,
-            31.799999237060547,
+            47.7,
+            31.8,
             26.0
         ],
         "mSwingPlayerBulletCollisionSize2MaxAngleX": 30.0,
         "mSwingPlayerBulletCollisionSize2Min": [
-            31.799999237060547,
-            31.799999237060547,
+            31.8,
+            31.8,
             10.0
         ],
         "mSwingPlayerBulletCollisionSize2MinAngleX": 70.0,
@@ -154,7 +154,7 @@
         "mSwingSmallBurst_Damage_Middle": 400,
         "mSwingSmallBurst_Damage_Near": 400,
         "mSwingSmallBurst_KnockBackCoreImpact": 2.0,
-        "mSwingSmallBurst_KnockBackKb": 0.800000011920929,
+        "mSwingSmallBurst_KnockBackKb": 0.8,
         "mSwingSmallBurst_KnockBackRadius": 60.0,
         "mSwingSmallBurst_Radius_Far": 28.0,
         "mSwingSmallBurst_Radius_Middle": 20.0,
@@ -168,14 +168,14 @@
         ],
         "mSwingUpDamageOn": false,
         "mSwing_KnockBackCoreImpact": 2.0,
-        "mSwing_KnockBackKb": 0.800000011920929,
+        "mSwing_KnockBackKb": 0.8,
         "mSwing_KnockBackRadius": 80.0,
         "mThrowBulletCollisionRadius": 13.0,
         "mThrowBurst_Damage_Far": 300,
         "mThrowBurst_Damage_Middle": 300,
         "mThrowBurst_Damage_Near": 600,
         "mThrowBurst_KnockBackCoreImpact": 2.0,
-        "mThrowBurst_KnockBackKb": 0.800000011920929,
+        "mThrowBurst_KnockBackKb": 0.8,
         "mThrowBurst_KnockBackRadius": 80.0,
         "mThrowBurst_Radius_Far": 80.0,
         "mThrowBurst_Radius_Middle": 80.0,
@@ -206,11 +206,11 @@
         "mThrow_CrossPaintRayRadius": 1.0,
         "mThrow_KnockBackCoreImpact": 2.0,
         "mThrow_KnockBackDegree": 45.0,
-        "mThrow_KnockBackKb": 0.800000011920929,
+        "mThrow_KnockBackKb": 0.8,
         "mThrow_KnockBackRadius": 80.0,
         "mTurnKf_ShotJump": 0.5,
-        "mVelLimit_NoPaint": 1.440000057220459,
-        "mVelLimit_OpInk": 0.23999999463558197,
+        "mVelLimit_NoPaint": 1.44,
+        "mVelLimit_OpInk": 0.24,
         "mWeaponAnim_Return_PlFrm_AtBangDownSmall": 10,
         "mWeaponAnim_Return_PlFrm_AtGird": 30,
         "mWeaponAnim_Return_StFrm_AtBangDownSmall": 1,

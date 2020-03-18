@@ -1,13 +1,13 @@
 {
     "MainInk_Save": {
-        "ConsumeRt_Main_High": 0.550000011920929,
+        "ConsumeRt_Main_High": 0.55,
         "ConsumeRt_Main_High_High": 0.5,
         "ConsumeRt_Main_High_Low": 1.0,
-        "ConsumeRt_Main_High_Mid": 0.699999988079071,
+        "ConsumeRt_Main_High_Mid": 0.7,
         "ConsumeRt_Main_Low": 1.0,
-        "ConsumeRt_Main_Low_High": 0.6000000238418579,
+        "ConsumeRt_Main_Low_High": 0.6,
         "ConsumeRt_Main_Low_Low": 1.0,
-        "ConsumeRt_Main_Low_Mid": 0.800000011920929,
-        "ConsumeRt_Main_Mid": 0.7749999761581421
+        "ConsumeRt_Main_Low_Mid": 0.8,
+        "ConsumeRt_Main_Mid": 0.775
     }
 }

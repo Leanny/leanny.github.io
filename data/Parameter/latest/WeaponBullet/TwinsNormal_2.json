@@ -1,6 +1,6 @@
 {
     "param": {
-        "mCoopSideStepInkConsume": 0.05999999865889549,
+        "mCoopSideStepInkConsume": 0.06,
         "mCoopSideStepOneMuzzleDamageMax": 0,
         "mCoopSideStepOneMuzzleDamageMin": 0,
         "mIsShootableInMove": false,
@@ -11,12 +11,12 @@
         "mSideStepDropSplashBulletPaintDepthScaleRate": 2.0,
         "mSideStepDropSplashBulletPaintRadius": 18.0,
         "mSideStepDropSplashBulletSpeed": 50.0,
-        "mSideStepInkConsume": 0.09000000357627869,
+        "mSideStepInkConsume": 0.09,
         "mSideStepInkRecoverStop": 70,
         "mSideStepInputReqAcceptFrm": 10,
         "mSideStepMoveDist": 40.0,
         "mSideStepMoveFrm": 16,
-        "mSideStepMoveStepKd": 0.949999988079071,
+        "mSideStepMoveStepKd": 0.95,
         "mSideStepOneMuzzleCreateSplashLength": 0.0,
         "mSideStepOneMuzzleCreateSplashNum": -1.0,
         "mSideStepOneMuzzleDamageMax": 0,

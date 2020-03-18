@@ -34,7 +34,7 @@
         "mSphereSplashRoundAxisY2": 90.0,
         "mSphereSplashRoundAxisY3": 135.0,
         "mSphereSplashRoundAxisY4": 0.0,
-        "mSplashMaxScaleClamp": 1.399999976158142,
+        "mSplashMaxScaleClamp": 1.4,
         "mSplashMaxScaleHighest": 30.0,
         "mSplashMinScaleClamp": 1.0,
         "mSplashMinScaleHighest": 100.0,

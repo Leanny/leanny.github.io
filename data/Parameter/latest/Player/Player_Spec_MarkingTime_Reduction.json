@@ -1,14 +1,14 @@
 {
     "MarkingTime_Reduction": {
-        "MarkingTime_ShortRt_High": 0.10000000149011612,
+        "MarkingTime_ShortRt_High": 0.1,
         "MarkingTime_ShortRt_Low": 1.0,
-        "MarkingTime_ShortRt_Mid": 0.550000011920929,
+        "MarkingTime_ShortRt_Mid": 0.55,
         "MarkingTime_ShortRt_Thermal_High": 1.0,
         "MarkingTime_ShortRt_Thermal_Low": 1.0,
         "MarkingTime_ShortRt_Thermal_Mid": 1.0,
-        "MarkingTime_ShortRt_Trap_High": 0.10000000149011612,
+        "MarkingTime_ShortRt_Trap_High": 0.1,
         "MarkingTime_ShortRt_Trap_Low": 1.0,
-        "MarkingTime_ShortRt_Trap_Mid": 0.550000011920929,
+        "MarkingTime_ShortRt_Trap_Mid": 0.55,
         "Silhouette_DistFar_High": 290.0,
         "Silhouette_DistFar_Low": 170.0,
         "Silhouette_DistFar_Mid": 230.0,
