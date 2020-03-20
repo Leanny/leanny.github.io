@@ -205,7 +205,7 @@ function getData(seed, idx, pkmn) {
     var ability = 0;
     var abilityNames = ["1", "2", "H"]
     if (pkmn["Ability"] < 3) {
-        ability = pkmn["Ability"]
+        ability = abilityNames[pkmn["Ability"]]
     } else {
         if (pkmn["Ability"] == 3) {
             ability = abilityNames[nextInt(bigInt("2"), bigInt("1"))];
