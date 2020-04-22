@@ -1,0 +1,10 @@
+{
+    "InkRecovery_Up": {
+        "RecoverFullFrm_Ink_High": 117.0,
+        "RecoverFullFrm_Ink_Low": 180.0,
+        "RecoverFullFrm_Ink_Mid": 148.5,
+        "RecoverNrmlFrm_Ink_High": 220.0,
+        "RecoverNrmlFrm_Ink_Low": 600.0,
+        "RecoverNrmlFrm_Ink_Mid": 410.0
+    }
+}

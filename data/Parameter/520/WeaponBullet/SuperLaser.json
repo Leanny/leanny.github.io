@@ -1,0 +1,18 @@
+{
+    "param": {
+        "mArmorTypeObjectDamageRate": 1.0,
+        "mDamage": 100,
+        "mKnockBackCoreImpact": 0.3,
+        "mKnockBackDegree": 45.0,
+        "mKnockBackKb": 0.5,
+        "mKnockBackNoBarrierOff": true,
+        "mKnockBackRadius": 500.0,
+        "mModelScale": 1.05,
+        "mNoticeCollisionRadius": 1.0,
+        "mShotDistance": 2700.0,
+        "mShotMaxSizeFrame": 225,
+        "mShotRadius": 90.0,
+        "mShotSpreadFrame": 30,
+        "mShotWaitFrame": 90
+    }
+}

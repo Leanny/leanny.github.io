@@ -1,0 +1,10 @@
+{
+    "RespawnTime_Save": {
+        "Dying_AroudFrm_High": 30.0,
+        "Dying_AroudFrm_Low": 90.0,
+        "Dying_AroudFrm_Mid": 60.0,
+        "Dying_ChaseFrm_High": 90.0,
+        "Dying_ChaseFrm_Low": 270.0,
+        "Dying_ChaseFrm_Mid": 180.0
+    }
+}
