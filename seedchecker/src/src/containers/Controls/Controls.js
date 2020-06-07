@@ -3,10 +3,6 @@ import Input from "./Input/Input";
 import classes from "./Controls.module.css";
 
 class Controls extends Component {
-    componentDidUpdate() {
-        console.log("[Controls] ComponentDidUpdate");
-    }
-
     shouldComponentUpdate(nextProps, nextState) {
         return nextProps.currentNumberOfFrames !== this.props.currentNumberOfFrames ||
         nextProps.currentStartFrame !== this.props.currentStartFrame ||

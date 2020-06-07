@@ -101,9 +101,9 @@ class Filter extends Component {
                 genderList = <option key="0" value="0">{Gender[0]}</option>
             } else {
                 genderList = <Fragment>
-                    genderList = <option key="-1" value="-1">Any</option>
-                    genderList = <option key="0" value="0">{Gender[0]}</option>
-                    genderList = <option key="1" value="1">{Gender[1]}</option>
+                    <option key="-1" value="-1">Any</option>
+                    <option key="0" value="0">{Gender[0]}</option>
+                    <option key="1" value="1">{Gender[1]}</option>
                 </Fragment>
             }
 

@@ -9,7 +9,7 @@ const tab = props => {
 
     return (
         <li className={cls.join(" ")}>
-            <button onClick={props.clicked.bind(props.clicked, props.num)}>{props.title}</button>
+            <button onClick={e => props.clicked(e, props.num)}>{props.title}</button>
         </li>
     );
 }
