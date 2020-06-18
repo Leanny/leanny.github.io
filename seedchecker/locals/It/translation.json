@@ -4025,12 +4025,12 @@
     "Grotta Grinta",
     "Baia Circolare",
     "Piana Addestramento",
-    "Tunnel Riscaldamento",
     "Deserto Paiolo",
     "Mar Ginnico",
     "Mar Lineapelago",
     "Mar Sperdipelago",
-    "Mar Quietarnia"
+    "Mar Quietarnia",
+    "Isola Quietarnia"
   ],
   "pokemon": {
     "0": "Uovo",
