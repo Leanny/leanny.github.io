@@ -4935,5 +4935,9 @@
     "SPA": "Sp.-Ang.",
     "SPD": "Sp.-Vert.",
     "SPE": "Initiative"
+  },
+  "wildareas": {
+    "0": "Naturzone",
+    "1": "R\u00fcstungsinsel"
   }
 }

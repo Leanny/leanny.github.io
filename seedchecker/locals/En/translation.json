@@ -4935,5 +4935,9 @@
     "SPA": "Sp. Atk",
     "SPD": "Sp. Def",
     "SPE": "Speed"
+  },
+  "wildareas": {
+    "0": "Wild Area",
+    "1": "Isle of Armor"
   }
 }

@@ -4935,5 +4935,9 @@
     "SPA": "Att. Sp.",
     "SPD": "Dif. Sp.",
     "SPE": "Velocit\u00e0"
+  },
+  "wildareas": {
+    "0": "Terre Selvagge",
+    "1": "Isola dell\u2019Armatura"
   }
 }

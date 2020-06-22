@@ -4935,5 +4935,9 @@
     "SPA": "\ud2b9\uc218\uacf5\uaca9",
     "SPD": "\ud2b9\uc218\ubc29\uc5b4",
     "SPE": "\uc2a4\ud53c\ub4dc"
+  },
+  "wildareas": {
+    "0": "\uc640\uc77c\ub4dc\uc5d0\ub9ac\uc5b4",
+    "1": "\uac11\uc637\uc12c"
   }
 }

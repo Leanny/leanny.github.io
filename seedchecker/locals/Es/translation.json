@@ -4935,5 +4935,9 @@
     "SPA": "At. Esp.",
     "SPD": "Def. Esp.",
     "SPE": "Velocidad"
+  },
+  "wildareas": {
+    "0": "\u00c1rea Silvestre",
+    "1": "Isla de la Armadura"
   }
 }

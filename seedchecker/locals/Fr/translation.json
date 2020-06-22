@@ -4935,5 +4935,9 @@
     "SPA": "Atq. Sp\u00e9.",
     "SPD": "D\u00e9f. Sp\u00e9.",
     "SPE": "Vitesse"
+  },
+  "wildareas": {
+    "0": "Terres Sauvages",
+    "1": "Isolarmure"
   }
 }
