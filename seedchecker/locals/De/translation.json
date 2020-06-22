@@ -3970,6 +3970,9 @@
     "817": "Finstertreffer",
     "818": "Trefferschwall"
   },
+  "name": {
+    "name": "Name"
+  },
   "nature": {
     "0": "Robust",
     "1": "Solo",

@@ -3970,6 +3970,9 @@
     "817": "Pugnotenebra",
     "818": "Idroraffica"
   },
+  "name": {
+    "name": "Nome"
+  },
   "nature": {
     "0": "Ardita",
     "1": "Schiva",

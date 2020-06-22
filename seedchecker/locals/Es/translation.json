@@ -3970,6 +3970,9 @@
     "817": "Golpe Oscuro",
     "818": "Azote Torrencial"
   },
+  "name": {
+    "name": "Nombre"
+  },
   "nature": {
     "0": "Fuerte",
     "1": "Hura\u00f1a",

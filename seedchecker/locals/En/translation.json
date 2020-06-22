@@ -3970,6 +3970,9 @@
     "817": "Wicked Blow",
     "818": "Surging Strikes"
   },
+  "name": {
+    "name": "Name"
+  },
   "nature": {
     "0": "Hardy",
     "1": "Lonely",

@@ -3970,6 +3970,9 @@
     "817": "Poing Obscur",
     "818": "Torrent de Coups"
   },
+  "name": {
+    "name": "Nom"
+  },
   "nature": {
     "0": "Hardi",
     "1": "Solo",
