@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/seedchecker/static/css/main.dfe75477.chunk.css",
+    "main.js": "/seedchecker/static/js/main.629411d9.chunk.js",
+    "main.js.map": "/seedchecker/static/js/main.629411d9.chunk.js.map",
+    "runtime-main.js": "/seedchecker/static/js/runtime-main.17642674.js",
+    "runtime-main.js.map": "/seedchecker/static/js/runtime-main.17642674.js.map",
+    "static/js/2.7e67b58e.chunk.js": "/seedchecker/static/js/2.7e67b58e.chunk.js",
+    "static/js/2.7e67b58e.chunk.js.map": "/seedchecker/static/js/2.7e67b58e.chunk.js.map",
+    "index.html": "/seedchecker/index.html",
+    "precache-manifest.f3884496502a14ab0d1a2516ddb9e11d.js": "/seedchecker/precache-manifest.f3884496502a14ab0d1a2516ddb9e11d.js",
+    "service-worker.js": "/seedchecker/service-worker.js",
+    "static/css/main.dfe75477.chunk.css.map": "/seedchecker/static/css/main.dfe75477.chunk.css.map",
+    "static/js/2.7e67b58e.chunk.js.LICENSE.txt": "/seedchecker/static/js/2.7e67b58e.chunk.js.LICENSE.txt",
+    "static/media/active2_den.png": "/seedchecker/static/media/active2_den.6aa2ce46.png",
+    "static/media/DenMap.module.css": "/seedchecker/static/media/base2.90eb3eb7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17642674.js",
+    "static/js/2.7e67b58e.chunk.js",
+    "static/css/main.dfe75477.chunk.css",
+    "static/js/main.629411d9.chunk.js"
+  ]
+}
