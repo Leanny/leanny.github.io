@@ -3,8 +3,11 @@
   "ABILITYNORMAL": "Normal",
   "APPEARANCERATE": "Appearance Rate",
   "BONUSDROPS": "Bonus Drops",
+<<<<<<< HEAD
   "CATCHABLE": "Catchable",
   "CATCHABLENO": "No",
+=======
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
   "DATE": "Date",
   "DEN": "Den",
   "DENEXPLAIN": "This selection is based on the game internal den representation. This is different from manual created lists, i.e. as you can find them on Serebii and Pokedens. Use \"Nest\" for Serebii notation.",
@@ -46,5 +49,27 @@
   "SHINYNONE": "None",
   "STARTDATE": "Start Date",
   "STARTFRAME": "Start Frame",
+<<<<<<< HEAD
   "STARTSEARCH": "Start Search"
+=======
+  "STARTSEARCH": "Start Search",
+  "CATCHRATE_HOST": "Catchrate Host",
+  "CATCHRATE_OTHERS": "Catchrate Others",
+  "CATCHRATE0": "100%",
+  "CATCHRATE1": "Very High",
+  "CATCHRATE2": "High",
+  "CATCHRATE3": "Mid",
+  "CATCHRATE4": "Low",
+  "CATCHRATE5": "Very Low",
+  "CATCHRATE6": "0%",
+  "DYNAMAXSHIELDTHRESHOLD1": "HP For Shield 1",
+  "DYNAMAXEXTRAMOVE1": "Extra Move After Shield 1",
+  "DYANAMAXPRIOTY1": "Extra Move Timing 1",
+  "DYNAMAXSHIELDTHRESHOLD2": "HP For Shield 2",
+  "DYNAMAXEXTRAMOVE2": "Extra Move After Shield 2",
+  "DYANAMAXPRIOTY2": "Extra Move Timing 2",
+  "DYNAMAXPRIO1": "After Shield Triggered",
+  "DYNAMAXPRIO2": "Last Move",
+  "DYNAMAXPRIO3": "Second Move"
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
 }

@@ -43,8 +43,31 @@
   "ITEMDROPS": "Item Drops",
   "BONUSDROPS": "Bonus Drops",
   "GENERALINFO": "Allgemeine Informationen",
+<<<<<<< HEAD
   "CATCHABLE": "Fangbar",
   "CATCHABLENO": "Nein",
   "SHINYLOCKED": "Nein",
   "SHINYFORCED": "Square"
+=======
+  "SHINYLOCKED": "Nein",
+  "SHINYFORCED": "Square",
+  "CATCHRATE_HOST": "Fangrate Host",
+  "CATCHRATE_OTHERS": "Fangrate Andere",
+  "CATCHRATE0": "100%",
+  "CATCHRATE1": "Sehr Hoch",
+  "CATCHRATE2": "Hoch",
+  "CATCHRATE3": "Mittel",
+  "CATCHRATE4": "Niedrig",
+  "CATCHRATE5": "Sehr Niedrig",
+  "CATCHRATE6": "0%",
+  "DYNAMAXSHIELDTHRESHOLD1": "KP Für Schild 1",
+  "DYNAMAXEXTRAMOVE1": "Extra Attacke Nach Schild  1",
+  "DYANAMAXPRIOTY1": "Extra Attacke Prio. 1",
+  "DYNAMAXSHIELDTHRESHOLD2": "KP Für Schild 2",
+  "DYNAMAXEXTRAMOVE2": "Extra Attacke Nach Schild  2",
+  "DYANAMAXPRIOTY2": "Extra Attacke Prio. 2",
+  "DYNAMAXPRIO1": "Direkt Nach Dem Schild",
+  "DYNAMAXPRIO2": "Als Letzte Attacke",
+  "DYNAMAXPRIO3": "Als Zweite Attacke"
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
 }

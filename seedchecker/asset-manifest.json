@@ -1,14 +1,23 @@
 {
   "files": {
     "main.css": "/seedchecker/static/css/main.dfe75477.chunk.css",
+<<<<<<< HEAD
     "main.js": "/seedchecker/static/js/main.629411d9.chunk.js",
     "main.js.map": "/seedchecker/static/js/main.629411d9.chunk.js.map",
+=======
+    "main.js": "/seedchecker/static/js/main.0fafd505.chunk.js",
+    "main.js.map": "/seedchecker/static/js/main.0fafd505.chunk.js.map",
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
     "runtime-main.js": "/seedchecker/static/js/runtime-main.17642674.js",
     "runtime-main.js.map": "/seedchecker/static/js/runtime-main.17642674.js.map",
     "static/js/2.7e67b58e.chunk.js": "/seedchecker/static/js/2.7e67b58e.chunk.js",
     "static/js/2.7e67b58e.chunk.js.map": "/seedchecker/static/js/2.7e67b58e.chunk.js.map",
     "index.html": "/seedchecker/index.html",
+<<<<<<< HEAD
     "precache-manifest.f3884496502a14ab0d1a2516ddb9e11d.js": "/seedchecker/precache-manifest.f3884496502a14ab0d1a2516ddb9e11d.js",
+=======
+    "precache-manifest.cf4b9504a4693aa362f6f5a09ebb0c0e.js": "/seedchecker/precache-manifest.cf4b9504a4693aa362f6f5a09ebb0c0e.js",
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
     "service-worker.js": "/seedchecker/service-worker.js",
     "static/css/main.dfe75477.chunk.css.map": "/seedchecker/static/css/main.dfe75477.chunk.css.map",
     "static/js/2.7e67b58e.chunk.js.LICENSE.txt": "/seedchecker/static/js/2.7e67b58e.chunk.js.LICENSE.txt",
@@ -19,6 +28,10 @@
     "static/js/runtime-main.17642674.js",
     "static/js/2.7e67b58e.chunk.js",
     "static/css/main.dfe75477.chunk.css",
+<<<<<<< HEAD
     "static/js/main.629411d9.chunk.js"
+=======
+    "static/js/main.0fafd505.chunk.js"
+>>>>>>> 54a1d8d7f14952ab54683ca6287b946b35e607a2
   ]
 }
