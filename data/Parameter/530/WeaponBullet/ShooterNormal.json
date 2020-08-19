@@ -16,7 +16,7 @@
         "mDamageReduceStartFrame": 8,
         "mDamage_MWPUG_Max": 2000,
         "mDegBias": 0.25,
-        "mDegBiasDecrease": 0.005,
+        "mDegBiasDecrease": 0.015,
         "mDegBiasKf": 0.01,
         "mDegBiasMin": 0.01,
         "mDegBias_MWPUG_High": -0.1,
