@@ -122,6 +122,7 @@
         "mSplash_B_FirstAroundCenterCollisionRadius": 3.0,
         "mSplash_B_FirstAroundTotalNum": 4,
         "mSplash_B_InitAddDegXBase": 5.0,
+        "mSplash_B_InitAddDegXOffset": -2.5,
         "mSplash_B_InitSpeedBase": 13.366,
         "mSplash_B_InitSpeedNoRandomNum": 0,
         "mSplash_B_InitSpeedOffset": -1.8,
@@ -253,7 +254,6 @@
         "mSplash_D_WallDropPaintTarget2FrameMin": 20,
         "mSwingLiftFrame": 12,
         "mTargetEffectFrame": 8,
-        "mTargetEffectScale": 1.0,
-        "rg16 uI_Mid": -2.5
+        "mTargetEffectScale": 1.0
     }
 }
