@@ -990,8 +990,22 @@
                 
                 
                 function load_values_MWPUG(data, name) {
-                    var high = data[name + "_MWPUG_High"] || data["Stand_" + name + "_MWPUG_High"] || data["Jump_" + name + "_MWPUG_High"]
-                    var mid = data[name + "_MWPUG_Mid"] || data["Stand_" + name + "_MWPUG_Mid"] || data["Jump_" + name + "_MWPUG_Mid"]
+                    var high = 0;
+                    var mid = 0;
+                    if (data[name + "_MWPUG_High"] === 0 || data[name + "_MWPUG_High"] === 0.0 ||
+                       data["Stand_" + name + "_MWPUG_High"] === 0 || data["Jump_" + name + "_MWPUG_High"] === 0 ||
+                       data["Stand_" + name + "_MWPUG_High"] === 0.0 || data["Jump_" + name + "_MWPUG_High"] === 0.0) {
+                        high = 0.0;
+                    } else {
+                        high = data[name + "_MWPUG_High"] || data["Stand_" + name + "_MWPUG_High"] || data["Jump_" + name + "_MWPUG_High"];
+                    }
+                    if (data[name + "_MWPUG_Mid"] === 0 || data[name + "_MWPUG_Mid"] === 0.0 ||
+                       data["Stand_" + name + "_MWPUG_Mid"] === 0 || data["Jump_" + name + "_MWPUG_Mid"] === 0 ||
+                       data["Stand_" + name + "_MWPUG_Mid"] === 0.0 || data["Jump_" + name + "_MWPUG_Mid"] === 0.0) {
+                        mid = 0.0;
+                    } else {
+                        mid = data[name + "_MWPUG_Mid"] || data["Stand_" + name + "_MWPUG_Mid"] || data["Jump_" + name + "_MWPUG_Mid"];
+                    }
                     var low = data[name] || data["Stand_" + name] || data["Jump_" + name] || 1.0
                     return [high, mid, low]
                 }
