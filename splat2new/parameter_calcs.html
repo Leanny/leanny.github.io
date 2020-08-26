@@ -992,6 +992,7 @@
                 function load_values_MWPUG(data, name) {
                     var high = 0;
                     var mid = 0;
+                    var low = 0;
                     if (data[name + "_MWPUG_High"] === 0 || data[name + "_MWPUG_High"] === 0.0 ||
                        data["Stand_" + name + "_MWPUG_High"] === 0 || data["Jump_" + name + "_MWPUG_High"] === 0 ||
                        data["Stand_" + name + "_MWPUG_High"] === 0.0 || data["Jump_" + name + "_MWPUG_High"] === 0.0) {
@@ -1006,7 +1007,13 @@
                     } else {
                         mid = data[name + "_MWPUG_Mid"] || data["Stand_" + name + "_MWPUG_Mid"] || data["Jump_" + name + "_MWPUG_Mid"];
                     }
-                    var low = data[name] || data["Stand_" + name] || data["Jump_" + name] || 1.0
+                    if (data[name] === 0 || data[name] === 0.0 ||
+                       data["Stand_" + name] === 0 || data["Jump_" + name] === 0 ||
+                       data["Stand_" + name] === 0.0 || data["Jump_" + name] === 0.0) {
+                        low = 0.0;
+                    } else {
+                        low = data[name] || data["Stand_" + name] || data["Jump_" + name] || 1.0
+                    }
                     return [high, mid, low]
                 }
                 
