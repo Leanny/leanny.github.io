@@ -1,0 +1,3488 @@
+{
+  "FesSameTeamMatchWaitTime": 30,
+  "FestivalId": 8906,
+  "News": [
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Was für Filme oder Serien mögt ihr\nlieber? Action oder Comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ich brauche Action! Ich will Explosionen,\ndie mich in den Sitz drücken!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Wer braucht schon Gags? Ich will 'ne\nVerfolgungsjagd durch den Grätenkanal!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Ich will sehen, wie es die Bösewichte in\nstylisher Zeitlupe erwischt!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Doofe Witze mit Lachen vom Band\nbrauche ich jedenfalls nicht!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ja, Lachen vom Band ist furchtbar, aber\nActionfilme sind genauso behämmert.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Schon mal gemerkt, dass die Bösen in\nActionfilmen fast nie was treffen?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Die würden in 'nem Revierkampf nicht\nmal den Boden erwischen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Und warum muss der Held immer aus\ndem Ruhestand zurückkehren?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Und dann kommt raus, dass sein Partner\nder Schurke war! Überraschung!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "Der Held gewinnt, aber wird vom Chief\nwegen Kollateralschäden angepfiffen.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Kommt dir das bekannt vor?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Ja, das ist mein Lieblingsfilm! Also,\neigentlich alle meine Lieblingsfilme!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Wofür braucht man überhaupt Action?\nLachen ist die beste Medizin!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Und was denkt ihr? Trefft eure\nWahl am Splatfest-Wahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "What kind of movies and TV shows do\nyou like more? Action or comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "EASY. I'm all about that action!\nWHERE THE SPLOSIONS AT?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "I don't want jokes. I want a motorcycle\nchase through Snapper Canal!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "I wanna see fools getting splatted in\nslow motion!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "I don't wanna hear Sheldon tell nerdy\ncrab jokes in front of a laugh track!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "OK, laugh tracks may be bad, but action\nmovies are just as corny.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Ever notice how all the bad guys in\naction movies have TERRIBLE accuracy?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "They couldn't hit the broad side of a\nbarnacle with a Splash-o-matic!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "And why's the hero always gotta come\nout of retirement to stop her nemesis?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "And then it turns out the hero's partner\nwas the true bad guy all along! GASP!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "The hero wins, but she gets chewed out\nby the chief for destroying a city block.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Sound familiar?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Yeah, that's one of my favorites!\nActually, that's all of my favorites...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Why even bother with action?\nLaughter is the best medicine!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "What do you think? Head over to the\nSplatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Qué tipo de películas o series\npreferís: de acción o de comedia?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Qué fácil me lo pones esta vez! Donde\nesté una peli de acción y explosiones...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "¡Paso de comedia! ¡Dame persecuciones\nde vértigo en coche, saltos y choques!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "¡Con lo que mola ver al protagonista\nbañando en tinta a los malvados!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Además, no soporto las comedias por\nlas risas enlatadas. ¡No tienen gracia!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ahí tengo que darte la razón. ¡Pero las\npelis de acción también tienen lo suyo!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Por qué los malos tienen siempre\nuna puntería penosa?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¿O por qué siempre atacan en turnos\nen vez de hacerlo todos en grupo?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Luego está el cliché del héroe retirado\nque regresa para frenar a su némesis.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Y, en un «inesperado» giro de los\nacontecimientos, ¡el malo es su colega!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "El héroe gana, pero el jefe de policía le\necha la bronca por destrozar el barrio.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Te suena de algo?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "¡Claro, es una de mis pelis favoritas!\nBueno... en realidad todas son así.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡Déjate de acción y ríete un poco más!\nEs mucho mejor para la salud.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "En fin, ¿qué opina el público?\n¡Id al terminal de voto y elegid equipo!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Si vous deviez choisir un type de films,\nvous seriez plutôt action ou comédie ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Action, action, action ! Tant que ça\ns'agite dans tous les sens, ça me plaît !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Donnez-moi des cascades, des courses-\npoursuites effrenées, des explosions !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Je veux des combats chorégraphiés\noù ça liquide au ralenti ! ",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Pas Cartouche qui raconte des blagues\nde geek sur fond de rires enregistrés !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "OK, les rires enregistrés, ça craint. Mais\nun film d'action, c'est cliché sur cliché !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Sérieux, t'as déjà vu UN méchant\nqui savait viser correctement ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Non mais franchement, qu'est-ce qu'ils\nattendent pour passer aux rouleaux ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Et le héros qui a raccroché mais reprend\ndu service pour battre son ennemi juré !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Mais en fait, oh surprise ! finalement le\nvrai méchant, c'était son meilleur ami !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "Le héros triomphe, et son chef lui passe\nun savon pour avoir détruit la ville.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "FIN ! Ça te rappelle quelque chose ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Ça alors ! C'est marrant, on dirait\njustement... tous mes films préférés !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Tu vois ? Passe aux comédies, Perle !\nAu moins le rire, c'est bon pour la santé.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Et vous, les amis, quel est votre avis ?\nLa borne festive vous attend !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Quali film vi piacciono di più? Azione\nadrenalinica o risate a crepasquame?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Che domande! I film d'azione!\nInseguimenti, esplosioni! BOOOM!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Altro che commedie con battute che non\nfanno ridere! Voglio scene mozzafiato!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Voglio vedere i cattivi splattati al\nrallentatore e in alta definizione!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Possibilmente senza Armand che\nspiega le armi al protagonista!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "OK, ci saranno film comici mal riusciti,\nma ci sono pure film d'azione scadenti!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Non ti sembra noioso che i protagonisti\nabbiano sempre una mira infallibile?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Non è realistico che siano tutti dei\ncecchini da paura come la sottoscritta!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Gli eroi sono sempre tutti uguali: ex\npolpiziotti ormai ritirati a vita privata.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "E alla fine il nemico è sempre il braccio\ndestro dell'eroe. Bel cinepolpettone...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "Il buono vince e dopo i titoli di coda c'è\nuna scena per giustificare un sequel.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Ti suona familiare?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Certo! È uno dei miei film preferiti!\nAnzi... sono un po' tutti i miei preferiti!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Non capisco questa febbre per l'azione.\nUna bella risata e stai subito meglio!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "E voi che ne pensate? Andate al terminal\ndi voto e scegliete da che parte stare!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wat is jouw favoriete soort films en\ntv-series: actie of komedie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Da's makkelijk! Ik wil actie zien!\nHoe meer er ontploft, hoe beter!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Ik wil geen flauwe grappen, ik wil een\nachtervolging door het Moeraalkanaal!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Schurken die worden ondergespetterd\nin dramatische slow motion! Geweldig!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "En dan dat vreselijke neppubliek op de\nlachband! Dat heb je alleen in komedies.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Oké, lachbanden zijn best wel erg, maar\nactiefilms zijn nog veel afgezaagder!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Is het je weleens opgevallen dat boeven\nin actiefilms niet kunnen mikken?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Die krijgen het nog voor elkaar om de\ngrond te missen in een Grondoorlog!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Of de gepensioneerde held, die nog één\nkeer haar aartsvijand moet verslaan.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "En dan blijkt dat haar partner de ware\nschurk was! Wat een verrassing!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "De held wint, maar krijgt gedoe met haar\nchef omdat de hele wijk in puin ligt.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Klinkt dat bekend?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Ja, dat is mijn lievelingsfilm! Of beter\ngezegd, dat zijn al mijn lievelingsfilms...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Waarvoor heb je al die actie nodig?\nLachen is het beste medicijn!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Maar wat denkt het publiek ervan?\nIedereen, op naar de stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Какие вы любите фильмы и сериалы?\nБоевики или комедии?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Боевики, конечно! Где плюхают\nнаправо и налево!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Шутить я и сама могу! А вот разборки\nв Подмостовье это сила. Йо!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Краска с экрана так и хлещет!\nПлюхи в слоу-моушн! Красота!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "А ты хочешь на Пушкина смотреть?\nОн у нас главный комедиант! ",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "У Пушкина юмор специфический, но\nбоевики смотреть — себя не уважать!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Они такие неправдоподобные! В них\nплохие парни всегда мажут!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Они даже из плюхомета никого\nплюхнуть не могут! ",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "И все эти сюжеты про супергероя\nна пенсии, спасающего мир...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "А затем оказывается, что лучший\nдруг героя и есть главный злодей!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "Герой всех спасает, а шеф полиции\nпилит его за растрату краски!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Узнаешь сюжетик?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Да это же «Реальные враки»!\nМой любимый фильм!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Боевики — пустая трата времени.\nКомедии хотя бы смешные...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "А вы что думаете? Вперед\nк терминалу и выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "JPja": [
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "年の初めは 全世界合同フェスだー！\nどっちを観る？ アクション vs コメディ！！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "きゃ～！ ワールドワイドフェスですね～！！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "対決するのは、新年からスカッといこーぜ！\n爽快感とテンションMAX！  「アクション」と！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "年の初めの大笑い！\n笑顔と幸福度MAX！ 「コメディ」になります！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "このテーマで思い出したんですけど、\nセンパイ あのドラマ観てくれました～？",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "あー、イイダがオススメしてた人気コメディドラマの\n年末スペシャルだろ？ スゲー笑った笑った！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "でしょでしょ～♪ すっごい おかしいんですけど、\nナミダを さそうシーンもあって 良かったですよね～",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "んじゃー アタシがオススメしたヤツ観たか？",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "３時間ノンストップのアクション映画ですよね？\n観ました～！ ３時間あっという間でしたよ～♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "だろー！ その映画の続編がさ、なんと来週公開\nされんだよ！ イイダも いっしょに観に行こうぜー！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "え？！ 来週ですか？\nヒメセンパイ 来週はフェスですよ！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "ダァーイジョウブだよ！ ちょうどフェスが終わった後に\n始まっからな！ チェック済みだっつーの！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "…ヒメセンパイ ちょっと待ってください！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "ん？ どーしたイイダ、 そーいや続編は\n１０時間ノンストップだかんな！ 楽しみだー！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "フェス終わりは ヒメセンパイと あのドラマの\n年始スペシャル観ようと思ってたのに～",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "ゲッ！ 同じ日かよ！！\nそれはそれで 面白そうだけどな…",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "映画館は にげませんから\nその日はワタシの家で ドラマ観ましょ～♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "エー！ 公開初日に観るのがいいんじゃん！\nイイダも気になるだろ？ あの主人公のソノ後！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "ラストが 主人公１人に対して１００００の大群！\nスッゴイ気になります～ でもドラマ観たいな～…",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "ウ… こーなったらフェスの結果で決めちゃおーぜ！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "ですね！ ワタシ燃えてきました！！\nフェス用機材のメンテ行ってきます！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "ヨッシャ！ そんじゃーアタシも発声トレーニングして\nキレッキレのフロウかましてやんよ！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "…てなワケでみんな、\nどちらかに投票ヨロシク！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "投票したらフェスT借りれているか\nカスタマイズでチェックしてくださいね！",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Announce",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "What kind of movies and TV shows do\nyou like more? Action or comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "EASY. I'm all about that action!\nWHERE THE SPLOSIONS AT?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "I don't want jokes. I want a motorcycle\nchase through Snapper Canal!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "I wanna see fools getting splatted in\nslow motion!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "I don't wanna hear Sheldon tell nerdy\ncrab jokes in front of a laugh track!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "OK, laugh tracks may be bad, but action\nmovies are just as corny.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "Ever notice how all the bad guys in\naction movies have TERRIBLE accuracy?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "They couldn't hit the broad side of a\nbarnacle with a Splash-o-matic!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "And why's the hero always gotta come\nout of retirement to stop her nemesis?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "And then it turns out the hero's partner\nwas the true bad guy all along! GASP!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "The hero wins, but she gets chewed out\nby the chief for destroying a city block.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Sound familiar?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Yeah, that's one of my favorites!\nActually, that's all of my favorites...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Why even bother with action?\nLaughter is the best medicine!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "What do you think? Head over to the\nSplatfest terminal and pick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Les gustan más las películas y series\nde acción o de comedia?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Fácil: ¡ACCIÓN! ¡Quiero explosiones!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Nada de chistes. ¡Dame persecuciones\nde autos por el Canal Cormorán!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "¡Quiero ver duelos de rodillos a\ncámara lenta!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "No quiero ver a Jairo contar chistes de\ncangrejos con risa enlatada.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "A nadie le gusta la risa enlatada. ¡Pero\nlas películas de acción son ridículas!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "¿Por qué los malos NUNCA le atinan\nal héroe?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "¡Es como si no hubieran terminado\nel tutorial!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Y por qué la heroína SIEMPRE tiene que\ndejar su retiro para detener al villano?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Y luego resulta que el verdadero malo\nera su compañero. ¡No me digas!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "La heroína gana, pero el jefe de policía\nla riñe por haber destruido la ciudad.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¿Te suena la película?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "¡Claro! Esa es una de mis favoritas.\nDe hecho... así son todas mis favoritas.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¿Acción? ¿Para qué?\n¡La risa es la mejor medicina!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¿Qué opinan ustedes? ¡Vayan a la\nterminal de voto y elijan un equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Tu préfères les films et les séries\nd'action ou de comédie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "FACILE! Je suis une fille d'action!\nJE VEUX DES EXPLOSIONS!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_Smirk",
+          "Speaker": "Left",
+          "Text": "Donne-moi pas de blagues. Je veux des\npoursuites endiablées dans le Canalmar!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Left",
+          "Text": "Je veux voir les éclaboussures des\nméchants se dérouler au ralenti!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Les blagues intellos sur les crabes de\nCartouche avec des rires en boîte, blah!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "OK, les rires en boîte, c'est pas bien.\nMais les films d'action sont clichés.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "T'as déjà remarqué que les méchants\nvisent les héros TERRIBLEMENT mal?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention",
+          "Speaker": "Right",
+          "Text": "Ils toucheraient pas un cachalot dans\nun baril, même armés d'un éclablasteur!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Et pourquoi l'héroïne doit toujours être\nau bord de la retraite au début du film?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Right",
+          "Text": "Ensuite, le partenaire était le grand\nméchant depuis tout ce temps! AH!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "Elle gagne, mais son patron est fâché,\ncar elle a détruit la moitié de la ville.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Ça te semble familier?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Left",
+          "Text": "Ouaip! Tu décris exactement la\nmajorité de mes films préférés!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Pourquoi vouloir de l'action? Le rire\nest la meilleure médecine au monde!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Et toi, tu en penses quoi? Va à la borne\nfestive et choisis une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Was für Filme oder Serien mögt ihr\nlieber? Action oder Comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Trefft eure Wahl am Splatfest-\nWahlstand!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which genre of movies and TV shows do\nyou like more? Action or comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Qué tipo de pelis y series preferís?\n¿De acción o de comedia?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Pasad por el terminal de voto\ny elegid vuestro bando!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Quels sont vos films préférés ?\nLes comédies ou les films d'action ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Rendez-vous vite à la borne festive\npour choisir votre camp !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Cosa preferite vedere al cinema?\nI film d'azione o le commedie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Correte al terminal di voto e scegliete\nda che parte stare!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Wat voor films en series kijk je liever?\nActie of komedie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Maak je keuze bij de\nSplatfest-stemmachine!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Какие вы любите фильмы и сериалы?\nБоевики или комедии?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Вперед к терминалу\nи выберите сторону!",
+          "WaitButton": true
+        }
+      ],
+      "JPja": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "観るならどっち？フェス\n始まったぞーーー！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "ロビー前のタッチパネルから投票して、\n参加してくださ～い！",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "Start",
+      "USen": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Which genre of movies and TV shows do\nyou like more? Action or comedy?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Head over to the Splatfest terminal and\npick a side!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "¿Les gustan más las películas y series\nde acción o de comedia?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "¡Vayan a la terminal de voto y elijan\nun equipo!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Left",
+          "Text": "Tu préfères les films et les séries\nd'action ou de comédie?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "FestMonitor",
+          "Command": "Speak",
+          "Emotion": "Excited",
+          "Speaker": "Right",
+          "Text": "Va à la borne festive pour\nchoisir une équipe!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Und wer lacht jetzt, naaa?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Lass mich raten... Jetzt kommt ein Rap\ndarüber, dass dein Team gewonnen hat...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Schnallt euch an, denn wir sind dran!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Team Action ließ es knallhart krachen,\njetzt ist Schluss mit doofem Lachen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Wenigstens ist es jetzt vorbei...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Prei--",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "NEHMT EUER LACHEN VOM BAND\nUND HALTET DEN RAND!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Niemand hält Team Action auf,\nwer's versucht, bekommt eins drauf!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "WHO'S LAUGHING NOW?!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Lemme guess... You're gonna rap about\nhow your team won the Splatfe—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Fasten yo SEATBELT!\nWe bringin' the HEAT, SMELT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "The action faction assassins be\nmakin' yo MEAT MELT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...\nThank cod that's over...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Anyway, if you participated in the\nSplatfest, your pri—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "STUFF YOUR LAUGH TRACK IN YOUR\nBACKPACK AND BEAT IT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Team Action dream smashin'!\nWE CAN'T BE DEFEATED!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¿Quién ríe ahora, eh?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Ay...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Tampoco hace falta que te pongas\na restregarnos la victoria, Perla.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Las pelis de acción molan mogollón! ♪\n¡Reparten leña y me da el subidón! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Al final los malos acaban derrotados! ♪\n¡Así aprenden a no ser tan pesados! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "¿Ese tema es de tu disco en solitario?\n¡Porque yo me niego a ponerle música!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "En fin, recordad ir a la plaza\npara recoger los...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡El festival todavía no ha terminado! ♪\n¡Falta recordar que os hemos ganado! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡El equipo acción ha sido el mejor! ♪\n¡Reírse antes de tiempo fue un error! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Lo tuyo no tiene remedio...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Ya sabéis: ¡los premios por haber\nparticipado os esperan en la plaza!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Alors, on rigole moins, hein ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "Si c'est une blague, elle est pas drôle...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Je vois pas ce que vous trouvez à ces\nfilms... ils sont tellement prévisibles !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Un peu comme notre VICTOIRE\nÉCLATANTE, tu veux dire ?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "La prochaine fois, faudra p'têt' passer à\nl'action au lieu de vous fendre la poire !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Oh, ça va, hein ! Les festivals, c'est\nfait pour s'amuser, je te rappelle !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "En tout cas, les prix attendent les\nparticipants au festival sur le...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Taratata, et puis quoi encore ?! C'est\nla gagnante qui clôture le festival !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Bien joué, les amis ! Les films d'action,\nc'est du bon ! Les comédies, c'est fini !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Oh, misère...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Scommetto che adesso non ridi più!!!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Accetto la sconfitta... ti chiedo solo\ndi non metterti a cant...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "♪ Che succede, team Commedia?\nMi sembrate una tragedia! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "♪ L'adrenalina pompa a mille!\nIn battaglia faccio scintille! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Per fortuna hai finito le rime...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Se avete partecipato al fest...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "♪ Esplosioni a tutto spiano!\nFate largo o vi asfaltiamo! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "♪ La mia Nori è bella fritta!\nSarà stata la sconfitta! ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Sei proprio irrecuperabile...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ha! Is het lachen je al vergaan?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Laat me raden... Nu krijgen we zeker een\nrap over hoe je team gewonnen heeft...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Jullie zijn een lachertje, team Komedie!\nDat Splatfest leek meer op een tragedie!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "De Actie-fractie deelt rake klappen uit!\nWe vreten jullie op, met haar en huid!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Is dat een solosingle? Ik heb geen zin\nom daar een beat voor te maken...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "In elk geval: deelnemers aan het\nSplatfest kunnen hun prij...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Hé, het is te vroeg om me af te vlaggen!\nWat 'r ook gebeurt, altijd blijven raggen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Niemand houdt team Actie tegen!\nWij gaan altijd vol voor de zege!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "Hiertegen is zelfs lachen geen medicijn...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Ну что, весело тебе?!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Подозреваю, сейчас ты пустишься\nчитать рэпчик про боевики...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Аста ла виста, сдавайте пушки,\nЭй, юмористы, живо к «вертушке»!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Боевики не любите? Не чета нам,\nМы обожаем запах краски по утрам!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "Уф... хорошо, что 90-е позади...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Короче, участников Сплатфеста\nна площади жд...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Засуньте ваши шуточки подальше,\n«Боевики» курок спустили раньше!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Короче, «Комедии» — бойцы хилые,\nА «БОЕВИКИ» — НЕУДЕРЖИМЫЕ!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "А участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "JPja": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "「アクション」！！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "う～ん…\nあと少しだったのに～…",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "「アクション」のみんな、ありがと！\nやっぱアクション好きは バトルもイカしてんなー！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "「コメディ」のみなさんも\nとてもがんばってましたよ～",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Point",
+          "Speaker": "Left",
+          "Text": "ヨーシ！ そんじゃー映画観んぞ！\n明日の１０時に 映画館集合な！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "SurprisedB",
+          "Speaker": "Right",
+          "Text": "エ？！ この後すぐに行くんじゃないんですか～？",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther_Smirk",
+          "Speaker": "Left",
+          "Text": "まーなんだ、 今日はコメディドラマの年始スペシャル\nイイダんちで観ようぜ！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "きゃ～！ ホントにいいんですか～？！\nワタシ、ワタシ… ウレシイです～…",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "もー泣くなよイイダー、 コメディ観て大笑いした後に\nアクション観てスカッとしたらダブルで楽しーじゃん！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "GoodGrief",
+          "Speaker": "Right",
+          "Text": "ワタシ、 ナミダで画面見れないかもです～",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "あ、 フェスに参加した人は\n広場で スーパーサザエ もらえるってよ！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "次のフェスもお楽しみに！",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultA",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "WHO'S LAUGHING NOW?!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Lemme guess... You're gonna rap about\nhow your team won the Splatfe—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Fasten yo SEATBELT!\nWe bringin' the HEAT, SMELT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "The action faction assassins be\nmakin' yo MEAT MELT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...\nThank cod that's over...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Anyway, if you participated in the\nSplatfest, your pri—",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "STUFF YOUR LAUGH TRACK IN YOUR\nBACKPACK AND BEAT IT!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Team Action dream smashin'!\nWE CAN'T BE DEFEATED!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¿QUIÉN SE RÍE AHORA?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Deja que adivine: vas a soltar unas\nrimas sobre la victoria de tu equi...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¿Te parece gracioso, te gusta la risa?\nAtentos todos y escuchen mi premisa:",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Cuando el Equipo Acción entra en escena,\n¡no hay lugar para tinta ajena!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "¿Ya terminaste?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "En fin, si participaron en el festival,\nrecojan sus prem...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Olvida los chistes, que esto va en serio:\n¡este festival está bajo mi imperio!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "¡Ninguna misión es imposible,\nPORQUE EL EQUIPO ACCIÓN ES INVENCIBLE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "C'EST QUI QUI RIT MAINTENANT?!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Right",
+          "Text": "Laisse-moi deviner... Tu vas rapper\nà propos de la victoire de ton équi...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "Attache ta TUQUE!\nLa comédie a perdu sa PERRUQUE!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Les assassins de l'équipe ACTION\nconnaissent tous vos TRUCS!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Right",
+          "Text": "...\nOh, tant mieux, c'est fini...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "En tout cas, si tu as participé au\nfestival, n'oublie pas de récup...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "LES RIRES EN BOÎTE ONT ÉCHOUÉ!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Left",
+          "Text": "L'équipe ACTION fait tout EXPLOSER!\nON VA TOUJOURS GAGNER!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "GoodGriefB",
+          "Speaker": "Right",
+          "Text": "...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    },
+    {
+      "EUde": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Hahaha!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "Wie? Wie konnten wir nur verlieren?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Team Comedy kämpft nicht mal gern!\nDie lachen lieber über blöde Witze!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Team Action liegt das Kämpfen doch im\nBlut!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Wir gehen extra langsam von Explosionen\nweg, ohne uns umzudrehen!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Vielleicht hättet ihr die Explosionen doch\nim Blick behalten sollen...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Ach, auch egal...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Wer beim Splatfest dabei war, bekommt\nseinen Preis auf dem Inkopolis-Platz!",
+          "WaitButton": true
+        }
+      ],
+      "EUen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HAHAHAHA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "HOW DID WE LOSE?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Team Comedy doesn't even like to battle!\nThey like to laugh at dumb jokes!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "But Team Action was born for the\nbattlefield!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "WE WALK AWAY FROM EXPLOSIONS\nWITHOUT EVEN LOOKING AT THEM!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Well...maybe you should have looked at\nthe explosions.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Whatever...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "EUes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Quien ríe el último... ¡ríe mejor!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "¡No me esperaba este giro de guion!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "¡Creía que vuestro equipo estaba\nen contra de la acción!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "En cambio, ¡nosotros hemos nacido\npara liquidar a diestro y siniestro!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡Y somos tan valientes que nos alejamos\nde las explosiones a cámara lenta!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Quizás tendríais que haberos\nescapado a cámara rápida...",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Eso, encima tómatelo a risa.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Recordad ir a la plaza para recoger\nlos premios por haber participado!",
+          "WaitButton": true
+        }
+      ],
+      "EUfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HA HA HA !",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "HEIN ?! C'est quoi, ce retournement de\nsituation qui sort de nulle part ?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Ton équipe est IN-SEN-SIBLE à l'art du\ncombat, elle préfère les blagues nulles !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "La mienne aurait dû gagner ! On a trop\nla classe sur le champ de bataille !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Même qu'on s'éloigne des explosions au\nralenti, sans un coup d'œil en arrière !",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Ben, je sais pas... évitez peut-être\nle ralenti, la prochaine fois ?",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "C'est une idée à creuser...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Les prix attendent les participants au\nfestival sur le square !",
+          "WaitButton": true
+        }
+      ],
+      "EUit": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "AH AH AH! Non ho mai riso così tanto!\nNon c'è commedia che tenga! AH AH AH!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "A-Abbiamo persooo?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Ma com'è possibile? Non fanno altro\nche guardare commediole insulse!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Noi siamo la squadra Azione! Siamo nati\nper stare sul campo di battaglia!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Dovremmo essere dei tipi esplosivi!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Più che esplosivi, siete un po' scoppiati!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Molto divertente...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Se avete partecipato al festival,\ni vostri premi vi attendono in piazza!",
+          "WaitButton": true
+        }
+      ],
+      "EUnl": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ha! Wie het laatst lacht, lacht het best!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "Wat?! Wat was dat voor onverwachte\nplotwending?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Team Komedie is een stelletje moppen-\ntappers! Die willen niet eens vechten!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Team Actie is geboren voor het slagveld!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Wij zijn zulke actiehelden dat we in\nslow motion weglopen van explosies!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Nou... Misschien hadden jullie iets\nsneller moeten lopen.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Dat zijn geen leuke grapjes...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Deelnemers aan het Splatfest kunnen\nhun prijzen ophalen op het plein!",
+          "WaitButton": true
+        }
+      ],
+      "EUru": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "Ха-ха-ха!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "Как мы могли проиграть?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Этим комедиантам, которые даже\nоружие держать в руках не умеют?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Чтобы герой — и проиграл?!\nВ боевиках так не бывает!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "Взрывы? Засады? Я смеюсь\nв лицо любой опасности!!!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Вот, а теперь посмеешься\nнад классной комедией!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Короче...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Участников Сплатфеста\nна площади ждут призы!",
+          "WaitButton": true
+        }
+      ],
+      "JPja": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "きゃ～！ 「コメディ」～～～！！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "ゲッ？！ まじかよーーー！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "「コメディ」のみなさん、やりましたね！\n本当スゴイです！ ワタシ、カンゲキしました～",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "「アクション」もがんばったの、知ってるからな！\nもーちょいだったかー！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "ヒメセンパイ、 映画は今度にして\nつぎはワタシの家で コメディドラマフェスですよ～！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "しゃーねー… ってフェス？！\nなんだよ、 それ？",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Attention_LookOther",
+          "Speaker": "Right",
+          "Text": "年始スペシャルを より楽しむために\nドラマシリーズのディスクBOXを 用意しました～！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedA",
+          "Speaker": "Left",
+          "Text": "げっ！ まじかよー…\nっつーか、そのドラマいくつ出てんの…？",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Right",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "今年からシーズン８が始まるので ７つですね～\n改めてふりかえると また面白いんですよ♪",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "ちょ、 イイダ！\nそれって フェス何回分だよ？！",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Left",
+          "Text": "あ、 フェスに参加した人は\n広場で スーパーサザエ もらえるってよ！",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Invalid",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "次のフェスもお楽しみに！",
+          "WaitButton": true
+        }
+      ],
+      "NewsType": "ResultB",
+      "USen": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HAHAHAHA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "HOW DID WE LOSE?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Team Comedy doesn't even like to battle!\nThey like to laugh at dumb jokes!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "But Team Action was born for the\nbattlefield!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "WE WALK AWAY FROM EXPLOSIONS\nWITHOUT EVEN LOOKING AT THEM!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "Well...maybe you should have looked at\nthe explosions.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Whatever...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "If you participated in the Splatfest,\nyour prizes are waiting in the Square!",
+          "WaitButton": true
+        }
+      ],
+      "USes": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "¡BAAAJAJAJA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "¡¿PERDIMOS?!\n¿Contra el Equipo Comedia?",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "¡Ni siquiera les gusta combatir!\n¡Se la pasan riéndose de chistes malos!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "¡El Equipo Acción nacimos rodando por\nel campo de batalla con un difusor dual!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "¡COMBATIMOS CON LOS OJOS VENDADOS!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "A lo mejor fue por eso que perdieron.",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Bah.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "¡Si participaron en el festival, recojan\nsus premios en el centro!",
+          "WaitButton": true
+        }
+      ],
+      "USfr": [
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Happy",
+          "Speaker": "Right",
+          "Text": "HAHAHAHA!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "SurprisedA",
+          "Speaker": "Left",
+          "Text": "COMMENT ON A PU PERDRE?!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Left",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Les comiques aiment pas se battre.\nIls font juste rire des blagues stupides.",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Left",
+          "Text": "Mais l'équipe ACTION est née\npour les champs de bataille!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Angry",
+          "Speaker": "Left",
+          "Text": "ON S'ÉLOIGNE DES EXPLOSIONS\nSANS MÊME LES REGARDER!",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk_LookOther",
+          "Speaker": "Right",
+          "Text": "C'est vrai que mon équipe a explosé...\nDE RIRE!",
+          "WaitButton": false
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "DisappointedB",
+          "Speaker": "Left",
+          "Text": "Peu importe...",
+          "WaitButton": true
+        },
+        {
+          "CameraType": "Normal",
+          "Command": "Speak",
+          "Emotion": "Talk",
+          "Speaker": "Right",
+          "Text": "Si tu as participé au festival, n'oublie\npas de récupérer tes prix au carré!",
+          "WaitButton": true
+        }
+      ]
+    }
+  ],
+  "RegionAttr": {
+    "EU": 0,
+    "JP": 0,
+    "US": 0
+  },
+  "RequiredBattleTimes": 7,
+  "Rule": "cPnt",
+  "SpecialStage": 9999,
+  "StartDelayTimeMax": 300,
+  "Teams": [
+    {
+      "Color": [
+        0.812,
+        0.475,
+        0.031,
+        1
+      ],
+      "Name": {
+        "EUde": "ACTION",
+        "EUen": "ACTION",
+        "EUes": "¡Prefiero ver acción!",
+        "EUfr": "Je préfère les\nfilms d'ACTION !",
+        "EUit": "Meglio i\nfilm d'AZIONE!",
+        "EUnl": "Ik vind actiefilms\nleuk!",
+        "EUru": "Боевики рулят!",
+        "JPja": "映画やドラマ、観るならどっち？\n「アクション」",
+        "USen": "ACTION",
+        "USes": "Acción",
+        "USfr": "ACTION"
+      },
+      "ShortName": {
+        "EUde": "Action",
+        "EUen": "Action",
+        "EUes": "Acción",
+        "EUfr": "Action",
+        "EUit": "Azione",
+        "EUnl": "Actie",
+        "EUru": "Боевики",
+        "JPja": "アクション",
+        "USen": "Action",
+        "USes": "Acción",
+        "USfr": "Action"
+      }
+    },
+    {
+      "Color": [
+        0.09,
+        0.412,
+        0.729,
+        1
+      ],
+      "Name": {
+        "EUde": "COMEDY",
+        "EUen": "COMEDY",
+        "EUes": "¡Prefiero ver comedia!",
+        "EUfr": "Je préfère les\nCOMÉDIES !",
+        "EUit": "Meglio le\nCOMMEDIE!",
+        "EUnl": "Ik vind komische\nfilms leuk!",
+        "EUru": "Комедии решают!",
+        "JPja": "映画やドラマ、観るならどっち？\n「コメディ」",
+        "USen": "COMEDY",
+        "USes": "Comedia",
+        "USfr": "COMÉDIE"
+      },
+      "ShortName": {
+        "EUde": "Comedy",
+        "EUen": "Comedy",
+        "EUes": "Comedia",
+        "EUfr": "Comédie",
+        "EUit": "Commedia",
+        "EUnl": "Komedie",
+        "EUru": "Комедии",
+        "JPja": "コメディ",
+        "USen": "Comedy",
+        "USes": "Comedia",
+        "USfr": "Comédie"
+      }
+    },
+    {
+      "Color": [
+        0.706,
+        0.29,
+        0.937,
+        1
+      ]
+    }
+  ],
+  "Time": {
+    "Announce": "2018-02-23T06:00:00+00:00",
+    "End": "2018-02-23T08:00:00+00:00",
+    "Result": "2018-02-23T08:15:00+00:00",
+    "Start": "2018-02-23T07:00:00+00:00"
+  },
+  "Version": 1,
+  "VoteAnimType": 0,
+  "VoteTextType": 0,
+  "cPnt": {
+    "HighRate1": 2000,
+    "HighRate2": 2300,
+    "LowRate": 1400,
+    "ShrinkRatio": 0.3
+  }
+}
