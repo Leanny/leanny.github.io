@@ -761,7 +761,8 @@
                                     <button type="button" id="spepu3-button" class="btn btn-info" onclick="addToPlot('spepu3');">Add "Special Power Up Effect 3" to Plot</button>
                                     <button type="button" id="spepu4-button" class="btn btn-info" onclick="addToPlot('spepu4');">Add "Special Power Up Effect 4" to Plot</button>
                                     <button type="button" id="spepu5-button" class="btn btn-info" onclick="addToPlot('spepu5');">Add "Special Power Up Effect 5" to Plot</button>
-                                    <h2 id="spepu1-headline">Sub Power Up Effect 1</h2>
+                                    <button type="button" id="spepu6-button" class="btn btn-info" onclick="addToPlot('spepu6');">Add "Special Power Up Effect 6" to Plot</button>
+                                    <h2 id="spepu1-headline">Special Power Up Effect 1</h2>
                                     <div class="table-responsive" id="spepu1-table-div">
                                        <table class="table table-striped table-hover" id="spepu1-table" data-sortable="true" data-show-columns="true">
                                           <thead>
@@ -774,7 +775,7 @@
                                           </thead>
                                        </table>
                                     </div>
-                                    <h2 id="spepu2-headline">Sub Power Up Effect 2</h2>
+                                    <h2 id="spepu2-headline">Special Power Up Effect 2</h2>
                                     <div class="table-responsive" id="spepu2-table-div">
                                        <table class="table table-striped table-hover" id="spepu2-table" data-sortable="true" data-show-columns="true">
                                           <thead>
@@ -787,7 +788,7 @@
                                           </thead>
                                        </table>
                                     </div>
-                                    <h2 id="spepu3-headline">Sub Power Up Effect 3</h2>
+                                    <h2 id="spepu3-headline">Special Power Up Effect 3</h2>
                                     <div class="table-responsive" id="spepu3-table-div">
                                        <table class="table table-striped table-hover" id="spepu3-table" data-sortable="true" data-show-columns="true">
                                           <thead>
@@ -800,7 +801,7 @@
                                           </thead>
                                        </table>
                                     </div>
-                                    <h2 id="spepu4-headline">Sub Power Up Effect 4</h2>
+                                    <h2 id="spepu4-headline">Special Power Up Effect 4</h2>
                                     <div class="table-responsive" id="spepu4-table-div">
                                        <table class="table table-striped table-hover" id="spepu4-table" data-sortable="true" data-show-columns="true">
                                           <thead>
@@ -813,9 +814,22 @@
                                           </thead>
                                        </table>
                                     </div>
-                                    <h2 id="spepu5-headline">Sub Power Up Effect 5</h2>
+                                    <h2 id="spepu5-headline">Special Power Up Effect 5</h2>
                                     <div class="table-responsive" id="spepu5-table-div">
                                        <table class="table table-striped table-hover" id="spepu5-table" data-sortable="true" data-show-columns="true">
+                                          <thead>
+                                             <tr>
+                                                <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
+                                                <th scope="col" data-field="AP" data-sortable="true">AP</th>
+                                                <th scope="col" data-field="Effect" data-sortable="true">Effect</th>
+                                                <th scope="col" data-field="Per" data-sortable="true">Percentage to Maximum Effect</th>
+                                             </tr>
+                                          </thead>
+                                       </table>
+                                    </div>
+                                    <h2 id="spepu6-headline">Special Power Up Effect 6</h2>
+                                    <div class="table-responsive" id="spepu6-table-div">
+                                       <table class="table table-striped table-hover" id="spepu6-table" data-sortable="true" data-show-columns="true">
                                           <thead>
                                              <tr>
                                                 <th scope="col" data-field="GAP" data-sortable="true">Main.Subs</th>
@@ -1496,7 +1510,7 @@
                         weapon_data[1]["mBurst_Landing_AddHeight"] = 0.0
                         weapon_data[1]["mBurst_Landing_AddHeight_SJ"] = 0.0
                     }
-                    if(weapon_data[0]["Name"] == "SuperBubble") {
+                    if(weapon_data[0]["Name"] == "SuperBubble" || weapon_data[0]["Name"] == "Jetpack") {
                         weapon_data[1]["mBombCoreRadiusRate"] = 1.0
                     }
                     var keys = {
@@ -1514,7 +1528,7 @@
                         "mBurst_Radius_Middle": "Explosion Radius (Middle)",
                         "mBurst_Radius_Near": "Explosion Radius (Near)",
                         "mHP": "HP",
-                        "mBombCoreRadiusRate": "Bubble Size Radius Rate",
+                        "mBombCoreRadiusRate": "Core Radius Rate",
                         "mCollisionPlayerRadiusMax": "Explosion Effect Radius",
                         "mChargeRtAutoIncr": "Booyah Charge Speed"
                     }
@@ -1556,7 +1570,6 @@
                             }
                         }
                     })
-
                     for (var c = 0; c < dsetcollection.length; c++) {
                         show_spepu(c+1);
                         dataset_collection["spepu" + (c+1)] = dsetcollection[c];
@@ -1564,7 +1577,7 @@
                         dataset_labels["subpu" + (c+1)] = "Special Power Up - " + lang_dict[weapon_data[0]["Name"]] + " - " + translations[c] + " - v" + version[0] + "." + version[1] + "." + version[2];
                         $('#spepu' + (c+1) + '-headline').text("Special Power Up Effect " + (c+1) + ": " + translations[c])
                     }
-                    for (var c = dsetcollection.length; c < 5; c++) {
+                    for (var c = dsetcollection.length; c < 6; c++) {
                         hide_spepu(c+1);
                     }
                 }
@@ -2340,7 +2353,7 @@
                       columns: columnsName
                     })
                 
-                    var table_names = [["qr", 2], ["inkres", 6], ["cb", 4], ["qsj", 2], ["subpu", 3], ["spepu", 5], ["mpu", 6], ["iru", 2], ["bdu", 3], ["ism", 1], ["rsu", 2], ["ssu", 2], ["scu", 1], ["sps", 1], ["iss", 1]]
+                    var table_names = [["qr", 2], ["inkres", 6], ["cb", 4], ["qsj", 2], ["subpu", 3], ["spepu", 6], ["mpu", 6], ["iru", 2], ["bdu", 3], ["ism", 1], ["rsu", 2], ["ssu", 2], ["scu", 1], ["sps", 1], ["iss", 1]]
                     for (var i = 0; i < table_names.length; i++) {
                         var name = table_names[i][0];
                         var max_c = table_names[i][1];
