@@ -1,0 +1,32 @@
+{
+    "param": {
+        "mAccel": 0.5,
+        "mAccel0Frame": 10.0,
+        "mAirResistXZ": 0.0175,
+        "mAirResistY": 0.0175,
+        "mBurst_Damage_Far": 400,
+        "mBurst_Damage_Middle": 400,
+        "mBurst_Damage_Near": 800,
+        "mBurst_PaintR": 40.0,
+        "mBurst_Radius_Far": 80.0,
+        "mBurst_Radius_Middle": 80.0,
+        "mBurst_Radius_Near": 30.0,
+        "mBurst_SplashAroundFuzzyRate": 2.0,
+        "mBurst_SplashNum": 15,
+        "mBurst_SplashOfstY": 5.0,
+        "mBurst_SplashPaintR": 10.0,
+        "mBurst_SplashPitH": 45.0,
+        "mBurst_SplashPitL": 5.0,
+        "mBurst_SplashVelH": 6.4,
+        "mBurst_SplashVelL": 4.8,
+        "mColLength": 8.0,
+        "mColRadius": 3.0,
+        "mDamage": 0,
+        "mGravity": 0.1,
+        "mHideWallCheckOffset": 12.0,
+        "mLife": 120,
+        "mModelOffset": -4.5,
+        "mPaintR": 30.0,
+        "mParentHitCheckFrame": 4
+    }
+}
