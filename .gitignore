@@ -1,0 +1,14 @@
+data/Mush/*/BrandInfo.json
+data/Mush/*/SkillInfo.json
+*.py
+bcat/*
+data/create/*
+data/*zip
+data/*.txt
+data/Parameter/500/test/*
+data/Parameter/*zip
+data/Parameter/*.json
+data/Parameter/*.txt
+splat2new/*
+/nest1event.zip
+/seedchecker2.zip

@@ -127,7 +127,7 @@
 		</div>
 	  </div>
       <script>
-        $.getJSON( "actioncomedy.json", function( data ) {
+        $.getJSON( "https://raw.githubusercontent.com/Leanny/leanny.github.io/master/bcat/actioncomedy.json", function( data ) {
 			$("#announce").append(new Date(data["Time"]["Announce"]))
 			$("#start").append(new Date(data["Time"]["Start"]))
 			$("#end").append(new Date(data["Time"]["End"]))
