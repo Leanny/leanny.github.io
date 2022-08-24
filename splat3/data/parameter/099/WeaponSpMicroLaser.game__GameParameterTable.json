@@ -1,0 +1,45 @@
+{
+  "GameParameters": {
+    "spl__BulletSpMicroLaserBitParam": {
+      "$type": "spl__BulletSpMicroLaserBitParam",
+      "ChargeParam": {
+        "ChargeFrame": 36,
+        "InterpRate": 0.4,
+        "MaxAngularVel": 30.0
+      },
+      "FollowParam": {
+        "LockonEndFrame": 15
+      },
+      "LaserParam": {
+        "AfterLaserWaitFrame": 20,
+        "FreeMoveRotSpeed": 0.3,
+        "LaserDamage": 30,
+        "LaserDamageIntervalFrame": 5,
+        "LaserFrame": {
+          "High": 240.0,
+          "Low": 180.0,
+          "Mid": 210.0
+        }
+      }
+    },
+    "spl__WeaponSpMicroLaserParam": {
+      "$type": "spl__WeaponSpMicroLaserParam",
+      "LaunchParam": {
+        "EnableDualLaunch": true,
+        "LaserBitCenterOffset": {
+          "X": 0.0,
+          "Y": 1.7,
+          "Z": -0.6
+        },
+        "LaserBitRadius": 1.3,
+        "LockonDeg": 80.0,
+        "LockonRadius": 10.0
+      },
+      "PlayerParam": {
+        "AfterShot_NoBombFrm": 40,
+        "AfterShot_NoShotFrm": 40,
+        "AfterShot_NoSquidFrm": 40
+      }
+    }
+  }
+}

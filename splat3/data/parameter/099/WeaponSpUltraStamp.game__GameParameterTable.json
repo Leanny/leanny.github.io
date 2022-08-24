@@ -1,0 +1,117 @@
+{
+  "GameParameters": {
+    "SwingBigBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "DamageAttackerPriority": true,
+      "DamageOffsetY": 0.2,
+      "DistanceDamage": [
+        {
+          "Damage": 400,
+          "Distance": 2.8
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 0.0
+    },
+    "SwingBulletWallParam": {
+      "$type": "spl__BulletSpUltraStampSwingBulletWallParam"
+    },
+    "SwingSmallBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "DamageAttackerPriority": true,
+      "DamageOffsetY": 0.2,
+      "DistanceDamage": [
+        {
+          "Damage": 400,
+          "Distance": 2.8
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "Distance": 6.0
+      },
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 0.0
+    },
+    "SwingWallDropCollisionPaintParam": {
+      "$type": "spl__BulletWallDropCollisionPaintParam",
+      "PaintRadiusGround": 0.5
+    },
+    "SwingWallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMax": 70,
+      "FallPeriodFirstFrameMin": 50,
+      "FallPeriodLastFrameMax": 35,
+      "FallPeriodLastFrameMin": 20,
+      "FallPeriodSecondFrame": 5,
+      "FallPeriodSecondTargetSpeed": 0.08
+    },
+    "ThrowBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 2.5,
+      "CrossPaintRadius": 2.5,
+      "DistanceDamage": [
+        {
+          "Damage": 600,
+          "Distance": 4.0
+        },
+        {
+          "Damage": 300,
+          "Distance": 8.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintRadius": 5.0
+    },
+    "ThrowMoveParam": {
+      "$type": "spl__BulletSpUltraStampThrowParam",
+      "DirectDamageValue": 2200,
+      "FlyGravity": 0.013,
+      "FlyPositionAirResist": 0.03,
+      "GuideHitCollisionType": "ThrowUltraStamp",
+      "GuideRadius": 1.1,
+      "SpawnSpeedY": 0.17,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.85,
+        "Low": 0.85,
+        "Mid": 0.85
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    },
+    "spl__WeaponSpUltraStampParam": {
+      "$type": "spl__WeaponSpUltraStampParam",
+      "BangDown_VelLimitY": 0.14,
+      "HoldSwingKnockBackParam": {
+        "Accel": 500.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "SpecialTotalFrame": {
+        "High": 660.0,
+        "Low": 540.0,
+        "Mid": 600.0
+      },
+      "VelLimit_NoPaint": 0.144
+    }
+  }
+}

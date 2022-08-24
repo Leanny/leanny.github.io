@@ -11,6 +11,7 @@
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
       <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+      <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
       <title>Splatoon 3 - Weapon and Gear Database</title>
       <style>
          .bd-placeholder-img {
@@ -35,32 +36,25 @@
       </style>
    </head>
    <body>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">Weapon and Gear Database</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="database.html">Weapon and Gear Database</a>
-               </li>
-               <!--<li class="nav-item">
-                  <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
-               </li>
-               
-               <li class="nav-item">
-                  <a class="nav-link" href="parameters.html">Parameter Database</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="parameter_calcs.html">Parameter Calculator</a>
-               </li>-->
-            </ul>
-         </div>
-      </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Parameter Database</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+           <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                 <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="database.html">Weapon and Gear Database</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="parameters.html">Parameter Database</a>
+              </li>
+           </ul>
+        </div>
+     </nav>
       <main role="main">
          <div class="jumbotron">
             <div class="col-sm-8 mx-auto">
@@ -377,28 +371,16 @@
         
         }
         function detailFormatterWeapon(index, row) {
-            let html = []
-            weapon = weapon_data[row["Id"]]
-            html.push('<p><b>Name:</b> ' + row["Name"] + '</p>')
-            html.push('<p><b>Sub:</b> ' + row["Sub"][1] + '</p>')
-            html.push('<p><b>Special:</b> ' + row["Special"][1] + '</p>')
-            html.push('<p><b>' + lang_dict[weapon["Param0"]] + ':</b> ' + weapon["ParamValue0"] + '</p>')
-            html.push('<p><b>' + lang_dict[weapon["Param1"]] + ':</b> ' + weapon["ParamValue1"] + '</p>')
-            html.push('<p><b>' + lang_dict[weapon["Param2"]] + ':</b> ' + weapon["ParamValue2"] + '</p>')
-            html.push('<p><b>Inksaver Level:</b> ' + weapon["InkSaverLv"] + '</p>')
-            html.push('<p><b>Mobility Class:</b> ' + weapon["MoveVelLv"] + '</p>')
-            html.push('<p><b>Stealth Acceleration:</b> ' + weapon["StealthMoveAccLv"] + '</p>')
-            if ("MainUpGearPowerType" in weapon) {
-                html.push('<p><b>Main Power Up Effect:</b> ' + lang_dict["MPU_" + weapon["MainUpGearPowerType"]] + '</p>')
-            }
-            if ("ShotMoveVelType" in weapon) {
-                html.push('<p><b>Shoot Move Velocity Type:</b> ' + weapon["ShotMoveVelType"] + '</p>')
-            }
-            if ("Range" in weapon) {
-                html.push('<p><b>Matchmaking Range:</b> ' + weapon["Range"] + '</p>')
-            }
-            return html.join('')
-        
+            get_parameter(row["SpecActor"])
+            return `<div id="detail-view-${row["SpecActor"]}">a</div>`
+        }
+
+        function get_parameter(SpecActor) {
+            $.getJSON(prefix + "data/parameter/" + version + "/" + SpecActor + ".game__GameParameterTable.json", data => {
+                const formatter = new JSONFormatter(data);
+                console.log($(`#detail-view-${"SpecActor"}`))
+                $(`#detail-view-${"SpecActor"}`).append(formatter.render())
+            })
         }
         
         const get_name = val => val.split(".")[0].substring(10)
@@ -418,10 +400,11 @@
                         Range: weapon["Range"],
                         RewardLvl0: weapon["__RowId"],
                         RewardLvl1: weapon["__RowId"],
-                        Season: weapon["Season"],
+                        Season: weapon["Season"] + 1,
                         ShopPrice: weapon["ShopPrice"],
                         ShopUnlockRank: weapon["ShopUnlockRank"],
-                        UIParam: weapon["UIParam"]
+                        UIParam: weapon["UIParam"],
+                        SpecActor: weapon["SpecActor"].replace("Work/Actor/","").replace(".engine__actor__ActorParam.gyml", "")
                     })
                     data.push(row)
                 }

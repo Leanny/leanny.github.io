@@ -1,0 +1,10 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponBombCurlingMission.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "WeaponParam": {
+      "$type": "spl__WeaponBombCurlingParam",
+      "InkRecoverStop": 70,
+      "InkRecoverStopMaxCharge": 30
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "GameParameters": {
+    "FridgeParam": {
+      "$type": "spl__BulletSpEnergyStandFridgeParam",
+      "PowerUpFrame": {
+        "High": 1500.0,
+        "Low": 900.0,
+        "Mid": 1200.0
+      },
+      "PutFrame": 900,
+      "PutFrameOnYagura": 450,
+      "ServeAreaHeightDown": 0.0,
+      "ServeAreaHeightUp": 3.0,
+      "ServeAreaRadius": 3.5,
+      "VanishDistance": 1.8
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpEnergyStandMoveParam",
+      "CanPlaceBoundDegree": 30.0,
+      "CanPlaceBoundVel": 0.09,
+      "CanPlaceCheckLength1": 0.0,
+      "CanPlaceCheckLength2": 0.0,
+      "CanPlaceHeight": 1.0,
+      "FlyGravity": 0.009,
+      "FlyHitDeg50WallReboundMaxRt": 0.4,
+      "FlyHitVerticalWallReboundMaxRt": 0.3,
+      "FlyHitWallPitchToPlane": 5.0,
+      "FlyHitWallReboundResetFrame": 12,
+      "FlyPositionAirResist": 0.001,
+      "GuideHitCollisionType": "EnemyOffFenceOnBlowerOffShieldOff",
+      "GuideRadius": 1.35,
+      "SpawnSpeedY": 0.07,
+      "SpawnSpeedYWorldMin": -0.5,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.3,
+        "Low": 0.3,
+        "Mid": 0.3
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpEnergyStandParam",
+      "SpecialReduceFrame": 450
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YMax": 100.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

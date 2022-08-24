@@ -1,0 +1,11 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpTripleTornado.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletSpTripleTornadoBlastParam",
+      "DamageHeightUp": 20.0,
+      "DamageValueEnd": 80,
+      "DamageValueStart": 80
+    }
+  }
+}

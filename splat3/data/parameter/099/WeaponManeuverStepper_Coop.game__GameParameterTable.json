@@ -1,0 +1,10 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverStepper.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 300,
+      "ValueMin": 250
+    }
+  }
+}

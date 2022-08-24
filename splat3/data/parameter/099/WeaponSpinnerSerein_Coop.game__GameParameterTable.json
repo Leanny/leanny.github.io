@@ -1,0 +1,15 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpinnerSerein.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletSpinnerDamageParam",
+      "ValueFullChargeMax": 350,
+      "ValueMax": 350,
+      "ValueMin": 250
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpinnerParam",
+      "InkConsume": 0.14
+    }
+  }
+}

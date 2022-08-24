@@ -1,0 +1,90 @@
+{
+  "GameParameters": {
+    "AreaParam": {
+      "$type": "spl__BulletPointSensorAreaParam",
+      "AreaOffsetY": 0.45,
+      "Distance": {
+        "High": 11.0,
+        "Low": 8.0,
+        "Mid": 9.5
+      },
+      "Frame": 1,
+      "MarkingFrameSubSpec": {
+        "High": 600.0,
+        "Low": 300.0,
+        "Mid": 450.0
+      }
+    },
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 2.5,
+      "CrossPaintRadius": 2.5,
+      "DamageOffsetY": 0.45,
+      "DistanceDamage": [
+        {
+          "Damage": 450,
+          "Distance": 3.6
+        },
+        {
+          "Damage": 350,
+          "Distance": 8.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintOffsetY": 0.45,
+      "PaintRadius": 5.0,
+      "PlaneDamage": [
+        {
+          "Damage": 450,
+          "Distance": -0.5
+        },
+        {
+          "Damage": 350,
+          "Distance": -1.5
+        }
+      ],
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.375,
+            "Low": 1.0,
+            "Mid": 1.1875
+          }
+        }
+      ]
+    },
+    "MoveParam": {
+      "$type": "spl__BulletTrapParam",
+      "GuideRadius": 0.0,
+      "MaxPlaceNum": 2,
+      "PlacePaintRadius": 1.0,
+      "SensorRadius": {
+        "High": 4.0,
+        "Low": 3.0,
+        "Mid": 3.5
+      },
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 3
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponTrapParam",
+      "InkConsume": 0.6,
+      "InkRecoverStop": 0,
+      "KnockBackParam": {
+        "ImpactValue": 0.015
+      }
+    }
+  }
+}

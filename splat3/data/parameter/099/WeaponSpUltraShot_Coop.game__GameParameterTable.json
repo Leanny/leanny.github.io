@@ -1,0 +1,18 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpUltraShot.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 3.0
+        }
+      ]
+    },
+    "DamageParam": {
+      "$type": "spl__BulletSpUltraShotDamageParam",
+      "DirectHitDamage": 9000
+    }
+  }
+}
