@@ -1,14 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
    <head>
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css">
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
       <title>Splatoon 2 - Weapon and Gear Database</title>
-      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
       <style>
          .bd-placeholder-img {
          font-size: 1.125rem;
@@ -58,12 +61,6 @@
             </ul>
          </div>
       </nav>
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
       <main role="main">
          <div class="jumbotron">
             <div class="col-sm-8 mx-auto">
@@ -184,312 +181,305 @@
                </div>
             </div>
          </div>
-         <script>
-            var version = 100
-            
-            var lang_dict = {}
-            var weapon_data = {}
-            var subweapon_data = {}
-            var hed_gear = {}
-            var clt_gear = {}
-            var shs_gear = {}
-            
-            function imgFormatter(value) {
-                return "<img src=\"https://leanny.github.io/splat2/weapons/Wst_" + value + ".png\" width=\"96\" />";
+      </main>
+      <script>
+        let version = 100
+        
+        let lang_dict = {}
+        let weapon_data = {}
+        let subweapon_data = {}
+        let hed_gear = {}
+        let clt_gear = {}
+        let shs_gear = {}
+        
+        const format_img = (base_url, value, width) => `<img src="${base_url}${value}.png" width="${width}" />`
+    
+        var imgFormatter = value => format_img("https://leanny.github.io/splat2/weapons/Wst_", value, 96)
+        
+        var gearimgFormatter = value => format_img("https://leanny.github.io/splat2/gear/", value, 96)
+        
+        var skillFormatter = value => {
+            const tmp = format_img("https://leanny.github.io/splat2/skills/", value, 96)
+            return `<p>${tmp}<br />${lang_dict[value]}</p>`
+        }
+        
+        var brandFormatter = value => {
+            const tmp = format_img("https://leanny.github.io/splat2/brands/", value, 64)
+            return `<p>${tmp}<br />${lang_dict[value]}</p>`
+        }
+        
+        var subimgFormatter = value => format_img("https://leanny.github.io/splat2/subspe/Wsb_", value, 64)
+        
+        var subFormatter = value => {
+            const tmp = format_img("https://leanny.github.io/splat2/subspe/Wsb_", value[0], 64)
+            return `<p>${tmp}<br />${value[1]}</p>`
+        }
+        
+        var specialFormatter = value => {
+            const tmp = format_img("https://leanny.github.io/splat2/subspe/Wsp_", value[0], 64)
+            return `<p>${tmp}<br />${value[1]}</p>`
+        }
+        
+        var mpuFormatter = value => value[1];
+        
+        const languages = [{
+            ext: 'USen',
+            region: 'NA',
+            language: 'en',
+            name: 'English'
+        }, {
+            ext: 'EUen',
+            region: 'EU',
+            language: 'en',
+            name: 'English (UK)'
+        }, {
+            ext: 'EUes',
+            region: 'EU',
+            language: 'es',
+            name: 'Español'
+        }, {
+            ext: 'USes',
+            region: 'NA',
+            language: 'es-MX',
+            name: 'Español (MX)'
+        }, {
+            ext: 'EUfr',
+            region: 'EU',
+            language: 'fr',
+            name: 'Français'
+        }, {
+            ext: 'USfr',
+            region: 'NA',
+            language: 'fr-CA',
+            name: 'Français (CA)'
+        }, {
+            ext: 'EUde',
+            region: 'EU',
+            language: 'de',
+            name: 'Deutsch'
+        }, {
+            ext: 'EUnl',
+            region: 'EU',
+            language: 'nl',
+            name: 'Nederlands'
+        }, {
+            ext: 'EUit',
+            region: 'EU',
+            language: 'it',
+            name: 'Italiano'
+        }, {
+            ext: 'EUru',
+            region: 'EU',
+            language: 'ru',
+            name: 'Pусский'
+        }, {
+            ext: 'JPja',
+            region: 'JP',
+            language: 'ja',
+            name: '日本語'
+        }, ];
+        
+        for (const lang of Object.values(languages)) {
+            $("#language").append(new Option(lang["name"], lang["ext"]))
+        }
+        
+        function detectSplatoonLanguage() {
+            let browserLanguages = window.navigator.languages.map(l => l.toLowerCase())
+            let availableLanguages = languages.map(l => l.language.toLowerCase())
+            let resultLanguages = {}
+            for (const lang of Object.values(languages)) {
+                resultLanguages[lang["language"]] = lang["ext"]
             }
-            
-            function gearimgFormatter(value) {
-                return "<img src=\"https://leanny.github.io/splat2/gear/" + value + ".png\" width=\"96\" />";
-            }
-            
-            function skillFormatter(value) {
-                return "<p><img src=\"https://leanny.github.io/splat2/skills/" + value + ".png\" width=\"64\" /><br />" + lang_dict[value] + "</p>";
-            }
-            
-            function brandFormatter(value) {
-                return "<p><img src=\"https://leanny.github.io/splat2/brands/" + value + ".png\" width=\"64\" /><br />" + lang_dict[value] + "</p>";
-            }
-            
-            function subimgFormatter(value) {
-                return "<img src=\"https://leanny.github.io/splat2/subspe/Wsb_" + value + ".png\" width=\"64\" />";
-            }
-            
-            function subFormatter(value) {
-                return "<p><img src=\"https://leanny.github.io/splat2/subspe/Wsb_" + value[0] + ".png\" width=\"64\" /><br />" + value[1] + "</p>";
-            }
-            
-            function specialFormatter(value) {
-                return "<p><img src=\"https://leanny.github.io/splat2/subspe/Wsp_" + value[0] + ".png\" width=\"64\" /><br />" + value[1] + "</p>";
-            }
-            
-            function mpuFormatter(value) {
-                return value[1];
-            }
-            
-            const languages = [{
-                ext: 'USen',
-                region: 'NA',
-                language: 'en',
-                name: 'English'
-            }, {
-                ext: 'EUen',
-                region: 'EU',
-                language: 'en',
-                name: 'English (UK)'
-            }, {
-                ext: 'EUes',
-                region: 'EU',
-                language: 'es',
-                name: 'Español'
-            }, {
-                ext: 'USes',
-                region: 'NA',
-                language: 'es-MX',
-                name: 'Español (MX)'
-            }, {
-                ext: 'EUfr',
-                region: 'EU',
-                language: 'fr',
-                name: 'Français'
-            }, {
-                ext: 'USfr',
-                region: 'NA',
-                language: 'fr-CA',
-                name: 'Français (CA)'
-            }, {
-                ext: 'EUde',
-                region: 'EU',
-                language: 'de',
-                name: 'Deutsch'
-            }, {
-                ext: 'EUnl',
-                region: 'EU',
-                language: 'nl',
-                name: 'Nederlands'
-            }, {
-                ext: 'EUit',
-                region: 'EU',
-                language: 'it',
-                name: 'Italiano'
-            }, {
-                ext: 'EUru',
-                region: 'EU',
-                language: 'ru',
-                name: 'Pусский'
-            }, {
-                ext: 'JPja',
-                region: 'JP',
-                language: 'ja',
-                name: '日本語'
-            }, ];
-            
-            $.each(languages, function(idx, lang) {
-                $("#language").append(new Option(lang["name"], lang["ext"]));
-            });
-            
-            function detectSplatoonLanguage() {
-                let browserLanguages = window.navigator.languages.map(l => l.toLowerCase());
-                let availableLanguages = languages.map(l => l.language.toLowerCase());
-                var resultLanguages = {};
-                $.each(languages, function(key, lang) {
-                    resultLanguages[lang["language"]] = lang["ext"]
-                });
-            
-                // Try to find a match based on the first part of the available languages (i.e., match "es" for "es-ES")
-                for (let language of browserLanguages) {
-                    for (let availableLanguage of availableLanguages) {
-                        if (language.startsWith(availableLanguage)) {
-                            return resultLanguages[availableLanguage];
-                        }
+        
+            // Try to find a match based on the first part of the available languages (i.e., match "es" for "es-ES")
+            for (let language of browserLanguages) {
+                for (let availableLanguage of availableLanguages) {
+                    if (language.startsWith(availableLanguage)) {
+                        return resultLanguages[availableLanguage]
                     }
                 }
             }
-            
-            $.getJSON("https://leanny.github.io/data/versions.json", function(vers) {
-                var last = 0
-                $.each(vers, function(key, ver) {
-                    $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver));
-                    last = ver
-                });
-                $("#version").val(last);
-                version = last;
-                loadData();
-            });
-            
-            function loadData() {
-                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Main.json", function(weapon_dict) {
-                    weapon_data = {}
-                    subweapon_data = {}
-                    hed_gear = {}
-                    clt_gear = {}
-                    shs_gear = {}
-                    
-                    $.each(weapon_dict, function(idx, weapon) {
-                        if (weapon["Id"] < 20000) {
-                            weapon_data[weapon["Id"]] = weapon
-                        }
-                    });
-                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Sub.json", function(subweapon_dict) {
-                        $.each(subweapon_dict, function(idx, subweapon) {
-                            if (subweapon["Id"] < 100) {
-                                subweapon_data[subweapon["Id"]] = subweapon
-                            }
-                        });
-                        $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Head.json", function(hed_dict) {
-                            $.each(hed_dict, function(idx, hed) {
-                                hed_gear[hed["Id"]] = hed
-                            });
-                            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Clothes.json", function(clt_dict) {
-                                $.each(clt_dict, function(idx, clt) {
-                                    clt_gear[clt["Id"]] = clt
-                                });
-                                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Shoes.json", function(shs_dict) {
-                                    $.each(shs_dict, function(idx, shs) {
-                                        shs_gear[shs["Id"]] = shs
-                                    });
-                                    change_lang(current_lang);
-                                });
-                            });
-                        });
-                    });
-                });
-            }
-            
-            var current_lang = detectSplatoonLanguage();
-            if (typeof current_lang === "undefined") {
-                current_lang = "EUen"
-            }
-            window.change_lang = function(lang) {
-                current_lang = lang;
-                $.getJSON("https://leanny.github.io/data/Languages/lang_dict_" + current_lang + ".json", function(d) {
-                    $.each(d, function(key, val) {
-                        lang_dict[key] = val
-                    });
-                    load_weapons();
-                    load_subweapons();
-                    load_gear();
-                });
-            
-            }
-            
-            function detailFormatterWeapon(index, row) {
-                var html = []
-                weapon = weapon_data[row["Id"]]
-                html.push('<p><b>Name:</b> ' + row["Name"] + '</p>')
-                html.push('<p><b>Sub:</b> ' + row["Sub"][1] + '</p>')
-                html.push('<p><b>Special:</b> ' + row["Special"][1] + '</p>')
-                html.push('<p><b>' + lang_dict[weapon["Param0"]] + ':</b> ' + weapon["ParamValue0"] + '</p>');
-                html.push('<p><b>' + lang_dict[weapon["Param1"]] + ':</b> ' + weapon["ParamValue1"] + '</p>');
-                html.push('<p><b>' + lang_dict[weapon["Param2"]] + ':</b> ' + weapon["ParamValue2"] + '</p>');
-                html.push('<p><b>Inksaver Level:</b> ' + weapon["InkSaverLv"] + '</p>');
-                html.push('<p><b>Mobility Class:</b> ' + weapon["MoveVelLv"] + '</p>');
-                html.push('<p><b>Stealth Acceleration:</b> ' + weapon["StealthMoveAccLv"] + '</p>');
-                if ("MainUpGearPowerType" in weapon) {
-                    html.push('<p><b>Main Power Up Effect:</b> ' + lang_dict["MPU_" + weapon["MainUpGearPowerType"]] + '</p>');
-                }
-                if ("ShotMoveVelType" in weapon) {
-                    html.push('<p><b>Shoot Move Velocity Type:</b> ' + weapon["ShotMoveVelType"] + '</p>');
-                }
-                if ("Range" in weapon) {
-                    html.push('<p><b>Matchmaking Range:</b> ' + weapon["Range"] + '</p>');
-                }
-                return html.join('');
-            
-            }
-            
-            function load_weapons() {
-                $(function() {
-                    var data = []
-                    $.each(weapon_data, function(idx, weapon) {
-                        if (weapon["Id"] < 20000) {
-                            var row = ({
-                                Id: weapon["Id"],
-                                NameClean: weapon["Name"],
-                                InternalName: weapon["Name"],
-                                Name: lang_dict[weapon["Name"]],
-                                Price: weapon["Price"],
-                                Sub: [weapon["Sub"], lang_dict[weapon["Sub"]]],
-                                Special: [weapon["Special"], lang_dict[weapon["Special"]]],
-                                Rank: weapon["Rank"],
-                                SpecialCost: weapon["SpecialCost"],
-                                Price: weapon["Price"],
-                                Range: weapon["Range"],
-                                StealthMoveAccLv: weapon["StealthMoveAccLv"],
-                                MainUpGearPowerType: [weapon["MainUpGearPowerType"], lang_dict["MPU_" + weapon["MainUpGearPowerType"]]],
-                                InkSaverLv: weapon["InkSaverLv"],
-                                MoveVelLv: weapon["MoveVelLv"]
-                            });
-                            data.push(row);
-                        }
-                    });
-                    $('#weapon-table').bootstrapTable('refreshOptions', {
-                        "data": data
-                    });
-                });
-            }
-            
-            function load_subweapons() {
-                $(function() {
-                    var subdata = []
-                    $.each(subweapon_data, function(idx, subweapon) {
-                        if (subweapon["Id"] < 100) {
-                            var row = ({
-                                Id: subweapon["Id"],
-                                NameClean: subweapon["Name"],
-                                Name: lang_dict[subweapon["Name"]],
-                                InkSaverType: subweapon["InkSaverType"],
-                            });
-                            subdata.push(row);
-                        }
-                    });
-                    $('#subweapon-table').bootstrapTable('refreshOptions',{"data": subdata});
-                });
-            }
-            
-            function load_gear_into_table(ref_table, ref_dict) {
-                $(function() {
-                    var geardata = []
-                    $.each(ref_dict, function(idx, gear) {
-                        if (gear["ModelName"] in lang_dict) {
-                            var row = ({
-                                Id: gear["Id"],
-                                NameClean: gear["ModelName"],
-                                Name: lang_dict[gear["ModelName"]],
-                                Brand: gear["Brand"],
-                                Price: gear["Price"],
-                                Rarity: gear["Rarity"] + 1,
-                                Skill0: gear["Skill0"]
-                            });
-                            geardata.push(row);
-                        }
-                    });
-                    $(ref_table).bootstrapTable('refreshOptions',{"data": geardata});
-                });
-            }
-            
-            function load_gear() {
-                load_gear_into_table('#heads-table', hed_gear)
-                load_gear_into_table('#clothes-table', clt_gear)
-                load_gear_into_table('#shoes-table', shs_gear)
-            }
-            
-            $(function() {
-                $('#weapon-table').bootstrapTable({});
-                $('#subweapon-table').bootstrapTable({});
-                $('#heads-table').bootstrapTable({});
-                $('#clothes-table').bootstrapTable({});
-                $('#shoes-table').bootstrapTable({});
-                $("#language").val(current_lang);
-                $('#language').change(function() {
-                    change_lang($(this).val())
+        }
+        
+        $.getJSON("https://leanny.github.io/data/versions.json", vers => {
+            let last = 0
+            vers.forEach(ver => {
+                $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                last = ver
+            })
+            $("#version").val(last)
+            version = last
+            loadData()
+        })
+        
+        function loadData() {
+            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Main.json", weapon_dict => {
+                weapon_data = {}
+                subweapon_data = {}
+                hed_gear = {}
+                clt_gear = {}
+                shs_gear = {}
+                
+                weapon_dict.forEach(item => {
+                    if (item["Id"] < 20000) {
+                        weapon_data[item["Id"]] = item
+                    }
                 })
-                $('#version').change(function() {
-                    version = ($(this).val())
-                    loadData();
+
+                $.getJSON("https://leanny.github.io/data/Mush/" + version + "/WeaponInfo_Sub.json", subweapon_dict => {
+                    subweapon_dict.forEach(item => {
+                        if (item["Id"] < 100) {
+                            subweapon_data[item["Id"]] = item
+                        }
+                    })
+                    $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Head.json", hed_dict => {
+                        hed_dict.forEach(item => {
+                            hed_gear[item["Id"]] = item
+                        })
+                        $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Clothes.json", clt_dict => {
+                            clt_dict.forEach(item => {
+                                clt_gear[item["Id"]] = item
+                            })
+                            $.getJSON("https://leanny.github.io/data/Mush/" + version + "/GearInfo_Shoes.json", shs_dict => {
+                                shs_dict.forEach(item => {
+                                    shs_gear[item["Id"]] = item
+                                })
+                                change_lang(current_lang)
+                            })
+                        })
+                    })
                 })
             })
-         </script>
-      </main>
+        }
+        
+        let current_lang = detectSplatoonLanguage()
+        if (typeof current_lang === "undefined") {
+            current_lang = "EUen"
+        }
+        window.change_lang = lang => {
+            current_lang = lang
+            $.getJSON("https://leanny.github.io/data/Languages/lang_dict_" + current_lang + ".json", d => {
+                for (const [key, value] of Object.entries(d)) {
+                    lang_dict[key] = value
+                }
+                load_weapons()
+                load_subweapons()
+                load_gear()
+            })
+        
+        }
+        
+        function detailFormatterWeapon(index, row) {
+            let html = []
+            weapon = weapon_data[row["Id"]]
+            html.push('<p><b>Name:</b> ' + row["Name"] + '</p>')
+            html.push('<p><b>Sub:</b> ' + row["Sub"][1] + '</p>')
+            html.push('<p><b>Special:</b> ' + row["Special"][1] + '</p>')
+            html.push('<p><b>' + lang_dict[weapon["Param0"]] + ':</b> ' + weapon["ParamValue0"] + '</p>')
+            html.push('<p><b>' + lang_dict[weapon["Param1"]] + ':</b> ' + weapon["ParamValue1"] + '</p>')
+            html.push('<p><b>' + lang_dict[weapon["Param2"]] + ':</b> ' + weapon["ParamValue2"] + '</p>')
+            html.push('<p><b>Inksaver Level:</b> ' + weapon["InkSaverLv"] + '</p>')
+            html.push('<p><b>Mobility Class:</b> ' + weapon["MoveVelLv"] + '</p>')
+            html.push('<p><b>Stealth Acceleration:</b> ' + weapon["StealthMoveAccLv"] + '</p>')
+            if ("MainUpGearPowerType" in weapon) {
+                html.push('<p><b>Main Power Up Effect:</b> ' + lang_dict["MPU_" + weapon["MainUpGearPowerType"]] + '</p>')
+            }
+            if ("ShotMoveVelType" in weapon) {
+                html.push('<p><b>Shoot Move Velocity Type:</b> ' + weapon["ShotMoveVelType"] + '</p>')
+            }
+            if ("Range" in weapon) {
+                html.push('<p><b>Matchmaking Range:</b> ' + weapon["Range"] + '</p>')
+            }
+            return html.join('')
+        
+        }
+        
+        function load_weapons() {
+            const data = []
+            for (const weapon of Object.values(weapon_data)) {
+                if (weapon["Id"] < 20000) {
+                    const row = ({
+                        Id: weapon["Id"],
+                        NameClean: weapon["Name"],
+                        InternalName: weapon["Name"],
+                        Name: lang_dict[weapon["Name"]],
+                        Price: weapon["Price"],
+                        Sub: [weapon["Sub"], lang_dict[weapon["Sub"]]],
+                        Special: [weapon["Special"], lang_dict[weapon["Special"]]],
+                        Rank: weapon["Rank"],
+                        SpecialCost: weapon["SpecialCost"],
+                        Price: weapon["Price"],
+                        Range: weapon["Range"],
+                        StealthMoveAccLv: weapon["StealthMoveAccLv"],
+                        MainUpGearPowerType: [weapon["MainUpGearPowerType"], lang_dict["MPU_" + weapon["MainUpGearPowerType"]]],
+                        InkSaverLv: weapon["InkSaverLv"],
+                        MoveVelLv: weapon["MoveVelLv"]
+                    })
+                    data.push(row)
+                }
+            }
+            $('#weapon-table').bootstrapTable('refreshOptions', {
+                "data": data
+            })
+        }
+        
+        function load_subweapons() {
+            const subdata = []
+            for(const subweapon in Object.values(subweapon_data)) {
+                if (subweapon["Id"] < 100) {
+                    const row = ({
+                        Id: subweapon["Id"],
+                        NameClean: subweapon["Name"],
+                        Name: lang_dict[subweapon["Name"]],
+                        InkSaverType: subweapon["InkSaverType"],
+                    })
+                    subdata.push(row)
+                }
+            }
+            $('#subweapon-table').bootstrapTable('refreshOptions',{"data": subdata})
+        }
+        
+        function load_gear_into_table(ref_table, ref_dict) {
+            const geardata = []
+            for(const gear in Object.values(ref_dict)) {
+                if (gear["ModelName"] in lang_dict) {
+                    const row = ({
+                        Id: gear["Id"],
+                        NameClean: gear["ModelName"],
+                        Name: lang_dict[gear["ModelName"]],
+                        Brand: gear["Brand"],
+                        Price: gear["Price"],
+                        Rarity: gear["Rarity"] + 1,
+                        Skill0: gear["Skill0"]
+                    })
+                    geardata.push(row)
+                }
+            }
+            $(ref_table).bootstrapTable('refreshOptions',{"data": geardata})
+        }
+        
+        function load_gear() {
+            load_gear_into_table('#heads-table', hed_gear)
+            load_gear_into_table('#clothes-table', clt_gear)
+            load_gear_into_table('#shoes-table', shs_gear)
+        }
+        
+        $(function() {
+            $('#weapon-table').bootstrapTable({})
+            $('#subweapon-table').bootstrapTable({})
+            $('#heads-table').bootstrapTable({})
+            $('#clothes-table').bootstrapTable({})
+            $('#shoes-table').bootstrapTable({})
+            $("#language").val(current_lang)
+            $('#language').change(() => {
+                change_lang($(this).val())
+            })
+            $('#version').change(() => {
+                version = ($(this).val())
+                loadData()
+            })
+        })
+     </script>
       <footer class="footer">
          <div class="container text-muted">
             <div class="footer-notice">

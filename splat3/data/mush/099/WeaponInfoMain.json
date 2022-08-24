@@ -1,0 +1,5749 @@
+[
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 25,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_LightLong_00.engine__actor__ActorParam.gyml",
+    "Id": 250,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_LightLong.spl__LockerObjParam.gyml",
+    "Label": "Rブラスターエリート",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_LightLong_00_Preset_00.byml"
+    ],
+    "MatchingId": 250,
+    "NpcActor": "Work/Actor/WmnS_Blaster_LightLong_00.engine__actor__ActorParam.gyml",
+    "Range": 19.2,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_LightLong_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_LightLong_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_LightLong_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_LightLong_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 12800,
+    "ShopUnlockRank": 26,
+    "SpecActor": "Work/Actor/WeaponBlasterLightLong.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 72
+      },
+      {
+        "Type": "Explosion",
+        "Value": 35
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_LightLong_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_LightLong_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2025,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_LightLong_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20250,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "RブラスターエリートCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_LightLong_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterLightLong_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_LightLong_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 23,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_LightShort_00.engine__actor__ActorParam.gyml",
+    "Id": 230,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_LightShort.spl__LockerObjParam.gyml",
+    "Label": "クラッシュブラスター",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_LightShort_00_Preset_00.byml"
+    ],
+    "MatchingId": 230,
+    "NpcActor": "Work/Actor/WmnS_Blaster_LightShort_00.engine__actor__ActorParam.gyml",
+    "Range": 11.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_LightShort_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_LightShort_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_LightShort_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_LightShort_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 18200,
+    "ShopUnlockRank": 22,
+    "SpecActor": "Work/Actor/WeaponBlasterLightShort.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 21
+      },
+      {
+        "Type": "Explosion",
+        "Value": 25
+      },
+      {
+        "Type": "Blaze",
+        "Value": 65
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_LightShort_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_LightShort_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2023,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_LightShort_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20230,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "クラッシュブラスターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_LightShort_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterLightShort_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_LightShort_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 24,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Light_00.engine__actor__ActorParam.gyml",
+    "Id": 240,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_Light.spl__LockerObjParam.gyml",
+    "Label": "ラピッドブラスター",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_Light_00_Preset_00.byml"
+    ],
+    "MatchingId": 240,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Light_00.engine__actor__ActorParam.gyml",
+    "Range": 16.7,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_Light_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_Light_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Light_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Light_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9800,
+    "ShopUnlockRank": 7,
+    "SpecActor": "Work/Actor/WeaponBlasterLight.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 62
+      },
+      {
+        "Type": "Explosion",
+        "Value": 35
+      },
+      {
+        "Type": "Blaze",
+        "Value": 40
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_Light_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_Light_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2024,
+    "DefaultDamageRateInfoRow": "Blaster",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Light_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20240,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ラピッドブラスターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Light_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterLight_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_Light_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 22,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Blaster_KillOneShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Blaster",
+        "ExtraInfo": "ExtraBombCore"
+      },
+      {
+        "DamageRateInfoRow": "Blaster",
+        "ExtraInfo": "BlasterWeakBlast"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Long_00.engine__actor__ActorParam.gyml",
+    "Id": 220,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_Long.spl__LockerObjParam.gyml",
+    "Label": "ロングブラスター",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_Long_00_Preset_00.byml"
+    ],
+    "MatchingId": 220,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Long_00.engine__actor__ActorParam.gyml",
+    "Range": 17.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_Long_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_Long_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Long_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Long_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9300,
+    "ShopUnlockRank": 11,
+    "SpecActor": "Work/Actor/WeaponBlasterLong.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 56
+      },
+      {
+        "Type": "Explosion",
+        "Value": 70
+      },
+      {
+        "Type": "Blaze",
+        "Value": 10
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_Long_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_Long_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2022,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Blaster_KillOneShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Blaster",
+        "ExtraInfo": "ExtraBombCore"
+      },
+      {
+        "DamageRateInfoRow": "Blaster",
+        "ExtraInfo": "BlasterWeakBlast"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Long_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20220,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ロングブラスターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Long_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterLong_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_Long_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 21,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Blaster_KillOneShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterMiddle",
+        "ExtraInfo": "ExtraBombCore"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterMiddle",
+        "ExtraInfo": "BlasterWeakBlast"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Middle_00.engine__actor__ActorParam.gyml",
+    "Id": 210,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_Middle.spl__LockerObjParam.gyml",
+    "Label": "ホットブラスター",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_Middle_00_Preset_00.byml",
+      "Work/Locker/Blaster_Middle_00_Preset_01.byml"
+    ],
+    "MatchingId": 210,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Middle_00.engine__actor__ActorParam.gyml",
+    "Range": 13.3,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_Middle_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_Middle_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Middle_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Middle_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 3000,
+    "ShopUnlockRank": 3,
+    "SpecActor": "Work/Actor/WeaponBlasterMiddle.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 27
+      },
+      {
+        "Type": "Explosion",
+        "Value": 70
+      },
+      {
+        "Type": "Blaze",
+        "Value": 20
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_Middle_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_Middle_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2021,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Blaster_KillOneShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterMiddle",
+        "ExtraInfo": "ExtraBombCore"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterMiddle",
+        "ExtraInfo": "BlasterWeakBlast"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Middle_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20210,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ホットブラスターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Middle_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterMiddle_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_Middle_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 20,
+    "DefaultDamageRateInfoRow": "Blaster_BlasterShort",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Short_00.engine__actor__ActorParam.gyml",
+    "Id": 200,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Blaster_Short.spl__LockerObjParam.gyml",
+    "Label": "ノヴァブラスター",
+    "LockerContentInfo": [
+      "Work/Locker/Blaster_Short_00_Preset_00.byml"
+    ],
+    "MatchingId": 200,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Short_00.engine__actor__ActorParam.gyml",
+    "Range": 11.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Blaster_Short_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Blaster_Short_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Short_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Blaster_Short_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 12100,
+    "ShopUnlockRank": 13,
+    "SpecActor": "Work/Actor/WeaponBlasterShort.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 18
+      },
+      {
+        "Type": "Explosion",
+        "Value": 70
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Blaster_Short_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Blaster_Short_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2020,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Blaster",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Blaster_KillOneShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterShort",
+        "ExtraInfo": "ExtraBombCore"
+      },
+      {
+        "DamageRateInfoRow": "Blaster_BlasterShort",
+        "ExtraInfo": "BlasterWeakBlast"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      },
+      {
+        "ExtraInfo": "BlasterWeakBlast",
+        "HitEffectorType": "Blaster_ExtraBombCoreWeak"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Blaster_Short_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20200,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ノヴァブラスターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Blaster_Short_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBlasterShort_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Blaster_Short_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 110,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BrushSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "BrushCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Brush_Mini_00.engine__actor__ActorParam.gyml",
+    "Id": 1100,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Brush_Mini.spl__LockerObjParam.gyml",
+    "Label": "パブロ",
+    "LockerContentInfo": [
+      "Work/Locker/Brush_Mini_00_Preset_00.byml"
+    ],
+    "MatchingId": 1100,
+    "NpcActor": "Work/Actor/WmnS_Brush_Mini_00.engine__actor__ActorParam.gyml",
+    "Range": 7.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Brush_Mini_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Brush_Mini_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Brush_Mini_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Brush_Mini_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9000,
+    "ShopUnlockRank": 7,
+    "SpecActor": "Work/Actor/WeaponBrushMini.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 5
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 100
+      },
+      {
+        "Type": "Weight",
+        "Value": 100
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Brush_Mini_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Brush_Mini_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2110,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BrushSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "BrushCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Brush_Mini_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21100,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "パブロCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Brush_Mini_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBrushMini_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Brush_Mini_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 111,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BrushSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "BrushCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Brush_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 1110,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Brush_Normal.spl__LockerObjParam.gyml",
+    "Label": "ホクサイ",
+    "LockerContentInfo": [
+      "Work/Locker/Brush_Normal_00_Preset_00.byml",
+      "Work/Locker/Brush_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 1110,
+    "NpcActor": "Work/Actor/WmnS_Brush_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 10.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Brush_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Brush_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Brush_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Brush_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 5000,
+    "ShopUnlockRank": 4,
+    "SpecActor": "Work/Actor/WeaponBrushNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 23
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 80
+      },
+      {
+        "Type": "Weight",
+        "Value": 85
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Brush_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Brush_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2111,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BrushSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "BrushCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Brush_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21110,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ホクサイCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Brush_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponBrushNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Brush_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 206,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Keeper_00.engine__actor__ActorParam.gyml",
+    "Id": 2060,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_Keeper.spl__LockerObjParam.gyml",
+    "Label": "ソイチューバー",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_Keeper_00_Preset_00.byml"
+    ],
+    "MatchingId": 2060,
+    "NpcActor": "Work/Actor/WmnS_Charger_Keeper_00.engine__actor__ActorParam.gyml",
+    "Range": 21.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_Keeper_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_Keeper_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Keeper_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Keeper_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 13400,
+    "ShopUnlockRank": 25,
+    "SpecActor": "Work/Actor/WeaponChargerKeeper.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 78
+      },
+      {
+        "Type": "Charge",
+        "Value": 38
+      },
+      {
+        "Type": "Mobility",
+        "Value": 70
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Charger_Keeper_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Charger_Keeper_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2206,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Keeper_Coop.engine__actor__ActorParam.gyml",
+    "Id": 22060,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ソイチューバーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Charger_Keeper_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponChargerKeeper_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_Keeper_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 205,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger_Light",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull_Light",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Light_00.engine__actor__ActorParam.gyml",
+    "Id": 2050,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_Light.spl__LockerObjParam.gyml",
+    "Label": "14式竹筒銃・甲",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_Light_00_Preset_00.byml"
+    ],
+    "MatchingId": 2050,
+    "NpcActor": "Work/Actor/WmnS_Charger_Light_00.engine__actor__ActorParam.gyml",
+    "Range": 21.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_Light_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_Light_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Light_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Light_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9500,
+    "ShopUnlockRank": 23,
+    "SpecActor": "Work/Actor/WeaponChargerLight.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 78
+      },
+      {
+        "Type": "Charge",
+        "Value": 90
+      },
+      {
+        "Type": "Mobility",
+        "Value": 80
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Charger_Light_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Charger_Light_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2205,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger_Light",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull_Light",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Light_Coop.engine__actor__ActorParam.gyml",
+    "Id": 22050,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "14式竹筒銃Coop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Charger_Light_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponChargerLight_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_Light_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 204,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger_Long",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull_Long",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_LongScope_00.engine__actor__ActorParam.gyml",
+    "Id": 2040,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_LongScope.spl__LockerObjParam.gyml",
+    "Label": "4Kスコープ",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_LongScope_00_Preset_00.byml"
+    ],
+    "MatchingId": 2030,
+    "NpcActor": "Work/Actor/WmnS_Charger_LongScope_00.engine__actor__ActorParam.gyml",
+    "Range": 33.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_LongScope_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_LongScope_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_LongScope_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_LongScope_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 23200,
+    "ShopUnlockRank": 27,
+    "SpecActor": "Work/Actor/WeaponChargerLongScope.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 100
+      },
+      {
+        "Type": "Charge",
+        "Value": 20
+      },
+      {
+        "Type": "Mobility",
+        "Value": 5
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_LongScope_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 203,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger_Long",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull_Long",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Long_00.engine__actor__ActorParam.gyml",
+    "Id": 2030,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_Long.spl__LockerObjParam.gyml",
+    "Label": "リッター4K",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_Long_00_Preset_00.byml"
+    ],
+    "MatchingId": 2030,
+    "NpcActor": "Work/Actor/WmnS_Charger_Long_00.engine__actor__ActorParam.gyml",
+    "Range": 31.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_Long_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_Long_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Long_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Long_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 13900,
+    "ShopUnlockRank": 18,
+    "SpecActor": "Work/Actor/WeaponChargerLong.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 96
+      },
+      {
+        "Type": "Charge",
+        "Value": 20
+      },
+      {
+        "Type": "Mobility",
+        "Value": 15
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Charger_Long_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Charger_Long_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2203,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger_Long",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull_Long",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Long_Coop.engine__actor__ActorParam.gyml",
+    "Id": 22030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "リッター4KCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Charger_Long_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponChargerLong_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_Long_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 202,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_NormalScope_00.engine__actor__ActorParam.gyml",
+    "Id": 2020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_NormalTScope.spl__LockerObjParam.gyml",
+    "Label": "スプラスコープ",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_NormalScope_00_Preset_00.byml"
+    ],
+    "MatchingId": 2010,
+    "NpcActor": "Work/Actor/WmnS_Charger_NormalScope_00.engine__actor__ActorParam.gyml",
+    "Range": 28.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_NormalScope_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_NormalScope_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_NormalScope_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_NormalScope_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 11400,
+    "ShopUnlockRank": 10,
+    "SpecActor": "Work/Actor/WeaponChargerNormalScope.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 91
+      },
+      {
+        "Type": "Charge",
+        "Value": 50
+      },
+      {
+        "Type": "Mobility",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_NormalScope_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 201,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 2010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_NormalT.spl__LockerObjParam.gyml",
+    "Label": "スプラチャージャー",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_Normal_00_Preset_00.byml",
+      "Work/Locker/Charger_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 2010,
+    "NpcActor": "Work/Actor/WmnS_Charger_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 26.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 2200,
+    "ShopUnlockRank": 2,
+    "SpecActor": "Work/Actor/WeaponChargerNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 88
+      },
+      {
+        "Type": "Charge",
+        "Value": 50
+      },
+      {
+        "Type": "Mobility",
+        "Value": 40
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Charger_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Charger_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2201,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 22010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スプラチャージャーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Charger_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponChargerNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 200,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Quick_00.engine__actor__ActorParam.gyml",
+    "Id": 2000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Charger_Quick.spl__LockerObjParam.gyml",
+    "Label": "スクイックリンα",
+    "LockerContentInfo": [
+      "Work/Locker/Charger_Quick_00_Preset_00.byml"
+    ],
+    "MatchingId": 2000,
+    "NpcActor": "Work/Actor/WmnS_Charger_Quick_00.engine__actor__ActorParam.gyml",
+    "Range": 18.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Charger_Quick_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Charger_Quick_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Quick_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Charger_Quick_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 8900,
+    "ShopUnlockRank": 8,
+    "SpecActor": "Work/Actor/WeaponChargerQuick.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 75
+      },
+      {
+        "Type": "Charge",
+        "Value": 70
+      },
+      {
+        "Type": "Mobility",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Charger_Quick_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Charger_Quick_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2200,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Charger",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Charger",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ChargerFull",
+        "ExtraInfo": "FullCharge"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "FullCharge",
+        "HitEffectorType": "Charger_FullCharge"
+      },
+      {
+        "ExtraInfo": "ExtraPaintSplash",
+        "HitEffectorType": "Charger_PaintSplash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Charger_Quick_Coop.engine__actor__ActorParam.gyml",
+    "Id": 22000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スクイックリンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Charger_Quick_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponChargerQuick_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Charger_Quick_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 4000,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Free.engine__actor__ActorParam.gyml",
+    "Id": 40000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "手ぶら",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Free.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponFree.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Other",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Free"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 503,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Dual_00.engine__actor__ActorParam.gyml",
+    "Id": 5030,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Maneuver_Dual.spl__LockerObjParam.gyml",
+    "Label": "デュアルスイーパー",
+    "LockerContentInfo": [
+      "Work/Locker/Maneuver_Dual_00_Preset_00.byml"
+    ],
+    "MatchingId": 5030,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Dual_00.engine__actor__ActorParam.gyml",
+    "Range": 17.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Maneuver_Dual_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Maneuver_Dual_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Dual_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Dual_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9800,
+    "ShopUnlockRank": 8,
+    "SpecActor": "Work/Actor/WeaponManeuverDual.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 70
+      },
+      {
+        "Type": "Power",
+        "Value": 22
+      },
+      {
+        "Type": "Mobility",
+        "Value": 70
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Maneuver_Dual_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Maneuver_Dual_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2503,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Dual_Coop.engine__actor__ActorParam.gyml",
+    "Id": 25030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "デュアルスイーパーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Dual_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponManeuverDual_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Maneuver_Dual_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 502,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Gallon_00.engine__actor__ActorParam.gyml",
+    "Id": 5020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Maneuver_Gallon.spl__LockerObjParam.gyml",
+    "Label": "ケルビン525",
+    "LockerContentInfo": [
+      "Work/Locker/Maneuver_Gallon_00_Preset_00.byml"
+    ],
+    "MatchingId": 5020,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Gallon_00.engine__actor__ActorParam.gyml",
+    "Range": 16.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Maneuver_Gallon_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Maneuver_Gallon_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Gallon_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Gallon_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 11800,
+    "ShopUnlockRank": 21,
+    "SpecActor": "Work/Actor/WeaponManeuverGallon.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 66
+      },
+      {
+        "Type": "Power",
+        "Value": 76
+      },
+      {
+        "Type": "Mobility",
+        "Value": 35
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Maneuver_Gallon_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Maneuver_Gallon_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2502,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Gallon_Coop.engine__actor__ActorParam.gyml",
+    "Id": 25020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ケルビン525Coop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Gallon_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponManeuverGallon_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Maneuver_Gallon_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 501,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 5010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Maneuver_NormalT.spl__LockerObjParam.gyml",
+    "Label": "スプラマニューバー",
+    "LockerContentInfo": [
+      "Work/Locker/Maneuver_Normal_00_Preset_00.byml",
+      "Work/Locker/Maneuver_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 5010,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 12.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Maneuver_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Maneuver_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 2400,
+    "ShopUnlockRank": 3,
+    "SpecActor": "Work/Actor/WeaponManeuverNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 50
+      },
+      {
+        "Type": "Power",
+        "Value": 29
+      },
+      {
+        "Type": "Mobility",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Maneuver_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Maneuver_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2501,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 25010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スプラマニューバーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponManeuverNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Maneuver_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 500,
+    "DefaultDamageRateInfoRow": "Maneuver_Short",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Short_00.engine__actor__ActorParam.gyml",
+    "Id": 5000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Maneuver_Short.spl__LockerObjParam.gyml",
+    "Label": "スパッタリー",
+    "LockerContentInfo": [
+      "Work/Locker/Maneuver_Short_00_Preset_00.byml"
+    ],
+    "MatchingId": 5000,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Short_00.engine__actor__ActorParam.gyml",
+    "Range": 9.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Maneuver_Short_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Maneuver_Short_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Short_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Short_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 14700,
+    "ShopUnlockRank": 14,
+    "SpecActor": "Work/Actor/WeaponManeuverShort.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 24
+      },
+      {
+        "Type": "Power",
+        "Value": 47
+      },
+      {
+        "Type": "Mobility",
+        "Value": 80
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Maneuver_Short_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Maneuver_Short_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2500,
+    "DefaultDamageRateInfoRow": "Maneuver_Short",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Short_Coop.engine__actor__ActorParam.gyml",
+    "Id": 25000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スパッタリーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Short_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponManeuverShort_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Maneuver_Short_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 504,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Stepper_00.engine__actor__ActorParam.gyml",
+    "Id": 5040,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Maneuver_Stepper.spl__LockerObjParam.gyml",
+    "Label": "クアッドホッパーブラック",
+    "LockerContentInfo": [
+      "Work/Locker/Maneuver_Stepper_00_Preset_00.byml"
+    ],
+    "MatchingId": 5040,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Stepper_00.engine__actor__ActorParam.gyml",
+    "Range": 14.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Maneuver_Stepper_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Maneuver_Stepper_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Stepper_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Maneuver_Stepper_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 10700,
+    "ShopUnlockRank": 17,
+    "SpecActor": "Work/Actor/WeaponManeuverStepper.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 58
+      },
+      {
+        "Type": "Power",
+        "Value": 22
+      },
+      {
+        "Type": "Mobility",
+        "Value": 90
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Maneuver_Stepper_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Maneuver_Stepper_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2504,
+    "DefaultDamageRateInfoRow": "Maneuver",
+    "DefaultHitEffectorType": "Maneuver",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Maneuver_Stepper_Coop.engine__actor__ActorParam.gyml",
+    "Id": 25040,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "クアッドホッパーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Maneuver_Stepper_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponManeuverStepper_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Maneuver_Stepper_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 100,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Compact",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Compact_00.engine__actor__ActorParam.gyml",
+    "Id": 1000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Roller_Compact.spl__LockerObjParam.gyml",
+    "Label": "カーボンローラー",
+    "LockerContentInfo": [
+      "Work/Locker/Roller_Compact_00_Preset_00.byml"
+    ],
+    "MatchingId": 1000,
+    "NpcActor": "Work/Actor/WmnS_Roller_Compact_00.engine__actor__ActorParam.gyml",
+    "Range": 9.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Roller_Compact_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Roller_Compact_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Compact_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Compact_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 6200,
+    "ShopUnlockRank": 6,
+    "SpecActor": "Work/Actor/WeaponRollerCompact.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 20
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 63
+      },
+      {
+        "Type": "Weight",
+        "Value": 65
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Roller_Compact_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Roller_Compact_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2100,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Compact",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Compact_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "カーボンローラーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Roller_Compact_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponRollerCompact_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Roller_Compact_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 102,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Heavy",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Heavy_00.engine__actor__ActorParam.gyml",
+    "Id": 1020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Roller_Heavy.spl__LockerObjParam.gyml",
+    "Label": "ダイナモローラー",
+    "LockerContentInfo": [
+      "Work/Locker/Roller_Heavy_00_Preset_00.byml"
+    ],
+    "MatchingId": 1020,
+    "NpcActor": "Work/Actor/WmnS_Roller_Heavy_00.engine__actor__ActorParam.gyml",
+    "Range": 18.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Roller_Heavy_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Roller_Heavy_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Heavy_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Heavy_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 24500,
+    "ShopUnlockRank": 12,
+    "SpecActor": "Work/Actor/WeaponRollerHeavy.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 76
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 25
+      },
+      {
+        "Type": "Weight",
+        "Value": 20
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Roller_Heavy_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Roller_Heavy_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2102,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Heavy",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Heavy_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ダイナモローラーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Roller_Heavy_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponRollerHeavy_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Roller_Heavy_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 103,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Hunter",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Hunter_00.engine__actor__ActorParam.gyml",
+    "Id": 1030,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Roller_Hunter.spl__LockerObjParam.gyml",
+    "Label": "ヴァリアブルローラー",
+    "LockerContentInfo": [
+      "Work/Locker/Roller_Hunter_00_Preset_00.byml"
+    ],
+    "MatchingId": 1010,
+    "NpcActor": "Work/Actor/WmnS_Roller_Hunter_00.engine__actor__ActorParam.gyml",
+    "Range": 14.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Roller_Hunter_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Roller_Hunter_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Hunter_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Hunter_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 15700,
+    "ShopUnlockRank": 20,
+    "SpecActor": "Work/Actor/WeaponRollerHunter.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpMultiMissile.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 58
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 45
+      },
+      {
+        "Type": "Weight",
+        "Value": 45
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Roller_Hunter_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Roller_Hunter_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2103,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash_Hunter",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Hunter_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ヴァルアブルローラーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Roller_Hunter_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponRollerHunter_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Roller_Hunter_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 101,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 1010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Roller_NormalT.spl__LockerObjParam.gyml",
+    "Label": "スプラローラー",
+    "LockerContentInfo": [
+      "Work/Locker/Roller_Normal_00_Preset_00.byml",
+      "Work/Locker/Roller_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 1010,
+    "NpcActor": "Work/Actor/WmnS_Roller_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 11.8,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Roller_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Roller_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Roller_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 1800,
+    "ShopUnlockRank": 2,
+    "SpecActor": "Work/Actor/WeaponRollerNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 48
+      },
+      {
+        "Type": "PaintSpeed",
+        "Value": 45
+      },
+      {
+        "Type": "Weight",
+        "Value": 55
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Roller_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Roller_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2101,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Roller",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "RollerSplash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "RollerCore",
+        "ExtraInfo": "RollerCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "RollerCore",
+        "HitEffectorType": "Roller"
+      },
+      {
+        "ExtraInfo": "RollerInkNoDamage",
+        "HitEffectorType": "Roller_NoDamage"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Roller_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 21010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スプラローラーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Roller_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponRollerNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Roller_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 801,
+    "DefaultDamageRateInfoRow": "Saber",
+    "DefaultHitEffectorType": "Saber",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Saber_Shot",
+        "ExtraInfo": "SaberShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeShot",
+        "ExtraInfo": "SaberChargeShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_Slash",
+        "ExtraInfo": "SaberSlash"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeSlash",
+        "ExtraInfo": "SaberChargeSlash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SaberShot",
+        "HitEffectorType": "Saber_Shot"
+      },
+      {
+        "ExtraInfo": "SaberChargeShot",
+        "HitEffectorType": "Saber_ChargeShot"
+      },
+      {
+        "ExtraInfo": "SaberSlash",
+        "HitEffectorType": "Saber_Slash"
+      },
+      {
+        "ExtraInfo": "SaberChargeSlash",
+        "HitEffectorType": "Saber_ChargeSlash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Saber_Lite_00.engine__actor__ActorParam.gyml",
+    "Id": 8010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Saber_Light.spl__LockerObjParam.gyml",
+    "Label": "ドライブワイパー",
+    "LockerContentInfo": [
+      "Work/Locker/Saber_Lite_00_Preset_00.byml"
+    ],
+    "MatchingId": 8000,
+    "NpcActor": "Work/Actor/WmnS_Saber_Lite_00.engine__actor__ActorParam.gyml",
+    "Range": 20.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Saber_Lite_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Saber_Lite_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Lite_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Lite_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 1,
+    "ShopPrice": 1000,
+    "ShopUnlockRank": 5,
+    "SpecActor": "Work/Actor/WeaponSaberLite.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 58
+      },
+      {
+        "Type": "Power",
+        "Value": 29
+      },
+      {
+        "Type": "Weight",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Saber_Lite_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Saber_Lite_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2801,
+    "DefaultDamageRateInfoRow": "Saber",
+    "DefaultHitEffectorType": "Saber",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Saber_Shot",
+        "ExtraInfo": "SaberShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeShot",
+        "ExtraInfo": "SaberChargeShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_Slash",
+        "ExtraInfo": "SaberSlash"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeSlash",
+        "ExtraInfo": "SaberChargeSlash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SaberShot",
+        "HitEffectorType": "Saber_Shot"
+      },
+      {
+        "ExtraInfo": "SaberChargeShot",
+        "HitEffectorType": "Saber_ChargeShot"
+      },
+      {
+        "ExtraInfo": "SaberSlash",
+        "HitEffectorType": "Saber_Slash"
+      },
+      {
+        "ExtraInfo": "SaberChargeSlash",
+        "HitEffectorType": "Saber_ChargeSlash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Saber_Lite_Coop.engine__actor__ActorParam.gyml",
+    "Id": 28010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ドライブワイパーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 8000,
+    "NpcActor": "Work/Actor/WmnS_Saber_Lite_Coop.engine__actor__ActorParam.gyml",
+    "Range": 20.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Lite_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Lite_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSaberLite_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Torpedo.spl__WeaponInfoSub.gyml",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 58
+      },
+      {
+        "Type": "Power",
+        "Value": 29
+      },
+      {
+        "Type": "Weight",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Saber_Lite_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 800,
+    "DefaultDamageRateInfoRow": "Saber",
+    "DefaultHitEffectorType": "Saber",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Saber_Shot",
+        "ExtraInfo": "SaberShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeShot",
+        "ExtraInfo": "SaberChargeShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_Slash",
+        "ExtraInfo": "SaberSlash"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeSlash",
+        "ExtraInfo": "SaberChargeSlash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SaberShot",
+        "HitEffectorType": "Saber_Shot"
+      },
+      {
+        "ExtraInfo": "SaberChargeShot",
+        "HitEffectorType": "Saber_ChargeShot"
+      },
+      {
+        "ExtraInfo": "SaberSlash",
+        "HitEffectorType": "Saber_Slash"
+      },
+      {
+        "ExtraInfo": "SaberChargeSlash",
+        "HitEffectorType": "Saber_ChargeSlash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Saber_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 8000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Saber_Normal.spl__LockerObjParam.gyml",
+    "Label": "ジムワイパー",
+    "LockerContentInfo": [
+      "Work/Locker/Saber_Normal_00_Preset_00.byml"
+    ],
+    "MatchingId": 8000,
+    "NpcActor": "Work/Actor/WmnS_Saber_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 16.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Saber_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Saber_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Saber_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 1000,
+    "ShopUnlockRank": 15,
+    "SpecActor": "Work/Actor/WeaponSaberNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 75
+      },
+      {
+        "Type": "Power",
+        "Value": 43
+      },
+      {
+        "Type": "Weight",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Saber_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Saber_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2800,
+    "DefaultDamageRateInfoRow": "Saber",
+    "DefaultHitEffectorType": "Saber",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Saber_Shot",
+        "ExtraInfo": "SaberShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeShot",
+        "ExtraInfo": "SaberChargeShot"
+      },
+      {
+        "DamageRateInfoRow": "Saber_Slash",
+        "ExtraInfo": "SaberSlash"
+      },
+      {
+        "DamageRateInfoRow": "Saber_ChargeSlash",
+        "ExtraInfo": "SaberChargeSlash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SaberShot",
+        "HitEffectorType": "Saber_Shot"
+      },
+      {
+        "ExtraInfo": "SaberChargeShot",
+        "HitEffectorType": "Saber_ChargeShot"
+      },
+      {
+        "ExtraInfo": "SaberSlash",
+        "HitEffectorType": "Saber_Slash"
+      },
+      {
+        "ExtraInfo": "SaberChargeSlash",
+        "HitEffectorType": "Saber_ChargeSlash"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Saber_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 28000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ジムワイパーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Saber_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSaberNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Saber_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 602,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot_Compact",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy_Compact",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Compact_00.engine__actor__ActorParam.gyml",
+    "Id": 6020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shelter_Compact.spl__LockerObjParam.gyml",
+    "Label": "スパイガジェット",
+    "LockerContentInfo": [
+      "Work/Locker/Shelter_Compact_00_Preset_00.byml"
+    ],
+    "MatchingId": 6020,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Compact_00.engine__actor__ActorParam.gyml",
+    "Range": 11.8,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shelter_Compact_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shelter_Compact_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Compact_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Compact_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9100,
+    "ShopUnlockRank": 18,
+    "SpecActor": "Work/Actor/WeaponShelterCompact.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Trap.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 50
+      },
+      {
+        "Type": "Power",
+        "Value": 30
+      },
+      {
+        "Type": "Defence",
+        "Value": 25
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shelter_Compact_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shelter_Compact_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2602,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot_Compact",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy_Compact",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Compact_Coop.engine__actor__ActorParam.gyml",
+    "Id": 26020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スパイガジェットCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Compact_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShelterCompact_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shelter_Compact_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 600,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 6000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shelter_Normal.spl__LockerObjParam.gyml",
+    "Label": "パラシェルター",
+    "LockerContentInfo": [
+      "Work/Locker/Shelter_Normal_00_Preset_00.byml"
+    ],
+    "MatchingId": 6000,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 12.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shelter_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shelter_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 8300,
+    "ShopUnlockRank": 5,
+    "SpecActor": "Work/Actor/WeaponShelterNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 43
+      },
+      {
+        "Type": "Power",
+        "Value": 65
+      },
+      {
+        "Type": "Defence",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shelter_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shelter_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2600,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 26000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "パラシェルターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShelterNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shelter_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 601,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot_Wide",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy_Wide",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Wide_00.engine__actor__ActorParam.gyml",
+    "Id": 6010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shelter_Wide.spl__LockerObjParam.gyml",
+    "Label": "キャンピングシェルター",
+    "LockerContentInfo": [
+      "Work/Locker/Shelter_Wide_00_Preset_00.byml"
+    ],
+    "MatchingId": 6010,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Wide_00.engine__actor__ActorParam.gyml",
+    "Range": 15.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shelter_Wide_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shelter_Wide_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Wide_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shelter_Wide_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 14200,
+    "ShopUnlockRank": 16,
+    "SpecActor": "Work/Actor/WeaponShelterWide.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Beacon.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 62
+      },
+      {
+        "Type": "Power",
+        "Value": 85
+      },
+      {
+        "Type": "Defence",
+        "Value": 85
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shelter_Wide_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shelter_Wide_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2601,
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Shelter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShelterShot_Wide",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "ShelterCanopy_Wide",
+        "ExtraInfo": "ShelterCanopy"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShelterCanopy",
+        "HitEffectorType": "Shelter_Canopy"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shelter_Wide_Coop.engine__actor__ActorParam.gyml",
+    "Id": 26010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "キャンピングシェルターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shelter_Wide_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShelterWide_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shelter_Wide_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 3,
+    "DefaultDamageRateInfoRow": "Shooter_Blaze",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Blaze_00.engine__actor__ActorParam.gyml",
+    "Id": 30,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Blaze.spl__LockerObjParam.gyml",
+    "Label": "プロモデラーMG",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Blaze_00_Preset_00.byml"
+    ],
+    "MatchingId": 30,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Blaze_00.engine__actor__ActorParam.gyml",
+    "Range": 11.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Blaze_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Blaze_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Blaze_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Blaze_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 4900,
+    "ShopUnlockRank": 5,
+    "SpecActor": "Work/Actor/WeaponShooterBlaze.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpSkewer.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 35
+      },
+      {
+        "Type": "Power",
+        "Value": 10
+      },
+      {
+        "Type": "Blaze",
+        "Value": 90
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Blaze_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Blaze_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2003,
+    "DefaultDamageRateInfoRow": "Shooter_Blaze",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Blaze_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "プロモデラーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Blaze_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterBlaze_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Blaze_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 7,
+    "DefaultDamageRateInfoRow": "Shooter_Expert",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Expert_00.engine__actor__ActorParam.gyml",
+    "Id": 70,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Expert.spl__LockerObjParam.gyml",
+    "Label": "プライムシューター",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Expert_00_Preset_00.byml"
+    ],
+    "MatchingId": 70,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Expert_00.engine__actor__ActorParam.gyml",
+    "Range": 17.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Expert_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Expert_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Expert_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Expert_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 20800,
+    "ShopUnlockRank": 9,
+    "SpecActor": "Work/Actor/WeaponShooterExpert.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 70
+      },
+      {
+        "Type": "Power",
+        "Value": 60
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Expert_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Expert_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2007,
+    "DefaultDamageRateInfoRow": "Shooter_Expert",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Expert_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20070,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "プライムシューターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Expert_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterExpert_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Expert_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 1,
+    "DefaultDamageRateInfoRow": "Shooter_First",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_First_00.engine__actor__ActorParam.gyml",
+    "Id": 10,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_First.spl__LockerObjParam.gyml",
+    "Label": "わかばシューター",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_First_00_Preset_00.byml",
+      "Work/Locker/Shooter_First_00_Preset_01.byml"
+    ],
+    "MatchingId": 10,
+    "NpcActor": "Work/Actor/WmnS_Shooter_First_00.engine__actor__ActorParam.gyml",
+    "Range": 11.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_First_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_First_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_First_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_First_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterFirst.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpGreatBarrier.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 35
+      },
+      {
+        "Type": "Power",
+        "Value": 22
+      },
+      {
+        "Type": "Blaze",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_First_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_First_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2001,
+    "DefaultDamageRateInfoRow": "Shooter_First",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_First_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "わかばシューターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_First_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterFirst_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_First_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 40,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Shooter_Flash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Shooter_FlashRepeat",
+        "ExtraInfo": "ShooterVariableRepeat"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Flash_00.engine__actor__ActorParam.gyml",
+    "Id": 400,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Flash.spl__LockerObjParam.gyml",
+    "Label": "ボトルガイザー",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Flash_00_Preset_00.byml"
+    ],
+    "MatchingId": 400,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Flash_00.engine__actor__ActorParam.gyml",
+    "Range": 20.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Flash_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Flash_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Flash_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Flash_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9400,
+    "ShopUnlockRank": 19,
+    "SpecActor": "Work/Actor/WeaponShooterFlash.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 77
+      },
+      {
+        "Type": "Power",
+        "Value": 52
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Flash_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Flash_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2040,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Shooter_Flash",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Shooter_FlashRepeat",
+        "ExtraInfo": "ShooterVariableRepeat"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Flash_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20400,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ボトルガイザーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Flash_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterFlash_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Flash_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 5,
+    "DefaultDamageRateInfoRow": "Shooter_Gravity",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Gravity_00.engine__actor__ActorParam.gyml",
+    "Id": 50,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Gravity.spl__LockerObjParam.gyml",
+    "Label": ".52ガロン",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Gravity_00_Preset_00.byml"
+    ],
+    "MatchingId": 50,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Gravity_00.engine__actor__ActorParam.gyml",
+    "Range": 13.3,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Gravity_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Gravity_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Gravity_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Gravity_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9500,
+    "ShopUnlockRank": 11,
+    "SpecActor": "Work/Actor/WeaponShooterGravity.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Shield.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 55
+      },
+      {
+        "Type": "Power",
+        "Value": 75
+      },
+      {
+        "Type": "Blaze",
+        "Value": 25
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Gravity_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Gravity_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2005,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Gravity_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20050,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": ".52ガロンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Gravity_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterGravity_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Gravity_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 8,
+    "DefaultDamageRateInfoRow": "Shooter_Heavy",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Heavy_00.engine__actor__ActorParam.gyml",
+    "Id": 80,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Heavy.spl__LockerObjParam.gyml",
+    "Label": ".96ガロン",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Heavy_00_Preset_00.byml"
+    ],
+    "MatchingId": 80,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Heavy_00.engine__actor__ActorParam.gyml",
+    "Range": 18.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Heavy_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Heavy_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Heavy_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Heavy_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 12600,
+    "ShopUnlockRank": 17,
+    "SpecActor": "Work/Actor/WeaponShooterHeavy.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 74
+      },
+      {
+        "Type": "Power",
+        "Value": 80
+      },
+      {
+        "Type": "Blaze",
+        "Value": 10
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Heavy_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Heavy_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2008,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Heavy_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20080,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": ".96ガロンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Heavy_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterHeavy_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Heavy_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 9,
+    "DefaultDamageRateInfoRow": "Shooter_Long",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Long_00.engine__actor__ActorParam.gyml",
+    "Id": 90,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Long.spl__LockerObjParam.gyml",
+    "Label": "ジェットスイーパー",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Long_00_Preset_00.byml"
+    ],
+    "MatchingId": 90,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Long_00.engine__actor__ActorParam.gyml",
+    "Range": 22.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Long_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Long_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Long_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Long_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 11300,
+    "ShopUnlockRank": 15,
+    "SpecActor": "Work/Actor/WeaponShooterLong.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpBlower.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/LineMarker.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 82
+      },
+      {
+        "Type": "Power",
+        "Value": 35
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Long_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Long_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2009,
+    "DefaultDamageRateInfoRow": "Shooter_Long",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Long_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20090,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ジェットスイーパーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Long_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterLong_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Long_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 4,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 40,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_NormalT.spl__LockerObjParam.gyml",
+    "Label": "スプラシューター",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Normal_00_Preset_00.byml",
+      "Work/Locker/Shooter_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 40,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 12.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 900,
+    "ShopUnlockRank": 2,
+    "SpecActor": "Work/Actor/WeaponShooterNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpUltraShot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 50
+      },
+      {
+        "Type": "Power",
+        "Value": 47
+      },
+      {
+        "Type": "Blaze",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2004,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20040,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スプラシューターCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Normal_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2,
+    "DefaultDamageRateInfoRow": "Shooter_Precision",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Precision_00.engine__actor__ActorParam.gyml",
+    "Id": 20,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Precision.spl__LockerObjParam.gyml",
+    "Label": "シャープマーカー",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Precision_00_Preset_00.byml"
+    ],
+    "MatchingId": 20,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Precision_00.engine__actor__ActorParam.gyml",
+    "Range": 11.7,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Precision_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Precision_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Precision_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Precision_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 11200,
+    "ShopUnlockRank": 16,
+    "SpecActor": "Work/Actor/WeaponShooterPrecision.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 42
+      },
+      {
+        "Type": "Power",
+        "Value": 22
+      },
+      {
+        "Type": "Blaze",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Precision_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Precision_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2002,
+    "DefaultDamageRateInfoRow": "Shooter_Precision",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Precision_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "シャープマーカーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Precision_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterPrecision_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Precision_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 6,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_QuickMiddle_00.engine__actor__ActorParam.gyml",
+    "Id": 60,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_QuickMiddle.spl__LockerObjParam.gyml",
+    "Label": "N-ZAP85",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_QuickMiddle_00_Preset_00.byml"
+    ],
+    "MatchingId": 60,
+    "NpcActor": "Work/Actor/WmnS_Shooter_QuickMiddle_00.engine__actor__ActorParam.gyml",
+    "Range": 12.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_QuickMiddle_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_QuickMiddle_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_QuickMiddle_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_QuickMiddle_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 7100,
+    "ShopUnlockRank": 6,
+    "SpecActor": "Work/Actor/WeaponShooterQuickMiddle.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Suction.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 50
+      },
+      {
+        "Type": "Power",
+        "Value": 22
+      },
+      {
+        "Type": "Blaze",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_QuickMiddle_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_QuickMiddle_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2006,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_QuickMiddle_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20060,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "N-ZAPCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_QuickMiddle_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterQuickMiddle_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_QuickMiddle_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 0,
+    "DefaultDamageRateInfoRow": "Shooter_Short",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Short_00.engine__actor__ActorParam.gyml",
+    "Id": 0,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_Short.spl__LockerObjParam.gyml",
+    "Label": "ボールドマーカー",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_Short_00_Preset_00.byml"
+    ],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Short_00.engine__actor__ActorParam.gyml",
+    "Range": 8.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_Short_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_Short_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Short_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_Short_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 9700,
+    "ShopUnlockRank": 9,
+    "SpecActor": "Work/Actor/WeaponShooterShort.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 12
+      },
+      {
+        "Type": "Power",
+        "Value": 52
+      },
+      {
+        "Type": "Blaze",
+        "Value": 75
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_Short_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_Short_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2000,
+    "DefaultDamageRateInfoRow": "Shooter_Short",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_Short_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ボールドマーカーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_Short_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterShort_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_Short_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 31,
+    "DefaultDamageRateInfoRow": "Shooter_TripleMiddle",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CriticalHit",
+        "HitEffectorType": "Shooter_CriticalHit"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shooter_TripleMiddle_00.engine__actor__ActorParam.gyml",
+    "Id": 310,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_TripleMiddle.spl__LockerObjParam.gyml",
+    "Label": "H3リールガン",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_TripleMiddle_00_Preset_00.byml"
+    ],
+    "MatchingId": 310,
+    "NpcActor": "Work/Actor/WmnS_Shooter_TripleMiddle_00.engine__actor__ActorParam.gyml",
+    "Range": 17.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_TripleMiddle_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_TripleMiddle_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_TripleMiddle_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_TripleMiddle_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 17200,
+    "ShopUnlockRank": 24,
+    "SpecActor": "Work/Actor/WeaponShooterTripleMiddle.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpEnergyStand.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 70
+      },
+      {
+        "Type": "Power",
+        "Value": 58
+      },
+      {
+        "Type": "Blaze",
+        "Value": 30
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_TripleMiddle_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_TripleMiddle_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2031,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CriticalHit",
+        "HitEffectorType": "Shooter_CriticalHit"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Shooter_TripleMiddle_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20310,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "H3リールガンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_TripleMiddle_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterTripleMiddle_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_TripleMiddle_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 30,
+    "DefaultDamageRateInfoRow": "Shooter_TripleQuick",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_TripleQuick_00.engine__actor__ActorParam.gyml",
+    "Id": 300,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Shooter_TripleQuick.spl__LockerObjParam.gyml",
+    "Label": "L3リールガン",
+    "LockerContentInfo": [
+      "Work/Locker/Shooter_TripleQuick_00_Preset_00.byml"
+    ],
+    "MatchingId": 300,
+    "NpcActor": "Work/Actor/WmnS_Shooter_TripleQuick_00.engine__actor__ActorParam.gyml",
+    "Range": 13.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Shooter_TripleQuick_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Shooter_TripleQuick_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_TripleQuick_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Shooter_TripleQuick_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 10400,
+    "ShopUnlockRank": 13,
+    "SpecActor": "Work/Actor/WeaponShooterTripleQuick.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpChariot.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Curling.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 62
+      },
+      {
+        "Type": "Power",
+        "Value": 25
+      },
+      {
+        "Type": "Blaze",
+        "Value": 65
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Shooter_TripleQuick_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Shooter_TripleQuick_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2030,
+    "DefaultDamageRateInfoRow": "Shooter",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Shooter_TripleQuick_Coop.engine__actor__ActorParam.gyml",
+    "Id": 20300,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "L3リールガンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Shooter_TripleQuick_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponShooterTripleQuick_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Shooter_TripleQuick_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 303,
+    "DefaultDamageRateInfoRow": "Slosher_Bathtub",
+    "DefaultHitEffectorType": "Slosher_Bathtub",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Slosher_Bathtub_00.engine__actor__ActorParam.gyml",
+    "Id": 3030,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Slosher_Bathtub.spl__LockerObjParam.gyml",
+    "Label": "オーバーフロッシャー",
+    "LockerContentInfo": [
+      "Work/Locker/Slosher_Bathtub_00_Preset_00.byml"
+    ],
+    "MatchingId": 3030,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Bathtub_00.engine__actor__ActorParam.gyml",
+    "Range": 15.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Slosher_Bathtub_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Slosher_Bathtub_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Bathtub_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Bathtub_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 10000,
+    "ShopUnlockRank": 19,
+    "SpecActor": "Work/Actor/WeaponSlosherBathtub.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 85
+      },
+      {
+        "Type": "Power",
+        "Value": 29
+      },
+      {
+        "Type": "Weight",
+        "Value": 50
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Slosher_Bathtub_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Slosher_Bathtub_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2303,
+    "DefaultDamageRateInfoRow": "Slosher_Bathtub",
+    "DefaultHitEffectorType": "Slosher_Bathtub",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Slosher_Bathtub_Coop.engine__actor__ActorParam.gyml",
+    "Id": 23030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "オーバーフロッシャーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Bathtub_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSlosherBathtub_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Slosher_Bathtub_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 301,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Diffusion_00.engine__actor__ActorParam.gyml",
+    "Id": 3010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Slosher_Diffusion.spl__LockerObjParam.gyml",
+    "Label": "ヒッセン",
+    "LockerContentInfo": [
+      "Work/Locker/Slosher_Diffusion_00_Preset_00.byml",
+      "Work/Locker/Slosher_Diffusion_00_Preset_01.byml"
+    ],
+    "MatchingId": 3010,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Diffusion_00.engine__actor__ActorParam.gyml",
+    "Range": 11.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Slosher_Diffusion_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Slosher_Diffusion_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Diffusion_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Diffusion_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 10200,
+    "ShopUnlockRank": 10,
+    "SpecActor": "Work/Actor/WeaponSlosherDiffusion.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 31
+      },
+      {
+        "Type": "Power",
+        "Value": 75
+      },
+      {
+        "Type": "Weight",
+        "Value": 70
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Slosher_Diffusion_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Slosher_Diffusion_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2301,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Diffusion_Coop.engine__actor__ActorParam.gyml",
+    "Id": 23010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ヒッセンCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Diffusion_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSlosherDiffusion_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Slosher_Diffusion_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 302,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher_LauncherLeader",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherLauncherFollower",
+        "HitEffectorType": "Slosher_LauncherFollower"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Launcher_00.engine__actor__ActorParam.gyml",
+    "Id": 3020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Slosher_Launcher.spl__LockerObjParam.gyml",
+    "Label": "スクリュースロッシャー",
+    "LockerContentInfo": [
+      "Work/Locker/Slosher_Launcher_00_Preset_00.byml"
+    ],
+    "MatchingId": 3020,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Launcher_00.engine__actor__ActorParam.gyml",
+    "Range": 14.7,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Slosher_Launcher_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Slosher_Launcher_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Launcher_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Launcher_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 12600,
+    "ShopUnlockRank": 14,
+    "SpecActor": "Work/Actor/WeaponSlosherLauncher.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 60
+      },
+      {
+        "Type": "Power",
+        "Value": 90
+      },
+      {
+        "Type": "Weight",
+        "Value": 40
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Slosher_Launcher_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Slosher_Launcher_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2302,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher_LauncherLeader",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherLauncherFollower",
+        "HitEffectorType": "Slosher_LauncherFollower"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Launcher_Coop.engine__actor__ActorParam.gyml",
+    "Id": 23020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スクリュースロッシャーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Launcher_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSlosherLauncher_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Slosher_Launcher_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 300,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Strong_00.engine__actor__ActorParam.gyml",
+    "Id": 3000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Slosher_StrongT.spl__LockerObjParam.gyml",
+    "Label": "バケットスロッシャー",
+    "LockerContentInfo": [
+      "Work/Locker/Slosher_Strong_00_Preset_00.byml",
+      "Work/Locker/Slosher_Strong_00_Preset_01.byml"
+    ],
+    "MatchingId": 3000,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Strong_00.engine__actor__ActorParam.gyml",
+    "Range": 14.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Slosher_Strong_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Slosher_Strong_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Strong_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Strong_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 2500,
+    "ShopUnlockRank": 3,
+    "SpecActor": "Work/Actor/WeaponSlosherStrong.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpTripleTornado.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Splash.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 58
+      },
+      {
+        "Type": "Power",
+        "Value": 85
+      },
+      {
+        "Type": "Weight",
+        "Value": 50
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Slosher_Strong_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Slosher_Strong_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2300,
+    "DefaultDamageRateInfoRow": "Slosher",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Strong_Coop.engine__actor__ActorParam.gyml",
+    "Id": 23000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "バケットスロッシャーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Strong_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSlosherStrong_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Slosher_Strong_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 304,
+    "DefaultDamageRateInfoRow": "Slosher_Washtub",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Slosher_WashtubBombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Slosher_WashtubBombCore"
+      },
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Washtub_00.engine__actor__ActorParam.gyml",
+    "Id": 3040,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Slosher_Washtub.spl__LockerObjParam.gyml",
+    "Label": "エクスプロッシャー",
+    "LockerContentInfo": [
+      "Work/Locker/Slosher_Washtub_00_Preset_00.byml"
+    ],
+    "MatchingId": 3040,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Washtub_00.engine__actor__ActorParam.gyml",
+    "Range": 20.7,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Slosher_Washtub_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Slosher_Washtub_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Washtub_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Slosher_Washtub_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 10800,
+    "ShopUnlockRank": 29,
+    "SpecActor": "Work/Actor/WeaponSlosherWashtub.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 77
+      },
+      {
+        "Type": "Power",
+        "Value": 65
+      },
+      {
+        "Type": "Weight",
+        "Value": 20
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Slosher_Washtub_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Slosher_Washtub_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2304,
+    "DefaultDamageRateInfoRow": "Slosher_Washtub",
+    "DefaultHitEffectorType": "Slosher",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Slosher_WashtubBombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Slosher_WashtubBombCore"
+      },
+      {
+        "ExtraInfo": "SlosherBig",
+        "HitEffectorType": "Slosher_Big"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Slosher_Washtub_Coop.engine__actor__ActorParam.gyml",
+    "Id": 23040,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "エクスプロッシャーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Slosher_Washtub_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSlosherWashtub_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Slosher_Washtub_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 403,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Downpour_00.engine__actor__ActorParam.gyml",
+    "Id": 4030,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Spinner_Downpour.spl__LockerObjParam.gyml",
+    "Label": "クーゲルシュライバー",
+    "LockerContentInfo": [
+      "Work/Locker/Spinner_Downpour_00_Preset_00.byml"
+    ],
+    "MatchingId": 4030,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Downpour_00.engine__actor__ActorParam.gyml",
+    "Range": 24.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Spinner_Downpour_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Spinner_Downpour_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Downpour_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Downpour_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 11600,
+    "ShopUnlockRank": 30,
+    "SpecActor": "Work/Actor/WeaponSpinnerDownpour.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpJetpack.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Fizzy.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 84
+      },
+      {
+        "Type": "Charge",
+        "Value": 18
+      },
+      {
+        "Type": "Mobility",
+        "Value": 60
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Spinner_Downpour_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Spinner_Downpour_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2403,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Downpour_Coop.engine__actor__ActorParam.gyml",
+    "Id": 24030,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "クーゲルシュライバーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Downpour_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSpinnerDownpour_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Spinner_Downpour_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 402,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Hyper_00.engine__actor__ActorParam.gyml",
+    "Id": 4020,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Spinner_HyperT.spl__LockerObjParam.gyml",
+    "Label": "ハイドラント",
+    "LockerContentInfo": [
+      "Work/Locker/Spinner_Hyper_00_Preset_00.byml"
+    ],
+    "MatchingId": 4020,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Hyper_00.engine__actor__ActorParam.gyml",
+    "Range": 24.5,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Spinner_Hyper_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Spinner_Hyper_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Hyper_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Hyper_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 18500,
+    "ShopUnlockRank": 20,
+    "SpecActor": "Work/Actor/WeaponSpinnerHyper.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpNiceBall.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Robot.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 85
+      },
+      {
+        "Type": "Charge",
+        "Value": 10
+      },
+      {
+        "Type": "Mobility",
+        "Value": 20
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Spinner_Hyper_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Spinner_Hyper_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2402,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Hyper_Coop.engine__actor__ActorParam.gyml",
+    "Id": 24020,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ハイドラントCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Hyper_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSpinnerHyper_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Spinner_Hyper_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 400,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Quick_00.engine__actor__ActorParam.gyml",
+    "Id": 4000,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Spinner_QuickT.spl__LockerObjParam.gyml",
+    "Label": "スプラスピナー",
+    "LockerContentInfo": [
+      "Work/Locker/Spinner_Quick_00_Preset_00.byml"
+    ],
+    "MatchingId": 4000,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Quick_00.engine__actor__ActorParam.gyml",
+    "Range": 15.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Spinner_Quick_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Spinner_Quick_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Quick_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Quick_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 12300,
+    "ShopUnlockRank": 12,
+    "SpecActor": "Work/Actor/WeaponSpinnerQuick.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 180,
+    "SpecialWeapon": "Work/Gyml/SpUltraStamp.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Bomb_Quick.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 62
+      },
+      {
+        "Type": "Charge",
+        "Value": 80
+      },
+      {
+        "Type": "Mobility",
+        "Value": 90
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Spinner_Quick_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Spinner_Quick_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2400,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Quick_Coop.engine__actor__ActorParam.gyml",
+    "Id": 24000,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "スプラスピナーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Quick_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSpinnerQuick_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Spinner_Quick_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 404,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Serein_00.engine__actor__ActorParam.gyml",
+    "Id": 4040,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Spinner_Serein.spl__LockerObjParam.gyml",
+    "Label": "ノーチラス47",
+    "LockerContentInfo": [
+      "Work/Locker/Spinner_Serein_00_Preset_00.byml"
+    ],
+    "MatchingId": 4040,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Serein_00.engine__actor__ActorParam.gyml",
+    "Range": 18.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Spinner_Serein_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Spinner_Serein_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Serein_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Serein_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 14700,
+    "ShopUnlockRank": 28,
+    "SpecActor": "Work/Actor/WeaponSpinnerSerein.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 190,
+    "SpecialWeapon": "Work/Gyml/SpInkStorm.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PointSensor.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 74
+      },
+      {
+        "Type": "Charge",
+        "Value": 37
+      },
+      {
+        "Type": "Mobility",
+        "Value": 70
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Spinner_Serein_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Spinner_Serein_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2404,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Serein_Coop.engine__actor__ActorParam.gyml",
+    "Id": 24040,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ノーチラスCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Serein_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSpinnerSerein_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Spinner_Serein_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 401,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Standard_00.engine__actor__ActorParam.gyml",
+    "Id": 4010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Spinner_StandardT.spl__LockerObjParam.gyml",
+    "Label": "バレルスピナー",
+    "LockerContentInfo": [
+      "Work/Locker/Spinner_Standard_00_Preset_00.byml",
+      "Work/Locker/Spinner_Standard_00_Preset_01.byml"
+    ],
+    "MatchingId": 4010,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Standard_00.engine__actor__ActorParam.gyml",
+    "Range": 21.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Spinner_Standard_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Spinner_Standard_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Standard_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Spinner_Standard_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 7800,
+    "ShopUnlockRank": 4,
+    "SpecActor": "Work/Actor/WeaponSpinnerStandard.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/Sprinkler.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 78
+      },
+      {
+        "Type": "Charge",
+        "Value": 38
+      },
+      {
+        "Type": "Mobility",
+        "Value": 55
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Spinner_Standard_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Spinner_Standard_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2401,
+    "DefaultDamageRateInfoRow": "Spinner",
+    "DefaultHitEffectorType": "Spinner",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "GameActor": "Work/Actor/WmnG_Spinner_Standard_Coop.engine__actor__ActorParam.gyml",
+    "Id": 24010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "バレルスピナーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Spinner_Standard_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponSpinnerStandard_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Spinner_Standard_Coop"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 701,
+    "DefaultDamageRateInfoRow": "Stringer",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CriticalHit",
+        "HitEffectorType": "Shooter_CriticalHit"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Stringer_Normal_00.engine__actor__ActorParam.gyml",
+    "Id": 7010,
+    "IsCoopRare": false,
+    "LObjParam": "Work/Gyml/LObj_Wmn_Stringer_Normal.spl__LockerObjParam.gyml",
+    "Label": "トライストリンガー",
+    "LockerContentInfo": [
+      "Work/Locker/Stringer_Normal_00_Preset_00.byml",
+      "Work/Locker/Stringer_Normal_00_Preset_01.byml"
+    ],
+    "MatchingId": 7010,
+    "NpcActor": "Work/Actor/WmnS_Stringer_Normal_00.engine__actor__ActorParam.gyml",
+    "Range": 25.0,
+    "RewardLv2": "Work/Gyml/Stc_Sti_Wst_Stringer_Normal_00_Lv00.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv3": "Work/Gyml/Hla_Sti_Wst_Stringer_Normal_00_Lv01.spl__LockerGoodsStickerInfo.gyml",
+    "RewardLv4": "Work/Gyml/BadgeInfo_WeaponLevel_Stringer_Normal_00_Lv00.spl__BadgeInfo.gyml",
+    "RewardLv5": "Work/Gyml/BadgeInfo_WeaponLevel_Stringer_Normal_00_Lv01.spl__BadgeInfo.gyml",
+    "Season": 0,
+    "ShopPrice": 1000,
+    "ShopUnlockRank": 4,
+    "SpecActor": "Work/Actor/WeaponStringerNormal.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "Work/Gyml/SpMicroLaser.spl__WeaponInfoSpecial.gyml",
+    "SubWeapon": "Work/Gyml/PoisonMist.spl__WeaponInfoSub.gyml",
+    "Type": "Versus",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 88
+      },
+      {
+        "Type": "Charge",
+        "Value": 40
+      },
+      {
+        "Type": "Mobility",
+        "Value": 40
+      }
+    ],
+    "WeaponInfoForCoop": "Work/Gyml/Stringer_Normal_Coop.spl__WeaponInfoMain.gyml",
+    "__RowId": "Stringer_Normal_00"
+  },
+  {
+    "DebugDispColumn": 0,
+    "DebugDispOrder": 2701,
+    "DefaultDamageRateInfoRow": "Stringer",
+    "DefaultHitEffectorType": "Shooter",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CriticalHit",
+        "HitEffectorType": "Shooter_CriticalHit"
+      }
+    ],
+    "GameActor": "Work/Actor/WmnG_Stringer_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Id": 27010,
+    "IsCoopRare": false,
+    "LObjParam": "",
+    "Label": "ストリンガーCoop",
+    "LockerContentInfo": [],
+    "MatchingId": 0,
+    "NpcActor": "Work/Actor/WmnS_Stringer_Normal_Coop.engine__actor__ActorParam.gyml",
+    "Range": 0.0,
+    "RewardLv2": "",
+    "RewardLv3": "",
+    "RewardLv4": "",
+    "RewardLv5": "",
+    "Season": 999,
+    "ShopPrice": 0,
+    "ShopUnlockRank": -1,
+    "SpecActor": "Work/Actor/WeaponStringerNormal_Coop.engine__actor__ActorParam.gyml",
+    "SpecialPoint": 200,
+    "SpecialWeapon": "",
+    "SubWeapon": "",
+    "Type": "Coop",
+    "UIParam": [
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      },
+      {
+        "Type": "Range",
+        "Value": 0
+      }
+    ],
+    "WeaponInfoForCoop": "",
+    "__RowId": "Stringer_Normal_Coop"
+  }
+]
