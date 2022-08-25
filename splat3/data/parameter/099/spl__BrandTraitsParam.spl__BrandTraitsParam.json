@@ -1,0 +1,97 @@
+{
+  "SkillEasilyToGetParam": [
+    1,
+    2,
+    10
+  ],
+  "Traits": {
+    "B00": {
+      "UnusualGearSkill": "MainInk_Save",
+      "UsualGearSkill": "OpInkEffect_Reduction"
+    },
+    "B01": {
+      "UnusualGearSkill": "RespawnTime_Save",
+      "UsualGearSkill": "JumpTime_Save"
+    },
+    "B02": {
+      "UnusualGearSkill": "SubEffect_Reduction",
+      "UsualGearSkill": "SquidMove_Up"
+    },
+    "B03": {
+      "UnusualGearSkill": "SquidMove_Up",
+      "UsualGearSkill": "HumanMove_Up"
+    },
+    "B04": {
+      "UnusualGearSkill": "SpecialIncrease_Up",
+      "UsualGearSkill": "RespawnSpecialGauge_Save"
+    },
+    "B05": {
+      "UnusualGearSkill": "SubInk_Save",
+      "UsualGearSkill": "SpecialSpec_Up"
+    },
+    "B06": {
+      "UnusualGearSkill": "InkRecovery_Up",
+      "UsualGearSkill": "SubInk_Save"
+    },
+    "B07": {
+      "UnusualGearSkill": "RespawnSpecialGauge_Save",
+      "UsualGearSkill": "RespawnTime_Save"
+    },
+    "B08": {
+      "UnusualGearSkill": "HumanMove_Up",
+      "UsualGearSkill": "MainInk_Save"
+    },
+    "B09": {
+      "UnusualGearSkill": "Action_Up",
+      "UsualGearSkill": "SubEffect_Reduction"
+    },
+    "B10": {
+      "UnusualGearSkill": "JumpTime_Save",
+      "UsualGearSkill": "InkRecovery_Up"
+    },
+    "B11": {
+      "UnusualGearSkill": "SpecialSpec_Up",
+      "UsualGearSkill": "SpecialIncrease_Up"
+    },
+    "B15": {
+      "UnusualGearSkill": "RespawnSpecialGauge_Save",
+      "UsualGearSkill": "SubInk_Save"
+    },
+    "B16": {
+      "UnusualGearSkill": "OpInkEffect_Reduction",
+      "UsualGearSkill": "SubSpec_Up"
+    },
+    "B17": {
+      "UnusualGearSkill": "SubSpec_Up",
+      "UsualGearSkill": "MainInk_Save"
+    },
+    "B18": {
+      "UnusualGearSkill": "InkRecovery_Up",
+      "UsualGearSkill": "RespawnSpecialGauge_Save"
+    },
+    "B19": {
+      "UnusualGearSkill": "SubSpec_Up",
+      "UsualGearSkill": "Action_Up"
+    },
+    "B20": {
+      "UnusualGearSkill": "SpecialIncrease_Up",
+      "UsualGearSkill": "Action_Up"
+    },
+    "B97": {
+      "UnusualGearSkill": "None",
+      "UsualGearSkill": "None"
+    },
+    "B98": {
+      "UnusualGearSkill": "None",
+      "UsualGearSkill": "None"
+    },
+    "B99": {
+      "UnusualGearSkill": "None",
+      "UsualGearSkill": "None"
+    },
+    "None": {
+      "UnusualGearSkill": "None",
+      "UsualGearSkill": "None"
+    }
+  }
+}
