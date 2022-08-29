@@ -1,0 +1,122 @@
+{
+  "ChapterSelectBtnNum": 6,
+  "ChapterSelectList": [
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_19.tga",
+      "TitleLabel": "Vendor_Button01"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_20.tga",
+      "TitleLabel": "Vendor_Button02"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_21.tga",
+      "TitleLabel": "Vendor_Button03"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_22.tga",
+      "TitleLabel": "Vendor_Button04"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_23.tga",
+      "TitleLabel": "Vendor_Button05"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_24.tga",
+      "TitleLabel": "Vendor_Button06"
+    }
+  ],
+  "IsUseChapterSelect": true,
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualVendor.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "Vendor_Order_Manual00",
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_07.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Order_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Order_Manual01",
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_08.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Order_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Increase_Rarity_Manual00",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_09.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Increase_Rarity_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Increase_Rarity_Manual01",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_10.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Increase_Rarity_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Cleaning_Manual00",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_11.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Cleaning_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Cleaning_Manual01",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_12.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Cleaning_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Add_Gear_Power_Manual00",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_13.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Add_Gear_Power_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Add_Gear_Power_Manual01",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_14.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Add_Gear_Power_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Add_Gear_Power_Manual02",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_15.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Add_Gear_Power_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Replacement_Gear_Power_Manual00",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_16.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Replacement_Gear_Power_Title"
+    },
+    {
+      "BodyLabel": "Vendor_Replacement_Gear_Power_Manual01",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_17.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_Replacement_Gear_Power_Title"
+    },
+    {
+      "BodyLabel": "Vendor_GesoTown_Manual00",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_01.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_GesoTown_Title"
+    },
+    {
+      "BodyLabel": "Vendor_GesoTown_Manual01",
+      "Chapter": 5,
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_18.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Vendor_GesoTown_Title"
+    }
+  ]
+}

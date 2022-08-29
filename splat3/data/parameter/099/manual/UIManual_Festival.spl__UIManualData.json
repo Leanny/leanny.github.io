@@ -1,0 +1,170 @@
+{
+  "ChapterSelectBtnNum": 5,
+  "ChapterSelectList": [
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_07.tga",
+      "TitleLabel": "Fes_Button01"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_08.tga",
+      "TitleLabel": "Fes_Button02"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_09.tga",
+      "TitleLabel": "Fes_Button03"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_10.tga",
+      "TitleLabel": "Fes_Button04"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_11.tga",
+      "TitleLabel": "Fes_Button05"
+    }
+  ],
+  "IsUseChapterSelect": true,
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualFes.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "",
+      "LayoutType": "FestSpecial00",
+      "TitleLabel": ""
+    },
+    {
+      "BodyLabel": "Fes_MainSubFes_Manual00",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSS_00.tga",
+      "LayoutType": "TextAndImageS",
+      "TitleLabel": "Fes_MainSubFes_Title"
+    },
+    {
+      "BodyLabel": "Fes_MainSubFes_Manual01",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSS_00.tga",
+      "LayoutType": "TextAndImageS",
+      "TitleLabel": "Fes_MainSubFes_Title"
+    },
+    {
+      "BodyLabel": "Fes_MainSubFes_Manual02",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSS_01.tga",
+      "LayoutType": "TextAndImageS",
+      "TitleLabel": "Fes_MainSubFes_Title"
+    },
+    {
+      "BodyLabel": "Fes_MainSubFes_Manual03",
+      "Chapter": 1,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSS_01.tga",
+      "LayoutType": "TextAndImageS",
+      "TitleLabel": "Fes_MainSubFes_Title"
+    },
+    {
+      "BodyLabel": "Fes_FesMatch_Manual00",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_08.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "Fes_FesMatch_Title"
+    },
+    {
+      "BodyLabel": "Fes_FesMatch_Manual01",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_11.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_FesMatch_Title"
+    },
+    {
+      "BodyLabel": "Fes_FesMatch_Manual02",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_12.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_FesMatch_Title"
+    },
+    {
+      "BodyLabel": "Fes_FesMatch_Manual03",
+      "Chapter": 2,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_13.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_FesMatch_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual00",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSL_02.tga",
+      "LayoutType": "HeadingAndImageL",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual01",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_37.tga",
+      "LayoutType": "HeadingAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual02",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_14.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual03",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_38.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual04",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_39.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual05",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_40.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual06",
+      "Chapter": 3,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSM_41.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "Fes_Torikara_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual07",
+      "Chapter": 3,
+      "TitleLabel": "Fes_Torikara_Manual07_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual08",
+      "Chapter": 3,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "Fes_Torikara_Manual07_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual09",
+      "Chapter": 3,
+      "TitleLabel": "Fes_Torikara_Manual09_Title"
+    },
+    {
+      "BodyLabel": "Fes_Torikara_Manual10",
+      "Chapter": 3,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "Fes_Torikara_Manual09_Title"
+    },
+    {
+      "BodyLabel": "Fes_Result_Manual00",
+      "Chapter": 4,
+      "Image": "Work/UI/Icon/Manual/VS/sourceimages/ManualVSS_02.tga",
+      "LayoutType": "TextAndImageS",
+      "TitleLabel": "Fes_Result_Title"
+    }
+  ]
+}

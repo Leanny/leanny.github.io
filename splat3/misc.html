@@ -1,168 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css">
-      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-      <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
-      <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
-      <title>Splatoon 3 - Misc Database</title>
-      <style>
-         body {
-            background-color: #e9ecef;
-         }
-         footer {
-            border-top: 1px solid rgba(86, 61, 124, .2);
-         }
-         .bd-placeholder-img {
-         font-size: 1.125rem;
-         text-anchor: middle;
-         -webkit-user-select: none;
-         -moz-user-select: none;
-         -ms-user-select: none;
-         user-select: none;
-         }
-         @media (min-width: 768px) {
-         .bd-placeholder-img-lg {
-         font-size: 3.5rem;
-         }
-         }
-         .themed-grid-col {
-         padding-top: 15px;
-         padding-bottom: 15px;
-         background-color: rgba(86, 61, 124, .15);
-         border: 1px solid rgba(86, 61, 124, .2);
-         }
-         #parameterContent {
-            margin-top: 1em;
-            border: 1px solid rgba(54, 38, 78, 0.2);
-            background-color: rgba(34, 19, 56, 0.2);
-         }
-         h2 {
-            margin: 1rem;
-         }
-      </style>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-         <a class="navbar-brand" href="#">Parameter Database</a>
-         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav mr-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="database.html">Weapon and Gear Database</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="parameters.html">Parameter Database</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="misc.html">Misc Database</a>
-               </li>
-            </ul>
-         </div>
-      </nav>
-      <main role="main">
-         <div class="jumbotron">
-            <div class="col-sm-8 mx-auto">
-               <h1>Splatoon 3 - Misc Database</h1>
-               <select class="form-control" id="version">
-               </select>
-               <ul class="nav nav-tabs" id="modes" role="tablist">
-                  <li class="nav-item">
-                     <a class="nav-link active" id="brands-tab" data-toggle="tab" href="#brands" role="tab" aria-controls="brands" aria-selected="true">Brands</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" id="exps-tab" data-toggle="tab" href="#exps" role="tab" aria-controls="exps" aria-selected="false">EXP</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" id="chunks-tab" data-toggle="tab" href="#chunks" role="tab" aria-controls="chunks" aria-selected="false">Chunks</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" id="levelexp-tab" data-toggle="tab" href="#levelexp" role="tab" aria-controls="levelexp" aria-selected="false">Level Exp</a>
-                  </li>
-               </ul>
-               <div class="tab-content" id="modeTabControl">
-                  <div class="tab-pane fade show active" id="brands" role="tabpanel" aria-labelledby="brands-tab">
-                     <div class="tab-content" id="brandsTabControl">
-                        <table class="table table-striped table-hover" id="brand-table" data-show-fullscreen="true">
-                           <thead>
-                              <tr>
-                                 <th scope="col" data-field="Brand"  data-formatter="brandFormatter">Brand</th>
-                                 <th scope="col" data-field="Likely" data-formatter="skillFormatter">Likely</th>
-                                 <th scope="col" data-field="Unlikely"  data-formatter="skillFormatter">Unlikely</th>
-                              </tr>
-                           </thead>
-                        </table>
-                     </div>
-                  </div>
-                  <div class="tab-pane fade" id="exps" role="tabpanel" aria-labelledby="exps-tab">
-                     <h2>Food Buffs</h2>
-                     <table class="table table-striped table-hover" id="boostrate-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Item"  data-formatter="foodFormatter">Food</th>
-                              <th scope="col" data-field="ItemDesc" data-formatter="foodDescFormatter">Description</th>
-                              <th scope="col" data-field="Boost">Boost</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <h2>Food Buff Ticket Probability</h2>
-                     <table class="table table-striped table-hover" id="randomticket-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Type" data-formatter="foodFormatter">Type</th>
-                              <th scope="col" data-field="Percent"  data-formatter="percentFormatter">Probability</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <h2>Exp Gained</h2>
-                     <table class="table table-striped table-hover" id="expgain-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Key">Method</th>
-                              <th scope="col" data-field="Value">Value</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <h2>Rarity EXP Boost</h2>
-                     <table class="table table-striped table-hover" id="rarityexp-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Key">Stars</th>
-                              <th scope="col" data-field="Value">Exp Gained</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <h2>Gear Slots Level Up EXP</h2>
-                     <table class="table table-striped table-hover" id="gearlevelup-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Key">Slot</th>
-                              <th scope="col" data-field="Value">Exp For Next Slot</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <h2>Gear Slots Purchase (Store)</h2>
-                     <table class="table table-striped table-hover" id="gearslots-store-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Key">Upgrade To Level</th>
-                              <th scope="col" data-field="Value">Price</th>
-                           </tr>
-                        </thead>
-                     </table>
-                     <!-- <h2>Gear Slots Purchase (Snails)</h2>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <title>Splatoon 3 - Misc Database</title>
+        <style>
+            body {
+                background-color: #e9ecef;
+            }
+            footer {
+                border-top: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .themed-grid-col {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: rgba(86, 61, 124, 0.15);
+                border: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            #parameterContent {
+                margin-top: 1em;
+                border: 1px solid rgba(54, 38, 78, 0.2);
+                background-color: rgba(34, 19, 56, 0.2);
+            }
+            h2 {
+                margin: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Misc Database</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parameters.html">Parameter Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="misc.html">Misc Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manuals.html">Manual Database</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="col-sm-8 mx-auto">
+                    <h1>Splatoon 3 - Misc Database</h1>
+                    <select class="form-control" id="version"></select>
+                    <ul class="nav nav-tabs" id="modes" role="tablist">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                id="brands-tab"
+                                data-toggle="tab"
+                                href="#brands"
+                                role="tab"
+                                aria-controls="brands"
+                                aria-selected="true"
+                                >Brands</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="exps-tab"
+                                data-toggle="tab"
+                                href="#exps"
+                                role="tab"
+                                aria-controls="exps"
+                                aria-selected="false"
+                                >EXP</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="chunks-tab"
+                                data-toggle="tab"
+                                href="#chunks"
+                                role="tab"
+                                aria-controls="chunks"
+                                aria-selected="false"
+                                >Chunks</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="levelexp-tab"
+                                data-toggle="tab"
+                                href="#levelexp"
+                                role="tab"
+                                aria-controls="levelexp"
+                                aria-selected="false"
+                                >Level Exp</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="ranking-tab"
+                                data-toggle="tab"
+                                href="#ranking"
+                                role="tab"
+                                aria-controls="ranking"
+                                aria-selected="false"
+                                >Anarchy Battle</a
+                            >
+                        </li>
+                        <!--<li class="nav-item">
+                     <a class="nav-link" id="fest-tab" data-toggle="tab" href="#fest" role="tab" aria-controls="fest" aria-selected="false">Splatfest</a>
+                  </li>-->
+                    </ul>
+                    <div class="tab-content" id="modeTabControl">
+                        <div class="tab-pane fade show active" id="brands" role="tabpanel" aria-labelledby="brands-tab">
+                            <div class="tab-content" id="brandsTabControl">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="brand-table"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Brand" data-formatter="brandFormatter">
+                                                Brand
+                                            </th>
+                                            <th scope="col" data-field="Likely" data-formatter="skillFormatter">
+                                                Likely
+                                            </th>
+                                            <th scope="col" data-field="Unlikely" data-formatter="skillFormatter">
+                                                Unlikely
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="exps" role="tabpanel" aria-labelledby="exps-tab">
+                            <h2>Food Buffs</h2>
+                            <table class="table table-striped table-hover" id="boostrate-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Item" data-formatter="foodFormatter">Food</th>
+                                        <th scope="col" data-field="ItemDesc" data-formatter="foodDescFormatter">
+                                            Description
+                                        </th>
+                                        <th scope="col" data-field="Boost">Boost</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h2>Food Buff Ticket Probability</h2>
+                            <table class="table table-striped table-hover" id="randomticket-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Type" data-formatter="foodFormatter">Type</th>
+                                        <th scope="col" data-field="Percent" data-formatter="percentFormatter">
+                                            Probability
+                                        </th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h2>Exp Gained</h2>
+                            <table class="table table-striped table-hover" id="expgain-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Key">Method</th>
+                                        <th scope="col" data-field="Value">Value</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h2>Rarity EXP Boost</h2>
+                            <table class="table table-striped table-hover" id="rarityexp-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Key">Stars</th>
+                                        <th scope="col" data-field="Value">Exp Gained</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h2>Gear Slots Level Up EXP</h2>
+                            <table class="table table-striped table-hover" id="gearlevelup-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Key">Slot</th>
+                                        <th scope="col" data-field="Value">Exp For Next Slot</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <h2>Gear Slots Purchase (Store)</h2>
+                            <table class="table table-striped table-hover" id="gearslots-store-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Key">Upgrade To Level</th>
+                                        <th scope="col" data-field="Value">Price</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <!-- <h2>Gear Slots Purchase (Snails)</h2>
                      <table class="table table-striped table-hover" id="gearslots-snails-table">
                         <thead>
                            <tr>
@@ -171,298 +262,428 @@
                            </tr>
                         </thead>
                      </table>-->
-                     <h2>Weapon Level Up EXP</h2>
-                     <table class="table table-striped table-hover" id="weaponlevelup-table">
-                        <thead>
-                           <tr>
-                              <th scope="col" data-field="Key">Level</th>
-                              <th scope="col" data-field="Value">EXP Needed For Level Up</th>
-                           </tr>
-                        </thead>
-                     </table>
-                  </div>
-                  <div class="tab-pane fade show" id="chunks" role="tabpanel" aria-labelledby="chunks-tab">
-                     <div class="tab-content" id="chunksTabControl">
-                        <h2>Chunk Conversion</h2>
-                        <table class="table table-striped table-hover" id="chunks-table" data-show-fullscreen="true">
+                            <h2>Weapon Level Up EXP</h2>
+                            <table class="table table-striped table-hover" id="weaponlevelup-table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Key">Level</th>
+                                        <th scope="col" data-field="Value">EXP Needed For Level Up</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade show" id="chunks" role="tabpanel" aria-labelledby="chunks-tab">
+                            <div class="tab-content" id="chunksTabControl">
+                                <h2>Chunk Conversion</h2>
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="chunks-table"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Skill" data-formatter="skillFormatter">
+                                                Ability
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="ConsistsOf"
+                                                data-formatter="skillFormatterArray"
+                                            >
+                                                Consists Of
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="levelexp" role="tabpanel" aria-labelledby="levelexp-tab">
+                            <div class="tab-content" id="levelexpTabControl">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="levelexp-table"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Level">Level</th>
+                                            <th scope="col" data-field="EXP">EXP To Next Level</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="ranking" role="tabpanel" aria-labelledby="ranking-tab">
+                            <div class="tab-content" id="rankingTabControl">
+                                <div id="ranking-tables"></div>
+                            </div>
+                        </div>
+                        <!--
+                  <div class="tab-pane fade show" id="fest" role="tabpanel" aria-labelledby="fest-tab">
+                     <div class="tab-content" id="festTabControl">
+                        <table class="table table-striped table-hover" id="fest-table" data-show-fullscreen="true">
                            <thead>
                               <tr>
-                                 <th scope="col" data-field="Skill" data-formatter="skillFormatter">Ability</th>
-                                 <th scope="col" data-field="ConsistsOf" data-formatter="skillFormatterArray">Consists Of</th>
+
                               </tr>
                            </thead>
                         </table>
                      </div>
-                  </div>
-                  <div class="tab-pane fade show" id="levelexp" role="tabpanel" aria-labelledby="levelexp-tab">
-                     <div class="tab-content" id="levelexpTabControl">
-                        <table class="table table-striped table-hover" id="levelexp-table" data-show-fullscreen="true">
-                           <thead>
-                              <tr>
-                                 <th scope="col" data-field="Level">Level</th>
-                                 <th scope="col" data-field="EXP">EXP To Next Level</th>
-                              </tr>
-                           </thead>
-                        </table>
-                     </div>
-                  </div>
-               </div>
+                  </div>-->
+                    </div>
+                </div>
             </div>
-         </div>
-         <script>
-            const prefix = "https://leanny.github.io/splat3/"
-            //const prefix = "http://127.0.0.1:5500/"
+            <script>
+                const prefix = "https://leanny.github.io/splat3/"
+                //const prefix = "http://127.0.0.1:5500/"
 
-            var version = 100
-            var lang_dict = {}
-            const format_img = (base_url, value, width) => `<img src="${base_url}${value}.png" width="${width}" />`
-            var skillFormatter = value => {
-               if(value === "None") return "-"
-               return format_img(prefix + "images/skill/", value, 64)
-            }
-            var brandFormatter = value => format_img(prefix + "images/brand/", value, 64)
+                var version = 100
+                var lang_dict = {}
+                const format_img = (base_url, value, width) => `<img src="${base_url}${value}.png" width="${width}" />`
 
-            var skillFormatterArray = value => {
-               const res = []
-               value.forEach(v => res.push(format_img(prefix + "images/skill/", v, 48)))
-               return res.join(" ")
-            }
+                var skillFormatter = value => {
+                    if (value === "None") return "-"
+                    const tmp = format_img(prefix + "images/skill/", value, 96)
+                    return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                }
 
-            var percentFormatter = value => value + "%"
-            
-            var foodFormatter = value => {
-               let img
-               switch(value) {
-                  case "None": return "Default"
-                  case "Exp100":
-                     img = format_img(prefix + "images/food/", "IconShopFoodRankL", 64) 
-                     return `<p><center>${img}<br />The Pescatariat Royale</center></p>`
-                  case "Exp50": 
-                     img = format_img(prefix + "images/food/", "IconShopFoodRank", 64) 
-                     return `<p><center>${img}<br />The Pescatariat</center></p>`
-                  case "ExpParty": 
-                     img =  format_img(prefix + "images/food/", "IconShopParty_01", 64)
-                     return `<p><center>${img}<br />Marigold'en Garden Greens</center></p>`
-                  case "GearPower": 
-                     img =  format_img(prefix + "images/food/", "GearPowerTicketBase", 64)
-                     return `<p><center>${img}<br />Ger Ticket</center></p>`
-                  case "Money100": 
-                     img =  format_img(prefix + "images/food/", "IconShopFoodL", 64)
-                     return `<p><center>${img}<br />Commercial Crab Trap Sandwich</center></p>`
-                  case "Money50": 
-                     img =  format_img(prefix + "images/food/", "IconShopFood", 64)
-                     return `<p><center>${img}<br />Crab Trap Sandwich</center></p>`
-                  case "MoneyParty": 
-                     img =  format_img(prefix + "images/food/", "IconShopParty_00", 64)
-                     return `<p><center>${img}<br />Mega Mountain a la Marigold</center></p>`
-               }
-            }
+                var brandFormatter = value => {
+                    const tmp = format_img(prefix + "images/brand/", value, 64)
+                    return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                }
 
-            var foodDescFormatter = value => {
-               let img
-               switch(value) {
-                  case "None": return "Default"
-                  case "Exp100":
-                     return "<p>Doubles battle XP!</p>"
-                  case "Exp50": 
-                     return "<p>Increases battle XP by 50%!</p>"
-                  case "ExpParty": 
-                     return "<p>Doubles battle XP for all teammates!</p>"
-                  case "GearPower": 
-                     return "<p>Gear will gain XP more quickly and is more likely to receive a specific ability when it levels up.</p>"
-                  case "Money100": 
-                     return "<p>Doubles battle cash!</p>"
-                  case "Money50": 
-                     return "<p>Increases battle cash by 50%!</p>"                  
-                  case "MoneyParty": 
-                     return "<p>Doubles battle cash for all teammates!</p>"
-               }
-            }
+                var skillFormatterArray = value => {
+                    const res = []
+                    value.forEach(v => res.push(format_img(prefix + "images/skill/", v, 48)))
+                    return res.join(" ")
+                }
 
-            $.getJSON(prefix + "versions.json", vers => {
-                  let last = 0
-                  vers.forEach(ver => {
-                     $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
-                     last = ver
-                  })
-                  $("#version").val(last)
-                  version = last
-                  $.getJSON(prefix + "data/language/EUen.json", function(d) {
-                    $.each(d, function(key, val) {
-                        lang_dict[key] = val
-                    });
-                    load_data();
-                });
-            })
-           
-            function load_data() {
-                $.getJSON(prefix + "data/parameter/" + version + "/spl__BrandTraitsParam.spl__BrandTraitsParam.json", data_dict => {
-                  const all_data = []
-                  for(const [key, value] of Object.entries(data_dict.Traits)) {
-                     if (key !== "None" && key in lang_dict) {
-                        const row = ({
-                              Brand: key,
-                              Likely: value.UsualGearSkill,
-                              Unlikely: value.UnusualGearSkill
+                var percentFormatter = value => value + "%"
 
+                var foodFormatter = value => {
+                    let img
+                    switch (value) {
+                        case "None":
+                            return "Default"
+                        case "Exp100":
+                            img = format_img(prefix + "images/food/", "IconShopFoodRankL", 64)
+                            return `<p><center>${img}<br />The Pescatariat Royale</center></p>`
+                        case "Exp50":
+                            img = format_img(prefix + "images/food/", "IconShopFoodRank", 64)
+                            return `<p><center>${img}<br />The Pescatariat</center></p>`
+                        case "ExpParty":
+                            img = format_img(prefix + "images/food/", "IconShopParty_01", 64)
+                            return `<p><center>${img}<br />Marigold'en Garden Greens</center></p>`
+                        case "GearPower":
+                            img = format_img(prefix + "images/food/", "GearPowerTicketBase", 64)
+                            return `<p><center>${img}<br />Ger Ticket</center></p>`
+                        case "Money100":
+                            img = format_img(prefix + "images/food/", "IconShopFoodL", 64)
+                            return `<p><center>${img}<br />Commercial Crab Trap Sandwich</center></p>`
+                        case "Money50":
+                            img = format_img(prefix + "images/food/", "IconShopFood", 64)
+                            return `<p><center>${img}<br />Crab Trap Sandwich</center></p>`
+                        case "MoneyParty":
+                            img = format_img(prefix + "images/food/", "IconShopParty_00", 64)
+                            return `<p><center>${img}<br />Mega Mountain a la Marigold</center></p>`
+                    }
+                }
+
+                var foodDescFormatter = value => {
+                    let img
+                    switch (value) {
+                        case "None":
+                            return "Default"
+                        case "Exp100":
+                            return "<p>Doubles battle XP!</p>"
+                        case "Exp50":
+                            return "<p>Increases battle XP by 50%!</p>"
+                        case "ExpParty":
+                            return "<p>Doubles battle XP for all teammates!</p>"
+                        case "GearPower":
+                            return "<p>Gear will gain XP more quickly and is more likely to receive a specific ability when it levels up.</p>"
+                        case "Money100":
+                            return "<p>Doubles battle cash!</p>"
+                        case "Money50":
+                            return "<p>Increases battle cash by 50%!</p>"
+                        case "MoneyParty":
+                            return "<p>Doubles battle cash for all teammates!</p>"
+                    }
+                }
+
+                $.getJSON(prefix + "versions.json", vers => {
+                    let last = 0
+                    vers.forEach(ver => {
+                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        last = ver
+                    })
+                    $("#version").val(last)
+                    version = last
+                    $.getJSON(prefix + "data/language/EUen.json", function (d) {
+                        $.each(d, function (key, val) {
+                            lang_dict[key] = val
                         })
-                        all_data.push(row)
-                     }
-                  }
-                  $("#brand-table").bootstrapTable('refreshOptions',{"data": all_data})
+                        load_data()
+                    })
                 })
-                $.getJSON(prefix + "data/parameter/" + version + "/spl__ExpConstant.spl__ExpConstant.json", data_dict => {
-                  const all_data = []
-                  const gearlevelup_data = []
-                  const weaponlevelup_data = []
-                  const rarity_data = []
 
-                  for(const [key, value] of Object.entries(data_dict.BoostRate)) {
-                     const row = ({
-                        Item: key,
-                        ItemDesc: key,
-                        Boost: value,
+                const getUdemae = rankId => {
+                    if (rankId < 10) {
+                        return lang_dict["Udemae_0" + rankId]
+                    }
+                    return lang_dict["Udemae_10"] + (rankId - 10)
+                }
+                const rank_format = data_dict => {
+                    $("#ranking-tables").append(
+                        `<div class="rankingTable"><h2>${getUdemae(
+                            data_dict.Udemae
+                        )}</h2><table class="table table-striped table-hover" id="ranking-table-${
+                            data_dict.Udemae
+                        }"><thead><tr><th scope="col" data-field="key">Key</th><th scope="col" data-field="value">Value</th></tr></thead></table></div>`
+                    )
+                    $(`#ranking-table-${data_dict.Udemae}`).bootstrapTable({})
+                    $(`#ranking-table-${data_dict.Udemae}`).bootstrapTable("refreshOptions", {
+                        data: [
+                            {
+                                key: "Battle Charges",
+                                value: data_dict.Charge,
+                            },
+                            {
+                                key: "Goal Score",
+                                value: data_dict.Goal,
+                            },
+                            {
+                                key: "KOBonus",
+                                value: data_dict.KOBonus,
+                            },
+                            {
+                                key: "OpenLosePoint",
+                                value: data_dict.OpenLosePoint,
+                            },
+                            {
+                                key: "OpenWinPoint",
+                                value: data_dict.OpenWinPoint,
+                            },
+                            {
+                                key: "Promotion",
+                                value: data_dict.Promotion,
+                            },
+                            {
+                                key: "Start Points",
+                                value: data_dict.Start,
+                            },
+                            {
+                                key: "WinBonus",
+                                value: data_dict.WinBonus,
+                            },
+                            {
+                                key: "WinPointBase",
+                                value: data_dict.WinPointBase,
+                            },
+                        ],
+                    })
+                }
 
-                     })
-                     all_data.push(row)
-                  }
-                  const exp_data = [
-                     {
-                        Key: "ByPaintPoint",
-                        Value: data_dict.ByPaintPoint
-                     }, 
-                     {
-                        Key: "ByPaintPointMax",
-                        Value: data_dict.ByPaintPointMax
-                     }, 
-                     {
-                        Key: "ByPlayTime",
-                        Value: data_dict.ByPlayTime
-                     }, 
-                     {
-                        Key: "ByWinGachi (Ranked)",
-                        Value: data_dict.ByWinGachi
-                     }, 
-                     {
-                        Key: "ByWinKO",
-                        Value: data_dict.ByWinKO
-                     }, 
-                     {
-                        Key: "ByWinPnt (No KO)",
-                        Value: data_dict.ByWinPnt
-                     },
-                  ]
-                  data_dict.GearLevelUpExp.forEach((val, idx) => {
-                     const row = ({
-                        Key: idx,
-                        Value: val
+                function load_data() {
+                    $.getJSON(
+                        prefix + "data/parameter/" + version + "/misc/spl__BrandTraitsParam.spl__BrandTraitsParam.json",
+                        data_dict => {
+                            const all_data = []
+                            for (const [key, value] of Object.entries(data_dict.Traits)) {
+                                if (key !== "None" && key in lang_dict) {
+                                    const row = {
+                                        Brand: key,
+                                        Likely: value.UsualGearSkill,
+                                        Unlikely: value.UnusualGearSkill,
+                                    }
+                                    all_data.push(row)
+                                }
+                            }
+                            $("#brand-table").bootstrapTable("refreshOptions", { data: all_data })
+                        }
+                    )
+                    $.getJSON(
+                        prefix + "data/parameter/" + version + "/misc/spl__ExpConstant.spl__ExpConstant.json",
+                        data_dict => {
+                            const all_data = []
+                            const gearlevelup_data = []
+                            const weaponlevelup_data = []
+                            const rarity_data = []
 
-                     })
-                     gearlevelup_data.push(row)
-                  })
-                  data_dict.WeaponLevelUpExp.forEach((val, idx) => {
-                     const row = ({
-                        Key: idx+1,
-                        Value: val
+                            for (const [key, value] of Object.entries(data_dict.BoostRate)) {
+                                const row = {
+                                    Item: key,
+                                    ItemDesc: key,
+                                    Boost: value,
+                                }
+                                all_data.push(row)
+                            }
+                            const exp_data = [
+                                {
+                                    Key: "ByPaintPoint",
+                                    Value: data_dict.ByPaintPoint,
+                                },
+                                {
+                                    Key: "ByPaintPointMax",
+                                    Value: data_dict.ByPaintPointMax,
+                                },
+                                {
+                                    Key: "ByPlayTime",
+                                    Value: data_dict.ByPlayTime,
+                                },
+                                {
+                                    Key: "ByWinGachi (Ranked)",
+                                    Value: data_dict.ByWinGachi,
+                                },
+                                {
+                                    Key: "ByWinKO",
+                                    Value: data_dict.ByWinKO,
+                                },
+                                {
+                                    Key: "ByWinPnt (No KO)",
+                                    Value: data_dict.ByWinPnt,
+                                },
+                            ]
+                            data_dict.GearLevelUpExp.forEach((val, idx) => {
+                                const row = {
+                                    Key: idx,
+                                    Value: val,
+                                }
+                                gearlevelup_data.push(row)
+                            })
+                            data_dict.WeaponLevelUpExp.forEach((val, idx) => {
+                                const row = {
+                                    Key: idx + 1,
+                                    Value: val,
+                                }
+                                weaponlevelup_data.push(row)
+                            })
+                            data_dict.RarityExpPercent.forEach((val, idx) => {
+                                const row = {
+                                    Key: idx + 1,
+                                    Value: val + "%",
+                                }
+                                rarity_data.push(row)
+                            })
+                            $("#boostrate-table").bootstrapTable("refreshOptions", { data: all_data })
+                            $("#expgain-table").bootstrapTable("refreshOptions", { data: exp_data })
+                            $("#gearlevelup-table").bootstrapTable("refreshOptions", { data: gearlevelup_data })
+                            $("#weaponlevelup-table").bootstrapTable("refreshOptions", { data: weaponlevelup_data })
+                            $("#rarityexp-table").bootstrapTable("refreshOptions", { data: rarity_data })
+                        }
+                    )
+                    $.getJSON(
+                        prefix +
+                            "data/parameter/" +
+                            version +
+                            "/misc/spl__GearSkillTraitsParam.spl__GearSkillTraitsParam.json",
+                        data_dict => {
+                            const all_data = []
+                            for (const [key, value] of Object.entries(data_dict.Traits)) {
+                                if (value.ConsistsOfChip.length > 0) {
+                                    const row = {
+                                        Skill: key,
+                                        ConsistsOf: value.ConsistsOfChip,
+                                    }
+                                    all_data.push(row)
+                                }
+                            }
+                            for (const [key, value] of Object.entries(data_dict.Traits)) {
+                                if (value.ConsistsOfChip.length === 0) {
+                                    const row = {
+                                        Skill: key,
+                                        ConsistsOf: value.ConsistsOfChip,
+                                    }
+                                    all_data.push(row)
+                                }
+                            }
 
-                     })
-                     weaponlevelup_data.push(row)
-                  })
-                  data_dict.RarityExpPercent.forEach((val, idx) => {
-                     const row = ({
-                        Key: idx+1,
-                        Value: val + "%"
-                     })
-                     rarity_data.push(row)
-                  })
-                  $("#boostrate-table").bootstrapTable('refreshOptions',{"data": all_data})
-                  $("#expgain-table").bootstrapTable('refreshOptions',{"data": exp_data})
-                  $("#gearlevelup-table").bootstrapTable('refreshOptions',{"data": gearlevelup_data})
-                  $("#weaponlevelup-table").bootstrapTable('refreshOptions',{"data": weaponlevelup_data})
-                  $("#rarityexp-table").bootstrapTable('refreshOptions',{"data": rarity_data})
+                            $("#chunks-table").bootstrapTable("refreshOptions", { data: all_data })
+                        }
+                    )
+                    $.getJSON(
+                        prefix + "data/parameter/" + version + "/misc/spl__ShopConstant.spl__ShopConstant.json",
+                        data_dict => {
+                            const all_data = []
+                            data_dict.PriceForGearRarityUp.forEach((val, idx) => {
+                                const row = {
+                                    Key: idx + 2,
+                                    Value: val,
+                                }
+                                all_data.push(row)
+                            })
+                            $("#gearslots-store-table").bootstrapTable("refreshOptions", { data: all_data })
+                        }
+                    )
+                    $.getJSON(
+                        prefix +
+                            "data/parameter/" +
+                            version +
+                            "/misc/spl__RandomFoodTicketData.spl__RandomFoodTicketData.json",
+                        data_dict => {
+                            $("#randomticket-table").bootstrapTable("refreshOptions", { data: data_dict.Info })
+                        }
+                    )
 
-               })
-               $.getJSON(prefix + "data/parameter/" + version + "/spl__GearSkillTraitsParam.spl__GearSkillTraitsParam.json", data_dict => {
-                  const all_data = []
-                  for(const [key, value] of Object.entries(data_dict.Traits)) {
-                     if(value.ConsistsOfChip.length > 0) {
-                        const row = ({
-                           Skill: key,
-                           ConsistsOf: value.ConsistsOfChip
-                        })
-                        all_data.push(row)
-                     }
-                  }
-                  for(const [key, value] of Object.entries(data_dict.Traits)) {
-                     if(value.ConsistsOfChip.length === 0) {
-                        const row = ({
-                           Skill: key,
-                           ConsistsOf: value.ConsistsOfChip
-                        })
-                        all_data.push(row)
-                     }
-                  }
-                  
-                  $("#chunks-table").bootstrapTable('refreshOptions',{"data": all_data})
-               })
-               $.getJSON(prefix + "data/parameter/" + version + "/spl__ShopConstant.spl__ShopConstant.json", data_dict => {
-                  const all_data = []
-                  data_dict.PriceForGearRarityUp.forEach((val, idx) => {
-                     const row = ({
-                        Key: idx+2,
-                        Value: val
-                     })
-                     all_data.push(row)
-                  })
-                  $("#gearslots-store-table").bootstrapTable('refreshOptions',{"data": all_data})
+                    $.getJSON(
+                        prefix +
+                            "data/parameter/" +
+                            version +
+                            "/misc/spl__PlayerRankInfoTable.spl__PlayerRankInfoTable.json",
+                        data_dict => {
+                            const all_data = []
+                            data_dict.PlayerRankInfo.forEach(item => {
+                                const row = {
+                                    EXP: item.ExpToNextRank,
+                                    Level: item.Rank + 1,
+                                }
+                                all_data.push(row)
+                            })
+                            $("#levelexp-table").bootstrapTable("refreshOptions", { data: all_data })
+                        }
+                    )
+
+                    $.getJSON(prefix + "data/mush/" + version + "/UdemaeInfo.json", data_dict => {
+                        $("#ranking-tables").children().remove()
+                        data_dict.forEach(item => rank_format(item))
+                    })
+
+                    //$.getJson(prefix + "data/parameter/" + version + "/misc/spl__FestConstant.spl__FestConstant.json", data_dict => {
+                    //})
+                }
+
+                $(function () {
+                    $("#brand-table").bootstrapTable({})
+                    $("#boostrate-table").bootstrapTable({})
+                    $("#expgain-table").bootstrapTable({})
+
+                    $("#rarityexp-table").bootstrapTable({})
+                    $("#gearlevelup-table").bootstrapTable({})
+                    $("#weaponlevelup-table").bootstrapTable({})
+                    $("#gearslots-store-table").bootstrapTable({})
+                    $("#gearslots-snails-table").bootstrapTable({})
+                    $("#randomticket-table").bootstrapTable({})
+
+                    $("#chunks-table").bootstrapTable({})
+                    $("#levelexp-table").bootstrapTable({})
+
+                    $("#version").change(function () {
+                        version = $(this).val()
+                        load_data()
+                    })
                 })
-                $.getJSON(prefix + "data/parameter/" + version + "/spl__RandomFoodTicketData.spl__RandomFoodTicketData.json", data_dict => {
-                  $("#randomticket-table").bootstrapTable('refreshOptions',{"data": data_dict.Info})
-                })
-                
-               
-               $.getJSON(prefix + "data/parameter/" + version + "/spl__PlayerRankInfoTable.spl__PlayerRankInfoTable.json", data_dict => {
-                  const all_data = []
-                  data_dict.PlayerRankInfo.forEach(item => {
-                     const row = ({
-                           EXP: item.ExpToNextRank,
-                           Level: item.Rank + 1,
-                     })
-                     all_data.push(row)
-                  })
-                  $("#levelexp-table").bootstrapTable('refreshOptions',{"data": all_data})
-                })
-            }
-
-            $(function() {
-               $('#brand-table').bootstrapTable({})
-               $('#boostrate-table').bootstrapTable({})
-               $('#expgain-table').bootstrapTable({})
-
-               $('#rarityexp-table').bootstrapTable({})
-               $('#gearlevelup-table').bootstrapTable({})
-               $('#weaponlevelup-table').bootstrapTable({})
-               $('#gearslots-store-table').bootstrapTable({})
-               $('#gearslots-snails-table').bootstrapTable({})
-               $("#randomticket-table").bootstrapTable({})
-
-               $('#chunks-table').bootstrapTable({})
-               $('#levelexp-table').bootstrapTable({})
-
-               $('#version').change(function() {
-                  version = ($(this).val());
-                  load_data();
-               });
-            })
-         </script>
-      </main>
-      <footer class="footer">
-         <div class="container text-muted">
-            <div class="footer-notice">
-               <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
-               <p>Feedback or suggestions are welcome. Please contact me via Twitter. <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a></p>
+            </script>
+        </main>
+        <footer class="footer">
+            <div class="container text-muted">
+                <div class="footer-notice">
+                    <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+                    <p>
+                        Feedback or suggestions are welcome. Please contact me via Twitter.
+                        <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a>
+                    </p>
+                </div>
             </div>
-         </div>
-      </footer>
-   </body>
+        </footer>
+    </body>
 </html>
