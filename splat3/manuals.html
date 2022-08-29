@@ -429,6 +429,7 @@
 
                 var version = 100
                 var lang_dict = {}
+                var valid_entries = []
 
                 const languages = [
                     {
@@ -590,35 +591,20 @@
                     "\uffff",
                 ]
 
-                function isValidURL(url) {
-                    $.ajax({
-                        url: url,
-                        type: "head",
-                        async: false,
-                        success: function () {
-                            isValid = true
-                        },
-                        error: function () {
-                            isValid = false
-                        },
-                    })
-
-                    return isValid
-                }
-
                 const get_image_url = url => {
-                    const default_url = `${prefix}images/manual/${url
+                    const default_url = `${url
                         .replace("Work/UI/Icon/Manual/", "")
                         .replace("sourceimages/", "")
                         .replace(".tga", ".png")}`
-                    const lang_url = `${prefix}images/manual/${url
+                    const lang_url = `${url
                         .replace("Work/UI/Icon/Manual/", "")
                         .replace("sourceimages/", "")
                         .replace(".tga", "_" + current_lang + ".png")}`
-                    if (isValidURL(lang_url)) {
-                        return lang_url
+
+                    if (lang_url in valid_entries) {
+                        return `${prefix}images/manual/${lang_url}`
                     } else {
-                        return default_url
+                        return `${prefix}images/manual/${default_url}`
                     }
                 }
 
@@ -638,19 +624,19 @@
                     let html = ""
                     if (layout === "HeadingAndImageL") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageL"><div class="aside card-img"><img src="${img}" loading="lazy" /></div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageL"><div class="aside card-img"><img src="${img}" /></div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" loading="lazy"/></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "HeadingAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" loading="lazy" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageS") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="256" loading="lazy" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="256" /></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "MiniGame") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img"><img src="${img}" loading="lazy" /></div><div class="card-label">${label}</div></div>`
+                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img"><img src="${img}" /></div><div class="card-label">${label}</div></div>`
                     } else if (layout === "FestSpecial00") {
                         html = `<div class="normal-text"><div class="card-title">${
                             lang_dict["L_ContentsB_08-T_Title_00"]
@@ -722,98 +708,107 @@
                             lang_dict[key] = value
                         }
 
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_BankaraMatch.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("bankara", data_dict)
-                            }
-                        )
+                        $.getJSON(prefix + "data/parameter/" + version + "/manual/valid_manual.json", res => {
+                            valid_entries = d
 
-                        $.getJSON(
-                            prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("coop", data_dict)
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_BankaraMatch.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("bankara", data_dict)
+                                }
+                            )
 
-                                // ToDO: SalmonPageList
-                            }
-                        )
+                            $.getJSON(
+                                prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("coop", data_dict)
 
-                        $.getJSON(
-                            prefix + "data/parameter/" + version + "/manual/UIManual_Festival.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("fest", data_dict)
-                            }
-                        )
+                                    // ToDO: SalmonPageList
+                                }
+                            )
 
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_LeagueMatch.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("league", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix + "data/parameter/" + version + "/manual/UIManual_MiniGame.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("minigame", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_PlzAmiiboMySet.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("amiibomyset", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_PlzAmiiboPhoto.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("amiibophoto", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_PlzMiiverse.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("miiverse", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix +
-                                "data/parameter/" +
-                                version +
-                                "/manual/UIManual_RegularMatch.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("regularmatch", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix + "data/parameter/" + version + "/manual/UIManual_Vendor.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("vendor", data_dict)
-                            }
-                        )
-                        $.getJSON(
-                            prefix + "data/parameter/" + version + "/manual/UIManual_XMatch.spl__UIManualData.json",
-                            data_dict => {
-                                standard_format("xmatch", data_dict)
-                            }
-                        )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_Festival.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("fest", data_dict)
+                                }
+                            )
+
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_LeagueMatch.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("league", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_MiniGame.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("minigame", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_PlzAmiiboMySet.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("amiibomyset", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_PlzAmiiboPhoto.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("amiibophoto", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_PlzMiiverse.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("miiverse", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_RegularMatch.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("regularmatch", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix + "data/parameter/" + version + "/manual/UIManual_Vendor.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("vendor", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix + "data/parameter/" + version + "/manual/UIManual_XMatch.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("xmatch", data_dict)
+                                }
+                            )
+                        })
                     })
                 }
-
                 $(function () {
                     $("#language").change(function () {
                         change_lang($(this).val())
