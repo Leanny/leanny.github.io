@@ -638,19 +638,19 @@
                     let html = ""
                     if (layout === "HeadingAndImageL") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageL"><div class="aside card-img"><img src="${img}" /></div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageL"><div class="aside card-img"><img src="${img}" loading="lazy" /></div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" loading="lazy"/></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "HeadingAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" loading="lazy" /></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageS") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="256" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="256" loading="lazy" /></div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "MiniGame") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img"><img src="${img}" /></div><div class="card-label">${label}</div></div>`
+                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img"><img src="${img}" loading="lazy" /></div><div class="card-label">${label}</div></div>`
                     } else if (layout === "FestSpecial00") {
                         html = `<div class="normal-text"><div class="card-title">${
                             lang_dict["L_ContentsB_08-T_Title_00"]
