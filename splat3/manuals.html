@@ -15,7 +15,6 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
         <script
             src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
             integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
@@ -26,8 +25,6 @@
             integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
             crossorigin="anonymous"
         ></script>
-        <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
-        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
         <title>Splatoon 3 - Manual Database</title>
         <style>
             body {
@@ -608,6 +605,15 @@
                     }
                 }
 
+                const get_image_tag = (img, alt, extra = "") => {
+                    new_img = img.replace(".png", ".webp")
+                    return `<picture>
+                        <source type="image/webp" srcset="${new_img}" ${extra}">
+                        <source type="image/png" srcset="${img}" ${extra}">
+                        <img src="${img}" alt="${alt}" ${extra}>
+                    </picture>`
+                }
+
                 const replace_label = label => {
                     if (label === undefined) return ""
                     label = label.replaceAll("\n", "<br />")
@@ -624,19 +630,37 @@
                     let html = ""
                     if (layout === "HeadingAndImageL") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageL"><div class="aside card-img"><img src="${img}" /></div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageL"><div class="aside card-img">${get_image_tag(
+                            img,
+                            label
+                        )}</div><div class="card-title">${title}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
+                            img,
+                            label,
+                            'width="384"'
+                        )}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "HeadingAndImageM") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="384" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
+                            img,
+                            label,
+                            'width="384"'
+                        )}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "TextAndImageS") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img"><img src="${img}" width="256" /></div><div class="aside card-label">${label}</div></div>`
+                        html = `<div class="HeadingAndImageM"><div class="card-title">${title}</div><div class="aside card-img">${get_image_tag(
+                            img,
+                            label,
+                            'width="256"'
+                        )}</div><div class="aside card-label">${label}</div></div>`
                     } else if (layout === "MiniGame") {
                         const img = get_image_url(page.Image)
-                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img"><img src="${img}" /></div><div class="card-label">${label}</div></div>`
+                        html = `<div class="MiniGame"><div class="card-title">${title}</div><div class="card-img">${get_image_tag(
+                            img,
+                            label
+                        )}</div><div class="card-label">${label}</div></div>`
                     } else if (layout === "FestSpecial00") {
                         html = `<div class="normal-text"><div class="card-title">${
                             lang_dict["L_ContentsB_08-T_Title_00"]
@@ -686,7 +710,11 @@
                             const img = get_image_url(chapter.Image)
                             const title = lang_dict[chapter.TitleLabel]
                             element.append(
-                                `<div id="${type}-chapter-${idx}" class="individual-chapter"><div class="header"><h2><img src="${img}" alt="${title}" width="64" /> ${title}</h2></div></div>`
+                                `<div id="${type}-chapter-${idx}" class="individual-chapter"><div class="header"><h2>${get_image_tag(
+                                    img,
+                                    title,
+                                    'width="64"'
+                                )} ${title}</h2></div></div>`
                             )
                         })
                     } else {

@@ -420,8 +420,8 @@
             </div>
         </main>
         <script>
-            const prefix = "https://leanny.github.io/splat3/"
-            //const prefix = "http://127.0.0.1:5500/"
+            //const prefix = "https://leanny.github.io/splat3/"
+            const prefix = "http://127.0.0.1:5500/"
             let version = 100
 
             let lang_dict = {}
@@ -431,9 +431,18 @@
             let clt_gear = {}
             let shs_gear = {}
 
-            const format_img = (base_url, value, width) => `<img src="${base_url}${value}.png" width="${width}" />`
+            const get_image_tag = (img, alt, extra = "") => {
+                new_img = img.replace(".png", ".webp")
+                return `<picture>
+                        <source type="image/webp" srcset="${new_img}" ${extra}">
+                        <source type="image/png" srcset="${img}" ${extra}">
+                        <img src="${img}" alt="${alt}" ${extra}>
+                    </picture>`
+            }
 
-            //var imgFormatter = value => format_img(prefix + "images/weapon/Wst_", value, 96)
+            const format_img = (base_url, value, width) =>
+                get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
+
             var imgFormatter = value =>
                 `<center>${format_img(prefix + "images/weapon_flat/Path_Wst_", value, 96)}</center>`
 

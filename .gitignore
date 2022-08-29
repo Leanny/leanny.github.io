@@ -12,3 +12,4 @@ data/Parameter/*.txt
 splat2new/*
 /nest1event.zip
 /seedchecker2.zip
+/generate_cwebp.py

@@ -339,7 +339,18 @@
 
                 var version = 100
                 var lang_dict = {}
-                const format_img = (base_url, value, width) => `<img src="${base_url}${value}.png" width="${width}" />`
+
+                const get_image_tag = (img, alt, extra = "") => {
+                    new_img = img.replace(".png", ".webp")
+                    return `<picture>
+                        <source type="image/webp" srcset="${new_img}" ${extra}">
+                        <source type="image/png" srcset="${img}" ${extra}">
+                        <img src="${img}" alt="${alt}" ${extra}>
+                    </picture>`
+                }
+
+                const format_img = (base_url, value, width) =>
+                    get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
 
                 var skillFormatter = value => {
                     if (value === "None") return "-"
