@@ -730,6 +730,11 @@
                     })
                 }
 
+                const strip_title = title => {
+                    const l = title.split(" ", 1)[0].length
+                    return title.substring(l)
+                }
+
                 function load_data() {
                     $.getJSON(prefix + "data/language/manual/" + current_lang + ".json", d => {
                         for (const [key, value] of Object.entries(d)) {
@@ -753,8 +758,22 @@
                                 prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("coop", data_dict)
-
-                                    // ToDO: SalmonPageList
+                                    data_dict.SalmonPageList.forEach(entry => {
+                                        const img = get_image_url(entry.SelectImage)
+                                        let elem = $(`#coop-chapter-1`)
+                                        elem.append(
+                                            `<div id="coop-chapter-${
+                                                entry.Key
+                                            }" class="individual-chapter"><div class="header"><h2>${get_image_tag(
+                                                img,
+                                                lang_dict[entry.Page[0].TitleLabel],
+                                                'width="64"'
+                                            )} ${strip_title(lang_dict[entry.Page[0].TitleLabel])}</h2></div></div>`
+                                        )
+                                        entry.Page.forEach(page => {
+                                            appendContent($(`#coop-chapter-${entry.Key}`), page)
+                                        })
+                                    })
                                 }
                             )
 
