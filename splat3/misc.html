@@ -96,6 +96,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="manuals.html">Manual Database</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -334,11 +337,13 @@
                 </div>
             </div>
             <script>
-                const prefix = "https://leanny.github.io/splat3/"
-                //const prefix = "http://127.0.0.1:5500/"
+                //const prefix = "https://leanny.github.io/splat3/"
+                const prefix = "http://127.0.0.1:5500/"
 
                 var version = 100
                 var lang_dict = {}
+
+                const localize = (dir, key) => lang_dict[dir][key]
 
                 const get_image_tag = (img, alt, extra = "") => {
                     new_img = img.replace(".png", ".webp")
@@ -355,12 +360,12 @@
                 var skillFormatter = value => {
                     if (value === "None") return "-"
                     const tmp = format_img(prefix + "images/skill/", value, 96)
-                    return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                    return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearPowerName", value)}</p></center>`
                 }
 
                 var brandFormatter = value => {
                     const tmp = format_img(prefix + "images/brand/", value, 64)
-                    return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                    return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearBrandName", value)}</p></center>`
                 }
 
                 var skillFormatterArray = value => {
@@ -375,28 +380,46 @@
                     let img
                     switch (value) {
                         case "None":
-                            return "Default"
+                            return "<p><center>Default</center></p>"
                         case "Exp100":
                             img = format_img(prefix + "images/food/", "IconShopFoodRankL", 64)
-                            return `<p><center>${img}<br />The Pescatariat Royale</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "BattleExp_Up_02"
+                            )}</center></p>`
                         case "Exp50":
                             img = format_img(prefix + "images/food/", "IconShopFoodRank", 64)
-                            return `<p><center>${img}<br />The Pescatariat</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "BattleExp_Up_01"
+                            )}</center></p>`
                         case "ExpParty":
                             img = format_img(prefix + "images/food/", "IconShopParty_01", 64)
-                            return `<p><center>${img}<br />Marigold'en Garden Greens</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "PartyExp_Up"
+                            )}</center></p>`
                         case "GearPower":
                             img = format_img(prefix + "images/food/", "GearPowerTicketBase", 64)
-                            return `<p><center>${img}<br />Ger Ticket</center></p>`
+                            return `<p><center>${img}<br />Gear Ticket</center></p>`
                         case "Money100":
                             img = format_img(prefix + "images/food/", "IconShopFoodL", 64)
-                            return `<p><center>${img}<br />Commercial Crab Trap Sandwich</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "BattleMoney_Up_02"
+                            )}</center></p>`
                         case "Money50":
                             img = format_img(prefix + "images/food/", "IconShopFood", 64)
-                            return `<p><center>${img}<br />Crab Trap Sandwich</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "BattleMoney_Up_01"
+                            )}</center></p>`
                         case "MoneyParty":
                             img = format_img(prefix + "images/food/", "IconShopParty_00", 64)
-                            return `<p><center>${img}<br />Mega Mountain a la Marigold</center></p>`
+                            return `<p><center>${img}<br />${localize(
+                                "CommonMsg/Lobby/LobbyFoodName",
+                                "PartyMoney_Up"
+                            )}</center></p>`
                     }
                 }
 
@@ -404,28 +427,32 @@
                     let img
                     switch (value) {
                         case "None":
-                            return "Default"
+                            return "<p>Default</p>"
                         case "Exp100":
-                            return "<p>Doubles battle XP!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "BattleExp_Up_02_Overwrite")}</p>`
                         case "Exp50":
-                            return "<p>Increases battle XP by 50%!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "BattleExp_Up_01_Overwrite")}</p>`
                         case "ExpParty":
-                            return "<p>Doubles battle XP for all teammates!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "PartyExp_Up_Overwrite")}</p>`
                         case "GearPower":
                             return "<p>Gear will gain XP more quickly and is more likely to receive a specific ability when it levels up.</p>"
                         case "Money100":
-                            return "<p>Doubles battle cash!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "BattleMoney_Up_02_Overwrite")}</p>`
                         case "Money50":
-                            return "<p>Increases battle cash by 50%!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "BattleMoney_Up_01_Overwrite")}</p>`
                         case "MoneyParty":
-                            return "<p>Doubles battle cash for all teammates!</p>"
+                            return `<p>${localize("CommonMsg/Lobby/LobbyFoodExp", "PartyMoney_Up_Overwrite")}</p>`
                     }
                 }
 
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
                     vers.forEach(ver => {
-                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        if (ver === "099") {
+                            $("#version").append(new Option("Testfire", ver))
+                        } else {
+                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        }
                         last = ver
                     })
                     $("#version").val(last)
@@ -440,9 +467,9 @@
 
                 const getUdemae = rankId => {
                     if (rankId < 10) {
-                        return lang_dict["Udemae_0" + rankId]
+                        return localize("CommonMsg/VS/Udemae", "Udemae_0" + rankId)
                     }
-                    return lang_dict["Udemae_10"] + (rankId - 10)
+                    return localize("CommonMsg/VS/Udemae", "Udemae_10") + (rankId - 10)
                 }
                 const rank_format = data_dict => {
                     $("#ranking-tables").append(
@@ -501,7 +528,7 @@
                         data_dict => {
                             const all_data = []
                             for (const [key, value] of Object.entries(data_dict.Traits)) {
-                                if (key !== "None" && key in lang_dict) {
+                                if (key !== "None" && key in lang_dict["CommonMsg/Gear/GearBrandName"]) {
                                     const row = {
                                         Brand: key,
                                         Likely: value.UsualGearSkill,

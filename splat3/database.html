@@ -82,6 +82,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="manuals.html">Manual Database</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -431,6 +434,8 @@
             let clt_gear = {}
             let shs_gear = {}
 
+            const localize = (dir, key) => lang_dict[dir][key]
+
             const get_image_tag = (img, alt, extra = "") => {
                 new_img = img.replace(".png", ".webp")
                 return `<picture>
@@ -450,12 +455,12 @@
 
             var skillFormatter = value => {
                 const tmp = format_img(prefix + "images/skill/", value, 96)
-                return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearPowerName", value)}</p></center>`
             }
 
             var brandFormatter = value => {
                 const tmp = format_img(prefix + "images/brand/", value, 64)
-                return `<center><p>${tmp}<br />${lang_dict[value]}</p></center>`
+                return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearBrandName", value)}</p></center>`
             }
 
             var subimgFormatter = value => `<center>${format_img(prefix + "images/subspe/Wsb_", value, 64)}</center>`
@@ -476,10 +481,13 @@
                 `<center>${format_img(prefix + "images/badge/Badge_WeaponLevel_", value + "_Lv01", 96)}</center>`
 
             var UIParamFormatter = value => {
-                console.log(value)
-                return `<b>${lang_dict[value[0]["Type"]]}: </b> ${value[0]["Value"]}<br /><b>${
-                    lang_dict[value[1]["Type"]]
-                }: </b> ${value[1]["Value"]}<br /><b>${lang_dict[value[2]["Type"]]}: </b> ${value[2]["Value"]}<br />`
+                return `<b>${localize("CommonMsg/Weapon/WeaponParamName", value[0]["Type"])}: </b> ${
+                    value[0]["Value"]
+                }<br /><b>${localize("CommonMsg/Weapon/WeaponParamName", value[1]["Type"])}: </b> ${
+                    value[1]["Value"]
+                }<br /><b>${localize("CommonMsg/Weapon/WeaponParamName", value[2]["Type"])}: </b> ${
+                    value[2]["Value"]
+                }<br />`
             }
 
             var mpuFormatter = value => value[1]
@@ -596,7 +604,11 @@
             $.getJSON(prefix + "versions.json", vers => {
                 let last = 0
                 vers.forEach(ver => {
-                    $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                    if (ver === "099") {
+                        $("#version").append(new Option("Testfire", ver))
+                    } else {
+                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                    }
                     last = ver
                 })
                 $("#version").val(last)
@@ -648,17 +660,28 @@
             if (typeof current_lang === "undefined") {
                 current_lang = "EUen"
             }
+
             window.change_lang = lang => {
                 current_lang = lang
                 $.getJSON(prefix + "data/language/" + current_lang + ".json", d => {
                     for (const [key, value] of Object.entries(d)) {
                         lang_dict[key] = value
                     }
+                    translate_menu()
                     load_weapons()
                     load_subweapons()
                     load_gear()
                 })
             }
+
+            function translate_menu() {
+                $("#weapons-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_00-T_Category_00"))
+                $("#heads-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_01-T_Category_00"))
+                $("#clothes-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_02-T_Category_00"))
+                $("#shoes-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_03-T_Category_00"))
+                //
+            }
+
             function detailFormatterWeapon(index, row) {
                 get_parameter(row["SpecActor"])
                 return `<div id="detail-view-${row["SpecActor"]}">a</div>`
@@ -685,9 +708,15 @@
                             Id: weapon["Id"],
                             NameClean: weapon["__RowId"],
                             InternalName: weapon["__RowId"],
-                            Name: lang_dict[weapon["__RowId"]],
-                            Sub: [get_name(weapon["SubWeapon"]), lang_dict[get_name(weapon["SubWeapon"])]],
-                            Special: [get_name(weapon["SpecialWeapon"]), lang_dict[get_name(weapon["SpecialWeapon"])]],
+                            Name: localize("CommonMsg/Weapon/WeaponName_Main", weapon["__RowId"]),
+                            Sub: [
+                                get_name(weapon["SubWeapon"]),
+                                localize("CommonMsg/Weapon/WeaponName_Sub", get_name(weapon["SubWeapon"])),
+                            ],
+                            Special: [
+                                get_name(weapon["SpecialWeapon"]),
+                                localize("CommonMsg/Weapon/WeaponName_Special", get_name(weapon["SpecialWeapon"])),
+                            ],
                             SpecialPoint: weapon["SpecialPoint"],
                             Range: weapon["Range"],
                             RewardLvl0: weapon["__RowId"],
@@ -715,7 +744,7 @@
                         const row = {
                             Id: subweapon["Id"],
                             NameClean: subweapon["__RowId"],
-                            Name: lang_dict[subweapon["__RowId"]],
+                            Name: localize("CommonMsg/Weapon/WeaponExp_Sub", subweapon["__RowId"]),
                         }
                         subdata.push(row)
                     }
@@ -723,15 +752,15 @@
                 $("#subweapon-table").bootstrapTable("refreshOptions", { data: subdata })
             }
 
-            function load_gear_into_table(ref_table, ref_dict) {
+            function load_gear_into_table(ref_table, dir_name, ref_dict) {
                 const geardata = []
                 for (const gear of Object.values(ref_dict)) {
                     const gearname = gear["__RowId"].substring(4)
-                    if (gearname in lang_dict) {
+                    if (gearname in lang_dict["CommonMsg/Gear/" + dir_name]) {
                         const row = {
                             Id: gear["Id"],
                             NameClean: gear["__RowId"],
-                            Name: lang_dict[gearname],
+                            Name: localize("CommonMsg/Gear/" + dir_name, gearname),
                             Brand: gear["Brand"],
                             Price: gear["Price"],
                             Rarity: gear["Rarity"] + 1,
@@ -744,9 +773,9 @@
             }
 
             function load_gear() {
-                load_gear_into_table("#heads-table", hed_gear)
-                load_gear_into_table("#clothes-table", clt_gear)
-                load_gear_into_table("#shoes-table", shs_gear)
+                load_gear_into_table("#heads-table", "GearName_Head", hed_gear)
+                load_gear_into_table("#clothes-table", "GearName_Clothes", clt_gear)
+                load_gear_into_table("#shoes-table", "GearName_Shoes", shs_gear)
             }
 
             $(function () {

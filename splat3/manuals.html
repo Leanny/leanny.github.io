@@ -211,6 +211,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="manuals.html">Manual Database</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -244,9 +247,10 @@
                                 role="tab"
                                 aria-controls="minigame"
                                 aria-selected="false"
-                                >Card Game</a
+                                >Tableturf Battle</a
                             >
                         </li>
+                        <!--
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -259,6 +263,7 @@
                                 >League Match</a
                             >
                         </li>
+                        -->
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -343,6 +348,7 @@
                                 >Vendor</a
                             >
                         </li>
+                        <!--
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -355,6 +361,7 @@
                                 >X-Match</a
                             >
                         </li>
+                        -->
                     </ul>
                     <div class="tab-content" id="modeTabControl">
                         <div
@@ -421,12 +428,14 @@
                 </div>
             </div>
             <script>
-                const prefix = "https://leanny.github.io/splat3/"
-                //const prefix = "http://127.0.0.1:5500/"
+                //const prefix = "https://leanny.github.io/splat3/"
+                const prefix = "http://127.0.0.1:5500/"
 
                 var version = 100
                 var lang_dict = {}
                 var valid_entries = []
+
+                const localize = (dir, key) => lang_dict[dir][key]
 
                 const languages = [
                     {
@@ -597,8 +606,7 @@
                         .replace("Work/UI/Icon/Manual/", "")
                         .replace("sourceimages/", "")
                         .replace(".tga", "_" + current_lang + ".png")}`
-
-                    if (lang_url in valid_entries) {
+                    if (valid_entries.includes(lang_url)) {
                         return `${prefix}images/manual/${lang_url}`
                     } else {
                         return `${prefix}images/manual/${default_url}`
@@ -623,9 +631,9 @@
                     return label
                 }
 
-                const appendContent = (selector, page) => {
-                    const label = replace_label(lang_dict[page.BodyLabel])
-                    const title = lang_dict[page.TitleLabel]
+                const appendContent = (selector, msgPath, page) => {
+                    const label = replace_label(localize(msgPath, page.BodyLabel))
+                    const title = localize(msgPath, page.TitleLabel)
                     const layout = page.LayoutType
                     let html = ""
                     if (layout === "HeadingAndImageL") {
@@ -662,10 +670,11 @@
                             label
                         )}</div><div class="card-label">${label}</div></div>`
                     } else if (layout === "FestSpecial00") {
-                        html = `<div class="normal-text"><div class="card-title">${
-                            lang_dict["L_ContentsB_08-T_Title_00"]
-                        }</div><div class="card-label">${replace_label(
-                            lang_dict["L_ContentsB_08-T_Contents_00"]
+                        html = `<div class="normal-text"><div class="card-title">${localize(
+                            "LayoutMsg/Cmn_ManualAll_00",
+                            "L_ContentsB_08-T_Title_00"
+                        )}</div><div class="card-label">${replace_label(
+                            localize("LayoutMsg/Cmn_ManualAll_00", "L_ContentsB_08-T_Contents_00")
                         )}</div></div>`
                     } else if (layout === "CoopSpecial00") {
                         html = `<div class="normal-text"><div class="card-title">${title}</div><div class="card-label">${label}</div></div>`
@@ -689,10 +698,24 @@
                     load_data()
                 }
 
+                function translate_menu() {
+                    $("#bankaramatch-tab").text(
+                        localize("CommonMsg/Manual/ManualBankaraMatch", "BankaraMatch_Button01")
+                    )
+                    $("#minigame-tab").text(localize("CommonMsg/MatchMode", "MiniGame"))
+                    $("#regularmatch-tab").text(localize("CommonMsg/MatchMode", "Regular"))
+                    $("#coop-tab").text(localize("CommonMsg/MatchMode", "Coop"))
+                    $("#vendor-tab").text(localize("CommonMsg/Glossary", "Vendor"))
+                }
+
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
                     vers.forEach(ver => {
-                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        if (ver === "099") {
+                            $("#version").append(new Option("Testfire", ver))
+                        } else {
+                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        }
                         last = ver
                     })
                     $("#version").val(last)
@@ -700,15 +723,18 @@
                     load_data()
                 })
 
+                const get_msg_path = text => text.replace("Work/Message/", "").replace(".mstxt", "")
+
                 const standard_format = (type, data_dict) => {
                     const chapters = data_dict.ChapterSelectBtnNum
+                    const msgPath = get_msg_path(data_dict.Mstxt)
                     const element = $(`#${type}-chapter`)
                     element.children().remove()
                     let default_chapter = `#${type}-chapter-0`
                     if ("ChapterSelectList" in data_dict && data_dict.ChapterSelectList.length > 0) {
                         data_dict.ChapterSelectList.forEach((chapter, idx) => {
                             const img = get_image_url(chapter.Image)
-                            const title = lang_dict[chapter.TitleLabel]
+                            const title = localize(msgPath, chapter.TitleLabel)
                             element.append(
                                 `<div id="${type}-chapter-${idx}" class="individual-chapter"><div class="header"><h2>${get_image_tag(
                                     img,
@@ -723,9 +749,9 @@
                     }
                     data_dict.PageList.forEach(page => {
                         if ("Chapter" in page) {
-                            appendContent($(`#${type}-chapter-${page.Chapter}`), page)
+                            appendContent($(`#${type}-chapter-${page.Chapter}`), msgPath, page)
                         } else {
-                            appendContent($(default_chapter), page)
+                            appendContent($(default_chapter), msgPath, page)
                         }
                     })
                 }
@@ -736,14 +762,13 @@
                 }
 
                 function load_data() {
-                    $.getJSON(prefix + "data/language/manual/" + current_lang + ".json", d => {
+                    $.getJSON(prefix + "data/language/" + current_lang + ".json", d => {
                         for (const [key, value] of Object.entries(d)) {
                             lang_dict[key] = value
                         }
-
+                        translate_menu()
                         $.getJSON(prefix + "data/parameter/" + version + "/manual/valid_manual.json", res => {
-                            valid_entries = d
-
+                            valid_entries = res
                             $.getJSON(
                                 prefix +
                                     "data/parameter/" +
@@ -758,6 +783,7 @@
                                 prefix + "data/parameter/" + version + "/manual/UIManual_Coop.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("coop", data_dict)
+                                    const msgPath = get_msg_path(data_dict.Mstxt)
                                     data_dict.SalmonPageList.forEach(entry => {
                                         const img = get_image_url(entry.SelectImage)
                                         let elem = $(`#coop-chapter-1`)
@@ -766,12 +792,14 @@
                                                 entry.Key
                                             }" class="individual-chapter"><div class="header"><h2>${get_image_tag(
                                                 img,
-                                                lang_dict[entry.Page[0].TitleLabel],
+                                                localize(msgPath, entry.Page[0].TitleLabel),
                                                 'width="64"'
-                                            )} ${strip_title(lang_dict[entry.Page[0].TitleLabel])}</h2></div></div>`
+                                            )} ${strip_title(
+                                                localize(msgPath, entry.Page[0].TitleLabel)
+                                            )}</h2></div></div>`
                                         )
                                         entry.Page.forEach(page => {
-                                            appendContent($(`#coop-chapter-${entry.Key}`), page)
+                                            appendContent($(`#coop-chapter-${entry.Key}`), msgPath, page)
                                         })
                                     })
                                 }
@@ -787,7 +815,7 @@
                                 }
                             )
 
-                            $.getJSON(
+                            /*$.getJSON(
                                 prefix +
                                     "data/parameter/" +
                                     version +
@@ -795,7 +823,7 @@
                                 data_dict => {
                                     standard_format("league", data_dict)
                                 }
-                            )
+                            )*/
                             $.getJSON(
                                 prefix +
                                     "data/parameter/" +
@@ -847,12 +875,12 @@
                                     standard_format("vendor", data_dict)
                                 }
                             )
-                            $.getJSON(
+                            /*$.getJSON(
                                 prefix + "data/parameter/" + version + "/manual/UIManual_XMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("xmatch", data_dict)
                                 }
-                            )
+                            )*/
                         })
                     })
                 }

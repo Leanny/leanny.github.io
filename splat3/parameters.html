@@ -171,10 +171,17 @@
                 var version = 100
                 var lang_dict = {}
 
+                const localize = (dir, key) => lang_dict[dir][key]
+
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
                     vers.forEach(ver => {
-                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        if (ver === "099") {
+                            $("#version").append(new Option("Testfire", ver))
+                        } else {
+                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        }
+
                         last = ver
                     })
                     $("#version").val(last)
@@ -198,7 +205,7 @@
                                 weapon_data[item["Id"]] = item
                                 $("#weapon-select").append(
                                     new Option(
-                                        lang_dict[item.__RowId],
+                                        localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId),
                                         item.SpecActor.replace("Work/Actor/", "").replace(
                                             ".engine__actor__ActorParam.gyml",
                                             ""
@@ -217,7 +224,7 @@
                                 weapon_data[item["Id"]] = item
                                 $("#sub-select").append(
                                     new Option(
-                                        lang_dict[item.__RowId],
+                                        localize("CommonMsg/Weapon/WeaponName_Sub", item.__RowId),
                                         item.SpecActor.replace("Work/Actor/", "").replace(
                                             ".engine__actor__ActorParam.gyml",
                                             ""
@@ -234,7 +241,7 @@
                             weapon_data[item["Id"]] = item
                             $("#special-select").append(
                                 new Option(
-                                    lang_dict[item.__RowId],
+                                    localize("CommonMsg/Weapon/WeaponName_Special", item.__RowId),
                                     item.SpecActor.replace("Work/Actor/", "").replace(
                                         ".engine__actor__ActorParam.gyml",
                                         ""

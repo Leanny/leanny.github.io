@@ -1,0 +1,22 @@
+[
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterMiddle00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerStandard00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherStrong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoDozer.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Batoroika.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mother.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Kurage0"
+  }
+]

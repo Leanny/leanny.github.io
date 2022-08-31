@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <title>Splatoon 3 - Misc Database</title>
+        <style>
+            body {
+                background-color: #e9ecef;
+            }
+            footer {
+                border-top: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .themed-grid-col {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: rgba(86, 61, 124, 0.15);
+                border: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            #parameterContent {
+                margin-top: 1em;
+                border: 1px solid rgba(54, 38, 78, 0.2);
+                background-color: rgba(34, 19, 56, 0.2);
+            }
+            h2 {
+                margin: 1rem;
+            }
+
+            .cardgame-slot {
+                width: 10px;
+                height: 10px;
+            }
+
+            .cardgame-grid {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .break {
+                flex-basis: 100%;
+                height: 0;
+            }
+
+            [data-grid="Empty"].cardgame-slot {
+                background-image: url("http://127.0.0.1:5500/images/minigame/misc/Mng_Point_02.png");
+            }
+            [data-grid="Fill"].cardgame-slot {
+                background-image: url("http://127.0.0.1:5500/images/minigame/misc/AreaPiece_00.png");
+            }
+            [data-grid="Special"].cardgame-slot {
+                background-image: url("http://127.0.0.1:5500/images/minigame/misc/AreaPiece_02.png");
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Tableturf Battle Database</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parameters.html">Parameter Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="misc.html">Misc Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manuals.html">Manual Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="col-sm-8 mx-auto">
+                    <h1>Splatoon 3 - Tableturf Battle Database</h1>
+                    <select class="form-control" id="version"></select>
+                    <ul class="nav nav-tabs" id="modes" role="tablist">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                id="cardlist-tab"
+                                data-toggle="tab"
+                                href="#cardlist"
+                                role="tab"
+                                aria-controls="cardlist"
+                                aria-selected="true"
+                                >Card List</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="decklist-tab"
+                                data-toggle="tab"
+                                href="#decklist"
+                                role="tab"
+                                aria-controls="decklist"
+                                aria-selected="false"
+                                >Deck List</a
+                            >
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="modeTabControl">
+                        <div
+                            class="tab-pane fade show active"
+                            id="cardlist"
+                            role="tabpanel"
+                            aria-labelledby="cardlist-tab"
+                        >
+                            <div class="tab-content" id="cardlistTabControl">
+                                <div class="table-responsive">
+                                    <table
+                                        class="table table-striped table-hover"
+                                        id="minigamecardinfo-table"
+                                        data-sortable="true"
+                                        data-search="true"
+                                        data-show-columns="true"
+                                        data-show-pagination-switch="true"
+                                        data-show-fullscreen="true"
+                                    >
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" data-field="Number" data-sortable="true">Number</th>
+                                                <th scope="col" data-field="Name" data-formatter="imgFormatter">
+                                                    Image
+                                                </th>
+                                                <th
+                                                    scope="col"
+                                                    data-field="Name"
+                                                    data-sortable="true"
+                                                    data-formatter="nameFormatter"
+                                                >
+                                                    Name
+                                                </th>
+
+                                                <th scope="col" data-field="SpecialCost" data-sortable="true">
+                                                    Special Cost
+                                                </th>
+                                                <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                                <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                                <th scope="col" data-field="Square" data-formatter="squareFormatter">
+                                                    Square
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="decklist" role="tabpanel" aria-labelledby="decklist-tab">
+                            <div class="tab-content" id="decklistTabControl"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script>
+                const prefix = "https://leanny.github.io/splat3/"
+                //const prefix = "http://127.0.0.1:5500/"
+
+                var version = 100
+                var lang_dict = {}
+
+                const localize = (dir, key) => lang_dict[dir][key]
+
+                const get_image_tag = (img, alt, extra = "") => {
+                    new_img = img.replace(".png", ".webp")
+                    return `<picture>
+                        <source type="image/webp" srcset="${new_img}" ${extra}>
+                        <source type="image/png" srcset="${img}" ${extra}>
+                        <img src="${img}" alt="${alt}" ${extra}>
+                    </picture>`
+                }
+
+                const format_img = (base_url, value, width) =>
+                    get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
+
+                var nameFormatter = value => localize("CommonMsg/MiniGame/MiniGameCardName", value)
+
+                var imgFormatter = value =>
+                    `<center>${format_img(prefix + "images/minigame/card/", value, 96)}</center>`
+
+                var squareFormatter = value => {
+                    const res = []
+                    for (let i = 0; i < value.length; i += 8) {
+                        for (let j = 7; j >= 0; j--) {
+                            res.push(`<div class="cardgame-slot" data-grid="${value[63 - (i + j)]}"></div>`)
+                        }
+                        res.push('<div class="break"></div>')
+                    }
+                    return `<div class="cardgame-grid">${res.join("")}</div>`
+                }
+
+                $.getJSON(prefix + "versions.json", vers => {
+                    let last = 0
+                    vers.forEach(ver => {
+                        if (ver === "099") {
+                            $("#version").append(new Option("Testfire", ver))
+                        } else {
+                            $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                        }
+                        last = ver
+                    })
+                    $("#version").val(last)
+                    version = last
+                    $.getJSON(prefix + "data/language/EUen.json", function (d) {
+                        $.each(d, function (key, val) {
+                            lang_dict[key] = val
+                        })
+                        load_data()
+                    })
+                })
+
+                function load_data() {
+                    $.getJSON(prefix + "data/mush/" + version + "/MiniGameCardInfo.json", data_dict => {
+                        $("#minigamecardinfo-table").bootstrapTable("refreshOptions", { data: data_dict })
+                    })
+                    $.getJSON(prefix + "data/mush/" + version + "/MiniGamePresetDeck.json", data_dict => {
+                        $("#decklistTabControl").children().remove()
+
+                        data_dict.forEach((elem, idx) => {
+                            deckname = localize("CommonMsg/Glossary", elem.__RowId.replace("_", ""))
+                            deck_cards = `<div class="table-responsive">
+                                    <table
+                                        class="table table-striped table-hover"
+                                        id="minigamedeck-${idx}-table"
+                                        data-sortable="true"
+                                    >
+                                        <thead>
+                                            <tr>
+                                                <th
+                                                    scope="col"
+                                                    data-field="Name"
+                                                    data-sortable="true"
+                                                    data-formatter="nameFormatter"
+                                                >
+                                                    Card Name
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>`
+                            $("#decklistTabControl").append(`<h2>${deckname}</h2>${deck_cards}`)
+                            $(`#minigamedeck-${idx}-table`).bootstrapTable({})
+                            const all_cards = []
+                            elem.Card.forEach(card => {
+                                const row = {
+                                    Name: card
+                                        .replace("Work/Gyml/MiniGame_", "")
+                                        .replace(".spl__MiniGameCardInfo.gyml", ""),
+                                }
+                                all_cards.push(row)
+                            })
+                            $(`#minigamedeck-${idx}-table`).bootstrapTable("refreshOptions", { data: all_cards })
+                        })
+                    })
+                }
+
+                $(function () {
+                    $("#minigamecardinfo-table").bootstrapTable({})
+
+                    $("#version").change(function () {
+                        version = $(this).val()
+                        load_data()
+                    })
+                })
+            </script>
+        </main>
+        <footer class="footer">
+            <div class="container text-muted">
+                <div class="footer-notice">
+                    <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+                    <p>
+                        Feedback or suggestions are welcome. Please contact me via Twitter.
+                        <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
