@@ -1,0 +1,587 @@
+[
+  {
+    "HowToGet": "Shop",
+    "Id": 0,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 587,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 697,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 3013,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 3014,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 3015,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 3200,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 3000,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 676,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 164,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 169,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 163,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 173,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 174,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 175,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 162,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 161,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 160,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 146,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 147,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 150,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 151,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 152,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 155,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 157,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 159,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 179,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 143,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 180,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 206,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 207,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 208,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 209,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 211,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 205,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 212,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 217,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 219,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 213,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 204,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 203,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 202,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 184,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 185,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 189,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 191,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 194,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 195,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 197,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 200,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 201,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 181,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 142,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 140,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 45,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 60,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 1,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 2,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 3,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 5,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 8,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 9,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 10,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 11,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 12,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 13,
+    "Season": 1
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 14,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 103,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 104,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 127,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 133,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 135,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 137,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 138,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 221,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 109,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 117,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 118,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 119,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 222,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 224,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 225,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 245,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 247,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 248,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 249,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 251,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 255,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 256,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 258,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 259,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 243,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 242,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 241,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 226,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 228,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 229,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 230,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 231,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 233,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 235,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 237,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 238,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 239,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 240,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 260,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 261,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 262,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 264,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 265,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 266,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 267,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 271,
+    "Season": 0
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 281,
+    "Season": 1
+  }
+]

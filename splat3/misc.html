@@ -63,6 +63,10 @@
             h2 {
                 margin: 1rem;
             }
+
+            h3 {
+                margin: 1rem;
+            }
         </style>
     </head>
     <body>
@@ -88,7 +92,7 @@
                         <a class="nav-link" href="database.html">Weapon and Gear Database</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="parameters.html">Parameter Database</a>
+                        <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="misc.html">Misc Database</a>
@@ -97,7 +101,13 @@
                         <a class="nav-link" href="manuals.html">Manual Database</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="parameters.html">Parameter Database</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="title.html">Title Database</a>
                     </li>
                 </ul>
             </div>
@@ -166,6 +176,30 @@
                                 aria-controls="ranking"
                                 aria-selected="false"
                                 >Anarchy Battle</a
+                            >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    id="color-tab"
+                                    data-toggle="tab"
+                                    href="#color"
+                                    role="tab"
+                                    aria-controls="color"
+                                    aria-selected="false"
+                                    >Colors</a
+                                >
+                            </li>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="gacha-tab"
+                                data-toggle="tab"
+                                href="#gacha"
+                                role="tab"
+                                aria-controls="gacha"
+                                aria-selected="false"
+                                >Gacha</a
                             >
                         </li>
                         <!--<li class="nav-item">
@@ -321,6 +355,32 @@
                                 <div id="ranking-tables"></div>
                             </div>
                         </div>
+                        <div class="tab-pane fade show" id="color" role="tabpanel" aria-labelledby="color-tab">
+                            <div class="tab-content" id="colorTabControl">
+                                <table
+                                class="table table-striped table-hover"
+                                id="color-table"
+                            >
+                                <thead>
+                                    <tr>
+                                        <th scope="col" data-field="Name">Name</th>
+                                        <th scope="col" data-field="Alpha" data-formatter="colorFormat">Alpha</th>
+                                        <th scope="col" data-field="Bravo" data-formatter="colorFormat">Bravo</th>
+                                        <th scope="col" data-field="Charlie" data-formatter="colorFormat">Charlie</th>
+                                        <th scope="col" data-field="Neutral" data-formatter="colorFormat">Neutral</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="gacha" role="tabpanel" aria-labelledby="gacha-tab">
+                            <div class="tab-content" id="gachaTabControl">
+                                <h2>Lottery Reward Data</h2>
+                                <div id="lotteryBox"></div>
+                                <h2>Mystery Box</h2>
+                                <div id="mysteryBox"></div>
+                            </div>
+                        </div>
                         <!--
                   <div class="tab-pane fade show" id="fest" role="tabpanel" aria-labelledby="fest-tab">
                      <div class="tab-content" id="festTabControl">
@@ -375,6 +435,10 @@
                 }
 
                 var percentFormatter = value => value + "%"
+
+                var colorFormat = value => {
+                    return `<p style="background-color: rgba(${value.R*255}, ${value.G*255}, ${value.B*255}, ${value.A});">R: ${value.R}<br />G: ${value.G}<br />B: ${value.B}<br />A: ${value.A}</p>`
+                }
 
                 var foodFormatter = value => {
                     let img
@@ -522,6 +586,19 @@
                     })
                 }
 
+                function typeFormatter(value) {
+                    if (value === "Byname") return "Title"
+                    if (value === "NamePlateBg") return "Banner"
+                    if (value === "AllGearSkillChip") return "Chunk (any)"
+                    if (value === "GearSkillChip") return "Chunk (subability only)"
+                    if (value === "MiniGameCardPack") return "Pack of Cards"
+                    if (value === "LockerSticker") return "Locker Sticker"
+                    if (value === "LockerFigure") return "Locker Figure"
+                    if (value === "FoodTicket") return "Food Ticket"
+                    if (value === "DrinkTicket") return "Drink Ticket"
+                    return value
+                }
+
                 function load_data() {
                     $.getJSON(
                         prefix + "data/parameter/" + version + "/misc/spl__BrandTraitsParam.spl__BrandTraitsParam.json",
@@ -618,7 +695,7 @@
                         data_dict => {
                             const all_data = []
                             for (const [key, value] of Object.entries(data_dict.Traits)) {
-                                if (value.ConsistsOfChip.length > 0) {
+                                if (value.ConsistsOfChip.length > 0 && key !== "None") {
                                     const row = {
                                         Skill: key,
                                         ConsistsOf: value.ConsistsOfChip,
@@ -627,7 +704,7 @@
                                 }
                             }
                             for (const [key, value] of Object.entries(data_dict.Traits)) {
-                                if (value.ConsistsOfChip.length === 0) {
+                                if (value.ConsistsOfChip.length === 0 && key !== "None") {
                                     const row = {
                                         Skill: key,
                                         ConsistsOf: value.ConsistsOfChip,
@@ -686,6 +763,101 @@
                         data_dict.forEach(item => rank_format(item))
                     })
 
+                    $.getJSON(prefix + "data/mush/" + version + "/MysteryBoxData.json", data_dict => {
+                        $("#mysteryBox").children().remove()
+                        data_dict.forEach((val, idx) => {
+                            html = [`<h3>Book ${val.BookId} - Season ${val.Season}</h3>`]
+                            html.push(`<div class="table-responsive">
+                                    <table
+                                        class="table table-striped table-hover"
+                                        id="mysterybox-${idx}-table"
+                                        data-sortable="true"
+                                    >
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" data-field="FoodType" data-sortable="true">
+                                                    Food Type
+                                                </th>
+                                                <th scope="col" data-field="Type" data-sortable="true">
+                                                    Type
+                                                </th>
+                                                <th scope="col" data-field="Percent" data-formatter="percentFormatter" data-sortable="true">
+                                                    Percent
+                                                </th>
+                                                <th scope="col" data-field="Value" data-sortable="true">
+                                                    Amount
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>`)
+                            $("#mysteryBox").append(html.join(""))
+                            $(`#mysterybox-${idx}-table`).bootstrapTable({})
+                            $(`#mysterybox-${idx}-table`).bootstrapTable("refreshOptions", { data: val.Info })
+                        })
+                    })
+
+                    $.getJSON(prefix + "data/mush/" + version + "/LotRewardData.json", data_dict => {
+                        $("#lotteryBox").children().remove()
+                        data_dict.forEach((val, idx) => {
+                            html = [`<h3>Lottery Rewards - Season ${val.Season}</h3>`]
+                            html.push(`<div class="table-responsive">
+                                    <table
+                                        class="table table-striped table-hover"
+                                        id="lotteryBox-${idx}-table"
+                                        data-show-columns="true"
+                                        data-sortable="true"
+                                    >
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" data-field="Grade" data-sortable="true">
+                                                    Grade
+                                                </th>
+                                                <th scope="col" data-field="Percent" data-formatter="percentFormatter" data-sortable="true">
+                                                    Percent
+                                                </th>
+                                                <th scope="col" data-field="Type" data-sortable="true" data-formatter="typeFormatter">
+                                                    Type
+                                                </th>
+                                                <th scope="col" data-field="SubstituteArrayId" data-sortable="true" data-visible="false">
+                                                    SubstituteArrayId
+                                                </th>
+                                                <th scope="col" data-field="SubType" data-sortable="true">
+                                                    SubType
+                                                </th>
+                                                <th scope="col" data-field="Same Number" data-sortable="true" data-visible="false">
+                                                    SameNum
+                                                </th>
+                                                <th scope="col" data-field="NotSameNum" data-sortable="true" data-visible="false">
+                                                    Not Same Number
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>`)
+                            $("#lotteryBox").append(html.join(""))
+                            $(`#lotteryBox-${idx}-table`).bootstrapTable({})
+                            $(`#lotteryBox-${idx}-table`).bootstrapTable("refreshOptions", { data: val.Info })
+                        })
+                    })
+
+                    $.getJSON(prefix + "data/mush/" + version + "/TeamColorDataSet.json", data_dict => {
+                        all_entries = []
+                        data_dict.forEach(entry => {
+                            const row = {
+                                Alpha: entry.AlphaTeamColor,
+                                Bravo: entry.BravoTeamColor,
+                                Charlie: entry.CharlieTeamColor,
+                                Neutral: entry.NeutralColor,
+                                Name: entry.__RowId.replace("Work/Gyml/", "").replace(".game__gfx__parameter__TeamColorDataSet.gyml", ""),
+                            }
+                            all_entries.push(row)
+                        })
+                        $(`#color-table`).bootstrapTable("refreshOptions", { data: all_entries })
+
+                        
+                    })
+
                     //$.getJson(prefix + "data/parameter/" + version + "/misc/spl__FestConstant.spl__FestConstant.json", data_dict => {
                     //})
                 }
@@ -701,6 +873,8 @@
                     $("#gearslots-store-table").bootstrapTable({})
                     $("#gearslots-snails-table").bootstrapTable({})
                     $("#randomticket-table").bootstrapTable({})
+
+                    $("#color-table").bootstrapTable({})
 
                     $("#chunks-table").bootstrapTable({})
                     $("#levelexp-table").bootstrapTable({})

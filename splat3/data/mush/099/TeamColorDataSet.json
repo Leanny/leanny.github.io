@@ -1,0 +1,1626 @@
+[
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.7176471,
+      "G": 0.3803922,
+      "R": 1.0
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.282353,
+      "G": 0.8431373,
+      "R": 0.4980392
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Amiibo_Idol01.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.4901961,
+      "G": 0.2235294,
+      "R": 0.7764706
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.5568628,
+      "G": 0.6431373,
+      "R": 0.0
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Blitz",
+    "__RowId": "Work/Gyml/Amiibo_Idol02.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.05098039,
+      "G": 0.3490196,
+      "R": 1.0
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.75,
+      "G": 0.07843,
+      "R": 0.07843
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2901961,
+      "G": 0.8117647,
+      "R": 0.5254902
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Amiibo_Player01.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2509804,
+      "G": 0.8313726,
+      "R": 0.4627451
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6745098,
+      "G": 0.3294118,
+      "R": 0.5764706
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.02352941,
+      "G": 0.4392157,
+      "R": 0.945098
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Amiibo_Player01B.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.3333333,
+      "G": 0.2666667,
+      "R": 0.9294118
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1568628,
+      "G": 0.8235294,
+      "R": 0.3333333
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7686275,
+      "G": 0.3490196,
+      "R": 0.6
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Blitz",
+    "__RowId": "Work/Gyml/Amiibo_Player02.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2117647,
+      "G": 0.1137255,
+      "R": 0.6901961
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1882353,
+      "G": 0.1882353,
+      "R": 0.827451
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2784314,
+      "G": 0.1882353,
+      "R": 0.7411765
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Blitz",
+    "__RowId": "Work/Gyml/Amiibo_Player02B.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.6862745,
+      "G": 0.1019608,
+      "R": 0.1019608
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.145098,
+      "G": 0.5529412,
+      "R": 0.8901961
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6509804,
+      "G": 0.2627451,
+      "R": 0.8078431
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/BlueYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 0.55,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9529412,
+      "G": 0.3568628,
+      "R": 0.2627451
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3882353,
+      "G": 0.4980392,
+      "R": 0.02745098
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.08235294,
+      "G": 0.8705882,
+      "R": 0.9137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 0.6875,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1921569,
+      "G": 0.3294118,
+      "R": 0.7882353
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.2941177,
+      "G": 0.3921569,
+      "R": 0.01176471
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.0627451,
+      "G": 0.9098039,
+      "R": 0.9098039
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopDefault.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.2941177,
+      "R": 0.772549
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3960784,
+      "G": 0.509804,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.09019608,
+      "G": 0.8901961,
+      "R": 0.8627451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopOrange.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 0.5,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.5176471,
+      "G": 0.2588235,
+      "R": 0.7764706
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4588235,
+      "G": 0.4313726,
+      "R": 0.05490196
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.01568628,
+      "G": 0.8431373,
+      "R": 0.8901961
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopPink.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 0.6,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9176471,
+      "G": 0.3843137,
+      "R": 0.5764706
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3686275,
+      "G": 0.4823529,
+      "R": 0.03921569
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1215686,
+      "G": 0.8666667,
+      "R": 0.827451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1411765,
+      "G": 0.627451,
+      "R": 0.8705882
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3960784,
+      "G": 0.509804,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7647059,
+      "G": 0.08235294,
+      "R": 0.8862745
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopSunYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 0.8,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2,
+      "G": 0.8509804,
+      "R": 0.7098039
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4470588,
+      "G": 0.5411765,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8823529,
+      "G": 0.06666667,
+      "R": 0.8392157
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2196078,
+      "G": 0.7882353,
+      "R": 0.627451
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6901961,
+      "G": 0.1882353,
+      "R": 0.7294118
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.05490196,
+      "G": 0.509804,
+      "R": 0.8862745
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/GreenPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.254902,
+      "G": 0.8078431,
+      "R": 0.7490196
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.8039216,
+      "G": 0.1490196,
+      "R": 0.3882353
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6627451,
+      "G": 0.7686275,
+      "R": 0.1960784
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/LimegreenPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": -0.05,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.145098,
+      "G": 0.4,
+      "R": 0.8745098
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": -0.07,
+    "BravoInkRimIntensity": 1.2,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.772549,
+      "G": 0.2352941,
+      "R": 0.2078431
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": true,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2039216,
+      "G": 0.8039216,
+      "R": 0.8039216
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/OrangeBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.03921569,
+      "G": 0.3176471,
+      "R": 0.8039216
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7137255,
+      "G": 0.01568628,
+      "R": 0.4352941
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.7882353,
+      "R": 0.5803922
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/OrangePurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.1,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.454902,
+      "G": 0.1764706,
+      "R": 0.7568628
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.7215686,
+      "R": 0.17255
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": true,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7686275,
+      "G": 0.1568628,
+      "R": 0.227451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/PinkGreen.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.07058824,
+      "G": 0.8235294,
+      "R": 0.8666667
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.5490196,
+      "G": 0.4862745,
+      "R": 0.01960784
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8980392,
+      "G": 0.07058824,
+      "R": 0.9294118
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "CoopOption",
+    "__RowId": "Work/Gyml/Support_CoopYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1490196,
+      "G": 0.8039216,
+      "R": 0.8392157
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7294118,
+      "G": 0.1098039,
+      "R": 0.3254902
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "MissionOption",
+    "__RowId": "Work/Gyml/Support_HeroBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.07843138,
+      "G": 0.7294118,
+      "R": 0.7411765
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6784314,
+      "G": 0.2588235,
+      "R": 0.7843137
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 0.6745098,
+      "G": 0.1607843,
+      "R": 0.282353
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2666667,
+      "G": 0.7686275,
+      "R": 0.6901961
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusTricolorOption",
+    "__RowId": "Work/Gyml/Support_TriColor.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.7333333,
+      "R": 0.7921569
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7333333,
+      "G": 0.1843137,
+      "R": 0.3137255
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1647059,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusOption",
+    "__RowId": "Work/Gyml/Support_YellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.4901961,
+      "G": 0.7254902,
+      "R": 0.01960784
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6078432,
+      "G": 0.01176471,
+      "R": 0.5960785
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 0.01960784,
+      "G": 0.3254902,
+      "R": 0.7843137
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.3960784,
+      "G": 0.03137255,
+      "R": 0.7843137
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusTricolor",
+    "__RowId": "Work/Gyml/TriColorDefault.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.6705883,
+      "G": 0.7490196,
+      "R": 0.1058824
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4352941,
+      "G": 0.227451,
+      "R": 0.7686275
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8666667,
+      "G": 0.3058824,
+      "R": 0.3058824
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/TurquoisePink.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.6784314,
+      "G": 0.7529412,
+      "R": 0.1176471
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1960784,
+      "G": 0.2941177,
+      "R": 0.8470588
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8627451,
+      "G": 0.05490196,
+      "R": 0.05490196
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/TurquoiseRed.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.07058824,
+      "G": 0.8039216,
+      "R": 0.8588235
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7882353,
+      "G": 0.1490196,
+      "R": 0.2980392
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1843137,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/WarmingUpYellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.03137255,
+      "G": 0.7490196,
+      "R": 0.8156863
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.8039216,
+      "G": 0.05098039,
+      "R": 0.227451
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1843137,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/YellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaInkRimIntensity": 1.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.6980392,
+      "R": 0.8117647
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoInkRimIntensity": 1.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7764706,
+      "G": 0.1490196,
+      "R": 0.5647059
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieInkRimIntensity": 1.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "EnableInkRimIntensity": false,
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.6745098,
+      "R": 0.3647059
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/YellowPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  }
+]
