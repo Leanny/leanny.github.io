@@ -1,0 +1,36 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletShieldParam",
+      "DamageSpanFrame": 30,
+      "FlyGravity": 0.009,
+      "FlyPositionAirResist": 0.001,
+      "MaxHP": {
+        "High": 15000.0,
+        "Low": 8000.0,
+        "Mid": 11500.0
+      },
+      "SpawnSpeedY": 0.07,
+      "SpawnSpeedYWorldMin": -0.5,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.3,
+        "Low": 0.3,
+        "Mid": 0.3
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.6,
+      "InkRecoverStop": 85
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

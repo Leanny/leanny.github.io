@@ -1,0 +1,1874 @@
+[
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.019608,
+      "G": 0.78824,
+      "R": 0.73333
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6509804,
+      "G": 0.09803922,
+      "R": 0.5568628
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.384314,
+      "G": 0.67059,
+      "R": 0.08235
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Blitz",
+    "__RowId": "Work/Gyml/Blitz_Vss_Regular_LemonPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.6862745,
+      "G": 0.1019608,
+      "R": 0.1019608
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.145098,
+      "G": 0.5529412,
+      "R": 0.8901961
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6509804,
+      "G": 0.2627451,
+      "R": 0.8078431
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/BlueYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9921569,
+      "G": 0.4078431,
+      "R": 0.3176471
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3882353,
+      "G": 0.4980392,
+      "R": 0.02745098
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.08235294,
+      "G": 0.8705882,
+      "R": 0.9137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.09411765,
+      "G": 0.2392157,
+      "R": 0.8980392
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.2941177,
+      "G": 0.3921569,
+      "R": 0.01176471
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.0627451,
+      "G": 0.9098039,
+      "R": 0.9098039
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopDefault.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1254902,
+      "G": 0.2392157,
+      "R": 0.8901961
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3960784,
+      "G": 0.509804,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.09019608,
+      "G": 0.8901961,
+      "R": 0.8627451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopOrange.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.5058824,
+      "G": 0.1882353,
+      "R": 0.827451
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4588235,
+      "G": 0.4313726,
+      "R": 0.05490196
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.01568628,
+      "G": 0.8431373,
+      "R": 0.8901961
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopPink.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9254902,
+      "G": 0.4078431,
+      "R": 0.5960785
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3686275,
+      "G": 0.4823529,
+      "R": 0.03921569
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1215686,
+      "G": 0.8666667,
+      "R": 0.827451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1411765,
+      "G": 0.6862745,
+      "R": 0.9607843
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3960784,
+      "G": 0.509804,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7647059,
+      "G": 0.08235294,
+      "R": 0.8862745
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopSunYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2431373,
+      "G": 0.9411765,
+      "R": 0.7882353
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4470588,
+      "G": 0.5411765,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8823529,
+      "G": 0.06666667,
+      "R": 0.8392157
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Coop",
+    "__RowId": "Work/Gyml/CoopYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.7490196,
+      "G": 0.1647059,
+      "R": 0.1568628
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.7803922,
+      "R": 0.572549
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.09956171,
+      "G": 0.5,
+      "R": 1.0
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Gambit_Vss_Regular_BlueLime.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1215686,
+      "G": 0.3372549,
+      "R": 0.7764706
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.75,
+      "G": 0.07843,
+      "R": 0.07843
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1411765,
+      "G": 0.7647059,
+      "R": 0.7647059
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Gambit_Vss_Regular_OrangeBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.34118,
+      "G": 0.20392,
+      "R": 0.78824
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.875,
+      "G": 0.625,
+      "R": 0.0625
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.3372549,
+      "G": 0.8117647,
+      "R": 0.4627451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Gambit",
+    "__RowId": "Work/Gyml/Gambit_Vss_Regular_PinkBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2196078,
+      "G": 0.7882353,
+      "R": 0.627451
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.6901961,
+      "G": 0.1882353,
+      "R": 0.7294118
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.05490196,
+      "G": 0.509804,
+      "R": 0.8862745
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/GreenPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.8470588,
+      "G": 0.09411765,
+      "R": 0.1058824
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.827451,
+      "G": 0.05490196,
+      "R": 0.8705882
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.08235294,
+      "G": 0.827451,
+      "R": 0.7764706
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.8352941,
+      "R": 0.7294118
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7450981,
+      "G": 0.1294118,
+      "R": 0.0627451
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8313726,
+      "G": 0.07843138,
+      "R": 0.654902
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroBossFuuka.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.172549,
+      "G": 0.4705882,
+      "R": 0.8862745
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7137255,
+      "G": 0.8509804,
+      "R": 0.1764706
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8313726,
+      "G": 0.07843138,
+      "R": 0.1803922
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroBossManta.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.7372549,
+      "G": 0.2392157,
+      "R": 0.2156863
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1568628,
+      "G": 0.8117647,
+      "R": 0.8117647
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroBossUtsuho.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1098039,
+      "G": 0.7803922,
+      "R": 0.3215686
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.8,
+      "G": 0.1254902,
+      "R": 0.1333333
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroGreen.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9058824,
+      "G": 0.7372549,
+      "R": 0.07843138
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.9176471,
+      "G": 0.372549,
+      "R": 0.1568628
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroLightBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.06666667,
+      "G": 0.5294118,
+      "R": 0.9372549
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.9411765,
+      "G": 0.2627451,
+      "R": 0.03529412
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.09019608,
+      "G": 0.8745098,
+      "R": 0.5058824
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroOrange.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.9411765,
+      "G": 0.9607843,
+      "R": 0.6862745
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.827451,
+      "G": 0.05490196,
+      "R": 0.8705882
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.08235294,
+      "G": 0.827451,
+      "R": 0.7764706
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroSoda.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.03529412,
+      "G": 0.7607843,
+      "R": 0.8745098
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7294118,
+      "G": 0.1098039,
+      "R": 0.3254902
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/HeroYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.254902,
+      "G": 0.8078431,
+      "R": 0.7490196
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.8039216,
+      "G": 0.1490196,
+      "R": 0.3882353
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6627451,
+      "G": 0.7686275,
+      "R": 0.1960784
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/LimegreenPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.145098,
+      "G": 0.4,
+      "R": 0.8745098
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.772549,
+      "G": 0.2352941,
+      "R": 0.2078431
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2039216,
+      "G": 0.8039216,
+      "R": 0.8039216
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/OrangeBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.4196078,
+      "R": 0.9137255
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7450981,
+      "G": 0.145098,
+      "R": 0.5019608
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.7882353,
+      "R": 0.5803922
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/OrangePurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.454902,
+      "G": 0.1764706,
+      "R": 0.7568628
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.7215686,
+      "R": 0.172549
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7686275,
+      "G": 0.1568628,
+      "R": 0.227451
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/PinkGreen.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.07058824,
+      "G": 0.8235294,
+      "R": 0.8666667
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.5490196,
+      "G": 0.4862745,
+      "R": 0.01960784
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8980392,
+      "G": 0.07058824,
+      "R": 0.9294118
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "CoopOption",
+    "__RowId": "Work/Gyml/Support_CoopYellow.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1490196,
+      "G": 0.8039216,
+      "R": 0.8392157
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7294118,
+      "G": 0.1098039,
+      "R": 0.3254902
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.7215686,
+      "G": 0.1254902,
+      "R": 0.7882353
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "MissionOption",
+    "__RowId": "Work/Gyml/Support_HeroBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2862745,
+      "G": 0.8627451,
+      "R": 0.8313726
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7529412,
+      "G": 0.2117647,
+      "R": 0.772549
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 0.5607843,
+      "G": 0.07843138,
+      "R": 0.1921569
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.3490196,
+      "G": 0.772549,
+      "R": 0.2745098
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusTricolor",
+    "__RowId": "Work/Gyml/Support_TriColor.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.7333333,
+      "R": 0.7921569
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7333333,
+      "G": 0.1843137,
+      "R": 0.3137255
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1647059,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusOption",
+    "__RowId": "Work/Gyml/Support_YellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1019608,
+      "G": 0.8078431,
+      "R": 0.7607843
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.4941176,
+      "G": 0.2156863,
+      "R": 0.7372549
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 0.7019608,
+      "G": 0.2078431,
+      "R": 0.1215686
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.2862745,
+      "G": 0.7294118,
+      "R": 0.2078431
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusTricolor",
+    "__RowId": "Work/Gyml/TriColorDefault.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.7411765,
+      "G": 0.827451,
+      "R": 0.09019608
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.3372549,
+      "G": 0.1098039,
+      "R": 0.7960784
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8666667,
+      "G": 0.3058824,
+      "R": 0.3058824
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/TurquoisePink.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.6862745,
+      "G": 0.8470588,
+      "R": 0.1058824
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.1686275,
+      "G": 0.254902,
+      "R": 0.9058824
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.8627451,
+      "G": 0.05490196,
+      "R": 0.05490196
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/TurquoiseRed.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.07058824,
+      "G": 0.8039216,
+      "R": 0.8588235
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7882353,
+      "G": 0.1490196,
+      "R": 0.2980392
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1843137,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "Mission",
+    "__RowId": "Work/Gyml/WarmingUpYellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.2078431,
+      "G": 0.7490196,
+      "R": 0.8
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.8117647,
+      "G": 0.1686275,
+      "R": 0.3176471
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.6588235,
+      "G": 0.1843137,
+      "R": 0.7137255
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/YellowBlue.game__gfx__parameter__TeamColorDataSet.gyml"
+  },
+  {
+    "AlphaHueOffset": 0.0,
+    "AlphaTeamColor": {
+      "A": 1.0,
+      "B": 0.1333333,
+      "G": 0.6980392,
+      "R": 0.8117647
+    },
+    "AlphaUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "BravoHueOffset": 0.0,
+    "BravoTeamColor": {
+      "A": 1.0,
+      "B": 0.7764706,
+      "G": 0.1490196,
+      "R": 0.5647059
+    },
+    "BravoUIColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "CharlieHueOffset": 0.0,
+    "CharlieTeamColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "CharlieUIColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "HueOffsetEnable": false,
+    "IsSetUIColor": false,
+    "NeutralColor": {
+      "A": 1.0,
+      "B": 0.1294118,
+      "G": 0.6745098,
+      "R": 0.3647059
+    },
+    "NeutralHueOffset": 0.0,
+    "Tag": "VersusRegular",
+    "__RowId": "Work/Gyml/YellowPurple.game__gfx__parameter__TeamColorDataSet.gyml"
+  }
+]

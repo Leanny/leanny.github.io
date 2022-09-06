@@ -1,0 +1,82 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 1.75,
+      "CrossPaintRadius": 1.75,
+      "DistanceDamage": [
+        {
+          "Damage": 1500,
+          "Distance": 3.1
+        },
+        {
+          "Damage": 300,
+          "Distance": 7.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 470.0,
+        "Bias": 0.8,
+        "Distance": 9.0
+      },
+      "SplashAroundParam": {
+        "Num": 10,
+        "OffsetY": 0.3,
+        "PaintRadius": 0.7,
+        "VelocityMax": 0.35,
+        "VelocityMin": 0.52
+      }
+    },
+    "MoveParam": {
+      "$type": "spl__BulletBombRobotParam",
+      "BeforeRotateFrame": 30,
+      "ChaseAirAddSpeedXZPerFrame": 0.012,
+      "ChaseAirMaxSpeedXZ": 0.09,
+      "ChaseAirMaxSpeedY": 0.18,
+      "ChaseBurstWaitFrame": 60,
+      "ChaseFrame": 240,
+      "ChaseGroundAddSpeedPerFrame": 0.003,
+      "ChaseGroundMaxSpeed": 0.09,
+      "ChasePitchDegree": 3.0,
+      "ChaseRollDegree": 1.25,
+      "ChaseYawDegree": 2.0,
+      "DeathTargetApprouchDistance": 0.65,
+      "FindApproachBurstWaitFrame": 60,
+      "FindRotateFrame": 30,
+      "FlyCollisionSESpanFrame": 4,
+      "FlyGravity": 0.016,
+      "FlyPositionAirResist": 0.05866,
+      "FlyRotateAirResist": 0.01985,
+      "GuideRadius": 0.5,
+      "NoReceiveTargetBurstWaitFrame": 300,
+      "SpawnRotatePitch": 0.4,
+      "SpawnRotateRoll": 0.12,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      },
+      "UnfindBurstWaitFrame": 60,
+      "WarningAnimRestFrame": 60,
+      "WarningSERestFrame": 60
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 1
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.7,
+      "InkRecoverStop": 85
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0,
+      "ZRate": 2.0
+    }
+  }
+}

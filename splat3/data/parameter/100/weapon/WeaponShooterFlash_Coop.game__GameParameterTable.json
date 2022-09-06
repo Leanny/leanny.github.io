@@ -1,0 +1,18 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterFlash.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 450,
+      "ValueMin": 300
+    },
+    "VariableDamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMin": 250
+    },
+    "VariableWeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.009
+    }
+  }
+}

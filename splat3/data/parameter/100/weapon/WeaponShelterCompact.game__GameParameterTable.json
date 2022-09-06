@@ -1,0 +1,185 @@
+{
+  "GameParameters": {
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Fast"
+    },
+    "spl__BulletShelterCanopyParam": {
+      "$type": "spl__BulletShelterCanopyParam",
+      "CanopyCureHPPerFrame": 5,
+      "CanopyDamage": 150,
+      "CanopyFrame": 100,
+      "CanopyGravity": 1.102,
+      "CanopyHP": 2000,
+      "CanopyHitOtherCanopyDamage": 2000,
+      "CanopyHitOtherCanopyVolume": 3,
+      "CanopyHitShieldAttackDamage": 750,
+      "CanopyInitSpeed": 7.92,
+      "CanopyMoveKnockBackSideStepRate": 1.0,
+      "CanopyNakedFrame": 270,
+      "CanopyPaintRadius": 1.0,
+      "CanopySpeedAirAddScaleXZ": 0.72,
+      "CanopySpeedGroundAddScale": 0.48,
+      "FootSplashPaintRadius": 1.0,
+      "FootSplashShapeCastOffset": 0.4,
+      "FootSplashSpanFrame": 0,
+      "FootSplashWaitFrame": 5
+    },
+    "spl__BulletShelterShotgunParam": {
+      "$type": "spl__BulletShelterShotgunParam",
+      "DamageEffectiveTotalMax": 400,
+      "GroupParams": [
+        {
+          "CollisionParam": {
+            "EndRadiusForField": 0.25,
+            "EndRadiusForPlayer": 0.25,
+            "InitRadiusForField": 0.25,
+            "InitRadiusForPlayer": 0.25
+          },
+          "DamageParam": {
+            "ValueMax": 120,
+            "ValueMin": 90
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 0.0,
+          "HorizontalOffset": 0.0,
+          "InitVelRandom": 0.0,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 1.9085,
+            "GoStraightToBrakeStateFrame": 4,
+            "SpawnSpeed": 2.0
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.62,
+            "WidthHalfMiddle": 1.62,
+            "WidthHalfNear": 1.9
+          },
+          "TotalNum": 1,
+          "VerticalDegree": 0.0,
+          "VerticalOffset": 0.0
+        },
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "EndRadiusForField": 0.16,
+            "EndRadiusForPlayer": 0.16,
+            "InitRadiusForField": 0.16,
+            "InitRadiusForPlayer": 0.16
+          },
+          "DamageParam": {
+            "ValueMax": 120,
+            "ValueMin": 90
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 4.0,
+          "HorizontalOffset": 0.12,
+          "InitVelRandom": 0.2,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 1.9085,
+            "GoStraightToBrakeStateFrame": 4,
+            "SpawnSpeed": 2.0
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.62,
+            "WidthHalfMiddle": 1.62,
+            "WidthHalfNear": 1.62
+          },
+          "TotalNum": 2,
+          "VerticalDegree": 2.7,
+          "VerticalOffset": 0.1
+        },
+        {
+          "AddDegree": 45.0,
+          "CollisionParam": {
+            "EndRadiusForField": 0.16,
+            "EndRadiusForPlayer": 0.16,
+            "InitRadiusForField": 0.16,
+            "InitRadiusForPlayer": 0.16
+          },
+          "DamageParam": {
+            "ValueMax": 120,
+            "ValueMin": 90
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 2.0,
+          "HorizontalOffset": 0.05,
+          "InitVelRandom": 0.2,
+          "MoveParam": {
+            "GoStraightStateEndMaxSpeed": 1.9085,
+            "GoStraightToBrakeStateFrame": 4
+          },
+          "PaintParam": {
+            "WidthHalfFar": 1.62,
+            "WidthHalfMiddle": 1.62,
+            "WidthHalfNear": 1.62
+          },
+          "TotalNum": 4,
+          "VerticalDegree": 2.6,
+          "VerticalOffset": 0.05
+        }
+      ],
+      "ShotgunWallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 40,
+        "FallPeriodFirstFrameMin": 20,
+        "FallPeriodFirstTargetSpeed": 0.06,
+        "FallPeriodLastFrameMax": 35,
+        "FallPeriodLastFrameMin": 15
+      },
+      "SplashParam": {
+        "CreateSplashLength": 3.5,
+        "CreateSplashNum": 4,
+        "SplashPaintDepthScaleFullActive": 2.2,
+        "SplashPaintDepthScaleOneActive": 5.6,
+        "SplashPaintWidthFullActive": 1.711,
+        "SplashPaintWidthOneActive": 0.59
+      },
+      "SplashWallDropCollisionParam": {
+        "PaintRadiusFall": 0.65,
+        "PaintRadiusGround": 0.6,
+        "PaintRadiusShock": 1.3
+      },
+      "SplashWallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 15,
+        "FallPeriodFirstTargetSpeed": 0.03,
+        "FallPeriodLastFrameMax": 25,
+        "FallPeriodLastFrameMin": 10,
+        "FallPeriodSecondFrame": 5,
+        "FallPeriodSecondTargetSpeed": 0.08
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "ZRate": 2.0
+    },
+    "spl__WeaponShelterCanopyParam": {
+      "$type": "spl__WeaponShelterCanopyParam",
+      "CanopyChargeFrame": 10,
+      "CanopyDirXZ_DiffDeg_H": 50.0,
+      "CanopyDirXZ_DiffDeg_L": 30.0,
+      "CanopyDirXZ_RotDegBias": 0.5,
+      "CanopyDirXZ_RotDeg_H": 20.0,
+      "CanopyDirXZ_RotDeg_L": 15.0,
+      "CanopyNakedFrame": 270,
+      "CanopyOpenEndBias": 0.7,
+      "CanopyOpenEndOffset": 0.0,
+      "CanopyOpenFrame": 10,
+      "CanopyOpenStartOffset": -0.6,
+      "InkConsumeUmbrella": 0.0,
+      "IsCanopyShot": false,
+      "IsRecoverCanopyByKill": true
+    },
+    "spl__WeaponShelterShotgunParam": {
+      "$type": "spl__WeaponShelterShotgunParam",
+      "InkConsume": 0.04,
+      "InkRecoverStop": 40,
+      "InkRecoverStopCharge": 30,
+      "JumpGndCharge": 0.08,
+      "MoveSpeed": 0.072,
+      "MoveSpeedCharge": 0.072,
+      "RepeatFrame": 26
+    }
+  }
+}

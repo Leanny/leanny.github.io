@@ -1,0 +1,33 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpChariot.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletSpChariotBodyParam",
+      "Damage": 1000
+    },
+    "CannonParam": {
+      "$type": "spl__BulletSpChariotCannonParam",
+      "BlastParam": {
+        "DistanceDamage": [
+          {
+            "Damage": 750,
+            "Distance": 5.6
+          }
+        ]
+      },
+      "DirectDamage": 3000
+    },
+    "ShooterDamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 600,
+      "ValueMin": 600
+    },
+    "WeaponSpChariotParam": {
+      "$type": "spl__WeaponSpChariotParam",
+      "SpecialTotalFrame": {
+        "Low": 660.0,
+        "Mid": 660.0
+      }
+    }
+  }
+}
