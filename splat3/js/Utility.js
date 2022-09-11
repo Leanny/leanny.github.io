@@ -37,8 +37,8 @@ export function generateFooter(elem) {
     <div class="footer-notice">
         <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. <a href="https://github.com/OatmealDome/OatmealDome.NinLib.MessageStudio">Message Lib</a> by <a href="https://twitter.com/OatmealDome">OatmealDome<span class="fa fa-twitter"></span></a></p>
         <p>
-            Feedback or suggestions are welcome. Please contact me via Twitter.
-            <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a>
+            Feedback or suggestions are welcome. Please contact me via Twitter
+            <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a> or Github <a href="https://github.com/leanny/leanny.github.io"><span class="fa fa-github"></span></a>.
         </p>
     </div>
 </div>`)
