@@ -1,0 +1,4428 @@
+[
+  {
+    "ArchiveCategory": [
+      "Album"
+    ],
+    "BodyLayoutFile": "Cmn_Album_00",
+    "Class": "SplUICmnAlbum00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Album_00",
+    "SortKey": 5010
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_StageInfo_00",
+    "Class": "SplUIMsnStageInfo00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_StageInfo_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_WdmMainTV_00",
+    "Class": "SplUIMsnWdmMainTV00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_WdmMainTV_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_WdmStageAlterna_00",
+    "Class": "SplUIMsnWdmStageAlterna00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_WdmStageAlterna_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_WdmStageCrater_00",
+    "Class": "SplUIMsnWdmStageCrater00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_WdmStageCrater_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_WorldName_00",
+    "Class": "SplUIMsnWorldName00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_WorldName_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_AmiiboMemory_00",
+    "Class": "SplUIPlzAmiiboMemory00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_AmiiboMemory_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_AmiiboMenu_00",
+    "Class": "SplUIPlzAmiiboMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_AmiiboMenu_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_AmiiboTalkWindow_00",
+    "Class": "SplUIPlzAmiiboTalkWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_AmiiboTalkWindow_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [],
+    "BodyLayoutFile": "Lobby_CapScreen_00",
+    "Class": "SplUIPlzCapScreen00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_CapScreen_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_ChangeNews_00",
+    "Class": "SplUIPlzChangeNews00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_ChangeNews_00",
+    "SortKey": 4600
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_FestText_00",
+    "Class": "SplUIPlzFestText00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_FestText_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_GearOrder_00",
+    "Class": "SplUIPlzGearOrder00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Plz_GearOrder_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_ItemGearMenu_00",
+    "Class": "SplUIPlzItemGearMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_ItemGearMenu_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_ItemMenu_00",
+    "Class": "SplUIPlzItemMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_ItemMenu_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_ItemSet_00",
+    "Class": "SplUIPlzItemSet00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_ItemSet_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_ListNpc_00",
+    "Class": "SplUIPlzListNpc00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_ListNpc_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_MiiverseMain_00",
+    "Class": "SplUIPlzMiiverseMain00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": true,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": true,
+    "Name": "Plz_MiiverseMain_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_MiiversePointer_00",
+    "Class": "SplUIPlzMiiversePointer00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_MiiversePointer_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_MiiversePost_00",
+    "Class": "SplUIPlzMiiversePost00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_MiiversePost_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_NPCStatus_00",
+    "Class": "SplUIPlzNPCStatus00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_NPCStatus_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_PointerGuide_00",
+    "Class": "SplUIPlzPointerGuide00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_PointerGuide_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_SelectFestTeam_00",
+    "Class": "SplUIPlzSelectFestTeam00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_SelectFestTeam_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_SelectMenu_00",
+    "Class": "SplUIPlzSelectMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_SelectMenu_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_SelectNpcLv_00",
+    "Class": "SplUIPlzSelectNpcLv00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_SelectNpcLv_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_Title_00",
+    "Class": "SplUIPlzTitle00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_Title_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_TopicNews_00",
+    "Class": "SplUIPlzTopicNews00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_TopicNews_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_WindowDrawn_00",
+    "Class": "SplUIPlzWindowDrawn00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_WindowDrawn_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_StaffCredit_00",
+    "Class": "SplUIMsnStaffCredit00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_StaffCredit_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Msn_Skip_00",
+    "Class": "SplUIMsnSkip00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Skip_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_SelectWeapon_00",
+    "Class": "SplUIMsnSelectWeapon00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_SelectWeapon_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_SearchMarker_00",
+    "Class": "SplUIMsnSearchMarker00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_SearchMarker_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "MiniGame"
+    ],
+    "BodyLayoutFile": "Mng_GameStart_00",
+    "Class": "SplUIMngGameStart00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_GameStart_00",
+    "SortKey": 4901
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_PieceChange_00",
+    "Class": "SplUIMngPieceChange00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_PieceChange_00",
+    "SortKey": 5011
+  },
+  {
+    "ArchiveCategory": [
+      "MiniGame"
+    ],
+    "BodyLayoutFile": "Mng_Result_00",
+    "Class": "SplUIMngResult00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_Result_00",
+    "SortKey": 4901
+  },
+  {
+    "ArchiveCategory": [
+      "MngCommon"
+    ],
+    "BodyLayoutFile": "Mng_Setting_00",
+    "Class": "SplUIMngSetting00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_Setting_00",
+    "SortKey": 5013
+  },
+  {
+    "ArchiveCategory": [
+      "MiniGame"
+    ],
+    "BodyLayoutFile": "Mng_SPCutIn_00",
+    "Class": "SplUIMngSPCutIn00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_SPCutIn_00",
+    "SortKey": 4901
+  },
+  {
+    "ArchiveCategory": [
+      "MngCommon"
+    ],
+    "BodyLayoutFile": "Mng_SystemWindow_00",
+    "Class": "SplUIMngSystemWindow00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_SystemWindow_00",
+    "SortKey": 5019
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_AlternaLog_00",
+    "Class": "SplUIMsnAlternaLog00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Msn_AlternaLog_00",
+    "SortKey": 4010
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_BossMarker_00",
+    "Class": "SplUITutoCursor00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_BossMarker_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_BossName_00",
+    "Class": "SplUIMsnBossName00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_BossName_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_Canning_00",
+    "Class": "SplUIMsnCanning00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Canning_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_CheckPoint_00",
+    "Class": "SplUIMsnCheckPoint00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_CheckPoint_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_Clear_00",
+    "Class": "SplUIMsnClear00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Clear_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_Clear_01",
+    "Class": "SplUIMsnClear00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Clear_01",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_WindowDrawn_01",
+    "Class": "SplUIPlzWindowDrawn01Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_WindowDrawn_01",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Msn_Cursor_00",
+    "Class": "SplUITutoCursor00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Cursor_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_DemoColorBtn_00",
+    "Class": "SplUIMsnDemoColorBtn00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_DemoColorBtn_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_DemoEnd_00",
+    "Class": "SplUIMsnDemoEnd00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_DemoEnd_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_DemoTitle_00",
+    "Class": "SplUIMsnDemoTitle00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_DemoTitle_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_Finish_00",
+    "Class": "SplUIMsnFinish00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Finish_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Msn_LoadingMap_00",
+    "Class": "SplUIMsnLoadingMap00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_LoadingMap_00",
+    "SortKey": 21000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_LvUPInfo_00",
+    "Class": "SplUIMsnLvUPInfo00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_LvUPInfo_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_MainTV_00",
+    "Class": "SplUIMsnMainTV00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_MainTV_00",
+    "SortKey": 4100
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_Menu_00",
+    "Class": "SplUIMsnMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Msn_Menu_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "World"
+    ],
+    "BodyLayoutFile": "Msn_MysteryFile_00",
+    "Class": "SplUIMsnMysteryFile00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Msn_MysteryFile_00",
+    "SortKey": 4010
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_PauseMenu_00",
+    "Class": "SplUIMsnPauseMenu00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_PauseMenu_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "HeroModeCommon"
+    ],
+    "BodyLayoutFile": "Msn_PointGuide_00",
+    "Class": "SplUIMsnPointGuide00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_PointGuide_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_RespawnCount_00",
+    "Class": "SplUIMsnRespawnCount00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_RespawnCount_00",
+    "SortKey": 4100
+  },
+  {
+    "ArchiveCategory": [
+      "Mission"
+    ],
+    "BodyLayoutFile": "Msn_Rogaining_00",
+    "Class": "SplUIMsnRogaining00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_Rogaining_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Msn_DemoBtn_00",
+    "Class": "SplUIMsnDemoBtn00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Msn_DemoBtn_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_Edit_00",
+    "Class": "SplUIMngEdit00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_Edit_00",
+    "SortKey": 5012
+  },
+  {
+    "ArchiveCategory": [
+      "News"
+    ],
+    "BodyLayoutFile": "Plz_WinTalkNewsS_00",
+    "Class": "SplUIPlzWinTalkNewsSmall00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_WinTalkNewsS_00",
+    "SortKey": 4600
+  },
+  {
+    "ArchiveCategory": [
+      "Replay"
+    ],
+    "BodyLayoutFile": "Replay_Arrow_00",
+    "Class": "SplUIReplayArrow00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Replay_Arrow_00",
+    "SortKey": 2800
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_BeatenNotice_00",
+    "Class": "SplUIVSBeatenNotice00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_BeatenNotice_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_Beaten_00",
+    "Class": "SplUIVSBeaten00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_Beaten_00",
+    "SortKey": 2900
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_BeatMessage_00",
+    "Class": "SplUIVSBeatMessage00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_BeatMessage_00",
+    "SortKey": 3300
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "VS_Beat_00",
+    "Class": "SplUIVSBeat00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_Beat_00",
+    "SortKey": 950
+  },
+  {
+    "ArchiveCategory": [
+      "MultiGameCommon"
+    ],
+    "BodyLayoutFile": "VS_Caution_00",
+    "Class": "SplUIVSCaution00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_Caution_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ClamCount_00",
+    "Class": "SplUIVSClamCount00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ClamCount_00",
+    "SortKey": 990
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ClamCount_01",
+    "Class": "SplUIVSClamCount01Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ClamCount_01",
+    "SortKey": 991
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ClamGoal_00",
+    "Class": "SplUIVSClamGoal00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ClamGoal_00",
+    "SortKey": 992
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "VS_Emote_00",
+    "Class": "SplUIVSEmote00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_Emote_00",
+    "SortKey": 1200
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_Energy_00",
+    "Class": "SplUIVSEnergy00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_Energy_00",
+    "SortKey": 1180
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_LiftCount_00",
+    "Class": "SplUIVSLiftCount00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_LiftCount_00",
+    "SortKey": 970
+  },
+  {
+    "ArchiveCategory": [
+      "VersusSync"
+    ],
+    "BodyLayoutFile": "VS_MainTV_00",
+    "Class": "SplUIVSMainTV00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_MainTV_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_MapAnnounce_00",
+    "Class": "SplUIVSMapAnnounce00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_MapAnnounce_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "MiniMap"
+    ],
+    "BodyLayoutFile": "VS_MapAnnounce_01",
+    "Class": "SplUIVSMapAnnounce01Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_MapAnnounce_01",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_MapLine_00",
+    "Class": "SplUIVSMapLine00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_MapLine_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "VS_MiiName_00",
+    "Class": "SplUIVSMiiName00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_MiiName_00",
+    "SortKey": 1100
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "VS_PointFlag_00",
+    "Class": "SplUIVSPointFlag00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_PointFlag_00",
+    "SortKey": 1180
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_PointSpecial_00",
+    "Class": "SplUIVSPointSpecial00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_PointSpecial_00",
+    "SortKey": 961
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "VS_PointTrap_00",
+    "Class": "SplUIVSPointTrap00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_PointTrap_00",
+    "SortKey": 960
+  },
+  {
+    "ArchiveCategory": [
+      "VersusSync"
+    ],
+    "BodyLayoutFile": "VS_ReadyGo_00",
+    "Class": "SplUIVSReadyGo00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ReadyGo_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ResultBg_00",
+    "Class": "SplUIVSResultBg00Screen",
+    "DrawUnitId": 2,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ResultBg_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ResultMedal_00",
+    "Class": "SplUIVSResultMedal00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ResultMedal_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ResultMeter_00",
+    "Class": "SplUIVSResultMeter00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ResultMeter_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ShachihokoCaution_00",
+    "Class": "SplUIVSShachihokoCaution00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ShachihokoCaution_00",
+    "SortKey": 2500
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ShachihokoGoal_00",
+    "Class": "SplUIVSShachihokoCheckPoint00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ShachihokoCheckPoint_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ShachihokoCount_00",
+    "Class": "SplUIVSShachihokoCount00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ShachihokoCount_00",
+    "SortKey": 980
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_ShachihokoGoal_00",
+    "Class": "SplUIVSShachihokoGoal00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_ShachihokoGoal_00",
+    "SortKey": 992
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_AutoWatching_00",
+    "Class": "SplUIVSAutoWatching00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_AutoWatching_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_AnnounceVsRule_00",
+    "Class": "SplUIVSAnnounceVsRule00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_AnnounceVsRule_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_AnnounceAllBeat_00",
+    "Class": "SplUIVSAnnounceAllBeat00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_AnnounceAllBeat_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_TutorialPicture_00",
+    "Class": "SplUITutoTutorialPicture00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_TutorialPicture_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Replay"
+    ],
+    "BodyLayoutFile": "Replay_Main_00",
+    "Class": "SplUIReplayMain00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Replay_Main_00",
+    "SortKey": 5500
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Replay_Operation_00",
+    "Class": "SplUIReplayOperation00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Replay_Operation_00",
+    "SortKey": 6000
+  },
+  {
+    "ArchiveCategory": [
+      "Replay"
+    ],
+    "BodyLayoutFile": "Replay_Pause_00",
+    "Class": "SplUIReplayPause00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Replay_Pause_00",
+    "SortKey": 6000
+  },
+  {
+    "ArchiveCategory": [
+      "Replay"
+    ],
+    "BodyLayoutFile": "Replay_Play_00",
+    "Class": "SplUIReplayPlay00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Replay_Play_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Shop"
+    ],
+    "BodyLayoutFile": "Shop_CloseUp_00",
+    "Class": "SplUIShopCloseUp00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shop_CloseUp_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "Reward"
+    ],
+    "BodyLayoutFile": "Shop_ItemGet_00",
+    "Class": "SplUIShopItemGet00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shop_ItemGet_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "Shop"
+    ],
+    "BodyLayoutFile": "Shop_Main_00",
+    "Class": "SplUIShopMain00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shop_Main_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Shr_InkReset_00",
+    "Class": "SplUIShrInkReset00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shr_InkReset_00",
+    "SortKey": 10000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Shr_Points_00",
+    "Class": "SplUIShrPoints00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shr_Points_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Shw_Thanks_00",
+    "Class": "SplUIShwThanks00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Shw_Thanks_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_BgWindow_00",
+    "Class": "SplUITmlBgWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_BgWindow_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Plz_WinTalkNews_00",
+    "Class": "SplUIPlzWinTalkNews00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Plz_WinTalkNews_00",
+    "SortKey": 4500
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_Contents_00",
+    "Class": "SplUITmlContents00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_Contents_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyCoop"
+    ],
+    "BodyLayoutFile": "Tml_CoopScore_00",
+    "Class": "SplUITmlCoopScore00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_CoopScore_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_Home_00",
+    "Class": "SplUITmlHome00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_Home_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_Noise_00",
+    "Class": "SplUITmlNoise00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": true,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_Noise_00",
+    "SortKey": 4955
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_ReplayScore_00",
+    "Class": "SplUITmlReplayScore00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_ReplayScore_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Reward"
+    ],
+    "BodyLayoutFile": "Tml_WindowGet_00",
+    "Class": "SplUITmlWindowGet00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_WindowGet_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Tml_Window_00",
+    "Class": "SplUITmlWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_Window_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_CircleTimer_00",
+    "Class": "SplUITutoCircleTimer00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_CircleTimer_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_Cursor_00",
+    "Class": "SplUITutoCursor00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_Cursor_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_GuideController_00",
+    "Class": "SplUITutoGuideController00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_GuideController_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_GuideMsg_00",
+    "Class": "SplUITutoGuideMsg00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_GuideMsg_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_Gyro_00",
+    "Class": "SplUITutoGyro00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_Gyro_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Tutorial"
+    ],
+    "BodyLayoutFile": "Tuto_MakePlayer_00",
+    "Class": "SplUITutoMakePlayer00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tuto_MakePlayer_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyCoop"
+    ],
+    "BodyLayoutFile": "Tml_CoopReward_00",
+    "Class": "SplUITmlCoopReward00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Tml_CoopReward_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_EditSleeve_00",
+    "Class": "SplUIMngEditSleeve00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_EditSleeve_00",
+    "SortKey": 5012
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_EditMenu_00",
+    "Class": "SplUIMngEditMenu00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_EditMenu_00",
+    "SortKey": 5011
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_CardPiece_00",
+    "Class": "SplUIMngCardPiece00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_CardPiece_00",
+    "SortKey": 5012
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_NoInk_00",
+    "Class": "SplUICmnNoInk00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_NoInk_00",
+    "SortKey": 1160
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_Pause_00",
+    "Class": "SplUICmnPause00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_Pause_00",
+    "SortKey": 6000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_PhotoAmiibo_00",
+    "Class": "SplUICmnPhotoAmiibo00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_PhotoAmiibo_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_PlayGuide_00",
+    "Class": "SplUICmnPlayGuide00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_PlayGuide_00",
+    "SortKey": 1150
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_ReportPlayer_00",
+    "Class": "SplUICmnReportPlayer00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_ReportPlayer_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_ReportWindow_00",
+    "Class": "SplUICmnReportWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_ReportWindow_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_Save_00",
+    "Class": "SplUICmnSave00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Save_00",
+    "SortKey": 22000
+  },
+  {
+    "ArchiveCategory": [
+      "FestRegion"
+    ],
+    "BodyLayoutFile": "Cmn_SelectFestPlace_00",
+    "Class": "SplUICmnSelectFestPlace00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_SelectFestPlace_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "StageSelect"
+    ],
+    "BodyLayoutFile": "Cmn_SelectStage_00",
+    "Class": "SplUICmnSelectStage00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_SelectStage_00",
+    "SortKey": 3300
+  },
+  {
+    "ArchiveCategory": [
+      "TalkWin"
+    ],
+    "BodyLayoutFile": "Cmn_ShortTalkWindow_00",
+    "Class": "SplUICmnShortTalkWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_ShortTalkWindow_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "TalkWin"
+    ],
+    "BodyLayoutFile": "Cmn_ShortTalkWindow_01",
+    "Class": "SplUICmnShortTalkWindow01Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_ShortTalkWindow_01",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Cmn_StatusMng_00",
+    "Class": "SplUICmnStatusMng00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_StatusMng_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Plaza"
+    ],
+    "BodyLayoutFile": "Cmn_Status_00",
+    "Class": "SplUICmnStatus00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Status_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindow_00",
+    "Class": "SplUICmnSystemErrorWindow00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_SystemErrorWindow_00",
+    "SortKey": 19000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindowChallenge_00",
+    "Class": "SplUICmnSystemWindowChallenge00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindowChallenge_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindowName_00",
+    "Class": "SplUICmnSystemName00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindowName_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Takeover"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindowSaveData_00",
+    "Class": "SplUICmnSystemWindowSaveData00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindowSaveData_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Takeover"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindowSelectData_00",
+    "Class": "SplUICmnSystemWindowSelectData00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindowSelectData_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindow_00",
+    "Class": "SplUICmnSystemWindow00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindow_00",
+    "SortKey": 9000
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_SystemWindow_01",
+    "Class": "SplUICmnSystemWindow01Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_SystemWindow_01",
+    "SortKey": 9000
+  },
+  {
+    "ArchiveCategory": [
+      "TalkWin"
+    ],
+    "BodyLayoutFile": "Cmn_TalkWindow_00",
+    "Class": "SplUICmnTalkWindow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_TalkWindow_00",
+    "SortKey": 4500
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_Version_00",
+    "Class": "SplUICmnVersion00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Version_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "StageSelect"
+    ],
+    "BodyLayoutFile": "Cmn_VersusMatch_01",
+    "Class": "SplUICmnVersusMatch01Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_VersusMatch_01",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Cmn_VersusMatch_02",
+    "Class": "SplUICmnVersusMatch02Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_VersusMatch_02",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_WindowGet_00",
+    "Class": "SplUICmnWindowGet00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_WindowGet_00",
+    "SortKey": 4950
+  },
+  {
+    "ArchiveCategory": [
+      "NmpEdit"
+    ],
+    "BodyLayoutFile": "Cmn_NmpEdit_00",
+    "Class": "SplUICmnNmpEdit00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_NmpEdit_00",
+    "SortKey": 5010
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Cmn_ModeLan_00",
+    "Class": "SplUICmnModeLan00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_ModeLan_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Reward"
+    ],
+    "BodyLayoutFile": "Cmn_MngCardPack_00",
+    "Class": "SplUICmnMngCardPack00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_MngCardPack_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "MultiGameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_MiiNameEffect_00",
+    "Class": "SplUICmnMiiNameEffect00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_MiiNameEffect_00",
+    "SortKey": 10
+  },
+  {
+    "ArchiveCategory": [
+      "MultiGameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_Announce_00",
+    "Class": "SplUICmnAnnounce00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Announce_00",
+    "SortKey": 5010
+  },
+  {
+    "ArchiveCategory": [
+      "XMenu"
+    ],
+    "BodyLayoutFile": "Cmn_BadgeGet_00",
+    "Class": "SplUICmnBadgeGet00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_BadgeGet_00",
+    "SortKey": 4710
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_Balloon_00",
+    "Class": "SplUICmnBalloon00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Balloon_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Cmn_BgBlur_00",
+    "Class": "SplUICmnBgBlur00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_BgBlur_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_BG_00",
+    "Class": "SplUICmnBG00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_BG_00",
+    "SortKey": 21000
+  },
+  {
+    "ArchiveCategory": [
+      "MultiGameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_CapNamePlate_00",
+    "Class": "SplUICmnCapNamePlate00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CapNamePlate_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_ChoseGear_00",
+    "Class": "SplUICmnChoseGear00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_ChoseGear_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Cmn_CoopMatch_00",
+    "Class": "SplUICmnCoopMatch00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CoopMatch_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "MultiGameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_CountDownFinish_00",
+    "Class": "SplUICmnCountDownFinish00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CountDownFinish_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Cmn_CountTimer_00",
+    "Class": "SplUICmnCountTimer00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CountTimer_00",
+    "SortKey": 9500
+  },
+  {
+    "ArchiveCategory": [
+      "Customize"
+    ],
+    "BodyLayoutFile": "Cmn_CstAmiiboMyset_00",
+    "Class": "SplUICmnCstAmiiboMyset00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CstAmiiboMyset_00",
+    "SortKey": 4615
+  },
+  {
+    "ArchiveCategory": [
+      "Customize"
+    ],
+    "BodyLayoutFile": "Cmn_CstAmiiboStart_00",
+    "Class": "SplUICmnCstAmiiboStart00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CstAmiiboStart_00",
+    "SortKey": 4620
+  },
+  {
+    "ArchiveCategory": [
+      "Customize"
+    ],
+    "BodyLayoutFile": "Cmn_CstBase_00",
+    "Class": "SplUICmnCstBase00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CstBase_00",
+    "SortKey": 4610
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_WindowMng_00",
+    "Class": "SplUICmnWindowMng00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_WindowMng_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Customize"
+    ],
+    "BodyLayoutFile": "Cmn_CstBg_00",
+    "Class": "SplUICmnCstBg00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_CstBg_00",
+    "SortKey": 4600
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_Cursor_00",
+    "Class": "SplUICmnCursor00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Cursor_00",
+    "SortKey": 9999
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_FadeWipe_00",
+    "Class": "SplUICmnEventFadeWipeScreen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_EventFadeWipe_00",
+    "SortKey": 15007
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_FadeWipe_00",
+    "Class": "SplUICmnEventFadeWipeScreen",
+    "DrawUnitId": 4,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_EventFadeWipe_01",
+    "SortKey": 2900
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_FadeWipe_00",
+    "Class": "SplUICmnEventFadeWipeScreen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_FadeWipeInScene_00",
+    "SortKey": 3400
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_FadeWipe_00",
+    "Class": "SplUICmnFadeWipe00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_FadeWipe_00",
+    "SortKey": 20000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_GuideActionPoint_00",
+    "Class": "SplUICmnGuideActionPoint00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_GuideActionPoint_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_GuideBtn_00",
+    "Class": "SplUICmnGuideBtn00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_GuideBtn_00",
+    "SortKey": 2800
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_IconTextureHolder_00",
+    "Class": "SplUICmnIconTextureHolder00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_IconTextureHolder_00",
+    "SortKey": 1
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_InterimAnnounce_00",
+    "Class": "SplUICmnInterimAnnounce00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_InterimAnnounce_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Boot"
+    ],
+    "BodyLayoutFile": "Cmn_Loading_00",
+    "Class": "SplUICmnLoading00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_Loading_00",
+    "SortKey": 21000
+  },
+  {
+    "ArchiveCategory": [
+      "Manual"
+    ],
+    "BodyLayoutFile": "Cmn_ManualAll_00",
+    "Class": "SplUICmnManualAll00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_ManualAll_00",
+    "SortKey": 5010
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_MenuPhoto_00",
+    "Class": "SplUICmnMenuPhoto00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_MenuPhoto_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "XMenu"
+    ],
+    "BodyLayoutFile": "Cmn_Menu_00",
+    "Class": "SplUICmnMenu00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_Menu_00",
+    "SortKey": 5000
+  },
+  {
+    "ArchiveCategory": [
+      "Customize"
+    ],
+    "BodyLayoutFile": "Cmn_CstToShootingRange_00",
+    "Class": "SplUICmnCstToShootingRange00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_CstToShootingRange_00",
+    "SortKey": 4612
+  },
+  {
+    "ArchiveCategory": [
+      "Narration"
+    ],
+    "BodyLayoutFile": "Cmn_WindowNarration_00",
+    "Class": "SplUICmnWindowNarration00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_WindowNarration_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_WinTalk_00",
+    "Class": "SplUICmnWinTalk00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Cmn_WinTalk_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Cmn_WinTalk_00",
+    "Class": "SplUICmnWinTalk01Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Cmn_WinTalk_01",
+    "SortKey": 4100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_LetterList_00",
+    "Class": "SplUILobbyLetterList00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_LetterList_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_LetterPlayer_00",
+    "Class": "SplUILobbyLetterPlayer00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_LetterPlayer_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_ListFriend_00",
+    "Class": "SplUILobbyListFriend00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ListFriend_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_LockerBalloon_00",
+    "Class": "SplUILobbyLockerBalloon00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_LockerBalloon_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_LockerGuideBtn_00",
+    "Class": "SplUILobbyLockerGuideBtn00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_LockerGuideBtn_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_LockerNamePlate_00",
+    "Class": "SplUILobbyLockerNamePlate00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_LockerNamePlate_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_MenuAnim_00",
+    "Class": "SplUILobbyMenuAnim00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_MenuAnim_00",
+    "SortKey": 3050
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_MenuLocker_00",
+    "Class": "SplUILobbyMenuLocker00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_MenuLocker_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_MenuMode_00",
+    "Class": "SplUILobbyMenuMode00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_MenuMode_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_MessageTry_00",
+    "Class": "SplUILobbyMessageTry00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_MessageTry_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_PasswordEntry_00",
+    "Class": "SplUILobbyPasswordEntry00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Lobby_PasswordEntry_00",
+    "SortKey": 4100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_Password_00",
+    "Class": "SplUILobbyPassword00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Lobby_Password_00",
+    "SortKey": 4000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_ResultClearance_00",
+    "Class": "SplUILobbyResultClearance00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ResultClearance_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_JudgeBalloon_00",
+    "Class": "SplUILobbyJudgeBalloon00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_JudgeBalloon_00",
+    "SortKey": 2900
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_ResultDialogue_00",
+    "Class": "SplUILobbyResultDialogue00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ResultDialogue_00",
+    "SortKey": 3010
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_ResultSelect_00",
+    "Class": "SplUILobbyResultSelect00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ResultSelect_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_ScoreList_00",
+    "Class": "SplUILobbyScoreList00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ScoreList_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_Shop_00",
+    "Class": "SplUILobbyShop00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_Shop_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_WaitMatchMessage_00",
+    "Class": "SplUILobbyWaitMatchMessage00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_WaitMatchMessage_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_WaitMatchState_00",
+    "Class": "SplUILobbyWaitMatchState00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_WaitMatchState_00",
+    "SortKey": 3501
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_WaitMatch_00",
+    "Class": "SplUILobbyWaitMatch00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_WaitMatch_00",
+    "SortKey": 4700
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_WinOption_00",
+    "Class": "SplUILobbyWinOption00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Lobby_WinOption_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_WinSelectMatch_00",
+    "Class": "SplUILobbyWinSelectMatch00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Lobby_WinSelectMatch_00",
+    "SortKey": 3100
+  },
+  {
+    "ArchiveCategory": [
+      "Lobby"
+    ],
+    "BodyLayoutFile": "Lobby_WinTalk_00",
+    "Class": "SplUILobbyWinTalk00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_WinTalk_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_BaseTry_00",
+    "Class": "SplUIMngBaseTry00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_BaseTry_00",
+    "SortKey": 5012
+  },
+  {
+    "ArchiveCategory": [
+      "MiniGame"
+    ],
+    "BodyLayoutFile": "Mng_Base_00",
+    "Class": "SplUIMngBase00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_Base_00",
+    "SortKey": 4900
+  },
+  {
+    "ArchiveCategory": [
+      "MngCardEditor"
+    ],
+    "BodyLayoutFile": "Mng_CardCollection_00",
+    "Class": "SplUIMngCardCollection00Screen",
+    "DrawUnitId": 3,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Mng_CardCollection_00",
+    "SortKey": 5010
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_ResultReward_00",
+    "Class": "SplUILobbyResultReward00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_ResultReward_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "VersusSync"
+    ],
+    "BodyLayoutFile": "VS_StandbyScene_00",
+    "Class": "SplUIVSStandbyScene00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_StandbyScene_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_GuideTips_00",
+    "Class": "SplUILobbyGuideTips00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_GuideTips_00",
+    "SortKey": 3010
+  },
+  {
+    "ArchiveCategory": [
+      "ShootingRange"
+    ],
+    "BodyLayoutFile": "Lobby_GuideBtnShootingRange_00",
+    "Class": "SplUILobbyGuideBtnShootingRange00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_GuideBtnShootingRange_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_Beaten_00",
+    "Class": "SplUICoopBeaten00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_Beaten_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_BossGauge_00",
+    "Class": "SplUICoopBossGauge00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_BossGauge_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_CountDownFinish_00",
+    "Class": "SplUICoopCountDownFinish00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_CountDownFinish_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_CountDownStart_00",
+    "Class": "SplUICoopCountDownStart00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_CountDownStart_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyCoop_LobbyLocal"
+    ],
+    "BodyLayoutFile": "Coop_CstBase_00",
+    "Class": "SplUICoopCstBase00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": true,
+    "IsTouch": false,
+    "Name": "Coop_CstBase_00",
+    "SortKey": 3200
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_Emergency_00",
+    "Class": "SplUICoopEmergency00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_Emergency_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_EnemyName_00",
+    "Class": "SplUICoopEnemyName00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_EnemyName_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_ExtraWave_00",
+    "Class": "SplUICoopExtraWave00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_ExtraWave_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "GameCommon"
+    ],
+    "BodyLayoutFile": "Coop_GuideBtn_00",
+    "Class": "SplUICoopGuideBtn00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_GuideBtn_00",
+    "SortKey": 2000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_LastOne_00",
+    "Class": "SplUICoopLastOne00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_LastOne_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_MachinePosition_00",
+    "Class": "SplUICoopMachinePosition00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_MachinePosition_00",
+    "SortKey": 1140
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_MainTV_00",
+    "Class": "SplUICoopMainTV00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_MainTV_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_PlayerName_00",
+    "Class": "SplUICoopPlayerName00Screen",
+    "DrawUnitId": 1,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_PlayerName_00",
+    "SortKey": 1100
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Lobby_GuideBtn_00",
+    "Class": "SplUILobbyGuideBtn00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_GuideBtn_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbySync"
+    ],
+    "BodyLayoutFile": "Coop_ResultDetail_00",
+    "Class": "SplUICoopResultDetail00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_ResultDetail_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyCoop"
+    ],
+    "BodyLayoutFile": "Coop_ShopGift_00",
+    "Class": "SplUICoopShopGift00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_ShopGift_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyCoop"
+    ],
+    "BodyLayoutFile": "Coop_Shop_00",
+    "Class": "SplUICoopShop00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_Shop_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_StageName_00",
+    "Class": "SplUICoopStageName00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_StageName_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_StandbyScene_00",
+    "Class": "SplUICoopStandbyScene00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_StandbyScene_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_Target_00",
+    "Class": "SplUICoopTarget00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_Target_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_TutorialTarget_00",
+    "Class": "SplUICoopTutorialTarget00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_TutorialTarget_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_WaveClear_00",
+    "Class": "SplUICoopWaveClear00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_WaveClear_00",
+    "SortKey": 3500
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_WaveHeight_00",
+    "Class": "SplUICoopWaveHeight00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_WaveHeight_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_WpnChange_00",
+    "Class": "SplUICoopWpnChange00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_WpnChange_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus_CapScreen"
+    ],
+    "BodyLayoutFile": "Lobby_CapScreen_00",
+    "Class": "SplUILobbyCapScreen00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_CapScreen_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_Capsule_00",
+    "Class": "SplUILobbyCapsule00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_Capsule_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_CursorLocker_00",
+    "Class": "SplUILobbyCursorLocker00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": true,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_CursorLocker_00",
+    "SortKey": 1000
+  },
+  {
+    "ArchiveCategory": [
+      "LobbyVersus"
+    ],
+    "BodyLayoutFile": "Lobby_FinishTips_00",
+    "Class": "SplUILobbyFinishTips00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Lobby_FinishTips_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Coop"
+    ],
+    "BodyLayoutFile": "Coop_Result_00",
+    "Class": "SplUICoopResult00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "Coop_Result_00",
+    "SortKey": 3000
+  },
+  {
+    "ArchiveCategory": [
+      "Versus"
+    ],
+    "BodyLayoutFile": "VS_TeamPow_00",
+    "Class": "SplUIVSTeamPow00Screen",
+    "DrawUnitId": 0,
+    "GameParameterTableRef": "",
+    "HeapInitialSize": 0,
+    "IsEnableControl": false,
+    "IsHeapReverse": false,
+    "IsIgnorePick": false,
+    "IsLockRequestForceCancel": false,
+    "IsPauseLower": false,
+    "IsTouch": false,
+    "Name": "VS_TeamPow_00",
+    "SortKey": 3000
+  }
+]

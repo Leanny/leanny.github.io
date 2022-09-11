@@ -1,0 +1,1266 @@
+[
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "ActionAreaSwitchForPlayer"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "AmbientSoundArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "AttackPermitNumChangeArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "BgmArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "ChangePaintableArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyCupTwins0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyCupTwins1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyCupTwins2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyTower0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyTower1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopArrivalPointEnemyTower2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 3.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopBossAppearDemoLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopEventRelayGoldenIkuraDropPoint0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopEventRelayGoldenIkuraDropPoint1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopEventRelayGoldenIkuraDropPoint2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopEventRelaySpawnBoxLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopEventRelayTornadoLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopHelicopterCenterPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopHelicopterLookPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopParamHolderEventGeyser"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeArtilleryGunPoint0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeArtilleryGunPoint1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeArtilleryGunPoint2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeCarrierSpawnDefeatPos"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeCarrierWaitPos"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakeFlyBagmanNoEscapeArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakePillarArrivalPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 50.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakePillarDummyLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakePillarSpawnPoint0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakePillarSpawnPoint1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakePillarSpawnPoint2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakelienGiantNoJumpArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSakerocketJumpPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSpawnBoxLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSpawnPointEnemy0"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSpawnPointEnemy1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSpawnPointEnemy2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 2.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopSpawnPointSakeFlyBagMan"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorComeOnPlayerPos"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorFlyBagmanSpawn"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorHelpPlayerPos"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorRareSpawn"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorRareWait"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorSecondGoldenIkura"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopTutorialLocatorThirdRareWait"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 250.0,
+    "ShapeType": "Plane",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CoopWaterLevelLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 10.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CullingArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 10.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CullingAreaSubordinate"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 10.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CullingAreaSuperJump"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "CullingOcclusionArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 10.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "DynamicLoadingArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "EnemyMoveLimitArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "EnemyUtsuboxMorayCrowdLocator"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "EventAreaSwitch"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GeneralLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GeneralLocator_Cube"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GeneralLocator_Cylinder"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GfxPointLight"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GfxPointLightDynamic"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "ConeShift",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GfxSpotLight"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "ConeShift",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "GfxSpotLightDynamic"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "KebaInkArea_Box"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "KebaInkArea_Cylinder"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 3.0,
+    "ShapeType": "Hemisphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "KebaInkArea_Hemisphere"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "KebaInkArea_Sphere"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Lft_KeepOutEnemy"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Lft_KeepOutPlayer"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LobbyCoopGoldenIkuraSpawnPos"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LobbyShootingArea"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LobbyShootingArea_Cylinder"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LobbyTurnDirectionArea"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorAreaSwitch"
+  },
+  {
+    "HitCollectNum": 16,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "Lift",
+    "__RowId": "LocatorAreaSwitchForLift"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "All",
+    "__RowId": "LocatorAreaSwitchParent"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorBulletBlastCrossPaintChangeArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorBulletBlastPaintHeightLimitArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorBulletCheckFallIgnoreArea"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorChangeSceneAndKeepWalkArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorEnemyKumasanRocketBack"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "AnyPlayer",
+    "__RowId": "LocatorGachiasariClamInitSpawnArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "AnyPlayer",
+    "__RowId": "LocatorGachiasariClamSpawnPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGachihokoHikikomoriArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGachihokoHikikomoriArea2"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGachihokoIgnoreOppositeTeamArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGachihokoRelocateInitPosArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "AnyPlayer",
+    "__RowId": "LocatorGachihokoRouteArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGachihokoRouteTargetPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorGoldenIkuraReturnArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorKumasanRocketChangeStep"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorLocker"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorNpcLobby"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorNpcPlazaFixed"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorNpcWorldAgent1"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorNpcWorldAgent3"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorNpcWorldCommander"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorPlayerPatchArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorPlazaJerryFixed"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorPlazaNpcRandomArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorProjectionArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorRandomDigUpPointSpawn"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorRandomDigUpPointSpawnArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorShopPlayer"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSpawner"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSpawnerTargetCube"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSpawnerTargetNG"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSuperJumpDangerousArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSuperJumpSafeArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 0.5,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorSuperJumpSafePosWorld"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTricolMatoiLandingPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTricolNoroshiLandingPoint"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTricolResultJudgeSpawnPoint"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTutorial"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTutorialDiscoverTreasure"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTutorialExcavation"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTutorialSalmonBuddyJumpArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorTutorialStation"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "LocatorVersusStart"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "MissionBossCheckPointLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "All",
+    "__RowId": "MovePainterExplodeArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Mpt_KeepOutEnemy"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Mpt_KeepOutPlayer"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Mpt_PlayerDead"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "Obj_LobbyKeepOutPlayerInSpecial"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Plane",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "OneShotMissDieTag"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "PaintTargetArea_Cube"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "PaintTargetArea_Cylinder"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "PaintedArea_Cube"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "PaintedArea_Cylinder"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "PlayerFallArea"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "RestartPosUpdateArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "RivalJumpTarget"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SalmonBuddyPlayerMakeLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SearchInvalidateArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SearchLimitArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SoundFxArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SoundShape_Box"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cylinder",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SoundShape_Cylinder"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 0.1,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SoundShape_Point"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Sphere",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SoundShape_Sphere"
+  },
+  {
+    "HitCollectNum": 32,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "Enemy",
+    "__RowId": "SplEnemyAlertArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplEnemyRailKingJumpLocator"
+  },
+  {
+    "HitCollectNum": 1,
+    "IsHitActor": true,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplFieldEnvEffectArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplFieldEnvEffectLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplIkuraShootTutorialLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplMissionSalmonBuddyAttractorLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplMissionSalmonBuddyLeadPlayerArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplMissionSalmonBuddyWaitInTicketGateLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplPlazaSalmonBuddyLocator"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "SplSwitchComboArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "StartPos"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "StartPosForBigWorld"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "StartPosForCoopBossRound"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "StartPosForLaunchPadWorld"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cone",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "StartPosTipsTrial"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "TimeLimitStartArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Plane",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "WallaObjPlacementGroupTag"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "WoodenFigureCullingArea"
+  },
+  {
+    "HitCollectNum": 0,
+    "IsHitActor": false,
+    "Scale": 1.0,
+    "ShapeType": "Cube",
+    "TargetMaskType": "ControlledPlayer",
+    "__RowId": "WorldLocationArea"
+  }
+]

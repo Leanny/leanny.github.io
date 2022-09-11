@@ -1,0 +1,89 @@
+[
+  {
+    "__RowId": "CoopHelicopter"
+  },
+  {
+    "__RowId": "CoopSpawnGeyser"
+  },
+  {
+    "__RowId": "CoopTurret"
+  },
+  {
+    "__RowId": "GachiasariGoal"
+  },
+  {
+    "__RowId": "Gachihoko"
+  },
+  {
+    "__RowId": "GachihokoCheckPoint"
+  },
+  {
+    "__RowId": "GachihokoGoal"
+  },
+  {
+    "__RowId": "GachiyaguraParent"
+  },
+  {
+    "__RowId": "Gachiyagura_2M"
+  },
+  {
+    "__RowId": "Gachiyagura_3M"
+  },
+  {
+    "__RowId": "Gachiyagura_4M"
+  },
+  {
+    "__RowId": "InkRailOnline"
+  },
+  {
+    "__RowId": "Obj_MsnWallaBox15x8x15"
+  },
+  {
+    "__RowId": "Obj_MsnWallaCylinder10x10x10"
+  },
+  {
+    "__RowId": "Obj_RollingCone"
+  },
+  {
+    "__RowId": "Obj_YagaraBox00"
+  },
+  {
+    "__RowId": "Obj_YagaraBox01"
+  },
+  {
+    "__RowId": "Obj_YagaraBox02"
+  },
+  {
+    "__RowId": "Obj_YagaraBox03"
+  },
+  {
+    "__RowId": "Obj_YagaraBox04"
+  },
+  {
+    "__RowId": "Obj_YagaraBox05"
+  },
+  {
+    "__RowId": "PaintTargetAreaParent"
+  },
+  {
+    "__RowId": "PaintTargetArea_Cube"
+  },
+  {
+    "__RowId": "PaintTargetArea_Cylinder"
+  },
+  {
+    "__RowId": "SpongeSmall_3p0_VS"
+  },
+  {
+    "__RowId": "SpongeSmall_VS"
+  },
+  {
+    "__RowId": "SpongeTall_4p5_VS"
+  },
+  {
+    "__RowId": "Sponge_VS"
+  },
+  {
+    "__RowId": "WallaObjParent"
+  }
+]
