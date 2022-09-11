@@ -582,7 +582,7 @@
                                         .replace("Work/Gyml/", "")
                                         .replace(".game__gfx__parameter__TeamColorDataSet.gyml", ""),
                                 }
-                                all_entries.push(row)
+                                if (!entry.__RowId.includes("Boss")) all_entries.push(row)
                             })
                             $(`#color-table`).bootstrapTable("refreshOptions", { data: all_entries })
                         })
