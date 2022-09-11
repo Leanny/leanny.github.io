@@ -326,7 +326,7 @@
                         return "-"
                     }
                     const su1 = localize("CommonMsg/Byname/BynameSubject", `${subject}_0`)
-                    const su2 = localize("CommonMsg/Byname/BynameSubject", `${subject}_1`)
+                    const su2 = localize("CommonMsg/Byname/BynameSubject", `${subject}_1`).replace(/\[group.*\]/, "")
                     const full_su = `${ad}<br />${su1}${su2 === undefined || su2.length == 0 ? "" : "| " + su2}`
                     return full_su.replace(/\[group.*\]/, "")
                 }
