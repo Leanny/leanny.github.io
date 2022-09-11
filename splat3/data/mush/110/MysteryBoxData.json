@@ -1,0 +1,118 @@
+[
+  {
+    "BookId": 1,
+    "Info": [
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "AllDrinkTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "AllFoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "MiniGameCardPackFresh",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "AllGearSkillChip",
+        "Value": 3
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "NamePlateBg",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "Byname",
+        "Value": 3
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "LockerSticker",
+        "Value": 3
+      },
+      {
+        "FoodType": "None",
+        "Percent": 12.5,
+        "Type": "LockerFigure",
+        "Value": 3
+      }
+    ],
+    "Season": 1,
+    "__RowId": "Work/Gyml/MysteryBoxData110_1.spl__MysteryBoxData.gyml"
+  },
+  {
+    "BookId": 2,
+    "Info": [
+      {
+        "FoodType": "ExpParty",
+        "Percent": 1.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "MoneyParty",
+        "Percent": 1.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "Exp100",
+        "Percent": 4.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "Money100",
+        "Percent": 4.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 10.0,
+        "Type": "GearSkillChip",
+        "Value": 3
+      },
+      {
+        "FoodType": "Exp50",
+        "Percent": 15.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "Money50",
+        "Percent": 15.0,
+        "Type": "FoodTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 20.0,
+        "Type": "DrinkTicket",
+        "Value": 1
+      },
+      {
+        "FoodType": "None",
+        "Percent": 30.0,
+        "Type": "Money",
+        "Value": 10000
+      }
+    ],
+    "Season": 1,
+    "__RowId": "Work/Gyml/MysteryBoxData110_2.spl__MysteryBoxData.gyml"
+  }
+]

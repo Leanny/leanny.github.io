@@ -65,34 +65,7 @@
             >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="misc.html">Misc Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="manuals.html">Manual Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="parameters.html">Parameter Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="title.html">Title Database</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
         </nav>
         <main role="main">
             <div class="jumbotron">
@@ -116,12 +89,20 @@
                     </div>
                 </div>
             </div>
+            <script type="module">
+                import { generateHeader } from "./js/Utility.js"
+                generateHeader($("#navbarCollapse"))
+            </script>
             <script>
                 let lang_dict = {}
                 let dmginfodata = {}
 
-                const prefix = "https://leanny.github.io/splat3/"
-                //const prefix = "http://127.0.0.1:5500/"
+                let prefix = ""
+                if (window.location.href.includes("leanny.github.io")) {
+                    prefix = "https://leanny.github.io/splat3/"
+                } else {
+                    prefix = "http://127.0.0.1:5500/"
+                }
 
                 const localize = (dir, key) => lang_dict[dir][key]
 
@@ -214,16 +195,11 @@
                 }
             </script>
         </main>
-        <footer class="footer">
-            <div class="container text-muted">
-                <div class="footer-notice">
-                    <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
-                    <p>
-                        Feedback or suggestions are welcome. Please contact me via Twitter.
-                        <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a>
-                    </p>
-                </div>
-            </div>
+        <footer class="footer" id="footer">
+            <script type="module">
+                import { generateFooter } from "./js/Utility.js"
+                generateFooter($("#footer"))
+            </script>
         </footer>
     </body>
 </html>

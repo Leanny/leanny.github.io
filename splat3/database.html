@@ -28,6 +28,7 @@
         ></script>
         <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
         <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
+
         <title>Splatoon 3 - Weapon and Gear Database</title>
         <style>
             .bd-placeholder-img {
@@ -65,34 +66,7 @@
             >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="misc.html">Misc Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="manuals.html">Manual Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="parameters.html">Parameter Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="title.html">Title Database</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
         </nav>
         <main role="main">
             <div class="jumbotron">
@@ -209,19 +183,35 @@
                                             </th>
                                             <th
                                                 scope="col"
-                                                data-field="RewardLvl0"
-                                                data-formatter="badge00Formatter"
+                                                data-field="RewardLvl2"
+                                                data-formatter="zakkaFormatter"
                                                 data-sortable="true"
                                             >
-                                                Badge Lvl 0
+                                                Reward Lvl 2
                                             </th>
                                             <th
                                                 scope="col"
-                                                data-field="RewardLvl1"
-                                                data-formatter="badge01Formatter"
+                                                data-field="RewardLvl3"
+                                                data-formatter="zakkaFormatter"
                                                 data-sortable="true"
                                             >
-                                                Badge Lvl 1
+                                                Reward Lvl 3
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="RewardLvl4"
+                                                data-formatter="badgeFormatter"
+                                                data-sortable="true"
+                                            >
+                                                Reward Lvl 4
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="RewardLvl5"
+                                                data-formatter="badgeFormatter"
+                                                data-sortable="true"
+                                            >
+                                                Reward Lvl 5
                                             </th>
                                             <th scope="col" data-field="Range" data-sortable="true">
                                                 Matchmaking Range
@@ -428,9 +418,18 @@
                 </div>
             </div>
         </main>
+        <script type="module">
+            import { generateHeader } from "./js/Utility.js"
+            generateHeader($("#navbarCollapse"))
+        </script>
         <script>
-            const prefix = "https://leanny.github.io/splat3/"
-            //const prefix = "http://127.0.0.1:5500/"
+            let prefix = ""
+            if (window.location.href.includes("leanny.github.io")) {
+                prefix = "https://leanny.github.io/splat3/"
+            } else {
+                prefix = "http://127.0.0.1:5500/"
+            }
+
             let version = 100
 
             let lang_dict = {}
@@ -481,10 +480,20 @@
                 return `<center><p>${tmp}<br />${value[1]}</p></center>`
             }
 
-            var badge00Formatter = value =>
-                `<center>${format_img(prefix + "images/badge/Badge_WeaponLevel_", value + "_Lv00", 96)}</center>`
-            var badge01Formatter = value =>
-                `<center>${format_img(prefix + "images/badge/Badge_WeaponLevel_", value + "_Lv01", 96)}</center>`
+            const getFilenameOfReward = value => {
+                return value
+                    .replace("Work/Gyml/", "")
+                    .replace(".gyml", "")
+                    .replace("BadgeInfo", "Badge")
+                    .replace(".spl__BadgeInfo", "")
+                    .replace(".spl__LockerGoodsStickerInfo", "")
+            }
+
+            var badgeFormatter = value =>
+                `<center>${format_img(prefix + "images/badge/", getFilenameOfReward(value), 96)}</center>`
+
+            var zakkaFormatter = value =>
+                `<center>${format_img(prefix + "images/zakka/", getFilenameOfReward(value), 96)}</center>`
 
             var UIParamFormatter = value => {
                 return `<b>${localize("CommonMsg/Weapon/WeaponParamName", value[0]["Type"])}: </b> ${
@@ -631,28 +640,42 @@
                     shs_gear = {}
 
                     weapon_dict.forEach(item => {
-                        //if (item["Id"] < 20000) {
-                        weapon_data[item["Id"]] = item
-                        //}
+                        if (item.Id < 10000) {
+                            weapon_data[item.Id] = item
+                        }
                     })
 
                     $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoSub.json", subweapon_dict => {
                         subweapon_dict.forEach(item => {
                             //if (item["Id"] < 100) {
-                            subweapon_data[item["Id"]] = item
+                            subweapon_data[item.Id] = item
                             //}
                         })
                         $.getJSON(prefix + "data/mush/" + version + "/GearInfoHead.json", hed_dict => {
                             hed_dict.forEach(item => {
-                                hed_gear[item["Id"]] = item
+                                if (item.Id > 0 && item.HowToGet != "Impossible" && !item.__RowId.includes("_MSN")) {
+                                    hed_gear[item.Id] = item
+                                }
                             })
                             $.getJSON(prefix + "data/mush/" + version + "/GearInfoClothes.json", clt_dict => {
                                 clt_dict.forEach(item => {
-                                    clt_gear[item["Id"]] = item
+                                    if (
+                                        item.Id > 0 &&
+                                        item.HowToGet != "Impossible" &&
+                                        !item.__RowId.includes("_MSN")
+                                    ) {
+                                        clt_gear[item.Id] = item
+                                    }
                                 })
                                 $.getJSON(prefix + "data/mush/" + version + "/GearInfoShoes.json", shs_dict => {
                                     shs_dict.forEach(item => {
-                                        shs_gear[item["Id"]] = item
+                                        if (
+                                            item.Id > 0 &&
+                                            item.HowToGet != "Impossible" &&
+                                            !item.__RowId.includes("_MSN")
+                                        ) {
+                                            shs_gear[item.Id] = item
+                                        }
                                     })
                                     change_lang(current_lang)
                                 })
@@ -725,8 +748,10 @@
                             ],
                             SpecialPoint: weapon["SpecialPoint"],
                             Range: weapon["Range"],
-                            RewardLvl0: weapon["__RowId"],
-                            RewardLvl1: weapon["__RowId"],
+                            RewardLvl2: weapon["RewardLv2"],
+                            RewardLvl3: weapon["RewardLv3"],
+                            RewardLvl4: weapon["RewardLv4"],
+                            RewardLvl5: weapon["RewardLv5"],
                             Season: weapon["Season"] + 1,
                             ShopPrice: weapon["ShopPrice"],
                             ShopUnlockRank: weapon["ShopUnlockRank"],
@@ -800,16 +825,11 @@
                 })
             })
         </script>
-        <footer class="footer">
-            <div class="container text-muted">
-                <div class="footer-notice">
-                    <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
-                    <p>
-                        Feedback or suggestions are welcome. Please contact me via Twitter.
-                        <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a>
-                    </p>
-                </div>
-            </div>
+        <footer class="footer" id="footer">
+            <script type="module">
+                import { generateFooter } from "./js/Utility.js"
+                generateFooter($("#footer"))
+            </script>
         </footer>
     </body>
 </html>

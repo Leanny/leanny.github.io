@@ -1,0 +1,74 @@
+{
+  "GameParameters": {
+    "spl__BulletSpShockSonarParam": {
+      "$type": "spl__BulletSpShockSonarParam",
+      "GeneratorParam": {
+        "HeadColRadius": 0.75,
+        "HitDamage": 300,
+        "HitDamageInterval": 0.5,
+        "HitKnockback": 400,
+        "MoveParam": {
+          "FlyGravity": 0.009,
+          "FlyPositionAirResist": 0.001,
+          "GuideHitCollisionType": "Clam",
+          "SpawnSpeedY": 0.07,
+          "SpawnSpeedYWorldMin": -0.5,
+          "SpawnSpeedZSpecUp": {
+            "High": 0.3,
+            "Low": 0.3,
+            "Mid": 0.3
+          }
+        },
+        "PoleColHeight": 2.75,
+        "SphereAnimCurve": {
+          "Data": [
+            0.0,
+            0.0,
+            0.0,
+            0.1454545,
+            0.0,
+            0.0,
+            0.901515,
+            1.0,
+            -0.1383645,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "MaxX": 1.0,
+          "Type": "Hermit2DSmooth"
+        },
+        "SphereAnimRadius": 0.3,
+        "WaveEmitFrameArray": [
+          90,
+          240,
+          390
+        ]
+      },
+      "WaveParam": {
+        "Damage": 450,
+        "DamageYMax": 2.8,
+        "MaxFrame": {
+          "High": 216.0,
+          "Low": 160.0,
+          "Mid": 192.0
+        },
+        "MaxRadius": {
+          "High": 27.0,
+          "Low": 20.0,
+          "Mid": 24.0
+        }
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    },
+    "spl__WeaponSpShockSonarParam": {
+      "$type": "spl__WeaponSpShockSonarParam",
+      "ShotParam": {}
+    }
+  }
+}

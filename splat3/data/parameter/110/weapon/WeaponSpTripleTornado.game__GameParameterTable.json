@@ -1,0 +1,49 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletSpTripleTornadoBlastParam",
+      "DamageHeightUp": 20.0,
+      "DamageRadiusEnd": 7.0,
+      "DamageValueEnd": 50,
+      "KnockBackParam": {
+        "Accel": 93.333,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintRadiusEnd": 7.0,
+      "PaintRadiusStart": 0.5,
+      "PaintRotateDegree": 8.5,
+      "PaintSpanFrame": 2
+    },
+    "MissileParam": {
+      "$type": "spl__BulletSpTripleTornadoMissileParam",
+      "UseDirect": false,
+      "XZBias": 0.8
+    },
+    "MotherParam": {
+      "$type": "spl__BulletSpTripleTornadoMotherParam",
+      "TargetHeight": 150.0
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpTripleTornadoGuideDeviceMoveParam",
+      "GuideHitCollisionType": "TripleTornadoGuideDevice",
+      "SpawnSpeedY": 0.276,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 2.6,
+        "Low": 2.0,
+        "Mid": 2.3
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpTripleTornadoParam",
+      "SpecialTotalFrame": 360
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YPlusRate": 4.0
+    }
+  }
+}

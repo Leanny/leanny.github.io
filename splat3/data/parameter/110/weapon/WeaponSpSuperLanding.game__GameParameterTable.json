@@ -1,0 +1,30 @@
+{
+  "GameParameters": {
+    "spl__BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 6.0,
+      "CrossPaintRadius": 4.0,
+      "CrossPaintTexture": "SprLanding00",
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 7.0
+        },
+        {
+          "Damage": 700,
+          "Distance": 10.0
+        },
+        {
+          "Damage": 550,
+          "Distance": 14.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 420.0,
+        "Distance": 15.0
+      },
+      "PaintRadius": 13.0,
+      "PaintTexture": "SprLanding00"
+    }
+  }
+}

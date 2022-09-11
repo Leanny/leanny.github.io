@@ -75,34 +75,7 @@
             >
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="database.html">Weapon and Gear Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="damagetable.html">Damage Multipliers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="misc.html">Misc Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="manuals.html">Manual Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="parameters.html">Parameter Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tableturf.html">Tableturf Battle Database</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="title.html">Title Database</a>
-                    </li>
-                </ul>
-            </div>
+            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
         </nav>
         <main role="main">
             <div class="jumbotron">
@@ -173,9 +146,17 @@
                     <div id="parameterContent"></div>
                 </div>
             </div>
+            <script type="module">
+                import { generateHeader } from "./js/Utility.js"
+                generateHeader($("#navbarCollapse"))
+            </script>
             <script>
-                const prefix = "https://leanny.github.io/splat3/"
-                //const prefix = "http://127.0.0.1:5500/"
+                let prefix = ""
+                if (window.location.href.includes("leanny.github.io")) {
+                    prefix = "https://leanny.github.io/splat3/"
+                } else {
+                    prefix = "http://127.0.0.1:5500/"
+                }
 
                 var version = 100
                 var lang_dict = {}
@@ -210,11 +191,24 @@
                     $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoMain.json", weapon_dict => {
                         weapon_data = {}
                         weapon_dict.forEach(item => {
-                            if (item["Id"] < 20000 && item.__RowId.includes("_00")) {
-                                weapon_data[item["Id"]] = item
+                            if (item.Type == "Versus" && item.__RowId.includes("_00")) {
+                                weapon_data[item.Id] = item
                                 $("#weapon-select").append(
                                     new Option(
                                         localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId),
+                                        item.SpecActor.replace("Work/Actor/", "").replace(
+                                            ".engine__actor__ActorParam.gyml",
+                                            ""
+                                        )
+                                    )
+                                )
+                            }
+
+                            if (item.Type == "Coop" && item.__RowId.includes("_Coop")) {
+                                weapon_data[item.Id] = item
+                                $("#weapon-select").append(
+                                    new Option(
+                                        localize("CommonMsg/Weapon/WeaponName_Main", item.__RowId) + " (SR)",
                                         item.SpecActor.replace("Work/Actor/", "").replace(
                                             ".engine__actor__ActorParam.gyml",
                                             ""
@@ -229,8 +223,8 @@
                     $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoSub.json", weapon_dict => {
                         weapon_data = {}
                         weapon_dict.forEach(item => {
-                            if (!item.__RowId.includes("Mission")) {
-                                weapon_data[item["Id"]] = item
+                            if (item.Type == "Versus") {
+                                weapon_data[item.Id] = item
                                 $("#sub-select").append(
                                     new Option(
                                         localize("CommonMsg/Weapon/WeaponName_Sub", item.__RowId),
@@ -247,16 +241,18 @@
                     $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoSpecial.json", weapon_dict => {
                         weapon_data = {}
                         weapon_dict.forEach(item => {
-                            weapon_data[item["Id"]] = item
-                            $("#special-select").append(
-                                new Option(
-                                    localize("CommonMsg/Weapon/WeaponName_Special", item.__RowId),
-                                    item.SpecActor.replace("Work/Actor/", "").replace(
-                                        ".engine__actor__ActorParam.gyml",
-                                        ""
+                            if (item.Type == "Versus") {
+                                weapon_data[item.Id] = item
+                                $("#special-select").append(
+                                    new Option(
+                                        localize("CommonMsg/Weapon/WeaponName_Special", item.__RowId),
+                                        item.SpecActor.replace("Work/Actor/", "").replace(
+                                            ".engine__actor__ActorParam.gyml",
+                                            ""
+                                        )
                                     )
                                 )
-                            )
+                            }
                         })
                     })
                 }

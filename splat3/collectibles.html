@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"
+            integrity="sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
+        <title>Splatoon 3 - Collectibles Database</title>
+        <style>
+            .bd-placeholder-img {
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 3.5rem;
+                }
+            }
+            .themed-grid-col {
+                padding-top: 15px;
+                padding-bottom: 15px;
+                background-color: rgba(86, 61, 124, 0.15);
+                border: 1px solid rgba(86, 61, 124, 0.2);
+            }
+            h2 {
+                margin: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Collectibles Database</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarCollapse"
+                aria-controls="navbarCollapse"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse"></div>
+        </nav>
+        <main role="main">
+            <div class="jumbotron">
+                <div class="col-sm-8 mx-auto">
+                    <h1>Splatoon 3 - Collectibles Database</h1>
+                    <div class="toolbar">
+                        <select class="form-control" id="language"></select>
+                        <select class="form-control" id="version"></select>
+                    </div>
+                    <ul class="nav nav-tabs" id="modes" role="tablist">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                id="titles-tab"
+                                data-toggle="tab"
+                                href="#titles"
+                                role="tab"
+                                aria-controls="titles"
+                                aria-selected="true"
+                                >Titles</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="nameplates-tab"
+                                data-toggle="tab"
+                                href="#nameplates"
+                                role="tab"
+                                aria-controls="nameplates"
+                                aria-selected="true"
+                                >Nameplates</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="badges-tab"
+                                data-toggle="tab"
+                                href="#badges"
+                                role="tab"
+                                aria-controls="badges"
+                                aria-selected="true"
+                                >Badges</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="zakka-tab"
+                                data-toggle="tab"
+                                href="#zakka"
+                                role="tab"
+                                aria-controls="zakka"
+                                aria-selected="true"
+                                >Locker</a
+                            >
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="modeTabControl">
+                        <div class="tab-pane fade show active" id="titles" role="tabpanel" aria-labelledby="titles-tab">
+                            <h2>Adjectives</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="titles-adj-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th scope="col" data-field="Id" data-formatter="nameFormatter">Name</th>
+                                            <th scope="col" data-field="HowToGet">How To Get</th>
+                                            <th scope="col" data-field="Season">Season</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <h2>Subjects</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="titles-sub-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th scope="col" data-field="Id" data-formatter="nameFormatter2">Name</th>
+                                            <th scope="col" data-field="HowToGet">How To Get</th>
+                                            <th scope="col" data-field="Season">Season</th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div
+                            class="tab-pane fade show"
+                            id="nameplates"
+                            role="tabpanel"
+                            aria-labelledby="nameplates-tab"
+                        >
+                            <h2>Nameplates</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="nameplates-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th scope="col" data-field="__RowId" data-formatter="imageFormatter">
+                                                Image
+                                            </th>
+                                            <th scope="col" data-field="TextColor" data-formatter="colorFormatter">
+                                                Text Color
+                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true">How To Get</th>
+                                            <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                            <th scope="col" data-field="UrokoPrice" data-formatter="urokoFormatter">
+                                                Fish Scale Price
+                                            </th>
+                                            <th scope="col" data-field="UrokoUhlockLevel" data-sortable="true">
+                                                Fish Scale Unlock Level
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="badges" role="tabpanel" aria-labelledby="badges-tab">
+                            <h2>Badges</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="badges-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th scope="col" data-field="__RowId" data-formatter="imageFormatterBadge">
+                                                Image
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="Category"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                Category
+                                            </th>
+
+                                            <th
+                                                scope="col"
+                                                data-field="Description"
+                                                data-formatter="descriptionFormatter"
+                                            >
+                                                How To Unlock
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show" id="zakka" role="tabpanel" aria-labelledby="zakka-tab">
+                            <h2>Figures</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="zakka-figure-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterImage"
+                                            >
+                                                Image
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterName"
+                                                data-sortable="true"
+                                            >
+                                                Name
+                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true">How To Get</th>
+                                            <th scope="col" data-field="MaxNumberOfPossessions" data-sortable="true">
+                                                Max Number Of Possessions
+                                            </th>
+                                            <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                            <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                            <th scope="col" data-field="UrokoPrice" data-formatter="urokoFormatter">
+                                                Fish Scale Price
+                                            </th>
+                                            <th scope="col" data-field="UrokoUnlockLevel" data-sortable="true">
+                                                Fish Scale Unlock Level
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <h2>Main Parts</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="zakka-mainpart-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterImage"
+                                            ></th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterName"
+                                                data-sortable="true"
+                                            >
+                                                Name
+                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true">How To Get</th>
+                                            <th scope="col" data-field="MaxNumberOfPossessions" data-sortable="true">
+                                                Max Number Of Possessions
+                                            </th>
+                                            <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                            <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                            <th scope="col" data-field="UrokoPrice" data-formatter="urokoFormatter">
+                                                Fish Scale Price
+                                            </th>
+                                            <th scope="col" data-field="UrokoUnlockLevel" data-sortable="true">
+                                                Fish Scale Unlock Level
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <h2>Sticker</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="zakka-sticker-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterImage"
+                                            ></th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterName"
+                                                data-sortable="true"
+                                            >
+                                                Name
+                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true">How To Get</th>
+                                            <th scope="col" data-field="MaxNumberOfPossessions" data-sortable="true">
+                                                Max Number Of Possessions
+                                            </th>
+                                            <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                            <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                            <th scope="col" data-field="UrokoPrice" data-formatter="urokoFormatter">
+                                                Fish Scale Price
+                                            </th>
+                                            <th scope="col" data-field="UrokoUnlockLevel" data-sortable="true">
+                                                Fish Scale Unlock Level
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <h2>Sub Parts</h2>
+                            <div class="table-responsive">
+                                <table
+                                    class="table table-striped table-hover"
+                                    id="zakka-subpart-table"
+                                    data-sortable="true"
+                                    data-search="true"
+                                    data-show-columns="true"
+                                    data-show-pagination-switch="true"
+                                    data-show-fullscreen="true"
+                                >
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" data-field="Id" data-sortable="true" data-visible="false">
+                                                Internal ID
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterImage"
+                                            ></th>
+                                            <th
+                                                scope="col"
+                                                data-field="__RowId"
+                                                data-formatter="lockerFigureFormatterName"
+                                                data-sortable="true"
+                                            >
+                                                Name
+                                            </th>
+                                            <th scope="col" data-field="HowToGet" data-sortable="true">How To Get</th>
+                                            <th scope="col" data-field="MaxNumberOfPossessions" data-sortable="true">
+                                                Max Number Of Possessions
+                                            </th>
+                                            <th scope="col" data-field="Price" data-sortable="true">Price</th>
+                                            <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th scope="col" data-field="Season" data-sortable="true">Season</th>
+                                            <th scope="col" data-field="UrokoPrice" data-formatter="urokoFormatter">
+                                                Fish Scale Price
+                                            </th>
+                                            <th scope="col" data-field="UrokoUnlockLevel" data-sortable="true">
+                                                Fish Scale Unlock Level
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script type="module">
+            import { generateHeader } from "./js/Utility.js"
+            generateHeader($("#navbarCollapse"))
+        </script>
+        <script>
+            let prefix = ""
+            if (window.location.href.includes("leanny.github.io")) {
+                prefix = "https://leanny.github.io/splat3/"
+            } else {
+                prefix = "http://127.0.0.1:5500/"
+            }
+            let version = 100
+
+            let lang_dict = {}
+            let weapon_dict = {}
+            let special_dict = {}
+
+            const localize = (dir, key) => lang_dict[dir][key]
+
+            const get_image_tag = (img, alt, extra = "") => {
+                new_img = img.replace(".png", ".webp")
+                return `<picture>
+                        <source type="image/webp" srcset="${new_img}" ${extra}>
+                        <source type="image/png" srcset="${img}" ${extra}>
+                        <img src="${img}" alt="${alt}" ${extra}>
+                    </picture>`
+            }
+
+            function lockerFigureFormatterImage(value) {
+                return `<center>${format_img(prefix + "images/zakka/", value, 96)}</center>`
+            }
+
+            function lockerFigureFormatterName(value) {
+                return localize("CommonMsg/Goods/GoodsName", value)
+            }
+
+            const format_img = (base_url, value, width) =>
+                get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
+
+            function nameFormatter(value) {
+                return localize("CommonMsg/Byname/BynameAdjective", value).replace(/\[group.*\]/, "")
+            }
+
+            function nameFormatter2(value) {
+                return localize("CommonMsg/Byname/BynameSubject", value).replace(/\[group.*\]/, "")
+            }
+
+            function imageFormatter(value) {
+                return `<center>${format_img(prefix + "images/npl/", value)}</center>`
+            }
+
+            var colorFormatter = value => {
+                return `<p style="background-color: rgba(${value.R * 255}, ${value.G * 255}, ${value.B * 255}, ${
+                    value.A
+                });">R: ${value.R}<br />G: ${value.G}<br />B: ${value.B}<br />A: ${value.A}</p>`
+            }
+
+            function urokoFormatter(value) {
+                return `<p>Bronze: ${value.BronzeUrokoNum}<br />Silver: ${value.SilverUrokoNum}<br />Gold ${value.GoldUrokoNum}`
+            }
+
+            function imageFormatterBadge(value) {
+                v = value.replace("Work/Gyml/BadgeInfo", "Badge").replace(".spl__BadgeInfo.gyml", "")
+                return `<center>${format_img(prefix + "images/badge/", v)}</center>`
+            }
+
+            function descriptionFormatter(value) {
+                let res = localize("CommonMsg/Badge/BadgeMsg", value.MsgLabelEx)
+                if (res !== undefined) {
+                    if (res.includes("[group=0004 type=0007 params=00 00 00 00]")) {
+                        res = res.replace(
+                            "[group=0004 type=0007 params=00 00 00 00]",
+                            localize("CommonMsg/Coop/CoopEnemy", value.Sub1_Str)
+                        )
+                    }
+                    if (res.includes("[group=0004 type=000e params=00 00 00 00]")) {
+                        res = res.replace(
+                            "[group=0004 type=000e params=00 00 00 00]",
+                            localize("CommonMsg/Coop/CoopStageName", value.Sub1_Str)
+                        )
+                    }
+                    if (res.includes("[group=0004 type=000f params=00 00 00 00]")) {
+                        res = res.replace(
+                            "[group=0004 type=000f params=00 00 00 00]",
+                            localize("CommonMsg/Gear/GearBrandName", `B${("" + value.Sub1_Int).padStart(2, "0")}`)
+                        )
+                    }
+                    if (res.includes("[group=0004 type=0001 params=00 00 00 00]")) {
+                        if (value.Category === "WeaponLevel") {
+                            res = res.replace(
+                                "[group=0004 type=0001 params=00 00 00 00]",
+                                localize("CommonMsg/Weapon/WeaponName_Main", weapon_dict[value.Sub1_Int].__RowId)
+                            )
+                        } else if (value.Category === "WinCount_WeaponSp") {
+                            res = res.replace(
+                                "[group=0004 type=0001 params=00 00 00 00]",
+                                localize("CommonMsg/Weapon/WeaponName_Special", special_dict[value.Sub1_Int].__RowId)
+                            )
+                        } else {
+                            console.error(value)
+                        }
+                    }
+                } else {
+                    res = localize("CommonMsg/Badge/BadgeMsg", value.Name)
+                }
+                return res
+            }
+
+            var mpuFormatter = value => value[1]
+
+            const languages = [
+                {
+                    ext: "USen",
+                    region: "NA",
+                    language: "en",
+                    name: "English",
+                },
+                {
+                    ext: "EUen",
+                    region: "EU",
+                    language: "en",
+                    name: "English (UK)",
+                },
+                {
+                    ext: "EUes",
+                    region: "EU",
+                    language: "es",
+                    name: "Español",
+                },
+                {
+                    ext: "USes",
+                    region: "NA",
+                    language: "es-MX",
+                    name: "Español (MX)",
+                },
+                {
+                    ext: "EUfr",
+                    region: "EU",
+                    language: "fr",
+                    name: "Français",
+                },
+                {
+                    ext: "USfr",
+                    region: "NA",
+                    language: "fr-CA",
+                    name: "Français (CA)",
+                },
+                {
+                    ext: "EUde",
+                    region: "EU",
+                    language: "de",
+                    name: "Deutsch",
+                },
+                {
+                    ext: "EUnl",
+                    region: "EU",
+                    language: "nl",
+                    name: "Nederlands",
+                },
+                {
+                    ext: "EUit",
+                    region: "EU",
+                    language: "it",
+                    name: "Italiano",
+                },
+                {
+                    ext: "EUru",
+                    region: "EU",
+                    language: "ru",
+                    name: "Pусский",
+                },
+                {
+                    ext: "JPja",
+                    region: "JP",
+                    language: "ja",
+                    name: "日本語",
+                },
+                {
+                    ext: "CNzh",
+                    region: "AP",
+                    language: "cn",
+                    name: "中文（简体）",
+                },
+                {
+                    ext: "KRko",
+                    region: "AP",
+                    language: "kr",
+                    name: "한국어",
+                },
+                {
+                    ext: "TWzh",
+                    region: "AP",
+                    language: "tw",
+                    name: "中文（繁體）",
+                },
+            ]
+
+            for (const lang of Object.values(languages)) {
+                $("#language").append(new Option(lang["name"], lang["ext"]))
+            }
+
+            function detectSplatoonLanguage() {
+                let browserLanguages = window.navigator.languages.map(l => l.toLowerCase())
+                let availableLanguages = languages.map(l => l.language.toLowerCase())
+                let resultLanguages = {}
+                for (const lang of Object.values(languages)) {
+                    resultLanguages[lang["language"]] = lang["ext"]
+                }
+
+                // Try to find a match based on the first part of the available languages (i.e., match "es" for "es-ES")
+                for (let language of browserLanguages) {
+                    for (let availableLanguage of availableLanguages) {
+                        if (language.startsWith(availableLanguage)) {
+                            return resultLanguages[availableLanguage]
+                        }
+                    }
+                }
+            }
+
+            $.getJSON(prefix + "versions.json", vers => {
+                let last = 0
+                vers.forEach(ver => {
+                    if (ver === "099") {
+                        $("#version").append(new Option("Testfire", ver))
+                    } else {
+                        $("#version").append(new Option(ver[0] + "." + ver[1] + "." + ver[2], ver))
+                    }
+                    last = ver
+                })
+                $("#version").val(last)
+                version = last
+            })
+
+            function loadData() {
+                $.getJSON(prefix + "data/mush/" + version + "/BynameAdjectiveInfo.json", data_dict => {
+                    all_titles = {}
+                    data_dict.forEach(entry => {
+                        all_titles[entry.Id] = entry
+                    })
+                    $.getJSON(
+                        prefix + "data/parameter/" + version + "/byname/Adjective_" + current_lang + ".json",
+                        new_data_dict => {
+                            all_labels = []
+                            new_data_dict.Labels.forEach(element => {
+                                if (getNum(element) in all_titles) {
+                                    const e = all_titles[getNum(element)]
+                                    row = {
+                                        Id: element,
+                                        HowToGet: e.HowToGet,
+                                        Season: e.Season,
+                                    }
+                                    all_labels.push(row)
+                                }
+                            })
+                            $("#titles-adj-table").bootstrapTable("refreshOptions", {
+                                data: all_labels,
+                            })
+                        }
+                    )
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/BynameSubjectInfo.json", data_dict => {
+                    all_subs = {}
+                    data_dict.forEach(entry => {
+                        all_subs[entry.Id] = entry
+                    })
+                    $.getJSON(
+                        prefix + "data/parameter/" + version + "/byname/Subject_" + current_lang + ".json",
+                        subject_dict => {
+                            all_labels = []
+                            subject_dict.Labels.forEach(element => {
+                                if (getNum2(element) in all_subs) {
+                                    const e = all_subs[getNum2(element)]
+                                    row = {
+                                        Id: element,
+                                        HowToGet: e.HowToGet,
+                                        Season: e.Season,
+                                    }
+                                    all_labels.push(row)
+                                }
+                            })
+                            $("#titles-sub-table").bootstrapTable("refreshOptions", {
+                                data: all_labels,
+                            })
+                        }
+                    )
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/NamePlateBgInfo.json", data_dict => {
+                    $("#nameplates-table").bootstrapTable("refreshOptions", { data: data_dict })
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoMain.json", weapon_list => {
+                    weapon_dict = {}
+                    weapon_list.forEach(weapon => {
+                        weapon_dict[weapon.Id] = weapon
+                    })
+                    $.getJSON(prefix + "data/mush/" + version + "/WeaponInfoSpecial.json", special_list => {
+                        special_dict = {}
+                        special_list.forEach(weapon => {
+                            special_dict[weapon.Id] = weapon
+                        })
+                        $.getJSON(prefix + "data/mush/" + version + "/BadgeInfo.json", data_dict => {
+                            data_dict.forEach(row => {
+                                row["Description"] = { ...row }
+                            })
+                            $("#badges-table").bootstrapTable("refreshOptions", {
+                                data: data_dict.filter(elem => !elem.Name.includes("Mission")),
+                            })
+                        })
+                    })
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/LockerGoodsFigureInfo.json", data_dict => {
+                    $("#zakka-figure-table").bootstrapTable("refreshOptions", { data: data_dict })
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/LockerGoodsMainPartInfo.json", data_dict => {
+                    $("#zakka-mainpart-table").bootstrapTable("refreshOptions", { data: data_dict })
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/LockerGoodsStickerInfo.json", data_dict => {
+                    console.log(data_dict)
+                    $("#zakka-sticker-table").bootstrapTable("refreshOptions", {
+                        data: data_dict.filter(elem => !elem.__RowId.includes("_Msn")),
+                    })
+                })
+                $.getJSON(prefix + "data/mush/" + version + "/LockerGoodsSubPartInfo.json", data_dict => {
+                    $("#zakka-subpart-table").bootstrapTable("refreshOptions", { data: data_dict })
+                })
+            }
+
+            let current_lang = detectSplatoonLanguage()
+            if (typeof current_lang === "undefined") {
+                current_lang = "EUen"
+            }
+
+            window.change_lang = lang => {
+                current_lang = lang
+                $.getJSON(prefix + "data/language/" + current_lang + ".json", d => {
+                    for (const [key, value] of Object.entries(d)) {
+                        lang_dict[key] = value
+                    }
+                    translate_menu()
+                    loadData()
+                })
+            }
+
+            change_lang(current_lang)
+
+            const capitalizeFirstLetter = string => string.charAt(0).toUpperCase() + string.slice(1)
+
+            const getNum = string => Number(string)
+            const getNum2 = string => getNum(string.slice(0, -2))
+
+            function translate_menu() {
+                $("#titles-tab").text(capitalizeFirstLetter(localize("CommonMsg/Glossary", "Byname")))
+                //$("#weapons-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_00-T_Category_00"))
+                //$("#heads-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_01-T_Category_00"))
+                //$("#clothes-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_02-T_Category_00"))
+                //$("#shoes-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_03-T_Category_00"))
+                //
+            }
+
+            $(function () {
+                $("#titles-sub-table").bootstrapTable({})
+                $("#titles-adj-table").bootstrapTable({})
+                $("#nameplates-table").bootstrapTable({})
+                $("#badges-table").bootstrapTable({})
+                $("#zakka-figure-table").bootstrapTable({})
+                $("#zakka-mainpart-table").bootstrapTable({})
+                $("#zakka-sticker-table").bootstrapTable({})
+                $("#zakka-subpart-table").bootstrapTable({})
+                $("#language").val(current_lang)
+                $("#language").change(function () {
+                    change_lang($(this).val())
+                })
+                $("#version").change(function () {
+                    version = $(this).val()
+                    loadData()
+                })
+            })
+        </script>
+        <footer class="footer" id="footer">
+            <script type="module">
+                import { generateFooter } from "./js/Utility.js"
+                generateFooter($("#footer"))
+            </script>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "Brightness": 0.1,
+    "Hue": 0.0,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/Bright.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": -0.2,
+    "Hue": 0.0,
+    "Saturation": 0.5,
+    "__RowId": "Work/Gyml/Dark.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.05,
+    "Hue": 0.1,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/HueBright.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.0,
+    "Hue": 0.05,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/HueBrightHalf.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.05,
+    "Hue": -0.1,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/HueDark.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.0,
+    "Hue": -0.05,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/HueDarkHalf.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": -0.25,
+    "Hue": 0.0,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/Ink.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.0,
+    "Hue": 0.0,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/InkBright.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.1,
+    "Hue": 0.0,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/InkLame.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.05,
+    "Hue": 0.1,
+    "Saturation": 0.0,
+    "__RowId": "Work/Gyml/InkLameRare.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.1,
+    "Hue": 0.0,
+    "Saturation": -0.05,
+    "__RowId": "Work/Gyml/Pale.game__gfx__parameter__TeamColorOffset.gyml"
+  },
+  {
+    "Brightness": 0.0,
+    "Hue": 0.0,
+    "Saturation": -0.6,
+    "__RowId": "Work/Gyml/Silhouette.game__gfx__parameter__TeamColorOffset.gyml"
+  }
+]

@@ -1,0 +1,957 @@
+{
+  "Levels": [
+    {
+      "EventDozer": {
+        "DozerIncrSecond": 80,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.3,
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "Weight": 0
+      },
+      "EventFog": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "RareAppearCycle": 3,
+        "Weight": 0
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 0
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "SakeCarrierMaxHP": 12000,
+        "SakeCopterSpeedCoef": 0.5,
+        "Weight": 0,
+        "ZakoActiveMaxEach": 1,
+        "ZakoLargeActiveMax": 0
+      },
+      "EventMissile": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "Weight": 0
+      },
+      "EventNone": {
+        "Weight": 1
+      },
+      "EventRelay": {
+        "DropRushNum": 10,
+        "SpawnBoxActiveTime": 900,
+        "SpawnBoxCoolDownTime": 1800,
+        "SpawnBoxCoolDownTime0": 1200,
+        "Weight": 0
+      },
+      "EventRush": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "RareAppearCycle": 20,
+        "Weight": 0,
+        "ZakoSpeedCoef": 2.0
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 60,
+        "SakelienLargeActivateMax": 2,
+        "TamaireMaxNum": 2,
+        "TamaireSpawnInterval": 2100,
+        "Weight": 0,
+        "ZakoAppearWeightStandard": 8
+      },
+      "RareFollowerNum": 1,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 3,
+          "EnemyActiveMax2ndHalf": 5,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 3,
+          "RareAppearNum": 3
+        },
+        {
+          "EnemyActiveMax1stHalf": 3,
+          "EnemyActiveMax2ndHalf": 5,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 4,
+          "RareAppearNum": 3
+        },
+        {
+          "EnemyActiveMax1stHalf": 4,
+          "EnemyActiveMax2ndHalf": 7,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 5,
+          "RareAppearNum": 3
+        }
+      ],
+      "SakelienGiantHPCoef": 0.7,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 3,
+      "ZakoActivateMax": {
+        "SakelienLarge": 1
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 40,
+      "EventDozer": {
+        "DozerIncrSecond": 80,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.3,
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "Weight": 0
+      },
+      "EventFog": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "RareAppearCycle": 3,
+        "Weight": 0
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 0
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": -1,
+        "SakeCarrierMaxHP": 12000,
+        "SakeCopterSpeedCoef": 0.5,
+        "Weight": 0,
+        "ZakoActiveMaxEach": 1,
+        "ZakoLargeActiveMax": 0
+      },
+      "EventMissile": {
+        "EnemyActiveMax": -1,
+        "EnemyAppearInterval": -1,
+        "Weight": 0
+      },
+      "EventNone": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": -1,
+        "Weight": 1
+      },
+      "EventRelay": {
+        "DropRushNum": 10,
+        "SpawnBoxActiveTime": 900,
+        "SpawnBoxCoolDownTime": 1800,
+        "SpawnBoxCoolDownTime0": 1200,
+        "Weight": 0
+      },
+      "EventRush": {
+        "EnemyActiveMax": -1,
+        "EnemyActiveMaxCoef": 100,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "Weight": 0,
+        "ZakoSpeedCoef": 2.0
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 60,
+        "SakelienLargeActivateMax": 2,
+        "TamaireMaxNum": 2,
+        "TamaireSpawnInterval": 2100,
+        "Weight": 0,
+        "ZakoAppearWeightStandard": 8
+      },
+      "RareFollowerNum": 1,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 3,
+          "EnemyActiveMax2ndHalf": 5,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 5,
+          "RareAppearNum": 3
+        },
+        {
+          "EnemyActiveMax1stHalf": 4,
+          "EnemyActiveMax2ndHalf": 6,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 6,
+          "RareAppearNum": 3
+        },
+        {
+          "EnemyActiveMax1stHalf": 5,
+          "EnemyActiveMax2ndHalf": 8,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 7,
+          "RareAppearNum": 4
+        }
+      ],
+      "SakelienGiantHPCoef": 0.74,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 3,
+      "ZakoActivateMax": {
+        "SakelienLarge": 1,
+        "SakelienSmall": 0,
+        "SakelienStandard": 0
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 100,
+      "EventDozer": {
+        "DozerIncrSecond": 80,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.3
+      },
+      "EventFog": {
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 12000,
+        "SakeCopterSpeedCoef": 0.5,
+        "Weight": 1,
+        "ZakoActiveMaxEach": 1,
+        "ZakoLargeActiveMax": 0
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 10,
+        "SpawnBoxActiveTime": 900,
+        "SpawnBoxCoolDownTime": 1800,
+        "SpawnBoxCoolDownTime0": 1200
+      },
+      "EventRush": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 2.2
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 60,
+        "SakelienLargeActivateMax": 2,
+        "TamaireMaxNum": 2,
+        "TamaireSpawnInterval": 2100,
+        "ZakoAppearWeightLarge": 1,
+        "ZakoAppearWeightSmall": 2,
+        "ZakoAppearWeightStandard": 7
+      },
+      "RareFollowerNum": 2,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 7,
+          "EnemyActiveMax2ndHalf": 11,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 8,
+          "RareAppearNum": 5
+        },
+        {
+          "EnemyActiveMax1stHalf": 8,
+          "EnemyActiveMax2ndHalf": 12,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 9,
+          "RareAppearNum": 6
+        },
+        {
+          "EnemyActiveMax1stHalf": 9,
+          "EnemyActiveMax2ndHalf": 13,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 10,
+          "RareAppearNum": 7
+        }
+      ],
+      "SakelienGiantHPCoef": 0.8,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 4,
+      "ZakoActivateMax": {
+        "SakelienLarge": 1
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 200,
+      "EventDozer": {
+        "DozerIncrSecond": 70,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.5
+      },
+      "EventFog": {
+        "RareAppearCycle": 4,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCopterSpeedCoef": 0.7,
+        "Weight": 1,
+        "ZakoActiveMaxEach": 1,
+        "ZakoLargeActiveMax": 0
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 11,
+        "SpawnBoxActiveTime": 960,
+        "SpawnBoxCoolDownTime": 1740,
+        "SpawnBoxCoolDownTime0": 1140
+      },
+      "EventRush": {
+        "EnemyActiveMax": 17,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 2.4
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 60,
+        "SakelienLargeActivateMax": 3,
+        "TamaireMaxNum": 2,
+        "TamaireSpawnInterval": 1800,
+        "ZakoAppearWeightLarge": 2,
+        "ZakoAppearWeightSmall": 3,
+        "ZakoAppearWeightStandard": 10
+      },
+      "RareFollowerNum": 2,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 8,
+          "EnemyActiveMax2ndHalf": 12,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 9,
+          "RareAppearNum": 6
+        },
+        {
+          "EnemyActiveMax1stHalf": 9,
+          "EnemyActiveMax2ndHalf": 14,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 10,
+          "RareAppearNum": 7
+        },
+        {
+          "EnemyActiveMax1stHalf": 10,
+          "EnemyActiveMax2ndHalf": 16,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 12,
+          "RareAppearNum": 9
+        }
+      ],
+      "SakelienGiantHPCoef": 0.9,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 4,
+      "ZakoActivateMax": {
+        "SakelienLarge": 2
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 300,
+      "EventDozer": {
+        "DozerIncrSecond": 60,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.7
+      },
+      "EventFog": {
+        "RareAppearCycle": 4,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 18000,
+        "SakeCopterSpeedCoef": 0.9,
+        "Weight": 1,
+        "ZakoLargeActiveMax": 0
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 12,
+        "SpawnBoxActiveTime": 1020,
+        "SpawnBoxCoolDownTime": 1680,
+        "SpawnBoxCoolDownTime0": 1080
+      },
+      "EventRush": {
+        "EnemyActiveMax": 19,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 2.6
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 55,
+        "SakelienLargeActivateMax": 4,
+        "TamaireMaxNum": 3,
+        "TamaireSpawnInterval": 1700,
+        "ZakoAppearWeightLarge": 2,
+        "ZakoAppearWeightSmall": 3,
+        "ZakoAppearWeightStandard": 7
+      },
+      "RareFollowerNum": 2,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 9,
+          "EnemyActiveMax2ndHalf": 14,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 11,
+          "RareAppearNum": 7
+        },
+        {
+          "EnemyActiveMax1stHalf": 10,
+          "EnemyActiveMax2ndHalf": 16,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 12,
+          "RareAppearNum": 9
+        },
+        {
+          "EnemyActiveMax1stHalf": 12,
+          "EnemyActiveMax2ndHalf": 18,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 14,
+          "RareAppearNum": 11
+        }
+      ],
+      "SakelienGiantHPCoef": 1.0,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 5,
+      "ZakoActivateMax": {
+        "SakelienLarge": 2
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 400,
+      "EventDozer": {
+        "DozerIncrSecond": 40,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 1.9
+      },
+      "EventFog": {
+        "RareAppearCycle": 5,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 22000,
+        "SakeCopterSpeedCoef": 1.2,
+        "Weight": 1,
+        "ZakoLargeActiveMax": 1
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 14,
+        "SpawnBoxActiveTime": 1080,
+        "SpawnBoxCoolDownTime": 1620,
+        "SpawnBoxCoolDownTime0": 1020,
+        "Use2Box2nd": 1
+      },
+      "EventRush": {
+        "EnemyActiveMax": 22,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 2.8
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 55,
+        "SakelienLargeActivateMax": 5,
+        "TamaireMaxNum": 3,
+        "TamaireSpawnInterval": 1600,
+        "ZakoAppearWeightLarge": 3,
+        "ZakoAppearWeightSmall": 4,
+        "ZakoAppearWeightStandard": 7
+      },
+      "RareFollowerNum": 3,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 10,
+          "EnemyActiveMax2ndHalf": 16,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 13,
+          "RareAppearNum": 9
+        },
+        {
+          "EnemyActiveMax1stHalf": 12,
+          "EnemyActiveMax2ndHalf": 18,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 14,
+          "RareAppearNum": 11
+        },
+        {
+          "EnemyActiveMax1stHalf": 14,
+          "EnemyActiveMax2ndHalf": 20,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 16,
+          "RareAppearNum": 13
+        }
+      ],
+      "SakelienGiantHPCoef": 1.0,
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 5,
+      "ZakoActivateMax": {
+        "SakelienLarge": 2
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 500,
+      "EventDozer": {
+        "DozerIncrSecond": 30,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 2.1
+      },
+      "EventFog": {
+        "RareAppearCycle": 5,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 25000,
+        "SakeCopterSpeedCoef": 1.5,
+        "Weight": 1,
+        "ZakoActiveMaxEach": 3,
+        "ZakoLargeActiveMax": 1
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "SpawnBoxActiveTime": 1140,
+        "SpawnBoxCoolDownTime": 1560,
+        "SpawnBoxCoolDownTime0": 960,
+        "Use2Box2nd": 1
+      },
+      "EventRush": {
+        "EnemyActiveMax": 25,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 3.0
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 50,
+        "SakelienLargeActivateMax": 7,
+        "TamaireMaxNum": 4,
+        "TamaireSpawnInterval": 1500,
+        "ZakoAppearWeightLarge": 4,
+        "ZakoAppearWeightSmall": 5,
+        "ZakoAppearWeightStandard": 6
+      },
+      "RareFollowerNum": 0,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 12,
+          "EnemyActiveMax2ndHalf": 18,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 16,
+          "RareAppearNum": 11
+        },
+        {
+          "EnemyActiveMax1stHalf": 14,
+          "EnemyActiveMax2ndHalf": 20,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 17,
+          "RareAppearNum": 13
+        },
+        {
+          "EnemyActiveMax1stHalf": 16,
+          "EnemyActiveMax2ndHalf": 22,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 19,
+          "RareAppearNum": 15
+        }
+      ],
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 6,
+      "ZakoActivateMax": {
+        "SakelienLarge": 3
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 2,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 1000,
+      "EventDozer": {
+        "DozerIncrSecond": 10,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 2.3
+      },
+      "EventFog": {
+        "RareAppearCycle": 5,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 35000,
+        "SakeCopterSpeedCoef": 2.0,
+        "Weight": 1,
+        "ZakoActiveMaxEach": 3,
+        "ZakoLargeActiveMax": 5
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 20,
+        "SpawnBoxActiveTime": 1320,
+        "SpawnBoxCoolDownTime": 1380,
+        "SpawnBoxCoolDownTime0": 780,
+        "Use2Box1st": 1,
+        "Use2Box2nd": 1
+      },
+      "EventRush": {
+        "EnemyActiveMax": 32,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 3.5
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 40,
+        "SakelienLargeActivateMax": 12,
+        "TamaireMaxNum": 4,
+        "TamaireSpawnInterval": 1200,
+        "ZakoAppearWeightLarge": 5,
+        "ZakoAppearWeightSmall": 6,
+        "ZakoAppearWeightStandard": 3
+      },
+      "RareFollowerNum": 0,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 22,
+          "EnemyActiveMax2ndHalf": 28,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 26,
+          "RareAppearNum": 20
+        },
+        {
+          "EnemyActiveMax1stHalf": 24,
+          "EnemyActiveMax2ndHalf": 30,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 28,
+          "RareAppearNum": 22
+        },
+        {
+          "EnemyActiveMax1stHalf": 26,
+          "EnemyActiveMax2ndHalf": 32,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 30,
+          "RareAppearNum": 24
+        }
+      ],
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 8,
+      "ZakoActivateMax": {
+        "SakelienLarge": 7
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 4,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    },
+    {
+      "Difficulty": 1665,
+      "EventDozer": {
+        "DozerIncrSecond": 10,
+        "DozerInterval": 3,
+        "DozerSpeedCoef": 2.6
+      },
+      "EventFog": {
+        "RareAppearCycle": 5,
+        "Weight": 1
+      },
+      "EventGeyser": {
+        "EnemyActiveMaxCoef": 60,
+        "Weight": 1
+      },
+      "EventHakobiya": {
+        "EnemyActiveMax": 15,
+        "EnemyAppearInterval": 50,
+        "SakeCarrierMaxHP": 40000,
+        "SakeCopterSpeedCoef": 3.0,
+        "Weight": 1,
+        "ZakoActiveMaxEach": 3,
+        "ZakoLargeActiveMax": 5
+      },
+      "EventMissile": {
+        "Weight": 1
+      },
+      "EventNone": {
+        "Weight": 24
+      },
+      "EventRelay": {
+        "DropRushNum": 25,
+        "SpawnBoxActiveTime": 1500,
+        "SpawnBoxCoolDownTime": 1200,
+        "SpawnBoxCoolDownTime0": 600,
+        "Use2Box1st": 1,
+        "Use2Box2nd": 1
+      },
+      "EventRush": {
+        "EnemyActiveMax": 32,
+        "EnemyAppearInterval": 10,
+        "RareAppearCycle": 20,
+        "ZakoSpeedCoef": 4.0
+      },
+      "EventTamaire": {
+        "EnemyAppearInterval": 30,
+        "SakelienLargeActivateMax": 15,
+        "TamaireMaxNum": 5,
+        "TamaireSpawnInterval": 900,
+        "ZakoAppearWeightLarge": 5,
+        "ZakoAppearWeightSmall": 5,
+        "ZakoAppearWeightStandard": 1
+      },
+      "RareFollowerNum": 0,
+      "Round": [
+        {
+          "EnemyActiveMax1stHalf": 24,
+          "EnemyActiveMax2ndHalf": 30,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 30,
+          "RareAppearNum": 30
+        },
+        {
+          "EnemyActiveMax1stHalf": 25,
+          "EnemyActiveMax2ndHalf": 31,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 32,
+          "RareAppearNum": 32
+        },
+        {
+          "EnemyActiveMax1stHalf": 26,
+          "EnemyActiveMax2ndHalf": 32,
+          "EnemyAppearInterval1stHalf": 30,
+          "EnemyAppearInterval2ndHalf": 20,
+          "NormaGoldenIkuraNum": 35,
+          "RareAppearNum": 35
+        }
+      ],
+      "Water": [
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 3
+        },
+        {
+          "EnemyActiveMaxCoef": 100,
+          "Weight": 1
+        }
+      ],
+      "WaveChangeNum": 10,
+      "ZakoActivateMax": {
+        "SakelienLarge": 10
+      },
+      "ZakoAppearWeight": {
+        "SakelienLarge": 4,
+        "SakelienSmall": 1,
+        "SakelienStandard": 10
+      }
+    }
+  ]
+}

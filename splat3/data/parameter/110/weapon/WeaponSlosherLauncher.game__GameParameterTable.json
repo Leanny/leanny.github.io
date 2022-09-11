@@ -1,0 +1,382 @@
+{
+  "GameParameters": {
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp_SlosherAndBrush",
+      "BaseDistance": 14.5
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting"
+    },
+    "NearestParam": {
+      "$type": "spl__BulletSplashSlosherNearestParam",
+      "DrawSizeCollisionPaintParam": {
+        "PaintDepthScale": 2.0,
+        "PaintWidthHalf": 1.0
+      },
+      "SpawnOffset": {
+        "X": 0.05,
+        "Y": 0.15
+      }
+    },
+    "SplashSlosherScatterParam": {
+      "$type": "spl__BulletSplashSlosherScatterParam",
+      "CollisionParam": {
+        "EndRadiusForField": 0.3,
+        "EndRadiusForPlayer": 0.0,
+        "InitRadiusForField": 0.3,
+        "InitRadiusForPlayer": 0.0
+      },
+      "PaintRadius": 0.5,
+      "SpawnFirstFrame": 4,
+      "SpawnMaxDegree": 65.0,
+      "SpawnMaxNum": 6,
+      "SpawnMinDegree": -45.0,
+      "SpawnOffsetMax": 1.2,
+      "SpawnOffsetMin": 0.8,
+      "SpawnSpanChangeEndFrame": 35,
+      "SpawnSpanFrameFirst": 6,
+      "SpawnSpanFrameLast": 12,
+      "SpawnSpeed": 0.15
+    },
+    "SplashSlosherSpiralParam": {
+      "$type": "spl__BulletSplashSlosherSpiralParam",
+      "CollisionParam": {
+        "EndRadiusForField": 0.25,
+        "EndRadiusForPlayer": 0.0,
+        "InitRadiusForField": 0.25,
+        "InitRadiusForPlayer": 0.0
+      },
+      "LifeFrame": 11,
+      "RoundSplitNum": 4,
+      "SameTimeSpawnNum": 3,
+      "SpawnSpanChangeEndFrame": 45,
+      "SpawnSpanChangeStartFrame": 18,
+      "SpawnSpanFrameFirst": 5,
+      "SpawnSpanFrameLast": 5,
+      "SpawnSpeedChangeEndFallHeight": 7.0,
+      "SpawnSpeedChangeStartFallHeight": 1.5,
+      "SpawnSpeedFirst": 0.17,
+      "SpawnSpeedLast": 0.085
+    },
+    "UnitGroupParam": {
+      "$type": "spl__BulletSlosherUnitGroupParam",
+      "Unit": [
+        {
+          "AddSpawnSpeedYRateByXZ": 0.1,
+          "AfterOffsetDelayFrame": 0,
+          "AfterOffsetSpawnSpeed": 0.0,
+          "AfterPaintParam": {
+            "DepthScaleFar": 1.5,
+            "DepthScaleNear": 1.5,
+            "DistanceXZFar": 10.0,
+            "DistanceXZNear": 10.0,
+            "ScaleEndFallDistance": 10.0,
+            "ScaleStartFallDistance": 1.5,
+            "WidthDepthScaleFall": 0.5,
+            "WidthHalfFar": 0.0,
+            "WidthHalfNear": 0.0
+          },
+          "AfterWallDropCollisionPaintPrm": {
+            "FallPeriodFirstSecondTargetAlp": 1.0,
+            "PaintRadiusFall": 1.0,
+            "PaintRadiusGround": 0.7,
+            "PaintRadiusShock": 2.2
+          },
+          "AfterWallDropMoveParam": {
+            "FallPeriodFirstFrameMax": 40,
+            "FallPeriodFirstFrameMin": 20,
+            "FallPeriodFirstTargetSpeed": 0.05,
+            "FallPeriodLastFrameMax": 35,
+            "FallPeriodLastFrameMin": 15,
+            "FallPeriodSecondFrame": 20,
+            "FallPeriodSecondTargetSpeed": 0.06,
+            "FreeGravityType": "value_0_008"
+          },
+          "BaseRotateYDegree": 0.0,
+          "BulletNum": 1,
+          "CollisionParam": {
+            "AfterOffsetEndRadiusForField": 0.0,
+            "AfterOffsetEndRadiusForPlayer": 0.0,
+            "AfterOffsetInitRadiusForField": 0.0,
+            "AfterOffsetInitRadiusForPlayer": 0.0,
+            "ChangeFrameForField": 4,
+            "ChangeFrameForPlayer": 5,
+            "EndRadiusForField": 0.1,
+            "EndRadiusForPlayer": 0.25,
+            "FriendThroughFrameForPlayer": 2,
+            "InitRadiusForField": 0.01,
+            "InitRadiusForPlayer": 0.025
+          },
+          "DamageParam": {
+            "ReduceEndFallDistance": 8.5,
+            "ReduceStartFallDistance": 1.5,
+            "ValueMax": 760,
+            "ValueMin": 520
+          },
+          "DrawSizeParam": {
+            "AfterOffsetEndRadius": 0.0,
+            "AfterOffsetInitRadius": 0.0,
+            "ChangeFrame": 0,
+            "EndRadius": 0.1,
+            "InitRadius": 0.1,
+            "TailID": 0,
+            "TailLengthMax": 0.5,
+            "TailLengthMin": 0.5,
+            "TailSolidFrame": 5
+          },
+          "HitEffectBigOrderNum": [],
+          "MoveParam": {
+            "BrakeAirResist": 0.1,
+            "BrakeGravity": 0.04,
+            "BrakeToFreeStateFrame": 1,
+            "BrakeToFreeVelocityXZ": 20.0,
+            "BrakeToFreeVelocityY": 10.0,
+            "FreeAirResist": 0.16,
+            "FreeGravity": 0.06,
+            "GoStraightStateEndMaxSpeed": 10.0,
+            "GoStraightToBrakeStateFrame": 5,
+            "SpawnSpeed": 0.0
+          },
+          "PaintParam": {
+            "DepthScaleFar": 0.897,
+            "DepthScaleNear": 0.897,
+            "DistanceXZFar": 15.0,
+            "DistanceXZNear": 5.0,
+            "ScaleEndFallDistance": 10.0,
+            "ScaleStartFallDistance": 1.5,
+            "WidthDepthScaleFall": 0.5,
+            "WidthHalfFar": 4.156,
+            "WidthHalfNear": 4.156
+          },
+          "RandomRotateYBias": 0.45,
+          "RandomRotateYDegree": 0.0,
+          "RandomRotateYOffOrderNum": [],
+          "SpawnSpeedAir": 1.4563,
+          "SpawnSpeedGround": 1.4737,
+          "SplashAndSplashWallHitSpawnPrm": {
+            "Combination": [
+              {
+                "OrderNum": 0,
+                "SplashArrayOrderNum": 0,
+                "SplashWallHitArrayOrderNum": 0,
+                "TotalNum": 4
+              }
+            ],
+            "SplashParam": [
+              {
+                "DrawSizeCollisionPaintParam": {
+                  "CollisionParam": {
+                    "ChangeFrameForField": 0,
+                    "ChangeFrameForPlayer": 0,
+                    "EndRadiusForField": 0.1,
+                    "EndRadiusForPlayer": 0.1,
+                    "FriendThroughFrameForPlayer": 0,
+                    "InitRadiusForField": 0.1,
+                    "InitRadiusForPlayer": 0.1
+                  },
+                  "DrawRadius": 0.2,
+                  "PaintDepthScale": 2.2,
+                  "PaintWidthHalf": 1.559
+                },
+                "SpawnParam": {
+                  "FirstSplashRateForLengthMax": 0.35,
+                  "FirstSplashRateForLengthMin": 0.1,
+                  "SpawnBetweenLength": 3.6,
+                  "SpawnNum": 4
+                }
+              }
+            ],
+            "SplashWallHitParam": [
+              {
+                "SpawnParam": {
+                  "BetweenDistance": 1.25,
+                  "DistanceXZRate": 1.5,
+                  "FirstDistance": 2.5,
+                  "VelocityMinusYRate": 0.45
+                },
+                "WallDropCollisionPaintParam": {
+                  "FallPeriodFirstSecondTargetAlp": 1.0,
+                  "PaintRadiusFall": 0.65,
+                  "PaintRadiusGround": 0.4,
+                  "PaintRadiusShock": 0.9
+                },
+                "WallDropMoveParam": {
+                  "FallPeriodFirstFrameMax": 40,
+                  "FallPeriodFirstFrameMin": 20,
+                  "FallPeriodFirstTargetSpeed": 0.05,
+                  "FallPeriodLastFrameMax": 35,
+                  "FallPeriodLastFrameMin": 20,
+                  "FallPeriodSecondFrame": 10,
+                  "FallPeriodSecondTargetSpeed": 0.04,
+                  "FreeGravityType": "value_0_008"
+                }
+              }
+            ]
+          },
+          "SplashSlosherHitParam": [
+            {
+              "CollisionRadius": 0.2,
+              "DrawRadius": 0.4,
+              "PaintRadiusRatePerWidthHalf": 0.6,
+              "SpawnOffsetHitByPlayer": 1.0,
+              "SpawnOffsetY": 1.6
+            }
+          ],
+          "UnitDelayFrame": 0,
+          "WallDropCollisionPaintParam": {
+            "FallPeriodFirstSecondTargetAlp": 1.0,
+            "PaintRadiusFall": 1.0,
+            "PaintRadiusGround": 0.7,
+            "PaintRadiusShock": 2.64
+          },
+          "WallDropMoveParam": {
+            "FallPeriodFirstFrameMax": 40,
+            "FallPeriodFirstFrameMin": 20,
+            "FallPeriodFirstTargetSpeed": 0.05,
+            "FallPeriodLastFrameMax": 35,
+            "FallPeriodLastFrameMin": 15,
+            "FallPeriodSecondFrame": 20,
+            "FallPeriodSecondTargetSpeed": 0.06,
+            "FreeGravityType": "value_0_008"
+          }
+        },
+        {
+          "AddSpawnSpeedYRateByXZ": 0.1,
+          "AfterOffsetDelayFrame": 2,
+          "AfterOffsetSpawnSpeed": 0.0,
+          "AfterPaintParam": {
+            "DepthScaleFar": 1.0,
+            "DepthScaleNear": 1.0,
+            "DistanceXZFar": 0.0,
+            "DistanceXZNear": 0.0,
+            "ScaleEndFallDistance": 10.0,
+            "ScaleStartFallDistance": 1.5,
+            "WidthDepthScaleFall": 0.5,
+            "WidthHalfFar": 0.0,
+            "WidthHalfNear": 0.0
+          },
+          "AfterWallDropCollisionPaintPrm": {
+            "FallPeriodFirstSecondTargetAlp": 1.0,
+            "PaintRadiusFall": 1.0,
+            "PaintRadiusGround": 0.7,
+            "PaintRadiusShock": 2.0
+          },
+          "AfterWallDropMoveParam": {
+            "FallPeriodFirstFrameMax": 30,
+            "FallPeriodFirstFrameMin": 10,
+            "FallPeriodFirstTargetSpeed": 0.06,
+            "FallPeriodLastFrameMax": 20,
+            "FallPeriodLastFrameMin": 15,
+            "FallPeriodSecondFrame": 10,
+            "FallPeriodSecondTargetSpeed": 0.06,
+            "FreeGravityType": "value_0_008"
+          },
+          "BaseRotateYDegree": 0.0,
+          "BulletNum": 4,
+          "CollisionParam": {
+            "AfterOffsetEndRadiusForField": 0.0,
+            "AfterOffsetEndRadiusForPlayer": 0.47,
+            "AfterOffsetInitRadiusForField": 0.0,
+            "AfterOffsetInitRadiusForPlayer": 0.047,
+            "ChangeFrameForField": 4,
+            "ChangeFrameForPlayer": 5,
+            "EndRadiusForField": 0.0,
+            "EndRadiusForPlayer": 0.47,
+            "FriendThroughFrameForPlayer": 2,
+            "InitRadiusForField": 0.0,
+            "InitRadiusForPlayer": 0.047
+          },
+          "DamageParam": {
+            "ReduceEndFallDistance": 8.5,
+            "ReduceStartFallDistance": 1.5,
+            "ValueMax": 380,
+            "ValueMin": 380
+          },
+          "DrawSizeParam": {
+            "AfterOffsetEndRadius": 0.0,
+            "AfterOffsetInitRadius": 0.0,
+            "ChangeFrame": 0,
+            "EndRadius": 0.0,
+            "InitRadius": 0.0,
+            "TailID": 0,
+            "TailLengthMax": 0.5,
+            "TailLengthMin": 0.5,
+            "TailSolidFrame": 5
+          },
+          "HitEffectBigOrderNum": [],
+          "MoveParam": {
+            "BrakeAirResist": 0.1,
+            "BrakeGravity": 0.04,
+            "BrakeToFreeStateFrame": 1,
+            "BrakeToFreeVelocityXZ": 20.0,
+            "BrakeToFreeVelocityY": 10.0,
+            "FreeAirResist": 0.16,
+            "FreeGravity": 0.06,
+            "GoStraightStateEndMaxSpeed": 10.0,
+            "GoStraightToBrakeStateFrame": 5,
+            "SpawnSpeed": 0.0
+          },
+          "PaintParam": {
+            "DepthScaleFar": 1.0,
+            "DepthScaleNear": 1.0,
+            "DistanceXZFar": 0.0,
+            "DistanceXZNear": 0.0,
+            "ScaleEndFallDistance": 10.0,
+            "ScaleStartFallDistance": 1.5,
+            "WidthDepthScaleFall": 0.5,
+            "WidthHalfFar": 0.0,
+            "WidthHalfNear": 0.0
+          },
+          "RandomRotateYBias": 0.45,
+          "RandomRotateYDegree": 0.0,
+          "RandomRotateYOffOrderNum": [],
+          "SpawnSpeedAir": 1.4563,
+          "SpawnSpeedGround": 1.4737,
+          "SplashAndSplashWallHitSpawnPrm": {
+            "Combination": [],
+            "SplashParam": [],
+            "SplashWallHitParam": []
+          },
+          "SplashSlosherHitParam": [],
+          "UnitDelayFrame": 1,
+          "WallDropCollisionPaintParam": {
+            "FallPeriodFirstSecondTargetAlp": 1.0,
+            "PaintRadiusFall": 1.0,
+            "PaintRadiusGround": 0.7,
+            "PaintRadiusShock": 2.4
+          },
+          "WallDropMoveParam": {
+            "FallPeriodFirstFrameMax": 30,
+            "FallPeriodFirstFrameMin": 10,
+            "FallPeriodFirstTargetSpeed": 0.06,
+            "FallPeriodLastFrameMax": 20,
+            "FallPeriodLastFrameMin": 15,
+            "FallPeriodSecondFrame": 10,
+            "FallPeriodSecondTargetSpeed": 0.06,
+            "FreeGravityType": "value_0_008"
+          }
+        }
+      ]
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSlosherParam",
+      "FrameOffsetMaxDegree": 0.0,
+      "FrameOffsetMaxMoveLength": 0.0,
+      "InkConsume": 0.084,
+      "InkRecoverStop": 42,
+      "MoveLmtFrame": 33,
+      "MoveSpeed": 0.07,
+      "PostDelayFrame": 10,
+      "RepeatFrame": 33,
+      "ShotGuide": {
+        "Frame": 12
+      },
+      "SwingLiftFrame": 12
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "GuideYMinusZero": true,
+      "YMinusRate": 1.0
+    }
+  }
+}

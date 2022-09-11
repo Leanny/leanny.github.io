@@ -1,0 +1,48 @@
+{
+  "GameParameters": {
+    "AreaParam": {
+      "$type": "spl__BulletPointSensorAreaParam",
+      "Distance": {
+        "High": 6.0,
+        "Low": 6.0,
+        "Mid": 6.0
+      },
+      "MarkingFrameSubSpec": {
+        "High": 960.0,
+        "Low": 480.0,
+        "Mid": 720.0
+      }
+    },
+    "MoveParam": {
+      "$type": "spl__BulletPointSensorParam",
+      "GuideHitCollisionType": "EnemyOnFenceOnTorpedoOff",
+      "MarkingFrameSubSpec": {
+        "High": 960.0,
+        "Low": 480.0,
+        "Mid": 720.0
+      },
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.87,
+        "Low": 1.38,
+        "Mid": 1.64
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 1
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.45,
+      "InkRecoverStop": 75
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0
+    }
+  }
+}

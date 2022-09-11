@@ -1,0 +1,843 @@
+[
+  {
+    "DefaultDamageRateInfoRow": "BlowerExhale",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BlowerInhale",
+        "ExtraInfo": "BlowerInhale"
+      },
+      {
+        "DamageRateInfoRow": "BlowerExhale_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "BlowerInhale",
+        "HitEffectorType": "Blower_Inhale"
+      }
+    ],
+    "Id": 8,
+    "Label": "キューインキ",
+    "NpcActor": "Work/Actor/WspN_SpBlower.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpBlower.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpBlower"
+  },
+  {
+    "DefaultDamageRateInfoRow": "BlowerExhale",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "BlowerInhale",
+        "ExtraInfo": "BlowerInhale"
+      },
+      {
+        "DamageRateInfoRow": "BlowerExhale_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "BlowerInhale",
+        "HitEffectorType": "Blower_Inhale"
+      }
+    ],
+    "Id": 10008,
+    "Label": "キューインキMsn",
+    "NpcActor": "Work/Actor/WspN_SpBlower_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpBlower_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpBlower_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Chariot_Body",
+        "ExtraInfo": "ChariotBody"
+      },
+      {
+        "DamageRateInfoRow": "Chariot_Cannon",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 12,
+    "Label": "カニタンク",
+    "NpcActor": "Work/Actor/WspN_SpChariot.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpChariot.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpChariot"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Chariot_Body",
+        "ExtraInfo": "ChariotBody"
+      },
+      {
+        "DamageRateInfoRow": "Chariot_Cannon",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20012,
+    "Label": "カニタンクCoop",
+    "NpcActor": "Work/Actor/WspN_SpChariot_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpChariot_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpChariot_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Chariot_Body",
+        "ExtraInfo": "ChariotBody"
+      },
+      {
+        "DamageRateInfoRow": "Chariot_Cannon",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10012,
+    "Label": "カニタンクMsn",
+    "NpcActor": "Work/Actor/WspN_SpChariot_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpChariot_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpChariot_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 15,
+    "Label": "エナジースタンド",
+    "NpcActor": "Work/Actor/WspN_SpEnergyStand.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpEnergyStand.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpEnergyStand"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Gachihoko_Bullet",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Gachihoko_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 20,
+    "Label": "ガチホコ",
+    "NpcActor": "Work/Actor/WspN_SpGachihoko.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpGachihoko.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Versus",
+    "__RowId": "SpGachihoko"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 2,
+    "Label": "グレートバリア",
+    "NpcActor": "Work/Actor/WspN_SpGreatBarrier.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpGreatBarrier.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Versus",
+    "__RowId": "SpGreatBarrier"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 30002,
+    "Label": "グレートバリアライバル",
+    "NpcActor": "Work/Actor/WspN_SpGreatBarrier_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpGreatBarrier_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Rival",
+    "__RowId": "SpGreatBarrier_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10100,
+    "Label": "イクラシュート",
+    "NpcActor": "Work/Actor/WspN_SpIkuraShoot.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpIkuraShoot.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpIkuraShoot"
+  },
+  {
+    "DefaultDamageRateInfoRow": "InkStorm",
+    "DefaultHitEffectorType": "InkStorm",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "InkStormRain",
+        "ExtraInfo": "ExtraPaintSplash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 5,
+    "Label": "アメフラシ",
+    "NpcActor": "Work/Actor/WspN_SpInkStorm.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpInkStorm.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpInkStorm"
+  },
+  {
+    "DefaultDamageRateInfoRow": "InkStorm",
+    "DefaultHitEffectorType": "InkStorm",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10005,
+    "Label": "アメフラシMsn",
+    "NpcActor": "Work/Actor/WspN_SpInkStorm_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpInkStorm_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpInkStorm_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "InkStorm",
+    "DefaultHitEffectorType": "InkStorm",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "InkStormRain",
+        "ExtraInfo": "ExtraPaintSplash"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 30005,
+    "Label": "アメフラシライバル",
+    "NpcActor": "Work/Actor/WspN_SpInkStorm_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpInkStorm_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Rival",
+    "__RowId": "SpInkStorm_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Jetpack_Bullet",
+    "DefaultHitEffectorType": "Jetpack_Launcher",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Jetpack_Jet",
+        "ExtraInfo": "JetpackJet"
+      },
+      {
+        "DamageRateInfoRow": "Jetpack_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 10,
+    "Label": "ジェットパック",
+    "NpcActor": "Work/Actor/WspN_SpJetpack.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpJetpack.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpJetpack"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Jetpack_Coop",
+    "DefaultHitEffectorType": "Jetpack_Launcher",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Jetpack_Jet",
+        "ExtraInfo": "JetpackJet"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 20010,
+    "Label": "ジェットパックCoop",
+    "NpcActor": "Work/Actor/WspN_SpJetpack_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpJetpack_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpJetpack_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Jetpack_Bullet",
+    "DefaultHitEffectorType": "Jetpack_Launcher",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 10010,
+    "Label": "ジェットパックMsn",
+    "NpcActor": "Work/Actor/WspN_SpJetpack_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpJetpack_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpJetpack_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Jetpack_Bullet",
+    "DefaultHitEffectorType": "Jetpack_Launcher",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Jetpack_Jet",
+        "ExtraInfo": "JetpackJet"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 30010,
+    "Label": "ジェットパックライバル",
+    "NpcActor": "Work/Actor/WspN_SpJetpack_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpJetpack_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Rival",
+    "__RowId": "SpJetpack_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MicroLaser",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 9,
+    "Label": "メガホンレーザー5.1ch",
+    "NpcActor": "Work/Actor/WspN_SpMicroLaser.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMicroLaser.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Versus",
+    "__RowId": "SpMicroLaser"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MicroLaser",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20009,
+    "Label": "メガホンレーザー5.1chCoop",
+    "NpcActor": "Work/Actor/WspN_SpMicroLaser_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMicroLaser_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Coop",
+    "__RowId": "SpMicroLaser_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MicroLaser",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10009,
+    "Label": "メガホンレーザー5.1chMsn",
+    "NpcActor": "Work/Actor/WspN_SpMicroLaser_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMicroLaser_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Mission",
+    "__RowId": "SpMicroLaser_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MultiMissile_BombCore",
+    "DefaultHitEffectorType": "MultiMissile_BombCore",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "MultiMissile_Bullet",
+        "ExtraInfo": "MultiMissileDirectHit"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "MultiMissileDirectHit",
+        "HitEffectorType": "MultiMissile_Bullet"
+      }
+    ],
+    "Id": 4,
+    "Label": "マルチミサイル",
+    "NpcActor": "Work/Actor/WspN_SpMultiMissile.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMultiMissile.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpMultiMissile"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MultiMissile_BombCore",
+    "DefaultHitEffectorType": "MultiMissile_BombCore",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "MultiMissile_Bullet",
+        "ExtraInfo": "MultiMissileDirectHit"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "MultiMissileDirectHit",
+        "HitEffectorType": "MultiMissile_Bullet"
+      }
+    ],
+    "Id": 10004,
+    "Label": "マルチミサイルMsn",
+    "NpcActor": "Work/Actor/WspN_SpMultiMissile_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMultiMissile_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpMultiMissile_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "MultiMissile_BombCore",
+    "DefaultHitEffectorType": "MultiMissile_BombCore",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "MultiMissile_Bullet",
+        "ExtraInfo": "MultiMissileDirectHit"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "MultiMissileDirectHit",
+        "HitEffectorType": "MultiMissile_Bullet"
+      }
+    ],
+    "Id": 30004,
+    "Label": "マルチミサイルライバル",
+    "NpcActor": "Work/Actor/WspN_SpMultiMissile_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpMultiMissile_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Rival",
+    "__RowId": "SpMultiMissile_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "NiceBall",
+    "DefaultHitEffectorType": "NiceBall",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 6,
+    "Label": "ナイスダマ",
+    "NpcActor": "Work/Actor/WspN_SpNiceBall.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpNiceBall.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Versus",
+    "__RowId": "SpNiceBall"
+  },
+  {
+    "DefaultDamageRateInfoRow": "NiceBall",
+    "DefaultHitEffectorType": "NiceBall",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20006,
+    "Label": "ナイスダマCoop",
+    "NpcActor": "Work/Actor/WspN_SpNiceBall_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpNiceBall_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Coop",
+    "__RowId": "SpNiceBall_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShockSonar_Wave",
+        "ExtraInfo": "ShockSonarWave"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShockSonarWave",
+        "HitEffectorType": "ShockSonar_Wave"
+      }
+    ],
+    "Id": 7,
+    "Label": "ホップソナー",
+    "NpcActor": "Work/Actor/WspN_SpShockSonar.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpShockSonar.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpShockSonar"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShockSonar_Wave",
+        "ExtraInfo": "ShockSonarWave"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShockSonarWave",
+        "HitEffectorType": "ShockSonar_Wave"
+      }
+    ],
+    "Id": 20007,
+    "Label": "ホップソナーCoop",
+    "NpcActor": "Work/Actor/WspN_SpShockSonar_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpShockSonar_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpShockSonar_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShockSonar_Wave",
+        "ExtraInfo": "ShockSonarWave"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShockSonarWave",
+        "HitEffectorType": "ShockSonar_Wave"
+      }
+    ],
+    "Id": 10007,
+    "Label": "ホップソナーMsn",
+    "NpcActor": "Work/Actor/WspN_SpShockSonar_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpShockSonar_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpShockSonar_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "ShockSonar_Wave",
+        "ExtraInfo": "ShockSonarWave"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ShockSonarWave",
+        "HitEffectorType": "ShockSonar_Wave"
+      }
+    ],
+    "Id": 30007,
+    "Label": "ホップソナーライバル",
+    "NpcActor": "Work/Actor/WspN_SpShockSonar_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpShockSonar_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Rival",
+    "__RowId": "SpShockSonar_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Skewer_Body",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Skewer",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Skewer_BombCore"
+      }
+    ],
+    "Id": 13,
+    "Label": "サメライド",
+    "NpcActor": "Work/Actor/WspN_SpSkewer.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSkewer.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpSkewer"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Skewer_Body",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Skewer",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Skewer_BombCore"
+      }
+    ],
+    "Id": 20013,
+    "Label": "サメライドCoop",
+    "NpcActor": "Work/Actor/WspN_SpSkewer_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSkewer_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpSkewer_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Skewer_Body",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Skewer",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Skewer_BombCore"
+      }
+    ],
+    "Id": 10013,
+    "Label": "サメライドMsn",
+    "NpcActor": "Work/Actor/WspN_SpSkewer_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSkewer_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpSkewer_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "SuperHook",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 3,
+    "Label": "ショクワンダー",
+    "NpcActor": "Work/Actor/WspN_SpSuperHook.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSuperHook.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Versus",
+    "__RowId": "SpSuperHook"
+  },
+  {
+    "DefaultDamageRateInfoRow": "SuperHook",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 10003,
+    "Label": "ショクワンダーMsn",
+    "NpcActor": "Work/Actor/WspN_SpSuperHook_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSuperHook_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Mission",
+    "__RowId": "SpSuperHook_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "SuperLanding",
+    "DefaultHitEffectorType": "SuperLanding",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 101,
+    "Label": "スーパーチャクチ",
+    "NpcActor": "Work/Actor/WspN_SpSuperLanding.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSuperLanding.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Mission",
+    "__RowId": "SpSuperLanding"
+  },
+  {
+    "DefaultDamageRateInfoRow": "SuperLanding",
+    "DefaultHitEffectorType": "SuperLanding",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20101,
+    "Label": "スーパーチャクチCoop",
+    "NpcActor": "Work/Actor/WspN_SpSuperLanding_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSuperLanding_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Coop",
+    "__RowId": "SpSuperLanding_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "SuperLanding",
+    "DefaultHitEffectorType": "SuperLanding",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 30101,
+    "Label": "スーパーチャクチライバル",
+    "NpcActor": "Work/Actor/WspN_SpSuperLanding_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpSuperLanding_Rival.engine__actor__ActorParam.gyml",
+    "StandAlone": false,
+    "Type": "Rival",
+    "__RowId": "SpSuperLanding_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "TripleTornado",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 14,
+    "Label": "トリプルトルネード",
+    "NpcActor": "Work/Actor/WspN_SpTripleTornado.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpTripleTornado.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpTripleTornado"
+  },
+  {
+    "DefaultDamageRateInfoRow": "TripleTornado",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20014,
+    "Label": "トリプルトルネードCoop",
+    "NpcActor": "Work/Actor/WspN_SpTripleTornado_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpTripleTornado_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpTripleTornado_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "TripleTornado",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10014,
+    "Label": "トリプルトルネードMsn",
+    "NpcActor": "Work/Actor/WspN_SpTripleTornado_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpTripleTornado_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpTripleTornado_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "UltraShot",
+    "DefaultHitEffectorType": "UltraShot",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 1,
+    "Label": "ウルトラショット",
+    "NpcActor": "Work/Actor/WspN_SpUltraShot.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpUltraShot.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpUltraShot"
+  },
+  {
+    "DefaultDamageRateInfoRow": "UltraShot",
+    "DefaultHitEffectorType": "UltraShot",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20001,
+    "Label": "ウルトラショットCoop",
+    "NpcActor": "Work/Actor/WspN_SpUltraShot_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpUltraShot_Coop.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Coop",
+    "__RowId": "SpUltraShot_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "UltraShot",
+    "DefaultHitEffectorType": "UltraShot",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10001,
+    "Label": "ウルトラショットMsn",
+    "NpcActor": "Work/Actor/WspN_SpUltraShot_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpUltraShot_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpUltraShot_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "UltraStamp_Throw",
+    "DefaultHitEffectorType": "UltraStamp",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "UltraStamp_Swing",
+        "ExtraInfo": "UltraStampSwing"
+      },
+      {
+        "DamageRateInfoRow": "UltraStamp_Throw_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 11,
+    "Label": "ウルトラハンコ",
+    "NpcActor": "Work/Actor/WspN_SpUltraStamp.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpUltraStamp.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Versus",
+    "__RowId": "SpUltraStamp"
+  },
+  {
+    "DefaultDamageRateInfoRow": "UltraStamp_Throw",
+    "DefaultHitEffectorType": "UltraStamp",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "UltraStamp_Swing",
+        "ExtraInfo": "UltraStampSwing"
+      },
+      {
+        "DamageRateInfoRow": "UltraStamp_Throw_BombCore",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Bomb"
+      }
+    ],
+    "Id": 10011,
+    "Label": "ウルトラハンコMsn",
+    "NpcActor": "Work/Actor/WspN_SpUltraStamp_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSpUltraStamp_Mission.engine__actor__ActorParam.gyml",
+    "StandAlone": true,
+    "Type": "Mission",
+    "__RowId": "SpUltraStamp_Mission"
+  }
+]
