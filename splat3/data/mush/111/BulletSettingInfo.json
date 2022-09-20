@@ -1,0 +1,596 @@
+[
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBlasterBase"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombCurlingHero"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombCurlingMission"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombQuickHero"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombQuickMission"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombSplashHero"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 70.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletBombSplashMission"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletCannonMissile"
+  },
+  {
+    "CullingDistAround": 48.0,
+    "CullingDistCameraDirection": 125.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletChargerBase"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletEnemySpJetpackJet"
+  },
+  {
+    "CullingDistAround": 48.0,
+    "CullingDistCameraDirection": 125.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletEnemyStringerMantaKing"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletGoldenIkura"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletGoldenIkuraAttack"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 10,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletManeuverBase"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 24,
+    "WallDropThinOutDistance": 0.65,
+    "__RowId": "BulletRollerInk"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 24,
+    "WallDropThinOutDistance": 0.65,
+    "__RowId": "BulletRollerInkFourPetals"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 24,
+    "WallDropThinOutDistance": 0.65,
+    "__RowId": "BulletRollerInkNormal"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 24,
+    "WallDropThinOutDistance": 0.65,
+    "__RowId": "BulletRollerInkPaintOnly"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSaberInk"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSaberInkEnemy"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSaberInkShark"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 10,
+    "WallDropThinOutDistance": 0.41,
+    "__RowId": "BulletShelterShotBase"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 10,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletShooterBase"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 10,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletShooterSakePillar"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherBase"
+  },
+  {
+    "CullingDistAround": 48.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 19.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherBathtub"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherBearFollower"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherBearLeader"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherLauncherFollower"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherLauncherLeader"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 3,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSlosherWashtub"
+  },
+  {
+    "CullingDistAround": 60.0,
+    "CullingDistCameraDirection": 130.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpChariotCannon"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 10,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpChariotShooter"
+  },
+  {
+    "CullingDistAround": 10.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpEnergyStandDrink"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpJetpackJet"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpJetpackLauncher"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpJetpackLauncherShark"
+  },
+  {
+    "CullingDistAround": -1.0,
+    "CullingDistCameraDirection": -1.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 12,
+    "WallDropThinOutDistance": 0.45,
+    "__RowId": "BulletSpUltraStamp"
+  },
+  {
+    "CullingDistAround": 45.0,
+    "CullingDistCameraDirection": 115.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpinnerBase"
+  },
+  {
+    "CullingDistAround": 45.0,
+    "CullingDistCameraDirection": 115.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSpinnerEnemy"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 32,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashBlaster"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 36.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashBombFizzy"
+  },
+  {
+    "CullingDistAround": 8.0,
+    "CullingDistCameraDirection": 20.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 2,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashBombTorpedoNearest"
+  },
+  {
+    "CullingDistAround": 40.0,
+    "CullingDistCameraDirection": 85.0,
+    "DeactivateFallHeight": 46.5,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashCharger"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashExplosion"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashExplosionWithBlast"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashExplotionSpJetpackLauncherCoop"
+  },
+  {
+    "CullingDistAround": 35.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 20.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 8,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashExplotionSpJetpackLauncherMission"
+  },
+  {
+    "CullingDistAround": 10.0,
+    "CullingDistCameraDirection": 30.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashManeuverSlide"
+  },
+  {
+    "CullingDistAround": 8.0,
+    "CullingDistCameraDirection": 20.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 2,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashRollerBrushNearest"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 95.0,
+    "DeactivateFallHeight": 30.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashRollerInk"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 33.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSaber"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 32.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashShelterShot"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 41.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashShooter"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 80.0,
+    "DeactivateFallHeight": 35.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 3,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSlosher"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 80.0,
+    "DeactivateFallHeight": 35.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 3,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSlosherBearSpiral"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 80.0,
+    "DeactivateFallHeight": 35.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 3,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSlosherScatter"
+  },
+  {
+    "CullingDistAround": 30.0,
+    "CullingDistCameraDirection": 80.0,
+    "DeactivateFallHeight": 35.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 3,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSlosherSpiral"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 41.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSpBlowerExhale"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 41.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashSpGachihoko"
+  },
+  {
+    "CullingDistAround": 42.0,
+    "CullingDistCameraDirection": 110.0,
+    "DeactivateFallHeight": 41.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 4,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashStringer"
+  },
+  {
+    "CullingDistAround": 0.0,
+    "CullingDistCameraDirection": 0.0,
+    "DeactivateFallHeight": 10.0,
+    "DeactivateFrame": -1,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSplashWallHit"
+  },
+  {
+    "CullingDistAround": 40.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 25,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSprinklerGimmickInk"
+  },
+  {
+    "CullingDistAround": 40.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 30.0,
+    "DeactivateFrame": 25,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletSprinklerInk"
+  },
+  {
+    "CullingDistAround": 48.0,
+    "CullingDistCameraDirection": 125.0,
+    "DeactivateFallHeight": 16.0,
+    "DeactivateFrame": 0,
+    "WallDropPositionStoreNum": 6,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletStringerBase"
+  },
+  {
+    "CullingDistAround": 40.0,
+    "CullingDistCameraDirection": 90.0,
+    "DeactivateFallHeight": 30.0,
+    "DeactivateFrame": 25,
+    "WallDropPositionStoreNum": 0,
+    "WallDropThinOutDistance": 0.3,
+    "__RowId": "BulletTricolMatoiInk"
+  }
+]

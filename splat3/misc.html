@@ -103,14 +103,35 @@
                     format_img,
                     add_tab,
                     add_table,
+                    skill_full_formatter,
+                    brand_full_formatter,
+                    skill_array_formatter,
+                    percent_formatter,
+                    food_ticket_formatter,
+                    food_desc_formatter,
+                    color_formatter,
+                    reward_type_formatter,
+                    nameplate_full_formatter,
+                    byname_full_formatter,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
 
                 const prefix = get_prefix()
-                var version = "100"
-                var lang_dict = {}
-                var byname_adj = {}
-                var byname_sub = {}
+                window.version = "100"
+                window.lang_dict = {}
+                window.byname_adj = {}
+                window.byname_sub = {}
+
+                window.skill_full_formatter = skill_full_formatter
+                window.brand_full_formatter = brand_full_formatter
+                window.skill_array_formatter = skill_array_formatter
+                window.percent_formatter = percent_formatter
+                window.food_ticket_formatter = food_ticket_formatter
+                window.food_desc_formatter = food_desc_formatter
+                window.color_formatter = color_formatter
+                window.reward_type_formatter = reward_type_formatter
+                window.nameplate_full_formatter = nameplate_full_formatter
+                window.byname_full_formatter = byname_full_formatter
 
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
@@ -127,114 +148,10 @@
                     load_data()
                 })
 
-                var skillFormatter = value => {
-                    if (value === "None") return "-"
-                    const tmp = format_img(prefix + "images/skill/", value, 96)
-                    return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearPowerName", value)}</p></center>`
-                }
-
-                var brandFormatter = value => {
-                    const tmp = format_img(prefix + "images/brand/", value, 64)
-                    return `<center><p>${tmp}<br />${localize("CommonMsg/Gear/GearBrandName", value)}</p></center>`
-                }
-
-                var skillFormatterArray = value => {
-                    const res = []
-                    value.forEach(v => res.push(format_img(prefix + "images/skill/", v, 48)))
-                    return res.join(" ")
-                }
-
-                var percentFormatter = value => value + "%"
-
                 var colorFormat = value => {
                     return `<p style="background-color: rgba(${value.R * 255}, ${value.G * 255}, ${value.B * 255}, ${
                         value.A
                     });">R: ${value.R}<br />G: ${value.G}<br />B: ${value.B}<br />A: ${value.A}</p>`
-                }
-
-                var foodFormatter = value => {
-                    let img
-                    switch (value) {
-                        case "None":
-                            return "<p><center>Default</center></p>"
-                        case "Exp100":
-                            img = format_img(prefix + "images/food/", "IconShopFoodRankL", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "BattleExp_Up_02"
-                            )}</center></p>`
-                        case "Exp50":
-                            img = format_img(prefix + "images/food/", "IconShopFoodRank", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "BattleExp_Up_01"
-                            )}</center></p>`
-                        case "ExpParty":
-                            img = format_img(prefix + "images/food/", "IconShopParty_01", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "PartyExp_Up"
-                            )}</center></p>`
-                        case "GearPower":
-                            img = format_img(prefix + "images/food/", "GearPowerTicketBase", 64)
-                            return `<p><center>${img}<br />Gear Ticket</center></p>`
-                        case "Money100":
-                            img = format_img(prefix + "images/food/", "IconShopFoodL", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "BattleMoney_Up_02"
-                            )}</center></p>`
-                        case "Money50":
-                            img = format_img(prefix + "images/food/", "IconShopFood", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "BattleMoney_Up_01"
-                            )}</center></p>`
-                        case "MoneyParty":
-                            img = format_img(prefix + "images/food/", "IconShopParty_00", 64)
-                            return `<p><center>${img}<br />${localize(
-                                "CommonMsg/Lobby/LobbyFoodName",
-                                "PartyMoney_Up"
-                            )}</center></p>`
-                    }
-                }
-
-                const colorTagFormat = value => {
-                    return value.replace("[color=0001]", `<font color="orange">`).replace("[color=ffff]", "</font>")
-                }
-
-                var foodDescFormatter = value => {
-                    let img
-                    switch (value) {
-                        case "None":
-                            return "<p>Default</p>"
-                        case "Exp100":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "BattleExp_Up_02_Overwrite")
-                            )}</p>`
-                        case "Exp50":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "BattleExp_Up_01_Overwrite")
-                            )}</p>`
-                        case "ExpParty":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "PartyExp_Up_Overwrite")
-                            )}</p>`
-                        case "GearPower":
-                            return "<p>Gear will gain XP more quickly and is more likely to receive a specific ability when it levels up.</p>"
-                        case "Money100":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "BattleMoney_Up_02_Overwrite")
-                            )}</p>`
-                        case "Money50":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "BattleMoney_Up_01_Overwrite")
-                            )}</p>`
-                        case "MoneyParty":
-                            return `<p>${colorTagFormat(
-                                localize("CommonMsg/Lobby/LobbyFoodExp", "PartyMoney_Up_Overwrite")
-                            )}</p>`
-                    }
                 }
 
                 const getUdemae = rankId => {
@@ -292,43 +209,6 @@
                             },
                         ],
                     })
-                }
-
-                function typeFormatter(value) {
-                    if (value === "Byname") return "Title"
-                    if (value === "NamePlateBg") return "Banner"
-                    if (value === "AllGearSkillChip") return "Chunk (all x10)"
-                    if (value === "GearSkillChip") return "Chunk"
-                    if (value === "MiniGameCardPack") return "Pack of Cards"
-                    if (value === "LockerSticker") return "Locker Sticker"
-                    if (value === "LockerFigure") return "Locker Figure"
-                    if (value === "FoodTicket") return "Food Ticket"
-                    if (value === "DrinkTicket") return "Drink Ticket"
-                    return value
-                }
-
-                function NameplateFormatter(value) {
-                    const stem = value
-                        .replace("Work/Gyml/NamePlateBgInfo/", "")
-                        .replace(".spl__NamePlateBgInfo.gyml", "")
-                    return `<center>${format_img(prefix + "images/npl/", stem)}</center>`
-                }
-
-                function ByNameFormatter(value) {
-                    const adjective = value[0]
-                        .replace("Work/Gyml/Byname/", "")
-                        .replace(".spl__BynameAdjectiveInfo.gyml", "")
-                    const subject = value[1]
-                        .replace("Work/Gyml/Byname/", "")
-                        .replace(".spl__BynameSubjectInfo.gyml", "")
-                    const ad = localize("CommonMsg/Byname/BynameAdjective", adjective)
-                    if (ad === undefined) {
-                        return "-"
-                    }
-                    const su1 = localize("CommonMsg/Byname/BynameSubject", `${subject}_0`)
-                    const su2 = localize("CommonMsg/Byname/BynameSubject", `${subject}_1`).replace(/\[group.*\]/, "")
-                    const full_su = `${ad}<br />${su1}${su2 === undefined || su2.length == 0 ? "" : "| " + su2}`
-                    return full_su.replace(/\[group.*\]/, "")
                 }
 
                 const misc_url = value => `${prefix}/data/parameter/${version}/misc/${value}.json`
@@ -416,8 +296,8 @@
                             weaponlevelup_data.push(row)
                             data_dict.RarityExpPercent.forEach((val, idx) => {
                                 const row = {
-                                    Key: idx + 1,
-                                    Value: val + "%",
+                                    Key: idx,
+                                    Value: val,
                                 }
                                 rarity_data.push(row)
                             })
@@ -494,10 +374,10 @@
                                                 <th scope="col" data-field="FoodType" data-sortable="true">
                                                     Food Type
                                                 </th>
-                                                <th scope="col" data-field="Type" data-sortable="true">
+                                                <th scope="col" data-field="Type" data-sortable="true" data-formatter="reward_type_formatter">
                                                     Type
                                                 </th>
-                                                <th scope="col" data-field="Percent" data-formatter="percentFormatter" data-sortable="true">
+                                                <th scope="col" data-field="Percent" data-formatter="percent_formatter" data-sortable="true">
                                                     Percent
                                                 </th>
                                                 <th scope="col" data-field="Value" data-sortable="true">
@@ -543,10 +423,10 @@
                                                 <th scope="col" data-field="Grade" data-sortable="true">
                                                     Grade
                                                 </th>
-                                                <th scope="col" data-field="Percent" data-formatter="percentFormatter" data-sortable="true">
+                                                <th scope="col" data-field="Percent" data-formatter="percent_formatter" data-sortable="true">
                                                     Percent
                                                 </th>
-                                                <th scope="col" data-field="Type" data-sortable="true" data-formatter="typeFormatter">
+                                                <th scope="col" data-field="Type" data-sortable="true" data-formatter="reward_type_formatter">
                                                     Type
                                                 </th>
                                                 <th scope="col" data-field="SubstituteArrayId" data-sortable="true" data-visible="false">
@@ -555,8 +435,8 @@
                                                 <th scope="col" data-field="SubType" data-sortable="true">
                                                     SubType
                                                 </th>
-                                                <th scope="col" data-field="Same Number" data-sortable="true" data-visible="false">
-                                                    SameNum
+                                                <th scope="col" data-field="SameNum" data-sortable="true" >
+                                                    Amount
                                                 </th>
                                                 <th scope="col" data-field="NotSameNum" data-sortable="true" data-visible="false">
                                                     Not Same Number
@@ -582,24 +462,12 @@
                                         .replace("Work/Gyml/", "")
                                         .replace(".game__gfx__parameter__TeamColorDataSet.gyml", ""),
                                 }
-                                if (!entry.__RowId.includes("Boss")) all_entries.push(row)
+                                all_entries.push(row)
                             })
                             $(`#color-table`).bootstrapTable("refreshOptions", { data: all_entries })
                         })
                     })
                 }
-
-                window.lang_dict = lang_dict
-                window.brandFormatter = brandFormatter
-                window.skillFormatter = skillFormatter
-                window.foodFormatter = foodFormatter
-                window.foodDescFormatter = foodDescFormatter
-                window.skillFormatterArray = skillFormatterArray
-                window.percentFormatter = percentFormatter
-                window.colorFormat = colorFormat
-                window.NameplateFormatter = NameplateFormatter
-                window.ByNameFormatter = ByNameFormatter
-                window.typeFormatter = typeFormatter
 
                 $(function () {
                     $("#version").change(function () {
@@ -617,17 +485,17 @@
                     //add_tab("chunks", "Chunks")
 
                     add_table("brands", "brands-table", [
-                        { Field: "Brand", Label: "Brand", formatter: "brandFormatter" },
-                        { Field: "Likely", Label: "Likely", formatter: "skillFormatter" },
-                        { Field: "Unlikely", Label: "Unlikely", formatter: "skillFormatter" },
+                        { Field: "Brand", Label: "Brand", formatter: "brand_full_formatter" },
+                        { Field: "Likely", Label: "Likely", formatter: "skill_full_formatter" },
+                        { Field: "Unlikely", Label: "Unlikely", formatter: "skill_full_formatter" },
                     ])
 
                     add_table(
                         "exp",
                         "boostrate-table",
                         [
-                            { Field: "Item", Label: "Food", formatter: "foodFormatter" },
-                            { Field: "ItemDesc", Label: "Description", formatter: "foodDescFormatter" },
+                            { Field: "Item", Label: "Food", formatter: "food_ticket_formatter" },
+                            { Field: "ItemDesc", Label: "Description", formatter: "food_desc_formatter" },
                             { Field: "Boost", Label: "Boost" },
                         ],
                         "Food Buffs"
@@ -637,8 +505,8 @@
                         "exp",
                         "randomticket-table",
                         [
-                            { Field: "Type", Label: "Type", formatter: "foodFormatter" },
-                            { Field: "Percent", Label: "Probability", formatter: "percentFormatter" },
+                            { Field: "Type", Label: "Type", formatter: "food_ticket_formatter" },
+                            { Field: "Percent", Label: "Probability", formatter: "percent_formatter" },
                         ],
                         "Food Buff Ticket Probability"
                     )
@@ -657,7 +525,7 @@
                         "rarityexp-table",
                         [
                             { Field: "Key", Label: "Stars" },
-                            { Field: "Value", Label: "Exp Gained" },
+                            { Field: "Value", Label: "Exp Gained", formatter: "percent_formatter" },
                         ],
                         "Rarity EXP Boost"
                     )
@@ -690,8 +558,8 @@
                     )
 
                     add_table("chunks", "chunks-table", [
-                        { Field: "Skill", Label: "Ability", formatter: "skillFormatter" },
-                        { Field: "ConsistsOf", Label: "Consists Of", formatter: "skillFormatterArray" },
+                        { Field: "Skill", Label: "Ability", formatter: "skill_full_formatter" },
+                        { Field: "ConsistsOf", Label: "Consists Of", formatter: "skill_array_formatter" },
                     ])
 
                     add_table("levelExp", "levelexp-table", [
@@ -701,10 +569,10 @@
                     $("#ranking").append('<div id="ranking-tables"></div>')
                     add_table("colors", "color-table", [
                         { Field: "Name", Label: "Name" },
-                        { Field: "Alpha", Label: "Alpha", formatter: "colorFormat" },
-                        { Field: "Bravo", Label: "Bravo", formatter: "colorFormat" },
-                        { Field: "Charlie", Label: "Charlie", formatter: "colorFormat" },
-                        { Field: "Neutral", Label: "Neutral", formatter: "colorFormat" },
+                        { Field: "Alpha", Label: "Alpha", formatter: "color_formatter" },
+                        { Field: "Bravo", Label: "Bravo", formatter: "color_formatter" },
+                        { Field: "Charlie", Label: "Charlie", formatter: "color_formatter" },
+                        { Field: "Neutral", Label: "Neutral", formatter: "color_formatter" },
                     ])
                     $("#gacha").append(`<h2>Lottery Reward Data</h2>
                                 <div id="lotteryBox"></div>
@@ -718,10 +586,10 @@
                                                 <th scope="col" data-field="Season" >
                                                     Season
                                                 </th>
-                                                <th scope="col" data-field="Nameplate" data-formatter="NameplateFormatter" >
+                                                <th scope="col" data-field="Nameplate" data-formatter="nameplate_full_formatter" >
                                                     Nameplate
                                                 </th>
-                                                <th scope="col" data-field="ByName" data-formatter="ByNameFormatter">
+                                                <th scope="col" data-field="ByName" data-formatter="byname_full_formatter">
                                                     Title
                                                 </th>
                                             </tr>

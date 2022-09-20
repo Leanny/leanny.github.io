@@ -1,0 +1,4634 @@
+[
+  {
+    "HowToGet": "Shop",
+    "Id": 110100,
+    "LObjParam": "Work/Gyml/LObj_Fig_AttacheCase.spl__LockerObjParam.gyml",
+    "Label": "アタッシェケース",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AttacheCase00/output/Fig_AttacheCase00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 14800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_AttacheCase"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300026,
+    "LObjParam": "Work/Gyml/LObj_Fig_BigLantern.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～魚～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BigLantern/output/Fig_BigLantern.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BigLantern"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300021,
+    "LObjParam": "Work/Gyml/LObj_Fig_BigLanternSakura.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～桜～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BigLanternSakura/output/Fig_BigLanternSakura.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BigLanternSakura"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108030,
+    "LObjParam": "Work/Gyml/LObj_Fig_Book_00.spl__LockerObjParam.gyml",
+    "Label": "ベストセラー小説",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Book_00/output/Fig_Book_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1280,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Book_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108031,
+    "LObjParam": "Work/Gyml/LObj_Fig_Book_01.spl__LockerObjParam.gyml",
+    "Label": "ファンタジー小説",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Book_01/output/Fig_Book_01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Book_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100121,
+    "LObjParam": "Work/Gyml/LObj_Fig_Box00L.spl__LockerObjParam.gyml",
+    "Label": "きばこ L",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Box00L/output/Fig_Box00L.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 600,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Box00L"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100123,
+    "LObjParam": "Work/Gyml/LObj_Fig_Box00LHard.spl__LockerObjParam.gyml",
+    "Label": "きばこ ラッピング",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Box00LHard/output/Fig_Box00LHard.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 10000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Box00LHard"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100120,
+    "LObjParam": "Work/Gyml/LObj_Fig_Box00S.spl__LockerObjParam.gyml",
+    "Label": "きばこ S",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Box00S/output/Fig_Box00S.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 300,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Box00S"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100122,
+    "LObjParam": "Work/Gyml/LObj_Fig_Box01L.spl__LockerObjParam.gyml",
+    "Label": "きばこ オレンジ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Box01L/output/Fig_Box01L.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.5,
+      "R": 1.0
+    },
+    "Price": 20000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Box01L"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 101140,
+    "LObjParam": "Work/Gyml/LObj_Fig_BrainmanStrap.spl__LockerObjParam.gyml",
+    "Label": "たこみそくんストラップ オープン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BrainmanStrap/output/Fig_BrainmanStrap00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.875,
+      "G": 0.875,
+      "R": 0.6875
+    },
+    "Price": 22222,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BrainmanStrap"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 101141,
+    "LObjParam": "Work/Gyml/LObj_Fig_BrainmanStrap01.spl__LockerObjParam.gyml",
+    "Label": "たこみそくんストラップ クローズ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BrainmanStrap/output/Fig_BrainmanStrap01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.875,
+      "G": 0.875,
+      "R": 0.6875
+    },
+    "Price": 11111,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BrainmanStrap01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110040,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bucket00.spl__LockerObjParam.gyml",
+    "Label": "バケツ ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bucket00/output/Fig_Bucket00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 698,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bucket00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110041,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bucket01.spl__LockerObjParam.gyml",
+    "Label": "バケツ レッド",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bucket01/output/Fig_Bucket01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 698,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bucket01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100130,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker01.spl__LockerObjParam.gyml",
+    "Label": "たまよけ イエロー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker01/output/Fig_Bunker01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100131,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker01_Blue.spl__LockerObjParam.gyml",
+    "Label": "たまよけ ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker01/output/Fig_Bunker01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.8,
+      "G": 0.1555556,
+      "R": 0.0
+    },
+    "Price": 980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker01_Blue"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100132,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker01_Pink.spl__LockerObjParam.gyml",
+    "Label": "たまよけ ピンク",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker01/output/Fig_Bunker01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.8117647,
+      "G": 0.09803922,
+      "R": 0.9098039
+    },
+    "Price": 980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker01_Pink"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100133,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker02_Green.spl__LockerObjParam.gyml",
+    "Label": "おおきいたまよけ グリーン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker02/output/Fig_Bunker02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.29804,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 1980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker02_Green"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100134,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker02_Orange.spl__LockerObjParam.gyml",
+    "Label": "おおきいたまよけ オレンジ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker02/output/Fig_Bunker02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.01568628,
+      "G": 0.3843137,
+      "R": 0.9372549
+    },
+    "Price": 1980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker02_Orange"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100135,
+    "LObjParam": "Work/Gyml/LObj_Fig_Bunker02_Purple.spl__LockerObjParam.gyml",
+    "Label": "おおきいたまよけ パープル",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Bunker02/output/Fig_Bunker02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.4375
+    },
+    "Price": 1980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Bunker02_Purple"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105100,
+    "LObjParam": "Work/Gyml/LObj_Fig_Can00.spl__LockerObjParam.gyml",
+    "Label": "オイルかん",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Can00/output/Fig_Can00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.3,
+      "G": 0.8,
+      "R": 1.0
+    },
+    "Price": 1800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Can00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105101,
+    "LObjParam": "Work/Gyml/LObj_Fig_Can01.spl__LockerObjParam.gyml",
+    "Label": "エナジーソーダ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Can01/output/Fig_Can01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.75,
+      "G": 0.75,
+      "R": 0.6875
+    },
+    "Price": 19999,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Can01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105102,
+    "LObjParam": "Work/Gyml/LObj_Fig_Can01_01.spl__LockerObjParam.gyml",
+    "Label": "ポップサイダー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Can01/output/Fig_Can01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.9375,
+      "G": 0.6875,
+      "R": 0.5
+    },
+    "Price": 1300,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Can01_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105103,
+    "LObjParam": "Work/Gyml/LObj_Fig_Can01_02.spl__LockerObjParam.gyml",
+    "Label": "ジンジャーエール",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Can01/output/Fig_Can01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.4375,
+      "G": 0.6875,
+      "R": 0.6875
+    },
+    "Price": 1300,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Can01_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105150,
+    "LObjParam": "Work/Gyml/LObj_Fig_Can02.spl__LockerObjParam.gyml",
+    "Label": "スペシャルカンヅメ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Can02/output/Fig_Can02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.75,
+      "G": 0.75,
+      "R": 0.75
+    },
+    "Price": 77777,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Can02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105200,
+    "LObjParam": "Work/Gyml/LObj_Fig_CandyCan00.spl__LockerObjParam.gyml",
+    "Label": "かんドロップ オレンジ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CandyCan00/output/Fig_CandyCan00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.1875,
+      "G": 0.625,
+      "R": 1.0
+    },
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CandyCan00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105201,
+    "LObjParam": "Work/Gyml/LObj_Fig_CandyCan01.spl__LockerObjParam.gyml",
+    "Label": "かんドロップ ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CandyCan00/output/Fig_CandyCan00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.875,
+      "G": 0.4375,
+      "R": 0.0625
+    },
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CandyCan01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 104020,
+    "LObjParam": "Work/Gyml/LObj_Fig_CellPhone.spl__LockerObjParam.gyml",
+    "Label": "ナマコフォン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_NamacoPhone/output/Fig_NamacoPhone.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 85850,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CellPhone"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106000,
+    "LObjParam": "Work/Gyml/LObj_Fig_CerealBox00.spl__LockerObjParam.gyml",
+    "Label": "シリアル シュガー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CerealBox00/output/Fig_CerealBox00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "Price": 2980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CerealBox00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106001,
+    "LObjParam": "Work/Gyml/LObj_Fig_CerealBox01.spl__LockerObjParam.gyml",
+    "Label": "シリアル チョコ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CerealBox00/output/Fig_CerealBox00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CerealBox01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106002,
+    "LObjParam": "Work/Gyml/LObj_Fig_CerealBox02.spl__LockerObjParam.gyml",
+    "Label": "シリアル ココナッツ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CerealBox00/output/Fig_CerealBox00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5572,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CerealBox02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106300,
+    "LObjParam": "Work/Gyml/LObj_Fig_CheeseBox.spl__LockerObjParam.gyml",
+    "Label": "プロセスチーズ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CheeseBox/output/Fig_CheeseBox.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9500,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CheeseBox"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100204,
+    "LObjParam": "Work/Gyml/LObj_Fig_Clam.spl__LockerObjParam.gyml",
+    "Label": "アサリ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Clam/output/Fig_Clam.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8888,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Clam"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100205,
+    "LObjParam": "Work/Gyml/LObj_Fig_ClamGreat.spl__LockerObjParam.gyml",
+    "Label": "ガチアサリ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ClamGreat/output/Fig_ClamGreat.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.72157,
+      "G": 0.6,
+      "R": 0.00392
+    },
+    "Price": 71104,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ClamGreat"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110020,
+    "LObjParam": "Work/Gyml/LObj_Fig_ColorCone.spl__LockerObjParam.gyml",
+    "Label": "パイロン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ColorCone/output/Fig_ColorCone.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8460,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ColorCone"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108000,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic00_00.spl__LockerObjParam.gyml",
+    "Label": "週刊少年ジンベー 最新号",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic00_00/output/Fig_Comic00_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1290,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic00_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108001,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic00_01.spl__LockerObjParam.gyml",
+    "Label": "週刊少年ジンベー 特大号",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic00_00/output/Fig_Comic00_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1810,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic00_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108002,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic00_02.spl__LockerObjParam.gyml",
+    "Label": "週刊少年ジンベー 増刊号",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic00_00/output/Fig_Comic00_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1550,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic00_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108010,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic01_00.spl__LockerObjParam.gyml",
+    "Label": "スポーツマンガ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic01_00/output/Fig_Comic01_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1990,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic01_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108011,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic01_01.spl__LockerObjParam.gyml",
+    "Label": "SFマンガ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic01_00/output/Fig_Comic01_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic01_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108012,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic01_02.spl__LockerObjParam.gyml",
+    "Label": "ギャグマンガ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic01_00/output/Fig_Comic01_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5460,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic01_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108020,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic02_00.spl__LockerObjParam.gyml",
+    "Label": "少女マンガ ～ときめき～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic02_00/output/Fig_Comic02_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 10500,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic02_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108021,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic02_01.spl__LockerObjParam.gyml",
+    "Label": "少女マンガ ～ためいき～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic02_00/output/Fig_Comic02_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 10800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic02_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108022,
+    "LObjParam": "Work/Gyml/LObj_Fig_Comic02_02.spl__LockerObjParam.gyml",
+    "Label": "少女マンガ ～かけひき～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Comic02_00/output/Fig_Comic02_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 11000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Comic02_02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300022,
+    "LObjParam": "Work/Gyml/LObj_Fig_ConcreteBlockSq.spl__LockerObjParam.gyml",
+    "Label": "コンクリートのかたまり",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ConcreteBlockSq/output/Fig_ConcreteBlockSq.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ConcreteBlockSq"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110036,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoolerBox.spl__LockerObjParam.gyml",
+    "Label": "クーラーボックス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoolerBox/output/Fig_CoolerBox.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CoolerBox"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200005,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopDiver.spl__LockerObjParam.gyml",
+    "Label": "モグラ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopDiver/output/Fig_CoopDiver.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 160,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 2,
+    "__RowId": "Fig_CoopDiver"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200000,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmon.spl__LockerObjParam.gyml",
+    "Label": "シャケ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmon/output/Fig_CoopSalmon.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 4,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 2,
+    "__RowId": "Fig_CoopSalmon"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200003,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonBaby.spl__LockerObjParam.gyml",
+    "Label": "コジャケ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonBaby/output/Fig_CoopSalmonBaby.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 1,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CoopSalmonBaby"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200001,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonBig.spl__LockerObjParam.gyml",
+    "Label": "ドスコイ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonBig/output/Fig_CoopSalmonBig.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 15,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "Fig_CoopSalmonBig"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200004,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonBomb.spl__LockerObjParam.gyml",
+    "Label": "バクダン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonBomb/output/Fig_CoopSalmonBomb.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 5
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CoopSalmonBomb"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200007,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonCup.spl__LockerObjParam.gyml",
+    "Label": "カタパッド",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonCup/output/Fig_CoopSalmonCup.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 80
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "Fig_CoopSalmonCup"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200019,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonGeyser.spl__LockerObjParam.gyml",
+    "Label": "キンシャケ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonGeyser/output/Fig_CoopSalmonGeyser.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.01,
+      "G": 0.5,
+      "R": 0.625
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 100,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "Fig_CoopSalmonGeyser"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200010,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonGuardian.spl__LockerObjParam.gyml",
+    "Label": "テッパン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonGuardian/output/Fig_CoopSalmonGuardian.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 80,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CoopSalmonGuardian"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200008,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonRocket.spl__LockerObjParam.gyml",
+    "Label": "コウモリ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonRocket/output/Fig_CoopSalmonRocket.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 320,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "Fig_CoopSalmonRocket"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200009,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonSnake.spl__LockerObjParam.gyml",
+    "Label": "ヘビ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonSnake/output/Fig_CoopSalmonSnake.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 15,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "Fig_CoopSalmonSnake"
+  },
+  {
+    "HowToGet": "Uroko",
+    "Id": 1200006,
+    "LObjParam": "Work/Gyml/LObj_Fig_CoopSalmonTower.spl__LockerObjParam.gyml",
+    "Label": "タワー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CoopSalmonTower/output/Fig_CoopSalmonTower.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 20
+    },
+    "UrokoUnlockLevel": 2,
+    "__RowId": "Fig_CoopSalmonTower"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 101133,
+    "LObjParam": "Work/Gyml/LObj_Fig_CrabDoll.spl__LockerObjParam.gyml",
+    "Label": "サルカニクッション",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CrabDoll/output/Fig_CrabDoll.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 17800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_CrabDoll"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 104040,
+    "LObjParam": "Work/Gyml/LObj_Fig_DancingFlower.spl__LockerObjParam.gyml",
+    "Label": "ダンシングフラワー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_DancingFlower/output/Fig_DancingFlower.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9999,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_DancingFlower"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110038,
+    "LObjParam": "Work/Gyml/LObj_Fig_DeliveryBox00.spl__LockerObjParam.gyml",
+    "Label": "イカテンきゅうびんのダンボール",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_DeliveryBox00/output/Fig_DeliveryBox00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1880,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_DeliveryBox00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110037,
+    "LObjParam": "Work/Gyml/LObj_Fig_DeliveryBox01.spl__LockerObjParam.gyml",
+    "Label": "ダンボール",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_DeliveryBox01/output/Fig_DeliveryBox01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 880,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_DeliveryBox01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110032,
+    "LObjParam": "Work/Gyml/LObj_Fig_DrinkCase.spl__LockerObjParam.gyml",
+    "Label": "ボトルクレート",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_DrinkCase/output/Fig_DrinkCase.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_DrinkCase"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110012,
+    "LObjParam": "Work/Gyml/LObj_Fig_DustBox02.spl__LockerObjParam.gyml",
+    "Label": "あやしいゴミばこ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_DustBox02/output/Fig_DustBox02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 44444,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_DustBox02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110004,
+    "LObjParam": "Work/Gyml/LObj_Fig_ElectricalCord.spl__LockerObjParam.gyml",
+    "Label": "コードリール",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ElectricalCord/output/Fig_ElectricalCord.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 6890,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ElectricalCord"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110003,
+    "LObjParam": "Work/Gyml/LObj_Fig_FireExtinguisher.spl__LockerObjParam.gyml",
+    "Label": "しょうかき",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_FireExtinguisher/output/Fig_FireExtinguisher.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 6500,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_FireExtinguisher"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100151,
+    "LObjParam": "Work/Gyml/LObj_Fig_GeneralBoxL.spl__LockerObjParam.gyml",
+    "Label": "はこ L",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_GeneralBoxL/output/Fig_GeneralBoxL.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_GeneralBoxL"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100154,
+    "LObjParam": "Work/Gyml/LObj_Fig_GeneralBoxNoPaintL.spl__LockerObjParam.gyml",
+    "Label": "ぬれないはこ L",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_GeneralBoxNoPaintL/output/Fig_GeneralBoxNoPaintL.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1000,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_GeneralBoxNoPaintL"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100153,
+    "LObjParam": "Work/Gyml/LObj_Fig_GeneralBoxNoPaintS.spl__LockerObjParam.gyml",
+    "Label": "ぬれないはこ S",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_GeneralBoxNoPaintS/output/Fig_GeneralBoxNoPaintS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 500,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_GeneralBoxNoPaintS"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100150,
+    "LObjParam": "Work/Gyml/LObj_Fig_GeneralBoxS.spl__LockerObjParam.gyml",
+    "Label": "はこ S",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_GeneralBoxS/output/Fig_GeneralBoxS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 400,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_GeneralBoxS"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100203,
+    "LObjParam": "Work/Gyml/LObj_Fig_GoalShachi.spl__LockerObjParam.gyml",
+    "Label": "ガチホコゴール",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_GoalShachi/output/Fig_GoalShachi.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.01177,
+      "G": 0.36078,
+      "R": 0.98431
+    },
+    "Price": 75800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_GoalShachi"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106010,
+    "LObjParam": "Work/Gyml/LObj_Fig_IceBox.spl__LockerObjParam.gyml",
+    "Label": "はこアイス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_IceBox/output/Fig_IceBox.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_IceBox"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 101220,
+    "LObjParam": "Work/Gyml/LObj_Fig_Ikaman.spl__LockerObjParam.gyml",
+    "Label": "イカーマン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Ikaman/output/Fig_Ikaman_00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.6875,
+      "G": 0.8125,
+      "R": 0.8125
+    },
+    "Price": 50505,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Ikaman"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105160,
+    "LObjParam": "Work/Gyml/LObj_Fig_IkuraBottle.spl__LockerObjParam.gyml",
+    "Label": "イクラビン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_IkuraBottle/output/Fig_IkuraBottle.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 19600,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_IkuraBottle"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106201,
+    "LObjParam": "Work/Gyml/LObj_Fig_LaundryDetergent00.spl__LockerObjParam.gyml",
+    "Label": "せんざい パワフル",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_LaundryDetergent00/output/Fig_LaundryDetergent00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_LaundryDetergent00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106200,
+    "LObjParam": "Work/Gyml/LObj_Fig_LaundryDetergent01.spl__LockerObjParam.gyml",
+    "Label": "せんざい クリーン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_LaundryDetergent01/output/Fig_LaundryDetergent01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_LaundryDetergent01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107000,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine00.spl__LockerObjParam.gyml",
+    "Label": "ハイカラウォーカー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2200,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107001,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine01.spl__LockerObjParam.gyml",
+    "Label": "ギアスナップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107002,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine02.spl__LockerObjParam.gyml",
+    "Label": "サキイカ通信",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3300,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107003,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine03.spl__LockerObjParam.gyml",
+    "Label": "チョビットマニア",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 4800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107004,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine04.spl__LockerObjParam.gyml",
+    "Label": "イソロック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 6800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107005,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine05.spl__LockerObjParam.gyml",
+    "Label": "イカめしライフ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2300,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107006,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine06.spl__LockerObjParam.gyml",
+    "Label": "ブキプレス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9200,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine06"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107007,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine07.spl__LockerObjParam.gyml",
+    "Label": "トンネル倶楽部",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine07"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107008,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine08.spl__LockerObjParam.gyml",
+    "Label": "シンカイズム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 4480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine08"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 107009,
+    "LObjParam": "Work/Gyml/LObj_Fig_Magazine09.spl__LockerObjParam.gyml",
+    "Label": "シャケでもわかる塗りマナー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Magazine00/output/Fig_Magazine00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Magazine09"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110002,
+    "LObjParam": "Work/Gyml/LObj_Fig_Measurement.spl__LockerObjParam.gyml",
+    "Label": "そくりょうき",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Measurement/output/Fig_Measurement.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 160900,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Measurement"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300023,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisHydrant.spl__LockerObjParam.gyml",
+    "Label": "しょうかせん",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MegapolisHydrant/output/Fig_MegapolisHydrant.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisHydrant"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300018,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisTrashBin.spl__LockerObjParam.gyml",
+    "Label": "ダストカート",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MegapolisTrashBin/output/Fig_MegapolisTrashBin.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisTrashBin"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300019,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisWoodPallet.spl__LockerObjParam.gyml",
+    "Label": "もくせいパレット",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MegapolisWoodPallet/output/Fig_MegapolisWoodPallet.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisWoodPallet"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101200,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche.spl__LockerObjParam.gyml",
+    "Label": "サザエマン ノーマル",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 0.875
+    },
+    "Price": 13333,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101201,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche01.spl__LockerObjParam.gyml",
+    "Label": "サザエマン ファイア",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.25,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "Price": 33303,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101202,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche02.spl__LockerObjParam.gyml",
+    "Label": "サザエマン ラヴ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.5,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "Price": 33333,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101203,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche03.spl__LockerObjParam.gyml",
+    "Label": "サザエマン ダークネス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "Price": 33330,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101204,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche04.spl__LockerObjParam.gyml",
+    "Label": "サザエマン スカイ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.875,
+      "R": 0.5
+    },
+    "Price": 33033,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101205,
+    "LObjParam": "Work/Gyml/LObj_Fig_Miche05.spl__LockerObjParam.gyml",
+    "Label": "サザエマン ゴースト",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Miche/output/Fig_SazaeMan.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.8125,
+      "G": 1.0,
+      "R": 0.875
+    },
+    "Price": 30333,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Miche05"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1400000,
+    "LObjParam": "Work/Gyml/LObj_Fig_MiniGameReward01.spl__LockerObjParam.gyml",
+    "Label": "ナワバトラー景品１",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MiniGameReward01/output/Fig_MiniGameReward01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MiniGameReward01"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1400001,
+    "LObjParam": "Work/Gyml/LObj_Fig_MiniGameReward02.spl__LockerObjParam.gyml",
+    "Label": "ナワバトラー景品２",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MiniGameReward02/output/Fig_MiniGameReward02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MiniGameReward02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1400002,
+    "LObjParam": "Work/Gyml/LObj_Fig_MiniGameReward03.spl__LockerObjParam.gyml",
+    "Label": "ナワバトラー景品3",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MiniGameReward03/output/Fig_MiniGameReward03.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MiniGameReward03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101100,
+    "LObjParam": "Work/Gyml/LObj_Fig_MrShrug.spl__LockerObjParam.gyml",
+    "Label": "ミスターシュラッグ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MrShrug/output/Fig_MrShrug.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 13180,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MrShrug"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300000,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj00.spl__LockerObjParam.gyml",
+    "Label": "でんちゃん",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_NamazuDummy/output/Fig_NamazuDummy.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj00"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300001,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj01.spl__LockerObjParam.gyml",
+    "Label": "いにしえのかお",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Moai/output/Fig_Moai.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj01"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300002,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj02.spl__LockerObjParam.gyml",
+    "Label": "せつじょうしゃ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snowmobile/output/Fig_Snowmobile.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300003,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj03.spl__LockerObjParam.gyml",
+    "Label": "アンプ S",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AmplifierS/output/Fig_AmplifierS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj03"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300004,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj04.spl__LockerObjParam.gyml",
+    "Label": "ドラムかん ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AltanaDrumA/output/Fig_AltanaDrumA.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj04"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300005,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj05.spl__LockerObjParam.gyml",
+    "Label": "ドラムかん レッド",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AltanaDrumB/output/Fig_AltanaDrumB.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj05"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300006,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj06.spl__LockerObjParam.gyml",
+    "Label": "いにしえのポーズ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Thinker/output/Fig_Thinker.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj06"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300007,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj07.spl__LockerObjParam.gyml",
+    "Label": "3Dプリンター",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Printer/output/Fig_Printer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj07"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300008,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj08.spl__LockerObjParam.gyml",
+    "Label": "アンプ M",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AmplifierM/output/Fig_AmplifierM.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj08"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300009,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj09.spl__LockerObjParam.gyml",
+    "Label": "だんめんもけい K",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BiopsyBean/output/Fig_BiopsyBean.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj09"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300010,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj10.spl__LockerObjParam.gyml",
+    "Label": "だんめんもけい E",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BiopsyEye/output/Fig_BiopsyEye.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj10"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300011,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj11.spl__LockerObjParam.gyml",
+    "Label": "きょじゅうポッド",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Shelter/output/Fig_Shelter.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj11"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300012,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj12.spl__LockerObjParam.gyml",
+    "Label": "コンテナ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_WorldContainer/output/Fig_WorldContainer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj12"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300013,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj13.spl__LockerObjParam.gyml",
+    "Label": "アンプ L",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AmplifierL/output/Fig_AmplifierL.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj13"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300014,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj14.spl__LockerObjParam.gyml",
+    "Label": "はつでんき",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Generator/output/Fig_Generator.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj14"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300015,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj16.spl__LockerObjParam.gyml",
+    "Label": "せんすいかん",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Submarine/output/Fig_Submarine.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj16"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300016,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj17.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～竜～",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_BigLanternSun/output/Fig_BigLanternSun.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj17"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300017,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj18.spl__LockerObjParam.gyml",
+    "Label": "スポーツカー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_CarMegapolis/output/Fig_CarMegapolis.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj18"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300024,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj26.spl__LockerObjParam.gyml",
+    "Label": "サーバー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ServerRoom/output/Fig_ServerRoom.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj26"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300025,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj27.spl__LockerObjParam.gyml",
+    "Label": "レコードプレーヤー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_AltanaRecordPlayer/output/Fig_AltanaRecordPlayer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj27"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105000,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup00.spl__LockerObjParam.gyml",
+    "Label": "マグカップ タッコーズ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 4480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105001,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup01.spl__LockerObjParam.gyml",
+    "Label": "マグカップ バトロイカ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3333,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105002,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup02.spl__LockerObjParam.gyml",
+    "Label": "マグカップ サルカニ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.28125,
+      "R": 0.28125
+    },
+    "Price": 24800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105003,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup03.spl__LockerObjParam.gyml",
+    "Label": "マグカップ チェリー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105004,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup04.spl__LockerObjParam.gyml",
+    "Label": "マグカップ ミスターシュラッグ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8131,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 105005,
+    "LObjParam": "Work/Gyml/LObj_Fig_MugCup05.spl__LockerObjParam.gyml",
+    "Label": "マグカップ アゲホイップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MugCup00/output/Fig_MugCup00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.21875,
+      "G": 0.96875,
+      "R": 1.0
+    },
+    "Price": 24800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MugCup05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101101,
+    "LObjParam": "Work/Gyml/LObj_Fig_MzShrug.spl__LockerObjParam.gyml",
+    "Label": "ミズシュラッグ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_MzShrug/output/Fig_MzShrug.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 13190,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MzShrug"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110033,
+    "LObjParam": "Work/Gyml/LObj_Fig_NewsPaper.spl__LockerObjParam.gyml",
+    "Label": "しんぶんしのたば",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_NewsPaper/output/Fig_NewsPaper.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 6397,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_NewsPaper"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300020,
+    "LObjParam": "Work/Gyml/LObj_Fig_ParabolicAntenna.spl__LockerObjParam.gyml",
+    "Label": "パラボラアンテナ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_ParabolicAntenna/output/Fig_ParabolicAntenna.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ParabolicAntenna"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101120,
+    "LObjParam": "Work/Gyml/LObj_Fig_PettanDoll.spl__LockerObjParam.gyml",
+    "Label": "イカペッタンマン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_PettanDoll/output/Fig_PettanDoll.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5963,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_PettanDoll"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110031,
+    "LObjParam": "Work/Gyml/LObj_Fig_PipeChair00.spl__LockerObjParam.gyml",
+    "Label": "パイプいす",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_PipeChair00/output/Fig_PipeChair00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_PipeChair00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110030,
+    "LObjParam": "Work/Gyml/LObj_Fig_PropaneGas.spl__LockerObjParam.gyml",
+    "Label": "ガスボンベ グレー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_PropaneGas/output/Fig_PropaneGas.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7119,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_PropaneGas"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101131,
+    "LObjParam": "Work/Gyml/LObj_Fig_SakeBalloon.spl__LockerObjParam.gyml",
+    "Label": "シャケバルーン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SakeBalloon/output/Fig_SakeBalloon.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7890,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SakeBalloon"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 101130,
+    "LObjParam": "Work/Gyml/LObj_Fig_Sakebeko.spl__LockerObjParam.gyml",
+    "Label": "シャケべこ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Sakebeko/output/Fig_Sakebeko.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 14890,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Sakebeko"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100220,
+    "LObjParam": "Work/Gyml/LObj_Fig_Sazae.spl__LockerObjParam.gyml",
+    "Label": "スーパーサザエ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Sazae/output/Fig_Sazae.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.6875,
+      "R": 0.75
+    },
+    "Price": 333333,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Sazae"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100202,
+    "LObjParam": "Work/Gyml/LObj_Fig_Shachihoko.spl__LockerObjParam.gyml",
+    "Label": "ガチホコ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Shachihoko/output/Fig_Shachihoko.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 75800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Shachihoko"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110001,
+    "LObjParam": "Work/Gyml/LObj_Fig_Shovel.spl__LockerObjParam.gyml",
+    "Label": "スコップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Shovel/output/Fig_Shovel.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 3800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Shovel"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100105,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Black.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー ブラック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.07058824,
+      "G": 0.07058824,
+      "R": 0.07058824
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Black"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100101,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Blue.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.1333333,
+      "R": 0.0
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Blue"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100103,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Green.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー グリーン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.2980392,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Green"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100104,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Orange.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー オレンジ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.4,
+      "R": 1.0
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Orange"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100102,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Purple.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー ピンク",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.9803922
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Purple"
+  },
+  {
+    "HowToGet": "Catalog",
+    "Id": 100100,
+    "LObjParam": "Work/Gyml/LObj_Fig_SighterTarget_Yellow.spl__LockerObjParam.gyml",
+    "Label": "イカバンカー イエロー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SighterTarget/output/Fig_SighterTarget.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.9490196,
+      "R": 1.0
+    },
+    "Price": 2480,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SighterTarget_Yellow"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102000,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00.spl__LockerObjParam.gyml",
+    "Label": "スケートボード インクスプラット",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 19800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102001,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00_01.spl__LockerObjParam.gyml",
+    "Label": "スケートボード サルカニ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 46490,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102002,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00_02.spl__LockerObjParam.gyml",
+    "Label": "スケートボード デボンモノグラム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 33800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102003,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00_03.spl__LockerObjParam.gyml",
+    "Label": "スケートボード ビッグロゴ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 23800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00_03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102004,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00_04.spl__LockerObjParam.gyml",
+    "Label": "スケートボード ムシャムシャくん",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 38000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00_04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 102005,
+    "LObjParam": "Work/Gyml/LObj_Fig_SkateBoard00_05.spl__LockerObjParam.gyml",
+    "Label": "スケートボード05",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SkateBoard00/output/Fig_SkateBoard00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 28000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SkateBoard00_05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106100,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack00.spl__LockerObjParam.gyml",
+    "Label": "カリカリスナック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack00/output/Fig_Snack00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106101,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack01.spl__LockerObjParam.gyml",
+    "Label": "パリパリスナック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack00/output/Fig_Snack00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106110,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack02.spl__LockerObjParam.gyml",
+    "Label": "ムシャムシャスナック うすしお",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack02/output/Fig_Snack02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8989,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106112,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack03.spl__LockerObjParam.gyml",
+    "Label": "ムシャムシャスナック チーズ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack02/output/Fig_Snack02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8989,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106113,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack04.spl__LockerObjParam.gyml",
+    "Label": "ムシャムシャスナック ワサビ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack02/output/Fig_Snack02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8989,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106111,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack05.spl__LockerObjParam.gyml",
+    "Label": "ムシャムシャスナック テリヤキ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack02/output/Fig_Snack02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 8989,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 106102,
+    "LObjParam": "Work/Gyml/LObj_Fig_Snack06.spl__LockerObjParam.gyml",
+    "Label": "サクサクスナック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Snack01/output/Fig_Snack01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 2800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Snack06"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100200,
+    "LObjParam": "Work/Gyml/LObj_Fig_Spawner.spl__LockerObjParam.gyml",
+    "Label": "スポナー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Spawner/output/Fig_Spawner.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.75,
+      "G": 0.75,
+      "R": 0.75
+    },
+    "Price": 180300,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Spawner"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101150,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion00.spl__LockerObjParam.gyml",
+    "Label": "イカクッション イエロー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101151,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion01.spl__LockerObjParam.gyml",
+    "Label": "イカクッション ブルー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.0
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101152,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion02.spl__LockerObjParam.gyml",
+    "Label": "イカクッション ピンク",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 1.0
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101153,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion03.spl__LockerObjParam.gyml",
+    "Label": "イカクッション グリーン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 1.0,
+      "R": 0.0
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101154,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion04.spl__LockerObjParam.gyml",
+    "Label": "イカクッション オレンジ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0,
+      "G": 0.5,
+      "R": 1.0
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101155,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidCushion05.spl__LockerObjParam.gyml",
+    "Label": "イカクッション パープル",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidCushion00/output/Fig_SquidCushion00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 0.0,
+      "R": 0.625
+    },
+    "Price": 9980,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidCushion05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101110,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll00.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド ドリーム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101111,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll01.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド ヘブン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101112,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll02.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド アビス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101113,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll03.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド アニマ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll03"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101114,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll04.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド インフェルノ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101115,
+    "LObjParam": "Work/Gyml/LObj_Fig_SquidDoll05.spl__LockerObjParam.gyml",
+    "Label": "イカフレンド ヘル",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDoll00/output/Fig_SquidDoll00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7140,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_SquidDoll05"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110000,
+    "LObjParam": "Work/Gyml/LObj_Fig_Stepladder00.spl__LockerObjParam.gyml",
+    "Label": "きゃたつ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Stepladder00/output/Fig_Stepladder00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Stepladder00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101145,
+    "LObjParam": "Work/Gyml/LObj_Fig_StrapInkFish.spl__LockerObjParam.gyml",
+    "Label": "イカストラップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_StrapInkFish/output/Fig_StrapInkFish.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7980,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_StrapInkFish"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101146,
+    "LObjParam": "Work/Gyml/LObj_Fig_StrapOctopus.spl__LockerObjParam.gyml",
+    "Label": "タコストラップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_StrapOctopus/output/Fig_StrapOctopus.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 7980,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_StrapOctopus"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110035,
+    "LObjParam": "Work/Gyml/LObj_Fig_TissueBox.spl__LockerObjParam.gyml",
+    "Label": "はこティッシュ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_TissueBox/output/Fig_TissueBox.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 498,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_TissueBox"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300027,
+    "LObjParam": "Work/Gyml/LObj_Fig_Torii.spl__LockerObjParam.gyml",
+    "Label": "鳥居",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Torii/output/Fig_Torii.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Torii"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 104021,
+    "LObjParam": "Work/Gyml/LObj_Fig_Transceiver.spl__LockerObjParam.gyml",
+    "Label": "トランシーバー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Transceiver/output/Fig_Transceiver.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 49106,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Transceiver"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101132,
+    "LObjParam": "Work/Gyml/LObj_Fig_Tuna.spl__LockerObjParam.gyml",
+    "Label": "マグロさん",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Tuna/output/Fig_Tuna.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 42195,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Tuna"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300004,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv01.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー S+",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.9375,
+      "G": 0.9375,
+      "R": 0.9375
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv01"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300003,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv02.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー S",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.5625,
+      "G": 0.8125,
+      "R": 0.8125
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300002,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv03.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー A",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0625,
+      "G": 0.0625,
+      "R": 0.0625
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv03"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300001,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv04.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー B",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.25,
+      "G": 0.375,
+      "R": 0.625
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv04"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110034,
+    "LObjParam": "Work/Gyml/LObj_Fig_Umbrella00.spl__LockerObjParam.gyml",
+    "Label": "ビニールがさ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Umbrella00/output/Fig_Umbrella00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 1800,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Umbrella00"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300028,
+    "LObjParam": "Work/Gyml/LObj_Fig_UmbrellaNostalgia.spl__LockerObjParam.gyml",
+    "Label": "和傘",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_UmbrellaNostalgia/output/Fig_UmbrellaNostalgia.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UmbrellaNostalgia"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108050,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame00_00.spl__LockerObjParam.gyml",
+    "Label": "イカゲソフィーバー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame00/output/Fig_VideoGame00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 15800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame00_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108051,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame00_01.spl__LockerObjParam.gyml",
+    "Label": "クラーケン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame00/output/Fig_VideoGame00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 15800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame00_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108052,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame00_02.spl__LockerObjParam.gyml",
+    "Label": "サルカニパラダイス",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame00/output/Fig_VideoGame00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 15800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame00_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108060,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame01_00.spl__LockerObjParam.gyml",
+    "Label": "イカニンデン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame01/output/Fig_VideoGame01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5500,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame01_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108061,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame01_01.spl__LockerObjParam.gyml",
+    "Label": "リズムDEイッカー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame01/output/Fig_VideoGame01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 4500,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame01_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108062,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame01_02.spl__LockerObjParam.gyml",
+    "Label": "ねっけつ！ イカアタック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame01/output/Fig_VideoGame01.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 5800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame01_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108070,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame02_00.spl__LockerObjParam.gyml",
+    "Label": "スーパーイカタコング",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame02/output/Fig_VideoGame02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame02_00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108071,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame02_01.spl__LockerObjParam.gyml",
+    "Label": "ゲソキューブ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame02/output/Fig_VideoGame02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9080,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame02_01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 108072,
+    "LObjParam": "Work/Gyml/LObj_Fig_VideoGame02_02.spl__LockerObjParam.gyml",
+    "Label": "イカコレクション",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_VideoGame02/output/Fig_VideoGame02.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 9500,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_VideoGame02_02"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101121,
+    "LObjParam": "Work/Gyml/LObj_Fig_WeirdDoll00.spl__LockerObjParam.gyml",
+    "Label": "ナゾのひもの",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_JennyHaniver/output/Fig_JennyHaniver.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 93800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_WeirdDoll00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 101122,
+    "LObjParam": "Work/Gyml/LObj_Fig_WeirdDoll01.spl__LockerObjParam.gyml",
+    "Label": "ロングイカフレンド コットンキャンディ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_SquidDollLong00/output/Fig_SquidDollLong00.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 25000,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_WeirdDoll01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 110050,
+    "LObjParam": "Work/Gyml/LObj_Fig_WoodenBoat.spl__LockerObjParam.gyml",
+    "Label": "きのふね",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_WoodenBoat/output/Fig_WoodenBoat.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 29800,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_WoodenBoat"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 100201,
+    "LObjParam": "Work/Gyml/LObj_Fig_Yagura.spl__LockerObjParam.gyml",
+    "Label": "ガチヤグラ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Yagura/output/Fig_Yagura.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.66667,
+      "G": 0.07843,
+      "R": 0.2902
+    },
+    "Price": 89600,
+    "Rarity": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Yagura"
+  }
+]

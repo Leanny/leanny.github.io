@@ -1,0 +1,177 @@
+[
+  {
+    "EndDistFromBounding": 50.0,
+    "StartDistFromBounding": 20.0,
+    "__RowId": "Work/Gyml/Default.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 300.0,
+    "StartDistFromBounding": 180.0,
+    "__RowId": "Work/Gyml/Enm_FurBomb_Handy.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj01.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj02.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj03.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj04.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj05.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 350.0,
+    "StartDistFromBounding": 200.0,
+    "__RowId": "Work/Gyml/FldBG_Obj06.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 700.0,
+    "StartDistFromBounding": 300.0,
+    "__RowId": "Work/Gyml/FldBG_Obj07.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 1500.0,
+    "StartDistFromBounding": 800.0,
+    "__RowId": "Work/Gyml/FldBG_Obj08.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 1500.0,
+    "StartDistFromBounding": 800.0,
+    "__RowId": "Work/Gyml/FldBG_Obj09.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 1500.0,
+    "StartDistFromBounding": 800.0,
+    "__RowId": "Work/Gyml/FldBG_Obj10.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 1500.0,
+    "StartDistFromBounding": 800.0,
+    "__RowId": "Work/Gyml/FldBG_Obj11.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 220.0,
+    "StartDistFromBounding": 220.0,
+    "__RowId": "Work/Gyml/FldObj_Carousel03_FerrisWheel.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 55.0,
+    "StartDistFromBounding": 55.0,
+    "__RowId": "Work/Gyml/Npc_JerryPlaza_BuildingCleaning.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 40.0,
+    "StartDistFromBounding": 40.0,
+    "__RowId": "Work/Gyml/Obj_Box00L.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_Box00LHard.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_Box00S.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_Box01L.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_Box01LHard.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_Box01S.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 110.0,
+    "StartDistFromBounding": 80.0,
+    "__RowId": "Work/Gyml/Obj_CarouselMerryGoRound.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 80.0,
+    "StartDistFromBounding": 80.0,
+    "__RowId": "Work/Gyml/Obj_JerryDistrict.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 120.0,
+    "StartDistFromBounding": 20.0,
+    "__RowId": "Work/Gyml/Obj_JerryRockClimber_LongArm.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 120.0,
+    "StartDistFromBounding": 20.0,
+    "__RowId": "Work/Gyml/Obj_JerryRockClimber_ShadowOFF.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 100.0,
+    "StartDistFromBounding": 60.0,
+    "__RowId": "Work/Gyml/Obj_JerryWaterballoon.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 300.0,
+    "StartDistFromBounding": 180.0,
+    "__RowId": "Work/Gyml/Obj_KebaInkCoreLv2.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 93.0,
+    "StartDistFromBounding": 93.0,
+    "__RowId": "Work/Gyml/Obj_MagnumLargeLauncher.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_SalmonPan.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_SalmonTire.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 30.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/Obj_SalmonWoodchip.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 60.0,
+    "StartDistFromBounding": 30.0,
+    "__RowId": "Work/Gyml/PrefixFld.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 100.0,
+    "StartDistFromBounding": 100.0,
+    "__RowId": "Work/Gyml/PrefixFldBG.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 80.0,
+    "StartDistFromBounding": 50.0,
+    "__RowId": "Work/Gyml/PrefixKbi.game__gfx__parameter__LODThreshold.gyml"
+  },
+  {
+    "EndDistFromBounding": 2000.0,
+    "StartDistFromBounding": 500.0,
+    "__RowId": "Work/Gyml/SuffixFar.game__gfx__parameter__LODThreshold.gyml"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "DisplayOrder": 1,
+    "Id": 7,
+    "IsBigRun": false,
+    "Season": 1,
+    "__RowId": "Cop_Shakedent"
+  },
+  {
+    "DisplayOrder": 0,
+    "Id": 2,
+    "IsBigRun": false,
+    "Season": 0,
+    "__RowId": "Cop_Shakespiral"
+  },
+  {
+    "DisplayOrder": 2,
+    "Id": 1,
+    "IsBigRun": false,
+    "Season": 1,
+    "__RowId": "Cop_Shakeup"
+  }
+]

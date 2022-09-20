@@ -28,7 +28,7 @@
         ></script>
         <script defer src="js/dist/json-formatter.umd.js" charset="UTF-8"></script>
         <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
-        <title>Splatoon 3 - Misc Database</title>
+        <title>Splatoon 3 - Tableturf Battle Database</title>
         <style>
             body {
                 background-color: #e9ecef;
@@ -79,14 +79,26 @@
                 height: 0;
             }
 
+            #sleevelist-content {
+                margin-top: 1em;
+                border: 1px solid rgba(54, 38, 78, 0.2);
+                background-color: rgba(34, 19, 56, 0.2);
+                flex-wrap: wrap;
+                display: flex;
+            }
+
+            .card-sleeve {
+                margin: 1em;
+            }
+
             [data-grid="Empty"].cardgame-slot {
-                background-image: url("http://127.0.0.1:5500/images/minigame/misc/Mng_Point_02.png");
+                background-image: url("https://leanny.github.io/splat3/images/minigame/misc/Mng_Point_02.png");
             }
             [data-grid="Fill"].cardgame-slot {
-                background-image: url("http://127.0.0.1:5500/images/minigame/misc/AreaPiece_00.png");
+                background-image: url("https://leanny.github.io/splat3/images/minigame/misc/AreaPiece_00.png");
             }
             [data-grid="Special"].cardgame-slot {
-                background-image: url("http://127.0.0.1:5500/images/minigame/misc/AreaPiece_02.png");
+                background-image: url("https://leanny.github.io/splat3/images/minigame/misc/AreaPiece_02.png");
             }
         </style>
     </head>
@@ -111,157 +123,45 @@
                 <div class="col-sm-8 mx-auto">
                     <h1>Splatoon 3 - Tableturf Battle Database</h1>
                     <select class="form-control" id="version"></select>
-                    <ul class="nav nav-tabs" id="modes" role="tablist">
-                        <li class="nav-item">
-                            <a
-                                class="nav-link active"
-                                id="cardlist-tab"
-                                data-toggle="tab"
-                                href="#cardlist"
-                                role="tab"
-                                aria-controls="cardlist"
-                                aria-selected="true"
-                                >Card List</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link"
-                                id="decklist-tab"
-                                data-toggle="tab"
-                                href="#decklist"
-                                role="tab"
-                                aria-controls="decklist"
-                                aria-selected="false"
-                                >Deck List</a
-                            >
-                        </li>
-                    </ul>
-                    <div class="tab-content" id="modeTabControl">
-                        <div
-                            class="tab-pane fade show active"
-                            id="cardlist"
-                            role="tabpanel"
-                            aria-labelledby="cardlist-tab"
-                        >
-                            <div class="tab-content" id="cardlistTabControl">
-                                <div class="table-responsive">
-                                    <table
-                                        class="table table-striped table-hover"
-                                        id="minigamecardinfo-table"
-                                        data-sortable="true"
-                                        data-search="true"
-                                        data-show-columns="true"
-                                        data-show-pagination-switch="true"
-                                        data-show-fullscreen="true"
-                                    >
-                                        <thead>
-                                            <tr>
-                                                <th
-                                                    scope="col"
-                                                    data-field="Number"
-                                                    data-sortable="true"
-                                                    id="SortCardNumber"
-                                                >
-                                                    Number
-                                                </th>
-                                                <th scope="col" data-field="Name" data-formatter="imgFormatter">
-                                                    Image
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    data-field="Name"
-                                                    data-sortable="true"
-                                                    data-formatter="nameFormatter"
-                                                >
-                                                    Name
-                                                </th>
-
-                                                <th scope="col" data-field="SpecialCost" data-sortable="true">
-                                                    Special Cost
-                                                </th>
-                                                <th
-                                                    scope="col"
-                                                    data-field="Rarity"
-                                                    data-sortable="true"
-                                                    data-formatter="rarityFormatter"
-                                                >
-                                                    Rarity
-                                                </th>
-                                                <th scope="col" data-field="Season" data-sortable="true">Season</th>
-                                                <th
-                                                    scope="col"
-                                                    data-field="Square"
-                                                    data-formatter="squareCounter"
-                                                    id="SortSquareNum"
-                                                >
-                                                    Square Number
-                                                </th>
-                                                <th scope="col" data-field="Square" data-formatter="squareFormatter">
-                                                    Square
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="decklist" role="tabpanel" aria-labelledby="decklist-tab">
-                            <div class="tab-content" id="decklistTabControl"></div>
-                        </div>
-                    </div>
+                    <ul class="nav nav-tabs" id="modes" role="tablist"></ul>
+                    <div class="tab-content" id="modeTabControl"></div>
                 </div>
             </div>
             <script type="module">
-                import { generateHeader } from "./js/Utility.js"
+                import {
+                    generateHeader,
+                    get_prefix,
+                    localize,
+                    get_image_tag,
+                    format_img,
+                    add_tab,
+                    add_table,
+                    mush_url,
+                    misc_url,
+                    card_image_formatter,
+                    card_name_formatter,
+                    card_rarity_formatter,
+                    card_square_counter,
+                    card_square_formatter,
+                    card_sleeve_formatter,
+                    card_reward_formatter,
+                    add_to_dict,
+                } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
-            </script>
-            <script>
-                let prefix = ""
-                if (window.location.href.includes("leanny.github.io")) {
-                    prefix = "https://leanny.github.io/splat3/"
-                } else {
-                    prefix = "http://127.0.0.1:5500/"
-                }
 
-                var version = 100
-                var lang_dict = {}
+                const prefix = get_prefix()
+                let version = "100"
+                window.lang_dict = {}
+                window.weapon_dict = {}
+                window.special_dict = {}
 
-                const localize = (dir, key) => lang_dict[dir][key]
-
-                const get_image_tag = (img, alt, extra = "") => {
-                    new_img = img.replace(".png", ".webp")
-                    return `<picture>
-                        <source type="image/webp" srcset="${new_img}" ${extra}>
-                        <source type="image/png" srcset="${img}" ${extra}>
-                        <img src="${img}" alt="${alt}" ${extra}>
-                    </picture>`
-                }
-
-                const format_img = (base_url, value, width) =>
-                    get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)
-
-                var nameFormatter = value => localize("CommonMsg/MiniGame/MiniGameCardName", value)
-
-                var imgFormatter = value =>
-                    `<center>${format_img(prefix + "images/minigame/card/", value, 96)}</center>`
-
-                var squareFormatter = value => {
-                    const res = []
-                    for (let i = 0; i < value.length; i += 8) {
-                        for (let j = 7; j >= 0; j--) {
-                            res.push(`<div class="cardgame-slot" data-grid="${value[63 - (i + j)]}"></div>`)
-                        }
-                        res.push('<div class="break"></div>')
-                    }
-                    return `<div class="cardgame-grid">${res.join("")}</div>`
-                }
-
-                var rarityFormatter = value => localize("CommonMsg/MiniGame/MiniGame", "CardRarity" + value)
-
-                var squareCounter = value => {
-                    return value.filter(val => val !== "Empty").length
-                }
+                window.card_image_formatter = card_image_formatter
+                window.card_name_formatter = card_name_formatter
+                window.card_rarity_formatter = card_rarity_formatter
+                window.card_square_counter = card_square_counter
+                window.card_square_formatter = card_square_formatter
+                window.card_sleeve_formatter = card_sleeve_formatter
+                window.card_reward_formatter = card_reward_formatter
 
                 $.getJSON(prefix + "versions.json", vers => {
                     let last = 0
@@ -275,79 +175,127 @@
                     })
                     $("#version").val(last)
                     version = last
-                    $.getJSON(prefix + "data/language/EUen.json", function (d) {
-                        $.each(d, function (key, val) {
-                            lang_dict[key] = val
-                        })
-                        translate_menu()
-                        load_data()
-                    })
+                    load_data()
                 })
 
-                function translate_menu() {
-                    //$("#weapons-tab").text(localize("LayoutMsg/Cmn_CstBase_00", "L_BtnCategory_00-T_Category_00"))
-                    //
+                function load_lang() {
+                    $.getJSON(`${prefix}data/language/EUen.json`, d => {
+                        for (const [key, value] of Object.entries(d)) {
+                            lang_dict[key] = value
+                        }
+                        translate_menu()
+                    })
                 }
 
-                function load_data() {
-                    $.getJSON(prefix + "data/mush/" + version + "/MiniGameCardInfo.json", data_dict => {
-                        $("#minigamecardinfo-table").bootstrapTable("refreshOptions", { data: data_dict })
-                    })
-                    $.getJSON(prefix + "data/mush/" + version + "/MiniGamePresetDeck.json", data_dict => {
-                        $("#decklistTabControl").children().remove()
+                function translate_menu() {}
 
-                        data_dict.forEach((elem, idx) => {
-                            deckname =
-                                localize("CommonMsg/Glossary", elem.__RowId.replace("MiniGame_", "")) ||
-                                localize(
-                                    "CommonMsg/MiniGame/MiniGameCardName",
-                                    elem.__RowId.replace("MiniGame_", "")
-                                ) ||
-                                localize("CommonMsg/Glossary", elem.__RowId.replace("_", "")) ||
-                                elem.__RowId.replace("MiniGame_", "")
-                            deck_cards = `<div class="table-responsive">
-                                    <table
-                                        class="table table-striped table-hover"
-                                        id="minigamedeck-${idx}-table"
-                                        data-sortable="true"
-                                    >
-                                        <thead>
-                                            <tr>
-                                                <th
-                                                    scope="col"
-                                                    data-field="Name"
-                                                    data-sortable="true"
-                                                    data-formatter="nameFormatter"
-                                                >
-                                                    Card Name
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                    </table>
-                                </div>`
-                            $("#decklistTabControl").append(`<h2>${deckname}</h2>${deck_cards}`)
-                            $(`#minigamedeck-${idx}-table`).bootstrapTable({})
-                            const all_cards = []
-                            elem.Card.forEach(card => {
-                                const row = {
-                                    Name: card
-                                        .replace("Work/Gyml/MiniGame_", "")
-                                        .replace(".spl__MiniGameCardInfo.gyml", ""),
-                                }
-                                all_cards.push(row)
-                            })
-                            $(`#minigamedeck-${idx}-table`).bootstrapTable("refreshOptions", { data: all_cards })
+                function load_data() {
+                    $.getJSON(`${prefix}data/language/EUen.json`, d => {
+                        for (const [key, value] of Object.entries(d)) {
+                            lang_dict[key] = value
+                        }
+                        translate_menu()
+                        $.getJSON(mush_url(version, "MiniGameCardInfo"), data_dict => {
+                            $("#minigamecardinfo-table").bootstrapTable("refreshOptions", { data: data_dict })
                         })
+                        $.getJSON(mush_url(version, "MiniGamePresetDeck"), data_dict => {
+                            $("#decklistTabControl").children().remove()
+                            data_dict.forEach((elem, idx) => {
+                                const deckname =
+                                    localize("CommonMsg/Glossary", elem.__RowId.replace("MiniGame_", "")) ||
+                                    localize(
+                                        "CommonMsg/MiniGame/MiniGameCardName",
+                                        elem.__RowId.replace("MiniGame_", "")
+                                    ) ||
+                                    localize("CommonMsg/Glossary", elem.__RowId.replace("_", "")) ||
+                                    elem.__RowId.replace("MiniGame_", "")
+
+                                add_table(
+                                    "decklist",
+                                    `minigamedeck-${idx}-table`,
+                                    [
+                                        {
+                                            Field: "Name",
+                                            Label: "Card Name",
+                                            formatter: "card_name_formatter",
+                                            sortable: "true",
+                                        },
+                                    ],
+                                    deckname
+                                )
+                                const all_cards = []
+                                elem.Card.forEach(card => {
+                                    const row = {
+                                        Name: card
+                                            .replace("Work/Gyml/MiniGame_", "")
+                                            .replace(".spl__MiniGameCardInfo.gyml", ""),
+                                    }
+                                    all_cards.push(row)
+                                })
+                                $(`#minigamedeck-${idx}-table`).bootstrapTable("refreshOptions", { data: all_cards })
+                            })
+                        })
+                        $.getJSON(mush_url(version, "MiniGameCardSleeve"), data_dict => {
+                            $("#sleevelist-content").children().remove()
+                            data_dict
+                                .sort((a, b) => a.Order > b.Order)
+                                .forEach(card => {
+                                    $("#sleevelist-content").append(card_sleeve_formatter(card.Name))
+                                })
+                        })
+                        $.getJSON(
+                            misc_url(version, "spl__MiniGameRankInfoTable.spl__MiniGameRankInfoTable"),
+                            data_dict => {
+                                add_to_dict(data_dict.Info, "Reward")
+                                $(`#rankinfo-table`).bootstrapTable("refreshOptions", {
+                                    data: data_dict.Info.filter(val => val.Rank !== undefined),
+                                })
+                            }
+                        )
                     })
                 }
 
                 $(function () {
-                    $("#minigamecardinfo-table").bootstrapTable({})
-
                     $("#version").change(function () {
                         version = $(this).val()
                         load_data()
                     })
+                    add_tab("cardlist", "Card List")
+                    add_tab("decklist", "Deck List")
+                    add_tab("sleevelist", "Card Sleeves")
+                    add_tab("ranklist", "Ranks")
+                    $("#sleevelist").append('<div id="sleevelist-content"></div>')
+
+                    add_table("cardlist", "minigamecardinfo-table", [
+                        { Field: "Number", Label: "Number", sortable: "true" },
+                        { Field: "Name", Label: "Image", formatter: "card_image_formatter" },
+                        {
+                            Field: "Name",
+                            Label: "Name",
+                            formatter: "card_name_formatter",
+                            sortable: "true",
+                        },
+                        { Field: "Rarity", Label: "Rarity", sortable: "true", formatter: "card_rarity_formatter" },
+                        { Field: "SpecialCost", Label: "Special Cost", sortable: "true" },
+                        {
+                            Field: "Square",
+                            Label: "Square Number ",
+                            sortable: "true",
+                            formatter: "card_square_counter",
+                        },
+                        { Field: "Season", Label: "Season", sortable: "true" },
+                        { Field: "Square", Label: "Square", formatter: "card_square_formatter" },
+                    ])
+
+                    add_table("ranklist", "rankinfo-table", [
+                        { Field: "Rank", Label: "Rank" },
+                        { Field: "NeedPoint", Label: "Points Required", sortable: "true" },
+                        {
+                            Field: "Reward",
+                            Label: "Reward",
+                            formatter: "card_reward_formatter",
+                        },
+                    ])
                 })
             </script>
         </main>

@@ -1,0 +1,242 @@
+[
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 1,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 25,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakeArtillery"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 18,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "Sakerocket"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 1,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 8,
+    "IsTest": false,
+    "KillIkuraNum": 7,
+    "Type": "SakePillar"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 1,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 14,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakelienTower"
+  },
+  {
+    "ActorMax": 32,
+    "CalcAppearPriority": 0,
+    "Category": "Zako",
+    "GraphIdx": 0,
+    "HitIkuraNum": 3,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakelienStandard"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 13,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakelienSnake"
+  },
+  {
+    "ActorMax": 32,
+    "CalcAppearPriority": 0,
+    "Category": "Zako",
+    "GraphIdx": 0,
+    "HitIkuraNum": 1,
+    "IsTest": false,
+    "KillIkuraNum": 2,
+    "Type": "SakelienSmall"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 13,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakelienShield"
+  },
+  {
+    "ActorMax": 32,
+    "CalcAppearPriority": 0,
+    "Category": "Zako",
+    "GraphIdx": 0,
+    "HitIkuraNum": 10,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakelienLarge"
+  },
+  {
+    "ActorMax": 8,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 12,
+    "IsTest": false,
+    "KillIkuraNum": 6,
+    "Type": "SakelienGolden"
+  },
+  {
+    "ActorMax": 1,
+    "CalcAppearPriority": 0,
+    "Category": "Boss",
+    "GraphIdx": 0,
+    "HitIkuraNum": 800,
+    "IsTest": false,
+    "KillIkuraNum": 20,
+    "Type": "SakelienGiant"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 13,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakeSaucer"
+  },
+  {
+    "ActorMax": 1,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 0,
+    "IsTest": false,
+    "KillIkuraNum": 10,
+    "Type": "SakelienGeyser"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 8,
+    "IsTest": false,
+    "KillIkuraNum": 7,
+    "Type": "SakelienBomber"
+  },
+  {
+    "ActorMax": 16,
+    "CalcAppearPriority": 0,
+    "Category": "Other",
+    "GraphIdx": 0,
+    "HitIkuraNum": 3,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakeFlyBagman"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 60,
+    "IsTest": false,
+    "KillIkuraNum": 10,
+    "Type": "Sakedozer"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 15,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakeDolphin"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 0,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 15,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "Sakediver"
+  },
+  {
+    "ActorMax": 32,
+    "CalcAppearPriority": 0,
+    "Category": "Other",
+    "GraphIdx": 0,
+    "HitIkuraNum": 1,
+    "IsTest": false,
+    "KillIkuraNum": 3,
+    "Type": "SakeCopter"
+  },
+  {
+    "ActorMax": 1,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 0,
+    "IsTest": false,
+    "KillIkuraNum": 0,
+    "Type": "SakeCarrier"
+  },
+  {
+    "ActorMax": 1,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 18,
+    "IsTest": false,
+    "KillIkuraNum": 6,
+    "Type": "SakeBigMouthGold"
+  },
+  {
+    "ActorMax": 5,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 18,
+    "IsTest": false,
+    "KillIkuraNum": 6,
+    "Type": "SakeBigMouth"
+  },
+  {
+    "ActorMax": 4,
+    "CalcAppearPriority": 2,
+    "Category": "Rare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 12,
+    "IsTest": false,
+    "KillIkuraNum": 6,
+    "Type": "SakelienCupTwins"
+  },
+  {
+    "ActorMax": 1,
+    "CalcAppearPriority": 0,
+    "Category": "EventRare",
+    "GraphIdx": 0,
+    "HitIkuraNum": 0,
+    "IsTest": false,
+    "KillIkuraNum": 0,
+    "Type": "SakeShip"
+  }
+]

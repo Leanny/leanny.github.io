@@ -1,0 +1,591 @@
+[
+  {
+    "Properties": [
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "MiniMapScale",
+        "PropertyType": "F32"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "Versus",
+              "EntryValue": 0,
+              "EnumName": "Versus"
+            },
+            {
+              "EntryName": "Mission",
+              "EntryValue": 1,
+              "EnumName": "Mission"
+            },
+            {
+              "EntryName": "Coop",
+              "EntryValue": 2,
+              "EnumName": "Coop"
+            },
+            {
+              "EntryName": "Other",
+              "EntryValue": 3,
+              "EnumName": "Other"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "SpecMode",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsWalk",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "無効",
+              "EntryValue": 0,
+              "EnumName": "Invalid"
+            },
+            {
+              "EntryName": "平常通り",
+              "EntryValue": 1,
+              "EnumName": "None"
+            },
+            {
+              "EntryName": "ヨビ祭",
+              "EntryValue": 2,
+              "EnumName": "Announce"
+            },
+            {
+              "EntryName": "本祭前半",
+              "EntryValue": 3,
+              "EnumName": "FirstHalf"
+            },
+            {
+              "EntryName": "本祭後半",
+              "EntryValue": 4,
+              "EnumName": "SecondHalf"
+            },
+            {
+              "EntryName": "結果発表待ち",
+              "EntryValue": 5,
+              "EnumName": "WaitingForResult"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "FestivalState",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsPlayingEvent",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "GlobalWind",
+        "PropertyType": "F32"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "晴れ",
+              "EntryValue": 0,
+              "EnumName": "Sunny"
+            },
+            {
+              "EntryName": "曇り",
+              "EntryValue": 1,
+              "EnumName": "Cloudy"
+            },
+            {
+              "EntryName": "霧",
+              "EntryValue": 2,
+              "EnumName": "Foggy"
+            },
+            {
+              "EntryName": "ボス用",
+              "EntryValue": 3,
+              "EnumName": "Boss"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "CoopWeather",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsBeingHeldFest",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "Invalid",
+              "EntryValue": 0,
+              "EnumName": "Invalid"
+            },
+            {
+              "EntryName": "BeforeGame",
+              "EntryValue": 1,
+              "EnumName": "BeforeGame"
+            },
+            {
+              "EntryName": "Game",
+              "EntryValue": 2,
+              "EnumName": "Game"
+            },
+            {
+              "EntryName": "GameEnd",
+              "EntryValue": 3,
+              "EnumName": "GameEnd"
+            },
+            {
+              "EntryName": "Result",
+              "EntryValue": 4,
+              "EnumName": "Result"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "SeqMainState_Versus",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "Invalid",
+              "EntryValue": 0,
+              "EnumName": "Invalid"
+            },
+            {
+              "EntryName": "CourseInDemo",
+              "EntryValue": 1,
+              "EnumName": "CourseInDemo"
+            },
+            {
+              "EntryName": "SupplyWeapon",
+              "EntryValue": 2,
+              "EnumName": "SupplyWeapon"
+            },
+            {
+              "EntryName": "TicketGateAction",
+              "EntryValue": 3,
+              "EnumName": "TicketGateAction"
+            },
+            {
+              "EntryName": "Progress",
+              "EntryValue": 4,
+              "EnumName": "Progress"
+            },
+            {
+              "EntryName": "GoalDemo",
+              "EntryValue": 5,
+              "EnumName": "GoalDemo"
+            },
+            {
+              "EntryName": "PlayerDie",
+              "EntryValue": 6,
+              "EnumName": "PlayerDie"
+            },
+            {
+              "EntryName": "Event",
+              "EntryValue": 7,
+              "EnumName": "Event"
+            },
+            {
+              "EntryName": "GameOver",
+              "EntryValue": 8,
+              "EnumName": "GameOver"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "SeqMainState_Mission",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "Invalid",
+              "EntryValue": 0,
+              "EnumName": "Invalid"
+            },
+            {
+              "EntryName": "StageViewDemo",
+              "EntryValue": 1,
+              "EnumName": "StageViewDemo"
+            },
+            {
+              "EntryName": "DropDemo",
+              "EntryValue": 2,
+              "EnumName": "DropDemo"
+            },
+            {
+              "EntryName": "RoundPrepare",
+              "EntryValue": 3,
+              "EnumName": "RoundPrepare"
+            },
+            {
+              "EntryName": "RoundReady",
+              "EntryValue": 4,
+              "EnumName": "RoundReady"
+            },
+            {
+              "EntryName": "RoundPlay",
+              "EntryValue": 5,
+              "EnumName": "RoundPlay"
+            },
+            {
+              "EntryName": "RoundClear",
+              "EntryValue": 6,
+              "EnumName": "RoundClear"
+            },
+            {
+              "EntryName": "GameClearFake",
+              "EntryValue": 7,
+              "EnumName": "GameClearFake"
+            },
+            {
+              "EntryName": "BossAppearDemo",
+              "EntryValue": 8,
+              "EnumName": "BossAppearDemo"
+            },
+            {
+              "EntryName": "GameClear",
+              "EntryValue": 9,
+              "EnumName": "GameClear"
+            },
+            {
+              "EntryName": "GameOver",
+              "EntryValue": 10,
+              "EnumName": "GameOver"
+            },
+            {
+              "EntryName": "Result",
+              "EntryValue": 11,
+              "EnumName": "Result"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "SeqMainState_Coop",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": true,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "EventName",
+        "PropertyType": "Enum"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "クレーター",
+              "EntryValue": 0,
+              "EnumName": "SmallWorld"
+            },
+            {
+              "EntryName": "オルタナ到着直後",
+              "EntryValue": 1,
+              "EnumName": "BigWorldEntry"
+            },
+            {
+              "EntryName": "すり身連合搭乗後",
+              "EntryValue": 2,
+              "EnumName": "AfterIntroduceTrinity"
+            },
+            {
+              "EntryName": "ボス１体クリア後",
+              "EntryValue": 3,
+              "EnumName": "DefeatBigWorldBoss1"
+            },
+            {
+              "EntryName": "ボス２体クリア後",
+              "EntryValue": 4,
+              "EnumName": "DefeatBigWorldBoss2"
+            },
+            {
+              "EntryName": "ボス３体クリア後",
+              "EntryValue": 5,
+              "EnumName": "DefeatBigWorldBoss3"
+            },
+            {
+              "EntryName": "全クリ後",
+              "EntryValue": 6,
+              "EnumName": "AllClear"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "MissionProgressLevel",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "通常ステージ",
+              "EntryValue": 0,
+              "EnumName": "NormalStage"
+            },
+            {
+              "EntryName": "クレーターステージ",
+              "EntryValue": 1,
+              "EnumName": "SmallWorldStage"
+            },
+            {
+              "EntryName": "オルタナステージ",
+              "EntryValue": 2,
+              "EnumName": "ChallengeStage"
+            },
+            {
+              "EntryName": "クレーターボスステージ",
+              "EntryValue": 3,
+              "EnumName": "SmallWorldBossStage"
+            },
+            {
+              "EntryName": "オルタナボスステージ",
+              "EntryValue": 4,
+              "EnumName": "BigWorldBossStage"
+            },
+            {
+              "EntryName": "発射台ステージ",
+              "EntryValue": 5,
+              "EnumName": "LaunchPadStage"
+            },
+            {
+              "EntryName": "ラスボス",
+              "EntryValue": 6,
+              "EnumName": "LastBoss"
+            },
+            {
+              "EntryName": "おまけステージ",
+              "EntryValue": 7,
+              "EnumName": "ExStage"
+            },
+            {
+              "EntryName": "クレーター",
+              "EntryValue": 8,
+              "EnumName": "SmallWorld"
+            },
+            {
+              "EntryName": "オルタナ",
+              "EntryValue": 9,
+              "EnumName": "BigWorld"
+            },
+            {
+              "EntryName": "ロケット発射台",
+              "EntryValue": 10,
+              "EnumName": "LaunchPadWorld"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "MissionMapType",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsCameraFocusedPlayer",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "BgmBeatIndex",
+        "PropertyType": "S32"
+      },
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 1.0,
+        "Minimum": 0.0,
+        "PropertyName": "BgmBeatRate",
+        "PropertyType": "F32"
+      },
+      {
+        "EnumParam": {
+          "Entries": [],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": false
+        },
+        "Maximum": 1.0,
+        "Minimum": 0.0,
+        "PropertyName": "BgmMeasureRate",
+        "PropertyType": "F32"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsCoopTutorial",
+        "PropertyType": "EnumGeyml"
+      },
+      {
+        "EnumParam": {
+          "Entries": [
+            {
+              "EntryName": "False",
+              "EntryValue": 0,
+              "EnumName": "F"
+            },
+            {
+              "EntryName": "True",
+              "EntryValue": 1,
+              "EnumName": "T"
+            }
+          ],
+          "IsCreateEntriesInRuntime": false,
+          "IsSpecifyEnumValue": true
+        },
+        "Maximum": 10.0,
+        "Minimum": 0.0,
+        "PropertyName": "IsPhotograph",
+        "PropertyType": "EnumGeyml"
+      }
+    ],
+    "__RowId": "Work/XLink/PropertyTableParam/Global.engine__xlink__PropertyTableParam.gyml"
+  }
+]

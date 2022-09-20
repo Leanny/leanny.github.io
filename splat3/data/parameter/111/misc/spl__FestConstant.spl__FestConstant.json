@@ -1,0 +1,74 @@
+{
+  "ConchShellExchangePrice": 2000,
+  "FestPointByPaintInfo": [
+    {},
+    {
+      "FestPoint": 10,
+      "PaintPointMin": 200
+    },
+    {
+      "FestPoint": 20,
+      "PaintPointMin": 400
+    }
+  ],
+  "FestPointByWinInfo": [
+    {
+      "FestPointLose": 10,
+      "FestPointWin": 30
+    },
+    {
+      "FestPointLose": 10,
+      "FestPointWin": 40,
+      "MinOpponentFestPower": 1400.0
+    },
+    {
+      "FestPointLose": 15,
+      "FestPointWin": 50,
+      "MinOpponentFestPower": 1700.0
+    },
+    {
+      "FestPointLose": 15,
+      "FestPointWin": 60,
+      "MinOpponentFestPower": 1800.0
+    },
+    {
+      "FestPointLose": 20,
+      "FestPointWin": 70,
+      "MinOpponentFestPower": 1900.0
+    }
+  ],
+  "FestRankInfo": [
+    {
+      "GetShellNum": 2,
+      "NeedPointNextRank": 100,
+      "WinBonusShellNum": 1
+    },
+    {
+      "GetShellNum": 3,
+      "NeedPointNextRank": 250,
+      "WinBonusShellNum": 2
+    },
+    {
+      "GetShellNum": 7,
+      "NeedPointNextRank": 500,
+      "WinBonusShellNum": 2
+    },
+    {
+      "GetShellNum": 13,
+      "NeedPointNextRank": 999,
+      "WinBonusShellNum": 3
+    },
+    {
+      "GetShellNum": 21,
+      "NeedPointNextRank": 999,
+      "WinBonusShellNum": 3
+    }
+  ],
+  "FestRegularContributionByWin": 1000,
+  "TricolContributionBy1stAttacker": 6000,
+  "TricolContributionBy2ndAttacker": 5000,
+  "TricolContributionByDefenderWin": 3000,
+  "TricolContributionByNoroshi": 2500,
+  "TricolContributionByNoroshiTry": 300,
+  "TricolNoroshiTryMax": 6
+}

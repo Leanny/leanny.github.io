@@ -1,0 +1,107 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "DistanceDamage": [
+        {
+          "Damage": 500,
+          "Distance": 2.1
+        },
+        {
+          "Damage": 300,
+          "Distance": 5.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 470.0,
+        "Bias": 0.6,
+        "Distance": 8.0
+      },
+      "PaintRadius": 3.2,
+      "SplashAroundParam": {
+        "Num": 10,
+        "OffsetY": 0.3,
+        "PaintRadius": 0.63,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.33,
+        "VelocityMin": 0.49
+      },
+      "SubSpecialSpecUpList": [
+        {
+          "Value": {
+            "High": 4.0,
+            "Low": 3.2,
+            "Mid": 3.6
+          }
+        },
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.3,
+            "Low": 1.0,
+            "Mid": 1.15
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMin",
+          "Value": {
+            "High": 0.52,
+            "Low": 0.49,
+            "Mid": 0.505
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMax",
+          "Value": {
+            "High": 0.35,
+            "Low": 0.33,
+            "Mid": 0.34
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundPaintRadius",
+          "Value": {
+            "High": 0.7,
+            "Low": 0.63,
+            "Mid": 0.665
+          }
+        }
+      ]
+    },
+    "JetParam": {
+      "$type": "spl__BulletSpJetpackJetParam"
+    },
+    "LauncherCollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "ChangeFrameForField": 0,
+      "ChangeFrameForPlayer": 0,
+      "EndRadiusForField": 0.3,
+      "EndRadiusForPlayer": 0.3,
+      "FriendThroughFrameForPlayer": 1000,
+      "InitRadiusForField": 0.3,
+      "InitRadiusForPlayer": 0.3
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpJetpackLauncherParam"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpJetpackParam",
+      "SpecialTotalFrame": {
+        "High": 510.0,
+        "Low": 450.0,
+        "Mid": 480.0
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YMax": 100.0,
+      "YMinusRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

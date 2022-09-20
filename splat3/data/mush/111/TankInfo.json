@@ -1,0 +1,68 @@
+[
+  {
+    "Id": 0,
+    "Label": "標準のタンク",
+    "SpecActor": "Work/Actor/PlayerTank.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_000"
+  },
+  {
+    "Id": 1,
+    "Label": "わかば用タンク",
+    "SpecActor": "Work/Actor/PlayerTank_ShooterFirst.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_001"
+  },
+  {
+    "Id": 2,
+    "Label": "ブロワー用タンク",
+    "SpecActor": "Work/Actor/PlayerTank_Blower.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_002"
+  },
+  {
+    "Id": 3,
+    "Label": "ジェットパック用タンク",
+    "SpecActor": "Work/Actor/PlayerTank_Jetpack.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_003"
+  },
+  {
+    "Id": 4,
+    "Label": "トリプルトルネード用タンク",
+    "SpecActor": "Work/Actor/PlayerTank_TripleTornado.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_004"
+  },
+  {
+    "Id": 100,
+    "Label": "MsnタンクLv0",
+    "SpecActor": "Work/Actor/PlayerTank_MsnLv0.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_100"
+  },
+  {
+    "Id": 101,
+    "Label": "MsnタンクLv1",
+    "SpecActor": "Work/Actor/PlayerTank_MsnLv1.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_101"
+  },
+  {
+    "Id": 200,
+    "Label": "Coop用タンク",
+    "SpecActor": "Work/Actor/PlayerTank_Coop.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_200"
+  },
+  {
+    "Id": 400,
+    "Label": "amiibo用タンク(1)",
+    "SpecActor": "Work/Actor/PlayerTank_amiibo_1.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_400"
+  },
+  {
+    "Id": 401,
+    "Label": "amiibo用タンク(2イカ)",
+    "SpecActor": "Work/Actor/PlayerTank_amiibo_2D.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_401"
+  },
+  {
+    "Id": 402,
+    "Label": "amiibo用タンク(2タコ)",
+    "SpecActor": "Work/Actor/PlayerTank_amiibo_2O.engine__actor__ActorParam.gyml",
+    "__RowId": "Tnk_402"
+  }
+]

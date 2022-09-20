@@ -1,0 +1,74 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 3.6
+        },
+        {
+          "Damage": 300,
+          "Distance": 7.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintOffsetY": 0.1,
+      "SplashAroundParam": {
+        "Num": 15,
+        "OffsetY": 0.3,
+        "PaintRadius": 1.064,
+        "PitchMax": 45.0
+      }
+    },
+    "MoveParam": {
+      "$type": "spl__BulletBombSplashParam",
+      "BurstFrame": 60,
+      "CollisionSESpanFrame": 8,
+      "CollisionSEVelDotGroundNrm": -1.0,
+      "ContactDashPanel": {
+        "AddSpeedPerImpact": 0.15833,
+        "CrossSaveSpeedRate": 0.9
+      },
+      "ContactJumpPanel": {
+        "AddSpeedOneBoundRate": 0.7,
+        "AddSpeedPerImpact": 0.08333
+      },
+      "FlyGravity": 0.016,
+      "FlyRotateAirResist": 0.018,
+      "GroundGravity": 0.016,
+      "GroundPositionDeg50AirResist": 0.28,
+      "GroundPositionHorizonAirResist": 0.19,
+      "GroundRotateDeg50AirResist": 0.5,
+      "GroundRotateHorizonAirResist": 0.35,
+      "GuideRadius": 0.575,
+      "HitVerticalWallReboundMaxRate": 0.7,
+      "SpawnRotatePitch": 0.4,
+      "SpawnRotateRoll": 0.03,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.68,
+        "Low": 1.12,
+        "Mid": 1.4
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkRecoverStop": 60
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0
+    }
+  }
+}

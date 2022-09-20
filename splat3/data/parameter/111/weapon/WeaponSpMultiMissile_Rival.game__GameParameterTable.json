@@ -1,0 +1,232 @@
+{
+  "GameParameters": {
+    "spl__BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 3.0,
+      "CrossPaintRadius": 2.0,
+      "CrossPaintTexture": "Bomb00",
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.0,
+      "DistanceDamage": [
+        {
+          "Damage": 1500,
+          "Distance": 1.1
+        },
+        {
+          "Damage": 500,
+          "Distance": 2.1
+        },
+        {
+          "Damage": 300,
+          "Distance": 5.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 8.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 3.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "PaintRadius",
+          "Value": {
+            "High": 3.78,
+            "Low": 3.15,
+            "Mid": 3.465
+          }
+        },
+        {
+          "SpecUpType": "CrossPaintRadius",
+          "Value": {
+            "High": 2.0,
+            "Low": 2.0,
+            "Mid": 2.0
+          }
+        },
+        {
+          "SpecUpType": "CrossPaintCheckLength",
+          "Value": {
+            "High": 3.0,
+            "Low": 3.0,
+            "Mid": 3.0
+          }
+        }
+      ]
+    },
+    "spl__BulletSpMultiMissileDamageParam": {
+      "$type": "spl__BulletSpMultiMissileDamageParam",
+      "DirectHitDamage": 1500
+    },
+    "spl__BulletSpMultiMissileMoveParam": {
+      "$type": "spl__BulletSpMultiMissileMoveParam",
+      "ApproachParam": {
+        "BaseSpeed": 0.5,
+        "BaseSpeedVsOneTarget": 0.4,
+        "ComeOverRate": 0.92,
+        "ComeUnderRate": 0.96,
+        "RotateDegreeMax": 4.0
+      },
+      "ApproachStartParam": {
+        "BaseSpeed": 0.2,
+        "BaseSpeedComeOverRate": 0.65,
+        "BaseSpeedComeUnderRate": 0.8,
+        "MissileMaxDegree": 45.0,
+        "RotateDegreeMax": 4.0,
+        "StateFrame": 15,
+        "TargetDistanceXZ": 6.0,
+        "TargetDistanceXZAdd": 1.0,
+        "TargetDistanceXZAddVsOneTarget": 0.0,
+        "TargetDistanceXZVsOneTarget": 7.5,
+        "TargetHeight": 11.0,
+        "TargetHeightAdd": 1.0,
+        "TargetHeightAddVsOneTarget": 0.0,
+        "TargetHeightVsOneTarget": 12.5,
+        "TargetMaxDegree": 20.0,
+        "TargetMinDegree": 0.0
+      },
+      "ApproachWaitParam": {
+        "BaseSpeed": 0.0001,
+        "BaseSpeedComeOverRate": 0.01,
+        "BaseSpeedComeUnderRate": 0.01,
+        "DropInterval": 8,
+        "DropIntervalVS": 6,
+        "RotateDegreeMax": 0.0
+      },
+      "ChaseParam": {
+        "BaseSpeed": 0.42,
+        "ComeOverRate": 0.01,
+        "ComeUnderRate": 0.01,
+        "MinHorizonDegree": -12.0,
+        "RotateDegreeMax": 0.0
+      },
+      "ChaseStartParam": {
+        "BaseSpeed": 0.001,
+        "ComeOverRate": 0.01,
+        "ComeUnderRate": 0.01,
+        "RotateDegreeMax": 0.0,
+        "StateFrame": 25
+      },
+      "CommonParam": {
+        "CollisionCheckStartState": "Chase",
+        "OccurOffset": 0.5,
+        "SuperJumpDecideFrame": 95
+      },
+      "CurveParam": {
+        "BaseSpeed": 0.1,
+        "ComeOverRate": 0.8,
+        "ComeUnderRate": 0.8,
+        "MaxSpeedY": 0.2,
+        "NextStateMinDegreeAxisX": 0.01,
+        "NextStateMinDegreeAxisY": 0.01,
+        "RotateDegreeMax": 3.0,
+        "StateMaxFrame": 60,
+        "StateMinFrame": 10
+      },
+      "RiseParam": {
+        "OverHeightAddOneTarget": 1.0,
+        "RiseBaseSpeed": 0.4,
+        "RiseBaseSpeedComeOverRate": 0.9,
+        "RiseBaseSpeedComeUnderRate": 0.9,
+        "RiseInitialSpeed": 0.4,
+        "RiseMinHeight": 7.6,
+        "RiseMinHeightAddOneTarget": 1.0,
+        "RiseMinHeightVsOnlyOneTarget": 9.0,
+        "RiseTargetPlayerOverHeight": 5.6,
+        "RiseTargetPlayerOverHeightVsOne": 7.0
+      },
+      "TargetParam": {
+        "MultiTargetCircleArray": [
+          {
+            "Num": 0,
+            "Radius": 0.0,
+            "RandomOffset": 4.0,
+            "RandomOffsetBias": 0.3
+          }
+        ],
+        "OneTargetCircleArray": [
+          {
+            "Num": 1,
+            "Radius": 0.0,
+            "RandomOffset": 0.0,
+            "RandomOffsetBias": 0.0
+          },
+          {
+            "Num": 9,
+            "Radius": 3.0,
+            "RandomOffset": 0.5,
+            "RandomOffsetBias": 0.35
+          },
+          {
+            "Num": 0,
+            "Radius": 5.0,
+            "RandomOffset": 0.5,
+            "RandomOffsetBias": 0.35
+          }
+        ],
+        "SolidDistanceXZ": 100.0
+      }
+    },
+    "spl__WeaponSpMultiMissileLaunchParam": {
+      "$type": "spl__WeaponSpMultiMissileLaunchParam",
+      "ShotInsideDegree": 0.1,
+      "ShotIntervalTargetArray": [
+        8,
+        7,
+        6,
+        5
+      ],
+      "ShotNumOneTargetArray": [
+        4
+      ],
+      "ShotOutsideDegree": 12.0,
+      "ShotPrepareFrame": 20,
+      "ShotPrepareFrameMin": 4
+    },
+    "spl__WeaponSpMultiMissileLockOnParam": {
+      "$type": "spl__WeaponSpMultiMissileLockOnParam",
+      "TargetCircleCenterOffset": {
+        "X": 0.0,
+        "Y": 65.0
+      },
+      "TargetCircleEffectDefaultRadius": 9.3,
+      "TargetInCircleRadius": {
+        "High": 240.0,
+        "Low": 140.0,
+        "Mid": 190.0
+      },
+      "TargetOutCircleAddRadius": 30.0,
+      "TargetOutCircleFrame": 20,
+      "TargetPlayerLockOnCount": 5,
+      "TargetPlayerLockOnSeFrame": 3
+    },
+    "spl__WeaponSpMultiMissilePlayerParam": {
+      "$type": "spl__WeaponSpMultiMissilePlayerParam",
+      "JumpVelLimitPreparing": 0.0,
+      "JumpVelLimitSearching": 0.06,
+      "JumpVelLimitShooting": 0.0,
+      "MoveVelLimitPreparing": 0.0,
+      "MoveVelLimitSearching": 0.048,
+      "MoveVelLimitShooting": 0.0,
+      "PaintGaugePointFull": 180,
+      "SpecialFrame": 600
+    }
+  }
+}

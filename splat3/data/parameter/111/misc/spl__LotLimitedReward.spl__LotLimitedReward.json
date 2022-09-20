@@ -1,0 +1,49 @@
+{
+  "Data": [
+    {
+      "BynameAdjective": "",
+      "BynameSubject": "",
+      "NameplateBg": ""
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2500.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2500.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season01_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2501.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2501.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season02_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2502.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2502.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season03_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2503.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2503.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season04_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2504.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2504.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season05_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2505.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2505.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season06_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2506.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2506.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season07_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "BynameAdjective": "Work/Gyml/Byname/2507.spl__BynameAdjectiveInfo.gyml",
+      "BynameSubject": "Work/Gyml/Byname/2507.spl__BynameSubjectInfo.gyml",
+      "NameplateBg": "Work/Gyml/NamePlateBgInfo/Npl_Lot_Season08_Lv01.spl__NamePlateBgInfo.gyml"
+    }
+  ]
+}

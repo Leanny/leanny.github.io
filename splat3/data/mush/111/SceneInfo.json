@@ -1,0 +1,986 @@
+[
+  {
+    "ClassName": "",
+    "Label": "01_Msn ワールド オルタナ00 (大ワールド)",
+    "PreloadResource": "Model/Obj_Pipeline.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "BigWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "ブート",
+    "PreloadResource": "",
+    "SequenceName": "Boot",
+    "__RowId": "Boot"
+  },
+  {
+    "ClassName": "",
+    "Label": "ムニ・エ―ル海洋発電所",
+    "PreloadResource": "Model/Fld_Shakedent00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "__RowId": "Cop_Shakedent"
+  },
+  {
+    "ClassName": "",
+    "Label": "アラマキ砦",
+    "PreloadResource": "Model/Fld_Shakespiral00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "__RowId": "Cop_Shakespiral"
+  },
+  {
+    "ClassName": "",
+    "Label": "シェケナダム",
+    "PreloadResource": "Model/Fld_Shakeup00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "__RowId": "Cop_Shakeup"
+  },
+  {
+    "ClassName": "",
+    "Label": "Coopチュートリアル",
+    "PreloadResource": "Model/Fld_Shakespiral00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Coop",
+    "__RowId": "Cop_Tutorial"
+  },
+  {
+    "ClassName": "",
+    "Label": "DayChange",
+    "PreloadResource": "",
+    "SequenceName": "DayChange",
+    "__RowId": "DayChange"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 05ラスボス",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Kumasan01",
+    "SequenceName": "Mission",
+    "__RowId": "LastBoss"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 05ラスボス第２形態",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Kumasan02",
+    "SequenceName": "Mission",
+    "__RowId": "LastBoss02"
+  },
+  {
+    "ClassName": "",
+    "Label": "01_Msn ワールド オルタナ01 発射台",
+    "PreloadResource": "Model/Obj_Pipeline.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "LaunchPadWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "クマサン商会",
+    "PreloadResource": "Model/Fld_CoopLobby.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyCoop",
+    "__RowId": "LobbyCoop"
+  },
+  {
+    "ClassName": "",
+    "Label": "イカッチャ",
+    "PreloadResource": "Model/Fld_LocalLobby.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyLocal",
+    "__RowId": "LobbyLocal"
+  },
+  {
+    "ClassName": "",
+    "Label": "対戦ロビー",
+    "PreloadResource": "Model/Fld_VSLobby.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyVersus",
+    "__RowId": "LobbyVersus"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ1 (いろんなオブジェとこんにちは)",
+    "PreloadResource": "Model/Fld_Alterna1n01.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ1（全部塗ったらクリア）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ2 (タコポッドと遊ぼう)",
+    "PreloadResource": "Model/Fld_Alterna1n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ2 （簡単カギヅメ）",
+    "PreloadResource": "Model/Fld_Alterna1c02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ3（びっくりタコ屋敷）",
+    "PreloadResource": "Model/Fld_Alterna1n03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ3 (でんでんコジャケ)",
+    "PreloadResource": "Model/Fld_Alterna1c03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 ステージ4 (インドア＆カギ)",
+    "PreloadResource": "Model/Fld_Alterna1n04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ4 (巻き込め爆風1ショット）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ5 (ストリンガーコース)",
+    "PreloadResource": "Model/Fld_Alterna1c05.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ1 チャレンジステージ6（ショックソナーをかわせ）",
+    "PreloadResource": "Model/Fld_Alterna1c06.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A01_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ1（回転ネタ）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ1(レール木箱サーフィン)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ2（スポンジのぼり）",
+    "PreloadResource": "Model/Fld_Alterna2n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ2（チャリオットリガーハッピー）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 ステージ3 （ヘビブロック機能説明）",
+    "PreloadResource": "Model/Fld_Alterna2n03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ3 (迷路を登る)",
+    "PreloadResource": "Model/Fld_Alterna2c03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ4 (インク制限・塗れるOBJ祭り)",
+    "PreloadResource": "Model/Fld_Alterna2c04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ2 チャレンジステージ5 (気持ちの良いコースをつくるコース)",
+    "PreloadResource": "Model/Fld_Alterna2c05.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A02_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ1（戦いの丘）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ1 (カーリングボムでカーリング)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ2 (空の上で大渋滞)",
+    "PreloadResource": "Model/Fld_Alterna3n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ2 (ブラシラッシュ)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 ステージ3 （ヌリコロガシとヘビブロック）",
+    "PreloadResource": "Model/Fld_Alterna3n03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ3(ふりむかなくてよい射的）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ3 チャレンジステージ4 （インクレール登山）",
+    "PreloadResource": "Model/Fld_Alterna3c04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A03_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ1(水上リフト)",
+    "PreloadResource": "Model/Fld_Alterna4n01.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ1（コジャケとヘビブロック）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ2 (恐怖のタコホッパー！)",
+    "PreloadResource": "Model/Fld_Alterna4n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ2 (立体機動カタヌキ)",
+    "PreloadResource": "Model/Fld_Alterna4c02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 ステージ3（タコストライク滝）",
+    "PreloadResource": "Model/Fld_Alterna4n03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ3 （サシ木箱的な）",
+    "PreloadResource": "Model/Fld_Alterna4c03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ4 （チャージキープ）",
+    "PreloadResource": "Model/Fld_Alterna4c04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ5 (レールで風船全滅簡単)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ6 (タコッペリンとタコミサイル）",
+    "PreloadResource": "Model/Fld_Alterna4c06.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ7 (早撃ち)",
+    "PreloadResource": "Model/Fld_Alterna4c07.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ8（セイバーコース）",
+    "PreloadResource": "Model/Fld_Alterna4c08.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ4 チャレンジステージ9（一筆入魂）",
+    "PreloadResource": "Model/Fld_Alterna4c09.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A04_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ1 (バイタコと待ち伏せ)",
+    "PreloadResource": "Model/Fld_Alterna5n01.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ1 (タコドーザーとコジャケ)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ2 (背中を狙え)",
+    "PreloadResource": "Model/Fld_Alterna5n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ2 (カギヅメステージ中)",
+    "PreloadResource": "Model/Fld_Alterna5c02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ3（廃ビルに潜むタコスナイパー）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ3（レール木箱ストリンガー）",
+    "PreloadResource": "Model/Fld_Alterna5c03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 ステージ4 （タコインザバリア）",
+    "PreloadResource": "Model/Fld_Alterna5n04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ4 (スーパーチャクチ)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ5 （行きは霧 帰りも霧）",
+    "PreloadResource": "Model/Fld_Alterna5c05.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ6(ライドレールショート）",
+    "PreloadResource": "Model/Fld_Alterna5c06.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ7 （ニンジャ・パルクール）",
+    "PreloadResource": "Model/Fld_Alterna5c07.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ8（長射程ブキ練）",
+    "PreloadResource": "Model/Fld_Alterna5c08.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ5 チャレンジステージ9 (ラインマーカー研究所)",
+    "PreloadResource": "Model/Fld_Alterna5c09.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A05_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ1 （夜霧のタコゾネス）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ1 (インク制限・ムズカシ)",
+    "PreloadResource": "Model/Fld_Alterna6c01.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C05",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_01C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ2 （タコタワーリングインフェルノ）",
+    "PreloadResource": "Model/Fld_Alterna6n02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ2 （カーリング・インクを踏んだらさようなら）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_02C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 ステージ3 (タコオールスターズ)",
+    "PreloadResource": "Model/Fld_Alterna6n03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ3 (ローラーでタコ殴り)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_03C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ4 (沈む塔から逃げろ)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C06",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_04C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ5 （見上げれば、タコ）",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_05C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ6 (イカレース)",
+    "PreloadResource": "Model/Fld_Alterna6c06.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_06C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ7 (ピロジェットプロ)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C07",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_07C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ8 (スタコラーを追え)",
+    "PreloadResource": "Model/Fld_Alterna6c08.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_08C"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn オルタナ6 チャレンジステージ9 （ウルトラハンコ）",
+    "PreloadResource": "Model/Fld_Alterna6c09.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_C01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_A06_09C"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ1（撃って撃って撃ちまくれ！）",
+    "PreloadResource": "Model/Fld_Crater00.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ2（イカダッシュでどこまでも）",
+    "PreloadResource": "Model/Fld_Crater01.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ3（インクレールでカギを探せ！）",
+    "PreloadResource": "Model/Fld_Crater02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "02_Msn クレーターステージ4（タコとの遭遇）",
+    "PreloadResource": "Model/Fld_Crater03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Crater_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_C_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX01 (パルクール)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX01"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX02 (的あて)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX02"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX03 (ヘビブロック)",
+    "PreloadResource": "Model/Fld_AlternaEX03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX03"
+  },
+  {
+    "ClassName": "",
+    "Label": "06_Msn EX04 (タコゾネスパーティー)",
+    "PreloadResource": "Model/Fld_RocketSiloHatch.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Alterna_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_EX04"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 04毒マンタ(ボスＣ)",
+    "PreloadResource": "Model/Fld_Alterna6Boss04.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Mantaro",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_MantaKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 02ウツボックス(ボスB ウツホ)",
+    "PreloadResource": "Model/Fld_Alterna2Boss02.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Utsuho",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_MorayKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ1 （セキュリティゲート：コジャケのみ）",
+    "PreloadResource": "Model/Fld_AlternaR01.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_01",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_01"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ2 （格納庫：アクション映画）",
+    "PreloadResource": "Model/Fld_AlternaR02.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_02",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_02"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ3 （研究棟：フォグリフト）",
+    "PreloadResource": "Model/Fld_AlternaR03.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_03",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_03"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ4 （ロケット前半：螺旋階段）",
+    "PreloadResource": "Model/Fld_AlternaR04.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_04"
+  },
+  {
+    "ClassName": "",
+    "Label": "03_Msn ロケットステージ5 （ロケット後半：ショクワンダーロゲイニング）",
+    "PreloadResource": "Model/Fld_AlternaR05.bfres",
+    "SceneBridgeBgm": "BgmMissionRocketSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Stage_Rocket_04",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_R_05"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 01タコワサ",
+    "PreloadResource": "Model/Fld_SmallWorld.bfres",
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Takowasa",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_RailKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "04_Msn 03フカシャーク(ボスA フウカ)",
+    "PreloadResource": "Model/Fld_Alterna4Boss03.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "BGM_Mission_Boss_Fuuka",
+    "SequenceName": "Mission",
+    "__RowId": "Msn_SharkKing"
+  },
+  {
+    "ClassName": "",
+    "Label": "ウォーミングアップ（プレイヤーメイク）",
+    "PreloadResource": "Model/Fld_PlayerMake.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "PlayerMake",
+    "__RowId": "PlayerMake"
+  },
+  {
+    "ClassName": "",
+    "Label": "プラザ",
+    "PreloadResource": "Model/Fld_BankaraCity.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Plaza",
+    "__RowId": "Plaza"
+  },
+  {
+    "ClassName": "",
+    "Label": "試射場",
+    "PreloadResource": "Model/Fld_ShootingRange.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "ShootingRange",
+    "__RowId": "ShootingRange"
+  },
+  {
+    "ClassName": "",
+    "Label": "ショップ",
+    "PreloadResource": "Model/Fld_Room_Shoes.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Shop",
+    "__RowId": "Shop"
+  },
+  {
+    "ClassName": "",
+    "Label": "00_Msn ワールド クレーター（小ワールド）",
+    "PreloadResource": "Model/Fld_SmallWorld.bfres",
+    "SceneBridgeBgm": "BgmMissionSceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "World",
+    "__RowId": "SmallWorld"
+  },
+  {
+    "ClassName": "",
+    "Label": "05_Msn スタッフロール",
+    "PreloadResource": "",
+    "SequenceName": "StaffRoll",
+    "__RowId": "StaffRoll"
+  },
+  {
+    "ClassName": "",
+    "Label": "スメーシーワールド",
+    "PreloadResource": "Model/Fld_Carousel03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Carousel"
+  },
+  {
+    "ClassName": "",
+    "Label": "ゴンズイ地区",
+    "PreloadResource": "Model/Fld_District00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_District00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マヒマヒリゾート&スパ",
+    "PreloadResource": "Model/Fld_Hiagari03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Hiagari03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マサバ海峡大橋",
+    "PreloadResource": "Model/Fld_Kaisou03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Kaisou03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ザトウマーケット",
+    "PreloadResource": "Model/Fld_Line03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Line03"
+  },
+  {
+    "ClassName": "",
+    "Label": "チョウザメ造船",
+    "PreloadResource": "Model/Fld_Nagasaki03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Nagasaki03"
+  },
+  {
+    "ClassName": "",
+    "Label": "キンメダイ美術館",
+    "PreloadResource": "Model/Fld_Pivot03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Pivot03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ナメロウ金属",
+    "PreloadResource": "Model/Fld_Scrap00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Scrap00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マテガイ放水路",
+    "PreloadResource": "Model/Fld_Temple00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Temple00"
+  },
+  {
+    "ClassName": "",
+    "Label": "海女美術大学",
+    "PreloadResource": "Model/Fld_Upland03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Upland03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ヤガラ市場",
+    "PreloadResource": "Model/Fld_Yagara.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Yagara"
+  },
+  {
+    "ClassName": "",
+    "Label": "ユノハナ渓谷",
+    "PreloadResource": "Model/Fld_Yunohana.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Yunohana"
+  }
+]

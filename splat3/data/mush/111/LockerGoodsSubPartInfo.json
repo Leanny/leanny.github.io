@@ -1,0 +1,92 @@
+[
+  {
+    "HowToGet": "Shop",
+    "Id": 520,
+    "LObjParam": "Work/Gyml/LObj_Spt_Clothesline00.spl__LockerObjParam.gyml",
+    "Label": "ポールつきのたな",
+    "MaxNumberOfPossessions": 3,
+    "Model": "Work/Model/Locker/Loc_Shelf01/output/Loc_Shelf01.fmdb",
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Spt_Clothesline00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 501,
+    "LObjParam": "Work/Gyml/LObj_Spt_Hook00.spl__LockerObjParam.gyml",
+    "Label": "シンプルなフック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Loc_Hook00/output/Loc_Hook00.fmdb",
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Spt_Hook00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 502,
+    "LObjParam": "Work/Gyml/LObj_Spt_Hook01.spl__LockerObjParam.gyml",
+    "Label": "ダブルなフック",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Loc_Hook01/output/Loc_Hook01.fmdb",
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Spt_Hook01"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 550,
+    "LObjParam": "Work/Gyml/LObj_Spt_PhotoStand00.spl__LockerObjParam.gyml",
+    "Label": "フォトスタンド",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_PhotoStand/output/Fig_PhotoStand.fmdb",
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Spt_PhotoStand00"
+  },
+  {
+    "HowToGet": "Shop",
+    "Id": 510,
+    "LObjParam": "Work/Gyml/LObj_Spt_Shelf00.spl__LockerObjParam.gyml",
+    "Label": "シンプルな棚",
+    "MaxNumberOfPossessions": 3,
+    "Model": "Work/Model/Locker/Loc_Shelf00/output/Loc_Shelf00.fmdb",
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Spt_Shelf00"
+  }
+]

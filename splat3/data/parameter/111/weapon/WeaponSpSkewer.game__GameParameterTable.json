@@ -1,0 +1,104 @@
+{
+  "GameParameters": {
+    "BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 7.5
+        },
+        {
+          "Damage": 600,
+          "Distance": 11.5
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintRadius": 0.0,
+      "PaintTexture": "Bomb00",
+      "SplashAroundParam": {
+        "Num": 15,
+        "OffsetY": 0.3,
+        "PaintRadius": 0.0,
+        "PitchMax": 30.0,
+        "VelocityMax": 0.0,
+        "VelocityMin": 0.0
+      },
+      "SubSpecialSpecUpList": [
+        {
+          "SpecUpType": "DistanceDamageDistanceRate",
+          "Value": {
+            "High": 1.2,
+            "Low": 1.0,
+            "Mid": 1.1
+          }
+        },
+        {
+          "SpecUpType": "PaintRadius",
+          "Value": {
+            "High": 8.4,
+            "Low": 7.0,
+            "Mid": 7.7
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMin",
+          "Value": {
+            "High": 0.6,
+            "Low": 0.5,
+            "Mid": 0.55
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundVelocityMax",
+          "Value": {
+            "High": 0.7,
+            "Low": 0.6,
+            "Mid": 0.65
+          }
+        },
+        {
+          "SpecUpType": "SplashAroundPaintRadius",
+          "Value": {
+            "High": 1.2,
+            "Low": 1.0,
+            "Mid": 1.1
+          }
+        }
+      ]
+    },
+    "BulletParam": {
+      "$type": "spl__BulletSpSkewerParam",
+      "CollisionRadiusForPlayer": 0.8,
+      "DamageValue": 1800
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpSkewerParam",
+      "ChargeFrame": 0,
+      "Distance_Afterglow": 5.0,
+      "GravityKf": 1.2,
+      "MoveAcc": 0.031,
+      "MoveBrk": 0.031,
+      "MoveCancelableFrame": 15,
+      "MoveFrame": 60,
+      "MoveFrameOmen": 27,
+      "MoveRotDeg": 0.5,
+      "MoveSpeed": 0.45,
+      "MoveSpeed_Aerial": 0.22,
+      "OffsetLocal_DetectPlayer": {
+        "X": 0.0,
+        "Y": 0.8,
+        "Z": 1.0
+      },
+      "PreBurstEmitFrame": 15,
+      "PreBurstFrame": 38,
+      "PreMoveFrame": 38,
+      "Radius_DetectPlayer": 1.0,
+      "RutPaintRadius": 1.2,
+      "UnrelaxFrame": 28
+    }
+  }
+}

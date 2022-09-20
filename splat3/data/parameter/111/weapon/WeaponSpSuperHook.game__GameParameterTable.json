@@ -1,0 +1,78 @@
+{
+  "GameParameters": {
+    "BulletBombMoveParam": {
+      "$type": "spl__BulletBombMoveParam",
+      "FlyGravity": 0.0,
+      "FlyPositionAirResist": 0.0,
+      "GuideHitCollisionType": "SuperHook",
+      "SpawnSpeedZSpecUp": {
+        "High": 3.36,
+        "Low": 3.36,
+        "Mid": 3.36
+      }
+    },
+    "BulletParam": {
+      "$type": "spl__BulletSpSuperHookParam",
+      "CollisionRadiusForField": 1.6,
+      "CollisionRadiusForPlayer": 1.2,
+      "KnockBackParam": {
+        "Accel": 450.0,
+        "Bias": 0.0,
+        "Degree": 55.0,
+        "DirectionZeroAccelRate": 1.0,
+        "Distance": 10.0
+      },
+      "PaintDepthScale": 1.5,
+      "PaintSpanFrame": 2,
+      "PaintWidthHalf": 1.0
+    },
+    "HookBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 1.4,
+      "CrossPaintRadius": 1.4,
+      "DistanceDamage": [
+        {
+          "Damage": 350,
+          "Distance": 3.2
+        },
+        {
+          "Damage": 250,
+          "Distance": 4.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 470.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      }
+    },
+    "HookCollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForField": 0.5,
+      "EndRadiusForPlayer": 0.01,
+      "InitRadiusForField": 0.5,
+      "InitRadiusForPlayer": 0.01
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpSuperHookParam",
+      "InkConsume_Hook": {
+        "High": 0.015,
+        "Low": 0.04,
+        "Mid": 0.025
+      },
+      "InkConsume_PerSec": {
+        "High": 0.08,
+        "Low": 0.1,
+        "Mid": 0.087
+      },
+      "MaxLengthHook": 35.0,
+      "MinLengthHook_Floor": 4.0,
+      "MinLengthHook_Wall": 0.0,
+      "MoveAccAttack": 0.1,
+      "MoveSpeedAttack_Init": 0.06,
+      "ShotFailedIntervalFrm": 20,
+      "SpecialTotalFrame": 540,
+      "WaitFrameShot2Attack": 12
+    }
+  }
+}

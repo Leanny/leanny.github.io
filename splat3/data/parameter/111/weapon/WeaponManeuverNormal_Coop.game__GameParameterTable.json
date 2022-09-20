@@ -1,0 +1,13 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMin": 250
+    },
+    "SideStepParam": {
+      "$type": "spl__PlayerSideStepParam",
+      "InkConsume": 0.06
+    }
+  }
+}

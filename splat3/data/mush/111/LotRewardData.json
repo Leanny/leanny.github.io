@@ -1,0 +1,125 @@
+[
+  {
+    "Info": [
+      {
+        "Grade": 0,
+        "NotSameNum": 1,
+        "Percent": 0.1,
+        "SameNum": 1,
+        "SubType": "Limited",
+        "SubstituteArrayId": 2,
+        "Type": "NamePlateBg"
+      },
+      {
+        "Grade": 1,
+        "NotSameNum": 1,
+        "Percent": 0.3,
+        "SameNum": 1,
+        "SubType": "Limited",
+        "SubstituteArrayId": 2,
+        "Type": "Byname"
+      },
+      {
+        "Grade": 2,
+        "NotSameNum": 1,
+        "Percent": 0.6,
+        "SameNum": 10,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "AllGearSkillChip"
+      },
+      {
+        "Grade": 3,
+        "NotSameNum": 1,
+        "Percent": 4.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "MiniGameCardPack"
+      },
+      {
+        "Grade": 3,
+        "NotSameNum": 1,
+        "Percent": 3.0,
+        "SameNum": 1,
+        "SubType": "FoodParty",
+        "SubstituteArrayId": -1,
+        "Type": "FoodTicket"
+      },
+      {
+        "Grade": 3,
+        "NotSameNum": 1,
+        "Percent": 6.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "NamePlateBg"
+      },
+      {
+        "Grade": 4,
+        "NotSameNum": 1,
+        "Percent": 10.0,
+        "SameNum": 3,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "GearSkillChip"
+      },
+      {
+        "Grade": 4,
+        "NotSameNum": 1,
+        "Percent": 7.0,
+        "SameNum": 1,
+        "SubType": "Food100",
+        "SubstituteArrayId": -1,
+        "Type": "FoodTicket"
+      },
+      {
+        "Grade": 4,
+        "NotSameNum": 1,
+        "Percent": 22.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "Byname"
+      },
+      {
+        "Grade": 5,
+        "NotSameNum": 2,
+        "Percent": 10.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "LockerSticker"
+      },
+      {
+        "Grade": 5,
+        "NotSameNum": 2,
+        "Percent": 10.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "LockerFigure"
+      },
+      {
+        "Grade": 5,
+        "NotSameNum": 1,
+        "Percent": 13.0,
+        "SameNum": 1,
+        "SubType": "Food50",
+        "SubstituteArrayId": -1,
+        "Type": "FoodTicket"
+      },
+      {
+        "Grade": 5,
+        "NotSameNum": 1,
+        "Percent": 14.0,
+        "SameNum": 1,
+        "SubType": "None",
+        "SubstituteArrayId": -1,
+        "Type": "DrinkTicket"
+      }
+    ],
+    "Season": 0,
+    "__RowId": "Work/Gyml/LotRewardData110.spl__LotRewardData.gyml"
+  }
+]

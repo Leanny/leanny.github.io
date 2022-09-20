@@ -1,0 +1,28 @@
+{
+  "Info": [
+    {
+      "Percent": 1.0,
+      "Type": "ExpParty"
+    },
+    {
+      "Percent": 1.0,
+      "Type": "MoneyParty"
+    },
+    {
+      "Percent": 14.0,
+      "Type": "Exp100"
+    },
+    {
+      "Percent": 14.0,
+      "Type": "Money100"
+    },
+    {
+      "Percent": 35.0,
+      "Type": "Exp50"
+    },
+    {
+      "Percent": 35.0,
+      "Type": "Money50"
+    }
+  ]
+}

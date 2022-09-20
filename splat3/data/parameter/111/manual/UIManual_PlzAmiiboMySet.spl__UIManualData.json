@@ -1,0 +1,24 @@
+{
+  "ChapterSelectList": [],
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualPlzAmiiboMySet.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "AmiiboMySet_Manual00",
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_02.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "AmiiboMySet_Manual00_Title"
+    },
+    {
+      "BodyLabel": "AmiiboMySet_Manual01",
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_03.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "AmiiboMySet_Manual01_Title"
+    },
+    {
+      "BodyLabel": "AmiiboMySet_Manual02",
+      "Image": "Work/UI/Icon/Manual/Plaza/sourceimages/ManualPlazaM_04.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "AmiiboMySet_Manual02_Title"
+    }
+  ]
+}

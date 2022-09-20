@@ -1,0 +1,9 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpSuperHook.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "WeaponParam": {
+      "$type": "spl__WeaponSpSuperHookParam",
+      "MaxLengthHook": 30.0
+    }
+  }
+}

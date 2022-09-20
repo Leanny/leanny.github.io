@@ -1,0 +1,210 @@
+{
+  "DummyLockerContentInfoList": [
+    "Work/Locker/Dummy_01.byml",
+    "Work/Locker/Dummy_02.byml",
+    "Work/Locker/Dummy_03.byml",
+    "Work/Locker/Dummy_04.byml",
+    "Work/Locker/Dummy_05.byml",
+    "Work/Locker/Dummy_06.byml",
+    "Work/Locker/Dummy_07.byml",
+    "Work/Locker/Dummy_08.byml",
+    "Work/Locker/Dummy_09.byml",
+    "Work/Locker/Dummy_10.byml",
+    "Work/Locker/Dummy_11.byml",
+    "Work/Locker/Dummy_12.byml",
+    "Work/Locker/Dummy_13.byml",
+    "Work/Locker/Dummy_14.byml",
+    "Work/Locker/Dummy_15.byml",
+    "Work/Locker/Dummy_16.byml",
+    "Work/Locker/Dummy_17.byml",
+    "Work/Locker/Dummy_18.byml",
+    "Work/Locker/Dummy_19.byml",
+    "Work/Locker/Dummy_20.byml",
+    "Work/Locker/Dummy_21.byml",
+    "Work/Locker/Dummy_22.byml",
+    "Work/Locker/Dummy_23.byml",
+    "Work/Locker/Dummy_24.byml",
+    "Work/Locker/Dummy_25.byml",
+    "Work/Locker/Dummy_26.byml",
+    "Work/Locker/Dummy_27.byml",
+    "Work/Locker/Dummy_28.byml",
+    "Work/Locker/Dummy_29.byml",
+    "Work/Locker/Dummy_30.byml",
+    "Work/Locker/Dummy_31.byml"
+  ],
+  "LockerEditor": {
+    "CaveInDistance": 0.03,
+    "ClothesCanHangDegree": 60.0,
+    "ClothesCanHangHorizontalLimit": 0.45,
+    "ClothesCanHangVerticalLimit": 0.1,
+    "DoorInvisibleDistance": 23.0,
+    "DoorVisibleAnimRate": 1.3,
+    "EditLocationPos": {
+      "X": -1000.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "EditLocationRot": {
+      "X": 1.0,
+      "Y": 0.0,
+      "Z": 0.0
+    },
+    "FadeInFrame": 30,
+    "OutOfBoundFrontAndBack": 3.0,
+    "OutOfBoundSide": 3.0,
+    "ShowBalloonDistanceXZ": 29.0,
+    "ShowBalloonDistanceY": 6.6,
+    "ShowExclamationMarkDistanceY": 6.6,
+    "SpawnPlayerDeltaPos": {
+      "X": 0.0,
+      "Y": -0.5,
+      "Z": 2.5
+    }
+  },
+  "LockerEditorCamera": {
+    "CameraInterpolationFrame": 8,
+    "CameraLockerBottomDeltaHeight": 0.7,
+    "CameraOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": 8.0
+    },
+    "WaitDoorClose": false,
+    "WaitOpenClose": false
+  },
+  "LockerLevel": {
+    "Level1": {
+      "CaseActorName": "Work/Actor/Loc_Case00.engine__actor__ActorParam.gyml",
+      "DoorActorName": "Work/Actor/Loc_Door00.engine__actor__ActorParam.gyml",
+      "Height": 2.5,
+      "LockerObjNum": 15,
+      "OutsideStickerNum": 20,
+      "Rewards": [
+        {
+          "LockerGoodsMainPartInfo": "Work/Gyml/Mpt_Normal_White.spl__LockerGoodsMainPartInfo.gyml",
+          "Type": "LockerMainPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Shelf00.spl__LockerGoodsSubPartInfo.gyml",
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Clothesline00.spl__LockerGoodsSubPartInfo.gyml",
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 3,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook01.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 3,
+          "Type": "LockerSubPart"
+        }
+      ]
+    },
+    "Level2": {
+      "CaseActorName": "Work/Actor/Loc_Case02.engine__actor__ActorParam.gyml",
+      "DoorActorName": "Work/Actor/Loc_Door02.engine__actor__ActorParam.gyml",
+      "Height": 3.49,
+      "LockerObjNum": 30,
+      "OutsideStickerNum": 20,
+      "PlayerRank": 15,
+      "Rewards": [
+        {
+          "LockerGoodsMainPartInfo": "Work/Gyml/Mpt_Normal_White.spl__LockerGoodsMainPartInfo.gyml",
+          "Type": "LockerMainPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Shelf00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 2,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Clothesline00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 2,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 6,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook01.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 6,
+          "Type": "LockerSubPart"
+        }
+      ]
+    },
+    "Level3": {
+      "CaseActorName": "Work/Actor/Loc_Case04.engine__actor__ActorParam.gyml",
+      "DoorActorName": "Work/Actor/Loc_Door04.engine__actor__ActorParam.gyml",
+      "Height": 4.5,
+      "LockerObjNum": 45,
+      "OutsideStickerNum": 20,
+      "PlayerRank": 30,
+      "Rewards": [
+        {
+          "LockerGoodsMainPartInfo": "Work/Gyml/Mpt_Normal_White.spl__LockerGoodsMainPartInfo.gyml",
+          "Type": "LockerMainPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_PhotoStand00.spl__LockerGoodsSubPartInfo.gyml",
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Shelf00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 3,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Clothesline00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 3,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook00.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 10,
+          "Type": "LockerSubPart"
+        },
+        {
+          "LockerGoodsSubPartInfo": "Work/Gyml/Spt_Hook01.spl__LockerGoodsSubPartInfo.gyml",
+          "Num": 10,
+          "Type": "LockerSubPart"
+        }
+      ]
+    }
+  },
+  "LockerObj": {
+    "ImpactSpeedThreshold": 0.1,
+    "ShoeBoxBrandTextureAnimIndex": {
+      "B00": 5,
+      "B01": 1,
+      "B02": 3,
+      "B03": 8,
+      "B04": 9,
+      "B05": 7,
+      "B06": 10,
+      "B07": -1,
+      "B08": 4,
+      "B09": 6,
+      "B10": 0,
+      "B11": 2,
+      "B15": 14,
+      "B16": 12,
+      "B17": 13,
+      "B18": 11,
+      "B19": 16,
+      "B20": 15,
+      "B97": 19,
+      "B98": 17,
+      "B99": 18,
+      "None": -1
+    }
+  },
+  "LockerSticker": {
+    "NormalOffset": 0.0
+  }
+}

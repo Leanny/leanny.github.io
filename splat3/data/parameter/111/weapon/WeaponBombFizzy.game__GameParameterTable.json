@@ -1,0 +1,175 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletBombFizzyParam",
+      "BlastParamArray": [
+        {
+          "CrossPaintRadius": 2.0,
+          "DistanceDamage": [
+            {
+              "Damage": 500,
+              "Distance": 1.6
+            },
+            {
+              "Damage": 350,
+              "Distance": 3.8
+            }
+          ],
+          "KnockBackParam": {
+            "Accel": 470.0,
+            "Bias": 0.8,
+            "Distance": 8.0
+          },
+          "PaintRadius": 3.0,
+          "SplashAroundParam": {
+            "Num": 6,
+            "OffsetY": 0.3,
+            "PaintRadius": 0.7,
+            "PitchMax": 25.0,
+            "PitchMin": 10.0,
+            "VelocityMax": 0.4,
+            "VelocityMin": 0.35
+          }
+        },
+        {
+          "CrossPaintRadius": 2.0,
+          "DistanceDamage": [
+            {
+              "Damage": 500,
+              "Distance": 1.95
+            },
+            {
+              "Damage": 350,
+              "Distance": 4.5
+            }
+          ],
+          "KnockBackParam": {
+            "Accel": 470.0,
+            "Bias": 0.8,
+            "Distance": 8.0
+          },
+          "PaintRadius": 3.4,
+          "SplashAroundParam": {
+            "Num": 6,
+            "OffsetY": 0.3,
+            "PaintRadius": 0.7,
+            "PitchMax": 20.0,
+            "PitchMin": 10.0,
+            "VelocityMax": 0.42,
+            "VelocityMin": 0.36
+          }
+        },
+        {
+          "CrossPaintRadius": 2.0,
+          "DistanceDamage": [
+            {
+              "Damage": 500,
+              "Distance": 2.6
+            },
+            {
+              "Damage": 350,
+              "Distance": 5.45
+            }
+          ],
+          "KnockBackParam": {
+            "Accel": 470.0,
+            "Bias": 0.8,
+            "Distance": 8.0
+          },
+          "PaintRadius": 3.8,
+          "SplashAroundParam": {
+            "Num": 6,
+            "OffsetY": 0.3,
+            "PaintRadius": 0.7,
+            "PitchMax": 20.0,
+            "PitchMin": 10.0,
+            "VelocityMax": 0.43,
+            "VelocityMin": 0.39
+          }
+        }
+      ],
+      "BurstSeFrameArray": [
+        10,
+        7,
+        7
+      ],
+      "BurstWaitFrameArray": [
+        15,
+        1,
+        1
+      ],
+      "BurstWarnFrameArray": [
+        15,
+        7,
+        7
+      ],
+      "ChargeFrameArray": [
+        40,
+        80
+      ],
+      "CollisionSeSilentFrame": 8,
+      "CollisionSeVelDotGndNrm": -1.0,
+      "FlyRotateAirResist": 0.018,
+      "FlySplashDistanceArray": [
+        2.2,
+        2.2,
+        2.2
+      ],
+      "FlySplashPaintParamArray": [
+        {
+          "DepthMaxDropHeight": 3.0,
+          "DepthMinDropHeight": 10.0,
+          "DepthScaleMax": 1.6,
+          "DepthScaleMin": 1.6,
+          "WidthHalf": 1.08,
+          "WidthHalfNearest": 1.08
+        },
+        {
+          "DepthScaleMax": 1.6,
+          "DepthScaleMin": 1.6,
+          "WidthHalf": 1.2,
+          "WidthHalfNearest": 1.2
+        },
+        {
+          "DepthScaleMax": 1.6,
+          "DepthScaleMin": 1.6,
+          "WidthHalf": 1.32,
+          "WidthHalfNearest": 1.32
+        }
+      ],
+      "FlySplashPaintRadiusArray": [
+        0.9,
+        1.0,
+        1.1
+      ],
+      "GroundGravity": 0.016,
+      "GroundPositionDeg50AirResist": 0.28,
+      "GroundPositionHorizonAirResist": 0.19,
+      "GroundRotateDeg50AirResist": 0.5,
+      "GroundRotateHorizonAirResist": 0.35,
+      "ObjColDamage": 100,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.84,
+        "Low": 1.36,
+        "Mid": 1.6
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 1
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.6,
+      "InkRecoverStop": 70
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0,
+      "ZRate": 2.0
+    }
+  }
+}

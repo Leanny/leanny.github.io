@@ -1,0 +1,264 @@
+{
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletRollerBodyParam",
+      "CollisionParam": {
+        "DownRayCastLength": 0.65,
+        "KnockBackDefeat": true,
+        "KnockBackOpponent": {
+          "AccelMax": 1000.0,
+          "AccelMin": 500.0,
+          "MyVelocityRate": 30.0,
+          "OpponentVelocityRate": 4800.0
+        },
+        "KnockBackRollerPlayerDamageOff": {
+          "AccelMax": 350.0,
+          "AccelMin": 350.0,
+          "MyVelocityRate": 4800.0,
+          "OpponentVelocityRate": 30.0
+        },
+        "KnockBackRollerPlayerDamageOn": {
+          "AccelMax": 720.0,
+          "AccelMin": 540.0,
+          "MyVelocityRate": 4800.0,
+          "OpponentVelocityRate": 30.0
+        },
+        "WidthHalf": 0.8
+      },
+      "Damage": 200,
+      "PaintParam": {
+        "SpeedMax": 0.192,
+        "SpeedMin": 0.12,
+        "WidthHalfMax": 0.6,
+        "WidthHalfMin": 0.6
+      },
+      "SideParam": {
+        "CheckLength": 0.52,
+        "Radius": 0.75
+      }
+    },
+    "BulletAdditionMovePlayerSplashNearestParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.3,
+      "YPlusRate": 0.0,
+      "ZRate": 0.3
+    },
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp_SlosherAndBrush",
+      "BaseDistance": 12.5
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Fast"
+    },
+    "SwingUnitGroupParam": {
+      "$type": "spl__BulletRollerBrushInkUnitGroupParam",
+      "DamageParam": {
+        "DamageRejectEndFrame": 40,
+        "DamageRejectRate": 0.5,
+        "DamageRejectStartFrame": 20,
+        "Inside": {
+          "DamageHighDistance": 6.8,
+          "DamageHighValue": 250,
+          "DamageLowDistance": 10.3,
+          "DamageLowValue": 150,
+          "DamageMaxDistance": 4.3,
+          "DamageMaxValue": 300,
+          "DamageMinDistance": 10.3,
+          "DamageMinValue": 150,
+          "Degree": 60.0,
+          "FinalDamageMinValue": 150,
+          "InsideDistanceXZ": 0.0
+        },
+        "Outside": {
+          "DamageHighDistance": 6.8,
+          "DamageHighValue": 250,
+          "DamageLowDistance": 10.3,
+          "DamageLowValue": 150,
+          "DamageMaxDistance": 4.3,
+          "DamageMaxValue": 300,
+          "DamageMinDistance": 10.3,
+          "DamageMinValue": 150,
+          "DamageRate": 1.0,
+          "Degree": 80.0,
+          "FinalDamageMinValue": 150
+        }
+      },
+      "SplashNearestParam": {
+        "LoopNum": 6,
+        "OrderNum": 2,
+        "SpawnParam": {
+          "MaxHeight": 1000.0,
+          "Offset": {
+            "X": -0.2,
+            "Y": -1.0,
+            "Z": 0.2
+          },
+          "PaintWidthHalf": 1.5,
+          "Visible": true
+        }
+      },
+      "Unit": [
+        {
+          "AddSpawnSpeedYRateBySpeed": -0.02,
+          "BulletNum": 2,
+          "DepletionBulletNum": 1,
+          "DepletionSpeedRate": 0.5,
+          "SpawnPositionOffsetHeight": 0.0,
+          "SpawnPositionRandomCube": 0.1,
+          "SpawnPositionWidth": 0.05,
+          "SpawnRotateYDegreeLeftToRight": -10.0,
+          "SpawnRotateYDegreeRightToLeft": 10.0,
+          "SpawnSpeedBase": 0.72,
+          "SpawnSpeedRandom": 0.12,
+          "SpawnWideDegree": 18.0,
+          "SwerveRateBySpeed": 0.1,
+          "UnitParam": {
+            "CollisionParam": {
+              "ChangeFrameForField": 3,
+              "ChangeFrameForPlayer": 6,
+              "DepletionRate": 0.5,
+              "EndRadiusForField": 0.8,
+              "EndRadiusForPlayer": 1.2,
+              "FriendThroughFrameForPlayer": 3,
+              "InitRadiusForField": 0.1,
+              "InitRadiusForPlayer": 0.1
+            },
+            "DrawSizeParam": {
+              "EndRadius": 0.35,
+              "InitRadius": 0.35
+            },
+            "MoveParam": {
+              "FreeAirResist": 0.1,
+              "FreeGravity": 0.04,
+              "GoStraightToBrakeStateFrame": 7,
+              "SpawnSpeed": 0.0
+            },
+            "PaintParam": {
+              "ChangeFrameWidthRate": 0.6,
+              "ChangeWidthEndFrame": 45,
+              "ChangeWidthStartFrame": 18,
+              "DegreeUseDepthScaleMin": 50.0,
+              "DepletionDepthWidthRate": 0.5,
+              "DepthScaleMaxBreakFree": 2.2,
+              "DepthScaleMaxStraight": 2.2,
+              "DepthScaleMinBreakFree": 1.4,
+              "DepthScaleMinStraight": 1.4,
+              "DistanceNear": 10.0,
+              "HeightUseDepthScaleMaxBreakFree": 2.0,
+              "HeightUseDepthScaleMinBreakFree": 8.0,
+              "WidthHalfFar": 2.551,
+              "WidthHalfNear": 2.551
+            },
+            "WallDropCollisionPaintParam": {
+              "PaintRadiusFall": 0.7,
+              "PaintRadiusGround": 0.55,
+              "PaintRadiusShock": 1.44
+            },
+            "WallDropMoveParam": {
+              "FallPeriodFirstFrameMax": 90,
+              "FallPeriodFirstFrameMin": 70,
+              "FallPeriodFirstTargetSpeed": 0.06,
+              "FallPeriodLastFrameMax": 35,
+              "FallPeriodLastFrameMin": 20,
+              "FallPeriodSecondFrame": 5,
+              "FallPeriodSecondTargetSpeed": 0.075
+            }
+          }
+        },
+        {
+          "AddSpawnSpeedYRateBySpeed": -0.02,
+          "BulletNum": 1,
+          "DepletionSpeedRate": 0.5,
+          "SpawnPositionRandomCube": 0.1,
+          "SpawnPositionWidth": 0.05,
+          "SpawnRotateYDegreeLeftToRight": -10.0,
+          "SpawnRotateYDegreeRightToLeft": 10.0,
+          "SpawnSpeedBase": 0.45,
+          "SpawnSpeedRandom": 0.12,
+          "SpawnWideDegree": 22.0,
+          "SwerveRateBySpeed": 0.3,
+          "UnitParam": {
+            "CollisionParam": {
+              "ChangeFrameForField": 1,
+              "ChangeFrameForPlayer": 3,
+              "DepletionRate": 0.5,
+              "EndRadiusForField": 0.4,
+              "EndRadiusForPlayer": 0.6,
+              "FriendThroughFrameForPlayer": 3,
+              "InitRadiusForField": 0.1,
+              "InitRadiusForPlayer": 0.1
+            },
+            "DrawSizeParam": {
+              "EndRadius": 0.35,
+              "InitRadius": 0.2
+            },
+            "MoveParam": {
+              "FreeAirResist": 0.1,
+              "FreeGravity": 0.04,
+              "GoStraightToBrakeStateFrame": 4,
+              "SpawnSpeed": 0.0
+            },
+            "PaintParam": {
+              "ChangeFrameWidthRate": 0.6,
+              "ChangeWidthEndFrame": 45,
+              "ChangeWidthStartFrame": 18,
+              "DegreeUseDepthScaleMin": 50.0,
+              "DepletionDepthWidthRate": 0.5,
+              "DepthScaleMaxBreakFree": 2.2,
+              "DepthScaleMaxStraight": 2.2,
+              "DepthScaleMinBreakFree": 1.4,
+              "DepthScaleMinStraight": 1.4,
+              "DistanceFar": 5.0,
+              "DistanceNear": 1.0,
+              "HeightUseDepthScaleMaxBreakFree": 2.0,
+              "HeightUseDepthScaleMinBreakFree": 8.0,
+              "WidthHalfFar": 1.814,
+              "WidthHalfNear": 1.814
+            },
+            "WallDropCollisionPaintParam": {
+              "PaintRadiusFall": 0.5,
+              "PaintRadiusGround": 0.4,
+              "PaintRadiusShock": 1.2
+            },
+            "WallDropMoveParam": {
+              "FallPeriodFirstFrameMax": 80,
+              "FallPeriodFirstFrameMin": 60,
+              "FallPeriodFirstTargetSpeed": 0.05,
+              "FallPeriodLastFrameMax": 35,
+              "FallPeriodLastFrameMin": 20,
+              "FallPeriodSecondFrame": 5,
+              "FallPeriodSecondTargetSpeed": 0.07
+            }
+          }
+        }
+      ]
+    },
+    "WeaponRollParam": {
+      "$type": "spl__WeaponBrushRollParam",
+      "InkConsumeMaxPerFrame": 0.00135,
+      "InkConsumeMinPerFrame": 0.00135,
+      "NoOpInkEffect": true,
+      "SpeedInkConsumeMax": 0.192,
+      "SpeedInkConsumeMin": 0.192,
+      "SpeedNormal": 0.192,
+      "SwingRepeatFrame": 6,
+      "ToPaintFrame": 12.0
+    },
+    "WeaponSwingParam": {
+      "$type": "spl__WeaponRollerSwingParam",
+      "GuideParam": {
+        "Frame": 8,
+        "WidthScale": 1.2
+      },
+      "InkConsume": 0.02,
+      "InkRecoverStop": 30,
+      "SwingFrame": 1,
+      "SwingMoveSpeed": 0.05
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "ZRate": 2.0
+    }
+  }
+}

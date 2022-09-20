@@ -217,7 +217,6 @@
                                                 Matchmaking Range
                                             </th>
                                             <th scope="col" data-field="Season" data-sortable="true">Season</th>
-                                            <th scope="col" data-field="ShopPrice" data-sortable="true">Shop Price</th>
                                             <th scope="col" data-field="ShopUnlockRank" data-sortable="true">
                                                 Unlock Level
                                             </th>
@@ -313,6 +312,22 @@
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th
+                                                scope="col"
+                                                data-field="HowToGet"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                How To Get
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="Season"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                Season
+                                            </th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -361,6 +376,22 @@
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th
+                                                scope="col"
+                                                data-field="HowToGet"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                How To Get
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="Season"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                Season
+                                            </th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -409,6 +440,22 @@
                                             </th>
                                             <th scope="col" data-field="Price" data-sortable="true">Price</th>
                                             <th scope="col" data-field="Rarity" data-sortable="true">Rarity</th>
+                                            <th
+                                                scope="col"
+                                                data-field="HowToGet"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                How To Get
+                                            </th>
+                                            <th
+                                                scope="col"
+                                                data-field="Season"
+                                                data-sortable="true"
+                                                data-visible="false"
+                                            >
+                                                Season
+                                            </th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -653,27 +700,19 @@
                         })
                         $.getJSON(prefix + "data/mush/" + version + "/GearInfoHead.json", hed_dict => {
                             hed_dict.forEach(item => {
-                                if (item.Id > 0 && item.HowToGet != "Impossible" && !item.__RowId.includes("_MSN")) {
+                                if (item.Id > 0 && item.HowToGet != "Impossible") {
                                     hed_gear[item.Id] = item
                                 }
                             })
                             $.getJSON(prefix + "data/mush/" + version + "/GearInfoClothes.json", clt_dict => {
                                 clt_dict.forEach(item => {
-                                    if (
-                                        item.Id > 0 &&
-                                        item.HowToGet != "Impossible" &&
-                                        !item.__RowId.includes("_MSN")
-                                    ) {
+                                    if (item.Id > 0 && item.HowToGet != "Impossible") {
                                         clt_gear[item.Id] = item
                                     }
                                 })
                                 $.getJSON(prefix + "data/mush/" + version + "/GearInfoShoes.json", shs_dict => {
                                     shs_dict.forEach(item => {
-                                        if (
-                                            item.Id > 0 &&
-                                            item.HowToGet != "Impossible" &&
-                                            !item.__RowId.includes("_MSN")
-                                        ) {
+                                        if (item.Id > 0 && item.HowToGet != "Impossible") {
                                             shs_gear[item.Id] = item
                                         }
                                     })
@@ -752,8 +791,7 @@
                             RewardLvl3: weapon["RewardLv3"],
                             RewardLvl4: weapon["RewardLv4"],
                             RewardLvl5: weapon["RewardLv5"],
-                            Season: weapon["Season"] + 1,
-                            ShopPrice: weapon["ShopPrice"],
+                            Season: weapon["Season"],
                             ShopUnlockRank: weapon["ShopUnlockRank"],
                             UIParam: weapon["UIParam"],
                             SpecActor: weapon["SpecActor"]
@@ -794,8 +832,10 @@
                             Name: localize("CommonMsg/Gear/" + dir_name, gearname),
                             Brand: gear["Brand"],
                             Price: gear["Price"],
-                            Rarity: gear["Rarity"] + 1,
+                            Rarity: gear["Rarity"],
                             Skill0: gear["Skill"],
+                            HowToGet: gear["HowToGet"],
+                            Season: gear["Season"],
                         }
                         geardata.push(row)
                     }

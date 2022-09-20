@@ -1,0 +1,27 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponBlasterLight.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 600,
+          "Distance": 0.94
+        },
+        {
+          "Damage": 600,
+          "Distance": 3.3
+        }
+      ]
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 1400,
+      "ValueMin": 1400
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.045
+    }
+  }
+}

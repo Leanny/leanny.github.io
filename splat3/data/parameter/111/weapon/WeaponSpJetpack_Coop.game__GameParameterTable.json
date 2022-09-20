@@ -1,0 +1,35 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpJetpack.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 1000,
+          "Distance": 2.1
+        },
+        {
+          "Damage": 750,
+          "Distance": 5.0
+        }
+      ]
+    },
+    "JetParam": {
+      "$type": "spl__BulletSpJetpackJetParam",
+      "DamageSpanFrame": 16,
+      "DamageValue": 20
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpJetpackLauncherParam",
+      "DamageToObject": 3000
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpJetpackParam",
+      "SpecialTotalFrame": {
+        "High": 600.0,
+        "Low": 600.0,
+        "Mid": 600.0
+      }
+    }
+  }
+}

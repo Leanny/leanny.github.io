@@ -1,0 +1,62 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletSpNiceBallBlastParam",
+      "CrossPaintCheckLength": 1.5,
+      "CrossPaintRadius": 1.5,
+      "DamageOffsetY": -0.2,
+      "KnockBackParam": {
+        "Accel": 93.333,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintOffsetY": 0.3,
+      "PaintRadiusEnd": 13.5
+    },
+    "FootSplashParam": {
+      "$type": "spl__BulletSpNiceBallFootSplashParam",
+      "PaintRadius": 4.68
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpNiceBallParam",
+      "FlyGravity": 0.021,
+      "FlyPositionAirResist": 0.045,
+      "GuideHitCollisionType": "NiceBall",
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.0,
+        "Low": 1.0,
+        "Mid": 1.0
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpNiceBallParam",
+      "ChargeRateAutoPerFrame": {
+        "High": 0.01,
+        "Low": 0.002,
+        "Mid": 0.006
+      },
+      "ChargeRateNiceFriend": [
+        0.08,
+        0.04,
+        0.02,
+        0.01
+      ],
+      "ThanksPaintPointMax": 15.0,
+      "ThanksPaintPointOnce": [
+        6.0,
+        3.0,
+        2.0,
+        1.0,
+        0.5
+      ]
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YMinusRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

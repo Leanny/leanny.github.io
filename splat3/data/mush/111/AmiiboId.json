@@ -1,0 +1,182 @@
+[
+  {
+    "BaseId": 2049,
+    "CheckOrder": 30,
+    "Comment": "アオリ",
+    "Data": "Work/Gyml/AmiiboData_Aori.spl__AmiiboData.gyml",
+    "DetailId": -1,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Aori"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 10,
+    "Comment": "ボーイ",
+    "Data": "Work/Gyml/AmiiboData_Boy0.spl__AmiiboData.gyml",
+    "DetailId": 2,
+    "NumberingId": 63,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Boy0"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 12,
+    "Comment": "スマブラのボーイ",
+    "Data": "Work/Gyml/AmiiboData_Boy0.spl__AmiiboData.gyml",
+    "DetailId": 2,
+    "NumberingId": 0,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Boy0_Other"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 11,
+    "Comment": "ボーイ(パープル)",
+    "Data": "Work/Gyml/AmiiboData_Boy1.spl__AmiiboData.gyml",
+    "DetailId": 2,
+    "NumberingId": 608,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Boy1"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 13,
+    "Comment": "ボーイ(ネオングリーン)",
+    "Data": "Work/Gyml/AmiiboData_Boy2.spl__AmiiboData.gyml",
+    "DetailId": 2,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Boy2"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 0,
+    "Comment": "ガール",
+    "Data": "Work/Gyml/AmiiboData_Girl0.spl__AmiiboData.gyml",
+    "DetailId": 1,
+    "NumberingId": 62,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Girl0"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 3,
+    "Comment": "スマブラのガール",
+    "Data": "Work/Gyml/AmiiboData_Girl0.spl__AmiiboData.gyml",
+    "DetailId": 1,
+    "NumberingId": -1,
+    "SeriesId": 0,
+    "__RowId": "AmiiboId_Girl0_Other"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 1,
+    "Comment": "ガール(ライムグリーン)",
+    "Data": "Work/Gyml/AmiiboData_Girl1.spl__AmiiboData.gyml",
+    "DetailId": 1,
+    "NumberingId": 607,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Girl1"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 2,
+    "Comment": "ガール(ネオンピンク)",
+    "Data": "Work/Gyml/AmiiboData_Girl2.spl__AmiiboData.gyml",
+    "DetailId": 1,
+    "NumberingId": 873,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Girl2"
+  },
+  {
+    "BaseId": 2051,
+    "CheckOrder": 50,
+    "Comment": "ヒメ",
+    "Data": "Work/Gyml/AmiiboData_Hime.spl__AmiiboData.gyml",
+    "DetailId": -1,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Hime"
+  },
+  {
+    "BaseId": 2050,
+    "CheckOrder": 40,
+    "Comment": "ホタル",
+    "Data": "Work/Gyml/AmiiboData_Hotaru.spl__AmiiboData.gyml",
+    "DetailId": -1,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Hotaru"
+  },
+  {
+    "BaseId": 2052,
+    "CheckOrder": 60,
+    "Comment": "イイダ",
+    "Data": "Work/Gyml/AmiiboData_Iida.spl__AmiiboData.gyml",
+    "DetailId": -1,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Iida"
+  },
+  {
+    "BaseId": 2053,
+    "CheckOrder": 110,
+    "Comment": "タコボーイ",
+    "Data": "Work/Gyml/AmiiboData_OctBoy0.spl__AmiiboData.gyml",
+    "DetailId": 2,
+    "NumberingId": 911,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_OctBoy0"
+  },
+  {
+    "BaseId": 2053,
+    "CheckOrder": 100,
+    "Comment": "タコガール",
+    "Data": "Work/Gyml/AmiiboData_OctGirl0.spl__AmiiboData.gyml",
+    "DetailId": 1,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_OctGirl0"
+  },
+  {
+    "BaseId": 2053,
+    "CheckOrder": 120,
+    "Comment": "タコ",
+    "Data": "Work/Gyml/AmiiboData_Octopus0.spl__AmiiboData.gyml",
+    "DetailId": 3,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Octopus0"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 20,
+    "Comment": "イカ",
+    "Data": "Work/Gyml/AmiiboData_Squid0.spl__AmiiboData.gyml",
+    "DetailId": 3,
+    "NumberingId": 64,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Squid0"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 21,
+    "Comment": "イカ(オレンジ)",
+    "Data": "Work/Gyml/AmiiboData_Squid1.spl__AmiiboData.gyml",
+    "DetailId": 3,
+    "NumberingId": 609,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Squid1"
+  },
+  {
+    "BaseId": 2048,
+    "CheckOrder": 22,
+    "Comment": "イカ(ネオンパープル)",
+    "Data": "Work/Gyml/AmiiboData_Squid2.spl__AmiiboData.gyml",
+    "DetailId": 3,
+    "NumberingId": -1,
+    "SeriesId": -1,
+    "__RowId": "AmiiboId_Squid2"
+  }
+]
