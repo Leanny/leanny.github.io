@@ -31,6 +31,12 @@ export function generateHeader(elem) {
     <li class="nav-item">
         <a class="nav-link" href="mission.html">Story Mode</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="fest.html">Splatfest</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="ability.html">Ability Index</a>
+    </li>
     
 </ul>`)
 }

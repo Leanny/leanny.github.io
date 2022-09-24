@@ -67,6 +67,26 @@
             h3 {
                 margin: 1rem;
             }
+
+            .container {
+                position: relative;
+                transform: scale(0.1);
+                min-height: 64px;
+            }
+
+            .half {
+                position: absolute;
+            }
+
+            .upper {
+                z-index: 1;
+                left: 0;
+            }
+
+            .lower {
+                top: 80px;
+                left: 0;
+            }
         </style>
     </head>
     <body>
@@ -211,6 +231,14 @@
                     })
                 }
 
+                function grade_formatter(val) {
+                    return `<div class="container">
+                                <img class="upper half" src="${prefix}images/capsules/LobbyCapsule_Top_0${val}.png" />
+                                <img class="lower half" src="${prefix}images/capsules/LobbyCapsule_Bottom_0${val}.png" />
+                            </div>`
+                }
+
+                window.grade_formatter = grade_formatter
                 const misc_url = value => `${prefix}/data/parameter/${version}/misc/${value}.json`
 
                 function load_data() {
@@ -420,7 +448,7 @@
                                     >
                                         <thead>
                                             <tr>
-                                                <th scope="col" data-field="Grade" data-sortable="true">
+                                                <th scope="col" data-field="Grade" data-sortable="true" data-formatter="grade_formatter">
                                                     Grade
                                                 </th>
                                                 <th scope="col" data-field="Percent" data-formatter="percent_formatter" data-sortable="true">
