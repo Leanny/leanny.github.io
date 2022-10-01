@@ -565,7 +565,6 @@ onmessage = e => {
     sequence = e.data.sequence
     drinks = e.data.drinks
     brand = e.data.brand
-
     const get_seed_after_roll = wrapSeedAfterRoll(Module)
     const gear_seed = wrapSeed(Module)
     const res = gear_seed(sequence, drinks, brand).map(elem => {
