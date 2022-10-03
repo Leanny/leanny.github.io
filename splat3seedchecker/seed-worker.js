@@ -535,7 +535,6 @@ function wrapSeed(Module) {
 
         // allocate memory for the result array
         const resultBuffer = Module._malloc(max_results * sequence.BYTES_PER_ELEMENT)
-
         // make the call
         const resultPointer = Module.ccall(
             "get_seed",
@@ -543,7 +542,7 @@ function wrapSeed(Module) {
             ["number", "number", "number", "number", "number", "number", "number"],
             [buffer1, length_sequence, buffer2, length_drinks, resultBuffer, max_results, brand]
         )
-
+        console.log(resultPointer)
         // get the data from the returned pointer into an flat array
         const resultFlatArray = []
         for (let i = 0; i < max_results; i++) {
@@ -565,6 +564,10 @@ onmessage = e => {
     sequence = e.data.sequence
     drinks = e.data.drinks
     brand = e.data.brand
+    //sequence = [
+    //    5, 13, 8, 0, 13, 2, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295,
+    //    4294967295,
+    //]
     const get_seed_after_roll = wrapSeedAfterRoll(Module)
     const gear_seed = wrapSeed(Module)
     const res = gear_seed(sequence, drinks, brand).map(elem => {
