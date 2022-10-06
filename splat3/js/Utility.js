@@ -44,7 +44,7 @@ export function generateHeader(elem) {
 export function generateFooter(elem) {
     elem.append(`<div class="container text-muted">
     <div class="footer-notice">
-        <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. <a href="https://github.com/OatmealDome/OatmealDome.NinLib.MessageStudio">Message Lib</a> by <a href="https://twitter.com/OatmealDome">OatmealDome<span class="fa fa-twitter"></span></a></p>
+        <p>Webpage created by Lean. Framework used is <a href="https://getbootstrap.com/">Bootstrap</a>. <a href="https://github.com/OatmealDome/OatmealDome.NinLib.MessageStudio">Message Lib</a> by <a href="https://twitter.com/OatmealDome">OatmealDome<span class="fa fa-twitter"></span></a>. Salmon Run RNG Data in cooperation with <a href="https://twitter.com/WemI0">WemI0<span class="fa fa-twitter"></span></a></p>
         <p>
             Feedback or suggestions are welcome. Please contact me via Twitter
             <a href="https://twitter.com/LeanYoshi"><span class="fa fa-twitter"></span></a> or Github <a href="https://github.com/leanny/leanny.github.io"><span class="fa fa-github"></span></a>.

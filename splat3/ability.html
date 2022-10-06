@@ -1203,7 +1203,7 @@
                     // Main Ability Only
                     add_virtual_ap("StartAllUp", [32, 33, 40], 30)
                     add_virtual_ap("ComeBack", [29, 30, 31, 32, 33, 34], 10)
-                    add_virtual_ap("SomersaultLanding", [32, 33, 40], 10)
+                    add_virtual_ap("SomersaultLanding", [32, 33, 40], 30)
                     add_virtual_ap("EndAllUp", [29, 30, 31], "Depends on Score")
                     add_table(
                         "EndAllUp",
@@ -1214,7 +1214,7 @@
                         ],
                         "Virtual AP For Score"
                     )
-                    $(`#SquidMoveSpatter_Reduction`).append(`<div class="AbilityIntro">Reduces Swim Speed by 20%</div>`)
+                    $(`#SquidMoveSpatter_Reduction`).append(`<div class="AbilityIntro">Reduces Swim Speed by 10%</div>`)
                     $(
                         "#Exorcist"
                     ).append(`<div class="AbilityIntro"><p>Virtual AP are ignored when Respawn Punisher is active.</p>
