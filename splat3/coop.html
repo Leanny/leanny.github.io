@@ -202,32 +202,6 @@
                 window.coop_skin_image_formatter = coop_skin_image_formatter
                 window.urokoFormatter = urokoFormatter
                 window.lang_dict = lang_dict
-                let individual_level = 0
-                let hl = 0
-
-                function calculate_individual_level() {
-                    individual_level = 100 * $("#rankSelect").val() + parseInt($("#rankval").val())
-                    if ($("#rankSelect").val() >= 8) {
-                        $("#rankval").attr({ max: 999 })
-                        if (parseInt($("#rankval").val()) > 999) {
-                            $("#rankval").val(999)
-                        }
-                    } else {
-                        $("#rankval").attr({ max: 100 })
-                        if (parseInt($("#rankval").val()) > 100) {
-                            $("#rankval").val(100)
-                        }
-                    }
-                    if (parseInt($("#rankval").val()) < 0) {
-                        $("#rankval").val(0)
-                    }
-                    caclulateScaleProbability()
-                }
-
-                function set_hazard_level() {
-                    hl = parseInt($("#hazardlevel").val())
-                    caclulateScaleProbability()
-                }
 
                 function showBossHP() {
                     var output = document.getElementById("bossHP")
@@ -239,10 +213,10 @@
                     let HPLeft = parseInt(document.getElementById("bossHPrange").value)
                     let scalesGained = Math.floor((1000 - HPLeft) / 125) + 2
                     if (HPLeft === 0.0) {
-                        scalesGained += Math.floor(individual_level / 600)
+                        scalesGained += Math.min(3, Math.floor(parseInt($("#timeval").val()) / 10))
                     }
 
-                    const ratio = hl / 333.0
+                    const ratio = parseInt($("#hazardlevel").val()) / 333.0
                     const gold_chance = ratio * 0.03 * 100
                     const silver_chance = 100 * (ratio * 0.15 + 0.05)
 
@@ -251,15 +225,15 @@
                     document.getElementById("silverProbability").innerHTML = `${silver_chance.toFixed(4)}%`
                 }
 
-                window.calculate_individual_level = calculate_individual_level
-                window.set_hazard_level = set_hazard_level
                 window.showBossHP = showBossHP
+                window.caclulateScaleProbability = caclulateScaleProbability
 
                 $(function () {
                     $("#version").change(function () {
                         version = $(this).val()
                         load_data()
                     })
+                    add_tab("coop-scale", "Scale Reward Calculator")
 
                     add_tab("coop-enemy", "Enemies")
                     add_tab("coop-skins", "Skins")
@@ -277,24 +251,13 @@
                                                         64
                                                     )}</div>`
                     )
-                    add_tab("coop-scale", "Scale Reward Calculator")
 
                     $("#coop-scale").append(
-                        `<div class="contentWrapper"><p>After fighting a Boss Salmonid, you are rewarded with scales. The amount of scales you get depend on your average team rank, as well as how much damage you dealt to the Boss Salmonid. The probability for each scale is dependent on the hazard level only.</p></div>`
+                        `<div class="contentWrapper"><p>After fighting a Boss Salmonid, you are rewarded with scales. The amount of scales you get depend on your time left, as well as how much damage you dealt to the Boss Salmonid. The probability for each scale is dependent on the hazard level only.</p></div>`
                     )
                     $("#coop-scale").append(`<div class="contentWrapper">
-                                                <div><strong>Average Rank:</strong> <select id="rankSelect" onchange="calculate_individual_level()">
-                                                        <option value="0">Apprentice</option>
-                                                        <option value="1">Part-Timer</option>
-                                                        <option value="2">Go-Getter</option>
-                                                        <option value="3">Overachiever</option>
-                                                        <option value="4">Profreshional</option>
-                                                        <option value="5">Profreshional +1</option>
-                                                        <option value="6">Profreshional +2</option>
-                                                        <option value="7">Profreshional +3</option>
-                                                        <option value="8">Eggsecutive VP</option>
-                                                    </select> <input id="rankval" type="number" min="0" max="100" value="0" onchange="calculate_individual_level()" /></div>
-                                                <div><strong>Hazard Level:</strong> <input id="hazardlevel" type="number" min="0" max="333" value="0" onchange="set_hazard_level()" /></div>
+                                                <div><strong>Time left (s):</strong> <input id="timeval" type="number" min="0" max="100" value="0" onchange="caclulateScaleProbability()" /></div>
+                                                <div><strong>Hazard Level:</strong> <input id="hazardlevel" type="number" min="0" max="333" value="0" onchange="caclulateScaleProbability()" /></div>
                                                 <div><strong>Boss HP Left (%):</strong> <span id="bossHP">100%</span><input type="range" min="0" max="1000" value="1000" class="slider" id="bossHPrange" oninput={showBossHP()}></div>
                                                 <div>
                                                     <div><strong>Expected Number of Scales:</strong> <span id="expectedScale">2</span></div>
