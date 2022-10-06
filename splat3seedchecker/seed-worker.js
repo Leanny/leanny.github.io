@@ -290,7 +290,7 @@ function createWasm() {
         Module["asm"] = exports
         wasmMemory = Module["asm"]["b"]
         updateGlobalBufferAndViews(wasmMemory.buffer)
-        wasmTable = Module["asm"]["f"]
+        wasmTable = Module["asm"]["g"]
         addOnInit(Module["asm"]["c"])
         removeRunDependency("wasm-instantiate")
     }
@@ -430,20 +430,23 @@ var _get_seed_after_roll = (Module["_get_seed_after_roll"] = function () {
 var _get_seed = (Module["_get_seed"] = function () {
     return (_get_seed = Module["_get_seed"] = Module["asm"]["e"]).apply(null, arguments)
 })
+var _refine_seed = (Module["_refine_seed"] = function () {
+    return (_refine_seed = Module["_refine_seed"] = Module["asm"]["f"]).apply(null, arguments)
+})
 var _malloc = (Module["_malloc"] = function () {
-    return (_malloc = Module["_malloc"] = Module["asm"]["g"]).apply(null, arguments)
+    return (_malloc = Module["_malloc"] = Module["asm"]["h"]).apply(null, arguments)
 })
 var _free = (Module["_free"] = function () {
-    return (_free = Module["_free"] = Module["asm"]["h"]).apply(null, arguments)
+    return (_free = Module["_free"] = Module["asm"]["i"]).apply(null, arguments)
 })
 var stackSave = (Module["stackSave"] = function () {
-    return (stackSave = Module["stackSave"] = Module["asm"]["i"]).apply(null, arguments)
+    return (stackSave = Module["stackSave"] = Module["asm"]["j"]).apply(null, arguments)
 })
 var stackRestore = (Module["stackRestore"] = function () {
-    return (stackRestore = Module["stackRestore"] = Module["asm"]["j"]).apply(null, arguments)
+    return (stackRestore = Module["stackRestore"] = Module["asm"]["k"]).apply(null, arguments)
 })
 var stackAlloc = (Module["stackAlloc"] = function () {
-    return (stackAlloc = Module["stackAlloc"] = Module["asm"]["k"]).apply(null, arguments)
+    return (stackAlloc = Module["stackAlloc"] = Module["asm"]["l"]).apply(null, arguments)
 })
 Module["ccall"] = ccall
 Module["cwrap"] = cwrap
@@ -489,6 +492,8 @@ if (Module["preInit"]) {
     }
 }
 run()
+
+run()
 function wrapSeedAfterRoll(Module) {
     // JS-friendly wrapper around the WASM call
     return function (seed, sequence, drinks, brand) {
@@ -520,7 +525,7 @@ function wrapSeedAfterRoll(Module) {
 function wrapSeed(Module) {
     // JS-friendly wrapper around the WASM call
     return function (sequence, drinks, brand) {
-        const max_results = 100
+        const max_results = 10000
         const length_sequence = sequence.length
         const length_drinks = drinks.length
 
@@ -542,7 +547,52 @@ function wrapSeed(Module) {
             ["number", "number", "number", "number", "number", "number", "number"],
             [buffer1, length_sequence, buffer2, length_drinks, resultBuffer, max_results, brand]
         )
-        console.log(resultPointer)
+        // get the data from the returned pointer into an flat array
+        const resultFlatArray = []
+        for (let i = 0; i < max_results; i++) {
+            const r = Module.HEAPU32[resultPointer / Uint32Array.BYTES_PER_ELEMENT + i]
+            if (r === 0) {
+                break
+            } else {
+                resultFlatArray.push(r)
+            }
+        }
+        Module._free(buffer1)
+        Module._free(buffer2)
+        Module._free(resultBuffer)
+        return resultFlatArray
+    }
+}
+
+function wrapSeedRefine(Module) {
+    // JS-friendly wrapper around the WASM call
+    return function (sequence, seed_refine_list, drinks, brand) {
+        const length_sequence = sequence.length
+        const length_drinks = drinks.length
+        const length_refine = seed_refine_list.length
+        const max_results = length_refine
+
+        const b1 = new Uint32Array(sequence)
+        const b2 = new Uint32Array(drinks)
+        const b3 = new Uint32Array(seed_refine_list)
+
+        // set up input arrays with the input data
+        const buffer1 = Module._malloc(b1.length * b1.BYTES_PER_ELEMENT)
+        const buffer2 = Module._malloc(b2.length * b2.BYTES_PER_ELEMENT)
+        const buffer3 = Module._malloc(b3.length * b3.BYTES_PER_ELEMENT)
+        Module.HEAPU32.set(b1, buffer1 >> 2)
+        Module.HEAPU32.set(b2, buffer2 >> 2)
+        Module.HEAPU32.set(b3, buffer3 >> 2)
+
+        // allocate memory for the result array
+        const resultBuffer = Module._malloc(max_results * sequence.BYTES_PER_ELEMENT)
+        // make the call
+        const resultPointer = Module.ccall(
+            "refine_seed",
+            "number",
+            ["number", "number", "number", "number", "number", "number", "number", "number", "number"],
+            [buffer1, length_sequence, buffer2, length_drinks, resultBuffer, max_results, buffer3, length_refine, brand]
+        )
         // get the data from the returned pointer into an flat array
         const resultFlatArray = []
         for (let i = 0; i < max_results; i++) {
@@ -561,18 +611,27 @@ function wrapSeed(Module) {
 }
 
 onmessage = e => {
-    sequence = e.data.sequence
-    drinks = e.data.drinks
-    brand = e.data.brand
-    //sequence = [
-    //    5, 13, 8, 0, 13, 2, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295, 4294967295,
-    //    4294967295,
-    //]
+    const sequence = e.data.sequence
+    const drinks = e.data.drinks
+    const brand = e.data.brand
     const get_seed_after_roll = wrapSeedAfterRoll(Module)
     const gear_seed = wrapSeed(Module)
-    const res = gear_seed(sequence, drinks, brand).map(elem => {
-        return { Start: elem, Seed: `0x${(get_seed_after_roll(elem, sequence, drinks, brand) >>> 0).toString(16)}` }
-    })
+    const seed_refine = wrapSeedRefine(Module)
+    let res
+    if (e.data.displayResults === undefined) {
+        res = gear_seed(sequence, drinks, brand).map(elem => {
+            return { Start: elem, Seed: `0x${(get_seed_after_roll(elem, sequence, drinks, brand) >>> 0).toString(16)}` }
+        })
+    } else {
+        res = seed_refine(
+            sequence,
+            e.data.displayResults.map(elem => elem.Start),
+            drinks,
+            brand
+        ).map(elem => {
+            return { Start: elem, Seed: `0x${(get_seed_after_roll(elem, sequence, drinks, brand) >>> 0).toString(16)}` }
+        })
+    }
     postMessage({
         res,
     })
