@@ -558,7 +558,7 @@ function wrapSeed(Module) {
         Module.HEAPU32.set(b2, buffer2 >> 2)
 
         // allocate memory for the result array
-        const resultBuffer = Module._malloc(max_results * sequence.BYTES_PER_ELEMENT)
+        const resultBuffer = Module._malloc(max_results * b1.BYTES_PER_ELEMENT)
         // make the call
         const resultPointer = Module.ccall(
             "get_seed",
@@ -604,7 +604,7 @@ function wrapSeedRefine(Module) {
         Module.HEAPU32.set(b3, buffer3 >> 2)
 
         // allocate memory for the result array
-        const resultBuffer = Module._malloc(max_results * sequence.BYTES_PER_ELEMENT)
+        const resultBuffer = Module._malloc(max_results * b1.BYTES_PER_ELEMENT)
         // make the call
         const resultPointer = Module.ccall(
             "refine_seed",
