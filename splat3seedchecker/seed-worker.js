@@ -350,13 +350,34 @@ function callRuntimeCallbacks(callbacks) {
 function writeArrayToMemory(array, buffer) {
     HEAP8.set(array, buffer)
 }
-function abortOnCannotGrowMemory(requestedSize) {
-    abort("OOM")
+function getHeapMax() {
+    return 2147483648
+}
+function emscripten_realloc_buffer(size) {
+    try {
+        wasmMemory.grow((size - buffer.byteLength + 65535) >>> 16)
+        updateGlobalBufferAndViews(wasmMemory.buffer)
+        return 1
+    } catch (e) {}
 }
 function _emscripten_resize_heap(requestedSize) {
     var oldSize = HEAPU8.length
     requestedSize = requestedSize >>> 0
-    abortOnCannotGrowMemory(requestedSize)
+    var maxHeapSize = getHeapMax()
+    if (requestedSize > maxHeapSize) {
+        return false
+    }
+    let alignUp = (x, multiple) => x + ((multiple - (x % multiple)) % multiple)
+    for (var cutDown = 1; cutDown <= 4; cutDown *= 2) {
+        var overGrownHeapSize = oldSize * (1 + 0.2 / cutDown)
+        overGrownHeapSize = Math.min(overGrownHeapSize, requestedSize + 100663296)
+        var newSize = Math.min(maxHeapSize, alignUp(Math.max(requestedSize, overGrownHeapSize), 65536))
+        var replacement = emscripten_realloc_buffer(newSize)
+        if (replacement) {
+            return true
+        }
+    }
+    return false
 }
 function getCFunc(ident) {
     var func = Module["_" + ident]
@@ -493,7 +514,6 @@ if (Module["preInit"]) {
 }
 run()
 
-run()
 function wrapSeedAfterRoll(Module) {
     // JS-friendly wrapper around the WASM call
     return function (seed, sequence, drinks, brand) {
@@ -524,8 +544,7 @@ function wrapSeedAfterRoll(Module) {
 
 function wrapSeed(Module) {
     // JS-friendly wrapper around the WASM call
-    return function (sequence, drinks, brand) {
-        const max_results = 10000
+    return function (sequence, drinks, brand, max_results) {
         const length_sequence = sequence.length
         const length_drinks = drinks.length
 
@@ -605,6 +624,7 @@ function wrapSeedRefine(Module) {
         }
         Module._free(buffer1)
         Module._free(buffer2)
+        Module._free(buffer3)
         Module._free(resultBuffer)
         return resultFlatArray
     }
@@ -614,12 +634,13 @@ onmessage = e => {
     const sequence = e.data.sequence
     const drinks = e.data.drinks
     const brand = e.data.brand
+    const refine_max = e.data.refine_max
     const get_seed_after_roll = wrapSeedAfterRoll(Module)
     const gear_seed = wrapSeed(Module)
     const seed_refine = wrapSeedRefine(Module)
     let res
     if (e.data.displayResults === undefined) {
-        res = gear_seed(sequence, drinks, brand).map(elem => {
+        res = gear_seed(sequence, drinks, brand, refine_max).map(elem => {
             return { Start: elem, Seed: `0x${(get_seed_after_roll(elem, sequence, drinks, brand) >>> 0).toString(16)}` }
         })
     } else {

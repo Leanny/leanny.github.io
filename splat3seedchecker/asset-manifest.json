@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/splat3seedchecker/static/css/main.0d61bda4.css",
-    "main.js": "/splat3seedchecker/static/js/main.c3865d15.js",
-    "react-syntax-highlighter/refractor-core-import.js": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.78b1d2b1.chunk.js",
+    "main.css": "/splat3seedchecker/static/css/main.344f1cde.css",
+    "main.js": "/splat3seedchecker/static/js/main.7c8b33d2.js",
+    "react-syntax-highlighter/refractor-core-import.js": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.22c1e954.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_abap.ba13be20.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_actionscript.5e1a4c09.chunk.js",
     "react-syntax-highlighter_languages_refractor_ada.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_ada.d5814eda.chunk.js",
@@ -154,8 +154,8 @@
     "react-syntax-highlighter_languages_refractor_xojo.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_xojo.34551dce.chunk.js",
     "react-syntax-highlighter_languages_refractor_xquery.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_xquery.9b51c977.chunk.js",
     "react-syntax-highlighter_languages_refractor_yaml.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_yaml.81c75523.chunk.js",
-    "static/css/5199.303cf751.chunk.css": "/splat3seedchecker/static/css/5199.303cf751.chunk.css",
-    "static/js/5199.fbd7bff2.chunk.js": "/splat3seedchecker/static/js/5199.fbd7bff2.chunk.js",
+    "static/css/1274.744ca180.chunk.css": "/splat3seedchecker/static/css/1274.744ca180.chunk.css",
+    "static/js/1274.b49166ab.chunk.js": "/splat3seedchecker/static/js/1274.b49166ab.chunk.js",
     "static/js/787.544c4a67.chunk.js": "/splat3seedchecker/static/js/787.544c4a67.chunk.js",
     "static/media/unlock_gear_04.png": "/splat3seedchecker/static/media/unlock_gear_04.5ff05b9b22f37207fc59.png",
     "static/media/unlock_gear_05.png": "/splat3seedchecker/static/media/unlock_gear_05.f29dc47e5f18a1d8c157.png",
@@ -168,9 +168,9 @@
     "static/media/tool_01.png": "/splat3seedchecker/static/media/tool_01.5f96f1c2903c032e6c97.png",
     "static/media/tool_02.png": "/splat3seedchecker/static/media/tool_02.73f662ce65b9a392fdab.png",
     "index.html": "/splat3seedchecker/index.html",
-    "main.0d61bda4.css.map": "/splat3seedchecker/static/css/main.0d61bda4.css.map",
-    "main.c3865d15.js.map": "/splat3seedchecker/static/js/main.c3865d15.js.map",
-    "refractor-core-import.78b1d2b1.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.78b1d2b1.chunk.js.map",
+    "main.344f1cde.css.map": "/splat3seedchecker/static/css/main.344f1cde.css.map",
+    "main.7c8b33d2.js.map": "/splat3seedchecker/static/js/main.7c8b33d2.js.map",
+    "refractor-core-import.22c1e954.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.22c1e954.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_abap.ba13be20.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_abap.ba13be20.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_actionscript.5e1a4c09.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_actionscript.5e1a4c09.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_ada.d5814eda.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_ada.d5814eda.chunk.js.map",
@@ -322,12 +322,12 @@
     "react-syntax-highlighter_languages_refractor_xojo.34551dce.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_xojo.34551dce.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_xquery.9b51c977.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_xquery.9b51c977.chunk.js.map",
     "react-syntax-highlighter_languages_refractor_yaml.81c75523.chunk.js.map": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_yaml.81c75523.chunk.js.map",
-    "5199.303cf751.chunk.css.map": "/splat3seedchecker/static/css/5199.303cf751.chunk.css.map",
-    "5199.fbd7bff2.chunk.js.map": "/splat3seedchecker/static/js/5199.fbd7bff2.chunk.js.map",
+    "1274.744ca180.chunk.css.map": "/splat3seedchecker/static/css/1274.744ca180.chunk.css.map",
+    "1274.b49166ab.chunk.js.map": "/splat3seedchecker/static/js/1274.b49166ab.chunk.js.map",
     "787.544c4a67.chunk.js.map": "/splat3seedchecker/static/js/787.544c4a67.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d61bda4.css",
-    "static/js/main.c3865d15.js"
+    "static/css/main.344f1cde.css",
+    "static/js/main.7c8b33d2.js"
   ]
 }
