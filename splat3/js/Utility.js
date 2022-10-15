@@ -37,6 +37,9 @@ export function generateHeader(elem) {
     <li class="nav-item">
         <a class="nav-link" href="ability.html">Ability Index</a>
     </li>
+    <li class="nav-item">
+        <a class="nav-link" href="medal.html">Medal Index</a>
+    </li>
     
 </ul>`)
 }
