@@ -1,0 +1,33 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletSalmonBuddyMoveParam",
+      "FlyRotateAirResist": 0.01,
+      "GuideHitCollisionType": "EnemyOnFenceOn",
+      "GuideRadius": 0.35,
+      "SpawnRotatePitch": 0.0,
+      "SpawnRotateRoll": 0.0,
+      "SpawnSpeedY": 0.4,
+      "SpawnSpeedYWorldMin": -5.0,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.4,
+      "InkRecoverStop": 0
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0
+    }
+  }
+}

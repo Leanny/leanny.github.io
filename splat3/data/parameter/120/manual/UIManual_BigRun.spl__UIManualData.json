@@ -1,0 +1,20 @@
+{
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualCoopEvent.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "BigRun_Manual01",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    },
+    {
+      "BodyLabel": "BigRun_Manual02",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    },
+    {
+      "BodyLabel": "BigRun_Manual03",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    }
+  ]
+}

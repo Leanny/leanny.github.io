@@ -1,0 +1,33 @@
+{
+  "CardPackRarityRate": [
+    88,
+    10,
+    2
+  ],
+  "GameMapOnSpecialWaitFrame": [
+    60,
+    20
+  ],
+  "GameMapPutWaitFrame": [
+    60,
+    20
+  ],
+  "GameOpenCardWaitFrame": 60,
+  "GamePreOpenCardWaitFrame": 50,
+  "NawaRankMax": 50,
+  "NextLevelWinNumVsGameNpc": 3,
+  "PieceNumMax": 999,
+  "SleeveRewardWinNumVsGameNpc": 30,
+  "TimerAsNet_AddNawaPoint": 110,
+  "TimerAsNet_GiveUpDisp": 120,
+  "TimerAsNet_OtherQuit": 200,
+  "TimerAsNet_RankUpReward": 300,
+  "TimerAsNet_ReDistributeCardQ": 600,
+  "TimerAsNet_RetryMenu": 600,
+  "TimerAsNet_SelectDeck": 1800,
+  "TimerAsNet_SelectMap": 1800,
+  "WinNumVsGameNpcMax": 999,
+  "WipeFrame_Default": 20,
+  "WipeFrame_Retry": 40,
+  "WipeFrame_StartGame": 40
+}

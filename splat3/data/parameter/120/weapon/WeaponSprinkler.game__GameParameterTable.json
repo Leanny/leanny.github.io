@@ -1,0 +1,47 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletSprinklerParam",
+      "GuideHitCollisionType": "EnemyOffFenceOnBlowerOffTorpedoOff",
+      "HitPaintRadius": 2.9,
+      "PeriodFirst": {
+        "High": 600.0,
+        "Low": 300.0,
+        "Mid": 450.0
+      },
+      "PeriodSecond": {
+        "High": 1020.0,
+        "Low": 900.0,
+        "Mid": 960.0
+      },
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      },
+      "SpoutInkDrawRadius": 0.25,
+      "SpoutInkPaintRadiusMaxHeight": 1.5,
+      "SpoutInkPaintRadiusMaxRate": 1.4,
+      "SpoutInkPaintRadiusMinHeight": 10.0,
+      "SpoutInkPaintRadiusMinRate": 1.4
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 3
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.6,
+      "InkRecoverStop": 60
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0,
+      "ZRate": 2.0
+    }
+  }
+}

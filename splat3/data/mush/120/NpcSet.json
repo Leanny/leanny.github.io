@@ -1,0 +1,16 @@
+[
+  {
+    "NpcName": [
+      "Work/Gyml/VSPreview06.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview02.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview07.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview01.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview04.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview05.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview00.spl__NpcInfo.gyml",
+      "Work/Gyml/VSPreview03.spl__NpcInfo.gyml"
+    ],
+    "SetName": "VSプレビューROM撮影用",
+    "__RowId": "NpcSet_VSPreview"
+  }
+]

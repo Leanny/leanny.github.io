@@ -1,0 +1,268 @@
+[
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Curling.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000008,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Curling.spl__LockerObjParam.gyml",
+    "Label": "カーリングボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Curling/output/Wsb_Bomb_Curling.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Curling"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Handy.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000002,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Handy.spl__LockerObjParam.gyml",
+    "Label": "クイックボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Handy/output/Wsb_Bomb_Handy.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Handy"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Hold.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000001,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Hold.spl__LockerObjParam.gyml",
+    "Label": "キューバンボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Hold/output/Wsb_Bomb_Hold.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Hold"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Piyo.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000011,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Piyo.spl__LockerObjParam.gyml",
+    "Label": "タンサンボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Piyo/output/Wsb_Bomb_Piyo.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Piyo"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Robo.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000009,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Robo.spl__LockerObjParam.gyml",
+    "Label": "ロボットボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Robo/output/Wsb_Bomb_Robo.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Robo"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Splash.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000000,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Splash.spl__LockerObjParam.gyml",
+    "Label": "スプラッシュボム",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Throw/output/Wsb_Bomb_Throw.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Splash"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Bomb_Tako.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000012,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Bomb_Tako.spl__LockerObjParam.gyml",
+    "Label": "トーピード",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Bomb_Tako.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Bomb_Tako"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_DevillBall.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000010,
+    "LObjParam": "Work/Gyml/LObj_Wsb_DevillBall.spl__LockerObjParam.gyml",
+    "Label": "ポイズンミスト",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_DevilBall/output/Wsb_DevilBall.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_DevillBall"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Flag.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000004,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Flag.spl__LockerObjParam.gyml",
+    "Label": "ジャンプビーコン",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Flag/output/Wsb_Flag.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Flag"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_LinMarker.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000013,
+    "LObjParam": "Work/Gyml/LObj_Wsb_LinMarker.spl__LockerObjParam.gyml",
+    "Label": "ラインマーカー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_LineMarker/output/Wsb_LineMarker.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_LinMarker"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_MarkingBall.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000006,
+    "LObjParam": "Work/Gyml/LObj_Wsb_MarkingBall.spl__LockerObjParam.gyml",
+    "Label": "ポイントセンサー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_MarkingBall/output/Wsb_MarkingBall.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_MarkingBall"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Shield.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000005,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Shield.spl__LockerObjParam.gyml",
+    "Label": "スプラッシュシールド",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Shield/output/Wsb_Shield.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Shield"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Sprinkler.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000003,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Sprinkler.spl__LockerObjParam.gyml",
+    "Label": "スプリンクラー",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Weapon/Wsb_Sprinkler/output/Wsb_Sprinkler.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Sprinkler"
+  },
+  {
+    "CaptureParam": "Work/Debug/LockerGoodsCapture/Wsb_Trap.spl__LockerGoodsCaptureParam.gyml",
+    "HowToGet": "Shop",
+    "Id": 2000007,
+    "LObjParam": "Work/Gyml/LObj_Wsb_Trap.spl__LockerObjParam.gyml",
+    "Label": "トラップ",
+    "MaxNumberOfPossessions": 10,
+    "Model": "Work/Model/Locker/Fig_Trap/output/Fig_Trap.fmdb",
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 999,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Wsb_Trap"
+  }
+]

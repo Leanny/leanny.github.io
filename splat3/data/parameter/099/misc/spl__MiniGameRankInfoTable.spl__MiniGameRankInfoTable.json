@@ -1,0 +1,349 @@
+{
+  "Info": [
+    {},
+    {
+      "NeedPoint": 0,
+      "Rank": 1,
+      "RewardChara": ""
+    },
+    {
+      "NeedPoint": 100,
+      "Rank": 2,
+      "RewardCardPack": false,
+      "RewardChara": "Work/Gyml/MiniGame_MiniGameKurage1.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 250,
+      "Rank": 3,
+      "RewardCardPack": true,
+      "RewardChara": "",
+      "RewardEmote": "",
+      "RewardNamePlateBG": ""
+    },
+    {
+      "NeedPoint": 400,
+      "Rank": 4,
+      "RewardChara": "Work/Gyml/MiniGame_MiniGameKurage2.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None",
+      "RewardNamePlateBG": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 550,
+      "Rank": 5,
+      "RewardChara": "",
+      "RewardMap": "Zigzag"
+    },
+    {
+      "NeedPoint": 700,
+      "Rank": 6,
+      "RewardBynameAdjective": "Work/Gyml/Byname/3200.spl__BynameAdjectiveInfo.gyml",
+      "RewardBynameSubject": "Work/Gyml/Byname/3200.spl__BynameSubjectInfo.gyml",
+      "RewardChara": ""
+    },
+    {
+      "NeedPoint": 850,
+      "Rank": 7,
+      "RewardBynameAdjective": "",
+      "RewardBynameSubject": "",
+      "RewardChara": "Work/Gyml/MiniGame_WeaponShop.spl__MiniGameGameNpcData.gyml",
+      "RewardEmote": "",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 1000,
+      "Rank": 8,
+      "RewardChara": "",
+      "RewardMap": "Cross"
+    },
+    {
+      "NeedPoint": 1150,
+      "Rank": 9,
+      "RewardBynameAdjective": "",
+      "RewardBynameSubject": "",
+      "RewardCardPack": true,
+      "RewardChara": ""
+    },
+    {
+      "NeedPoint": 1300,
+      "Rank": 10,
+      "RewardCardPack": false,
+      "RewardChara": "",
+      "RewardNamePlateBG": "Work/Gyml/NamePlateBgInfo/Npl_Mng_Lv01.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "NeedPoint": 1500,
+      "Rank": 11,
+      "RewardChara": "Work/Gyml/MiniGame_GearShopHead.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 1750,
+      "Rank": 12,
+      "RewardChara": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv01.spl__LockerGoodsStickerInfo.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 2050,
+      "Rank": 13,
+      "RewardChara": "Work/Gyml/MiniGame_GearShopClothes.spl__MiniGameGameNpcData.gyml",
+      "RewardEmote": ""
+    },
+    {
+      "NeedPoint": 2400,
+      "Rank": 14,
+      "RewardCardPack": false,
+      "RewardChara": "",
+      "RewardEmote": "",
+      "RewardMap": "Square",
+      "RewardNamePlateBG": ""
+    },
+    {
+      "NeedPoint": 2810,
+      "Rank": 15,
+      "RewardChara": "Work/Gyml/MiniGame_GearShopShoes.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 3270,
+      "Rank": 16,
+      "RewardCardPack": true,
+      "RewardChara": "",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 3790,
+      "Rank": 17,
+      "RewardChara": "Work/Gyml/MiniGame_GoodsShop.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": ""
+    },
+    {
+      "NeedPoint": 4370,
+      "Rank": 18,
+      "RewardChara": "",
+      "RewardLockerSticker": "",
+      "RewardMap": "CenterHole"
+    },
+    {
+      "NeedPoint": 5000,
+      "Rank": 19,
+      "RewardCardPack": false,
+      "RewardChara": "Work/Gyml/MiniGame_Judge.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 5690,
+      "Rank": 20,
+      "RewardCardPack": false,
+      "RewardMap": "None",
+      "RewardSleeve": "Work/Gyml/MiniGameCardSleeve_RankReward00.spl__MiniGameCardSleeve.gyml"
+    },
+    {
+      "NeedPoint": 6440,
+      "Rank": 21,
+      "RewardChara": "Work/Gyml/MiniGame_JudgeJr.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 7250,
+      "Rank": 22,
+      "RewardChara": "",
+      "RewardMap": "WDiamond",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 8120,
+      "Rank": 23,
+      "RewardCardPack": true,
+      "RewardChara": "",
+      "RewardLockerSticker": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 9060,
+      "Rank": 24,
+      "RewardChara": "Work/Gyml/MiniGame_Vendor.spl__MiniGameGameNpcData.gyml",
+      "RewardNamePlateBG": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 10060,
+      "Rank": 25,
+      "RewardMap": "None",
+      "RewardNamePlateBG": "Work/Gyml/NamePlateBgInfo/Npl_Mng_Lv02.spl__NamePlateBgInfo.gyml"
+    },
+    {
+      "NeedPoint": 11130,
+      "Rank": 26,
+      "RewardChara": "Work/Gyml/MiniGame_IdolA.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 12260,
+      "Rank": 27,
+      "RewardChara": "",
+      "RewardLockerFigure": "",
+      "RewardMap": "SShape"
+    },
+    {
+      "NeedPoint": 13460,
+      "Rank": 28,
+      "RewardChara": "",
+      "RewardLockerFigure": "Work/Gyml/Fig_MiniGameReward01.spl__LockerGoodsFigureInfo.gyml"
+    },
+    {
+      "NeedPoint": 14730,
+      "Rank": 29,
+      "RewardCardPack": false,
+      "RewardChara": "Work/Gyml/MiniGame_IdolB.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": ""
+    },
+    {
+      "NeedPoint": 16070,
+      "Rank": 30,
+      "RewardCardPack": false,
+      "RewardEmote": "Work/Gyml/NwBtl00.spl__EmoteInfo.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 17480,
+      "Rank": 31,
+      "RewardChara": "Work/Gyml/MiniGame_IdolC.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 18960,
+      "Rank": 32,
+      "RewardChara": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv02.spl__LockerGoodsStickerInfo.gyml",
+      "RewardMap": "None"
+    },
+    {
+      "NeedPoint": 20510,
+      "Rank": 33,
+      "RewardCardPack": true,
+      "RewardLockerSticker": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 22140,
+      "Rank": 34,
+      "RewardChara": "Work/Gyml/MiniGame_Mother.spl__MiniGameGameNpcData.gyml",
+      "RewardMap": "None",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 23840,
+      "Rank": 35,
+      "RewardChara": "",
+      "RewardLockerSticker": "",
+      "RewardMap": "SmallSquare"
+    },
+    {
+      "NeedPoint": 25620,
+      "Rank": 36,
+      "RewardChara": "",
+      "RewardLockerFigure": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv03.spl__LockerGoodsStickerInfo.gyml"
+    },
+    {
+      "NeedPoint": 27480,
+      "Rank": 37,
+      "RewardChara": "",
+      "RewardLockerFigure": "Work/Gyml/Fig_MiniGameReward02.spl__LockerGoodsFigureInfo.gyml",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 29420,
+      "Rank": 38,
+      "RewardChara": "Work/Gyml/MiniGame_Atarime.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": ""
+    },
+    {
+      "NeedPoint": 31440,
+      "Rank": 39,
+      "RewardCardPack": false,
+      "RewardLockerFigure": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv04.spl__LockerGoodsStickerInfo.gyml"
+    },
+    {
+      "NeedPoint": 33540,
+      "Rank": 40,
+      "RewardCardPack": false,
+      "RewardChara": "",
+      "RewardSleeve": "Work/Gyml/MiniGameCardSleeve_RankReward01.spl__MiniGameCardSleeve.gyml"
+    },
+    {
+      "NeedPoint": 35720,
+      "Rank": 41,
+      "RewardChara": "Work/Gyml/MiniGame_Aori.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": ""
+    },
+    {
+      "NeedPoint": 37990,
+      "Rank": 42,
+      "RewardChara": "",
+      "RewardLockerFigure": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv05.spl__LockerGoodsStickerInfo.gyml"
+    },
+    {
+      "NeedPoint": 40340,
+      "Rank": 43,
+      "RewardChara": "",
+      "RewardLockerFigure": "Work/Gyml/Fig_MiniGameReward03.spl__LockerGoodsFigureInfo.gyml"
+    },
+    {
+      "NeedPoint": 42780,
+      "Rank": 44,
+      "RewardChara": "Work/Gyml/MiniGame_Hotaru.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": ""
+    },
+    {
+      "NeedPoint": 45310,
+      "Rank": 45,
+      "RewardChara": "",
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv06.spl__LockerGoodsStickerInfo.gyml",
+      "RewardNamePlateBG": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 47930,
+      "Rank": 46,
+      "RewardChara": "",
+      "RewardLockerSticker": "",
+      "RewardNamePlateBG": "Work/Gyml/NamePlateBgInfo/Npl_Mng_Lv03.spl__NamePlateBgInfo.gyml",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 50640,
+      "Rank": 47,
+      "RewardChara": "Work/Gyml/MiniGame_MiniGameKurage3.spl__MiniGameGameNpcData.gyml",
+      "RewardLockerSticker": "",
+      "RewardSleeve": ""
+    },
+    {
+      "NeedPoint": 53450,
+      "Rank": 48,
+      "RewardCardPack": false,
+      "RewardLockerSticker": "Work/Gyml/Stc_Sti_MiniGame_RankAward_Lv07.spl__LockerGoodsStickerInfo.gyml",
+      "RewardNamePlateBG": ""
+    },
+    {
+      "NeedPoint": 56350,
+      "Rank": 49,
+      "RewardBynameAdjective": "",
+      "RewardBynameSubject": "",
+      "RewardLockerFigure": "",
+      "RewardNamePlateBG": "",
+      "RewardSleeve": "Work/Gyml/MiniGameCardSleeve_RankReward02.spl__MiniGameCardSleeve.gyml"
+    },
+    {
+      "NeedPoint": 59683,
+      "Rank": 50,
+      "RewardBynameAdjective": "Work/Gyml/Byname/3201.spl__BynameAdjectiveInfo.gyml",
+      "RewardBynameSubject": "Work/Gyml/Byname/3201.spl__BynameSubjectInfo.gyml"
+    }
+  ]
+}

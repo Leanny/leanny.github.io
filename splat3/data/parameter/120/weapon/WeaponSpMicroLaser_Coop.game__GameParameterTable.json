@@ -1,0 +1,16 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpMicroLaser.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "spl__BulletSpMicroLaserBitParam": {
+      "$type": "spl__BulletSpMicroLaserBitParam",
+      "ChargeParam": {
+        "LockonDelayFrame": 10,
+        "MaxAngularVel": 1.6
+      },
+      "LaserParam": {
+        "LaserDamage": 120,
+        "LaserDamageIntervalFrame": 10
+      }
+    }
+  }
+}

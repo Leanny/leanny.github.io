@@ -1,0 +1,38 @@
+{
+  "InGame": {
+    "RelayEventDropRush": true,
+    "RelayEventDropRushNextFrame": 2700,
+    "RelayEventGoldeIkuraInterval": 180,
+    "RelayEventRockOffsetY": 30.0,
+    "RelayEventSpawnBoxOffsetY": 30.0,
+    "RelayEventSpawnEnemyOffsetY": 45.0,
+    "RelayEventSpawnEnemyRadius": 6.0,
+    "TamaireSpanwZakoFromSpawnPoint": false
+  },
+  "SequenceFrameParam": {
+    "DropDemoFrame": 660,
+    "GameClearCallUpFrame": 120,
+    "GameClearExitFrame": 360,
+    "GameStartMinFrm": 150,
+    "StartDemoFaderWaitFrame": 2,
+    "TutorialBagmanEscapeWaitFrame": 540,
+    "TutorialBattleForceEndFrame": 12000
+  },
+  "SequenceFrameParamFast": {
+    "DropDemoFrame": 5,
+    "DropDemoReadyFrame": 5,
+    "DropDemoUIOutFrame": 4,
+    "GameClearExitFrame": 60,
+    "GameClearExtendFrame": 40,
+    "GameStartMinFrm": 5,
+    "RoundClearFrame": 60,
+    "RoundNoticeFrame": 30,
+    "RoundPrepareFrame": 30,
+    "RoundReadyFrame": 10,
+    "StartDemoFaderEndFrame": 1,
+    "StartDemoFaderStartFrame": 0,
+    "StartDemoFaderWaitFrame": 0,
+    "WeatherOmenFrame": 10,
+    "WeatherRecoveryFrame": 10
+  }
+}

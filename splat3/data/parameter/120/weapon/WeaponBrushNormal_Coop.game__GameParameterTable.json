@@ -1,0 +1,46 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponBrushNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletRollerBodyParam",
+      "CollisionParam": {
+        "KnockBackDefeat": false,
+        "KnockBackOpponent": {
+          "AccelMax": 50.0,
+          "AccelMin": 50.0
+        }
+      },
+      "Damage": 400,
+      "DamageSpanSecond": 0.133
+    },
+    "KnockBackBySpecificEnemyParam": {
+      "$type": "spl__BulletRollerBodyKnockBackBySpecificEnemyParam",
+      "OpponentSakelienGeyser": 500.0,
+      "OpponentSakelienSnake": 200.0
+    },
+    "SwingUnitGroupParam": {
+      "$type": "spl__BulletRollerBrushInkUnitGroupParam",
+      "DamageParam": {
+        "Inside": {
+          "DamageHighValue": 450,
+          "DamageLowValue": 450,
+          "DamageMaxValue": 600,
+          "DamageMinValue": 450,
+          "FinalDamageMinValue": 450
+        },
+        "Outside": {
+          "DamageHighValue": 450,
+          "DamageLowValue": 450,
+          "DamageMaxValue": 600,
+          "DamageMinValue": 450,
+          "FinalDamageMinValue": 450
+        }
+      }
+    },
+    "WeaponRollParam": {
+      "$type": "spl__WeaponBrushRollParam",
+      "InkConsumeMaxPerFrame": 0.0013,
+      "InkConsumeMinPerFrame": 0.0013
+    }
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "EndRadiusForField": 0.02,
+      "EndRadiusForPlayer": 0.2,
+      "InitRadiusForField": 0.02,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletChargerDamageParam",
+      "ValueFullCharge": 2000,
+      "ValueMaxCharge": 2000,
+      "ValueMinCharge": 2000
+    },
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Mid"
+    },
+    "MoveParam": {
+      "$type": "spl__BulletChargerMoveParam",
+      "DistanceFullCharge": 29.05,
+      "DistanceMaxCharge": 29.05,
+      "DistanceMinCharge": 29.05,
+      "SpawnSpeedFullCharge": 4.0,
+      "SpawnSpeedMaxCharge": 4.0,
+      "SpawnSpeedMinCharge": 4.0,
+      "ThroughFullCharge": true
+    },
+    "PaintParam": {
+      "$type": "spl__BulletChargerPaintParam",
+      "RadiusFullCharge": 3.9,
+      "RadiusMaxCharge": 3.9,
+      "RadiusMinCharge": 3.9
+    },
+    "SplashPaintParam": {
+      "$type": "spl__BulletSplashChargerPaintParam",
+      "DepthHalfFullCharge": 3.78,
+      "DepthHalfMaxCharge": 3.78,
+      "DepthHalfMinCharge": 3.78,
+      "LastSplashRateFullCharge": 1.3,
+      "LastSplashRateMaxCharge": 1.3,
+      "LastSplashRateMinCharge": 1.3,
+      "RadiusSpawnNearest": 1.2,
+      "WidthHalfFullCharge": 2.1,
+      "WidthHalfMaxCharge": 2.1,
+      "WidthHalfMinCharge": 2.1
+    },
+    "SplashSpawnParam": {
+      "$type": "spl__BulletSplashChargerSpawnParam",
+      "OnTopRateFullCharge": 0.2,
+      "OnTopRateMaxCharge": 0.2,
+      "OnTopRateMinCharge": 0.2,
+      "SpawnNearestChargeRate": 1.01
+    },
+    "SplashWallHitParam": {
+      "$type": "spl__BulletChargerSplashWallHitParam",
+      "SpawnParam": {
+        "NumMax": 4,
+        "NumMinCharge": 4,
+        "SpawnMaxChargeFrame": 4
+      },
+      "WallDropCollisionPaintParam": {
+        "PaintRadiusFall": 0.65,
+        "PaintRadiusFallMaxCharge": 0.65,
+        "PaintRadiusFallMinCharge": 0.45,
+        "PaintRadiusGround": 0.4,
+        "PaintRadiusShock": 0.9,
+        "PaintRadiusShockMaxCharge": 0.9,
+        "PaintRadiusShockMinCharge": 0.6
+      },
+      "WallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 30,
+        "FallPeriodFirstFrameMin": 15,
+        "FallPeriodFirstTargetSpeed": 0.04,
+        "FallPeriodLastFrameMax": 30,
+        "FallPeriodLastFrameMin": 15,
+        "FallPeriodSecondTargetSpeed": 0.05
+      }
+    },
+    "WallDropCollisionPaintParam": {
+      "$type": "spl__BulletChargerWallDropCollisionPaintParam",
+      "PaintRadiusFall": 1.2,
+      "PaintRadiusFallMaxCharge": 1.2,
+      "PaintRadiusFallMinCharge": 0.8,
+      "PaintRadiusGround": 0.6,
+      "PaintRadiusShock": 1.8,
+      "PaintRadiusShockMaxCharge": 1.8,
+      "PaintRadiusShockMinCharge": 1.2
+    },
+    "WallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMin": 15,
+      "FallPeriodFirstTargetSpeed": 0.04,
+      "FallPeriodLastFrameMax": 30,
+      "FallPeriodSecondTargetSpeed": 0.05
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponChargerParam",
+      "AirChargeRateByInkEmpty": 20,
+      "ChargeFrameFullCharge": 4,
+      "ChargeFrameMinCharge": 4,
+      "FreezeFrameFullCharge": 1,
+      "FreezeFrameMinCharge": 1,
+      "InkConsumeFullCharge": 0.13,
+      "InkConsumeMinCharge": 0.13,
+      "InkEmptyChargeTimes": 20,
+      "JumpHeightFullCharge": 0.07,
+      "MoveJumpDownBias": 0.5,
+      "MoveSpeedFullCharge": 0.072
+    }
+  }
+}

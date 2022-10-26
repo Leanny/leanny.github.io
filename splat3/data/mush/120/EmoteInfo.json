@@ -1,0 +1,119 @@
+[
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 106,
+    "Order": 11,
+    "Pattern": "Crouching00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Crouching00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 120,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 100,
+    "Order": 201,
+    "Pattern": "FeelingWarm00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "FeelingWarm00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 110,
+    "Order": 901,
+    "Pattern": "NwBtl00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "NwBtl00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 179,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 4,
+    "Order": 12,
+    "Pattern": "Win04",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win04"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 150,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 8,
+    "Order": 101,
+    "Pattern": "Win08",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win08"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 130,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 13,
+    "Order": 102,
+    "Pattern": "Win13",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win13"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 15,
+    "Order": 103,
+    "Pattern": "Win15",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win15"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Impossible",
+    "Id": 0,
+    "Order": 999,
+    "Pattern": "Win_Tricol",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win_Tricol"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 259,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Shop",
+    "Id": 203,
+    "Order": 0,
+    "Pattern": "Win_$(WEAPON)03",
+    "Season": 0,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon03"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "CatalogA": "",
+    "CatalogB": "",
+    "Id": 0,
+    "News": "",
+    "__RowId": "000"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season01_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 1,
+    "News": "",
+    "__RowId": "001"
+  }
+]

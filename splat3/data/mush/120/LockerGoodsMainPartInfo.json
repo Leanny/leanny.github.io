@@ -1,0 +1,386 @@
+[
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.6,
+      "G": 0.6,
+      "R": 0.6
+    },
+    "Hash": 180017560,
+    "HowToGet": "Other",
+    "Id": 1,
+    "Label": "普通のロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Normal_White"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.6,
+      "G": 0.6,
+      "R": 0.6
+    },
+    "Hash": 1750234745,
+    "HowToGet": "Shop",
+    "Id": 10,
+    "Label": "ボロボロのロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 34646,
+    "Rarity": 2,
+    "Season": 1,
+    "TextureIndex": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Old_White"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.003921569,
+      "G": 0.003921569,
+      "R": 0.003921569
+    },
+    "Hash": 1030167843,
+    "HowToGet": "Shop",
+    "Id": 20,
+    "Label": "塗装ロッカー（ブラック）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Black"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.5568628,
+      "G": 0.5333334,
+      "R": 0.372549
+    },
+    "Hash": 3445447846,
+    "HowToGet": "Shop",
+    "Id": 21,
+    "Label": "塗装ロッカー（ブルー）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Blue"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.1607843,
+      "G": 0.08235294,
+      "R": 0.02745098
+    },
+    "Hash": 3953186083,
+    "HowToGet": "Shop",
+    "Id": 23,
+    "Label": "塗装ロッカー（コバルトブルー）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_CobaltBlue"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.3490196,
+      "G": 0.4941176,
+      "R": 0.5
+    },
+    "Hash": 1102763513,
+    "HowToGet": "Shop",
+    "Id": 24,
+    "Label": "塗装ロッカー（クリーム）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Cream"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.1882353,
+      "G": 0.06666667,
+      "R": 0.3921569
+    },
+    "Hash": 1109812591,
+    "HowToGet": "Shop",
+    "Id": 25,
+    "Label": "塗装ロッカー（マゼンタ）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_GalPink"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.1254902,
+      "G": 0.1647059,
+      "R": 0.02352941
+    },
+    "Hash": 2726148673,
+    "HowToGet": "Shop",
+    "Id": 26,
+    "Label": "塗装ロッカー（ミドリ）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Green"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.09019608,
+      "G": 0.09019608,
+      "R": 0.09019608
+    },
+    "Hash": 37556344,
+    "HowToGet": "Shop",
+    "Id": 27,
+    "Label": "塗装ロッカー（ニュートラルグレー）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_NeutralGray"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.5647059,
+      "G": 0.3568628,
+      "R": 0.8980392
+    },
+    "Hash": 2593810601,
+    "HowToGet": "Shop",
+    "Id": 28,
+    "Label": "塗装ロッカー（ピンク）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Pink"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.01960784,
+      "G": 0.01960784,
+      "R": 0.2352941
+    },
+    "Hash": 680113153,
+    "HowToGet": "Shop",
+    "Id": 29,
+    "Label": "塗装ロッカー（レッド）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Red"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.55,
+      "G": 0.55,
+      "R": 0.55
+    },
+    "Hash": 220693427,
+    "HowToGet": "Shop",
+    "Id": 30,
+    "Label": "塗装ロッカー（ホワイト）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_White"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.1686275,
+      "G": 0.6,
+      "R": 0.6
+    },
+    "Hash": 2302867256,
+    "HowToGet": "Shop",
+    "Id": 31,
+    "Label": "塗装ロッカー（イエロー）",
+    "MaxNumberOfPossessions": 1,
+    "Price": 6800,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 2,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Painted_Yellow"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.6431373,
+      "G": 0.7450981,
+      "R": 0.7490196
+    },
+    "Hash": 3666471020,
+    "HowToGet": "Shop",
+    "Id": 50,
+    "Label": "ヒノキのロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 31290,
+    "Rarity": 2,
+    "Season": 1,
+    "TextureIndex": 3,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Wooden_Cypress"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.03137255,
+      "G": 0.03529412,
+      "R": 0.03137255
+    },
+    "Hash": 3680911667,
+    "HowToGet": "Shop",
+    "Id": 51,
+    "Label": "漆塗りのロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 35640,
+    "Rarity": 2,
+    "Season": 1,
+    "TextureIndex": 3,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Wooden_Lacquered"
+  },
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.03137255,
+      "G": 0.2313726,
+      "R": 0.2705882
+    },
+    "Hash": 2690435576,
+    "HowToGet": "Shop",
+    "Id": 52,
+    "Label": "ウォルナットのロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 37100,
+    "Rarity": 2,
+    "Season": 1,
+    "TextureIndex": 3,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Wooden_Walnut"
+  }
+]

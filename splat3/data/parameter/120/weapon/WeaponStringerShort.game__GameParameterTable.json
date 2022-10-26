@@ -1,0 +1,129 @@
+{
+  "GameParameters": {
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Fast"
+    },
+    "spl__BulletStringerParam": {
+      "$type": "spl__BulletStringerParam",
+      "CollisionParam": {
+        "EndRadiusForPlayer": 0.18,
+        "InitRadiusForPlayer": 0.18
+      },
+      "DamageParam": {
+        "DirectHitDamageMax": 450,
+        "DirectHitDamageMid": 450,
+        "DirectHitDamageMin": 300
+      },
+      "DetonationParam": {
+        "BlastParam": {
+          "DamageOffsetY": 0.6,
+          "DistanceDamage": [
+            {
+              "Damage": 280,
+              "Distance": 2.0
+            }
+          ],
+          "PaintOffsetY": 0.6,
+          "PaintRadius": 2.0
+        },
+        "DetonationFrame": 45,
+        "IsExplosiveBoltMidCharge": false
+      },
+      "DrawParam": {
+        "CapsuleLength": 1.1,
+        "CapsuleRadius": 0.2,
+        "IsDrawCapsule": false,
+        "IsDrawCollision": false
+      },
+      "Effect1stParam": {
+        "DelayFrame": 8,
+        "MaxLen": 13.075
+      },
+      "Effect2ndParam": {
+        "SmokeInterval": 0.159375
+      },
+      "MoveParam": {
+        "BrakeAirResist": 0.1,
+        "BrakeGravity": 0.04,
+        "BrakeToFreeStateFrame": 1,
+        "BrakeToFreeVelocityXZ": 20.0,
+        "BrakeToFreeVelocityY": 10.0,
+        "FreeAirResist": 0.24,
+        "FreeGravity": 0.15,
+        "GoStraightStateEndMaxSpeed": 10.0,
+        "GoStraightToBrakeStateFrame": 4,
+        "SpawnSpeed": 0.0,
+        "SpawnSpeedMax": 2.55,
+        "SpawnSpeedMid": 1.45,
+        "SpawnSpeedMin": 1.45
+      },
+      "PaintParam": {
+        "WidthHalfMax": 2.8,
+        "WidthHalfMid": 2.8,
+        "WidthHalfMin": 2.8
+      },
+      "SplashSpawnParam": {
+        "DropInterval": 10.0,
+        "SplitNum": 7
+      },
+      "WallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 40,
+        "FallPeriodFirstFrameMin": 20,
+        "FallPeriodLastFrameMax": 35
+      }
+    },
+    "spl__WeaponStringerParam": {
+      "$type": "spl__WeaponStringerParam",
+      "ChargeKeepParam": {
+        "KeepChargeFullFrame": 75,
+        "KeepChargePreDelayFrame": 19,
+        "KeepChargePreDelayFrame_Pre": 14
+      },
+      "ChargeParam": {
+        "AirChargeRateByInkEmpty": 1,
+        "ChargeFrameFullCharge": 34,
+        "ChargeFrameMidCharge": 12,
+        "ChargeFrameMinCharge": 6,
+        "FreezeFrameFullCharge": 15,
+        "FreezeFrameMidCharge": 15,
+        "FreezeFrameMinCharge": 8,
+        "InkConsumeFullCharge": 0.065,
+        "InkConsumeMidCharge": 0.04,
+        "InkConsumeMinCharge": 0.03,
+        "JumpHeightFullCharge": 0.07,
+        "MoveSpeedFullCharge": 0.07,
+        "PostDelayFrame": 10
+      },
+      "PlayerParam": {
+        "BowTiltDegRcvInterpRate": 0.2
+      },
+      "ShotGuideParam": {
+        "GuideDrawFrameFirst": 7,
+        "GuideDrawFrameSecond": 7,
+        "IsDrawTrajectory": false,
+        "MainArrowGuideDrawFrame": 10,
+        "SubArrowGuideDrawFrame": 3,
+        "TiltGuideEnabled": false,
+        "TiltGuideLength": 0.0,
+        "TiltGuideWidth": 4.0
+      },
+      "ShotParam": {
+        "ArrowAngleMax": 15.0,
+        "ArrowAngleMid": 7,
+        "ArrowAngleMin": 1.0,
+        "ArrowMargin": 0.2,
+        "ArrowNum": 3,
+        "BowJumpTiltSpeedForward": 9.0,
+        "BowJumpTiltSpeedReverse": -12.0,
+        "BowTiltDegreeMax": 90.0,
+        "BowTiltKeepFrame": 45,
+        "BowTiltResetSpeed": 2,
+        "EnableOldTiltControl": false
+      }
+    }
+  }
+}

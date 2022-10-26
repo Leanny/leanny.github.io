@@ -1,0 +1,12 @@
+[
+  {
+    "ActorMax": 76,
+    "ActorMaxLobbyCoop": 9,
+    "Type": "GoldenIkura"
+  },
+  {
+    "ActorMax": 6,
+    "ActorMaxLobbyCoop": 0,
+    "Type": "GoldenIkuraLarge"
+  }
+]

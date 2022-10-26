@@ -1,0 +1,358 @@
+{
+  "CapsuleInside": [
+    {
+      "CapsuleRarity": "Common",
+      "CapsuleType": "Money",
+      "IsMoney": true,
+      "Value": 5000
+    },
+    {
+      "CapsuleRarity": "Rare",
+      "CapsuleType": "Money",
+      "IsMoney": true,
+      "Value": 16000
+    },
+    {
+      "CapsuleRarity": "VeryRare",
+      "CapsuleType": "Money",
+      "IsMoney": true,
+      "Value": 32000
+    },
+    {
+      "CapsuleRarity": "SuperRare",
+      "CapsuleType": "Money",
+      "IsMoney": true,
+      "Value": 32000
+    },
+    {
+      "CapsuleRarity": "Common",
+      "CapsuleType": "Food",
+      "IsMoney": true,
+      "Value": 5000
+    },
+    {
+      "CapsuleRarity": "Rare",
+      "CapsuleType": "Food",
+      "Ticket": "Money50",
+      "Value": 1
+    },
+    {
+      "CapsuleRarity": "VeryRare",
+      "CapsuleType": "Food",
+      "Ticket": "Money100",
+      "Value": 1
+    },
+    {
+      "CapsuleRarity": "SuperRare",
+      "CapsuleType": "Food",
+      "Ticket": "Money100",
+      "Value": 1
+    },
+    {
+      "CapsuleRarity": "Common",
+      "CapsuleType": "Drink",
+      "IsMoney": true,
+      "Value": 5000
+    },
+    {
+      "CapsuleRarity": "Rare",
+      "CapsuleType": "Drink",
+      "Value": 1
+    },
+    {
+      "CapsuleRarity": "VeryRare",
+      "CapsuleType": "Drink",
+      "Value": 4
+    },
+    {
+      "CapsuleRarity": "SuperRare",
+      "CapsuleType": "Drink",
+      "Value": 4
+    },
+    {
+      "CapsuleRarity": "Common",
+      "CapsuleType": "GearSkillChip",
+      "IsMoney": true,
+      "Value": 5000
+    },
+    {
+      "CapsuleRarity": "Rare",
+      "CapsuleType": "GearSkillChip",
+      "Value": 2
+    },
+    {
+      "CapsuleRarity": "VeryRare",
+      "CapsuleType": "GearSkillChip",
+      "Value": 4
+    },
+    {
+      "CapsuleRarity": "SuperRare",
+      "CapsuleType": "GearSkillChip",
+      "Value": 4
+    }
+  ],
+  "RandomWeight": {
+    "Drink": 23,
+    "Food": 23,
+    "GearMonthly": 0,
+    "GearRandom": 8,
+    "GearSkillChip": 23,
+    "Money": 23,
+    "None": 0,
+    "Unknown": 0
+  },
+  "RarityWeight": {
+    "Drink": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "Food": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "GearMonthly": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "GearRandom": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "GearSkillChip": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "Money": {
+      "Weight": {
+        "Common": 50,
+        "None": 0,
+        "Rare": 40,
+        "SuperRare": 0,
+        "Unknown": 0,
+        "VeryRare": 10
+      }
+    },
+    "None": {},
+    "Unknown": {}
+  },
+  "RewardMeterBigRun": {
+    "ElementArray": [
+      {
+        "KumaScale": 1
+      },
+      {
+        "KumaScale": 2,
+        "RewardMeterElementType": "MonthlyGear"
+      },
+      {
+        "KumaScale": 3
+      },
+      {
+        "KumaScale": 4
+      },
+      {
+        "KumaScale": 5
+      },
+      {
+        "KumaScale": 6,
+        "RewardMeterElementType": "RandomHit"
+      },
+      {
+        "KumaScale": 7
+      },
+      {
+        "KumaScale": 8,
+        "RewardMeterElementType": "MonthlyGear"
+      },
+      {
+        "KumaScale": 9
+      },
+      {
+        "KumaScale": 10
+      },
+      {
+        "KumaScale": 11
+      },
+      {
+        "KumaScale": 12,
+        "RewardMeterElementType": "RandomHit"
+      }
+    ],
+    "RepearElementArray": [
+      {
+        "KumaScaleSpan": 4,
+        "RepeatNum": 7,
+        "RewardMeterElementType": "MonthlyGear",
+        "StartKumaScale": 14
+      },
+      {
+        "KumaScaleSpan": 4,
+        "RepeatNum": 6,
+        "RewardMeterElementType": "UsedGearCapsule",
+        "StartKumaScale": 16
+      },
+      {
+        "KumaScaleSpan": 8,
+        "RepeatNum": 0,
+        "RewardMeterElementType": "MonthlyGear",
+        "StartKumaScale": 40
+      },
+      {
+        "KumaScaleSpan": 8,
+        "RepeatNum": 0,
+        "RewardMeterElementType": "UsedGearCapsule",
+        "StartKumaScale": 44
+      }
+    ]
+  },
+  "RewardMeterLimited": {
+    "ElementArray": [
+      {
+        "KumaScale": 1
+      },
+      {
+        "KumaScale": 2
+      },
+      {
+        "KumaScale": 3
+      },
+      {
+        "KumaScale": 4,
+        "RewardMeterElementType": "RandomHit"
+      },
+      {
+        "KumaScale": 5
+      },
+      {
+        "KumaScale": 6
+      },
+      {
+        "KumaScale": 7
+      },
+      {
+        "KumaScale": 8,
+        "RewardMeterElementType": "RandomHit"
+      },
+      {
+        "KumaScale": 9
+      },
+      {
+        "KumaScale": 10
+      },
+      {
+        "KumaScale": 11
+      },
+      {
+        "KumaScale": 12,
+        "RewardMeterElementType": "RandomHit"
+      }
+    ],
+    "RepearElementArray": [
+      {
+        "KumaScaleSpan": 4,
+        "RepeatNum": 0,
+        "StartKumaScale": 16
+      }
+    ]
+  },
+  "RewardMeterNomal": {
+    "ElementArray": [
+      {
+        "KumaScale": 1
+      },
+      {
+        "KumaScale": 2,
+        "RewardMeterElementType": "MonthlyGear"
+      },
+      {
+        "KumaScale": 3
+      },
+      {
+        "KumaScale": 4
+      },
+      {
+        "KumaScale": 5
+      },
+      {
+        "KumaScale": 6,
+        "RewardMeterElementType": "RandomHit"
+      },
+      {
+        "KumaScale": 7
+      },
+      {
+        "KumaScale": 8,
+        "RewardMeterElementType": "MonthlyGear"
+      },
+      {
+        "KumaScale": 9
+      },
+      {
+        "KumaScale": 10
+      },
+      {
+        "KumaScale": 11
+      },
+      {
+        "KumaScale": 12,
+        "RewardMeterElementType": "RandomHit"
+      }
+    ],
+    "RepearElementArray": [
+      {
+        "KumaScaleSpan": 4,
+        "RepeatNum": 7,
+        "RewardMeterElementType": "MonthlyGear",
+        "StartKumaScale": 14
+      },
+      {
+        "KumaScaleSpan": 4,
+        "RepeatNum": 6,
+        "RewardMeterElementType": "UsedGearCapsule",
+        "StartKumaScale": 16
+      },
+      {
+        "KumaScaleSpan": 8,
+        "RepeatNum": 0,
+        "RewardMeterElementType": "MonthlyGear",
+        "StartKumaScale": 40
+      },
+      {
+        "KumaScaleSpan": 8,
+        "RepeatNum": 0,
+        "RewardMeterElementType": "UsedGearCapsule",
+        "StartKumaScale": 44
+      }
+    ]
+  }
+}

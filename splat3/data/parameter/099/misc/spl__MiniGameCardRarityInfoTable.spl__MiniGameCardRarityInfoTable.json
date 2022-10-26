@@ -1,0 +1,24 @@
+{
+  "Info": [
+    {
+      "BrakePieceNum": 1,
+      "CreatePieceNum": 5,
+      "ToGoldPieceNum": 20,
+      "ToSilverPieceNum": 10
+    },
+    {
+      "BrakePieceNum": 5,
+      "CreatePieceNum": 15,
+      "Rarity": "Rare",
+      "ToGoldPieceNum": 40,
+      "ToSilverPieceNum": 20
+    },
+    {
+      "BrakePieceNum": 20,
+      "CreatePieceNum": 40,
+      "Rarity": "Fresh",
+      "ToGoldPieceNum": 60,
+      "ToSilverPieceNum": 30
+    }
+  ]
+}

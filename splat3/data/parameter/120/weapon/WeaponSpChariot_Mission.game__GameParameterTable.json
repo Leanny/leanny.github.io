@@ -1,0 +1,265 @@
+{
+  "GameParameters": {
+    "AdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "GuideYMinusZero": false,
+      "XRate": 0.4,
+      "YMax": 100.0,
+      "YMinusRate": 0.0,
+      "YPlusRate": 1.0,
+      "ZRate": 2.0
+    },
+    "BodyParam": {
+      "$type": "spl__BulletSpChariotBodyParam",
+      "CollisionOffset": 1.0,
+      "CollisionRadiusForField": 1.15,
+      "CollisionRadiusForPlayer": 1.45,
+      "Damage": 400,
+      "DamageSpanSecond": 0.4,
+      "KnockBackChariotPlayer": {
+        "AccelMax": 720.0,
+        "AccelMin": 480.0,
+        "MyVelocityRate": 4800.0,
+        "OpponentVelocityRate": 300.0
+      },
+      "KnockBackOpponent": {
+        "AccelMax": 720.0,
+        "AccelMin": 480.0,
+        "MyVelocityRate": 5400.0,
+        "OpponentVelocityRate": 300.0
+      },
+      "PaintRadius": 0.8
+    },
+    "CannonParam": {
+      "$type": "spl__BulletSpChariotCannonParam",
+      "BlastParam": {
+        "CollisionRadiusForPaint": 0.0,
+        "CrossPaintCheckLength": 0.0,
+        "CrossPaintRadius": 0.0,
+        "CrossPaintTexture": "Bomb00",
+        "CrossPaintUseChageArea": false,
+        "DamageAttackerPriority": false,
+        "DamageLinear": false,
+        "DamageOffsetY": 0.2,
+        "DistanceDamage": [
+          {
+            "Damage": 300,
+            "Distance": 5.6
+          }
+        ],
+        "KnockBackParam": {
+          "Accel": 470.0,
+          "Bias": 0.8,
+          "DirectionZeroAccelRate": 0.0,
+          "Distance": 5.0
+        },
+        "PaintHeight": 4.0,
+        "PaintOffsetY": 0.2,
+        "PaintRadius": 4.5,
+        "PaintTexture": "Bomb00",
+        "PlaneDamage": [],
+        "ReactionVel": 100.0,
+        "SplashAroundParam": {
+          "Num": 0,
+          "OffsetY": 0.5,
+          "PaintRadius": 1.0,
+          "PitchMax": 30.0,
+          "PitchMin": 5.0,
+          "VelocityMax": 0.54,
+          "VelocityMin": 0.48
+        },
+        "SubSpecialSpecUpList": []
+      },
+      "CollisionParam": {
+        "ChangeFrameForField": 4,
+        "ChangeFrameForPlayer": 5,
+        "EndRadiusForField": 0.25,
+        "EndRadiusForPlayer": 0.4,
+        "FriendThroughFrameForPlayer": 1000,
+        "InitRadiusForField": 0.1,
+        "InitRadiusForPlayer": 0.04
+      },
+      "DirectDamage": 600,
+      "DrawSize": 0.7,
+      "MoveParam": {
+        "BrakeAirResist": 0.1,
+        "BrakeGravity": 0.04,
+        "BrakeToFreeStateFrame": 1,
+        "BrakeToFreeVelocityXZ": 20.0,
+        "BrakeToFreeVelocityY": 10.0,
+        "FreeAirResist": 0.12,
+        "FreeGravity": 0.05,
+        "GoStraightStateEndMaxSpeed": 10.0,
+        "GoStraightToBrakeStateFrame": 8,
+        "SpawnSpeed": 2.0
+      },
+      "SplashParam": {
+        "DrawSizeCollisionPaintParam": {
+          "CollisionParam": {
+            "ChangeFrameForField": 0,
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.15,
+            "EndRadiusForPlayer": 0.0,
+            "FriendThroughFrameForPlayer": 0,
+            "InitRadiusForField": 0.15,
+            "InitRadiusForPlayer": 0.0
+          },
+          "DrawRadius": 0.1,
+          "PaintDepthScale": 2.0,
+          "PaintWidthHalf": 1.12
+        },
+        "SpawnParam": {
+          "FirstSplashRateForLengthMax": 1.0,
+          "FirstSplashRateForLengthMin": 1.0,
+          "SpawnBetweenLength": 3.1,
+          "SpawnNum": 10
+        }
+      }
+    },
+    "ShooterCollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "ChangeFrameForField": 0,
+      "ChangeFrameForPlayer": 0,
+      "EndRadiusForField": 0.2,
+      "EndRadiusForPlayer": 0.2,
+      "FriendThroughFrameForPlayer": 0,
+      "InitRadiusForField": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "ShooterDamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ReduceEndFrame": 25,
+      "ReduceStartFrame": 9,
+      "ValueMax": 320,
+      "ValueMin": 160
+    },
+    "ShooterMoveParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "BrakeAirResist": 0.36,
+      "BrakeGravity": 0.07,
+      "BrakeToFreeStateFrame": 4,
+      "BrakeToFreeVelocityXZ": 0.2355,
+      "BrakeToFreeVelocityY": -0.15,
+      "FreeAirResist": 0.02,
+      "FreeGravity": 0.016,
+      "GoStraightStateEndMaxSpeed": 2.232,
+      "GoStraightToBrakeStateFrame": 7,
+      "SpawnSpeed": 3.36
+    },
+    "ShooterPaintParam": {
+      "$type": "spl__BulletShooterPaintParam",
+      "DegreeUseDepthScaleMax": 10.0,
+      "DegreeUseDepthScaleMin": 35.0,
+      "DepthScaleMax": 2.4,
+      "DepthScaleMaxBreakFree": 2.4,
+      "DepthScaleMin": 1.4,
+      "DepthScaleMinBreakFree": 1.2,
+      "DistanceFar": 20.0,
+      "DistanceMiddle": 1.1,
+      "DistanceNear": 1.1,
+      "HeightUseDepthScaleMaxBreakFree": 1.5,
+      "HeightUseDepthScaleMinBreakFree": 10.0,
+      "WidthHalfFar": 1.5,
+      "WidthHalfMiddle": 1.6,
+      "WidthHalfNear": 1.6
+    },
+    "ShooterSplashPaintParam": {
+      "$type": "spl__BulletSplashShooterPaintParam",
+      "DepthMaxDropHeight": 3.0,
+      "DepthMinDropHeight": 10.0,
+      "DepthScaleMax": 1.2,
+      "DepthScaleMin": 1.0,
+      "WidthHalf": 1.0,
+      "WidthHalfNearest": 2.016
+    },
+    "ShooterSplashSpawnParam": {
+      "$type": "spl__BulletSplashShooterSpawnParam",
+      "ForceSpawnNearestAddNumArray": [],
+      "RandomSpawnVelXMax": 0.055,
+      "RandomSpawnVelYMax": 0.015,
+      "RandomSpawnVelZMax": 0.02,
+      "RandomSpawnVelZMin": 0.01,
+      "SpawnBetweenLength": 10.0,
+      "SpawnNearestLength": 1.0,
+      "SpawnNum": 2.5,
+      "SplitNum": 8
+    },
+    "ShooterWallDropCollisionPaintParam": {
+      "$type": "spl__BulletWallDropCollisionPaintParam",
+      "FallPeriodFirstSecondTargetAlp": 1.0,
+      "PaintRadiusFall": 0.65,
+      "PaintRadiusGround": 0.6,
+      "PaintRadiusShock": 1.3
+    },
+    "ShooterWallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMax": 40,
+      "FallPeriodFirstFrameMin": 20,
+      "FallPeriodFirstTargetSpeed": 0.06,
+      "FallPeriodLastFrameMax": 35,
+      "FallPeriodLastFrameMin": 15,
+      "FallPeriodSecondFrame": 10,
+      "FallPeriodSecondTargetSpeed": 0.06,
+      "FreeGravityType": "value_0_008"
+    },
+    "WeaponSpChariotParam": {
+      "$type": "spl__WeaponSpChariotParam",
+      "ArmorHP": 5000,
+      "ArmorHP_BreakScissors": 2500,
+      "CannonNoShotFrame": 32,
+      "CannonRepeatFrame": 75,
+      "CautionFrm": 180,
+      "FrameOffsetMaxMoveLength": 3.0,
+      "MoveAcc_Air": 0.006,
+      "MoveAcc_Gnd": 0.008,
+      "MoveBrk": 0.004,
+      "MoveSpeedCoef_Squid": 0.6,
+      "MoveSpeedCoef_Squid_SpongeEnemy": 0.125,
+      "MoveSpeedX": 0.075,
+      "MoveSpeedX_SpongeEnemy": 0.024,
+      "MoveSpeedZ": 0.015,
+      "MoveSpeedZ_SpongeEnemy": 0.0048,
+      "MoveTrn": 0.8,
+      "PostDelayFrame": 1,
+      "PreDelayFrame_HumanShot": 0,
+      "PreDelayFrame_SquidShot": 4,
+      "RotDegLmt_ShotDirXZ_H": 1.0,
+      "RotDegLmt_ShotDirXZ_L": 18.0,
+      "RotDegLmt_ToHumanFrm": 20,
+      "ShooterRepeatFrame_Bias": 0.2,
+      "ShooterRepeatFrame_First": 12.0,
+      "ShooterRepeatFrame_Last": 4.0,
+      "ShooterRepeatFrame_Term": 90,
+      "ShotGuideCannonFrame": 0,
+      "ShotGuideShooterFrame": 9,
+      "ShotPitVelLmt": 0.015,
+      "SpecialTotalFrame": {
+        "High": 660.0,
+        "Low": 540.0,
+        "Mid": 600.0
+      },
+      "Stand_DegBiasDecrease": 0.01,
+      "Stand_DegBiasKf": 0.015,
+      "Stand_DegBiasMax": 0.25,
+      "Stand_DegBiasMin": 0.02,
+      "Stand_DegSwerve": 3.0,
+      "StartDelayFrame_Cannon": 20,
+      "StartDelayFrame_Chariot_NetRecv": 10,
+      "StartDelayFrame_Chariot_NetSend": 40,
+      "StartDelayFrame_Shooter": 20
+    },
+    "spl__BulletShooterTailLengthParam": {
+      "$type": "spl__BulletShooterTailLengthParam",
+      "DelayShotFrame": 4,
+      "EndMaxLength": 2.0,
+      "MaxLengthFrame": 10,
+      "StartMaxLength": 20.0
+    },
+    "spl__PaintMonitorSetParam": {
+      "$type": "spl__PaintMonitorSetParam",
+      "InkTexType": "Disk",
+      "PaintMonitorNum": 2,
+      "RelabilityMinTime": 0
+    }
+  }
+}
