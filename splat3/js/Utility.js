@@ -347,10 +347,32 @@ export function locker_figure_name_formatter(value) {
     return localize("CommonMsg/Goods/GoodsName", value)
 }
 
+// thanks to kjhf https://github.com/Leanny/leanny.github.io/issues/171
+function rgbaToVal(redF, greenF, blueF, alphaF = 1.0) {
+    let redInt = 255.0 * redF
+    let greenInt = 255.0 * greenF
+    let blueInt = 255.0 * blueF
+    let alphaInt = 255.0 * alphaF
+    let colorVal = ((alphaInt & 0xff) << 24) | ((redInt & 0xff) << 16) | ((greenInt & 0xff) << 8) | (blueInt & 0xff)
+    colorVal = colorVal >>> 0 // Make uint
+    return colorVal
+}
+
+function rgbaToHex(redF, greenF, blueF, alphaF = 1.0) {
+    let colorVal = rgbaToVal(redF, greenF, blueF, alphaF)
+    // console.log("ARGB: 0x" + colorVal.toString(16).toUpperCase());
+    return "#" + colorVal.toString(16) // e.g. #ff112233
+}
+
 export function color_formatter(value) {
     return `<p style="background-color: rgba(${value.R * 255}, ${value.G * 255}, ${value.B * 255}, ${value.A});">R: ${
         value.R
-    }<br />G: ${value.G}<br />B: ${value.B}<br />A: ${value.A}</p>`
+    }<br />G: ${value.G}<br />B: ${value.B}<br />A: ${value.A}</p><p>${rgbaToHex(
+        value.R,
+        value.G,
+        value.B,
+        value.A
+    )}</p>`
 }
 
 export function badge_image_format(value) {
