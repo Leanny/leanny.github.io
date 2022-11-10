@@ -82,10 +82,10 @@
     "ResultPossible": "Possible Seed"
   },
   "Lanista": {
-    "Introduction": " I will help you now to generate a token and guide you through the process.",
-    "Step1": "Click on the following link:",
-    "Step2": "Hold your mouse above \"Select this account\".",
-    "Step3": "Right click on the button (or hold your thumb on mobile) and then select \"Copy Link\".",
-    "Step4": "Paste the URL into the DMs."
+    "Introduction": "이제 토큰생성 및 적용절차를 안내하겠습니다.",
+    "Step1": "이 링크를 눌러 열어주세요:",
+    "Step2": "마우스 커서를 \"이 사람으로\" 위로 놓으신다음.",
+    "Step3": "버튼을 우클릭 (모바일일시 길게 누르기) 후 \"링크 복사"\를 선택해주세요.",
+    "Step4": "복사된 링크를 DM에 붙여넣은후 보내주세요."
   }
 }
