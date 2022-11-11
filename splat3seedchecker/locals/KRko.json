@@ -68,7 +68,6 @@
     "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (For example on the <0>Sendou.ink Discord</0> or <1>LUTI Discord</1>.)",
     "SplatnetInstructionsStep2": "Send a private message to the Lanista Bot with content <0>{{command, string}}</0>.",
     "SplatnetInstructionsStep3": "Follow the instructions on screen to obtain a JSON file that you can upload here."
-
   },
   "Recovery": {
     "ButtonRefine": "Refine Seed",
@@ -82,10 +81,10 @@
     "ResultPossible": "Possible Seed"
   },
   "Lanista": {
-    "Introduction": "이제 토큰생성 및 적용절차를 안내하겠습니다.",
-    "Step1": "이 링크를 눌러 열어주세요:",
-    "Step2": "마우스 커서를 \"이 사람으로\" 위로 놓으신다음.",
-    "Step3": "버튼을 우클릭 (모바일일시 길게 누르기) 후 \"링크 복사"\를 선택해주세요.",
-    "Step4": "복사된 링크를 DM에 붙여넣은후 보내주세요."
+    "Introduction": "\uc774\uc81c \ud1a0\ud070\uc0dd\uc131 \ubc0f \uc801\uc6a9\uc808\ucc28\ub97c \uc548\ub0b4\ud558\uaca0\uc2b5\ub2c8\ub2e4.",
+    "Step1": "\uc774 \ub9c1\ud06c\ub97c \ub20c\ub7ec \uc5f4\uc5b4\uc8fc\uc138\uc694:",
+    "Step2": "\ub9c8\uc6b0\uc2a4 \ucee4\uc11c\ub97c \"\uc774 \uc0ac\ub78c\uc73c\ub85c\" \uc704\ub85c \ub193\uc73c\uc2e0\ub2e4\uc74c.",
+    "Step3": "\ubc84\ud2bc\uc744 \uc6b0\ud074\ub9ad (\ubaa8\ubc14\uc77c\uc77c\uc2dc \uae38\uac8c \ub204\ub974\uae30) \ud6c4 \"\ub9c1\ud06c \ubcf5\uc0ac\"\ub97c \uc120\ud0dd\ud574\uc8fc\uc138\uc694.",
+    "Step4": "\ubcf5\uc0ac\ub41c \ub9c1\ud06c\ub97c DM\uc5d0 \ubd99\uc5ec\ub123\uc740\ud6c4 \ubcf4\ub0b4\uc8fc\uc138\uc694."
   }
 }

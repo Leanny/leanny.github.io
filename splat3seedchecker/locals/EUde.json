@@ -18,14 +18,14 @@
     "ResultSeedAfterRoll": "Seed nach dem Leveln",
     "ResultUpdateSeed": "Seed Updaten",
     "SearchResultAdvanceSeed": "Lass den Seed {{seed}} {{advances}}-mal weiterlaufen. Sorge dafür, dass deine Ausrüstung keine Effekte drauf hat.",
-    "SearchResultChunks": "Schalalte den Effekt mit <0></0> Effekt-Fragmenten frei.",
-    "SearchResultNote": "Hinweis: Du kannst jedes Getränk verwenden, nicht nur das vorgeschlagene. Es kann jedoch sein, dass sich dann die freigeschaltenen Effekte unterscheiden. Bitte überprüfe hier die Effekte in der üblichen Tabelle.",
+    "SearchResultChunks": "Schalte den Effekt mit <0></0> Effekt-Fragmenten frei.",
+    "SearchResultNote": "Hinweis: Du kannst jedes Getränk verwenden, nicht nur das vorgeschlagene. Es kann jedoch sein, dass sich dann die freigeschalteten Effekte unterscheiden. Bitte überprüfe hier die Effekte in der üblichen Tabelle.",
     "SearchResultPathFound": "Pfad gefunden",
     "SearchResultResultingSeed": "Anschließender Seed",
     "SearchResultHideHowToAdvance": "Verstecken",
     "SearchResultShowHowToAdvance": "Zeige, wie man den Seed weiterlaufen lässt",
-    "SearchResultUnlockSlot": "Schalte einen Effekt OHNE Getränk frei um den Effekt <0 /> zu erhalten.",
-    "SearchResultUnlockSlotDrink": "Schalte einen Effekt mit dem aktiven Getränk <0 /> frei um den Effekt <1 /> zu erhalten.",
+    "SearchResultUnlockSlot": "Schalte einen Effekt OHNE Getränk frei, um den Effekt <0 /> zu erhalten.",
+    "SearchResultUnlockSlotDrink": "Schalte einen Effekt mit dem aktiven Getränk <0 /> frei, um den Effekt <1 /> zu erhalten.",
     "StartSlot": "Start-Slot",
     "TabSearchTarget": "Ziel Suchen",
     "TabShowAllResults": "Alle Ergebnisse Anzeigen",
@@ -76,16 +76,16 @@
     "ButtonUpdate": "Ausrüstung Updaten",
     "HaveBrand": "Wähle die Marke der Ausrüstung. Anschließend wähle die Fähigkeiten und Getränke, die für den jeweiligen Slot zusagen. Die Berechnung des Seeds kann bis zu zwei Minuten dauern.",
     "Refine1": "Der Verfeinerungsgrad wird für zwei Sachen verwendet: die Anzahl der Seeds die gefunden werden müssen, damit die Suche abgebrochen wird (sprich: Je kleiner die Zahl, umso schneller bricht er ab, wenn zu viele Ergebnisse gefunden wurden), und der Speicherverbrauch, den die Webseite zum Merken der Seeds verwenden darf.",
-    "Refine2": "Wenn ein Seed verfeinert wird, dann werden nur die Seeds im Gedächnis der Webseite überprüft, was die Dauer der Suche verkürzt. Am Handy sollte der Verfeinerungsgrad maximal 100.000 (100k) sein.",
+    "Refine2": "Wenn ein Seed verfeinert wird, dann werden nur die Seeds im Gedächtnis der Webseite überprüft, was die Dauer der Suche verkürzt. Am Handy sollte der Verfeinerungsgrad maximal 100.000 (100k) sein.",
     "RefineCount": "Verfeinerungsgrad",
     "ResultNoResults": "Keine Ergebnisse.",
     "ResultPossible": "Möglicher Seed"
   },
   "Lanista": {
-    "Introduction": " I will help you now to generate a token and guide you through the process.",
-    "Step1": "Click on the following link:",
-    "Step2": "Hold your mouse above \"Select this account\".",
-    "Step3": "Right click on the button (or hold your thumb on mobile) and then select \"Copy Link\".",
-    "Step4": "Paste the URL into the DMs."
+    "Introduction": "Bitte folge der Anleitung, um einen neuen Token zu generieren und dein Gear zu importieren.",
+    "Step1": "Klicke auf den folgenden Link:",
+    "Step2": "Halte die Maus über \"Diese Person auswählen\".",
+    "Step3": "Rechtsklick auf den Button und \"Link-Adresse Kopieren\" auswählen.",
+    "Step4": "Kopiere diese Link-Adresse hier in das DM Feld."
   }
 }
