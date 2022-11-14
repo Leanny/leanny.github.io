@@ -53,7 +53,7 @@
   },
   "Database": {
     "AddNewGear": "Aggiungi un equipaggiamento",
-    "BrandNewGear": "Marca del Nuovo Equipaggiamento",
+    "BrandNewGear": "Usa il Seme iniziale dell'Equipaggiamento (nuovo, mai usato)",
     "ButtonOpen": "Carica",
     "ButtonSave": "Salva",
     "DeleteConfirmation": "Sei sicuro di voler cancellare questo equipaggiamento?",
