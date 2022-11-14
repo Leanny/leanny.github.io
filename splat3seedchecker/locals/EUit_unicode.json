@@ -1,6 +1,6 @@
 {
   "Checker": {
-    "AllowChunks": "Usa Frammenti Abilit\u00e0",
+    "AllowChunks": "Usa Frammenti Abilità",
     "AllowedDrinks": "Usa Bevande",
     "ButtonDisplayResults": "Visualizza Frammenti",
     "ButtonFindResult": "Cerca Soluzioni",
@@ -18,18 +18,18 @@
     "ResultSeedAfterRoll": "Prossimi Valore del Seme",
     "ResultUpdateSeed": "Aggiorna il Seme",
     "SearchResultAdvanceSeed": "Aggiorna il Seme {{advances}} volte, fino al Seme {{seed}}. Assicurati di avere l'equipaggiamento con gli slot vuoti.",
-    "SearchResultChunks": "Riempi uno slot con <0></0> frammenti abilit\u00e0.",
+    "SearchResultChunks": "Riempi uno slot con <0></0> frammenti abilità.",
     "SearchResultHideHowToAdvance": "Nascondi",
-    "SearchResultNote": "Nota: Puoi usare qualsiasi bevanda in alternativa a quella suggerita. Si pu\u00f2 fare riferimento alle Sequenze Temporali per esaminare le differenti possibilit\u00e0.",
+    "SearchResultNote": "Nota: Puoi usare qualsiasi bevanda in alternativa a quella suggerita. Si può fare riferimento alle Sequenze Temporali per esaminare le differenti possibilità.",
     "SearchResultPathFound": "Soluzioni trovate:",
     "SearchResultResultingSeed": "Seme Risultante",
     "SearchResultShowHowToAdvance": "Mostra percorso per l'avanzamanto",
     "SearchResultUnlockSlot": "Riempi uno slot SENZA usare alcuna bevanda per ottenere <0 />",
     "SearchResultUnlockSlotDrink": "Riempi uno slot con <0 /> bevanda per ottenere <1 />",
     "StartSlot": "Slot Iniziale",
-    "TabSearchTarget": "Ricerca Frammenti Abilit\u00e0",
+    "TabSearchTarget": "Ricerca Frammenti Abilità",
     "TabShowAllResults": "Visualizza Prossimi Frammenti",
-    "Target": "Frammenti Abilit\u00e0 da Ricercare",
+    "Target": "Frammenti Abilità da Ricercare",
     "Timeline": "Sequenza Temporale Prossimi Frammenti"
   },
   "Common": {
@@ -70,7 +70,7 @@
     "UploadJsonPath": "...o incollalo qui."
   },
   "Lanista": {
-    "Introduction": "Ti aiuter\u00f2 ora a generare un token e guidandoti con una procedura.",
+    "Introduction": "Ti aiuterò ora a generare un token e guidandoti con una procedura.",
     "Step1": "Clicca sul seguente collegamento:",
     "Step2": "Mantieni il mouse sopra \"Select this account\".",
     "Step3": "Seleziona il tasto destro del mouse (o mantieni premuto il dito sul cellulare) e quindi seleziona \"Copy Link\".",
@@ -81,9 +81,9 @@
     "ButtonSearch": "Ricerca il Seed",
     "ButtonUpdate": "Salva nell'Equipaggiamento",
     "Fast": "Fast",
-    "HaveBrand": "Seleziona la marca della tuo equipaggiamenoto. Quindi, seleziona le abilit\u00e0 sbloccate e la bevanda che avevi attiva per quello slot. Il calcolo del Seme richiede circa 1 o 2 minuti, quindi sii paziente.",
-    "Refine1": "Il Contatore di Perfezionamento viene utilizzato per due cose: indica alla ricerca di interrompersi quando superi il valore del Contatore di Perfezionamento (quindi pi\u00f9 basso \u00e8 il numero, pi\u00f9 velocemente potresti vedere un risultato quando ci sono troppi candidati), nonch\u00e9 limita la quantit\u00e0 di memoria utilizzata dall'applicazione durante il processo di perfezionamento.",
-    "Refine2": "Quando si perfeziona un Seme, l'applicazione non esaminer\u00e0 tutti i Semi possibili, ma guarder\u00e0 solo i Semi che ha in memoria. Ci\u00f2 accelerer\u00e0 molto il processo di ricerca (da alcuni minuti si riduce a pochi secondi). Se stai utilizzando l'applicazione su di un cellulare, il mio consiglio \u00e8 di non utilizzare valori del Contatore di Perfezionamento maggiori di 100.000 (100k).",
+    "HaveBrand": "Seleziona la marca della tuo equipaggiamenoto. Quindi, seleziona le abilità sbloccate e la bevanda che avevi attiva per quello slot. Il calcolo del Seme richiede circa 1 o 2 minuti, quindi sii paziente.",
+    "Refine1": "Il Contatore di Perfezionamento viene utilizzato per due cose: indica alla ricerca di interrompersi quando superi il valore del Contatore di Perfezionamento (quindi più basso è il numero, più velocemente potresti vedere un risultato quando ci sono troppi candidati), nonché limita la quantità di memoria utilizzata dall'applicazione durante il processo di perfezionamento.",
+    "Refine2": "Quando si perfeziona un Seme, l'applicazione non esaminerà tutti i Semi possibili, ma guarderà solo i Semi che ha in memoria. Ciò accelererà molto il processo di ricerca (da alcuni minuti si riduce a pochi secondi). Se stai utilizzando l'applicazione su di un cellulare, il mio consiglio è di non utilizzare valori del Contatore di Perfezionamento maggiori di 100.000 (100k).",
     "RefineCount": "Contatore di Perfezionamento",
     "ResultNoResults": "Nessun Seme trovato.",
     "ResultPossible": "Possibli Semi"

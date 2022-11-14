@@ -4,8 +4,8 @@
     "AllowedDrinks": "Allowed Drinks",
     "ButtonDisplayResults": "Display Results",
     "ButtonFindResult": "Find Result",
-    "ButtonShowTimeline": "Show Timeline",
     "ButtonHideTimeline": "Hide Timeline",
+    "ButtonShowTimeline": "Show Timeline",
     "ButtonUpdateAndSave": "Update Seed And Save Gear",
     "ButtonUpdateSeed": "Update Seed",
     "CurrentSeed": "Current Seed",
@@ -19,10 +19,10 @@
     "ResultUpdateSeed": "Update Seed",
     "SearchResultAdvanceSeed": "Advance your seed {{advances}} times and start at seed {{seed}}. Make sure the gear has no slots on it.",
     "SearchResultChunks": "Unlock a slot with <0></0> chunks.",
+    "SearchResultHideHowToAdvance": "Hide",
     "SearchResultNote": "Note: You can use every drink instead of the suggested one. Please refer to the usual table with your desired drink active to see exact abilities.",
     "SearchResultPathFound": "Path found:",
     "SearchResultResultingSeed": "Resulting Seed",
-    "SearchResultHideHowToAdvance": "Hide",
     "SearchResultShowHowToAdvance": "Show how to advance",
     "SearchResultUnlockSlot": "Unlock a slot with NO drink active to unlock <0 />",
     "SearchResultUnlockSlotDrink": "Unlock a slot with <0 /> drink active to unlock <1 />",
@@ -54,32 +54,20 @@
   "Database": {
     "AddNewGear": "Add new gear",
     "BrandNewGear": "Brand New Gear",
-    "ButtonSave": "Save",
     "ButtonOpen": "Open",
+    "ButtonSave": "Save",
     "DeleteConfirmation": "Are you sure you want to delete this gear?",
-    "ErrorJSONParse": "Unable to parse JSON file.",
     "ErrorInvalidFormat": "Invalid Format.",
+    "ErrorJSONParse": "Unable to parse JSON file.",
     "NewClothesGear": "New Clothes",
     "NewHeadGear": "New Headgear",
     "NewShoesGear": "New Shoes",
-    "UploadJson": "Load your JSON file here...",
-    "UploadJsonPath": "...or paste it here.",
     "SplatnetInstructions": "Instructions",
     "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (For example on the <0>Sendou.ink Discord</0> or <1>LUTI Discord</1>.)",
     "SplatnetInstructionsStep2": "Send a private message to the Lanista Bot with content <0>{{command, string}}</0>.",
-    "SplatnetInstructionsStep3": "Follow the instructions on screen to obtain a JSON file that you can upload here."
-
-  },
-  "Recovery": {
-    "ButtonRefine": "Refine Seed",
-    "ButtonSearch": "Search Seed",
-    "ButtonUpdate": "Update Gear",
-    "HaveBrand": "Please select the Brand of your gear. Then, please select the unlocked abilities and the drink you had active for this slot. Calculating the seed will take approximately 1 to 2 minutes, so please be patient.",
-    "Refine1": "The refine count is used for two things: Tell the search to stop when you exceed the refine count (so the lower the number, the fast you might see a result when there are too many candidates), as well as the amount of memory consumption the application uses in order to allow you to refine the result.",
-    "Refine2": "When refining a seed, the application will not look at every possible seed, but instead only look at the seeds it has in memory. This will speed up additional searches by a lot (i.e. from minutes it goes to down to a few seconds at most). If you are on a mobile phone, my suggestion is not to succeed the refine count by more than 100.000 (100k).",
-    "RefineCount": "Refine Count",
-    "ResultNoResults": "No results to display.",
-    "ResultPossible": "Possible Seed"
+    "SplatnetInstructionsStep3": "Follow the instructions on screen to obtain a JSON file that you can upload here.",
+    "UploadJson": "Load your JSON file here...",
+    "UploadJsonPath": "...or paste it here."
   },
   "Lanista": {
     "Introduction": "I will help you now to generate a token and guide you through the process.",
@@ -87,5 +75,33 @@
     "Step2": "Hold your mouse above \"Select this account\".",
     "Step3": "Right click on the button (or hold your thumb on mobile) and then select \"Copy Link\".",
     "Step4": "Paste the URL into the DMs."
+  },
+  "Recovery": {
+    "ButtonRefine": "Refine Seed",
+    "ButtonSearch": "Search Seed",
+    "ButtonUpdate": "Update Gear",
+    "Fast": "Fast",
+    "HaveBrand": "Please select the Brand of your gear. Then, please select the unlocked abilities and the drink you had active for this slot. Calculating the seed will take approximately 1 to 2 minutes, so please be patient.",
+    "Refine1": "The refine count is used for two things: Tell the search to stop when you exceed the refine count (so the lower the number, the fast you might see a result when there are too many candidates), as well as the amount of memory consumption the application uses in order to allow you to refine the result.",
+    "Refine2": "When refining a seed, the application will not look at every possible seed, but instead only look at the seeds it has in memory. This will speed up additional searches by a lot (i.e. from minutes it goes to down to a few seconds at most). If you are on a mobile phone, my suggestion is not to succeed the refine count by more than 100.000 (100k).",
+    "RefineCount": "Refine Count",
+    "ResultNoResults": "No results to display.",
+    "ResultPossible": "Possible Seed"
+  },
+  "SeedListing": {
+    "DeleteSeed": "Reset Seed",
+    "Grade": "Grade",
+    "Intro": "In order to use the Shell-Out Machine Prediction, you need to find your seed first. In order to find your seed, you need to do multiple pulls in a row and write down the results. Please make sure that you enter the results from the correct Shell-Out machine (i.e. normal capsules outside of a splatfest and capsules with a shell on it are for the splatfest seed).",
+    "NoSeedFoundYet": "No possible seeds found yet.",
+    "Normal": "Normal",
+    "OneSeedFound": "Only one possible seed found.",
+    "Pull": "Pull",
+    "Result": "Result",
+    "Rolls": "Rolls",
+    "SeedFinder": "Seed Finder",
+    "ShowResultTypes": "Show Result Types",
+    "Splatfest": "Splatfest",
+    "StoreSeed": "Store Seed",
+    "TooManySeeds": "Too many possible seeds found. Please add another pull."
   }
 }
