@@ -639,14 +639,14 @@ onmessage = e => {
     const gear_seed = wrapSeed(Module)
     const seed_refine = wrapSeedRefine(Module)
     let res
-    if (e.data.displayResults === undefined) {
+    if (e.data.displaySequence === undefined) {
         res = gear_seed(sequence, drinks, brand, refine_max).map(elem => {
             return { Start: elem, Seed: `0x${(get_seed_after_roll(elem, sequence, drinks, brand) >>> 0).toString(16)}` }
         })
     } else {
         res = seed_refine(
             sequence,
-            e.data.displayResults.map(elem => elem.Start),
+            e.data.displaySequence.map(elem => elem.Start),
             drinks,
             brand
         ).map(elem => {
