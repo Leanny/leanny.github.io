@@ -86,22 +86,22 @@
     "Refine2": "Al refinar una semilla, la aplicación no verá cada posible semilla, sino que verá sólo las semillas que tiene en la memoria. Esto acelerará las búsquedas adicionales considerablemente, (es decir, de minutos pasa a demorar unos segundos a lo mucho). Si estás usando un teléfono celular, mi sugerencia es no aumentar el contador refinado más allá de 100.000 (100K).",
     "RefineCount": "Contador Refinado",
     "ResultNoResults": "No hay resultados disponibles.",
-    "ResultPossible": "Semilla Posible"
+    "ResultPossible": "Posible Semilla"
   },
   "SeedListing": {
     "DeleteSeed": "Reiniciar Semilla",
-    "Grade": "Grado",
-    "Intro": "Para usar la predicción del Premiotrón, primero tienes que encontrar tu semilla. Para encontrar tu semilla, tienes que hacer múltiples tiradas y anotar los resultados. Por favor asegúrate de ingresar los resultados del Premiotrón correcto (es decir, cápsulas normales fuera de un Festival. Las cápsulas con una caracola son para la semilla de Festival.",
+    "Grade": "Categoría",
+    "Intro": "Para usar la predicción del Premiotrón, primero tienes que encontrar tu semilla. Para encontrar tu semilla, tienes que hacer múltiples tiradas y anotar los resultados. Por favor asegúrate de ingresar los resultados del Premiotrón correcto (es decir, cápsulas normales cuando no un Festival / Splatfest. Las cápsulas con una caracola son usadas para la semilla cuando hay un Festival / Splatfest.)",
     "NoSeedFoundYet": "Aún no se han encontrado posibles semillas.",
     "Normal": "Normal",
-    "OneSeedFound": "Se encontró sólo una semilla posible.",
+    "OneSeedFound": "Se encontró una sola posible semilla.",
     "Pull": "Tirada",
     "Result": "Resultado",
     "Rolls": "Sorteos",
     "SeedFinder": "Descubridor de Semilla",
-    "ShowResultTypes": "Mostras Tipos de Resultado",
+    "ShowResultTypes": "Mostrar Tipos de Resultado",
     "Splatfest": "Festival / Splatfest",
     "StoreSeed": "Almacenar Semilla",
-    "TooManySeeds": "Se encontraron muchas posibles semillas. Por favor añade otra tirada."
+    "TooManySeeds": "Se encontraron demasiadas posibles semillas. Por favor añade otra tirada."
   }
 }
