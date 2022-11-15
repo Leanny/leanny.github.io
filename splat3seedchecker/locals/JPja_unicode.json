@@ -21,7 +21,7 @@
     "SearchResultChunks": "スパイキーのギアパワーつけ替えで <0></0> をつけます。",
     "SearchResultHideHowToAdvance": "非表示",
     "SearchResultNote": "注：提案されたドリンク以外も利用可能です。正確な結果を見るには、利用したいドリンクだけを選択してください。",
-    "SearchResultPathFound": "手順が見つかりました：",
+    "SearchResultPathFound": "手順が見つかりました",
     "SearchResultResultingSeed": "この時点でのシード",
     "SearchResultShowHowToAdvance": "進め方を表示",
     "SearchResultUnlockSlot": "ドリンクを飲まずにギアレベルを上げ、 <0 /> をつけます。",
@@ -53,7 +53,7 @@
   },
   "Database": {
     "AddNewGear": "新しいギアを追加",
-    "BrandNewGear": "新しいギアブランド",
+    "BrandNewGear": "新品のギア",
     "ButtonOpen": "開く",
     "ButtonSave": "保存",
     "DeleteConfirmation": "このギアを削除してもよろしいですか？",
@@ -72,15 +72,15 @@
   "Lanista": {
     "Introduction": "トークンを生成するお手伝いをします。手順をご案内します。",
     "Step1": "以下のリンクをクリックしてください：",
-    "Step2": "\"Select this account\" にマウスカーソルを合わせる。",
-    "Step3": "ボタンの上で右クリック（モバイルの場合は長押し）して、\"Copy Link\" を選択する。",
-    "Step4": "URLをDMに貼り付ける。"
+    "Step2": "「この人にする」にマウスカーソルを合わせる。",
+    "Step3": "ボタンの上で右クリック（モバイルの場合は長押し）して、リンクをコピーする。",
+    "Step4": "コピーしたリンクをDMに貼り付ける。"
   },
   "Recovery": {
     "ButtonRefine": "シードをしぼりこむ",
     "ButtonSearch": "シードを検索",
     "ButtonUpdate": "ギアを更新",
-    "Fast": "Fast",
+    "Fast": "高速",
     "HaveBrand": "ギアブランドを選択してください。次に、ついたギアパワーとその際に飲んでいたドリンクを選択してください。シードの計算には約1～2分かかりますのでしばらくお待ちください。",
     "Refine1": "絞り込み数は二つのことに使われます。一つは、この値を超えたらシードの検索をやめます（つまり、この数値が小さいほど、候補が多すぎる場合に結果が早く表示されます）。もう一つは、検索結果をしぼりこむ際のアプリのメモリ使用量です。",
     "Refine2": "「シードをしぼりこむ」では、アプリは全てのシードを調べずに、メモリ内にあるシードのみを調べます。これにより、追加の検索速度が大幅に早くなります（数分かかっていたものが、最高で数秒に短縮されます）。もしあなたがモバイル端末を使っているならば、絞り込み数は100,000以上にしないことをおすすめします。",
@@ -89,19 +89,19 @@
     "ResultPossible": "シードの候補"
   },
   "SeedListing": {
-    "DeleteSeed": "Reset Seed",
-    "Grade": "Grade",
-    "Intro": "In order to use the Shell-Out Machine Prediction, you need to find your seed first. In order to find your seed, you need to do multiple pulls in a row and write down the results. Please make sure that you enter the results from the correct Shell-Out machine (i.e. normal capsules outside of a splatfest and capsules with a shell on it are for the splatfest seed).",
-    "NoSeedFoundYet": "No possible seeds found yet.",
-    "Normal": "Normal",
-    "OneSeedFound": "Only one possible seed found.",
-    "Pull": "Pull",
-    "Result": "Result",
-    "Rolls": "Rolls",
-    "SeedFinder": "Seed Finder",
-    "ShowResultTypes": "Show Result Types",
-    "Splatfest": "Splatfest",
-    "StoreSeed": "Store Seed",
-    "TooManySeeds": "Too many possible seeds found. Please add another pull."
+    "DeleteSeed": "シードをリセット",
+    "Grade": "レアリティ",
+    "Intro": "ガチャマシンの結果を予測するには、まず自分のシードを見つけます。複数回連続して引き、その結果を入力してください。通常時のガチャとフェス時のガチャはそれぞれ別にシードが設定されていますので、結果を入力する際には正しい方のタブを選択してください。",
+    "NoSeedFoundYet": "シードの候補が見つかりません。",
+    "Normal": "通常時",
+    "OneSeedFound": "シードが一つ見つかりました。",
+    "Pull": "ガチャの結果",
+    "Result": "結果",
+    "Rolls": "試行回数",
+    "SeedFinder": "シードを見つける",
+    "ShowResultTypes": "表示するガチャの中身",
+    "Splatfest": "フェス時",
+    "StoreSeed": "シードを保持",
+    "TooManySeeds": "シードの候補が多すぎます。ガチャの結果を追加してください。"
   }
 }
