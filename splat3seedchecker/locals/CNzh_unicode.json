@@ -63,9 +63,9 @@
       "NewHeadGear": "新头部装备",
       "NewShoesGear": "新鞋子",
       "SplatnetInstructions": "说明",
-      "SplatnetInstructionsStep1": "在 Discord 找到 Lanista Bot。（您可以在 <0>Sendou.ink Discord</0> 或是 <1>LUTI Discord</1> 找到这个 bot。）",
-      "SplatnetInstructionsStep2": "给 Lanista Bot 发送私信，内容为 <0>{{command, string}}</0>。",
-      "SplatnetInstructionsStep3": "根据屏幕显示的步骤获取 JSON 文件，随后就可以将文件上传到这里了。",
+      "SplatnetInstructionsStep1": "在 Discord 找到 Lanista Bot（您可以在 <0>Sendou.ink Discord</0> 或是 <1>LUTI Discord</1> 的成员列表找到这个机器人）",
+      "SplatnetInstructionsStep2": "进入 Lanista Bot 的私信页面，发送私信 <0>{{command, string}}</0> （不要发在群聊里）。",
+      "SplatnetInstructionsStep3": "根据屏幕显示的步骤获取 JSON 文件，随后将文件上传到这里。",
       "UploadJson": "在这里导入您的 JSON 文件...",
       "UploadJsonPath": "...或者将内容复制粘贴到这里。"
     },
@@ -99,7 +99,7 @@
       "Result": "出货结果",
       "Rolls": "抽数",
       "SeedFinder": "搜索种子",
-      "ShowResultTypes": "筛选出货",
+      "ShowResultTypes": "筛选出货类型",
       "Splatfest": "祭典",
       "StoreSeed": "保存种子",
       "TooManySeeds": "可能的种子数量过多。请增加抽数以缩小范围。"

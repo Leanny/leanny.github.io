@@ -63,9 +63,9 @@
     "NewHeadGear": "\u65b0\u5934\u90e8\u88c5\u5907",
     "NewShoesGear": "\u65b0\u978b\u5b50",
     "SplatnetInstructions": "\u8bf4\u660e",
-    "SplatnetInstructionsStep1": "\u5728 Discord \u627e\u5230 Lanista Bot\u3002\uff08\u60a8\u53ef\u4ee5\u5728 <0>Sendou.ink Discord</0> \u6216\u662f <1>LUTI Discord</1> \u627e\u5230\u8fd9\u4e2a bot\u3002\uff09",
-    "SplatnetInstructionsStep2": "\u7ed9 Lanista Bot \u53d1\u9001\u79c1\u4fe1\uff0c\u5185\u5bb9\u4e3a <0>{{command, string}}</0>\u3002",
-    "SplatnetInstructionsStep3": "\u6839\u636e\u5c4f\u5e55\u663e\u793a\u7684\u6b65\u9aa4\u83b7\u53d6 JSON \u6587\u4ef6\uff0c\u968f\u540e\u5c31\u53ef\u4ee5\u5c06\u6587\u4ef6\u4e0a\u4f20\u5230\u8fd9\u91cc\u4e86\u3002",
+    "SplatnetInstructionsStep1": "\u5728 Discord \u627e\u5230 Lanista Bot\uff08\u60a8\u53ef\u4ee5\u5728 <0>Sendou.ink Discord</0> \u6216\u662f <1>LUTI Discord</1> \u7684\u6210\u5458\u5217\u8868\u627e\u5230\u8fd9\u4e2a\u673a\u5668\u4eba\uff09",
+    "SplatnetInstructionsStep2": "\u8fdb\u5165 Lanista Bot \u7684\u79c1\u4fe1\u9875\u9762\uff0c\u53d1\u9001\u79c1\u4fe1 <0>{{command, string}}</0> \uff08\u4e0d\u8981\u53d1\u5728\u7fa4\u804a\u91cc\uff09\u3002",
+    "SplatnetInstructionsStep3": "\u6839\u636e\u5c4f\u5e55\u663e\u793a\u7684\u6b65\u9aa4\u83b7\u53d6 JSON \u6587\u4ef6\uff0c\u968f\u540e\u5c06\u6587\u4ef6\u4e0a\u4f20\u5230\u8fd9\u91cc\u3002",
     "UploadJson": "\u5728\u8fd9\u91cc\u5bfc\u5165\u60a8\u7684 JSON \u6587\u4ef6...",
     "UploadJsonPath": "...\u6216\u8005\u5c06\u5185\u5bb9\u590d\u5236\u7c98\u8d34\u5230\u8fd9\u91cc\u3002"
   },
@@ -99,7 +99,7 @@
     "Result": "\u51fa\u8d27\u7ed3\u679c",
     "Rolls": "\u62bd\u6570",
     "SeedFinder": "\u641c\u7d22\u79cd\u5b50",
-    "ShowResultTypes": "\u7b5b\u9009\u51fa\u8d27",
+    "ShowResultTypes": "\u7b5b\u9009\u51fa\u8d27\u7c7b\u578b",
     "Splatfest": "\u796d\u5178",
     "StoreSeed": "\u4fdd\u5b58\u79cd\u5b50",
     "TooManySeeds": "\u53ef\u80fd\u7684\u79cd\u5b50\u6570\u91cf\u8fc7\u591a\u3002\u8bf7\u589e\u52a0\u62bd\u6570\u4ee5\u7f29\u5c0f\u8303\u56f4\u3002"
