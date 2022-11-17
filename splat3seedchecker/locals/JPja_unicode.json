@@ -63,7 +63,7 @@
     "NewHeadGear": "新しいアタマ",
     "NewShoesGear": "新しいクツ",
     "SplatnetInstructions": "取扱説明書",
-    "SplatnetInstructionsStep1": "DiscordでLanista Botを探します。 (例えば、 <0>Sendou.ink Discord</0> や <1>LUTI Discord</1> で。)",
+    "SplatnetInstructionsStep1": "DiscordでLanista Botを探します。 (<0>For example here</0>)",
     "SplatnetInstructionsStep2": "Lanista Botにダイレクトメッセージで <0>{{command, string}}</0> と送信します。",
     "SplatnetInstructionsStep3": "画面の指示に従って、ここにアップロードできるJSONファイルを取得してください。",
     "UploadJson": "JSONファイルをここに読み込んでください",
@@ -75,6 +75,14 @@
     "Step2": "「この人にする」にマウスカーソルを合わせる。",
     "Step3": "ボタンの上で右クリック（モバイルの場合は長押し）して、リンクをコピーする。",
     "Step4": "コピーしたリンクをDMに貼り付ける。"
+  },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
   },
   "Recovery": {
     "ButtonRefine": "シードをしぼりこむ",

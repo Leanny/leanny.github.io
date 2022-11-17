@@ -63,7 +63,7 @@
     "NewHeadGear": "New Headgear",
     "NewShoesGear": "New Shoes",
     "SplatnetInstructions": "Instructions",
-    "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (For example on the <0>Sendou.ink Discord</0> or <1>LUTI Discord</1>.)",
+    "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (<0>For example here</0>.)",
     "SplatnetInstructionsStep2": "Send a private message to the Lanista Bot with content <0>{{command, string}}</0>.",
     "SplatnetInstructionsStep3": "Follow the instructions on screen to obtain a JSON file that you can upload here.",
     "UploadJson": "Load your JSON file here...",
@@ -75,6 +75,14 @@
     "Step2": "\ub9c8\uc6b0\uc2a4 \ucee4\uc11c\ub97c \"\uc774 \uc0ac\ub78c\uc73c\ub85c\" \uc704\ub85c \ub193\uc73c\uc2e0\ub2e4\uc74c.",
     "Step3": "\ubc84\ud2bc\uc744 \uc6b0\ud074\ub9ad (\ubaa8\ubc14\uc77c\uc77c\uc2dc \uae38\uac8c \ub204\ub974\uae30) \ud6c4 \"\ub9c1\ud06c \ubcf5\uc0ac\"\ub97c \uc120\ud0dd\ud574\uc8fc\uc138\uc694.",
     "Step4": "\ubcf5\uc0ac\ub41c \ub9c1\ud06c\ub97c DM\uc5d0 \ubd99\uc5ec\ub123\uc740\ud6c4 \ubcf4\ub0b4\uc8fc\uc138\uc694."
+  },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
   },
   "Recovery": {
     "ButtonRefine": "Refine Seed",

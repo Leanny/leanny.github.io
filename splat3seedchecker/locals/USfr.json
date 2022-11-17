@@ -63,7 +63,7 @@
     "NewHeadGear": "New Headgear",
     "NewShoesGear": "New Shoes",
     "SplatnetInstructions": "Instructions",
-    "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (For example on the <0>Sendou.ink Discord</0> or <1>LUTI Discord</1>.)",
+    "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (<0>For example here</0>.)",
     "SplatnetInstructionsStep2": "Send a private message to the Lanista Bot with content <0>{{command, string}}</0>.",
     "SplatnetInstructionsStep3": "Follow the instructions on screen to obtain a JSON file that you can upload here.",
     "UploadJson": "Load your JSON file here...",
@@ -75,6 +75,14 @@
     "Step2": "Hold your mouse above \"Select this account\".",
     "Step3": "Right click on the button (or hold your thumb on mobile) and then select \"Copy Link\".",
     "Step4": "Paste the URL into the DMs."
+  },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
   },
   "Recovery": {
     "ButtonRefine": "Refine Seed",

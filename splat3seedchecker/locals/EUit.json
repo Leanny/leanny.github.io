@@ -63,7 +63,7 @@
     "NewHeadGear": "Nuovo Accessorio",
     "NewShoesGear": "Nuove Scarpe",
     "SplatnetInstructions": "Istruzioni",
-    "SplatnetInstructionsStep1": "Ricerca il Lanista Bot su Discord. (Per esempio in <0>Sendou.ink Discord</0> o <1>LUTI Discord</1>.)",
+    "SplatnetInstructionsStep1": "Ricerca il Lanista Bot su Discord. (<0>For example here</0>.)",
     "SplatnetInstructionsStep2": "Invia un messaggio privato a Lanista Bot con il seguente contenuto <0>{{command, string}}</0>.",
     "SplatnetInstructionsStep3": "Segui le istruzioni mostrate per ortterenre il file JSON che potrai caricare qui.",
     "UploadJson": "Carica qui il tuo file JSON...",
@@ -75,6 +75,14 @@
     "Step2": "Mantieni il mouse sopra \"Select this account\".",
     "Step3": "Seleziona il tasto destro del mouse (o mantieni premuto il dito sul cellulare) e quindi seleziona \"Copy Link\".",
     "Step4": "Incolla il collamento (UR) all'interno di DMs."
+  },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
   },
   "Recovery": {
     "ButtonRefine": "Perfeziona il Seme",

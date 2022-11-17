@@ -76,6 +76,14 @@
     "Step3": "Rechtsklick auf den Button und \"Link-Adresse Kopieren\" auswählen.",
     "Step4": "Kopiere diese Link-Adresse hier in das DM Feld."
   },
+  "Navigation": {
+    "GearDatabase": "Ausrüstungsdatenbank",
+    "GearSeedChecker": "Ausrüstungs Seed Checker",
+    "GearSeedRecovery": "Ausrüstungs Seed Finder",
+    "SeedListing": "Seed Auflister",
+    "TechnicalDetails": "Technische Details",
+    "Tutorial": "Tutorial"
+  },
   "Recovery": {
     "ButtonRefine": "Seed Verfeinern",
     "ButtonSearch": "Seed Suchen",
@@ -91,7 +99,7 @@
   "SeedListing": {
     "DeleteSeed": "Reset Seed",
     "Grade": "Seltenheit",
-    "Intro": "Um die Seed-Vorhersage verwenden zu kÃ¶nnen, mÃ¼ssen wir erst den Seed finden. DafÃ¼r machen wir mehrere Ziehungen und schreiben die Ergebnisse nieder.Stelle dabei sicher, dass du wÃ¤hrend des Splatfestes die Ergebnisse im Splatfest-Reiter eintrÃ¤gst.    ",
+    "Intro": "Um die Seed-Vorhersage verwenden zu können, müssen wir erst den Seed finden. Dafür machen wir mehrere Ziehungen und schreiben die Ergebnisse nieder. Stelle dabei sicher, dass du während des Splatfestes die Ergebnisse im Splatfest-Reiter einträgst.",
     "NoSeedFoundYet": "Keinen Seed gefunden.",
     "Normal": "Normal",
     "OneSeedFound": "Nur einen Seed gefunden.",
@@ -102,6 +110,6 @@
     "ShowResultTypes": "Zeige Typen",
     "Splatfest": "Splatfest",
     "StoreSeed": "Seed Speichern",
-    "TooManySeeds": "Zu viele mÃ¶gliche Seeds gefunden. Trag bitte eine weitere Ziehung ein."
+    "TooManySeeds": "Zu viele mögliche Seeds gefunden. Trag bitte eine weitere Ziehung ein."
   }
 }

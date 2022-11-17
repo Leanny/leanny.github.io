@@ -76,6 +76,14 @@
     "Step3": "Fait clique droit dessus (ou reste appuyer avec ton doigt sur t\u00e9l\u00e9phone) et s\u00e9lectionne \"Copier le lien\".",
     "Step4": "Envoi moi l\u2019URL que tu viens de copier."
   },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
+  },
   "Recovery": {
     "ButtonRefine": "Affiner la Seed",
     "ButtonSearch": "Chercher la Seed",

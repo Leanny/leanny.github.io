@@ -76,6 +76,14 @@
     "Step3": "Haz clic derecho en el bot\u00f3n (o mantenlo oprimido en tu celular) y luego selecciona \"Copiar Enlace\".",
     "Step4": "Haz clic en \"Generate Token\" y pega en enlace que acabas de copiar."
   },
+  "Navigation": {
+    "GearDatabase": "Gear Database",
+    "GearSeedChecker": "Gear Seed Checker",
+    "GearSeedRecovery": "Gear Seed Recovery",
+    "SeedListing": "Seed Listing",
+    "TechnicalDetails": "Technical Details",
+    "Tutorial": "Tutorial"
+  },
   "Recovery": {
     "ButtonRefine": "Refinar Semilla",
     "ButtonSearch": "Buscar Semilla",
