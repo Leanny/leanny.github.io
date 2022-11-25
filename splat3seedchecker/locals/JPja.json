@@ -62,6 +62,8 @@
     "NewClothesGear": "\u65b0\u3057\u3044\u30d5\u30af",
     "NewHeadGear": "\u65b0\u3057\u3044\u30a2\u30bf\u30de",
     "NewShoesGear": "\u65b0\u3057\u3044\u30af\u30c4",
+    "SeedFound": "Seed Found",
+    "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "\u53d6\u6271\u8aac\u660e\u66f8",
     "SplatnetInstructionsStep1": "Discord\u3067Lanista Bot\u3092\u63a2\u3057\u307e\u3059\u3002 (<0>For example here</0>)",
     "SplatnetInstructionsStep2": "Lanista Bot\u306b\u30c0\u30a4\u30ec\u30af\u30c8\u30e1\u30c3\u30bb\u30fc\u30b8\u3067 <0>{{command, string}}</0> \u3068\u9001\u4fe1\u3057\u307e\u3059\u3002",

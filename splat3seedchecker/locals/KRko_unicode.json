@@ -62,6 +62,8 @@
     "NewClothesGear": "New Clothes",
     "NewHeadGear": "New Headgear",
     "NewShoesGear": "New Shoes",
+    "SeedFound": "Seed Found",
+    "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "Instructions",
     "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (<0>For example here</0>.)",
     "SplatnetInstructionsStep2": "Send a private message to the Lanista Bot with content <0>{{command, string}}</0>.",

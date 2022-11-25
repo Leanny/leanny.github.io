@@ -62,6 +62,8 @@
     "NewClothesGear": "新しいフク",
     "NewHeadGear": "新しいアタマ",
     "NewShoesGear": "新しいクツ",
+    "SeedFound": "Seed Found",
+    "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "取扱説明書",
     "SplatnetInstructionsStep1": "DiscordでLanista Botを探します。 (<0>For example here</0>)",
     "SplatnetInstructionsStep2": "Lanista Botにダイレクトメッセージで <0>{{command, string}}</0> と送信します。",

@@ -62,6 +62,8 @@
     "NewClothesGear": "Ropa Nueva",
     "NewHeadGear": "Accesorio Nuevo",
     "NewShoesGear": "Calzado Nuevo",
+    "SeedFound": "Seed Found",
+    "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "Instrucciones",
     "SplatnetInstructionsStep1": "Encuentra al Bot Lanista en Discord. (Por ejemplo en <0>Sendou.ink Discord</0> o <1>LUTI Discord</1>.)",
     "SplatnetInstructionsStep2": "Envía un mensaje privado al Bot Lanista con el siguiente comando: <0>{{command, string}}</0>.",
