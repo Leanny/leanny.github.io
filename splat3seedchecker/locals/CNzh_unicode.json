@@ -63,7 +63,6 @@
     "NewHeadGear": "新头部装备",
     "NewShoesGear": "新鞋子",
     "SeedFound": "Seed Found",
-    "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "说明",
     "SplatnetInstructionsStep1": "在 Discord 找到 Lanista Bot（<0>For example here</0>）",
     "SplatnetInstructionsStep2": "进入 Lanista Bot 的私信页面，发送私信 <0>{{command, string}}</0> （不要发在群聊里）。",
