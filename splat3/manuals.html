@@ -306,6 +306,18 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
+                                id="bigrun-tab"
+                                data-toggle="tab"
+                                href="#bigrun"
+                                role="tab"
+                                aria-controls="bigrun"
+                                aria-selected="false"
+                                >Big Run</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
                                 id="fest-tab"
                                 data-toggle="tab"
                                 href="#fest"
@@ -327,7 +339,7 @@
                                 >Vendor</a
                             >
                         </li>
-                        <!--
+
                         <li class="nav-item">
                             <a
                                 class="nav-link"
@@ -340,7 +352,6 @@
                                 >X-Match</a
                             >
                         </li>
-                        -->
                     </ul>
                     <div class="tab-content" id="modeTabControl">
                         <div
@@ -356,6 +367,11 @@
                         <div class="tab-pane fade" id="coop" role="tabpanel" aria-labelledby="coop-tab">
                             <div class="tab-content" id="coopTabControl">
                                 <div id="coop-chapter"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="bigrun" role="tabpanel" aria-labelledby="bigrun-tab">
+                            <div class="tab-content" id="bigrunTabControl">
+                                <div id="bigrun-chapter"></div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="fest" role="tabpanel" aria-labelledby="fest-tab">
@@ -862,12 +878,18 @@
                                     standard_format("vendor", data_dict)
                                 }
                             )
-                            /*$.getJSON(
+                            $.getJSON(
                                 prefix + "data/parameter/" + version + "/manual/UIManual_XMatch.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("xmatch", data_dict)
                                 }
-                            )*/
+                            )
+                            $.getJSON(
+                                prefix + "data/parameter/" + version + "/manual/UIManual_BigRun.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("bigrun", data_dict)
+                                }
+                            )
                         })
                     })
                 }
