@@ -1,0 +1,62 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 1.4,
+      "CrossPaintRadius": 1.4,
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DistanceDamage": [
+        {
+          "Damage": 350,
+          "Distance": 2.8
+        },
+        {
+          "Damage": 250,
+          "Distance": 4.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 470.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintOffsetY": -0.05,
+      "SplashAroundParam": {
+        "Num": 10,
+        "OffsetY": 0.3,
+        "PaintRadius": 0.7,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.35,
+        "VelocityMin": 0.52
+      }
+    },
+    "MoveParam": {
+      "$type": "spl__BulletBombQuickParam",
+      "GuideHitCollisionType": "EnemyOnFenceOn",
+      "SpawnRotatePitch": 0.4,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      }
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 0
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.4
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShelterNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "spl__BulletShelterCanopyParam": {
+      "$type": "spl__BulletShelterCanopyParam",
+      "CanopyDamage": 1000,
+      "CanopyHoldKnockBackCoreImpactNP": 100.0,
+      "CanopyMoveKnockBackCoreImpactNP": 100.0
+    },
+    "spl__BulletShelterShotgunParam": {
+      "$type": "spl__BulletShelterShotgunParam",
+      "DamageEffectiveTotalMax": 1800,
+      "GroupParams": [
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "ChangeFrameForField": 0,
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.2,
+            "EndRadiusForPlayer": 0.2,
+            "FriendThroughFrameForPlayer": 0,
+            "InitRadiusForField": 0.2,
+            "InitRadiusForPlayer": 0.2
+          },
+          "DamageParam": {
+            "ReduceEndFrame": 24,
+            "ReduceStartFrame": 8,
+            "ValueMax": 360,
+            "ValueMin": 300
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 0.0,
+          "HorizontalOffset": 0.0,
+          "InitVelRandom": 0.0,
+          "MoveParam": {
+            "BrakeAirResist": 0.36,
+            "BrakeGravity": 0.07,
+            "BrakeToFreeStateFrame": 4,
+            "BrakeToFreeVelocityXZ": 0.2355,
+            "BrakeToFreeVelocityY": -0.15,
+            "FreeAirResist": 0.02,
+            "FreeGravity": 0.016,
+            "GoStraightStateEndMaxSpeed": 1.652,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 2.6
+          },
+          "PaintParam": {
+            "WidthHalfNear": 1.8
+          },
+          "TotalNum": 1,
+          "VerticalDegree": 0.0,
+          "VerticalOffset": 0.0
+        },
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "ChangeFrameForField": 0,
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.1,
+            "EndRadiusForPlayer": 0.1,
+            "FriendThroughFrameForPlayer": 0,
+            "InitRadiusForField": 0.1,
+            "InitRadiusForPlayer": 0.1
+          },
+          "DamageParam": {
+            "ReduceEndFrame": 24,
+            "ReduceStartFrame": 8,
+            "ValueMax": 360,
+            "ValueMin": 300
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 6.0,
+          "HorizontalOffset": 0.12,
+          "InitVelRandom": 0.4,
+          "MoveParam": {
+            "BrakeAirResist": 0.36,
+            "BrakeGravity": 0.07,
+            "BrakeToFreeStateFrame": 4,
+            "BrakeToFreeVelocityXZ": 0.2355,
+            "BrakeToFreeVelocityY": -0.15,
+            "FreeAirResist": 0.02,
+            "FreeGravity": 0.016,
+            "GoStraightStateEndMaxSpeed": 1.652,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 2.6
+          },
+          "PaintParam": {},
+          "TotalNum": 6,
+          "VerticalDegree": 4.0,
+          "VerticalOffset": 0.1
+        },
+        {
+          "AddDegree": 0.0,
+          "CollisionParam": {
+            "ChangeFrameForField": 0,
+            "ChangeFrameForPlayer": 0,
+            "EndRadiusForField": 0.1,
+            "EndRadiusForPlayer": 0.1,
+            "FriendThroughFrameForPlayer": 0,
+            "InitRadiusForField": 0.1,
+            "InitRadiusForPlayer": 0.1
+          },
+          "DamageParam": {
+            "ReduceEndFrame": 24,
+            "ReduceStartFrame": 8,
+            "ValueMax": 360,
+            "ValueMin": 300
+          },
+          "DrawRadius": 1.325,
+          "HorizontalDegree": 2.0,
+          "HorizontalOffset": 0.05,
+          "InitVelRandom": 0.4,
+          "MoveParam": {
+            "BrakeAirResist": 0.36,
+            "BrakeGravity": 0.07,
+            "BrakeToFreeStateFrame": 4,
+            "BrakeToFreeVelocityXZ": 0.2355,
+            "BrakeToFreeVelocityY": -0.15,
+            "FreeAirResist": 0.02,
+            "FreeGravity": 0.016,
+            "GoStraightStateEndMaxSpeed": 1.652,
+            "GoStraightToBrakeStateFrame": 3,
+            "SpawnSpeed": 2.6
+          },
+          "PaintParam": {},
+          "TotalNum": 4,
+          "VerticalDegree": 3.0,
+          "VerticalOffset": 0.05
+        }
+      ]
+    },
+    "spl__WeaponShelterCanopyParam": {
+      "$type": "spl__WeaponShelterCanopyParam",
+      "InkConsumeUmbrella": 0.2
+    },
+    "spl__WeaponShelterShotgunParam": {
+      "$type": "spl__WeaponShelterShotgunParam",
+      "InkConsume": 0.025
+    }
+  }
+}

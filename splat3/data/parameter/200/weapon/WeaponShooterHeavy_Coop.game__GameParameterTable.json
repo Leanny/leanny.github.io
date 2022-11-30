@@ -1,0 +1,10 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterHeavy.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 850,
+      "ValueMin": 550
+    }
+  }
+}

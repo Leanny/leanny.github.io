@@ -1,0 +1,122 @@
+[
+  {
+    "Name": "Aori",
+    "NameHash": 670544705,
+    "Order": 5,
+    "__RowId": "MiniGameCardSleeve_Aori"
+  },
+  {
+    "Name": "Atarime",
+    "NameHash": 3204290234,
+    "Order": 4,
+    "__RowId": "MiniGameCardSleeve_Atarime"
+  },
+  {
+    "Name": "Default",
+    "NameHash": 1222345317,
+    "Order": 0,
+    "__RowId": "MiniGameCardSleeve_Default"
+  },
+  {
+    "Name": "FoodShop",
+    "NameHash": 1635736575,
+    "Order": 19,
+    "__RowId": "MiniGameCardSleeve_FoodShop"
+  },
+  {
+    "Name": "GearShopClothes",
+    "NameHash": 3683294991,
+    "Order": 12,
+    "__RowId": "MiniGameCardSleeve_GearShopClothes"
+  },
+  {
+    "Name": "GearShopHead",
+    "NameHash": 2400758748,
+    "Order": 11,
+    "__RowId": "MiniGameCardSleeve_GearShopHead"
+  },
+  {
+    "Name": "GearShopShoes",
+    "NameHash": 2374761189,
+    "Order": 13,
+    "__RowId": "MiniGameCardSleeve_GearShopShoes"
+  },
+  {
+    "Name": "GoodsShop",
+    "NameHash": 2775905864,
+    "Order": 14,
+    "__RowId": "MiniGameCardSleeve_GoodsShop"
+  },
+  {
+    "Name": "Hotaru",
+    "NameHash": 637914098,
+    "Order": 6,
+    "__RowId": "MiniGameCardSleeve_Hotaru"
+  },
+  {
+    "Name": "IdolA",
+    "NameHash": 4188543714,
+    "Order": 7,
+    "__RowId": "MiniGameCardSleeve_IdolA"
+  },
+  {
+    "Name": "IdolB",
+    "NameHash": 427814477,
+    "Order": 8,
+    "__RowId": "MiniGameCardSleeve_IdolB"
+  },
+  {
+    "Name": "IdolC",
+    "NameHash": 2885007182,
+    "Order": 9,
+    "__RowId": "MiniGameCardSleeve_IdolC"
+  },
+  {
+    "Name": "Judge",
+    "NameHash": 1879234327,
+    "Order": 16,
+    "__RowId": "MiniGameCardSleeve_Judge"
+  },
+  {
+    "Name": "JudgeJr",
+    "NameHash": 3211052158,
+    "Order": 17,
+    "__RowId": "MiniGameCardSleeve_JudgeJr"
+  },
+  {
+    "Name": "Mother",
+    "NameHash": 1068154643,
+    "Order": 15,
+    "__RowId": "MiniGameCardSleeve_Mother"
+  },
+  {
+    "Name": "RankReward00",
+    "NameHash": 1958415025,
+    "Order": 1,
+    "__RowId": "MiniGameCardSleeve_RankReward00"
+  },
+  {
+    "Name": "RankReward01",
+    "NameHash": 4166577059,
+    "Order": 2,
+    "__RowId": "MiniGameCardSleeve_RankReward01"
+  },
+  {
+    "Name": "RankReward02",
+    "NameHash": 2290736123,
+    "Order": 3,
+    "__RowId": "MiniGameCardSleeve_RankReward02"
+  },
+  {
+    "Name": "Vendor",
+    "NameHash": 3435528187,
+    "Order": 18,
+    "__RowId": "MiniGameCardSleeve_Vendor"
+  },
+  {
+    "Name": "WeaponShop",
+    "NameHash": 527212727,
+    "Order": 10,
+    "__RowId": "MiniGameCardSleeve_WeaponShop"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "GearClothesName": "Clt_COP001",
+    "GearHeadName": "Hed_COP001",
+    "Id": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "COP001"
+  },
+  {
+    "GearClothesName": "Clt_COP002",
+    "GearHeadName": "Hed_COP002",
+    "Id": 2,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 10
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "COP002"
+  },
+  {
+    "GearClothesName": "Clt_COP003",
+    "GearHeadName": "Hed_COP003",
+    "Id": 3,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 10
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "COP003"
+  },
+  {
+    "GearClothesName": "Clt_COP004",
+    "GearHeadName": "Hed_COP004",
+    "Id": 4,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 30
+    },
+    "UrokoUnlockLevel": 2,
+    "__RowId": "COP004"
+  },
+  {
+    "GearClothesName": "Clt_COP005",
+    "GearHeadName": "Hed_COP005",
+    "Id": 5,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 30
+    },
+    "UrokoUnlockLevel": 2,
+    "__RowId": "COP005"
+  },
+  {
+    "GearClothesName": "Clt_COP006",
+    "GearHeadName": "Hed_COP006",
+    "Id": 6,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 100
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "COP006"
+  },
+  {
+    "GearClothesName": "Clt_COP007",
+    "GearHeadName": "Hed_COP007",
+    "Id": 7,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 100
+    },
+    "UrokoUnlockLevel": 3,
+    "__RowId": "COP007"
+  }
+]

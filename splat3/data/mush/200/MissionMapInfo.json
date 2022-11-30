@@ -1,0 +1,2718 @@
+[
+  {
+    "Admission": 100,
+    "MapNameLabel": "",
+    "MapType": "BigWorld",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "BigWorld"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "LastBossA",
+    "MapType": "LastBoss",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "LastBoss"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "LastBossB",
+    "MapType": "LastBoss",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "LastBoss02"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "LaunchPad",
+    "MapType": "LaunchPadWorld",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "LaunchPadWorld"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "",
+    "MapType": "NormalStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "MsnParent"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "first",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちの装備でテストに挑戦していただきます。",
+          "Label": "firstA"
+        },
+        "FirstReward": 700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_01"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "allPaint",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ジャブジャブ気持ち良く塗れます",
+          "Label": "allPaintA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Washtub_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takopod",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "現在お持ちの装備です。",
+          "Label": "takopodA"
+        },
+        "FirstReward": 900,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "パラシェルターです。ZR長押しで防御用の傘を開けます。",
+          "Label": "takopodB"
+        },
+        "FirstReward": 900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shelter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "バレルスピナーです。ZRでチャージしたあと弾をまき散らします。",
+          "Label": "takopodC"
+        },
+        "FirstReward": 900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Standard_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_02"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "easyKagidume",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ショクワンダーです。遠くの壁に張り付くことができます。",
+          "Label": "easyKagidumeA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takoHouse",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoHouseA"
+        },
+        "FirstReward": 900,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoHouseB"
+        },
+        "FirstReward": 900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shelter_Compact_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoHouseC"
+        },
+        "FirstReward": 900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_Middle_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_03"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "dendenSalmon",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "Rで相棒を投げることができます！",
+          "Label": "dendenSalmonA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A01_03C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "indoor",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "indoorA"
+        },
+        "FirstReward": 900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_04"
+  },
+  {
+    "Admission": 50,
+    "MapNameLabel": "1shot",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "遠くの標的もズバッと当てられるャージャーです！",
+          "Label": "1shotA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Long_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "視界は狭くもズームで狙えるチャージャーです！",
+          "Label": "1shotB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_LongScope_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_04C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "stringer",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ストリンガーです。一度に弾を3発撃てます。",
+          "Label": "stringerA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A01_05C"
+  },
+  {
+    "Admission": 10,
+    "MapNameLabel": "shock",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ブキは持ち込めません！",
+          "Label": "railBoxHardA"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A01_06C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "spin",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spinA"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spinB"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Quick_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spinC"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_Long_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_01"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "railFirst",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ジェットスイーパーです！遠距離が魅力のシューターです！",
+          "Label": "railFirstA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Long_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "バケットスロッシャーです！癖のないスロッシャーです！",
+          "Label": "railFirstB"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Strong_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "撃っている途中でも再チャージできるスピナーです！",
+          "Label": "railFirstC"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Serein_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "spongeClimb",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spongeClimbA"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spongeClimbB"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Dual_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "spongeClimbC"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Light_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_02"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "kanitank",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "スペシャルウェポン：カニタンクです。変形して移動もできます。",
+          "Label": "kanitankA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "Work/Gyml/SpChariot_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Special",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A02_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "snakeLecture",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "現在お持ちの装備です。",
+          "Label": "snakeLectureA"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "バウンドする泡を一振りで4発撃つ特殊なスロッシャーです。",
+          "Label": "snakeLectureB"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Bathtub_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "振り回してインクをまき散らす　機動力がウリのブキです。",
+          "Label": "snakeLectureaC"
+        },
+        "FirstReward": 1100,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_03"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "mazeClimb",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": ".96ガロンです！射程長めです。サブウェポン：クイックボムです。壁や床をすぐに塗れます。",
+          "Label": "mazeClimbA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Heavy_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_03C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "inkLimitPaintFes",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ロングブラスターです。バンバンうちたいところですが、今回は慎重に。",
+          "Label": "inkLimitPaintFesA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_Long_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_04C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "courceMake",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "プライムシューターです。スプラシューターより射程が長いですが、インク切れしやすいです。",
+          "Label": "courceMakeA"
+        },
+        "FirstReward": 1200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Expert_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A02_05C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "battleHill",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "battleHillA"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "battleHillB"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "battleHillC"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Hyper_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_01"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "curling",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "勢いよく投げるもよしｔ、溜めて打つのもよし",
+          "Label": "curlingA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A03_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "airJam",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "airJamA"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "airJamB"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Compact_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "airJamC"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_TripleQuick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_02"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "brushRush",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "バケツ。インクのヘリは早いけど、思いっきり大胆に壊したいならコレ",
+          "Label": "brushRushA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Strong_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "フデ。ZR連打するもよし、ZR押しながらスイスイ進むもよし。",
+          "Label": "brushRushB"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Mini_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ローラー。動作は少し遅い。縦振り横振りを使い分けよう。",
+          "Label": "brushRushC"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Hunter_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "snakeBomb",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "現在お持ちの装備です。",
+          "Label": "snakeBombA"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "射程は短いが　素早く広範囲にインクを撒きます。",
+          "Label": "snakeBombB"
+        },
+        "FirstReward": 1300,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Diffusion_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_03"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "forwardShoot",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "広範囲射程でまとめてマトを割れちゃうよ！",
+          "Label": "forwardShootA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 300,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Flash_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "3連射でマトを連続割りできます！",
+          "Label": "forwardShootB"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_TripleMiddle_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "チャージショットの貫通で遠くのマトも怖くない！",
+          "Label": "forwardShootC"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_03C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "inkRailMountain",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "Rブラスターエリートです。ブラスター最長の射程が特徴です。",
+          "Label": "inkRailMountainA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_LightLong_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スプラシューターです。基本的なシューターです。",
+          "Label": "inkRailMountainB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A03_04C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "liftOnTheWater",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "現在お持ちの装備です。",
+          "Label": "liftOnTheWaterA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ノーチラス47です。チャージキープが可能なスピナーです。",
+          "Label": "liftOnTheWaterB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Serein_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ソイチューバーです。優れたチャージキープ性能が特徴のチャージャーです。",
+          "Label": "liftOnTheWaterC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Keeper_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_01"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "snakeSalmon",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ボールドマーカーです。射程が短いので、コジャケと協力して進みましょう。",
+          "Label": "snakeSalmonA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Short_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "トライストリンガーです。ZRボタン長押しでチャージショットが撃てます。",
+          "Label": "snakeSalmonB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takohopper",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takohopperA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takohopperB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Strong_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takohopperC"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Robot_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Stepper_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_02"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "dieCutting",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "短押しすると遠くまで一発づつ発射できます",
+          "Label": "dieCuttingA"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": true,
+        "SecondReward": 500,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Shooter_Flash_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "放物線状にインクの塊を発射します",
+          "Label": "dieCuttingB"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": true,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Slosher_Launcher_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "チャージすると木箱を貫通して複数壊せます",
+          "Label": "dieCuttingC"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": true,
+        "SecondReward": 700,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Charger_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takostrikeFall",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちの装備で挑戦してもらいます。",
+          "Label": "takostrikeFall01"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スクイックリンです。ZRでチャージ、離してショット。",
+          "Label": "takostrikeFall02"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ホクサイです。ZR長押しで地面を塗りながら進めます。",
+          "Label": "takostrikeFall03"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_03"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "boxSashi",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ノーチラスです。フルチャージでの射撃でも射撃継続時間が短めです",
+          "Label": "boxSashiA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Serein_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スパッタリーです。ZR中にBボタンを押すと移動方向へスライドします",
+          "Label": "boxSashiB"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Short_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スクイックリンです。チャージ速度が速く、射程が長いのが特徴です",
+          "Label": "boxSashiC"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_03C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "chargeKeep",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ソイチューバーです。長時間チャージキープできます。",
+          "Label": "chargeKeepA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Keeper_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_04C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "railBaloonEasy",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ジェットスイーパーです。サブのクイックボムも活用しましょう。",
+          "Label": "railBaloonEasyA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Long_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ラピッドブラスターエリートです。射程の長いブラスターです。",
+          "Label": "railBaloonEasyB"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_LightLong_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ハイドラントです。射程とチャージ時間が長い重量級スピナーです。",
+          "Label": "railBaloonEasyC"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Hyper_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_05C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "missileAirship",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "射程は長くないけど扱いやすい",
+          "Label": "missileAirship01"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_QuickMiddle_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スタンダードなローラーだ",
+          "Label": "missileAirship02"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "クイックにチャージ",
+          "Label": "missileAirship03"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_06C"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "fastDraw",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "精度の高いシューターです。",
+          "Label": "fastDrawA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Expert_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "チャージの速いチャージャーです。",
+          "Label": "fastDrawB"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_07C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "savior",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "スプラセイバーです！ZR長押しでチャージ斬りができます！",
+          "Label": "wiperA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Saber_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_08C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "oneStroke",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ホクサイです！ＺＲ長押しででヌリヌリすすめます！",
+          "Label": "oneStrokeA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "パブロです！ＺＲ長押しでヌリヌリすすめますが、スピードが速くて塗りが細いです！",
+          "Label": "oneStrokeB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 400,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Mini_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A04_09C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "bitakoHidding",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "bitakoHiddingA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "bitakoHiddingB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_TripleMiddle_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "bitakoHiddingC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Gallon_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_01"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "dozer",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "サブウェポン：カーリングボムは、タコドーザーのシャワーを通り抜けます。",
+          "Label": "dozerA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Short_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "コジャケをタコドーザーの頭に当てて動きをとめましょう。",
+          "Label": "dozerB"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Brush_Mini_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "チャージしてイクラを一気に回収しましょう。",
+          "Label": "dozerC"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Long_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "shootBack",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "shootBackA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "shootBackB"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "shootBackC"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Maneuver_Short_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_02"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "kagidumeClimb",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ホクサイです！ZR長押しでヌリヌリすすめます！",
+          "Label": "kagidumeClimbA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Brush_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "buildingSnipe",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "buildingSnipeA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "buildingSnipeB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shelter_Wide_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "buildingSnipeC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Short_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_03"
+  },
+  {
+    "Admission": 50,
+    "MapNameLabel": "railBoxStringer",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "バレルスピナーです！大量のインクをばらまくことができます！",
+          "Label": "railBoxStringerA"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Standard_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ラピッドブラスターです！爆風による範囲攻撃が可能です！",
+          "Label": "railBoxStringerB"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_Light_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ストリンガーです！溜め撃ち、連射といった様々なショットを撃つことができます！",
+          "Label": "railBoxStringerC"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 800,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_03C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "barriar",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "現在お持ちの装備です。",
+          "Label": "barriarA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ストリンガーです。3本のインクの矢を放ちます。",
+          "Label": "barriarB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スクリュースロッシャーです。インクを放物線状に放ちます。",
+          "Label": "barriarC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Launcher_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_04"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "superLanding",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "無限にスーパーチャクチを使用できます！",
+          "Label": "superLandingA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpSuperLanding.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Special",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A05_04C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "fogMaze",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "一発のダメージが大きいシューターです！",
+          "Label": "fogMazeA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Gravity_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "敵の攻撃を防げる傘が展開できるシェルターです！",
+          "Label": "fogMazeB"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shelter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "大振りで広範囲を塗ることができるローラーです！",
+          "Label": "fogMazeC"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Heavy_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_05C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "shortRail",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "エイムが苦手な人はこれ。射程が長く連射ができるよ",
+          "Label": "shortRailA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Long_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "3本のインクを発射することができます。チャージ段階を使い分けて",
+          "Label": "shortRailB"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "チャージ速度が速くジェッパより射程は少し短めです",
+          "Label": "shortRailC"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Light_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_06C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "ninjaParkour",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ショクワンダーで遠くの場所までひとっとび",
+          "Label": "ninjaParkourA"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_07C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "shootingLong",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "エクスプロッシャーです。威力の高い一弾を遠くに放って炸裂させます。",
+          "Label": "shootingLongA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Washtub_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "クーゲルシュライバーです。撃ち始めは短射程、その後長射程に変わる特殊なスピナーです。",
+          "Label": "shootingLongB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Downpour_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ダイナモローラーです。横振り・縦振りともに大量のインクをまきちらす重量級のローラーです。",
+          "Label": "shootingLongC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Heavy_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_08C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "lineMarker",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "短い射程はラインマーカーでカバーだ。",
+          "Label": "lineMarkerA"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/LineMarker_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Short_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A05_09C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "fogZones",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "fogZones01"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "fogZones02"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_LightShort_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "fogZones03"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Saber_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_01"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "inkLimitHard",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "射撃のブレが少ないブキです",
+          "Label": "inkLimitHardA"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Precision_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_01C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takoTower",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoTowerA"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoTowerB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_Quick_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoTowerC"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Hunter_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_02"
+  },
+  {
+    "Admission": 50,
+    "MapNameLabel": "curlingDoNotStep",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "カーリングボムです 壁に当たると反射します",
+          "Label": "curlingDoNotStepA"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A06_02C"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "takoAllStars",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoAllStars01"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoAllStars02"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Blaster_Short_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "takoAllStars03"
+        },
+        "FirstReward": 1400,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 500,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_First_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_03"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "roller",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "スタンダードで扱いやすいです！",
+          "Label": "rollerA"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Curling_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "火力は低めですが、軽くて素早く動き回ることができます！",
+          "Label": "rollerB"
+        },
+        "FirstReward": 1500,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Compact_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_03C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "escapeFromSinking",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "高機動力。短い射程はボムでカバーだ。",
+          "Label": "escapeFromSinkingA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Short_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "振りの早いローラー。縦振りがキーポイントだ。",
+          "Label": "escapeFromSinkingB"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Roller_Compact_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ケースバイケースにチャージしよう。",
+          "Label": "escapeFromSinkingC"
+        },
+        "FirstReward": 1900,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Spinner_Quick_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_04C"
+  },
+  {
+    "Admission": 40,
+    "MapNameLabel": "fireWorks",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ストリンガーです！縦横の曲射に加えてチャージすると飛距離ものびます！",
+          "Label": "fireWorksA"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Stringer_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "N-ZAPです！癖のないシューターです！サブの使いどころがカギです！",
+          "Label": "fireWorksB"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "Work/Gyml/SpShockSonar.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_QuickMiddle_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スクリュースロッシャーです！なかなかの距離飛ばせます！",
+          "Label": "fireWorksC"
+        },
+        "FirstReward": 2000,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Launcher_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_05C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "race",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "プロモデラーとクイックボムです！　ボムはRで投げれます！",
+          "Label": "raceA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Blaze_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_06C"
+  },
+  {
+    "Admission": 20,
+    "MapNameLabel": "jetPack",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ジェットパックです。高さを利用してZRでバンバン撃ちましょう。ZLでイカにもなれます。",
+          "Label": "jetPackA"
+        },
+        "FirstReward": 1600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpJetpack_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Special",
+        "WeaponMain": "Work/Gyml/Free.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_07C"
+  },
+  {
+    "Admission": 30,
+    "MapNameLabel": "chase",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "射程が短いのでトラップをうまく使いましょう",
+          "Label": "chaseA"
+        },
+        "FirstReward": 1700,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Trap_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "スコープ付きのチャージャーです。見つからないように狙撃しよう",
+          "Label": "chaseB"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Charger_NormalScope_Msn.spl__WeaponInfoMain.gyml"
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "インクが楽しく弾み壁に当たると反射します",
+          "Label": "chaseC"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Quick_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": "Work/Gyml/Slosher_Bathtub_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_A06_08C"
+  },
+  {
+    "Admission": 50,
+    "MapNameLabel": "stamp",
+    "MapType": "ChallengeStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "スペシャルウェポン：ウルトラハンコです。時間無制限で使うことができます。",
+          "Label": "stampA"
+        },
+        "FirstReward": 1800,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 600,
+        "SpecialWeapon": "Work/Gyml/SpUltraStamp_Mission.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Special",
+        "WeaponMain": ""
+      },
+      {
+        "DolphinMessage": {
+          "DevText": "ステージ内に置かれているウルトラハンコを使ってください。制限時間あり。",
+          "Label": "stampB"
+        },
+        "FirstReward": 2200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 800,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_A06_09C"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "CraterFirst00",
+    "MapType": "SmallWorldStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "Msn_C_01"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "CraterSecond00",
+    "MapType": "SmallWorldStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "Msn_C_02"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "CraterThird00",
+    "MapType": "SmallWorldStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "Msn_C_03"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "CraterFourth00",
+    "MapType": "SmallWorldStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "Msn_C_04"
+  },
+  {
+    "Admission": 333,
+    "MapNameLabel": "EX01",
+    "MapType": "ExStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "・・・・・。",
+          "Label": "ExA"
+        },
+        "FirstReward": 3333,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 3332,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_EX01"
+  },
+  {
+    "Admission": 333,
+    "MapNameLabel": "EX02",
+    "MapType": "ExStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちの装備でテストに挑戦していただきます。",
+          "Label": ""
+        },
+        "FirstReward": 3333,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 3332,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_EX02"
+  },
+  {
+    "Admission": 333,
+    "MapNameLabel": "EX03",
+    "MapType": "ExStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちの装備でテストに挑戦していただきます。",
+          "Label": ""
+        },
+        "FirstReward": 3333,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 3332,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_EX03"
+  },
+  {
+    "Admission": 333,
+    "MapNameLabel": "EX04",
+    "MapType": "ExStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちの装備でテストに挑戦していただきます。",
+          "Label": ""
+        },
+        "FirstReward": 3333,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 3332,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/Bomb_Splash_Mission.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": "Work/Gyml/Shooter_Normal_Msn.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_EX04"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "MantaKing",
+    "MapType": "BigWorldBossStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "お手持ちのそうびで挑戦いただけます",
+          "Label": "MantaKingA"
+        },
+        "FirstReward": 2600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 800,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_MantaKing"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "MorayKing",
+    "MapType": "BigWorldBossStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "この先は関係者以外立ち入り禁止です",
+          "Label": "MorayKingA"
+        },
+        "FirstReward": 2200,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 700,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_MorayKing"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "SurmonBudyR",
+    "MapType": "LaunchPadStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "ブキなどの持ち込みは禁止です",
+          "Label": "SurmonBudyRA"
+        },
+        "FirstReward": 0,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 0,
+        "SpecialWeapon": "",
+        "SubWeapon": "Work/Gyml/SalmonBuddy.spl__WeaponInfoSub.gyml",
+        "SupplyWeaponType": "Normal",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_R_01"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "BigBattleR",
+    "MapType": "LaunchPadStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": ""
+        },
+        "FirstReward": 0,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 0,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_R_02"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "LiftR",
+    "MapType": "LaunchPadStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": ""
+        },
+        "FirstReward": 0,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 0,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_R_03"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "RocketAR",
+    "MapType": "LaunchPadStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": ""
+        },
+        "FirstReward": 0,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 0,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_R_04"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "RocketBR",
+    "MapType": "LaunchPadStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": ""
+        },
+        "FirstReward": 0,
+        "IsRecommended": true,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 0,
+        "SpecialWeapon": "Work/Gyml/SpSuperHook.spl__WeaponInfoSpecial.gyml",
+        "SubWeapon": "",
+        "SupplyWeaponType": "MainAndSpecial",
+        "WeaponMain": "Work/Gyml/Shooter_MissionLv2_00.spl__WeaponInfoMain.gyml"
+      }
+    ],
+    "__RowId": "Msn_R_05"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "RailKing",
+    "MapType": "SmallWorldBossStage",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "Msn_RailKing"
+  },
+  {
+    "Admission": 0,
+    "MapNameLabel": "SharkKing",
+    "MapType": "BigWorldBossStage",
+    "OctaSupplyWeaponInfoArray": [
+      {
+        "DolphinMessage": {
+          "DevText": "開発用イルカテキスト",
+          "Label": "SharkKingA"
+        },
+        "FirstReward": 2600,
+        "IsRecommended": false,
+        "IsRepresentativeIconSecondary": false,
+        "SecondReward": 800,
+        "SpecialWeapon": "",
+        "SubWeapon": "",
+        "SupplyWeaponType": "Hero",
+        "WeaponMain": ""
+      }
+    ],
+    "__RowId": "Msn_SharkKing"
+  },
+  {
+    "Admission": 100,
+    "MapNameLabel": "",
+    "MapType": "SmallWorld",
+    "OctaSupplyWeaponInfoArray": [],
+    "__RowId": "SmallWorld"
+  },
+  {
+    "__RowId": "StaffRoll"
+  }
+]

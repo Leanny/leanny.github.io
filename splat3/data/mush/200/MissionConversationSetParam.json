@@ -1,0 +1,26 @@
+[
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent1.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent1_LaunchPad.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent2.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent2_LaunchPad.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent3.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldAgent3_LaunchPad.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldCommander.spl__MissionConversationSetParam.gyml"
+  },
+  {
+    "__RowId": "Work/Gyml/Npc_WorldCommanderDried.spl__MissionConversationSetParam.gyml"
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "GameParameters": {
+    "BlastParamFullCharge": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 3.0,
+      "CrossPaintRadius": 3.0,
+      "DamageOffsetY": 0.5,
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 4.6
+        },
+        {
+          "Damage": 400,
+          "Distance": 7.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintOffsetY": 0.5,
+      "PaintRadius": 5.0,
+      "SplashAroundParam": {
+        "Num": 15,
+        "PaintRadius": 1.44,
+        "PitchMax": 45.0,
+        "PitchMin": 10.0,
+        "VelocityMax": 0.52,
+        "VelocityMin": 0.45
+      }
+    },
+    "CollisionParam": {
+      "$type": "spl__BulletSpGachihokoCollisionParam"
+    },
+    "DamageParam": {
+      "$type": "spl__BulletSpGachihokoDamageParam"
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpGachihokoParam",
+      "GuideHitCollisionType": "EnemyOffFenceOff",
+      "GuideRadius": 0.16,
+      "SpawnSpeedY": 0.14,
+      "SpawnSpeedYFullCharge": 0.28,
+      "SpawnSpeedYMaxCharge": 0.21,
+      "SpawnSpeedZFullCharge": 1.5,
+      "SpawnSpeedZMaxCharge": 1.2,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.8,
+        "Low": 0.8,
+        "Mid": 0.8
+      }
+    },
+    "SplashNearestParam": {
+      "$type": "spl__BulletSplashSpGachihokoNearestParam",
+      "PaintRadiusFullCharge": 2.4,
+      "PaintRadiusMaxCharge": 2.4,
+      "PaintRadiusMinCharge": 1.8,
+      "SpawnOffset": {
+        "X": 0.0,
+        "Y": -1.4
+      }
+    },
+    "SplashPaintSpawnParam": {
+      "$type": "spl__BulletSplashSpGachihokoPaintSpawnParam",
+      "PaintRadiusFullCharge": 2.4,
+      "PaintRadiusMaxCharge": 2.4,
+      "PaintRadiusMinCharge": 1.8
+    },
+    "SplashWallHitParam": {
+      "$type": "spl__BulletSpGachihokoSplashWallHitParam",
+      "WallDropCollisionPaintParam": {
+        "FallPeriodFirstSecondTargetAlp": 1.0,
+        "PaintRadiusFall": 0.8,
+        "PaintRadiusGround": 0.7,
+        "PaintRadiusShock": 1.2
+      },
+      "WallDropMoveParam": {
+        "FallPeriodFirstFrameMax": 40,
+        "FallPeriodFirstFrameMin": 20,
+        "FallPeriodFirstTargetSpeed": 0.05,
+        "FallPeriodLastFrameMax": 35,
+        "FallPeriodLastFrameMin": 15,
+        "FallPeriodSecondFrame": 20,
+        "FallPeriodSecondTargetSpeed": 0.06
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpGachihokoParam",
+      "KnockBackParamFullCharge": {
+        "AirBreakRt": 0.8,
+        "ImpactValue": 0.12,
+        "StickDownRt": 5.0
+      },
+      "KnockBackParamMaxCharge": {
+        "AirBreakRt": 0.8,
+        "ImpactValue": 0.09,
+        "StickDownRt": 5.0
+      },
+      "KnockBackParamMinCharge": {
+        "AirBreakRt": 0.8,
+        "ImpactValue": 0.06,
+        "StickDownRt": 5.0
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

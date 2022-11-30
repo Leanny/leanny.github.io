@@ -1,0 +1,16 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponChargerKeeper.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletChargerDamageParam",
+      "ValueFullCharge": 3000,
+      "ValueMaxCharge": 2000,
+      "ValueMinCharge": 800
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponChargerParam",
+      "InkConsumeFullCharge": 0.12,
+      "InkConsumeMinCharge": 0.012
+    }
+  }
+}

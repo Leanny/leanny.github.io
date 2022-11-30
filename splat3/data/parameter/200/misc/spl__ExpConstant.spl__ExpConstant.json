@@ -1,0 +1,41 @@
+{
+  "BoostRate": {
+    "Exp100": 2.0,
+    "Exp50": 1.5,
+    "ExpParty": 2.0,
+    "GearPower": 1.5,
+    "Money100": 2.0,
+    "Money50": 1.5,
+    "MoneyParty": 2.0,
+    "None": 1.0
+  },
+  "ByPaintPoint": 100,
+  "ByPaintPointMax": 500,
+  "ByPlayTime": 100,
+  "ByWinGachi": 1500,
+  "ByWinKO": 2500,
+  "ByWinPnt": 600,
+  "CatalogEventRate": 1.2,
+  "GearLevelUpExp": [
+    2000,
+    8000,
+    14000,
+    28000
+  ],
+  "RarityExpPercent": [
+    100,
+    100,
+    100,
+    103,
+    106,
+    110
+  ],
+  "WeaponLevelUpExp": [
+    0,
+    10000,
+    25000,
+    60000,
+    160000,
+    1160000
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "ChangeFrameForField": 0,
+      "EndRadiusForField": 0.2,
+      "EndRadiusForPlayer": 0.2,
+      "FriendThroughFrameForPlayer": 0,
+      "InitRadiusForField": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ReduceEndFrame": 23,
+      "ReduceStartFrame": 7,
+      "ValueMax": 420,
+      "ValueMin": 210
+    },
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "Overwrite_ConsumeRt_Main_High": 0.5,
+      "Overwrite_ConsumeRt_Main_Mid": 0.7,
+      "Overwrite_MoveVelRt_Shot_High": -1.0,
+      "Overwrite_MoveVelRt_Shot_Mid": -1.0
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "FreeGravity": 0.016,
+      "GoStraightStateEndMaxSpeed": 2.2698,
+      "GoStraightToBrakeStateFrame": 3,
+      "SpawnSpeed": 3.833333
+    },
+    "PaintParam": {
+      "$type": "spl__BulletShooterPaintParam",
+      "DepthScaleMax": 2.24,
+      "DepthScaleMaxBreakFree": 2.24,
+      "DepthScaleMin": 1.31,
+      "DepthScaleMinBreakFree": 1.12,
+      "DistanceMiddle": 1.1,
+      "WidthHalfFar": 1.71,
+      "WidthHalfMiddle": 1.93,
+      "WidthHalfNear": 1.93
+    },
+    "SplashPaintParam": {
+      "$type": "spl__BulletSplashShooterPaintParam",
+      "DepthMaxDropHeight": 3.0,
+      "DepthMinDropHeight": 10.0,
+      "WidthHalf": 1.4375,
+      "WidthHalfNearest": 2.0125
+    },
+    "SplashSpawnParam": {
+      "$type": "spl__BulletSplashShooterSpawnParam",
+      "ForceSpawnNearestAddNumArray": [],
+      "SpawnBetweenLength": 8.8,
+      "SpawnNearestLength": 0.8,
+      "SpawnNum": 2.0,
+      "SplitNum": 6
+    },
+    "WallDropCollisionPaintParam": {
+      "$type": "spl__BulletWallDropCollisionPaintParam",
+      "PaintRadiusFall": 0.65,
+      "PaintRadiusGround": 0.6,
+      "PaintRadiusShock": 1.56
+    },
+    "WallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMax": 40,
+      "FallPeriodFirstFrameMin": 20,
+      "FallPeriodFirstTargetSpeed": 0.06,
+      "FallPeriodLastFrameMax": 35,
+      "FallPeriodLastFrameMin": 15,
+      "FallPeriodSecondFrame": 10,
+      "FallPeriodSecondTargetSpeed": 0.06,
+      "FreeGravityType": "value_0_008"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.02,
+      "Jump_DegBiasDecreaseStartFrame": 25,
+      "Jump_DegBiasEndFrame": 70,
+      "Jump_DegBiasMax": 0.4,
+      "Jump_DegSwerve": 6.0,
+      "MoveSpeed": 0.055,
+      "RepeatFrame": 8,
+      "ShotGuideFrame": 7,
+      "SquidShotShorteningFrame": 1,
+      "Stand_DegBiasDecrease": 0.005,
+      "Stand_DegBiasKf": 0.01,
+      "Stand_DegBiasMin": 0.01,
+      "Stand_DegSwerve": 2.7
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "ZRate": 2.0
+    }
+  }
+}

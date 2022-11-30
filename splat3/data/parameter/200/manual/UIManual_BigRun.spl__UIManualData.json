@@ -1,0 +1,23 @@
+{
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualCoopEvent.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "BigRun_Manual01",
+      "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopM_00.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    },
+    {
+      "BodyLabel": "BigRun_Manual02",
+      "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopM_01.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    },
+    {
+      "BodyLabel": "BigRun_Manual03",
+      "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopM_02.tga",
+      "LayoutType": "TextAndImageM",
+      "TitleLabel": "BigRun_Title"
+    }
+  ]
+}

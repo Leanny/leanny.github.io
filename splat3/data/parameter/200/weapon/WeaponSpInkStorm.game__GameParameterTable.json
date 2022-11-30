@@ -1,0 +1,53 @@
+{
+  "GameParameters": {
+    "CloudParam": {
+      "$type": "spl__BulletSpInkStormCloudParam",
+      "NoPaintRainNum": 0,
+      "RainNum": 72,
+      "RainyFrame": {
+        "High": 600.0,
+        "Low": 480.0,
+        "Mid": 540.0
+      },
+      "WithNoPaintRainNum": 120
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpInkStormGeneratorMoveParam",
+      "GuideHitCollisionType": "InkStorm",
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.68,
+        "Low": 1.12,
+        "Mid": 1.4
+      }
+    },
+    "RainParam": {
+      "$type": "spl__BulletSpInkStormRainParam",
+      "CollisionParam": {
+        "EndRadiusForField": 0.25,
+        "EndRadiusForPlayer": 0.0,
+        "InitRadiusForField": 0.25,
+        "InitRadiusForPlayer": 0.0
+      },
+      "MoveParam": {
+        "BrakeAirResist": 0.0,
+        "BrakeGravity": 0.0,
+        "BrakeToFreeStateFrame": 0,
+        "BrakeToFreeVelocityXZ": 0.0,
+        "BrakeToFreeVelocityY": 0.0,
+        "FreeAirResist": 0.07,
+        "FreeGravity": 0.02,
+        "GoStraightStateEndMaxSpeed": 0.0,
+        "GoStraightToBrakeStateFrame": 0,
+        "SpawnSpeed": 0.0
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YPlusRate": 4.0
+    }
+  }
+}

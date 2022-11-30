@@ -1,0 +1,26 @@
+{
+  "GameParameters": {
+    "MoveParam": {
+      "$type": "spl__BulletSpIkuraShootMoveParam",
+      "GuideHitCollisionType": "EnemyOnFenceOn",
+      "GuideRadius": 0.55,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.12,
+        "Low": 1.12,
+        "Mid": 1.12
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpIkuraShootParam",
+      "ShowPointGuideDistance": 34.0
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YPlusRate": 4.0
+    }
+  }
+}

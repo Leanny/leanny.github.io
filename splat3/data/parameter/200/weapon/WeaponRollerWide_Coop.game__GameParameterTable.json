@@ -1,0 +1,61 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponRollerWide.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletRollerBodyParam",
+      "Damage": 700,
+      "DamageSpanSecond": 0.133
+    },
+    "KnockBackBySpecificEnemyParam": {
+      "$type": "spl__BulletRollerBodyKnockBackBySpecificEnemyParam",
+      "OpponentSakelienGeyser": 500.0,
+      "OpponentSakelienSnake": 200.0
+    },
+    "VerticalSwingUnitGroupParam": {
+      "$type": "spl__BulletRollerInkVerticalSwingUnitGroupParam",
+      "DamageParam": {
+        "Inside": {
+          "DamageHighValue": 1600,
+          "DamageLowValue": 1200,
+          "DamageMaxValue": 1600,
+          "DamageMinValue": 800,
+          "FinalDamageMinValue": 800
+        },
+        "Outside": {
+          "DamageHighValue": 1600,
+          "DamageLowValue": 1200,
+          "DamageMaxValue": 1600,
+          "DamageMinValue": 800,
+          "FinalDamageMinValue": 800
+        }
+      }
+    },
+    "WeaponVerticalSwingParam": {
+      "$type": "spl__WeaponRollerSwingParam",
+      "InkConsume": 0.08
+    },
+    "WeaponWideSwingParam": {
+      "$type": "spl__WeaponRollerSwingParam",
+      "InkConsume": 0.08
+    },
+    "WideSwingUnitGroupParam": {
+      "$type": "spl__BulletRollerInkWideSwingUnitGroupParam",
+      "DamageParam": {
+        "Inside": {
+          "DamageHighValue": 1200,
+          "DamageLowValue": 1200,
+          "DamageMaxValue": 1500,
+          "DamageMinValue": 500,
+          "FinalDamageMinValue": 500
+        },
+        "Outside": {
+          "DamageHighValue": 1200,
+          "DamageLowValue": 1200,
+          "DamageMaxValue": 1500,
+          "DamageMinValue": 500,
+          "FinalDamageMinValue": 500
+        }
+      }
+    }
+  }
+}

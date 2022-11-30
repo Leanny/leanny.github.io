@@ -1,0 +1,18 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpSkewer.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 7000,
+          "Distance": 13.0
+        }
+      ]
+    },
+    "BulletParam": {
+      "$type": "spl__BulletSpSkewerParam",
+      "DamageValue": 4000
+    }
+  }
+}
