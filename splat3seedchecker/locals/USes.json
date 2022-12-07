@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Reiniciar Semilla",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Categor\u00eda",
     "Intro": "Para usar la predicci\u00f3n del Premiotr\u00f3n, primero tienes que encontrar tu semilla. Para encontrar tu semilla, tienes que hacer m\u00faltiples tiradas y anotar los resultados. Por favor aseg\u00farate de ingresar los resultados del Premiotr\u00f3n correcto (es decir, c\u00e1psulas normales cuando no un Festival / Splatfest. Las c\u00e1psulas con una caracola son usadas para la semilla cuando hay un Festival / Splatfest.)",
     "MurchOrder": "Order",

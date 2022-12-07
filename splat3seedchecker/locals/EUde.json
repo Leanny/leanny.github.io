@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Reset Seed",
+    "FirstUse": "Um diese Funktion verwenden zu k\u00f6nnen, m\u00fcssen zuerst die Daten aus SplatNet importiert werden.",
     "Grade": "Seltenheit",
     "Intro": "Um die Seed-Vorhersage verwenden zu k\u00f6nnen, m\u00fcssen wir erst den Seed finden. Daf\u00fcr machen wir mehrere Ziehungen und schreiben die Ergebnisse nieder. Stelle dabei sicher, dass du w\u00e4hrend des Splatfestes die Ergebnisse im Splatfest-Reiter eintr\u00e4gst.",
     "MurchOrder": "Bestellung",

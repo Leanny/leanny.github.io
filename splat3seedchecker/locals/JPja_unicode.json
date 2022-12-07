@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "シードをリセット",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "レアリティ",
     "Intro": "くじ引きの結果を予測するには、まず自分のシードを見つけます。複数回連続して引き、その結果を入力してください。通常時とフェス時のくじ引きはそれぞれ別にシードが設定されていますので、結果を入力する際には正しい方のタブを選択してください。",
     "MurchOrder": "Order",

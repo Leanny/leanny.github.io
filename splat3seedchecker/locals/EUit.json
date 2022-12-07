@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Cancella il Seme",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Qualit\u00e0",
     "Intro": "Per utilizzare la previsione della Premi-o-Matic, devi prima trovare il tuo seme. Per trovare il tuo seme, devi eseguire pi\u00f9 estrazioni di seguito ed annotare i risultati. Si prega di assicurarsi di inserire i risultati dalla Premi-o-Matic corretta (cio\u00e8 le capsule normali al di fuori di uno Splatfest, oppure le capsule con la conciglia sul guscio per il Seme dello Splatfest).",
     "MurchOrder": "Order",

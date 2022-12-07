@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Reset Seed",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Grade",
     "Intro": "In order to use the Shell-Out Machine Prediction, you need to find your seed first. In order to find your seed, you need to do multiple pulls in a row and write down the results. Please make sure that you enter the results from the correct Shell-Out machine (i.e. normal capsules outside of a splatfest and capsules with a shell on it are for the splatfest seed).",
     "MurchOrder": "Order",

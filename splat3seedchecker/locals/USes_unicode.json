@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Reiniciar Semilla",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Categoría",
     "Intro": "Para usar la predicción del Premiotrón, primero tienes que encontrar tu semilla. Para encontrar tu semilla, tienes que hacer múltiples tiradas y anotar los resultados. Por favor asegúrate de ingresar los resultados del Premiotrón correcto (es decir, cápsulas normales cuando no un Festival / Splatfest. Las cápsulas con una caracola son usadas para la semilla cuando hay un Festival / Splatfest.)",
     "MurchOrder": "Order",

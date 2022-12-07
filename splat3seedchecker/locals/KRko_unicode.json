@@ -98,6 +98,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "시드 초기화",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "등급",
     "Intro": "뽑기 결과 계산기를 사용하시려면, 뽑기 시드를 먼저 찾으셔야합니다. 시드를 찾으시려면, 뽑기를 여러번 한다음, 차례대로 나오는 상품들을 적어넣어주세요. 꼭 올바른 뽑기 기계를 사용하신게 맞는지 확인해주시길 바랍니다 (예를들어, 돈으로 뽑기를 하여 나온 상품과, 페스티벌 소라고동으로 뽑은 상품들은 다르니 구분해서 적어넣어주세요).",
     "MurchOrder": "Order",

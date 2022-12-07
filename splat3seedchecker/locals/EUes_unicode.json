@@ -98,6 +98,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Restablecer semilla",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Categoría",
     "Intro": "Para predecir los resultados de la máquina sacapremios, tienes que encontrar tu semilla primero. Para ello, tienes que usar la máquina varias veces seguidas y anotar los resultados. Asegúrate de introducir los resultados de la máquina correcta (las cápsulas con caracola que obtienes durante un festival son generadas por la semilla del festival).",
     "MurchOrder": "Order",

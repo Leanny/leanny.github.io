@@ -100,6 +100,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Effacer la Seed",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Grade",
     "Intro": "Pour pouvoir utiliser l\u2019outil de prediction du Capsulomate, tu dois d\u2019abord trouver ta seed. Pour trouver ta seed tu dois r\u00e9aliser plusieurs tirages et \u00e9crire les r\u00e9sultats en dessous. Assures-toi d\u2019avoir \u00e9crit les r\u00e9sultats du bon Capsulomate (Il existe deux seeds pour le  Capsulomate, une seed pour les capsules normales hors splatfest, et une seed pour les capsules avec une conque dessus durant les splatfest).",
     "MurchOrder": "Order",

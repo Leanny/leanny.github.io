@@ -99,6 +99,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "重置种子",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "稀有度",
     "Intro": "依序输入您的抽奖出货结果，搜索出种子，以使用抽奖预测功能。请区分常规抽奖和祭典抽奖的出货，并只输入其中对应的出货（祭典抽奖有法螺图标）",
     "MurchOrder": "Order",

@@ -92,6 +92,7 @@
   },
   "SeedListing": {
     "DeleteSeed": "Seed resetten",
+    "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Zeldzaamheid",
     "Intro": "Om de Prijzenpot-voorspelling te gebruiken, moet u eerst uw seed vinden. Om je seed te vinden, moet je meerdere keren de Prijzenpot spelen en je resultaten opschrijven. Zorg ervoor dat je de resultaten invoert van de juiste Prijzenpot (d.w.z. normale capsules buiten een splatfest en capsules met een schelp erop zijn voor het splatfest-seed).",
     "MurchOrder": "Order",
