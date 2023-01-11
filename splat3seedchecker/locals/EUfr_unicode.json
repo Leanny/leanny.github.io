@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Utiliser des Fragments",
     "AllowedDrinks": "Boissons Utilisables",
     "ButtonDisplayResults": "Afficher les Résultats",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Actualiser la Seed et Sauvegarder",
     "ButtonUpdateSeed": "Actualiser la Seed",
     "CurrentSeed": "Seed Actuel",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Sélectionner la marque de l’équipement ainsi que la boisson à activer (s'il y en a une).",
     "HaveGear": "Si un équipement est enregistré dans la base de données, il peut être sélectionné dans la liste déroulante ci-dessous.",
     "MaxNumberOfSlots": "Nombre maximum d’emplacements à rechercher",

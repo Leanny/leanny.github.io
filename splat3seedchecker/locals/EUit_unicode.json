@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Usa Frammenti Abilità",
     "AllowedDrinks": "Usa Bevande",
     "ButtonDisplayResults": "Visualizza Frammenti",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Salva Seme",
     "ButtonUpdateSeed": "Usa Seme",
     "CurrentSeed": "Seme",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Seleziona la marca dell'equipaggimento ed eventualmente la bevanda utilizzata.",
     "HaveGear": "Seleziona un equipaggimanto dal tuo database.",
     "MaxNumberOfSlots": "Numero Massimo di Slot da Ricercare",

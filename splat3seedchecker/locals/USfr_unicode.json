@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Allow Chunks",
     "AllowedDrinks": "Allowed Drinks",
     "ButtonDisplayResults": "Display Results",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Update Seed And Save Gear",
     "ButtonUpdateSeed": "Update Seed",
     "CurrentSeed": "Current Seed",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Please select the Brand of the gear. Also, please select the Drink Ticket you want to activate (if any).",
     "HaveGear": "If you have gear in your database, you can select it here to preset details.",
     "MaxNumberOfSlots": "Maximum Number of Slots to Search",

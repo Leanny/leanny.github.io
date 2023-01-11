@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Effekt-Fragmente Erlauben",
     "AllowedDrinks": "Getränke Erlauben",
     "ButtonDisplayResults": "Ergebnisse Anzeigen",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Seed Updaten und Speichern",
     "ButtonUpdateSeed": "Seed Updaten",
     "CurrentSeed": "Aktueller Seed",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Wähle die passende Marke der Ausrüstung, sowie die Getränke, die du aktivieren willst.",
     "HaveGear": "Wenn du Ausrüstung in der Datenbank hast, kannst du sie hier auswählen, um einige Felder im Voraus auszufüllen.",
     "MaxNumberOfSlots": "Maximale Anzahl an Slots zum Durchsuchen",

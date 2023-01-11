@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Permitir fragmentos",
     "AllowedDrinks": "Bebidas permitidas",
     "ButtonDisplayResults": "Mostrar resultados",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Actualizar semilla y guardar",
     "ButtonUpdateSeed": "Actualizar semilla",
     "CurrentSeed": "Semilla actual",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Selecciona la marca del equipo, y tambi\u00e9n el cup\u00f3n de bebida que quieres activar (si hay).",
     "HaveGear": "Si tienes equipamiento en tu base de datos, puedes seleccionarlo aqu\u00ed para predefinir detalles.",
     "MaxNumberOfSlots": "N\u00famero m\u00e1ximo de posiciones para buscar",

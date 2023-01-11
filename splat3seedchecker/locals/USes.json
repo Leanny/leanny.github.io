@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Permitir Fragmentos",
     "AllowedDrinks": "Bebidas Permitidas",
     "ButtonDisplayResults": "Mostrar Resultados",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Actualizar Semilla y Guardar Equipamiento",
     "ButtonUpdateSeed": "Actualizar Semilla",
     "CurrentSeed": "Semilla Actual",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Por favor selecciona la Marca del equipamiento. Adem\u00e1s, selecciona el Ticket de Bebida que quieres activar (de ser as\u00ed).",
     "HaveGear": "Si tienes alg\u00fan equipamiento en tu base de datos, puedes seleccionarlo aqu\u00ed para preestablecer los detalles.",
     "MaxNumberOfSlots": "N\u00famero M\u00e1ximo de Ranuras a Buscar",

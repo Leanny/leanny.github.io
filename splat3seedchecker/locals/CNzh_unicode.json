@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "是否使用碎片",
     "AllowedDrinks": "可使用的饮料券",
     "ButtonDisplayResults": "显示结果",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "更新种子并保存装备",
     "ButtonUpdateSeed": "更新种子",
     "CurrentSeed": "当前种子",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "请选择装备品牌。如果您想使用饮料券，请同时选择您想使用的饮料券。",
     "HaveGear": "如果您保存过装备数据，可以选择该装备以自动填写预设内容。",
     "MaxNumberOfSlots": "技能槽最高搜索数",

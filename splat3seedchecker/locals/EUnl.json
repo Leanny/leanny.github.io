@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Effectfragmenten toestaan",
     "AllowedDrinks": "Toegestane drankjes",
     "ButtonDisplayResults": "Resultaat laten zien",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Seed bijwerken en uitrusting opslaan",
     "ButtonUpdateSeed": "Seed bijwerken",
     "CurrentSeed": "Huidige seed",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Selecteer het merk van de uitrusting. Selecteer ook het drankticket dat je wilt gebruiken (als er \u00e9\u00e9n is).",
     "HaveGear": "Als je uitrustingen in de database hebt, kun je deze hier selecteren om ze als preset details te gebruiken.",
     "MaxNumberOfSlots": "Maximum aantal zoekbare vakjes.",

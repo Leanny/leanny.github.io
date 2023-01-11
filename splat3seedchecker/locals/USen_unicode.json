@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Allow Chunks",
     "AllowedDrinks": "Allowed Drinks",
     "ButtonDisplayResults": "Display Results",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Update Seed And Save",
     "ButtonUpdateSeed": "Update Seed",
     "CurrentSeed": "Current Seed",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "Please select the Brand of the gear. Also, please select the Drink Ticket you want to activate (if any).",
     "HaveGear": "If you have gear in your database, you can select it here to preset details.",
     "MaxNumberOfSlots": "Maximum Number of Slots to Search",
@@ -70,7 +72,7 @@
     "SeedKeyAndGear": "Seed Key and Gear",
     "SeedKeyOnly": "Seed Key Only",
     "SeedKeyOnlyStep1": "Upload one of your own battle replays in-game.",
-    "SeedKeyOnlyStep22": "Enter the code here.",
+    "SeedKeyOnlyStep2": "Enter the code here.",
     "SeedNotFound": "Seed Not Found",
     "SplatnetInstructions": "Instructions",
     "SplatnetInstructionsStep1": "Find the Lanista Bot on Discord. (<0>For example here</0>.)",
@@ -121,7 +123,7 @@
     "MurchReceiveEnterHeadline": "Enter result",
     "MurchReceiveHeadline": "Receive item from Murch",
     "MurchReceivedItem": "Received",
-    "NoSeedFoundYet": "No possible seeds found yet.",
+    "NoSeedFoundYet": "No possible seeds found.",
     "Normal": "Normal",
     "OneSeedFound": "Only one possible seed found.",
     "Pull": "Pull",

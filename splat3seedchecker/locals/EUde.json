@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "Effekt-Fragmente Erlauben",
     "AllowedDrinks": "Getr\u00e4nke Erlauben",
     "ButtonDisplayResults": "Ergebnisse Anzeigen",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "Seed Updaten und Speichern",
     "ButtonUpdateSeed": "Seed Updaten",
     "CurrentSeed": "Aktueller Seed",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "W\u00e4hle die passende Marke der Ausr\u00fcstung, sowie die Getr\u00e4nke, die du aktivieren willst.",
     "HaveGear": "Wenn du Ausr\u00fcstung in der Datenbank hast, kannst du sie hier ausw\u00e4hlen, um einige Felder im Voraus auszuf\u00fcllen.",
     "MaxNumberOfSlots": "Maximale Anzahl an Slots zum Durchsuchen",

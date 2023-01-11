@@ -1,5 +1,6 @@
 {
   "Checker": {
+    "Advances": "Advances",
     "AllowChunks": "조각 사용 허용",
     "AllowedDrinks": "허용된 드링크들",
     "ButtonDisplayResults": "결과 표시",
@@ -9,6 +10,7 @@
     "ButtonUpdateAndSave": "시드 갱신 및 저장",
     "ButtonUpdateSeed": "시드 갱신",
     "CurrentSeed": "현재 시드",
+    "FixedOrder": "Fixed Order",
     "HaveBrand": "기어의 브랜드를 선택해주세요, 만약 마시고 싶으신 드링크가 있으시다면, 그것 또한 선택해주세요.",
     "HaveGear": "기어가 만약 데이터베이스에 있으시다면, 여기에서 선택하여 주세요.",
     "MaxNumberOfSlots": "슬롯 최대 검색 수",
