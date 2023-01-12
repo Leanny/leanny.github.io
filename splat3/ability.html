@@ -313,6 +313,7 @@
                         const v = get_effect(value, ap)
                         if (
                             !key.includes("BooyahBombChargeRateAutoPerFrame") &&
+                            !key.includes("OpInk_DamagePerFrame") &&
                             (key.includes("Frm") || key.includes("Frame") || key.includes("HP"))
                         ) {
                             new_data.push({
