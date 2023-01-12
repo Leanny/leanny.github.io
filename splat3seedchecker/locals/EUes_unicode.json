@@ -15,6 +15,7 @@
     "HaveGear": "Si tienes equipamiento en tu base de datos, puedes seleccionarlo aquí para predefinir detalles.",
     "MaxNumberOfSlots": "Número máximo de posiciones para buscar",
     "NumberOfSlots": "Número de posiciones",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "No hay resultados que mostrar.",
     "ResultNoResultsFound": "No se han encontrado resultados.",
     "ResultSeedAfterRoll": "Semilla tras la tirada",

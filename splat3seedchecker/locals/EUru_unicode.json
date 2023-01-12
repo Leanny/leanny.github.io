@@ -15,6 +15,7 @@
     "HaveGear": "Если в вашей базе данных есть необходимое снаряжение, вы можете выбрать его здесь для предустановки настроек.",
     "MaxNumberOfSlots": "Максимальное Количество Слотов для Поиска",
     "NumberOfSlots": "Количество Слотов",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "Нет результата.",
     "ResultNoResultsFound": "Результат не найден.",
     "ResultSeedAfterRoll": "Сид после крутки",

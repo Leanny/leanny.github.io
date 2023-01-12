@@ -15,6 +15,7 @@
     "HaveGear": "If you have gear in your database, you can select it here to preset details.",
     "MaxNumberOfSlots": "Maximum Number of Slots to Search",
     "NumberOfSlots": "Number of Slots.",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "No results to display.",
     "ResultNoResultsFound": "No results found.",
     "ResultSeedAfterRoll": "Seed After Roll",

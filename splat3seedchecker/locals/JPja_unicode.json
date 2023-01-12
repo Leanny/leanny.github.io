@@ -15,6 +15,7 @@
     "HaveGear": "データベースからシードを利用するギアを選択できます。",
     "MaxNumberOfSlots": "スロット検索数の上限",
     "NumberOfSlots": "ギアスロットの表示数",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "見つかりませんでした。",
     "ResultNoResultsFound": "見つかりませんでした。",
     "ResultSeedAfterRoll": "次のシード",

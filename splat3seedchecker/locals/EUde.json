@@ -1,6 +1,6 @@
 {
   "Checker": {
-    "Advances": "Advances",
+    "Advances": "Weiterl\u00e4ufe",
     "AllowChunks": "Effekt-Fragmente Erlauben",
     "AllowedDrinks": "Getr\u00e4nke Erlauben",
     "ButtonDisplayResults": "Ergebnisse Anzeigen",
@@ -15,6 +15,7 @@
     "HaveGear": "Wenn du Ausr\u00fcstung in der Datenbank hast, kannst du sie hier ausw\u00e4hlen, um einige Felder im Voraus auszuf\u00fcllen.",
     "MaxNumberOfSlots": "Maximale Anzahl an Slots zum Durchsuchen",
     "NumberOfSlots": "Anzahl an Slots.",
+    "ReplaceWithChunks": "Ersetze <0 /> mit <1 /> Effekt-Fragmenten.",
     "ResultNoResults": "Keine Ergebnisse.",
     "ResultNoResultsFound": "Kein Ergebnis gefunden.",
     "ResultSeedAfterRoll": "Seed nach dem Leveln",

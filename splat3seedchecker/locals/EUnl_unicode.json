@@ -15,6 +15,7 @@
     "HaveGear": "Als je uitrustingen in de database hebt, kun je deze hier selecteren om ze als preset details te gebruiken.",
     "MaxNumberOfSlots": "Maximum aantal zoekbare vakjes.",
     "NumberOfSlots": "Aantal vakjes.",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "Geen resultaat om weer te geven.",
     "ResultNoResultsFound": "Geen resultaat gevonden.",
     "ResultSeedAfterRoll": "Seed na reroll",

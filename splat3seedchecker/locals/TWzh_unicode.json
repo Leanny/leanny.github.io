@@ -15,6 +15,7 @@
     "HaveGear": "如果您保存過裝備資料，可以選擇該裝備以自動填寫預設內容。",
     "MaxNumberOfSlots": "技能槽最高搜尋數",
     "NumberOfSlots": "技能槽數量。",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "沒有可顯示的結果。",
     "ResultNoResultsFound": "沒有搜尋到相關結果。",
     "ResultSeedAfterRoll": "新種子",

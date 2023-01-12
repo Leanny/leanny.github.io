@@ -15,6 +15,7 @@
     "HaveGear": "Si un \u00e9quipement est enregistr\u00e9 dans la base de donn\u00e9es, il peut \u00eatre s\u00e9lectionn\u00e9 dans la liste d\u00e9roulante ci-dessous.",
     "MaxNumberOfSlots": "Nombre maximum d\u2019emplacements \u00e0 rechercher",
     "NumberOfSlots": "Nombre d\u2019emplacements",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "Aucun r\u00e9sultat \u00e0 afficher.",
     "ResultNoResultsFound": "Aucun r\u00e9sultat trouv\u00e9.",
     "ResultSeedAfterRoll": "Seed apr\u00e8s Tirage",

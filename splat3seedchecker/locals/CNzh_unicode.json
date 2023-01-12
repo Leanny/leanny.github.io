@@ -15,6 +15,7 @@
     "HaveGear": "如果您保存过装备数据，可以选择该装备以自动填写预设内容。",
     "MaxNumberOfSlots": "技能槽最高搜索数",
     "NumberOfSlots": "技能槽数量。",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "没有可显示的结果。",
     "ResultNoResultsFound": "没有搜索到相关结果。",
     "ResultSeedAfterRoll": "新种子",

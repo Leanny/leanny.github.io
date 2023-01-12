@@ -15,6 +15,7 @@
     "HaveGear": "Si un équipement est enregistré dans la base de données, il peut être sélectionné dans la liste déroulante ci-dessous.",
     "MaxNumberOfSlots": "Nombre maximum d’emplacements à rechercher",
     "NumberOfSlots": "Nombre d’emplacements",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "Aucun résultat à afficher.",
     "ResultNoResultsFound": "Aucun résultat trouvé.",
     "ResultSeedAfterRoll": "Seed après Tirage",

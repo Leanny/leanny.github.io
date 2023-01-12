@@ -15,6 +15,7 @@
     "HaveGear": "Seleziona un equipaggimanto dal tuo database.",
     "MaxNumberOfSlots": "Numero Massimo di Slot da Ricercare",
     "NumberOfSlots": "Numero di Slots",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "Nessuna Soluzione Trovata.",
     "ResultNoResultsFound": "Nessun Risultato Trovato.",
     "ResultSeedAfterRoll": "Prossimi Valore del Seme",

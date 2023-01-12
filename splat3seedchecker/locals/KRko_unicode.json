@@ -15,6 +15,7 @@
     "HaveGear": "기어가 만약 데이터베이스에 있으시다면, 여기에서 선택하여 주세요.",
     "MaxNumberOfSlots": "슬롯 최대 검색 수",
     "NumberOfSlots": "슬롯 수.",
+    "ReplaceWithChunks": "Replace <0 /> with <1 /> chunks.",
     "ResultNoResults": "표시할 결과가 없습니다.",
     "ResultNoResultsFound": "검색 결과가 없습니다.",
     "ResultSeedAfterRoll": "기어 파워 뽑기 이후의 시드",
