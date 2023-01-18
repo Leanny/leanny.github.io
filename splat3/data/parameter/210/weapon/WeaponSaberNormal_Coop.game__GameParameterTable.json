@@ -1,0 +1,40 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSaberNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "BulletSaberHorizontalParam": {
+      "$type": "spl__BulletSaberParam",
+      "DamageParam": {
+        "HitDamage": 1000
+      }
+    },
+    "BulletSaberSlashHorizontalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "DamageValue": 450
+      }
+    },
+    "BulletSaberSlashVerticalParam": {
+      "$type": "spl__BulletSaberSlashParam",
+      "DamageParam": {
+        "DamageValue": 2200
+      }
+    },
+    "BulletSaberVerticalParam": {
+      "$type": "spl__BulletSaberParam",
+      "DamageParam": {
+        "HitDamage": 1800
+      }
+    },
+    "spl__WeaponSaberParam": {
+      "$type": "spl__WeaponSaberParam",
+      "ChargeParam": {
+        "InkConsumeFullCharge": 0.06,
+        "InkConsumeMinCharge": 0.025
+      },
+      "SwingParam": {
+        "InkConsume": 0.025,
+        "SideStepParam": {}
+      }
+    }
+  }
+}

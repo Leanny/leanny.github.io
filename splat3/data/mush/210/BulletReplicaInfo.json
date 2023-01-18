@@ -1,0 +1,74 @@
+[
+  {
+    "__RowId": "BulletBeacon"
+  },
+  {
+    "__RowId": "BulletBombRobot"
+  },
+  {
+    "__RowId": "BulletBombTorpedo"
+  },
+  {
+    "__RowId": "BulletShelterCanopyBase"
+  },
+  {
+    "__RowId": "BulletShelterCanopyCompact"
+  },
+  {
+    "__RowId": "BulletShelterCanopyWide"
+  },
+  {
+    "__RowId": "BulletShield"
+  },
+  {
+    "__RowId": "BulletSpBlowerInhale"
+  },
+  {
+    "__RowId": "BulletSpEnergyStandFridge"
+  },
+  {
+    "__RowId": "BulletSpGreatBarrier"
+  },
+  {
+    "__RowId": "BulletSpInkStormGenerator"
+  },
+  {
+    "__RowId": "BulletSpMicroLaserBit"
+  },
+  {
+    "__RowId": "BulletSpNiceBallCoop"
+  },
+  {
+    "__RowId": "BulletSpShockSonarGenerator"
+  },
+  {
+    "__RowId": "BulletSpTripleTornadoDevice"
+  },
+  {
+    "__RowId": "BulletSpTripleTornadoMother"
+  },
+  {
+    "__RowId": "BulletSprinkler"
+  },
+  {
+    "__RowId": "BulletTrap"
+  },
+  {
+    "__RowId": "CoopSakeArtilleryGun"
+  },
+  {
+    "__RowId": "CoopSakeShipGoldenIkuraBox"
+  },
+  {
+    "__RowId": "CoopSakeShipRock"
+  },
+  {
+    "__RowId": "CoopSakerocketBullet"
+  },
+  {
+    "__RowId": "CoopSpawnBox"
+  },
+  {
+    "__RowId": "Obj_BeaconGimmick"
+  }
+]

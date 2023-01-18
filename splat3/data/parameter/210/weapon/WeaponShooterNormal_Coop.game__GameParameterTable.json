@@ -1,0 +1,9 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterNormal.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMin": 300
+    }
+  }
+}

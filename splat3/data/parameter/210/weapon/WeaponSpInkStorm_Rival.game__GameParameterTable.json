@@ -1,0 +1,76 @@
+{
+  "GameParameters": {
+    "CloudParam": {
+      "$type": "spl__BulletSpInkStormCloudParam",
+      "CloudMoveSpeed": 0.06,
+      "CloudMoveWaitFrame": 30,
+      "DamageHeight": 30.0,
+      "DamageRadius": 8.5,
+      "DamageValue": 4,
+      "NoPaintRainNum": 0,
+      "RainNum": 72,
+      "RainWaitFrame": 15,
+      "RainyFrame": {
+        "High": 600.0,
+        "Low": 480.0,
+        "Mid": 540.0
+      },
+      "RiseFrame": 45,
+      "RiseHeight": 20.0,
+      "RiseModelRotateDegreeEndFrame": 9,
+      "RiseModelRotateDegreePerFrame": -30.0,
+      "WithNoPaintRainNum": 120
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpInkStormGeneratorMoveParam",
+      "DamageValueForDamageTag": 4000,
+      "FlyGravity": 0.016,
+      "FlyPositionAirResist": 0.05866,
+      "FlyRotateAirResist": 0.01985,
+      "GuideHitCollisionType": "EnemyOffFenceOn",
+      "GuideRadius": 0.5,
+      "SpawnRotatePitch": 0.4,
+      "SpawnRotateRoll": 0.12,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.68,
+        "Low": 1.12,
+        "Mid": 1.4
+      }
+    },
+    "RainParam": {
+      "$type": "spl__BulletSpInkStormRainParam",
+      "CollisionParam": {
+        "ChangeFrameForField": 0,
+        "ChangeFrameForPlayer": 0,
+        "EndRadiusForField": 0.25,
+        "EndRadiusForPlayer": 0.0,
+        "FriendThroughFrameForPlayer": 0,
+        "InitRadiusForField": 0.25,
+        "InitRadiusForPlayer": 0.0
+      },
+      "MoveParam": {
+        "BrakeAirResist": 0.0,
+        "BrakeGravity": 0.0,
+        "BrakeToFreeStateFrame": 0,
+        "BrakeToFreeVelocityXZ": 0.0,
+        "BrakeToFreeVelocityY": 0.0,
+        "FreeAirResist": 0.07,
+        "FreeGravity": 0.02,
+        "GoStraightStateEndMaxSpeed": 0.0,
+        "GoStraightToBrakeStateFrame": 0,
+        "SpawnSpeed": 0.0
+      },
+      "PaintRadius": 1.9125
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YMinusRate": 0.0,
+      "YPlusRate": 4.0,
+      "ZRate": 2.0
+    }
+  }
+}

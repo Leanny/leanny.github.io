@@ -1,0 +1,4910 @@
+[
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/BulletBombTorpedo.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "cap": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "parts": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "ring": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/BulletSpInkStormCloud.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break05": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCase_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopEnemySakeBigMouth.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCaseGold_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBallCase/output/Enm_CoopSalmonBallCaseGold_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopEnemySakeBigMouthGold.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Prope": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSakepuncherBaby/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSakepuncherBaby/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopEnemySakeCopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": 2.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": 2.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": 2.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": 2.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break05": {
+        "ColRadius": 2.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break06": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break06.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break07": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break07.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break08": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break08.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break09": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break09.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break10": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break10.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break11": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break11.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break12": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break12.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break13": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSwing_Pillar/output/Enm_Break13.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopEnemySakePillar.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break05": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSaucer/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.5,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopEnemySakeSaucer.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "ModelKey": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopIkuraDrop/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopItemGoldenIkura.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayIkuraBox/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayIkuraBox/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayIkuraBox/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayIkuraBox/output/Obj_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayIkuraBox/output/Obj_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopSakeShipGoldenIkuraBox.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayRock/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayRock/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayRock/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayRock/output/Obj_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopRelayRock/output/Obj_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopSakeShipRock.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_CoopSakepuncherBox/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_CoopSakepuncherBox/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_CoopSakepuncherBox/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.75,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopSpawnBox.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Helmet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_BallShield/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Joint": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_BallShield/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_BallShield/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Helmet",
+          "Joint"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyBarrierTakopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Helmet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Helmet",
+          "Skid01",
+          "Skid02"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyBombTakopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Helmet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Muffler": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakopterBomb/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Helmet",
+          "Skid01",
+          "Skid02",
+          "Muffler"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyBoostBombTakopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Helmet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Muffler": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Helmet",
+          "Skid01",
+          "Skid02",
+          "Muffler"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyBoostTakopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Break04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Break05": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDozerA/output/Enm_CoopDozerA_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_00": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Break00",
+          "Break01",
+          "Break02",
+          "Break03",
+          "Break04",
+          "Break05"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopDozer.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Fragment00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonArtillery/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Fragment01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonArtillery/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Fragment02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocketBullet/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Fragment03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonArtillery/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Fragment04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonArtillery/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_01": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Fragment00",
+          "Fragment01",
+          "Fragment02",
+          "Fragment03",
+          "Fragment04"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSakeArtilleryBullet.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Lure": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDiver/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Pot1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDiver/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Pot2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopDiver/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_Break00": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Pot1",
+          "Pot2",
+          "Lure"
+        ]
+      },
+      "Death_Break01": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Lure"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSakediver.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "BackPot": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBomb/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadPot": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBomb/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Mouthpiece": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBomb/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Tire1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBomb/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Tire2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonBomb/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "BrokenPiece_L",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Mouthpiece",
+          "HeadPot",
+          "Tire2",
+          "Tire1",
+          "BackPot"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonBomber.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Parts1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break07.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break06.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts4": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "PartsL1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "PartsL2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "PartsR1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "PartsR2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonCup2/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Break_L": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "PartsL1",
+          "PartsL2",
+          "Parts4"
+        ]
+      },
+      "Break_R": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Parts4",
+          "PartsR1",
+          "PartsR2"
+        ]
+      },
+      "Death_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Parts1",
+          "Parts2",
+          "Parts3"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonCupTwins.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "HeadParts1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts4": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts5": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts6": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts7": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break06.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts8": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break07.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "HeadParts9": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonDolphin/output/Enm_Break08.fmdb",
+        "OnBounceSLinkKeyName": "Coop_Enemy_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "HeadParts1",
+          "HeadParts2",
+          "HeadParts3",
+          "HeadParts4",
+          "HeadParts5",
+          "HeadParts6",
+          "HeadParts7",
+          "HeadParts8",
+          "HeadParts9"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonDolphin.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Uroko": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGeyser/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_01": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Uroko"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonGeyser.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Parts1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocket/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocket/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocket/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts4": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocket/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Parts1",
+          "Parts2",
+          "Parts3",
+          "Parts4"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonSakerocket.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Parts1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocketBullet/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocketBullet/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocketBullet/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Parts4": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonRocketBullet/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Purege": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Parts1",
+          "Parts2",
+          "Parts3",
+          "Parts4"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonSakerocketBullet.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Engine": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Fry": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break07.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "MufflerL": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "MufflerS": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Screw": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break06.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Side": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Tong": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break08.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Top": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonGuardian/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Shield",
+          "Top",
+          "Side",
+          "Engine",
+          "MufflerL",
+          "MufflerS",
+          "Fry",
+          "Tong"
+        ]
+      },
+      "Down": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Screw"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonShield.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Base": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Tail/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Body": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Body/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Eye": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Head/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Head": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Head/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Hose": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Body/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Joe": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Head/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Mask": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Tail/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Pole": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Tail/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Tire": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonSnake_Head/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "BreakBody_01": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Body",
+          "Hose"
+        ]
+      },
+      "BreakHead_01": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Head",
+          "Eye",
+          "Joe",
+          "Tire"
+        ]
+      },
+      "BreakTail_01": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Mask",
+          "Base",
+          "Pole"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonSnake.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "GassCan": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonTowerBlock/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Mouthpiece": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonTower/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Stove": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonTowerBlock/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "StoveBase": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_CoopSalmonTowerBlock/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Death_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Mouthpiece",
+          "Stove",
+          "GassCan",
+          "StoveBase"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyCoopSalmonTower.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "met": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Escape/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "met"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyEscape.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Face": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumSmall/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Jet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumSmall/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Face",
+          "Jet"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyFlyingHohei.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Eye01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_FlyingHohei/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Eye02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_FlyingHohei/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Jet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_FlyingHohei/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Wing": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_FlyingHohei/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Wing",
+          "Jet",
+          "Eye02",
+          "Eye01"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyFlyingHoheiMissile.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumLarge/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Tail": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumLarge/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "TailProp": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumLarge/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Top": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_MagnumLarge/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "met"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyFlyingHoheiMother.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Face": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Hohei/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Jet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Hohei/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Leg": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Hohei/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Leg2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Hohei/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Face",
+          "Jet",
+          "Leg",
+          "Leg2"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyHohei.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Face": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_HoheiDEV/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Jet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_HoheiDEV/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Leg": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_HoheiDEV/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "Leg2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_HoheiDEV/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Face",
+          "Jet",
+          "Leg",
+          "Leg2"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyHoheiDEV.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "BreakDebris01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebris02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebris03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebris04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebris05": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebris06": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break06.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break07.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break08.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare04": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break09.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare05": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break10.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      },
+      "BreakDebrisRare06": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Rock/output/Enm_Break11.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 2
+      }
+    },
+    "EmitInfoMap": {
+      "DebrisNormal": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "BreakDebris01",
+          "BreakDebris02",
+          "BreakDebris03",
+          "BreakDebris04",
+          "BreakDebris05",
+          "BreakDebris06"
+        ]
+      },
+      "DebrisRare": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "BreakDebrisRare01",
+          "BreakDebrisRare02",
+          "BreakDebrisRare03",
+          "BreakDebrisRare04",
+          "BreakDebrisRare05",
+          "BreakDebrisRare06"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyRock.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Stamp/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Plate": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Stamp/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Vent": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Stamp/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Face",
+          "Jet",
+          "Leg",
+          "Leg2"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyStamp.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Cover": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_StampWave/output/Enm_Break04.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_StampWave/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Headphone": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_StampWave/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Plate": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_StampWave/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Vent": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_StampWave/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Headphone",
+          "Plate",
+          "Vent",
+          "Flame",
+          "Cover"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyStampWave.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "tub": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "dozer",
+          "nozle",
+          "tub"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakoHopper.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "goggles": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takolien/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "tub": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleHopper/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break_01": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "dozer",
+          "nozle",
+          "goggles",
+          "tub"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakoHopperHide.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "muffler": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBoostShieldVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "muffler": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBoostVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBounceFixed.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBounceFixedShield.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBounceMove.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienBounceVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienBounceMoveShield.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Barrel": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLeg/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Base": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLeg/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Scoope": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLeg/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Scoope",
+          "Barrel",
+          "Base"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienCharge.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienEasyFixed.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienEasyFixedShield.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleSubmarine/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "goggles": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takolien/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleSubmarine/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_BreakHide": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer",
+          "goggles"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienEasyHideVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienEasyMove.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShield/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienEasyMoveShield.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienFixedShieldVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleFix/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleFix/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienFixedVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleSubmarine/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "goggles": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienS/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleSubmarine/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_BreakHide": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer",
+          "goggles"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienHideVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienMoveVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "dozer": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "flame": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "hinji": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "nozle": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienSVehicleMove/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "shield": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_TakolienShieldS/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "nozle",
+          "dozer"
+        ]
+      },
+      "ShieldBreak": {
+        "EmitAngularVel": 93.75,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "shield"
+        ]
+      },
+      "ShieldBreakHalf": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "hinji",
+          "flame"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienShieldMoveVehicle.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Base": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLegSpinner/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Gat": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLegSpinner/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Glass": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLegSpinner/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "Prop": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 8,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_OctLegSpinner/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Glass",
+          "Gat",
+          "Base",
+          "Prop"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakolienSpinner.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Helmet": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break00.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break01.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break02.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Skid02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Enemy/Enm_Takopter/output/Enm_Break03.fmdb",
+        "OnBounceSLinkKeyName": "Hero_EnemyCollision_Common",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 60.0,
+        "EmitLinearVel": 12.0,
+        "FadeOutTime": 0.5,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Helmet",
+          "Skid01",
+          "Skid02"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/EnemyTakopter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BossGateway/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BossGateway/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BossGateway/output/Obj_Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "HalfBreak": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BossGateway/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/MissionBossGateway.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Gateway/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Gateway/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/MissionGateway.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Gateway_Challenge/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 4,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Gateway_Challenge/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/MissionGatewayChallenge.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "antenna": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_MovePainter/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "balloon": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_MovePainter/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "joint": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_MovePainter/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      },
+      "tire": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_MovePainter/output/Obj_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.5,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep": {
+        "EmitAngularVel": 62.5,
+        "EmitLinearVel": 12.5,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "tire",
+          "balloon",
+          "antenna",
+          "joint"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjMovePainter.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "FragmentPC1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_AirBallMsnWorld/output/Fragment00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 0.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Fragment": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 1.0,
+        "ModelInfo": [
+          "FragmentPC1"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjNavigateAirBall.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Frame1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetL_Octa/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      },
+      "Frame2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetL_Octa/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Frame3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetL_Octa/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjShootingBoxL.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Frame1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetLHard_Octa/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      },
+      "Frame2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetLHard_Octa/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Frame3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetLHard_Octa/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjShootingBoxLHard.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Frame1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetS_Octa/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      },
+      "Frame2": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetS_Octa/output/Obj_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Frame3": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_BoxTargetS_Octa/output/Obj_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Break": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjShootingBoxS.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "WoodBoardLarge": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Box00L/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_1": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjWoodBox00L.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "WoodBoardLarge": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Box01L/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.7,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_0": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjWoodBox01L.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Lump": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_ExcavationPoint/output/Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Nut": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_ExcavationPoint/output/Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Propeller": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_ExcavationPoint/output/Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Screw": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_ExcavationPoint/output/Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "Break": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": [
+          "Propeller",
+          "Lump",
+          "Screw",
+          "Nut"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjWorldDigUpPoint.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/WeaponSpChariot.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Cartridge": {
+        "ColRadius": 0.1,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 32,
+        "FrictionScale": 0.9,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_UltraShot/output/Wsp_UltraShot_Cartridge.fmdb",
+        "OnBounceSLinkKeyName": "SpUltraShot_Cartridge",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 0.8,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/WeaponSpUltraShot.spl__gfx__PhysicsBindModelParam.gyml"
+  }
+]

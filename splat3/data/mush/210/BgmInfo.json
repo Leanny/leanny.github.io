@@ -1,0 +1,80 @@
+[
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Versus_Fes_Thunder_01"
+    ],
+    "__RowId": "Versus_Fes_Thunder_01"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Versus_Fes_Thunder_02"
+    ],
+    "__RowId": "Versus_Fes_Thunder_02"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_01_Mastering",
+      "BGM_Versus_Thunder_01_Gachi_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_01"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_02_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_02"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_03_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_03"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_04_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_04"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_05_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_05"
+  },
+  {
+    "Artist": "012",
+    "AssetNames": [
+      "BGM_Versus_Thunder_06_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_06"
+  },
+  {
+    "Artist": "012",
+    "AssetNames": [
+      "BGM_Versus_Thunder_07_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_07"
+  },
+  {
+    "Artist": "013",
+    "AssetNames": [
+      "BGM_Versus_Thunder_08_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_08"
+  },
+  {
+    "Artist": "013",
+    "AssetNames": [
+      "BGM_Versus_Thunder_09_Mastering"
+    ],
+    "__RowId": "Versus_Thunder_09"
+  }
+]

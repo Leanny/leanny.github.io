@@ -1,0 +1,15 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponManeuverGallon.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageLapOverParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 700,
+      "ValueMin": 600
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 450,
+      "ValueMin": 300
+    }
+  }
+}

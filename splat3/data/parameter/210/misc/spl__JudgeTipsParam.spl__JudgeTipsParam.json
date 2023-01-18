@@ -1,0 +1,546 @@
+{
+  "Items": [
+    {
+      "IsImportant": true,
+      "Label": "Tips_01",
+      "MaxRank": 1
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_02",
+      "MaxRank": 6,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_12",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_19",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_59",
+      "MaxRank": 999,
+      "MinRank": 7
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_03",
+      "MaxRank": 6,
+      "MinRank": 4
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_09",
+      "MaxRank": 6,
+      "MinRank": 4
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_18",
+      "MaxRank": 9,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_61",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_22",
+      "MaxRank": 999,
+      "MinRank": 7
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_23",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_24",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_56",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_62",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_63",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_64",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_65",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_04",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/Aim.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_SpecialWeapon",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/SpecialWeapon.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_11",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/SubWeapon.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_13",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/RecoverInk.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_14",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_15",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/TerritoryMap.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_16",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/SuperJump.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_17",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "Label": "Tips_08",
+      "MaxRank": 999,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/HitEffect.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_25",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/GyroCamera.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_26",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "Label": "Tips_27",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "Label": "Tips_28",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "Label": "Tips_29",
+      "MaxRank": 9,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/IkaNet.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_30",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "Label": "Tips_31",
+      "MaxRank": 9,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_66",
+      "MaxRank": 999,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/SquidSurge.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_67",
+      "MaxRank": 999,
+      "MinRank": 2,
+      "Trial": "Work/Gyml/TipsTrial/IkaFlip.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_68",
+      "MaxRank": 999,
+      "MinRank": 2
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_69",
+      "MaxRank": 14,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_05",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Signal.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_06",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/IkaSpray.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_07",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_32",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_33",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_34",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_35",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombSplash.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_36",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombSuction.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_37",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombQuick.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_38",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombCurling.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_39",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/PointSensor.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_46",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Trap.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_53",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Sprinkler.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_54",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Beacon.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_40",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Shield.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_41",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/PoisonMist.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_42",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombRobot.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_43",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpMultiMissile.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_48",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpJetpack.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_50",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpInkStorm.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_58",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombHitShield.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_70",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_71",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/LineMarker.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_72",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpUltraShot.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_73",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpGreatBarrier.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_74",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpMicroLaser.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_75",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpSuperHook.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_76",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpShockSonar.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_77",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpChariot.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_78",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Charger.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_79",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Roller.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_80",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Blaster.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_81",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Brush.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_82",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Spinner.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_83",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Maneuver.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_84",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Slosher.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_85",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Shelter.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_86",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Stringer.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_87",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/Saber.spl__TipsTrialParam.gyml"
+    },
+    {
+      "IsImportant": true,
+      "Label": "Tips_55",
+      "MaxRank": 999,
+      "MinRank": 15
+    },
+    {
+      "Label": "Tips_88",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpUltraStamp.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_89",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpEnergyStand.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_90",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpBlower.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_91",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombFizzy.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_92",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpSkewer.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_93",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/BombTorpedo.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_94",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpTripleTornado.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_95",
+      "MaxRank": 999,
+      "MinRank": 10,
+      "Trial": "Work/Gyml/TipsTrial/SpNiceBall.spl__TipsTrialParam.gyml"
+    },
+    {
+      "Label": "Tips_96",
+      "MaxRank": 999,
+      "MinRank": 4,
+      "Trial": ""
+    },
+    {
+      "Label": "Tips_97",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_60",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_98",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_57",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_99",
+      "MaxRank": 999,
+      "MinRank": 10
+    },
+    {
+      "Label": "Tips_100",
+      "MaxRank": 999,
+      "MinRank": 4
+    },
+    {
+      "Label": "Tips_101",
+      "MaxRank": 999,
+      "MinRank": 4
+    }
+  ]
+}

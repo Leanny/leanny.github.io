@@ -1,0 +1,21 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponSpShockSonar.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "spl__BulletSpShockSonarParam": {
+      "$type": "spl__BulletSpShockSonarParam",
+      "GeneratorParam": {
+        "HitDamage": 0,
+        "HitKnockback": 0
+      },
+      "WaveParam": {
+        "Damage": 1500,
+        "IsAttackerPriority": false,
+        "IsEnableMarking": false,
+        "MaxRadius": {
+          "Low": 27.0,
+          "Mid": 27.0
+        }
+      }
+    }
+  }
+}

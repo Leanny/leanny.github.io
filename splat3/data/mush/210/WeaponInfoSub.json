@@ -1,0 +1,556 @@
+[
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Default",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 8,
+    "Label": "ジャンプビーコン",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Flag.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Beacon.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBeacon.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Beacon"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb_CurlingBullet",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CurlingDirectHit",
+        "HitEffectorType": "Bomb_Curling"
+      }
+    ],
+    "Id": 6,
+    "Label": "カーリングボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Curling.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Curling.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombCurling.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Curling"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb_CurlingBullet",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CurlingDirectHit",
+        "HitEffectorType": "Bomb_Curling"
+      }
+    ],
+    "Id": 11006,
+    "Label": "カーリングボムHero",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Curling_Hero.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombCurlingHero.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Curling_Hero"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb_CurlingBullet",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CurlingDirectHit",
+        "HitEffectorType": "Bomb_Curling"
+      }
+    ],
+    "Id": 10006,
+    "Label": "カーリングボムMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Curling_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombCurlingMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Curling_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb_CurlingBullet",
+        "ExtraInfo": "Normal"
+      },
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "CurlingDirectHit",
+        "HitEffectorType": "Bomb_Curling"
+      }
+    ],
+    "Id": 30006,
+    "Label": "カーリングボムライバル",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Curling_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombCurlingRival.engine__actor__ActorParam.gyml",
+    "Type": "Rival",
+    "__RowId": "Bomb_Curling_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_Fizzy",
+    "DefaultHitEffectorType": "Bomb_Fizzy",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 5,
+    "Label": "タンサンボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Piyo.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Fizzy.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombFizzy.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Fizzy"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      }
+    ],
+    "Id": 2,
+    "Label": "クイックボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Handy.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Quick.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombQuick.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Quick"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      }
+    ],
+    "Id": 11002,
+    "Label": "クイックボムHero",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Quick_Hero.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombQuickHero.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Quick_Hero"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      }
+    ],
+    "Id": 10002,
+    "Label": "クイックボムMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Quick_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombQuickMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Quick_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "ExtraBombCore",
+        "HitEffectorType": "Blaster_ExtraBombCore"
+      }
+    ],
+    "Id": 30002,
+    "Label": "クイックボムライバル",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Quick_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombQuickRival.engine__actor__ActorParam.gyml",
+    "Type": "Rival",
+    "__RowId": "Bomb_Quick_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 7,
+    "Label": "ロボットボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Robo.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Robot.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombRobot.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Robot"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10007,
+    "Label": "ロボットボムMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Robot_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombRobotMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Robot_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 30007,
+    "Label": "ロボットボムライバル",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Robot_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombRobotRival.engine__actor__ActorParam.gyml",
+    "Type": "Rival",
+    "__RowId": "Bomb_Robot_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 0,
+    "Label": "スプラッシュボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Splash.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplash.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Splash"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 21000,
+    "Label": "スプラッシュボム(大)Coop",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash_Big_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplashBigCoop.engine__actor__ActorParam.gyml",
+    "Type": "Coop",
+    "__RowId": "Bomb_Splash_Big_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 20000,
+    "Label": "スプラッシュボムCoop",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash_Coop.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplash_Coop.engine__actor__ActorParam.gyml",
+    "Type": "Coop",
+    "__RowId": "Bomb_Splash_Coop"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 11000,
+    "Label": "スプラッシュボムHero",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash_Hero.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplashHero.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Splash_Hero"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10000,
+    "Label": "スプラッシュボムMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplashMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Splash_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_DirectHit",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb",
+        "ExtraInfo": "ExtraBombCore"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 30000,
+    "Label": "スプラッシュボムライバル",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Splash_Rival.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSplashRival.engine__actor__ActorParam.gyml",
+    "Type": "Rival",
+    "__RowId": "Bomb_Splash_Rival"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_Suction",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 1,
+    "Label": "キューバンボム",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Hold.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Suction.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSuction.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Suction"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_Suction",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10001,
+    "Label": "キューバンボムMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Suction_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombSuctionMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Bomb_Suction_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_TorpedoBullet",
+    "DefaultHitEffectorType": "Bomb_Torpedo",
+    "ExtraDamageRateInfoRowSet": [
+      {
+        "DamageRateInfoRow": "Bomb_TorpedoSplashBurst",
+        "ExtraInfo": "ExtraPaintSplashExplosion"
+      }
+    ],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 13,
+    "Label": "トーピード",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Bomb_Tako.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Bomb_Torpedo.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponBombTorpedo.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Bomb_Torpedo"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "LineMarker",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 12,
+    "Label": "ラインマーカー",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_LinMarker.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_LineMarker.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponLineMarker.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "LineMarker"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "LineMarker",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10012,
+    "Label": "ラインマーカーMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_LineMarker_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponLineMarkerMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "LineMarker_Mission"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 9,
+    "Label": "ポイントセンサー",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_MarkingBall.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_PointSensor.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponPointSensor.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "PointSensor"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 11,
+    "Label": "ポイズンミスト",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_DevillBall.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_PoisonMist.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponPoisonMist.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "PoisonMist"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Default",
+    "DefaultHitEffectorType": "SalmonBuddy",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10100,
+    "Label": "コジャケ",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_SalmonBuddy.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSalmonBuddy.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "SalmonBuddy"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Shield",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 4,
+    "Label": "スプラッシュシールド",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Shield.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Shield.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponShield.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Shield"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Sprinkler",
+    "DefaultHitEffectorType": "Sprinkler",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [
+      {
+        "ExtraInfo": "SprinklerInk",
+        "HitEffectorType": "Sprinkler_Ink"
+      }
+    ],
+    "Id": 3,
+    "Label": "スプリンクラー",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Sprinkler.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Sprinkler.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponSprinkler.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Sprinkler"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_Trap",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10,
+    "Label": "トラップ",
+    "LockerGoodsSubWeaponInfo": "Work/Gyml/Wsb_Trap.spl__LockerGoodsSubWeaponInfo.gyml",
+    "NpcActor": "Work/Actor/WsbN_Trap.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponTrap.engine__actor__ActorParam.gyml",
+    "Type": "Versus",
+    "__RowId": "Trap"
+  },
+  {
+    "DefaultDamageRateInfoRow": "Bomb_Trap",
+    "DefaultHitEffectorType": "Bomb",
+    "ExtraDamageRateInfoRowSet": [],
+    "ExtraHitEffectorInfoSet": [],
+    "Id": 10010,
+    "Label": "トラップMsn",
+    "LockerGoodsSubWeaponInfo": "",
+    "NpcActor": "Work/Actor/WsbN_Trap_Mission.engine__actor__ActorParam.gyml",
+    "SpecActor": "Work/Actor/WeaponTrapMission.engine__actor__ActorParam.gyml",
+    "Type": "Mission",
+    "__RowId": "Trap_Mission"
+  }
+]
