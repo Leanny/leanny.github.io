@@ -32,5 +32,16 @@
             "https://leanny.github.io/splat3/images/gear/Hed_COP112.png"
         ],
         "current":"https://leanny.github.io/splat3/images/gear/Hed_COP114.png"
+    },
+    "2023-03-02T18:00:01Z": {
+        "past":[
+            "https://leanny.github.io/splat3/images/gear/Hed_COP110.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP111.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP115.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP113.png",
+            "https://leanny.github.io/splat3/images/gear/Hed_COP112.png"
+            "https://leanny.github.io/splat3/images/gear/Hed_COP114.png"
+        ],
+        "current":"https://leanny.github.io/splat3/images/gear/Clt_COP111.webp"
     }
 }
