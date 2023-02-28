@@ -1,0 +1,60 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 2.2,
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "DamageAttackerPriority": true,
+      "KnockBackParam": {
+        "Accel": 0.0
+      },
+      "PaintHeight": 3.0,
+      "PaintRadius": 1.0,
+      "PaintTexture": "BombLineMarker"
+    },
+    "MoveParam": {
+      "$type": "spl__BulletLineMarkerParam",
+      "CollisionRadius": 0.25,
+      "DirectDamage": 300,
+      "FlyGravity": 0.0,
+      "FlyPositionAirResist": 0.0,
+      "FlyingFrame": 7,
+      "GuideHitCollisionType": "EnemyOnFenceOff",
+      "GuideRadius": 0.25,
+      "MarkingFrame": {
+        "High": 480.0,
+        "Low": 300.0,
+        "Mid": 390.0
+      },
+      "PaintRadius": 0.65,
+      "ReboundGroundBoundRate": 1.0,
+      "ReboundGroundReflectAngleRate": 0.1,
+      "ReboundWallBoundRate": 1.0,
+      "ReboundWallReflectAngleRate": 1.0,
+      "SpawnSpeedYWorldMin": -100.0,
+      "SpawnSpeedZSpecUp": {
+        "High": 6.0,
+        "Low": 5.0,
+        "Mid": 5.5
+      },
+      "TailDamage": 100,
+      "TailFrame": 90
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting",
+      "SubInkSaveLv": 0
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.4,
+      "InkRecoverStop": 50
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    }
+  }
+}

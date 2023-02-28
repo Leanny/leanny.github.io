@@ -1,0 +1,11 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponChargerLong.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletChargerDamageParam",
+      "ValueFullCharge": 6000,
+      "ValueMaxCharge": 1500,
+      "ValueMinCharge": 500
+    }
+  }
+}

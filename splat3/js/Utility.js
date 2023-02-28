@@ -75,7 +75,7 @@ export function get_image_tag(img, alt, extra = "") {
         <source type="image/png" srcset="${img}" ${extra}>
         <img src="${img}" alt="${alt}" ${extra}>
     </picture>`
-}
+} //
 
 export function format_img(base_url, value, width) {
     return get_image_tag(`${base_url}${value}.png`, "", `width="${width}"`)

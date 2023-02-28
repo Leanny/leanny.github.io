@@ -1,0 +1,128 @@
+[
+  {
+    "AlphaMaskF": "Btm_00",
+    "AlphaMaskM": "Btm_00_M",
+    "Id": 0,
+    "Label": "スパッツ",
+    "Order": 0,
+    "VariationNum": 0,
+    "__RowId": "Btm_000"
+  },
+  {
+    "AlphaMaskF": "Btm_06",
+    "AlphaMaskM": "Btm_06",
+    "Id": 1,
+    "Label": "カラースパッツ",
+    "Order": 1,
+    "VariationNum": 3,
+    "__RowId": "Btm_001"
+  },
+  {
+    "AlphaMaskF": "Btm_05",
+    "AlphaMaskM": "Btm_05",
+    "Id": 2,
+    "Label": "ランニングショーツ",
+    "Order": 3,
+    "VariationNum": 0,
+    "__RowId": "Btm_002"
+  },
+  {
+    "AlphaMaskF": "Btm_02",
+    "AlphaMaskM": "Btm_02",
+    "Id": 3,
+    "Label": "スウェットパンツ",
+    "Order": 4,
+    "VariationNum": 0,
+    "__RowId": "Btm_003"
+  },
+  {
+    "AlphaMaskF": "Btm_01",
+    "AlphaMaskM": "Btm_01",
+    "Id": 4,
+    "Label": "スカートスパッツ",
+    "Order": 5,
+    "VariationNum": 0,
+    "__RowId": "Btm_004"
+  },
+  {
+    "AlphaMaskF": "Btm_07",
+    "AlphaMaskM": "Btm_07",
+    "Id": 5,
+    "Label": "ハーフパンツ",
+    "Order": 6,
+    "VariationNum": 0,
+    "__RowId": "Btm_005"
+  },
+  {
+    "AlphaMaskF": "Btm_03",
+    "AlphaMaskM": "Btm_03",
+    "Id": 6,
+    "Label": "シャカシャカパンツ",
+    "Order": 7,
+    "VariationNum": 0,
+    "__RowId": "Btm_006"
+  },
+  {
+    "AlphaMaskF": "Btm_04",
+    "AlphaMaskM": "Btm_04",
+    "Id": 7,
+    "Label": "クウォーターパンツ",
+    "Order": 8,
+    "VariationNum": 0,
+    "__RowId": "Btm_007"
+  },
+  {
+    "AlphaMaskF": "Btm_06",
+    "AlphaMaskM": "Btm_06",
+    "Id": 8,
+    "Label": "サルエル",
+    "Order": 2,
+    "VariationNum": 0,
+    "__RowId": "Btm_008"
+  },
+  {
+    "AlphaMaskF": "Btm_06",
+    "AlphaMaskM": "Btm_06",
+    "Id": 100,
+    "Label": "ヒーローサルエル",
+    "Order": -1,
+    "VariationNum": 0,
+    "__RowId": "Btm_100"
+  },
+  {
+    "AlphaMaskF": "Btm_08",
+    "AlphaMaskM": "Btm_08",
+    "Id": 110,
+    "Label": "タコゾネススパッツ",
+    "Order": -1,
+    "VariationNum": 0,
+    "__RowId": "Btm_110"
+  },
+  {
+    "AlphaMaskF": "Btm_00",
+    "AlphaMaskM": "Btm_00",
+    "Id": 300,
+    "Label": "オクタスカート",
+    "Order": -1,
+    "VariationNum": 0,
+    "__RowId": "Btm_300"
+  },
+  {
+    "AlphaMaskF": "Btm_06",
+    "AlphaMaskM": "Btm_06",
+    "Id": 310,
+    "Label": "オクタスパッツ",
+    "Order": -1,
+    "VariationNum": 0,
+    "__RowId": "Btm_310"
+  },
+  {
+    "AlphaMaskF": "Btm_MSN310",
+    "AlphaMaskM": "Btm_MSN310",
+    "Id": 500,
+    "Label": "司令パンツ",
+    "Order": -1,
+    "VariationNum": 2,
+    "__RowId": "Btm_500"
+  }
+]

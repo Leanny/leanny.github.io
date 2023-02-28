@@ -352,6 +352,18 @@
                                 >X-Match</a
                             >
                         </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link"
+                                id="contest-tab"
+                                data-toggle="tab"
+                                href="#contest"
+                                role="tab"
+                                aria-controls="contest"
+                                aria-selected="false"
+                                >Contest</a
+                            >
+                        </li>
                     </ul>
                     <div class="tab-content" id="modeTabControl">
                         <div
@@ -417,6 +429,11 @@
                         <div class="tab-pane fade" id="xmatch" role="tabpanel" aria-labelledby="xmatch-tab">
                             <div class="tab-content" id="xmatchTabControl">
                                 <div id="xmatch-chapter"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contest" role="tabpanel" aria-labelledby="contest-tab">
+                            <div class="tab-content" id="contestTabControl">
+                                <div id="contest-chapter"></div>
                             </div>
                         </div>
                     </div>
@@ -888,6 +905,15 @@
                                 prefix + "data/parameter/" + version + "/manual/UIManual_BigRun.spl__UIManualData.json",
                                 data_dict => {
                                     standard_format("bigrun", data_dict)
+                                }
+                            )
+                            $.getJSON(
+                                prefix +
+                                    "data/parameter/" +
+                                    version +
+                                    "/manual/UIManual_CoopTeamContest.spl__UIManualData.json",
+                                data_dict => {
+                                    standard_format("contest", data_dict)
                                 }
                             )
                         })

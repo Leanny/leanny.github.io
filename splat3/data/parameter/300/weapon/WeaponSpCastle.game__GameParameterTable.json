@@ -1,0 +1,58 @@
+{
+  "GameParameters": {
+    "BodyParam": {
+      "$type": "spl__BulletSpCastleBodyParam",
+      "CollisionAttackFrontOffset": 0.5,
+      "CollisionDashFrontOffset": 2.75,
+      "CollisionDashRadiusForPlayer": 1.5,
+      "CollisionJumpRadiusForPlayer": 2.65,
+      "CollisionPaintAttackFrontOffset": 0.5,
+      "CollisionPaintDashFrontOffset": 0.8,
+      "CollisionPaintOffFrontOffset": 0.3,
+      "CollisionRadiusForField": 1.15,
+      "CollisionUpperOffset": 0.0,
+      "DamageJumpValue": 600,
+      "DefiladeUpperOffset": 0.1,
+      "DefiladeYMinusLength": 0.2,
+      "PaintDepthScale": 1.2,
+      "PaintSpanFrame": 4,
+      "PaintWidthHalf": 1.2
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpCastleParam",
+      "ColBullet_OffsetY": 0.25,
+      "ColBullet_OffsetZ_Head": 0.5,
+      "ColBullet_OffsetZ_Tail": -0.5,
+      "ColBullet_Radius": 1.0,
+      "Dash_ChargeCancelableFrame": 29,
+      "Dash_ChargeFrame": 30,
+      "Dash_InvalidFrame": 10,
+      "Dash_MoveFrame": 35,
+      "Dash_MoveSpeedCoef_Charged": 0.1,
+      "Dash_MoveSpeedCoef_Charging_Ed": 0.1,
+      "Dash_MoveSpeedCoef_Charging_St": 0.2,
+      "Dash_MoveSpeed_Floor_MaxCharge": 0.3,
+      "Dash_MoveSpeed_Floor_MinCharge": 0.3,
+      "Dash_MoveSpeed_Floor_NoPaint": 0.21,
+      "Dash_MoveSpeed_Wall_MaxCharge": 0.22,
+      "Dash_MoveSpeed_Wall_MinCharge": 0.22,
+      "DokanWarpLmtFrm_FinishSpecial": 60,
+      "FinishAlertStartFrame": 120,
+      "KnockBackKf_Charge_Ed": 1.0,
+      "KnockBackKf_Charge_Ed_Frm": 30,
+      "KnockBackKf_Charge_St": 3.0,
+      "KnockBackKf_Dash": 0.0,
+      "KnockBackKf_Std": 3.0,
+      "MoveSpeed": 0.1728,
+      "NoShotBombFrm_FinishSpecial": 60,
+      "NoShotBombReqFrm_FinishSpecial": 40,
+      "SpecialTotalFrame": {
+        "High": 600.0,
+        "Low": 480.0,
+        "Mid": 540.0
+      },
+      "StartDelayFrame_NetRecv": 30,
+      "StartDelayFrame_NetSend": 60
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "GameParameters": {
+    "spl__BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 6.0,
+      "CrossPaintRadius": 4.0,
+      "CrossPaintTexture": "SprLanding00",
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.0,
+      "DistanceDamage": [
+        {
+          "Damage": 1800,
+          "Distance": 7.0
+        },
+        {
+          "Damage": 700,
+          "Distance": 10.0
+        },
+        {
+          "Damage": 400,
+          "Distance": 14.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 420.0,
+        "Bias": 0.5,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 15.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 13.0,
+      "PaintTexture": "SprLanding00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterExpert.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 450,
+      "ValueMin": 300
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.016
+    }
+  }
+}

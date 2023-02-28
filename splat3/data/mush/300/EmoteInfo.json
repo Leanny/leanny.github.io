@@ -1,0 +1,275 @@
+[
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 106,
+    "Order": 2000,
+    "Pattern": "Crouching00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Crouching00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 120,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 100,
+    "Order": 3000,
+    "Pattern": "FeelingWarm00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "FeelingWarm00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Other",
+    "Id": 110,
+    "Order": 4010,
+    "Pattern": "NwBtl00",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "NwBtl00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 102,
+    "Order": 3001,
+    "Pattern": "Shivering00",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Shivering00"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 107,
+    "Order": 3010,
+    "Pattern": "SittingCrossedLegs",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "SittingCrossedLegs"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 104,
+    "Order": 3021,
+    "Pattern": "WaveHands",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "WaveHands"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 179,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 4,
+    "Order": 2001,
+    "Pattern": "Win04",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win04"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 7,
+    "Order": 1100,
+    "Pattern": "Win07",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win07"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 150,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 8,
+    "Order": 1000,
+    "Pattern": "Win08",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win08"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 9,
+    "Order": 2002,
+    "Pattern": "Win09",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win09"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 10,
+    "Order": 3030,
+    "Pattern": "Win10",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win10"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 130,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 13,
+    "Order": 1001,
+    "Pattern": "Win13",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win13"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 14,
+    "Order": 1003,
+    "Pattern": "Win14",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win14"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 15,
+    "Order": 1002,
+    "Pattern": "Win15",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win15"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 17,
+    "Order": 3040,
+    "Pattern": "Win17",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win17"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 18,
+    "Order": 3041,
+    "Pattern": "Win18",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win18"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 20,
+    "Order": 3020,
+    "Pattern": "Win20",
+    "Season": 2,
+    "Type": "Normal",
+    "__RowId": "Win20"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 26,
+    "Order": 1004,
+    "Pattern": "Win26",
+    "Season": 3,
+    "Type": "Normal",
+    "__RowId": "Win26"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Impossible",
+    "Id": 0,
+    "Order": 99999,
+    "Pattern": "Win_Tricol",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win_Tricol"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Catalog",
+    "Id": 201,
+    "Order": 4001,
+    "Pattern": "Win_$(WEAPON)01",
+    "Season": 3,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon01"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 259,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Other",
+    "Id": 203,
+    "Order": 4003,
+    "Pattern": "Win_$(WEAPON)03",
+    "Season": 0,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon03"
+  }
+]

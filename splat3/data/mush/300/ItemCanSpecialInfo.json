@@ -1,0 +1,58 @@
+[
+  {
+    "SpecialId": 10003,
+    "__RowId": "Work/Actor/ItemCanInfinitySpecial_SuperHook.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10008,
+    "__RowId": "Work/Actor/ItemCanSpecial_Blower.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10012,
+    "__RowId": "Work/Actor/ItemCanSpecial_Chariot.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10005,
+    "__RowId": "Work/Actor/ItemCanSpecial_InkStorm.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10010,
+    "__RowId": "Work/Actor/ItemCanSpecial_Jetpack.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10009,
+    "__RowId": "Work/Actor/ItemCanSpecial_MicroLaser.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10004,
+    "__RowId": "Work/Actor/ItemCanSpecial_MultiMissile.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10007,
+    "__RowId": "Work/Actor/ItemCanSpecial_ShockSonar.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10013,
+    "__RowId": "Work/Actor/ItemCanSpecial_Skewer.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10003,
+    "__RowId": "Work/Actor/ItemCanSpecial_SuperHook.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 101,
+    "__RowId": "Work/Actor/ItemCanSpecial_SuperLanding.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10014,
+    "__RowId": "Work/Actor/ItemCanSpecial_TripleTornado.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10001,
+    "__RowId": "Work/Actor/ItemCanSpecial_UltraShot.engine__actor__ActorParam.gyml"
+  },
+  {
+    "SpecialId": 10011,
+    "__RowId": "Work/Actor/ItemCanSpecial_UltraStamp.engine__actor__ActorParam.gyml"
+  }
+]

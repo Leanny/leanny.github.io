@@ -1,0 +1,282 @@
+{
+  "GameParameters": {
+    "SwingBigBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "CrossPaintTexture": "Bomb00",
+      "CrossPaintUseChageArea": false,
+      "DamageAttackerPriority": true,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.2,
+      "DistanceDamage": [
+        {
+          "Damage": 400,
+          "Distance": 2.8
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 8.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 0.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    },
+    "SwingBulletWallParam": {
+      "$type": "spl__BulletSpUltraStampSwingBulletWallParam",
+      "AngleForMaxSize": 30.0,
+      "AngleForMinSize": 70.0,
+      "MaxSize": {
+        "X": 4.77,
+        "Y": 3.18,
+        "Z": 2.6
+      },
+      "MinSize": {
+        "X": 3.18,
+        "Y": 3.18,
+        "Z": 1.0
+      },
+      "OffsetZ": 1.35
+    },
+    "SwingParam": {
+      "$type": "spl__BulletSpUltraStampSwingParam",
+      "DefiladeHandSideOffsetLength": 0.1,
+      "StateSwingUpLateFrame": 2
+    },
+    "SwingSmallBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 0.0,
+      "CrossPaintRadius": 0.0,
+      "CrossPaintTexture": "Bomb00",
+      "CrossPaintUseChageArea": false,
+      "DamageAttackerPriority": true,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.2,
+      "DistanceDamage": [
+        {
+          "Damage": 400,
+          "Distance": 2.8
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 6.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 0.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    },
+    "SwingWallDropCollisionPaintParam": {
+      "$type": "spl__BulletWallDropCollisionPaintParam",
+      "FallPeriodFirstSecondTargetAlp": 1.0,
+      "PaintRadiusFall": 0.65,
+      "PaintRadiusGround": 0.5,
+      "PaintRadiusShock": 1.3
+    },
+    "SwingWallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMax": 70,
+      "FallPeriodFirstFrameMin": 50,
+      "FallPeriodFirstTargetSpeed": 0.06,
+      "FallPeriodLastFrameMax": 35,
+      "FallPeriodLastFrameMin": 20,
+      "FallPeriodSecondFrame": 5,
+      "FallPeriodSecondTargetSpeed": 0.08,
+      "FreeGravityType": "value_0_008"
+    },
+    "ThrowBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 2.5,
+      "CrossPaintRadius": 2.5,
+      "CrossPaintTexture": "Bomb00",
+      "CrossPaintUseChageArea": false,
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.0,
+      "DistanceDamage": [
+        {
+          "Damage": 600,
+          "Distance": 4.0
+        },
+        {
+          "Damage": 300,
+          "Distance": 8.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 460.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 8.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 5.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    },
+    "ThrowMoveParam": {
+      "$type": "spl__BulletSpUltraStampThrowParam",
+      "DirectDamageValue": 2200,
+      "FlyGravity": 0.013,
+      "FlyPositionAirResist": 0.03,
+      "GoStraightFrame": 8,
+      "GripCutWaitFrame": 10,
+      "GripGrawLengthPerFrame": 0.1,
+      "GuideHitCollisionType": "ThrowUltraStamp",
+      "GuideRadius": 1.1,
+      "ModelRotateDegPerFrame": 57.296,
+      "SpawnSpeedY": 0.17,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.85,
+        "Low": 0.85,
+        "Mid": 0.85
+      }
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "GuideYMinusZero": false,
+      "XRate": 0.0,
+      "YMax": 100.0,
+      "YMinusRate": 0.0,
+      "YPlusRate": 0.0,
+      "ZRate": 0.0
+    },
+    "spl__WeaponSpUltraStampParam": {
+      "$type": "spl__WeaponSpUltraStampParam",
+      "AnimationRemainFrame": 120,
+      "BangDownBig_BackSwing_AnimFrm": 29,
+      "BangDownBig_BackSwing_Frm": 23,
+      "BangDownBig_BangDown_Frm": 14,
+      "BangDownBig_BulletCol_EndFrm": 32,
+      "BangDownBig_BulletCol_StFrm": 26,
+      "BangDownBig_MoveImpact_Frm": 20,
+      "BangDownBig_MoveImpact_Mag": 0.16,
+      "BangDownBig_PaintAndBlast_Frm": 28,
+      "BangDownBig_ShaftCol_StartFrm": 23,
+      "BangDownSmall_BackSwing_AnimFrm": 31,
+      "BangDownSmall_BackSwing_Frm": 8,
+      "BangDownSmall_BangDown_Frm": 5,
+      "BangDownSmall_BulletCol_EndFrm": 13,
+      "BangDownSmall_BulletCol_StFrm": 9,
+      "BangDownSmall_MoveImpact_Frm": 10,
+      "BangDownSmall_MoveImpact_Mag": 0.22,
+      "BangDownSmall_PaintAndBlast_Frm": 11,
+      "BangDownSmall_TurnLimitAngleDeg": 5.2,
+      "BangDown_MoveImpact_AirKd_XZ": 0.935,
+      "BangDown_MoveImpact_AirKd_Y": 0.92,
+      "BangDown_MoveImpact_GroundKd_XZ": 0.95,
+      "BangDown_MoveImpact_GroundKd_Y": 0.95,
+      "BangDown_PitchAngle_AxisPosXY": {
+        "X": -0.15,
+        "Y": 0.75
+      },
+      "BangDown_PitchAngle_HeadRate": -5.0,
+      "BangDown_PitchAngle_Kf": 0.1,
+      "BangDown_PitchAngle_RevertKd": 0.9,
+      "BangDown_PitchAngle_RotRadius": 3.0,
+      "BangDown_PitchAngle_ShaftFace": 0.75,
+      "BangDown_VelLimitY": 0.14,
+      "BodyShot_Pitch_BangDownKf": 0.2,
+      "BodyShot_Pitch_NotBangDownKf": 0.1,
+      "CheckPaintable_Distance": 0.2,
+      "CheckPaintable_OffsetY": 0.1,
+      "CheckPaintable_Radius": 0.6,
+      "Common_NoBombFrm": 2,
+      "Common_NoSquidFrm": 2,
+      "Gird_Frm": 10,
+      "Gird_NoSquidFrm": 4,
+      "Gird_TurnLimitAngleDeg": 4.0,
+      "Gird_VelGnd_Bias": 0.4,
+      "Gird_VelGnd_End": 0.04,
+      "Gird_VelGnd_Start": 0.0,
+      "HoldSwingKnockBackParam": {
+        "Accel": 500.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 8.0
+      },
+      "PaintBlast_AxisPosXY": {
+        "X": -0.15,
+        "Y": 0.75
+      },
+      "PaintBlast_CheckAngleDegree": 20.0,
+      "PaintBlast_CheckHeadRadiusIn": 0.9,
+      "PaintBlast_CheckHeadRadiusOut": 1.65,
+      "PaintBlast_CheckRadius": 0.2,
+      "PaintBlast_DistanceShaftFace": 0.75,
+      "PaintBlast_RotateRadius": 3.0,
+      "RA2BDS_Frm": 6,
+      "RollingAttack_AirFrm": 4,
+      "RollingAttack_GroundPaintRadius": 1.6,
+      "RollingAttack_NoSquidFrm": 10,
+      "RollingAttack_ReadyFrm": 6,
+      "RollingAttack_RollingFrm": 30,
+      "RollingAttack_SafeAltitude": 1.0,
+      "RollingAttack_SafeCheckOffsetY": 0.405,
+      "RollingAttack_SafeCheckRadius": 0.1,
+      "ShaftReject_CheckRadius": 0.25,
+      "ShaftReject_Kd": 0.4,
+      "ShaftReject_Kf": 0.2,
+      "ShaftReject_MaxLength": 0.5,
+      "ShaftReject_ShaftLength": 3.5,
+      "SpecialTotalFrame": {
+        "High": 660.0,
+        "Low": 540.0,
+        "Mid": 600.0
+      },
+      "SwingDownDirectDamageValue": 1000,
+      "Throw_BackSwingFrm": 40,
+      "TurnKf_ShotJump": 0.5,
+      "VelKf_NoPaintable": 0.1,
+      "VelLimit_AfterJumpFrm": 2,
+      "VelLimit_NoPaint": 0.144
+    }
+  }
+}

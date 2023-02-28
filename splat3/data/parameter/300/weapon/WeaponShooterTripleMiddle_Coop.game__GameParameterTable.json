@@ -1,0 +1,14 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponShooterTripleMiddle.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ValueMax": 700,
+      "ValueMin": 600
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.018
+    }
+  }
+}

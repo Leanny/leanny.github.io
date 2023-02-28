@@ -1,0 +1,23 @@
+{
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam"
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "GoStraightStateEndMaxSpeed": 1.4495,
+      "GoStraightToBrakeStateFrame": 4,
+      "SpawnSpeed": 2.2
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponFreeParam",
+      "ShotGuideFrame": 8
+    },
+    "spl__PlayerGearSkillParam_MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting"
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam"
+    }
+  }
+}

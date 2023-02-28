@@ -1,0 +1,1982 @@
+[
+  {
+    "Artist": "001",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_ABXY_01"
+    ],
+    "BgmHash": 1456476910,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_09.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 36.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_ABXY_01"
+  },
+  {
+    "Artist": "001",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_ABXY_02"
+    ],
+    "BgmHash": 249223022,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_09.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 37.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_ABXY_02"
+  },
+  {
+    "Artist": "005",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_CurrentRip_01"
+    ],
+    "BgmHash": 3938677123,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_08.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 34.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_CurrentRip_01"
+  },
+  {
+    "Artist": "005",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_CurrentRip_02"
+    ],
+    "BgmHash": 4034828275,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_08.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 35.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_CurrentRip_02"
+  },
+  {
+    "Artist": "004",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_FromBottom_01"
+    ],
+    "BgmHash": 3266064626,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_07.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 31.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_FromBottom_01"
+  },
+  {
+    "Artist": "004",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_FromBottom_02"
+    ],
+    "BgmHash": 1426183433,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_07.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 32.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_FromBottom_02"
+  },
+  {
+    "Artist": "004",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_FromBottom_03"
+    ],
+    "BgmHash": 3584565715,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_07.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 33.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_FromBottom_03"
+  },
+  {
+    "Artist": "007",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_Gasshokukin_01"
+    ],
+    "BgmHash": 900968936,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_10.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 38.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_Gasshokukin_01"
+  },
+  {
+    "Artist": "007",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_Gasshokukin_02"
+    ],
+    "BgmHash": 3047756218,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_10.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 39.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_Gasshokukin_02"
+  },
+  {
+    "Artist": "006",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_SashiMori_01"
+    ],
+    "BgmHash": 1037470394,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_11.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 40.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_SashiMori_01"
+  },
+  {
+    "Artist": "006",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_SashiMori_02"
+    ],
+    "BgmHash": 1039747845,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_11.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 41.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_SashiMori_02"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_WetFloor_01"
+    ],
+    "BgmHash": 3902826651,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 25.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_WetFloor_01"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_WetFloor_02"
+    ],
+    "BgmHash": 4006315400,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 26.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_WetFloor_02"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_WetFloor_03"
+    ],
+    "BgmHash": 1313159293,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 27.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_WetFloor_03"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_WetFloor_04"
+    ],
+    "BgmHash": 1243921972,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 28.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_WetFloor_04"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_LobbyVersus_Blitz_WetFloor_05"
+    ],
+    "BgmHash": 822901899,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 29.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Blitz_WetFloor_05"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_BigRun"
+    ],
+    "BgmHash": 3399119356,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      false,
+      true
+    ],
+    "Order": 80.0,
+    "UnlockConditionHash": 847678021,
+    "__RowId": "Coop_BigRun"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Event"
+    ],
+    "BgmHash": 1304167542,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      false,
+      true
+    ],
+    "Order": 75.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Event"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Event2"
+    ],
+    "BgmHash": 3215610051,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 76.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Event2"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Heavy"
+    ],
+    "BgmHash": 2094704510,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      false,
+      true
+    ],
+    "Order": 78.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Heavy"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Main"
+    ],
+    "BgmHash": 2631110974,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      false,
+      true
+    ],
+    "Order": 74.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Main"
+  },
+  {
+    "Artist": "016",
+    "AssetNames": [
+      "BGM_Coop_Menu",
+      "BGM_Coop_Menu_Sub"
+    ],
+    "BgmHash": 4245122497,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_24.tga",
+    "JukeboxAssetIndex": 1,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 72.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Menu"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Menu_BigRun",
+      "BGM_Coop_Menu_Sub_BigRun"
+    ],
+    "BgmHash": 4002077821,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 1,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 79.0,
+    "UnlockConditionHash": 847678021,
+    "__RowId": "Coop_Menu_BigRun"
+  },
+  {
+    "Artist": "018",
+    "AssetNames": [
+      "BGM_Coop_Okashira"
+    ],
+    "BgmHash": 1189929709,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_27.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 77.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Okashira"
+  },
+  {
+    "Artist": "016",
+    "AssetNames": [
+      "BGM_Coop_Result"
+    ],
+    "BgmHash": 1177245308,
+    "Category": "Coop",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_24.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 73.0,
+    "UnlockConditionHash": 4144891527,
+    "__RowId": "Coop_Result"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_FirstLaunch_PlayerMake_temp"
+    ],
+    "BgmHash": 572427521,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_12.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 103.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "FirstLaunch_PlayerMake_temp"
+  },
+  {
+    "Artist": "001",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_ABXY_01"
+    ],
+    "BgmHash": 2956633530,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_04.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 21.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_ABXY_01"
+  },
+  {
+    "Artist": "001",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_ABXY_02"
+    ],
+    "BgmHash": 2741918342,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_04.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 22.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_ABXY_02"
+  },
+  {
+    "Artist": "002",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_HightideEra_01"
+    ],
+    "BgmHash": 1391314401,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_05.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 23.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_HightideEra_01"
+  },
+  {
+    "Artist": "002",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_HightideEra_02"
+    ],
+    "BgmHash": 2348779985,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_05.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 24.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_HightideEra_02"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_SquidSquad_01"
+    ],
+    "BgmHash": 1854218451,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 15.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_SquidSquad_01"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_SquidSquad_02"
+    ],
+    "BgmHash": 3763531490,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 16.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_SquidSquad_02"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_SquidSquad_03"
+    ],
+    "BgmHash": 1695464131,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 17.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_SquidSquad_03"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_SquidSquad_04"
+    ],
+    "BgmHash": 2852538795,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 18.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_SquidSquad_04"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_LobbyVersus_Gambit_SquidSquad_05"
+    ],
+    "BgmHash": 3215333352,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 19.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Gambit_SquidSquad_05"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_LobbyLocal_Reception"
+    ],
+    "BgmHash": 350621893,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_30.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 90.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyLocal"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_LobbyVersus_01_Fsodr"
+    ],
+    "BgmHash": 1975293584,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 123.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "LobbyVersus_01_Fsodr"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_LobbyVersus_03_Fsodr"
+    ],
+    "BgmHash": 1128971156,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 86.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "LobbyVersus_03_Fsodr"
+  },
+  {
+    "Artist": "038",
+    "AssetNames": [
+      "BGM_LobbyVersus_Fes_02",
+      "BGM_LobbyVersus_Fes_01"
+    ],
+    "BgmHash": 2628554861,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 102.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "LobbyVersus_Fes_02"
+  },
+  {
+    "Artist": "028",
+    "AssetNames": [
+      "BGM_LobbyVersus_Holiday_Main_01"
+    ],
+    "BgmHash": 3921685519,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 92.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Holiday_Main_01"
+  },
+  {
+    "Artist": "029",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_01"
+    ],
+    "BgmHash": 2370843451,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 93.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_01"
+  },
+  {
+    "Artist": "030",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_02"
+    ],
+    "BgmHash": 3835937642,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 94.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_02"
+  },
+  {
+    "Artist": "031",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_03"
+    ],
+    "BgmHash": 1526165098,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 95.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_03"
+  },
+  {
+    "Artist": "032",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_04"
+    ],
+    "BgmHash": 2426212749,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 96.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_04"
+  },
+  {
+    "Artist": "033",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_05"
+    ],
+    "BgmHash": 2571716417,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 97.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_05"
+  },
+  {
+    "Artist": "034",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_06"
+    ],
+    "BgmHash": 1811118174,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 98.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_06"
+  },
+  {
+    "Artist": "035",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_07"
+    ],
+    "BgmHash": 2842974728,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 99.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_07"
+  },
+  {
+    "Artist": "036",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_08"
+    ],
+    "BgmHash": 3311674058,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 100.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_08"
+  },
+  {
+    "Artist": "037",
+    "AssetNames": [
+      "BGM_LobbyVersus_Sub_09"
+    ],
+    "BgmHash": 1158790398,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 101.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Sub_09"
+  },
+  {
+    "Artist": "027",
+    "AssetNames": [
+      "BGM_LobbyVersus_Weekday_Main_01"
+    ],
+    "BgmHash": 1937952230,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_31.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 91.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "LobbyVersus_Weekday_Main_01"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Battle_01"
+    ],
+    "BgmHash": 387062308,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 107.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Battle_01"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Edit"
+    ],
+    "BgmHash": 3309347696,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 111.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Edit"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Itemselect"
+    ],
+    "BgmHash": 4151238015,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 106.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Itemselect"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Last3Turn"
+    ],
+    "BgmHash": 2117555239,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 108.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Last3Turn"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Levelselect"
+    ],
+    "BgmHash": 1360371299,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 105.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Levelselect"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Result_01"
+    ],
+    "BgmHash": 4047257375,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 109.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Result_01"
+  },
+  {
+    "Artist": "020",
+    "AssetNames": [
+      "BGM_Minigame_Result_02"
+    ],
+    "BgmHash": 425852851,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_32.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 110.0,
+    "UnlockConditionHash": 657525470,
+    "__RowId": "Minigame_Result_02"
+  },
+  {
+    "Artist": "016",
+    "AssetNames": [
+      "BGM_Mission_Boss_Kumasan01_Jukebox"
+    ],
+    "BgmHash": 1421253939,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_24.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 69.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Boss_Kumasan01"
+  },
+  {
+    "Artist": "017",
+    "AssetNames": [
+      "BGM_Mission_Boss_Kumasan02",
+      "BGM_Mission_Boss_Kumasan02_SkipDemo"
+    ],
+    "BgmHash": 204509999,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_25.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 70.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Boss_Kumasan02"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Mission_Boss_Surimi03_Jukebox",
+      "BGM_Mission_Boss_Surimi"
+    ],
+    "BgmHash": 1349590209,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 66.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Boss_Surimi03"
+  },
+  {
+    "Artist": "015",
+    "AssetNames": [
+      "BGM_Mission_Boss_Takowasa_Jukebox"
+    ],
+    "BgmHash": 3351696690,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_14.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 46.0,
+    "UnlockConditionHash": 1637926318,
+    "__RowId": "Mission_Boss_Takowasa"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_Mission_DemoScene_D1_01"
+    ],
+    "BgmHash": 1184792120,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_12.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 42.0,
+    "UnlockConditionHash": 1637926318,
+    "__RowId": "Mission_DemoScene_D1_01"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_Mission_DemoScene_D3_03"
+    ],
+    "BgmHash": 1531883007,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_15.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 47.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_DemoScene_D3_03"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Mission_Demo_SurimiTheme_Loop"
+    ],
+    "BgmHash": 573202652,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 65.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Demo_SurimiTheme"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Mission_Staffroll"
+    ],
+    "BgmHash": 189665843,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_26.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 71.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Staffroll"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_01"
+    ],
+    "BgmHash": 2121677371,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 54.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_01"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_02"
+    ],
+    "BgmHash": 3614610077,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 55.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_02"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_03"
+    ],
+    "BgmHash": 2380098288,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 56.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_03"
+  },
+  {
+    "Artist": "014",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_04"
+    ],
+    "BgmHash": 432678460,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_13.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 45.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_04"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C01"
+    ],
+    "BgmHash": 2568691891,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 57.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C01"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C02"
+    ],
+    "BgmHash": 4214950857,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 58.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C02"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C03"
+    ],
+    "BgmHash": 4107478754,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 59.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C03"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C04"
+    ],
+    "BgmHash": 1175690629,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 60.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C04"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C05"
+    ],
+    "BgmHash": 226960227,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 61.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C05"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C06"
+    ],
+    "BgmHash": 1646070953,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 62.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C06"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Alterna_C07"
+    ],
+    "BgmHash": 1103415590,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 63.0,
+    "UnlockConditionHash": 3748786683,
+    "__RowId": "Mission_Stage_Alterna_C07"
+  },
+  {
+    "Artist": "014",
+    "AssetNames": [
+      "BGM_Mission_Stage_Crater_01"
+    ],
+    "BgmHash": 1959819126,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_13.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      false
+    ],
+    "Order": 44.0,
+    "UnlockConditionHash": 1637926318,
+    "__RowId": "Mission_Stage_Crater_01"
+  },
+  {
+    "Artist": "047",
+    "AssetNames": [
+      "BGM_Mission_Stage_Rocket_01_Jukebox"
+    ],
+    "BgmHash": 1839749728,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_22.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 64.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Stage_Rocket_01"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Mission_Stage_Rocket_02_Jukebox",
+      "BGM_Mission_Stage_Rocket_02"
+    ],
+    "BgmHash": 2471864809,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 67.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Stage_Rocket_02"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Mission_Stage_Rocket_04_Jukebox",
+      "BGM_Mission_Stage_Rocket_04"
+    ],
+    "BgmHash": 1945786731,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 68.0,
+    "UnlockConditionHash": 2123372316,
+    "__RowId": "Mission_Stage_Rocket_04"
+  },
+  {
+    "Artist": "021",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_1_03"
+    ],
+    "BgmHash": 776695116,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_16.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 48.0,
+    "UnlockConditionHash": 1050238065,
+    "__RowId": "Mission_World_Alterna_1_03"
+  },
+  {
+    "Artist": "022",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_2_03"
+    ],
+    "BgmHash": 361834816,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_17.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 49.0,
+    "UnlockConditionHash": 1260856393,
+    "__RowId": "Mission_World_Alterna_2_03"
+  },
+  {
+    "Artist": "023",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_3_03"
+    ],
+    "BgmHash": 2885851407,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_18.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 50.0,
+    "UnlockConditionHash": 3229638865,
+    "__RowId": "Mission_World_Alterna_3_03"
+  },
+  {
+    "Artist": "024",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_4_03"
+    ],
+    "BgmHash": 161633425,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_19.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 51.0,
+    "UnlockConditionHash": 3148116042,
+    "__RowId": "Mission_World_Alterna_4_03"
+  },
+  {
+    "Artist": "025",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_5_03"
+    ],
+    "BgmHash": 2309357761,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_20.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 52.0,
+    "UnlockConditionHash": 2869120559,
+    "__RowId": "Mission_World_Alterna_5_03"
+  },
+  {
+    "Artist": "026",
+    "AssetNames": [
+      "BGM_Mission_World_Alterna_6_03"
+    ],
+    "BgmHash": 540282997,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_21.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 53.0,
+    "UnlockConditionHash": 1530970687,
+    "__RowId": "Mission_World_Alterna_6_03"
+  },
+  {
+    "Artist": "046",
+    "AssetNames": [
+      "BGM_Mission_World_Crater_01"
+    ],
+    "BgmHash": 1132632694,
+    "Category": "Mission",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_12.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 43.0,
+    "UnlockConditionHash": 1637926318,
+    "__RowId": "Mission_World_Crater_01"
+  },
+  {
+    "Artist": "043",
+    "AssetNames": [
+      "BGM_Plaza_Fes_Day1_Mikoshi_Fuuka"
+    ],
+    "BgmHash": 2535086206,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 82.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Plaza_Fes_Day1_Mikoshi_Fuuka"
+  },
+  {
+    "Artist": "045",
+    "AssetNames": [
+      "BGM_Plaza_Fes_Day1_Mikoshi_Mantaro"
+    ],
+    "BgmHash": 2332601182,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 84.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Plaza_Fes_Day1_Mikoshi_Mantaro"
+  },
+  {
+    "Artist": "044",
+    "AssetNames": [
+      "BGM_Plaza_Fes_Day1_Mikoshi_Utsuho"
+    ],
+    "BgmHash": 3727577314,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 83.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Plaza_Fes_Day1_Mikoshi_Utsuho"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Plaza_Fes_Day2_IdolSong"
+    ],
+    "BgmHash": 650999487,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 85.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Plaza_Fes_Day2_IdolSong"
+  },
+  {
+    "Artist": "019",
+    "AssetNames": [
+      "BGM_Plaza_GearShop_Jukebox"
+    ],
+    "BgmHash": 2810829662,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_29.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 89.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Plaza_GearShop"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Plaza_News"
+    ],
+    "BgmHash": 3354307916,
+    "Category": "Plaza",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 81.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Plaza_News"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_Versus_Fes"
+    ],
+    "BgmHash": 2376305696,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 112.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege01_Fsodr"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_Versus_Fes_Last1min"
+    ],
+    "BgmHash": 1034573349,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 113.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege02_Fsodr"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_StaffRoll"
+    ],
+    "BgmHash": 1698051531,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 115.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege03_Fsodr"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_LastBoss_Shiokara"
+    ],
+    "BgmHash": 28938663,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 116.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege04_Fsodr"
+  },
+  {
+    "Artist": "039",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_AoriSong"
+    ],
+    "BgmHash": 1195758969,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 117.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege05_Fsodr"
+  },
+  {
+    "Artist": "040",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_HotaruSong"
+    ],
+    "BgmHash": 2651971179,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 118.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege06_Fsodr"
+  },
+  {
+    "Artist": "008",
+    "AssetNames": [
+      "BGM_Jukebox_Gambit_Plaza_Fes"
+    ],
+    "BgmHash": 2970575624,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_28.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 114.0,
+    "UnlockConditionHash": 3894668,
+    "__RowId": "Privilege07_Fsodr"
+  },
+  {
+    "Artist": "003",
+    "AssetNames": [
+      "BGM_Versus_BlitzLast1min"
+    ],
+    "BgmHash": 1043666506,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_06.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 30.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_BlitzLast1min"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Versus_Fes_Thunder_01"
+    ],
+    "BgmHash": 1288152712,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 11.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Versus_Fes_Thunder_01"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Versus_Fes_Thunder_02"
+    ],
+    "BgmHash": 885245261,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 12.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Versus_Fes_Thunder_02"
+  },
+  {
+    "Artist": "010",
+    "AssetNames": [
+      "BGM_Versus_Fes_Thunder_Last1Min"
+    ],
+    "BgmHash": 148296849,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_23.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 13.0,
+    "UnlockConditionHash": 2907502433,
+    "__RowId": "Versus_Fes_Thunder_Last1Min"
+  },
+  {
+    "Artist": "000",
+    "AssetNames": [
+      "BGM_Versus_GambitLast1min"
+    ],
+    "BgmHash": 3961592295,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_03.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 20.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_GambitLast1min"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_Last1Min_Mastering"
+    ],
+    "BgmHash": 365212812,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 6.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Last1Min"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_01_Mastering",
+      "BGM_Versus_Thunder_01_Gachi_Mastering"
+    ],
+    "BgmHash": 1681792242,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 1.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_01"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_02_Mastering"
+    ],
+    "BgmHash": 3457196866,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 5.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_02"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_03_Mastering"
+    ],
+    "BgmHash": 473248243,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 2.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_03"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_04_Mastering"
+    ],
+    "BgmHash": 2172076584,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 4.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_04"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_Versus_Thunder_05_Mastering"
+    ],
+    "BgmHash": 2693861006,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 3.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_05"
+  },
+  {
+    "Artist": "012",
+    "AssetNames": [
+      "BGM_Versus_Thunder_06_Mastering"
+    ],
+    "BgmHash": 2974342317,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_01.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 7.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_06"
+  },
+  {
+    "Artist": "012",
+    "AssetNames": [
+      "BGM_Versus_Thunder_07_Mastering"
+    ],
+    "BgmHash": 3805174761,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_01.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 8.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_07"
+  },
+  {
+    "Artist": "013",
+    "AssetNames": [
+      "BGM_Versus_Thunder_08_Mastering"
+    ],
+    "BgmHash": 580675599,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_02.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 9.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_08"
+  },
+  {
+    "Artist": "013",
+    "AssetNames": [
+      "BGM_Versus_Thunder_09_Mastering"
+    ],
+    "BgmHash": 1900778605,
+    "Category": "Versus",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_02.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 10.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "Versus_Thunder_09"
+  },
+  {
+    "Artist": "011",
+    "AssetNames": [
+      "BGM_WarmingUp_Jukebox"
+    ],
+    "BgmHash": 1087966660,
+    "Category": "Other",
+    "JacketImage": "Work/UI/Icon/BgmImage/sourceimages/BgmImage_00.tga",
+    "JukeboxAssetIndex": 0,
+    "JukeboxTrackMask": [
+      true,
+      true
+    ],
+    "Order": 104.0,
+    "UnlockConditionHash": 0,
+    "__RowId": "WarmingUp"
+  }
+]

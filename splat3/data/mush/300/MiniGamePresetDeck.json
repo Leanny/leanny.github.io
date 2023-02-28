@@ -1,0 +1,502 @@
+[
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Aori.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hotaru.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakowasaShogun.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerCompact00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHunter00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombCurling.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSuction.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpGreatBarrier.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Takopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopodDEV.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sutakoraa.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopperinGo.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoStamp.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Aori"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Atarime.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shirei.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakowasaShogun.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kojake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_HeroShooter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TateTakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BaiTakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Takopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoPod.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Incleaner.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kyuinki.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoZonesu.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Atarime"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Iruka.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mogura.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Chidori.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoMissile.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopperinGo.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tower.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoPod.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_LineMarker.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Fuka"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Hanagasa.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpMultiMissile.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tatakikensaki.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Rokkenberugu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Anaaki.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kuraagesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Beacon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Forima.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shichirin.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopodDEV.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Jimon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shigureni.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Arome.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Barazushi.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopClothes"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Echizen.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hanagasa.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Enperii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shichirin.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Ezokkorii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerHyper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterLong01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerWide00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherStrong01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shield.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterFirst00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpMegaphoneLaser51.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopClothes_Fsodr"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Omura.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hokkorii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Arome.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kuraagesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Barazushi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hotakkusu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterFlash00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTakopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tamahiroi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpNiceBall.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_GachiHoko.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopHead"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Anemo.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Anaaki.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kuraagesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Omura.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoZonesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StampWave.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Incleaner.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterHeavy01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterLight01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerCompact01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherStrong01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Trap.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpGreatBarrier.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopHead_Fsodr"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Yashiganisan.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kanitank.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLongScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerHyper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerStandard00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherWashtub00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombCurling.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Arome.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Taihou.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoStamp.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kuraagesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoCommander.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopShoes"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Ajio.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Jetpack.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopperinGo.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sutakoraa.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tower.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Nabebuta.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoMissile.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Takopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoStamp.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kojake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Arome.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoPod.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GearShopShoes_Fsodr"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Paruko.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kinshake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sutakoraa.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_PoisonMist.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_LineMarker.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterFlash00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerStandard00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpUltraStamp.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Enperii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shichirin.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoStrike.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tower.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Teppan.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_GoodsShop"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Hotaru.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Aori.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Bukichi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerQuick00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormalScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLongScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerKeeper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShelterCompact00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shield.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Trap.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpMegaphoneLaser51.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Hotaru"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Judgekun.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_KoJudgekun.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_GachiYagura.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_GachiHoko.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_GachiAsari.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerSerein00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherDiffusion00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushMini00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormalScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombRobot.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpUltraShot.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Judge"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_KoJudgekun.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kumasan.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kojake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hakobiya.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Bakudan.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hebi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tower.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Teppan.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mogura.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Katapaddo.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kinshake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Koumori.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Dosukoi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Jetpack.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_JudgeJr"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterMiddle00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerStandard00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherStrong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoDozer.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Batoroika.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mother.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Kurage0"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterFirst00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterBlaze00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterQuickMiddle00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerQuick00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherBathtub00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShelterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSuction.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Ezokko.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Tatakikensaki.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoHopper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoSniper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Dosukoi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Grill.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Kurage1"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterExpert00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHunter00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerHyper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverDual00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Buranko.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Jimon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterLightShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerSerein00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BarrierTakopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoMissile.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherLauncher00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterLightLong00.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Kurage2"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterMiddle00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerQuick00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Yako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Enperii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hotakkusu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Bakudan.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTakopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoDozer.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Kurage3"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTako.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TripleTornado.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoPod.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakopodDEV.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Trap.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kinshake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Beacon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombQuick.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_PoisonMist.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTakopter.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Mantaro"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Mother.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSuction.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombQuick.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TateTakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterFirst00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombFizzy.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombCurling.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombRobot.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Beacon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterTripleQuick00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerQuick00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_PoisonMist.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpInkStorm.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombTako.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Mother"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_ShooterNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterMiddle00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerStandard00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherStrong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSplash.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoDozer.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shake.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Batoroika.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mother.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Starter"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberLight00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombSuction.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombFizzy.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpSuperHook.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BaiTakoTrooper.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoStamp.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Takopter.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_TakoDozer.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Buranko.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Hebi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Denchinamazu.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Utsuho"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Spiky.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StampWave.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_LineMarker.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShockSonar.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_PointSensor.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Trap.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShelterCompact00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerKeeper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShelterWide00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Ironic.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Forima.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Shichirin.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Batoroika.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Vendor"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Daunii.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Spiky.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Barazushi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Kuraagesu.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Jimon.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Arome.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StampWave.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Trap.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Iruka.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpCastle.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_Vendor_Fsodr"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_Bukichi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterHeavy00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BlasterLong00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerHunter00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushMini00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerLongScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherBathtub00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpinnerDownpour00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ManeuverStepper00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShelterWide00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_StringerShort00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SaberNormal00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_EnergyStand.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BombFizzy.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Sprinkler.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_WeaponShop"
+  },
+  {
+    "Card": [
+      "Work/Gyml/MiniGame_MametsubuBukichi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Bukichi.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Batoroika.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_Forima.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherDiffusion00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SlosherDiffusion01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushMini00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_BrushMini01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerCompact00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_RollerCompact01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterExpert00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ShooterExpert01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormalScope00.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_ChargerNormalScope01.spl__MiniGameCardInfo.gyml",
+      "Work/Gyml/MiniGame_SpFirework.spl__MiniGameCardInfo.gyml"
+    ],
+    "__RowId": "MiniGame_WeaponShop_Fsodr"
+  }
+]

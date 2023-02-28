@@ -1,0 +1,150 @@
+[
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "CoopItemGoldenIkura"
+  },
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "CoopItemGoldenIkuraLarge"
+  },
+  {
+    "DummyDropIkuraNum": 1,
+    "__RowId": "CoopItemIkura"
+  },
+  {
+    "DummyDropIkuraNum": 10,
+    "__RowId": "ItemAncientDocument"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemArmor"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemArmorLastBoss"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemBoostTicketParent"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanInfinitySpecial_SuperHook"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecialBase"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_Blower"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_Chariot"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_InkStorm"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_Jetpack"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_MicroLaser"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_MultiMissile"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_ShockSonar"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_Skewer"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_SuperHook"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_SuperLanding"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_TripleTornado"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_UltraShot"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCanSpecial_UltraStamp"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCardKey"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemCardPack"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemEnergyCore"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemFoodTicket"
+  },
+  {
+    "DummyDropIkuraNum": 10,
+    "__RowId": "ItemGoldenDisk"
+  },
+  {
+    "DummyDropIkuraNum": 1,
+    "__RowId": "ItemIkura"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemIkuraBottle"
+  },
+  {
+    "DummyDropIkuraNum": 1,
+    "__RowId": "ItemIkuraLarge"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemInkBottle"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemLockerTreasure"
+  },
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "ItemParent"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemWeaponBuffDocument"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemWithPedestal"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "TricolNoroshi"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "UseItemCardKey"
+  }
+]
