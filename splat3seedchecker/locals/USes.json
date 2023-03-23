@@ -107,6 +107,25 @@
     "TechnicalDetails": "Technical Details",
     "Tutorial": "Tutorial"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "Refinar Semilla",
     "ButtonSearch": "Buscar Semilla",
@@ -120,6 +139,7 @@
     "ResultPossible": "Posible Semilla"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "Reiniciar Semilla",
     "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "Categor\u00eda",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "Enter result",
     "MurchReceiveHeadline": "Receive item from Murch",
     "MurchReceivedItem": "Received",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "A\u00fan no se han encontrado posibles semillas.",
     "Normal": "Normal",
     "OneSeedFound": "Se encontr\u00f3 una sola posible semilla.",
@@ -141,9 +164,13 @@
     "Result": "Resultado",
     "Rolls": "Sorteos",
     "SeedFinder": "Descubridor de Semilla",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "Mostrar Tipos de Resultado",
     "Splatfest": "Festival / Splatfest",
     "StoreSeed": "Almacenar Semilla",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "Se encontraron demasiadas posibles semillas. Por favor a\u00f1ade otra tirada."
   }
 }

@@ -107,6 +107,25 @@
     "TechnicalDetails": "\u6280\u8853\u7684\u306a\u8a73\u7d30",
     "Tutorial": "\u30c1\u30e5\u30fc\u30c8\u30ea\u30a2\u30eb"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "\u30b7\u30fc\u30c9\u3092\u3057\u307c\u308a\u3053\u3080",
     "ButtonSearch": "\u30b7\u30fc\u30c9\u3092\u691c\u7d22",
@@ -120,6 +139,7 @@
     "ResultPossible": "\u30b7\u30fc\u30c9\u306e\u5019\u88dc"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "\u30b7\u30fc\u30c9\u3092\u30ea\u30bb\u30c3\u30c8",
     "FirstUse": "\u3053\u306e\u6a5f\u80fd\u3092\u5229\u7528\u3059\u308b\u306b\u306f\u3001\u307e\u305a\u30a4\u30ab\u30ea\u30f3\u30b03\u304b\u3089\u30c7\u30fc\u30bf\u30a4\u30f3\u30dd\u30fc\u30c8\u3059\u308b\u5fc5\u8981\u304c\u3042\u308a\u307e\u3059\u3002",
     "Grade": "\u30ec\u30a2\u30ea\u30c6\u30a3",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "\u53d7\u3051\u53d6\u3063\u305f\u30ae\u30a2\u3092\u5165\u529b",
     "MurchReceiveHeadline": "\u30b9\u30d1\u30a4\u30ad\u30fc\u304b\u3089\u30ae\u30a2\u3092\u53d7\u3051\u53d6\u308b",
     "MurchReceivedItem": "\u53d7\u3051\u53d6\u308a\u6e08\u307f",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "\u30b7\u30fc\u30c9\u306e\u5019\u88dc\u304c\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3002",
     "Normal": "\u901a\u5e38\u6642",
     "OneSeedFound": "\u30b7\u30fc\u30c9\u304c\u7279\u5b9a\u3055\u308c\u307e\u3057\u305f\u3002",
@@ -141,9 +164,13 @@
     "Result": "\u7d50\u679c",
     "Rolls": "\u8a66\u884c\u56de\u6570",
     "SeedFinder": "\u30b7\u30fc\u30c9\u3092\u898b\u3064\u3051\u308b",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "\u8868\u793a\u3059\u308b\u30ab\u30d7\u30bb\u30eb\u306e\u4e2d\u8eab",
     "Splatfest": "\u30d5\u30a7\u30b9",
     "StoreSeed": "\u30b7\u30fc\u30c9\u3092\u4fdd\u5b58",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "\u30b7\u30fc\u30c9\u306e\u5019\u88dc\u304c\u591a\u3059\u304e\u307e\u3059\u3002\u304f\u3058\u5f15\u304d\u306e\u7d50\u679c\u3092\u8ffd\u52a0\u3057\u3066\u304f\u3060\u3055\u3044\u3002"
   }
 }

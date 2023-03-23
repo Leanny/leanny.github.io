@@ -105,6 +105,25 @@
     "TechnicalDetails": "\uae30\uc220\uc801 \uc138\ubd80 \uc0ac\ud56d",
     "Tutorial": "\ud29c\ud1a0\ub9ac\uc5bc"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "\uc2dc\ub4dc \uc815\uc81c",
     "ButtonSearch": "\uc2dc\ub4dc \uac80\uc0c9",
@@ -118,6 +137,7 @@
     "ResultPossible": "\uac00\ub2a5\ud55c \uc2dc\ub4dc"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "\uc2dc\ub4dc \ucd08\uae30\ud654",
     "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "\ub4f1\uae09",
@@ -132,6 +152,9 @@
     "MurchReceiveEnterHeadline": "Enter result",
     "MurchReceiveHeadline": "Receive item from Murch",
     "MurchReceivedItem": "Received",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "\uc544\uc9c1 \uac00\ub2a5\ud55c \uc2dc\ub4dc\uac00 \ubc1c\uacac\ub418\uc9c0\uc54a\uc558\uc2b5\ub2c8\ub2e4.",
     "Normal": "\uc77c\ubc18",
     "OneSeedFound": "\uac00\ub2a5\ud55c \uc2dc\ub4dc \ub2e8 \ud55c\uac1c\uac00 \ubc1c\uacac\ub418\uc5c8\uc2b5\ub2c8\ub2e4",
@@ -139,9 +162,13 @@
     "Result": "\uacb0\uacfc",
     "Rolls": "\ud68c / \ubf51\uc740\ud69f\uc218",
     "SeedFinder": "\uc2dc\ub4dc \ud0d0\uc0c9\uae30",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "\ud45c\uc2dc \uacb0\uacfc \uc885\ub958",
     "Splatfest": "\ud398\uc2a4\ud2f0\ubc8c",
     "StoreSeed": "\uc2dc\ub4dc \uc800\uc7a5",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "\uac00\ub2a5\ud55c \uc2dc\ub4dc\uac00 \ub108\ubb34 \ub9ce\uc2b5\ub2c8\ub2e4, \ubf51\uae30 \uacb0\uacfc\ub97c \ub354 \ucd94\uac00\ud574\uc8fc\uc138\uc694."
   }
 }

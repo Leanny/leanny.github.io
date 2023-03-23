@@ -107,6 +107,25 @@
     "TechnicalDetails": "技術的な詳細",
     "Tutorial": "チュートリアル"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "シードをしぼりこむ",
     "ButtonSearch": "シードを検索",
@@ -120,6 +139,7 @@
     "ResultPossible": "シードの候補"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "シードをリセット",
     "FirstUse": "この機能を利用するには、まずイカリング3からデータインポートする必要があります。",
     "Grade": "レアリティ",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "受け取ったギアを入力",
     "MurchReceiveHeadline": "スパイキーからギアを受け取る",
     "MurchReceivedItem": "受け取り済み",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "シードの候補が見つかりません。",
     "Normal": "通常時",
     "OneSeedFound": "シードが特定されました。",
@@ -141,9 +164,13 @@
     "Result": "結果",
     "Rolls": "試行回数",
     "SeedFinder": "シードを見つける",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "表示するカプセルの中身",
     "Splatfest": "フェス",
     "StoreSeed": "シードを保存",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "シードの候補が多すぎます。くじ引きの結果を追加してください。"
   }
 }

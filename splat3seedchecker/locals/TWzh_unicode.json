@@ -107,6 +107,25 @@
     "TechnicalDetails": "Technical Details",
     "Tutorial": "Tutorial"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "提煉種子",
     "ButtonSearch": "查找種子",
@@ -120,6 +139,7 @@
     "ResultPossible": "可能的種子"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "重置種子",
     "FirstUse": "In order to use this feature, you need to import your data from SplatNet first.",
     "Grade": "稀有度",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "Enter result",
     "MurchReceiveHeadline": "Receive item from Murch",
     "MurchReceivedItem": "Received",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "沒有找到種子。",
     "Normal": "常規",
     "OneSeedFound": "找到唯一種子",
@@ -141,9 +164,13 @@
     "Result": "抽選結果",
     "Rolls": "抽數",
     "SeedFinder": "搜尋種子",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "篩選抽選結果類型",
     "Splatfest": "祭典",
     "StoreSeed": "保存種子",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "可能的種子數量過多。請增加抽數以縮小範圍。"
   }
 }

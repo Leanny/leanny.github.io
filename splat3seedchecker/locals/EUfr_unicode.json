@@ -107,6 +107,25 @@
     "TechnicalDetails": "Détails Techniques",
     "Tutorial": "Tutoriel"
   },
+  "Profile": {
+    "BadgeProgress": "Badge Progress",
+    "Battle": "Battle",
+    "General": "General",
+    "ImportFromSplatnet": "Import From Splatnet Files",
+    "InitSeed": "Set to Initial Seed",
+    "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "MatchesImport": "Matches to import",
+    "Profile": "Profile",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Reset Seed",
+    "Seeds": "Seeds",
+    "Settings": "Profile Settings",
+    "StoreSeed": "Store in Database",
+    "Update": "Update",
+    "UpdateProgress": "Update Progress",
+    "UploadData": "Upload Data",
+    "UploadDataDesc": "You can import your data from raw splatnet files. These files can be obtained with various tools, for example <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "Affiner la Seed",
     "ButtonSearch": "Chercher la Seed",
@@ -120,6 +139,7 @@
     "ResultPossible": "Seed Possible"
   },
   "SeedListing": {
+    "AccuracyMode": "Accuracy Mode",
     "DeleteSeed": "Effacer la Seed",
     "FirstUse": "Pour utiliser cet outil, les données doivent d'abord être importées depuis SplatNet.",
     "Grade": "Grade",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "Entre les résultats",
     "MurchReceiveHeadline": "Récupère la commande auprès de Tipik",
     "MurchReceivedItem": "Reçue",
+    "NameplateFinderIntroduction": "The seed depends on your current obtained banners. You will only need exactly one nameplate to find your seed, assuming that your profile is 100% accurate.",
+    "NameplateHeadline": "Banner Finder",
+    "NameplateIntro": "The seed depends on your current obtained banners. Please make sure that you set up correctly on the profile page.",
     "NoSeedFoundYet": "Aucune seed possible n’a été trouvé.",
     "Normal": "Normal",
     "OneSeedFound": "Une seule seed possible a été trouvée.",
@@ -141,9 +164,13 @@
     "Result": "Résultat",
     "Rolls": "Tirages",
     "SeedFinder": "Recherche de seed",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "Types de résultats",
     "Splatfest": "Splatfest",
     "StoreSeed": "Enregistrer la Seed",
+    "TitleFinderIntroduction": "The seed depends on your current obtained titles. You will only need exactly one pair of titles to find your seed, assuming that your profile is 100% accurate.",
+    "TitleHeadline": "Title Finder",
+    "TitleIntro": "The seed depends on your current obtained titles. Please make sure that you set up correctly on the profile page.",
     "TooManySeeds": "Trop de seeds trouvées. Ajoute un autre tirage."
   }
 }

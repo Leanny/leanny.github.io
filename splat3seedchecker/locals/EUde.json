@@ -107,6 +107,25 @@
     "TechnicalDetails": "Technische Details",
     "Tutorial": "Tutorial"
   },
+  "Profile": {
+    "BadgeProgress": "Fortschritt Abzeichen",
+    "Battle": "Kampf",
+    "General": "Allgemein",
+    "ImportFromSplatnet": "Aus Splatnet Files importieren",
+    "InitSeed": "Auf den initialen Seed zur\u00fccksetzen",
+    "InitSeedDesc": "Nur f\u00fcr fortgeschrittene Benutzer. Initialisiert den Seed auf die Art und Weise, wie es das spielt tut.",
+    "MatchesImport": "Importierte K\u00e4mpfe",
+    "Profile": "Profil",
+    "RawSplatnet": "Raw Splatnet",
+    "ResetSeed": "Seed Reseten",
+    "Seeds": "Seeds",
+    "Settings": "Profil-Einstellungen",
+    "StoreSeed": "In der Datenbank speichern",
+    "Update": "Update",
+    "UpdateProgress": "Fortschritt Updaten",
+    "UploadData": "Daten hochladen",
+    "UploadDataDesc": "Du kannst deine Daten aus unverarbeiteten Splatnet-Datein hochladen. Daf\u00fcr gibt es diverse Tools, wie z.B. <0>s3s</0>."
+  },
   "Recovery": {
     "ButtonRefine": "Seed Verfeinern",
     "ButtonSearch": "Seed Suchen",
@@ -120,6 +139,7 @@
     "ResultPossible": "M\u00f6glicher Seed"
   },
   "SeedListing": {
+    "AccuracyMode": "100% Genauigkeit",
     "DeleteSeed": "Reset Seed",
     "FirstUse": "Um diese Funktion verwenden zu k\u00f6nnen, m\u00fcssen zuerst die Daten aus SplatNet importiert werden.",
     "Grade": "Seltenheit",
@@ -134,6 +154,9 @@
     "MurchReceiveEnterHeadline": "Ergebnis Eintragen",
     "MurchReceiveHeadline": "Bestellung von Sid erhalten",
     "MurchReceivedItem": "Erhalten",
+    "NameplateFinderIntroduction": "Der Seed h\u00e4ngt von deinen freigeschalteten Bannern ab. Du brauchst genau einen Banner, um deinen Seed zu finden, wenn dein Profil zu 100% korrekt ist.",
+    "NameplateHeadline": "Banner-Finder",
+    "NameplateIntro": "Der Seed h\u00e4ngt von deinen freigeschalteten Bannern ab. Bitte stelle sicher, dass dein Profil korrekt ist.",
     "NoSeedFoundYet": "Keinen Seed gefunden.",
     "Normal": "Normal",
     "OneSeedFound": "Nur einen Seed gefunden.",
@@ -141,9 +164,13 @@
     "Result": "Ergebnis",
     "Rolls": "Ziehungen",
     "SeedFinder": "Seed Finder",
+    "ShopInfo": "The shop prediction requires you to have an update profile. Shops only update once per day in-game. The last slot from the general store might not be 100% accurate.",
     "ShowResultTypes": "Zeige Typen",
     "Splatfest": "Splatfest",
     "StoreSeed": "Seed Speichern",
+    "TitleFinderIntroduction": "Der Seed h\u00e4ngt von deinen freigeschalteten Titeln ab. Du brauchst genau ein Paar von Titeln, um deinen Seed zu finden, wenn dein Profil zu 100% korrekt ist.",
+    "TitleHeadline": "Titel-Finder",
+    "TitleIntro": "Der Seed h\u00e4ngt von deinen freigeschalteten Titeln ab. Bitte stelle sicher, dass dein Profil korrekt ist.",
     "TooManySeeds": "Zu viele m\u00f6gliche Seeds gefunden. Trag bitte eine weitere Ziehung ein."
   }
 }
