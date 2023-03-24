@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/splat3seedchecker/static/css/main.6583f47e.css",
-    "main.js": "/splat3seedchecker/static/js/main.41aa5a9a.js",
+    "main.css": "/splat3seedchecker/static/css/main.6dee2822.css",
+    "main.js": "/splat3seedchecker/static/js/main.0bbc9810.js",
     "react-syntax-highlighter/refractor-core-import.js": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.89f2d685.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_abap.936d99a1.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_actionscript.a3308606.chunk.js",
@@ -181,7 +181,7 @@
     "index.html": "/splat3seedchecker/index.html"
   },
   "entrypoints": [
-    "static/css/main.6583f47e.css",
-    "static/js/main.41aa5a9a.js"
+    "static/css/main.6dee2822.css",
+    "static/js/main.0bbc9810.js"
   ]
 }
