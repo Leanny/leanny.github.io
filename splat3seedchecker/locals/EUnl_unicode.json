@@ -106,6 +106,7 @@
     "ImportFromSplatnet": "Import From Splatnet Files",
     "InitSeed": "Set to Initial Seed",
     "InitSeedDesc": "Advanced users only. Initializes your seed the same way the game initializes your seed.",
+    "InvalidTitleCount": "Title 1 and title 2 do not match up. Please make sure that you have all titles added in your profile.",
     "MatchesImport": "Matches to import",
     "Profile": "Profile",
     "RawSplatnet": "Raw Splatnet",

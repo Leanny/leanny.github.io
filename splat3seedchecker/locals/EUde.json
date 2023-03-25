@@ -114,6 +114,7 @@
     "ImportFromSplatnet": "Aus Splatnet Files importieren",
     "InitSeed": "Auf den initialen Seed zur\u00fccksetzen",
     "InitSeedDesc": "Nur f\u00fcr fortgeschrittene Benutzer. Initialisiert den Seed auf die Art und Weise, wie es das spielt tut.",
+    "InvalidTitleCount": "Anzahl der Title 1 und Titel 2 passen nicht. Bitte stelle sicher, dass die gleiche Anzahl an Titeln der Kategorie 1 und 2 in deinem Profil angegeben sind.",
     "MatchesImport": "Importierte K\u00e4mpfe",
     "Profile": "Profil",
     "RawSplatnet": "Raw Splatnet",
