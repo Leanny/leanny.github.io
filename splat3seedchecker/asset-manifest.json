@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/splat3seedchecker/static/css/main.e989b16a.css",
-    "main.js": "/splat3seedchecker/static/js/main.284d1ab8.js",
+    "main.js": "/splat3seedchecker/static/js/main.7afc52bb.js",
     "react-syntax-highlighter/refractor-core-import.js": "/splat3seedchecker/static/js/react-syntax-highlighter/refractor-core-import.89f2d685.chunk.js",
     "react-syntax-highlighter_languages_refractor_abap.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_abap.936d99a1.chunk.js",
     "react-syntax-highlighter_languages_refractor_actionscript.js": "/splat3seedchecker/static/js/react-syntax-highlighter_languages_refractor_actionscript.a3308606.chunk.js",
@@ -172,6 +172,7 @@
     "static/media/tool_01.png": "/splat3seedchecker/static/media/tool_01.930903a1a9bfc704bace.png",
     "static/media/tool_02.png": "/splat3seedchecker/static/media/tool_02.6b9ff7dd4ee058c3b552.png",
     "static/media/tool_08.png": "/splat3seedchecker/static/media/tool_08.201e82ae40079dd65ed0.png",
+    "static/media/lanista.jpg": "/splat3seedchecker/static/media/lanista.b2ff3bcd7ec0f83a737c.jpg",
     "static/media/tool_07.png": "/splat3seedchecker/static/media/tool_07.d655aa04ebf8a5f1b173.png",
     "static/media/fresh_gear.png": "/splat3seedchecker/static/media/fresh_gear.c4bbb55a22bdded8b53a.png",
     "static/media/seed_finder_02.png": "/splat3seedchecker/static/media/seed_finder_02.1a6737efb8f1c58e6925.png",
@@ -182,6 +183,6 @@
   },
   "entrypoints": [
     "static/css/main.e989b16a.css",
-    "static/js/main.284d1ab8.js"
+    "static/js/main.7afc52bb.js"
   ]
 }
