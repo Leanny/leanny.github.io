@@ -1,0 +1,30 @@
+[
+  {
+    "CatalogA": "",
+    "CatalogB": "",
+    "Id": 0,
+    "News": "",
+    "__RowId": "000"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season01_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 1,
+    "News": "",
+    "__RowId": "001"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season02_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 2,
+    "News": "Work/Event/EventSetting/News_Season02.engine__event__EventSettingParam.gyml",
+    "__RowId": "002"
+  },
+  {
+    "CatalogA": "Work/Catalog/Book/Ctl_Season03_1.spl__CatalogBookParam.gyml",
+    "CatalogB": "Work/Catalog/Book/Ctl_Season01_2.spl__CatalogBookParam.gyml",
+    "Id": 3,
+    "News": "Work/Event/EventSetting/News_Season03.engine__event__EventSettingParam.gyml",
+    "__RowId": "003"
+  }
+]

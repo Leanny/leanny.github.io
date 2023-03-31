@@ -1,0 +1,100 @@
+{
+  "GameParameters": {
+    "IceParam": {
+      "$type": "spl__BulletSpFireworkIceParam",
+      "BlastParam": {
+        "CrossPaintCheckLength": 2.5,
+        "CrossPaintRadius": 2.5,
+        "DamageOffsetY": 0.1,
+        "DistanceDamage": [
+          {
+            "Damage": 600,
+            "Distance": 2.6
+          },
+          {
+            "Damage": 350,
+            "Distance": 3.8
+          },
+          {
+            "Damage": 250,
+            "Distance": 5.0
+          }
+        ],
+        "KnockBackParam": {
+          "Accel": 700.0,
+          "Bias": 0.8,
+          "Distance": 12.0
+        },
+        "PaintHeight": 4.0,
+        "PaintOffsetY": 0.1,
+        "PaintRadius": 3.5,
+        "SplashAroundParam": {
+          "PaintRadius": 1.116,
+          "PitchMax": 45.0,
+          "VelocityMax": 0.64
+        },
+        "SubSpecialSpecUpList": [
+          {
+            "Value": {
+              "High": 4.1,
+              "Low": 3.5,
+              "Mid": 3.8
+            }
+          },
+          {
+            "SpecUpType": "CrossPaintCheckLength",
+            "Value": {
+              "High": 3.0,
+              "Low": 2.5,
+              "Mid": 2.75
+            }
+          },
+          {
+            "SpecUpType": "CrossPaintRadius",
+            "Value": {
+              "High": 3.0,
+              "Low": 2.5,
+              "Mid": 2.75
+            }
+          },
+          {
+            "SpecUpType": "DistanceDamageDistanceRate",
+            "Value": {
+              "High": 1.2,
+              "Low": 1.0,
+              "Mid": 1.1
+            }
+          }
+        ]
+      },
+      "BurstFrame": 240,
+      "CollisionRadius": 0.8,
+      "FlyingFrame": 108,
+      "GroundOffsetY": 0.9,
+      "InitialScale": 0.1,
+      "RotateDegRatePerFrame": 0.994,
+      "ScaleResetFrame": 5,
+      "SpawnRotateDegMax": 4.5,
+      "SpawnRotateDegMin": 3.0,
+      "WarningAnimRestFrame": 140,
+      "WarningSERestFrame": 60
+    },
+    "PipeParam": {
+      "$type": "spl__BulletSpFireworkPipeParam",
+      "DepthRadius": 10.0,
+      "MinBetweenDistance": 5.0,
+      "TargetCenterBias": 0.3
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpFireworkParam",
+      "SpecialTotalFrame": 635,
+      "TargetCenterBias": 0.4,
+      "TargetCenterDistanceMax": 35.0,
+      "TargetCenterDistanceMin": 25.0,
+      "TargetCenterRadius": 3.0,
+      "TargetHeightCheckSpanFrame": 1,
+      "UseDistanceMinCameraDownRate": 0.25,
+      "UseDistanceMinCameraUpRate": 0.3
+    }
+  }
+}

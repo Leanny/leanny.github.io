@@ -1,0 +1,116 @@
+{
+  "GameParameters": {
+    "spl__BulletBlastParam": {
+      "$type": "spl__BulletBlastParam",
+      "CrossPaintCheckLength": 3.0,
+      "DamageOffsetY": 0.0,
+      "DistanceDamage": [
+        {
+          "Damage": 1500,
+          "Distance": 1.1
+        },
+        {
+          "Damage": 500,
+          "Distance": 2.1
+        },
+        {
+          "Damage": 300,
+          "Distance": 5.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 8.0
+      },
+      "PaintOffsetY": 0.0,
+      "PaintRadius": 3.0,
+      "SubSpecialSpecUpList": [
+        {
+          "Value": {
+            "High": 3.78,
+            "Low": 3.15,
+            "Mid": 3.465
+          }
+        },
+        {
+          "SpecUpType": "CrossPaintRadius",
+          "Value": {
+            "High": 2.0,
+            "Low": 2.0,
+            "Mid": 2.0
+          }
+        },
+        {
+          "SpecUpType": "CrossPaintCheckLength",
+          "Value": {
+            "High": 3.0,
+            "Low": 3.0,
+            "Mid": 3.0
+          }
+        }
+      ]
+    },
+    "spl__BulletSpMultiMissileDamageParam": {
+      "$type": "spl__BulletSpMultiMissileDamageParam"
+    },
+    "spl__BulletSpMultiMissileMoveParam": {
+      "$type": "spl__BulletSpMultiMissileMoveParam",
+      "RiseParam": {
+        "RiseBaseSpeedComeUnderRate": 0.9
+      },
+      "TargetParam": {
+        "MultiTargetCircleArray": [
+          {
+            "Num": 0,
+            "RandomOffset": 4.0,
+            "RandomOffsetBias": 0.3
+          }
+        ],
+        "OneTargetCircleArray": [
+          {
+            "Num": 1,
+            "Radius": 0.0,
+            "RandomOffset": 0.0
+          },
+          {
+            "Num": 9,
+            "Radius": 3.0,
+            "RandomOffset": 0.5,
+            "RandomOffsetBias": 0.35
+          },
+          {
+            "Radius": 5.0,
+            "RandomOffset": 0.5,
+            "RandomOffsetBias": 0.35
+          }
+        ]
+      }
+    },
+    "spl__WeaponSpMultiMissileLaunchParam": {
+      "$type": "spl__WeaponSpMultiMissileLaunchParam",
+      "ShotIntervalTargetArray": [
+        4
+      ],
+      "ShotNumOneTargetArray": [
+        10,
+        5,
+        4
+      ]
+    },
+    "spl__WeaponSpMultiMissileLockOnParam": {
+      "$type": "spl__WeaponSpMultiMissileLockOnParam",
+      "TargetCircleEffectDefaultRadius": 9.3,
+      "TargetInCircleRadius": {
+        "High": 240.0,
+        "Low": 140.0,
+        "Mid": 190.0
+      }
+    },
+    "spl__WeaponSpMultiMissilePlayerParam": {
+      "$type": "spl__WeaponSpMultiMissilePlayerParam",
+      "JumpVelLimitSearching": 0.06,
+      "MoveVelLimitSearching": 0.048
+    }
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "PlayerExtraResources": [
+      "Player00_v-300",
+      "Player00_Castle_v-300",
+      "Player01_v-300",
+      "Player02_v-300",
+      "Player03_v-300"
+    ],
+    "__RowId": "Work/Gyml/300.game__gfx__VersionedModelResource.gyml"
+  },
+  {
+    "PlayerExtraResources": [
+      "Player00"
+    ],
+    "__RowId": "Work/Gyml/dummy.game__gfx__VersionedModelResource.gyml"
+  }
+]

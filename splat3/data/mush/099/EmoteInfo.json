@@ -1,0 +1,28 @@
+[
+  {
+    "CaptureParam": {
+      "Frame": 0,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Impossible",
+    "Id": 0,
+    "Order": 999,
+    "Pattern": "Win_Tricol",
+    "Season": 1,
+    "Type": "Normal",
+    "__RowId": "Win_Tricol"
+  },
+  {
+    "CaptureParam": {
+      "Frame": 259,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Shop",
+    "Id": 203,
+    "Order": 0,
+    "Pattern": "Win_$(WEAPON)03",
+    "Season": 0,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon03"
+  }
+]

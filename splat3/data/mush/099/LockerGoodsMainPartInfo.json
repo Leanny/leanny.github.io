@@ -1,0 +1,26 @@
+[
+  {
+    "Color": {
+      "A": 1.0,
+      "B": 0.6,
+      "G": 0.6,
+      "R": 0.6
+    },
+    "Hash": 180017560,
+    "HowToGet": "Other",
+    "Id": 1,
+    "Label": "普通のロッカー",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100,
+    "Rarity": 1,
+    "Season": 1,
+    "TextureIndex": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Mpt_Normal_White"
+  }
+]

@@ -4573,9 +4573,11 @@
     "044": "\u66fc\u66fc",
     "045": "\u9b3c\u798f",
     "046": " ",
-    "047": "MOF8"
+    "047": "MOF8",
+    "048": "\u9ebb\u8fa3\u9b77\u7269 feat. RANOMAT"
   },
   "CommonMsg/Sound/MusicName": {
+    "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
     "Blitz_ABXY_01": "Blitz It!",
     "Blitz_ABXY_02": "Wave Prism",
     "Blitz_CurrentRip_01": "Broken Coral",
@@ -4663,9 +4665,11 @@
     "Mission_World_Alterna_5_03": "Whirlpool Tune",
     "Mission_World_Alterna_6_03": "Hyper Diver",
     "Mission_World_Crater_01": "\u8352\u754c",
+    "Plaza_Fes_Day1_Fsodr": "City of Color (2023)",
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "\u883b\u9839\u96fb\u53f0",
@@ -5999,7 +6003,6 @@
     "L_Stage_01-T_Mode_01": "\u4e0b\u6b21",
     "L_Stage_02-T_Mode_01": "\u4e0b\u4e0b\u6b21",
     "L_Stage_03-T_CoopRule_00": "\u5718\u968a\u6253\u5de5\u7af6\u8cfd",
-    "L_Stage_03-T_Mode_00": "\u73fe\u5728",
     "L_Tab_00-T_Text_00": "\u5730\u5716",
     "L_Tab_01-T_Text_00": "\u5834\u5730\u8cc7\u8a0a",
     "L_Tab_02-T_Text_00": "\u73a9\u5bb6\u8cc7\u8a0a",

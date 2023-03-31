@@ -1,0 +1,228 @@
+{
+  "GameParameters": {
+    "ExhaleBlastParamMaxCharge": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 2.0,
+      "CrossPaintRadius": 2.0,
+      "CrossPaintTexture": "Bomb00",
+      "CrossPaintUseChageArea": false,
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.5,
+      "DistanceDamage": [
+        {
+          "Damage": 1200,
+          "Distance": 8.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 9.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.5,
+      "PaintRadius": 8.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    },
+    "ExhaleBlastParamMinCharge": {
+      "$type": "spl__BulletBlastParam",
+      "CollisionRadiusForPaint": 0.0,
+      "CrossPaintCheckLength": 2.0,
+      "CrossPaintRadius": 2.0,
+      "CrossPaintTexture": "Bomb00",
+      "CrossPaintUseChageArea": false,
+      "DamageAttackerPriority": false,
+      "DamageLinear": false,
+      "DamageOffsetY": 0.5,
+      "DistanceDamage": [
+        {
+          "Damage": 1200,
+          "Distance": 4.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 9.0
+      },
+      "PaintHeight": 4.0,
+      "PaintOffsetY": 0.5,
+      "PaintRadius": 4.0,
+      "PaintTexture": "Bomb00",
+      "PlaneDamage": [],
+      "ReactionVel": 100.0,
+      "SplashAroundParam": {
+        "Num": 0,
+        "OffsetY": 0.5,
+        "PaintRadius": 1.0,
+        "PitchMax": 30.0,
+        "PitchMin": 5.0,
+        "VelocityMax": 0.54,
+        "VelocityMin": 0.48
+      },
+      "SubSpecialSpecUpList": []
+    },
+    "ExhaleCollisionParam": {
+      "$type": "spl__BulletSpBlowerExhaleCollisionParam",
+      "RadiusForField": 0.25,
+      "RadiusForPlayerMaxCharge": 0.5,
+      "RadiusForPlayerMinCharge": 0.4
+    },
+    "ExhaleParam": {
+      "$type": "spl__BulletSpBlowerExhaleParam",
+      "DirectDamage": 1200,
+      "FlyGravity": 0.003,
+      "FlyPositionAirResist": 0.01,
+      "FlyRotateAirResist": 0.01985,
+      "GuideHitCollisionType": "BlowerExhale",
+      "GuideRadius": 0.25,
+      "PaintBurstRadiusBias": 0.5,
+      "PaintRadiusMaxCharge": 3.2,
+      "PaintRadiusMinCharge": 2.4,
+      "SpawnBlastWaitFrame": 50,
+      "SpawnRotatePitch": 0.04,
+      "SpawnRotateRoll": 0.12,
+      "SpawnSpeedY": 0.08,
+      "SpawnSpeedYMaxCharge": 0.08,
+      "SpawnSpeedYWorldMin": -5.0,
+      "SpawnSpeedZMaxCharge": 0.7,
+      "SpawnSpeedZSpecUp": {
+        "High": 0.55,
+        "Low": 0.55,
+        "Mid": 0.55
+      }
+    },
+    "ExhaleSplashPaintSpawnParam": {
+      "$type": "spl__BulletSplashSpBlowerExhalePaintSpawnParam",
+      "OnTopRate": 0.375,
+      "PaintRadiusMaxCharge": 2.0,
+      "PaintRadiusMinCharge": 1.5
+    },
+    "InhaleParam": {
+      "$type": "spl__BulletSpBlowerInhaleParam",
+      "CollisionAccelRateNearest": 2.0,
+      "CollisionAccelRatePerDist": 0.01,
+      "CollisionAirResist": 0.12,
+      "CollisionBreakAccelerationRate": 2.0,
+      "CollisionPileRate": 1.0,
+      "DamagePerFrameByObject": 20,
+      "EffectRingSpanFrame": 56,
+      "EffectRingSpeed": {
+        "Data": [
+          0.0,
+          0.55,
+          0.1832544,
+          0.0637774,
+          0.5,
+          0.0,
+          0.4208998,
+          0.219,
+          0.0,
+          1.0,
+          0.219,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "EffectScalePerCollision": {
+        "Data": [
+          0.0,
+          0.28,
+          2.329197,
+          0.440625,
+          1.0,
+          0.0,
+          1.0,
+          1.0,
+          0.0
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2D"
+      },
+      "EffectSpeed": 2.0,
+      "LengthAddPerFrame": 0.3334,
+      "LengthMax": 15.0,
+      "MuzzleCollisionOffset": 1.0,
+      "MuzzleCollisionRadius": 1.2,
+      "PoisonMistForPlayer": {
+        "EffectFrame": 5,
+        "InkConsume": 0.05,
+        "InkRecoverDelay": 10,
+        "Level": [
+          {
+            "Frame": 30,
+            "NextLevelCount": 3
+          },
+          {
+            "Frame": 30,
+            "NextLevelCount": 4
+          },
+          {
+            "Frame": 15,
+            "NextLevelCount": 0
+          }
+        ],
+        "SideStepInkConsumeRate": 3.5,
+        "SpecialWeapon": true
+      },
+      "RadiusMax": {
+        "High": 4.0,
+        "Low": 3.0,
+        "Mid": 3.5
+      },
+      "RadiusMin": {
+        "High": 1.4,
+        "Low": 0.8,
+        "Mid": 1.1
+      },
+      "ReceiveDamageForPlayer": 15
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpBlowerParam",
+      "ExhaleWaitFrame": 150,
+      "InhaleStopWaitFrame": 10,
+      "InhaleToExhaleWaitFrame": 20,
+      "InhaleTotalFrame": 360,
+      "JumpHeightFullCharge": 0.07,
+      "JumpHeightMinCharge": 0.115,
+      "JumpVelExhale": 0.07,
+      "MoveJumpDownBias": 1.0,
+      "MoveJumpDownStartChargeRate": 0.1,
+      "MoveSpeedExhale": 0.07,
+      "MoveSpeedFullCharge": 0.07,
+      "MoveSpeedMinCharge": 0.09,
+      "ShotDirXZ_DiffDegH": 20.0,
+      "ShotDirXZ_DiffDegL": 0.0,
+      "ShotDirXZ_RotDegBias": 0.4,
+      "ShotDirXZ_RotDegH": 2.0,
+      "ShotDirXZ_RotDegL": 0.0,
+      "ShotPitVel": 0.15
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "GuideYMinusZero": false,
+      "XRate": 0.1,
+      "YMax": 100.0,
+      "YMinusRate": 0.0,
+      "YPlusRate": 0.5,
+      "ZRate": 0.5
+    }
+  }
+}

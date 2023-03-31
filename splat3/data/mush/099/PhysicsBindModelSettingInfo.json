@@ -1,0 +1,244 @@
+[
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsb_Bomb_Tako/output/Wsb_Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 2,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/BulletBombTorpedo.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "cap": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break05.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "parts": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      },
+      "ring": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_RainCloud/output/Wsp_Break04.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/BulletSpInkStormCloud.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "ModelKey": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_CoopIkuraDrop/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 1.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/CoopItemGoldenIkura.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "FragmentPC1": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Object/Obj_AirBallMsnWorld/output/Fragment00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 0.0,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_Fragment": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 1.0,
+        "ModelInfo": [
+          "FragmentPC1"
+        ]
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjNavigateAirBall.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "WoodBoardLarge": {
+        "ColRadius": -1.0,
+        "ColReaction": "cIgnore",
+        "DrawObjNum": 128,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": true,
+        "ModelPath": "Work/Model/Object/Obj_Box00L/output/Obj_Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 0.98,
+        "ReflectCount": 0,
+        "RestitutionScale": 1.0,
+        "VariationNum": 3
+      }
+    },
+    "EmitInfoMap": {
+      "OnSleep_1": {
+        "EmitAngularVel": 0.0,
+        "EmitLinearVel": 6.0,
+        "FadeOutTime": 1.0,
+        "LifeTime": 3.0,
+        "ModelInfo": []
+      }
+    },
+    "__RowId": "Work/Component/PhysicsBindModelParam/ObjWoodBox00L.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Break00": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break00.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break01": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break01.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break02": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break02.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      },
+      "Break03": {
+        "ColRadius": -1.0,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 16,
+        "FrictionScale": 1.0,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_Chariot/output/Break03.fmdb",
+        "OnBounceSLinkKeyName": "",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 1,
+        "RestitutionScale": 0.3,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/WeaponSpChariot.spl__gfx__PhysicsBindModelParam.gyml"
+  },
+  {
+    "BindModelInfoMap": {
+      "Cartridge": {
+        "ColRadius": 0.1,
+        "ColReaction": "cReflect",
+        "DrawObjNum": 32,
+        "FrictionScale": 0.9,
+        "IsPaintRatioRefer": false,
+        "ModelPath": "Work/Model/Weapon/Wsp_UltraShot/output/Wsp_UltraShot_Cartridge.fmdb",
+        "OnBounceSLinkKeyName": "SpUltraShot_Cartridge",
+        "PaintRatioReferRatio": 1.0,
+        "ReflectCount": 0,
+        "RestitutionScale": 0.8,
+        "VariationNum": 1
+      }
+    },
+    "EmitInfoMap": {},
+    "__RowId": "Work/Component/PhysicsBindModelParam/WeaponSpUltraShot.spl__gfx__PhysicsBindModelParam.gyml"
+  }
+]

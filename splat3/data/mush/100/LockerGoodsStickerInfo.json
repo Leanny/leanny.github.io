@@ -1,0 +1,591 @@
+[
+  {
+    "Category": "Poster",
+    "Hash": 3836261564,
+    "HowToGet": "Other",
+    "Id": 6300200,
+    "Label": "Msnオルタナマップ00",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap00_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap00"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1715952978,
+    "HowToGet": "Other",
+    "Id": 6300201,
+    "Label": "Msnオルタナマップ01",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap01_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap01"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 331541951,
+    "HowToGet": "Other",
+    "Id": 6300202,
+    "Label": "Msnオルタナマップ02",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap02_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap02"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2238937583,
+    "HowToGet": "Other",
+    "Id": 6300203,
+    "Label": "Msnオルタナマップ03",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap03_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap03"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1550134569,
+    "HowToGet": "Other",
+    "Id": 6300204,
+    "Label": "Msnオルタナマップ04",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap04_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap04"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1205715475,
+    "HowToGet": "Other",
+    "Id": 6300205,
+    "Label": "Msnオルタナマップ05",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnAlterMap05_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnAlterMap05"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2386791197,
+    "HowToGet": "Other",
+    "Id": 6300300,
+    "Label": "Msnクリア後集合写真",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Stc_Sti_MsnClearPhot_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnClearPhot"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 198742356,
+    "HowToGet": "Other",
+    "Id": 6300100,
+    "Label": "Msnミステリーファイル00",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile00_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile00"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 3830886968,
+    "HowToGet": "Other",
+    "Id": 6300101,
+    "Label": "Msnミステリーファイル01",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile01_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile01"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1994176231,
+    "HowToGet": "Other",
+    "Id": 6300102,
+    "Label": "Msnミステリーファイル02",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile02_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile02"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2058430855,
+    "HowToGet": "Other",
+    "Id": 6300103,
+    "Label": "Msnミステリーファイル03",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile03_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile03"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1035450862,
+    "HowToGet": "Other",
+    "Id": 6300104,
+    "Label": "Msnミステリーファイル04",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile04_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile04"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1962299771,
+    "HowToGet": "Other",
+    "Id": 6300105,
+    "Label": "Msnミステリーファイル05",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile05_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile05"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 3380480559,
+    "HowToGet": "Other",
+    "Id": 6300106,
+    "Label": "Msnミステリーファイル06",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile06_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile06"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 4095058692,
+    "HowToGet": "Other",
+    "Id": 6300107,
+    "Label": "Msnミステリーファイル07",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile07_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile07"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 616614813,
+    "HowToGet": "Other",
+    "Id": 6300108,
+    "Label": "Msnミステリーファイル08",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile08_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile08"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 4153716761,
+    "HowToGet": "Other",
+    "Id": 6300109,
+    "Label": "Msnミステリーファイル09",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile09_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile09"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2848938108,
+    "HowToGet": "Other",
+    "Id": 6300110,
+    "Label": "Msnミステリーファイル10",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile10_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile10"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2097416905,
+    "HowToGet": "Other",
+    "Id": 6300111,
+    "Label": "Msnミステリーファイル11",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile11_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile11"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 493021656,
+    "HowToGet": "Other",
+    "Id": 6300112,
+    "Label": "Msnミステリーファイル12",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile12_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile12"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1768350242,
+    "HowToGet": "Other",
+    "Id": 6300113,
+    "Label": "Msnミステリーファイル13",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile13_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile13"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 3982690777,
+    "HowToGet": "Other",
+    "Id": 6300114,
+    "Label": "Msnミステリーファイル14",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile14_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile14"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1756488314,
+    "HowToGet": "Other",
+    "Id": 6300115,
+    "Label": "Msnミステリーファイル15",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile15_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile15"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1485509980,
+    "HowToGet": "Other",
+    "Id": 6300116,
+    "Label": "Msnミステリーファイル16",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile16_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile16"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 598313224,
+    "HowToGet": "Other",
+    "Id": 6300117,
+    "Label": "Msnミステリーファイル17",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile17_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile17"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 234372470,
+    "HowToGet": "Other",
+    "Id": 6300118,
+    "Label": "Msnミステリーファイル18",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile18_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile18"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 686444643,
+    "HowToGet": "Other",
+    "Id": 6300119,
+    "Label": "Msnミステリーファイル19",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile19_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile19"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 895167256,
+    "HowToGet": "Other",
+    "Id": 6300120,
+    "Label": "Msnミステリーファイル20",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile20_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile20"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 3484668059,
+    "HowToGet": "Other",
+    "Id": 6300121,
+    "Label": "Msnミステリーファイル21",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Stc_Sti_MsnMysteryFile21_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile21"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 1737621011,
+    "HowToGet": "Other",
+    "Id": 6300122,
+    "Label": "Msnミステリーファイル22",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile22_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile22"
+  },
+  {
+    "Category": "Poster",
+    "Hash": 2477071037,
+    "HowToGet": "Other",
+    "Id": 6300123,
+    "Label": "Msnミステリーファイル23",
+    "MaxNumberOfPossessions": 1,
+    "Price": 100000,
+    "Rarity": 2,
+    "Season": 0,
+    "TextureName": "Pap_Sti_MsnMysteryFile23_Alb",
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Sti_MsnMysteryFile23"
+  }
+]

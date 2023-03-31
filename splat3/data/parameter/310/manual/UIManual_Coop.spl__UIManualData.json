@@ -1,0 +1,635 @@
+{
+  "ChapterSelectBtnNum": 4,
+  "ChapterSelectList": [
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_12.tga",
+      "TitleLabel": "Coop_Button00"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_13.tga",
+      "TitleLabel": "Coop_Button01"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_14.tga",
+      "TitleLabel": "Coop_Button02"
+    },
+    {
+      "Image": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnL_15.tga",
+      "TitleLabel": "Coop_Button03"
+    }
+  ],
+  "IsUseChapterSelect": true,
+  "Mstxt": "Work/Message/CommonMsg/Manual/ManualCoop.mstxt",
+  "PageList": [
+    {
+      "BodyLabel": "T_ContentsCoop_00",
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_00"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_01",
+      "TitleLabel": "T_TitleCoop_00"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_02",
+      "TitleLabel": "T_TitleCoop_01"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_03",
+      "TitleLabel": "T_TitleCoop_02"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_04",
+      "TitleLabel": "T_TitleCoop_03"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_05",
+      "TitleLabel": "T_TitleCoop_04"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_06",
+      "TitleLabel": "T_TitleCoop_04"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_07",
+      "TitleLabel": "T_TitleCoop_04"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_08",
+      "TitleLabel": "T_TitleCoop_05"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_09",
+      "TitleLabel": "T_TitleCoop_05"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_10",
+      "TitleLabel": "T_TitleCoop_05"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_11",
+      "TitleLabel": "T_TitleCoop_06"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_12",
+      "TitleLabel": "T_TitleCoop_06"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_25",
+      "TitleLabel": "T_TitleCoop_06"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_13",
+      "TitleLabel": "T_TitleCoop_07"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_14",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_07"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_15",
+      "TitleLabel": "T_TitleCoop_07"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_22",
+      "TitleLabel": "T_TitleCoop_13"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_23",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_13"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_24",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_13"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_16",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_08"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_17",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_08"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_18",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_09"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_19",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_09"
+    },
+    {
+      "BodyLabel": "T_ExplainPict_00",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "CoopSpecial00",
+      "TitleLabel": "T_TitleCoop_10"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_20",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_11"
+    },
+    {
+      "BodyLabel": "T_ContentsCoop_21",
+      "Chapter": 0,
+      "Image": "",
+      "LayoutType": "AllText",
+      "TitleLabel": "T_TitleCoop_12"
+    }
+  ],
+  "SalmonPageList": [
+    {
+      "Key": "SakelienSML",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_00",
+          "Chapter": 0,
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_00.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_21"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_01",
+          "Chapter": 0,
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_00.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_21"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_02",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_00.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_21"
+        }
+      ],
+      "Priority": 1010,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Small_00.tga"
+    },
+    {
+      "Key": "SakeFlyBagman",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_03",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_01.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_22"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_04",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_01.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_22"
+        }
+      ],
+      "Priority": 1020,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Small_01.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakelienBomber",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_05",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_02.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_24"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_06",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_02.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_24"
+        }
+      ],
+      "Priority": 2010,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_00.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakelienSnake",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_07",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_03.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_25"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_08",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_03.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_25"
+        }
+      ],
+      "Priority": 2020,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_01.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakelienShield",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_09",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_04.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_26"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_10",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_04.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_26"
+        }
+      ],
+      "Priority": 2030,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_02.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakelienTower",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_11",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_05.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_27"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_12",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_05.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_27"
+        }
+      ],
+      "Priority": 2040,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_03.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "Sakediver",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_13",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_06.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_28"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_14",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_06.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_28"
+        }
+      ],
+      "Priority": 2050,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_04.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "Sakerocket",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_15",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_07.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_29"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_16",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_07.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_29"
+        }
+      ],
+      "Priority": 2060,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_05.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakelienCupTwins",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_17",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_08.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_30"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_18",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_08.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_30"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_19",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_08.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_30"
+        }
+      ],
+      "Priority": 2070,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_06.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakePillar",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_39",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_09.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_39"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_40",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_09.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_39"
+        }
+      ],
+      "Priority": 2080,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_07.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakeDolphin",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_41",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_10.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_40"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_42",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_10.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_40"
+        }
+      ],
+      "Priority": 2090,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_08.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakeSaucer",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_43",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_11.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_41"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_44",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_11.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_41"
+        }
+      ],
+      "Priority": 2100,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_09.tga"
+    },
+    {
+      "Category": "Big",
+      "Key": "SakeArtillery",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_45",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_12.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_42"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_46",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_12.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_42"
+        }
+      ],
+      "Priority": 2110,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Big_10.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventWaterLevels",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_20",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_13.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_32"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_21",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_13.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_32"
+        }
+      ],
+      "Priority": 3010,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_00.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventRush",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_23",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_14.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_33"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_24",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_14.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_33"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_25",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_14.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_33"
+        }
+      ],
+      "Priority": 3020,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_01.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventFog",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_26",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_15.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_34"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_27",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_15.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_34"
+        }
+      ],
+      "Priority": 3030,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_02.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventGriller",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_28",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_16.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_35"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_29",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_16.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_35"
+        }
+      ],
+      "Priority": 3040,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_03.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventCohockCharge",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_30",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_17.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_36"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_31",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_17.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_36"
+        }
+      ],
+      "Priority": 3050,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_04.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventGoldieSeeking",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_32",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_18.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_37"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_33",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_18.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_37"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_34",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_18.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_37"
+        }
+      ],
+      "Priority": 3060,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_05.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventMothership",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_35",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_19.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_38"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_36",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_19.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_38"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_37",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_19.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_38"
+        }
+      ],
+      "Priority": 3070,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_06.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventThrowingBall",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_47",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_20.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_43"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_48",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_20.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_43"
+        }
+      ],
+      "Priority": 3080,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_07.tga"
+    },
+    {
+      "Category": "Event",
+      "Key": "EventTornado",
+      "Page": [
+        {
+          "BodyLabel": "T_ExplainEnemy_50",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_21.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_44"
+        },
+        {
+          "BodyLabel": "T_ExplainEnemy_51",
+          "Image": "Work/UI/Icon/Manual/Coop/sourceimages/ManualCoopS_21.tga",
+          "LayoutType": "TextAndImageS",
+          "TitleLabel": "T_TitleCoop_44"
+        }
+      ],
+      "Priority": 3090,
+      "SelectImage": "Work/UI/Icon/Manual/Btn/sourceimages/ManualBtnS_Abnormal_08.tga"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "ClassName": "",
+    "Label": "ブート",
+    "PreloadResource": "",
+    "SequenceName": "Boot",
+    "__RowId": "Boot"
+  },
+  {
+    "ClassName": "",
+    "Label": "DayChange",
+    "PreloadResource": "",
+    "SequenceName": "DayChange",
+    "__RowId": "DayChange"
+  },
+  {
+    "ClassName": "",
+    "Label": "対戦ロビー",
+    "PreloadResource": "Model/Fld_VSLobby.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "LobbyVersus",
+    "__RowId": "LobbyVersus"
+  },
+  {
+    "ClassName": "",
+    "Label": "ウォーミングアップ（プレイヤーメイク）",
+    "PreloadResource": "Model/Fld_PlayerMake.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "PlayerMake",
+    "__RowId": "PlayerMake"
+  },
+  {
+    "ClassName": "",
+    "Label": "プラザ",
+    "PreloadResource": "Model/Fld_BankaraCity.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Plaza",
+    "__RowId": "Plaza"
+  },
+  {
+    "ClassName": "",
+    "Label": "ショップ",
+    "PreloadResource": "Model/Fld_Room_Shoes.bfres",
+    "SceneBridgeBgm": "",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Shop",
+    "__RowId": "Shop"
+  },
+  {
+    "ClassName": "",
+    "Label": "スメーシーワールド",
+    "PreloadResource": "Model/Fld_Carousel03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Carousel"
+  },
+  {
+    "ClassName": "",
+    "Label": "ゴンズイ地区",
+    "PreloadResource": "Model/Fld_District00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_District00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マヒマヒリゾート&スパ",
+    "PreloadResource": "Model/Fld_Hiagari03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Hiagari03"
+  },
+  {
+    "ClassName": "",
+    "Label": "マサバ海峡大橋",
+    "PreloadResource": "Model/Fld_Kaisou03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Kaisou03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ザトウマーケット",
+    "PreloadResource": "Model/Fld_Line03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Line03"
+  },
+  {
+    "ClassName": "",
+    "Label": "チョウザメ造船",
+    "PreloadResource": "Model/Fld_Nagasaki03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Nagasaki03"
+  },
+  {
+    "ClassName": "",
+    "Label": "キンメダイ美術館",
+    "PreloadResource": "Model/Fld_Pivot03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Pivot03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ナメロウ金属",
+    "PreloadResource": "Model/Fld_Scrap00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Scrap00"
+  },
+  {
+    "ClassName": "",
+    "Label": "マテガイ放水路",
+    "PreloadResource": "Model/Fld_Temple00.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Temple00"
+  },
+  {
+    "ClassName": "",
+    "Label": "海女美術大学",
+    "PreloadResource": "Model/Fld_Upland03.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Upland03"
+  },
+  {
+    "ClassName": "",
+    "Label": "ヤガラ市場",
+    "PreloadResource": "Model/Fld_Yagara.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Yagara"
+  },
+  {
+    "ClassName": "",
+    "Label": "ユノハナ渓谷",
+    "PreloadResource": "Model/Fld_Yunohana.bfres",
+    "SceneBridgeBgm": "BgmLobbySceneBridge",
+    "SceneSpecificBgm": "",
+    "SequenceName": "Versus",
+    "__RowId": "Vss_Yunohana"
+  }
+]

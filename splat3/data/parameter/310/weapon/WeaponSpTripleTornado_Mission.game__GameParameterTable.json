@@ -1,0 +1,90 @@
+{
+  "GameParameters": {
+    "BlastParam": {
+      "$type": "spl__BulletSpTripleTornadoBlastParam",
+      "DamageHeightDown": 10.0,
+      "DamageHeightUp": 20.0,
+      "DamageRadiusEnd": 7.0,
+      "DamageRadiusStart": 0.01,
+      "DamageSpanFrame": 5,
+      "DamageValueEnd": 50,
+      "DamageValueStart": 50,
+      "KnockBackParam": {
+        "Accel": 93.333,
+        "Bias": 0.8,
+        "DirectionZeroAccelRate": 0.0,
+        "Distance": 8.0
+      },
+      "PaintRadiusEnd": 7.0,
+      "PaintRadiusStart": 0.5,
+      "PaintRotateDegree": 8.5,
+      "PaintSpanFrame": 2,
+      "RadiusSpreadBias": 0.6,
+      "RadiusSpreadFrame": 50
+    },
+    "MissileParam": {
+      "$type": "spl__BulletSpTripleTornadoMissileParam",
+      "GraphDirect": {
+        "Data": [
+          0.0,
+          0.0,
+          0.0,
+          0.5757576,
+          0.1,
+          0.1793388,
+          0.972028,
+          0.4009434,
+          2.236595,
+          1.0,
+          1.0,
+          25.42222
+        ],
+        "MaxX": 1.0,
+        "Type": "Hermit2DSmooth"
+      },
+      "GraphEndX": 1.0,
+      "GraphPowerN": 2.0,
+      "GraphStartX": 0.0,
+      "UseDirect": false,
+      "XZBias": 0.8
+    },
+    "MotherParam": {
+      "$type": "spl__BulletSpTripleTornadoMotherParam",
+      "TargetHeight": 150.0
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSpTripleTornadoGuideDeviceMoveParam",
+      "FlyGravity": 0.016,
+      "FlyPositionAirResist": 0.05866,
+      "FlyRotateAirResist": 0.01985,
+      "GuideEmissionFrame": 10,
+      "GuideHitCollisionType": "TripleTornadoGuideDevice",
+      "GuideRadius": 0.5,
+      "OccurTornadoFrame": 70,
+      "SpawnRotatePitch": 0.4,
+      "SpawnRotateRoll": 0.12,
+      "SpawnSpeedY": 0.276,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 2.6,
+        "Low": 2.0,
+        "Mid": 2.3
+      }
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSpTripleTornadoParam",
+      "GuideDeviceNum": 3,
+      "PrepareFrame": 20,
+      "SpecialTotalFrame": 360
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "GuideYMinusZero": false,
+      "XRate": 1.6,
+      "YMax": 0.16,
+      "YMinusRate": 0.0,
+      "YPlusRate": 4.0,
+      "ZRate": 2.0
+    }
+  }
+}

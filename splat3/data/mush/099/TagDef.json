@@ -1,0 +1,1528 @@
+[
+  {
+    "DefinitionType": "Group",
+    "DisplayName": "ブキ",
+    "DisplayOrder": 0,
+    "FullTagId": "Actor_Weapon",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Group",
+    "DisplayName": "メイン 調整用",
+    "DisplayOrder": 1,
+    "FullTagId": "Actor_Weapon_Main",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シューター",
+    "DisplayOrder": 2,
+    "FullTagId": "Weapon_Main_Shooter",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ローラー",
+    "DisplayOrder": 3,
+    "FullTagId": "Weapon_Main_Roller",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "チャージャー",
+    "DisplayOrder": 4,
+    "FullTagId": "Weapon_Main_Charger",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スロッシャー",
+    "DisplayOrder": 5,
+    "FullTagId": "Weapon_Main_Slosher",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スピナー",
+    "DisplayOrder": 6,
+    "FullTagId": "Weapon_Main_Spinner",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "マニューバー",
+    "DisplayOrder": 7,
+    "FullTagId": "Weapon_Main_Maneuver",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シェルター",
+    "DisplayOrder": 8,
+    "FullTagId": "Weapon_Main_Shelter",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ブラスター",
+    "DisplayOrder": 9,
+    "FullTagId": "Weapon_Main_Blaster",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "フデ",
+    "DisplayOrder": 10,
+    "FullTagId": "Weapon_Main_Brush",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "メインウェポン",
+    "DisplayOrder": 11,
+    "FullTagId": "Weapon_Main",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ストリンガー",
+    "DisplayOrder": 12,
+    "FullTagId": "Weapon_Main_Stringer",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ワイパー",
+    "DisplayOrder": 13,
+    "FullTagId": "Weapon_Main_Saber",
+    "ParentFullTagId": "Actor_Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "メイン ゲーム用[自]",
+    "DisplayOrder": 14,
+    "FullTagId": "Actor_Weapon_MainGame",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "メイン NPC用[自]",
+    "DisplayOrder": 15,
+    "FullTagId": "Actor_Weapon_MainShop",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "サブ",
+    "DisplayOrder": 16,
+    "FullTagId": "Actor_Weapon_Sub",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "サブ NPC用[自]",
+    "DisplayOrder": 17,
+    "FullTagId": "Actor_Weapon_SubNpc",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スペシャル",
+    "DisplayOrder": 18,
+    "FullTagId": "Actor_Weapon_Special",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スペシャル NPC用[自]",
+    "DisplayOrder": 19,
+    "FullTagId": "Actor_Weapon_SpecialNpc",
+    "ParentFullTagId": "Actor_Weapon"
+  },
+  {
+    "DefinitionType": "Group",
+    "DisplayName": "ギア",
+    "DisplayOrder": 20,
+    "FullTagId": "Actor_Gear",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "アタマ[自]",
+    "DisplayOrder": 21,
+    "FullTagId": "Actor_Gear_Head",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "フク[自]",
+    "DisplayOrder": 22,
+    "FullTagId": "Actor_Gear_Cloth",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "クツ[自]",
+    "DisplayOrder": 23,
+    "FullTagId": "Actor_Gear_Shoes",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "髪型[自]",
+    "DisplayOrder": 24,
+    "FullTagId": "Actor_Gear_Hair",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "眉[自]",
+    "DisplayOrder": 25,
+    "FullTagId": "Actor_Gear_Eyebrow",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "タンク",
+    "DisplayOrder": 26,
+    "FullTagId": "Actor_Gear_Tank",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ボトムス[自]",
+    "DisplayOrder": 27,
+    "FullTagId": "Actor_Gear_Bottom",
+    "ParentFullTagId": "Actor_Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "システム",
+    "DisplayOrder": 28,
+    "FullTagId": "Actor_System",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プレイヤー",
+    "DisplayOrder": 29,
+    "FullTagId": "Actor_Player",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "オブジェ",
+    "DisplayOrder": 30,
+    "FullTagId": "Actor_Obj",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "展示用オブジェ",
+    "DisplayOrder": 31,
+    "FullTagId": "Actor_Obj_Display",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "デザイナーオブジェ",
+    "DisplayOrder": 32,
+    "FullTagId": "Actor_Obj_Designer",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ケバインクオブジェ",
+    "DisplayOrder": 33,
+    "FullTagId": "Actor_Obj_KebaInk",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ケバインクコア",
+    "DisplayOrder": 34,
+    "FullTagId": "Actor_Obj_KebaInkCore",
+    "ParentFullTagId": "Actor_Obj_KebaInk"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ケバインクエリア",
+    "DisplayOrder": 35,
+    "FullTagId": "Actor_Obj_KebaInkArea",
+    "ParentFullTagId": "Actor_Obj_KebaInk"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ケバインクノーコア",
+    "DisplayOrder": 36,
+    "FullTagId": "Actor_Obj_KebaInkNoCore",
+    "ParentFullTagId": "Actor_Obj_KebaInk"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ラスボス01ケバインクコア",
+    "DisplayOrder": 37,
+    "FullTagId": "Actor_Obj_KumasanRocketKebaInkCore",
+    "ParentFullTagId": "Actor_Obj_KebaInk"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "木箱",
+    "DisplayOrder": 38,
+    "FullTagId": "Actor_Obj_WoodenBox",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Missionのヤカン",
+    "DisplayOrder": 39,
+    "FullTagId": "Actor_Obj_MissionGateway",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Missionチェックポイント",
+    "DisplayOrder": 40,
+    "FullTagId": "Actor_Obj_MissionCheckPoint",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "発掘ポイント",
+    "DisplayOrder": 41,
+    "FullTagId": "Actor_Obj_DigUpPoint",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ガチヤグラ",
+    "DisplayOrder": 42,
+    "FullTagId": "Actor_Obj_Gachiyagura",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ダッシュパネル",
+    "DisplayOrder": 43,
+    "FullTagId": "Actor_Obj_DashPanel",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ガチホコ",
+    "DisplayOrder": 44,
+    "FullTagId": "Actor_Obj_Gachihoko",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Obj 動かない（ベイク可）",
+    "DisplayOrder": 45,
+    "FullTagId": "Actor_Obj_NoMove",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾発生装置",
+    "DisplayOrder": 46,
+    "FullTagId": "Actor_Obj_BulletSpawner",
+    "ParentFullTagId": "Actor_Obj"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵",
+    "DisplayOrder": 47,
+    "FullTagId": "Actor_Enemy",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵タコプター",
+    "DisplayOrder": 48,
+    "FullTagId": "Actor_Enemy_Takopter",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵バリアタコプター",
+    "DisplayOrder": 49,
+    "FullTagId": "Actor_Enemy_BarrierTakopter",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coop敵",
+    "DisplayOrder": 50,
+    "FullTagId": "Actor_Enemy_Coop",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵コウモリ",
+    "DisplayOrder": 51,
+    "FullTagId": "Actor_Enemy_Coop_Sakerocket",
+    "ParentFullTagId": "Actor_Enemy_Coop"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵タコゾネス",
+    "DisplayOrder": 52,
+    "FullTagId": "Actor_Enemy_Rival",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ラスボス２クマサンコア",
+    "DisplayOrder": 53,
+    "FullTagId": "Actor_Enemy_KumasanSpectacleCore",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "敵タコストライク",
+    "DisplayOrder": 54,
+    "FullTagId": "Actor_Enemy_Rock",
+    "ParentFullTagId": "Actor_Enemy"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "地形",
+    "DisplayOrder": 55,
+    "FullTagId": "Actor_Field",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾",
+    "DisplayOrder": 56,
+    "FullTagId": "Actor_Bullet",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾塗り用飛沫",
+    "DisplayOrder": 57,
+    "FullTagId": "Actor_BulletPaintSplash",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ボム",
+    "DisplayOrder": 58,
+    "FullTagId": "Actor_BulletBomb",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ロボットボム",
+    "DisplayOrder": 59,
+    "FullTagId": "Actor_BulletBomb_Robot",
+    "ParentFullTagId": "Actor_BulletBomb"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾カーリングボム",
+    "DisplayOrder": 60,
+    "FullTagId": "Actor_BulletBomb_Curling",
+    "ParentFullTagId": "Actor_BulletBomb"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾トーピード",
+    "DisplayOrder": 61,
+    "FullTagId": "Actor_BulletBomb_Torpedo",
+    "ParentFullTagId": "Actor_BulletBomb"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾タンサンボム",
+    "DisplayOrder": 62,
+    "FullTagId": "Actor_BulletBomb_Fizzy",
+    "ParentFullTagId": "Actor_BulletBomb"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾クイックボム",
+    "DisplayOrder": 63,
+    "FullTagId": "Actor_BulletBomb_Quick",
+    "ParentFullTagId": "Actor_BulletBomb"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ローラー本体",
+    "DisplayOrder": 64,
+    "FullTagId": "Actor_BulletRollerBody",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾シェルター傘",
+    "DisplayOrder": 65,
+    "FullTagId": "Actor_BulletShelterCanopy",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ジャンプビーコン",
+    "DisplayOrder": 66,
+    "FullTagId": "Actor_BulletBeacon",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾スプラッシュシールド",
+    "DisplayOrder": 67,
+    "FullTagId": "Actor_BulletShield",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ショックソナー ジェネレーター",
+    "DisplayOrder": 68,
+    "FullTagId": "Actor_BulletSpShockSonarGenerator",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾グレートバリア",
+    "DisplayOrder": 69,
+    "FullTagId": "Actor_BulletSpGreatBarrier",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾スプリンクラー",
+    "DisplayOrder": 70,
+    "FullTagId": "Actor_BulletSprinkler",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾爆風",
+    "DisplayOrder": 71,
+    "FullTagId": "Actor_BulletBlast",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾エナジースタンド",
+    "DisplayOrder": 72,
+    "FullTagId": "Actor_BulletSpEnergyStand",
+    "ParentFullTagId": "Actor_Bullet"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロケーター",
+    "DisplayOrder": 73,
+    "FullTagId": "Actor_Locator",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "サウンド",
+    "DisplayOrder": 74,
+    "FullTagId": "Actor_Locator_Sound",
+    "ParentFullTagId": "Actor_Locator"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "天球",
+    "DisplayOrder": 75,
+    "FullTagId": "Actor_SkySphere",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "アイテム",
+    "DisplayOrder": 76,
+    "FullTagId": "Actor_Item",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スペシャル缶",
+    "DisplayOrder": 77,
+    "FullTagId": "Actor_Item_CanSpecial",
+    "ParentFullTagId": "Actor_Item"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "マップパーツ",
+    "DisplayOrder": 78,
+    "FullTagId": "Actor_MapParts",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "マップパーツ_KeepOut",
+    "DisplayOrder": 79,
+    "FullTagId": "Actor_MapParts_KeepOut",
+    "ParentFullTagId": "Actor_MapParts"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "マージ済みマップパーツ",
+    "DisplayOrder": 80,
+    "FullTagId": "Actor_MapParts_Merged",
+    "ParentFullTagId": "Actor_MapParts"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "リフト",
+    "DisplayOrder": 81,
+    "FullTagId": "Actor_Lift",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "リフト_KeepOut",
+    "DisplayOrder": 82,
+    "FullTagId": "Actor_Lift_KeepOut",
+    "ParentFullTagId": "Actor_Lift"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "NPC",
+    "DisplayOrder": 83,
+    "FullTagId": "Actor_Npc",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "相棒のコジャケ",
+    "DisplayOrder": 84,
+    "FullTagId": "Actor_Npc_SalmonBuddy",
+    "ParentFullTagId": "Actor_Npc"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プラザランダムクラゲ",
+    "DisplayOrder": 85,
+    "FullTagId": "Actor_Npc_PlazaRandomJerry",
+    "ParentFullTagId": "Actor_Npc"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカー本体",
+    "DisplayOrder": 86,
+    "FullTagId": "Actor_Obj_Locker_MainPart",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカーオブジェ",
+    "DisplayOrder": 87,
+    "FullTagId": "Actor_Obj_Locker",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカー棚",
+    "DisplayOrder": 88,
+    "FullTagId": "Actor_Obj_Locker_Shelf",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカー服ギア",
+    "DisplayOrder": 89,
+    "FullTagId": "Actor_Obj_Locker_Clothes",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカー靴ギア",
+    "DisplayOrder": 90,
+    "FullTagId": "Actor_Obj_Locker_Shoes",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカーフォトスタンド",
+    "DisplayOrder": 91,
+    "FullTagId": "Actor_Obj_Locker_PhotoStand",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカー頭ギア",
+    "DisplayOrder": 92,
+    "FullTagId": "Actor_Obj_Locker_Head",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロッカーポール",
+    "DisplayOrder": 93,
+    "FullTagId": "Actor_Obj_Locker_Pole",
+    "ParentFullTagId": "Actor_Obj_Locker"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "にぎやかしオブジェ",
+    "DisplayOrder": 94,
+    "FullTagId": "Actor_WallaObj",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "デモ小物",
+    "DisplayOrder": 95,
+    "FullTagId": "Actor_DemoObj",
+    "ParentFullTagId": "Actor"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ヌリコロガシが接触してもヌリコロガシが爆発しない",
+    "DisplayOrder": 96,
+    "FullTagId": "ActorAttr_MovePainterNoBurst",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "リセット対象外",
+    "DisplayOrder": 97,
+    "FullTagId": "ActorAttr_IgnoreReset",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾の全スリープ判定の対象外",
+    "DisplayOrder": 98,
+    "FullTagId": "ActorAttr_IgnoreBulletAllSleep",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "トラバースでSleep解除しない",
+    "DisplayOrder": 99,
+    "FullTagId": "ActorAttr_IsKeepSleepIfTraversed",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プレイヤーのサーチ能力で中立物扱い",
+    "DisplayOrder": 100,
+    "FullTagId": "ActorAttr_IsNeutralForSearchAbility",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プレイヤーのサーチ能力でアイテム扱い",
+    "DisplayOrder": 101,
+    "FullTagId": "ActorAttr_IsItemForSearchAbility",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プレイヤーのサーチ能力で重要扱い",
+    "DisplayOrder": 102,
+    "FullTagId": "ActorAttr_IsImportantForSearchAbility",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "カリング対象外",
+    "DisplayOrder": 103,
+    "FullTagId": "ActorAttr_IgnoreCulling",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "動的生成の対象外",
+    "DisplayOrder": 104,
+    "FullTagId": "ActorAttr_DisableDynamicLoading",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "配置被りチェック無視",
+    "DisplayOrder": 105,
+    "FullTagId": "ActorAttr_IgnorePlacementCheckDuplicate",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "配置被りチェック時別レイヤーなら無視",
+    "DisplayOrder": 106,
+    "FullTagId": "ActorAttr_IgnorePlacementCheckDuplicateOtherLayer",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "プレイヤーが搭乗する装備品",
+    "DisplayOrder": 107,
+    "FullTagId": "ActorAttr_VehicleCustomPart",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "重なっても設置系ブキが壊れない",
+    "DisplayOrder": 108,
+    "FullTagId": "ActorAttr_IgnoreBreakStationedWeapon",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "オルタナマップで「何かありそう」判定",
+    "DisplayOrder": 109,
+    "FullTagId": "ActorAttr_BigWorldMapAnything",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "インクリセット時にアクターリセット",
+    "DisplayOrder": 110,
+    "FullTagId": "ActorAttr_ResetOnInkReset",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スケール許可",
+    "DisplayOrder": 111,
+    "FullTagId": "ActorAttr_AllowScale",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シールド設置不可",
+    "DisplayOrder": 112,
+    "FullTagId": "ActorAttr_CannotPlaceShield",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "試してみようシーケンス用",
+    "DisplayOrder": 113,
+    "FullTagId": "ActorAttr_ForTipsTrial",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "試してみようシーケンス中無効",
+    "DisplayOrder": 114,
+    "FullTagId": "ActorAttr_NotForTipsTrial",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "弾ヒュン無効",
+    "DisplayOrder": 115,
+    "FullTagId": "ActorAttr_DisableSwish",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "結果発表中も計算する",
+    "DisplayOrder": 116,
+    "FullTagId": "ActorAttr_CalcInResult",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ASコマンドをXLinkのアクションスロットに流す",
+    "DisplayOrder": 117,
+    "FullTagId": "ActorAttr_ASCommandToXLink",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シェルターのキャノピーを強く押し返す",
+    "DisplayOrder": 118,
+    "FullTagId": "ActorAttr_StrongImpactToCanopy",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シェルターのキャノピーが触れた時持ち主をノックバック",
+    "DisplayOrder": 119,
+    "FullTagId": "ActorAttr_CanopyKnockBackOwner",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シェルターのキャノピーが跳ね返る",
+    "DisplayOrder": 120,
+    "FullTagId": "ActorAttr_CanopyRebound",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coopリザルトでスリープ",
+    "DisplayOrder": 121,
+    "FullTagId": "ActorAttr_SleepOnCoopResult",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "エナジースタンド浮いて設置禁止",
+    "DisplayOrder": 122,
+    "FullTagId": "ActorAttr_ProhibitFloatEnergyStand",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "グラフィティベイクの対象外",
+    "DisplayOrder": 123,
+    "FullTagId": "ActorAttr_IgnoreGraffitiBGBake",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "撮影モードのカメラが接触したら撮影モード終了",
+    "DisplayOrder": 124,
+    "FullTagId": "ActorAttr_ExitPhotographModeOnContact",
+    "ParentFullTagId": "ActorAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Viewer系のシーンで出さない",
+    "DisplayOrder": 125,
+    "FullTagId": "NotViewer",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Plaza",
+    "DisplayOrder": 126,
+    "FullTagId": "Scene_AroundPlaza",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "製品候補",
+    "DisplayOrder": 127,
+    "FullTagId": "Scene_PlazaRc",
+    "ParentFullTagId": "Scene_AroundPlaza"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "テスト",
+    "DisplayOrder": 128,
+    "FullTagId": "Scene_PlazaTest",
+    "ParentFullTagId": "Scene_AroundPlaza"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ロビー",
+    "DisplayOrder": 129,
+    "FullTagId": "Scene_Lobby",
+    "ParentFullTagId": "Scene_AroundPlaza"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Versus",
+    "DisplayOrder": 130,
+    "FullTagId": "Scene_Versus",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "製品候補",
+    "DisplayOrder": 131,
+    "FullTagId": "Scene_VersusRc",
+    "ParentFullTagId": "Scene_Versus"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "テスト",
+    "DisplayOrder": 132,
+    "FullTagId": "Scene_VersusTest",
+    "ParentFullTagId": "Scene_Versus"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 133,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": "Scene_Versus"
+  },
+  {
+    "DefinitionType": "Group",
+    "DisplayName": "MAP作成者",
+    "DisplayOrder": 134,
+    "FullTagId": "Scene_VersusCreator",
+    "ParentFullTagId": "Scene_Versus"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "対戦検証用",
+    "DisplayOrder": 135,
+    "FullTagId": "Scene_VersusStageTest",
+    "ParentFullTagId": "Scene_Versus"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Mission",
+    "DisplayOrder": 136,
+    "FullTagId": "Scene_Mission",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "製品候補",
+    "DisplayOrder": 137,
+    "FullTagId": "Scene_MissionRc",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "テスト",
+    "DisplayOrder": 138,
+    "FullTagId": "Scene_MissionTest",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 139,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Group",
+    "DisplayName": "MAP作成者",
+    "DisplayOrder": 140,
+    "FullTagId": "Scene_MissionCreator",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "松本 健児",
+    "DisplayOrder": 141,
+    "FullTagId": "Person_MatsumotoKenji",
+    "ParentFullTagId": "Scene_MissionCreator"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "臼井 健太",
+    "DisplayOrder": 142,
+    "FullTagId": "Person_UsuiKenta",
+    "ParentFullTagId": "Scene_MissionCreator"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "田中 斗望",
+    "DisplayOrder": 143,
+    "FullTagId": "Person_TanakaTomo",
+    "ParentFullTagId": "Scene_MissionCreator"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ラスボス２",
+    "DisplayOrder": 144,
+    "FullTagId": "Scene_MissionLastBoss02",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ボスウツホ戦",
+    "DisplayOrder": 145,
+    "FullTagId": "Scene_MissionBossIdolB",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ラスボス１",
+    "DisplayOrder": 146,
+    "FullTagId": "Scene_MissionLastBoss01",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ボスマンタロー戦",
+    "DisplayOrder": 147,
+    "FullTagId": "Scene_MissionBossMantaKing",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ボスフウカ戦",
+    "DisplayOrder": 148,
+    "FullTagId": "Scene_MissionBossIdolA",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ボスタコワサ戦",
+    "DisplayOrder": 149,
+    "FullTagId": "Scene_MissionBossRailKing",
+    "ParentFullTagId": "Scene_Mission"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coop",
+    "DisplayOrder": 150,
+    "FullTagId": "Scene_Coop",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "製品候補",
+    "DisplayOrder": 151,
+    "FullTagId": "Scene_CoopRc",
+    "ParentFullTagId": "Scene_Coop"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "テスト",
+    "DisplayOrder": 152,
+    "FullTagId": "Scene_CoopTest",
+    "ParentFullTagId": "Scene_Coop"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 153,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": "Scene_Coop"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "MiniGame",
+    "DisplayOrder": 154,
+    "FullTagId": "Scene_MiniGame",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "製品候補",
+    "DisplayOrder": 155,
+    "FullTagId": "Scene_MiniGameRc",
+    "ParentFullTagId": "Scene_MiniGame"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "開発環境",
+    "DisplayOrder": 156,
+    "FullTagId": "Scene_DevEnv",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Viewer",
+    "DisplayOrder": 157,
+    "FullTagId": "Scene_DevEnvViewer",
+    "ParentFullTagId": "Scene_DevEnv"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "巡回用",
+    "DisplayOrder": 158,
+    "FullTagId": "Scene_DevEnvPatrol",
+    "ParentFullTagId": "Scene_DevEnv"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "開発用通信シーン",
+    "DisplayOrder": 159,
+    "FullTagId": "Scene_DevNet",
+    "ParentFullTagId": "Scene_DevEnv"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "個人のテスト",
+    "DisplayOrder": 160,
+    "FullTagId": "Scene_Personal",
+    "ParentFullTagId": "Scene"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "常にオンライン",
+    "DisplayOrder": 161,
+    "FullTagId": "SceneAttr_ForceOnline",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "GfxMgrを作らない",
+    "DisplayOrder": 162,
+    "FullTagId": "SceneAttr_NoGfxMgr",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "カスタマイズ画面を開ける",
+    "DisplayOrder": 163,
+    "FullTagId": "SceneAttr_Customize",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ニュースを見られる",
+    "DisplayOrder": 164,
+    "FullTagId": "SceneAttr_News",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "エクストラ振動常時有効",
+    "DisplayOrder": 165,
+    "FullTagId": "SceneAttr_ExtraRumbleConstant",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "背景をべた塗りにする",
+    "DisplayOrder": 166,
+    "FullTagId": "SceneAttr_SolidBG",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "30FPS",
+    "DisplayOrder": 167,
+    "FullTagId": "SceneAttr_Fps30",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "AutoProfile",
+    "DisplayOrder": 168,
+    "FullTagId": "Scene_AutoProfile",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "塗りを構築しない",
+    "DisplayOrder": 169,
+    "FullTagId": "SceneAttr_NoPaint",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ミニマップを使用しない",
+    "DisplayOrder": 170,
+    "FullTagId": "SceneAttr_NoMiniMap",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "P2P禁止",
+    "DisplayOrder": 171,
+    "FullTagId": "SceneAttr_P2PForbidden",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シーン巡回対象に含める",
+    "DisplayOrder": 172,
+    "FullTagId": "SceneAttr_ForcePatrol",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "リソースキャッシュ強制クリア",
+    "DisplayOrder": 173,
+    "FullTagId": "SceneAttr_ForceClearResourceCache",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "自動エラーバグ報告をしない",
+    "DisplayOrder": 174,
+    "FullTagId": "SceneAttr_NoAutoErrorBugReport",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スケジュールによって環境を変える",
+    "DisplayOrder": 175,
+    "FullTagId": "SceneAttr_UseEnvHour",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スケジュールによって夜用エミッションを点ける",
+    "DisplayOrder": 176,
+    "FullTagId": "SceneAttr_UseOnlyNightEmission",
+    "ParentFullTagId": "SceneAttrRuntime"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "タコゾネス専用",
+    "DisplayOrder": 177,
+    "FullTagId": "ForRival",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Mission",
+    "DisplayOrder": 178,
+    "FullTagId": "GameMode_Mission",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coop",
+    "DisplayOrder": 179,
+    "FullTagId": "GameMode_Coop",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "前夜祭用初期装備",
+    "DisplayOrder": 180,
+    "FullTagId": "FirstEquipmentEve",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "前夜祭用初期装備",
+    "DisplayOrder": 181,
+    "FullTagId": "FirstEquipmentEve",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Gambitから移植",
+    "DisplayOrder": 182,
+    "FullTagId": "GambitCompatible",
+    "ParentFullTagId": "Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Blitzから移植",
+    "DisplayOrder": 183,
+    "FullTagId": "BlitzCompatible",
+    "ParentFullTagId": "Gear"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "VSプレビューROM",
+    "DisplayOrder": 184,
+    "FullTagId": "ForVersusPreview",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "前夜祭用初期装備",
+    "DisplayOrder": 185,
+    "FullTagId": "FirstEquipmentEve",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Viewer系のシーンで出さない",
+    "DisplayOrder": 186,
+    "FullTagId": "NotViewer",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Mission",
+    "DisplayOrder": 187,
+    "FullTagId": "GameMode_Mission",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coop",
+    "DisplayOrder": 188,
+    "FullTagId": "GameMode_Coop",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "タコゾネス専用",
+    "DisplayOrder": 189,
+    "FullTagId": "ForRival",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Blitzから移植",
+    "DisplayOrder": 190,
+    "FullTagId": "BlitzCompatible",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Mission",
+    "DisplayOrder": 191,
+    "FullTagId": "GameMode_Mission",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Coop",
+    "DisplayOrder": 192,
+    "FullTagId": "GameMode_Coop",
+    "ParentFullTagId": "GameMode"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 193,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "前夜祭用初期装備",
+    "DisplayOrder": 194,
+    "FullTagId": "FirstEquipmentEve",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "オフラインプラザ用",
+    "DisplayOrder": 195,
+    "FullTagId": "Npc_OfflinePlaza",
+    "ParentFullTagId": "Npc"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "撮影用NPC",
+    "DisplayOrder": 196,
+    "FullTagId": "Npc_Photograph",
+    "ParentFullTagId": "Npc"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Blitzから移植",
+    "DisplayOrder": 197,
+    "FullTagId": "BlitzCompatible",
+    "ParentFullTagId": "Npc"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 198,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Viewer系のシーンで出さない",
+    "DisplayOrder": 199,
+    "FullTagId": "NotViewer",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "メインウェポン",
+    "DisplayOrder": 200,
+    "FullTagId": "Weapon_Main",
+    "ParentFullTagId": "Weapon"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シューター",
+    "DisplayOrder": 201,
+    "FullTagId": "Weapon_Main_Shooter",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ローラー",
+    "DisplayOrder": 202,
+    "FullTagId": "Weapon_Main_Roller",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "チャージャー",
+    "DisplayOrder": 203,
+    "FullTagId": "Weapon_Main_Charger",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スロッシャー",
+    "DisplayOrder": 204,
+    "FullTagId": "Weapon_Main_Slosher",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "スピナー",
+    "DisplayOrder": 205,
+    "FullTagId": "Weapon_Main_Spinner",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "マニューバー",
+    "DisplayOrder": 206,
+    "FullTagId": "Weapon_Main_Maneuver",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "シェルター",
+    "DisplayOrder": 207,
+    "FullTagId": "Weapon_Main_Shelter",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ブラスター",
+    "DisplayOrder": 208,
+    "FullTagId": "Weapon_Main_Blaster",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "フデ",
+    "DisplayOrder": 209,
+    "FullTagId": "Weapon_Main_Brush",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ストリンガー",
+    "DisplayOrder": 210,
+    "FullTagId": "Weapon_Main_Stringer",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "ワイパー",
+    "DisplayOrder": 211,
+    "FullTagId": "Weapon_Main_Saber",
+    "ParentFullTagId": "Weapon_Main"
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 212,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "VSプレビューROM",
+    "DisplayOrder": 213,
+    "FullTagId": "ForVersusPreview",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "前夜祭用初期装備",
+    "DisplayOrder": 214,
+    "FullTagId": "FirstEquipmentEve",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "Viewer系のシーンで出さない",
+    "DisplayOrder": 215,
+    "FullTagId": "NotViewer",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 216,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": ""
+  },
+  {
+    "DefinitionType": "Element",
+    "DisplayName": "検証OK",
+    "DisplayOrder": 217,
+    "FullTagId": "DevMenu_Verification",
+    "ParentFullTagId": ""
+  }
+]

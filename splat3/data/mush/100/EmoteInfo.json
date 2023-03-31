@@ -1,0 +1,15 @@
+[
+  {
+    "CaptureParam": {
+      "Frame": 259,
+      "IsLoopStart": true
+    },
+    "HowToGet": "Shop",
+    "Id": 203,
+    "Order": 0,
+    "Pattern": "Win_$(WEAPON)03",
+    "Season": 0,
+    "Type": "Weapon",
+    "__RowId": "Win_Weapon03"
+  }
+]

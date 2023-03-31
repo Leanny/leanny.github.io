@@ -4573,9 +4573,11 @@
     "044": "\u30a6\u30c4\u30db",
     "045": "\u30de\u30f3\u30bf\u30ed\u30fc",
     "046": " ",
-    "047": "MOF8"
+    "047": "MOF8",
+    "048": "\u30b7\u30aa\u30ab\u30e9\u30fc\u30ba feat. RANOMAT"
   },
   "CommonMsg/Sound/MusicName": {
+    "BGM_Versus_Fes_Thunder_04": "\u6625\u98a8\u3068\u30da\u30c8\u30ea\u30b3\u30fc\u30eb",
     "Blitz_ABXY_01": "Chip Damage",
     "Blitz_ABXY_02": "Battery Full",
     "Blitz_CurrentRip_01": "\u53ef\u6190\u306a\u30bf\u30af\u30c6\u30a3\u30af\u30b9",
@@ -4663,9 +4665,11 @@
     "Mission_World_Alterna_5_03": "Whirlpool Tune",
     "Mission_World_Alterna_6_03": "Hyper Diver",
     "Mission_World_Crater_01": "\u30af\u30ec\u30fc\u30bf\u30fc",
+    "Plaza_Fes_Day1_Fsodr": "\u30cf\u30a4\u30ab\u30e9\u30b7\u30f3\u30ab'23",
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "\u86ee\u6bbb\u4e09\u6bd2\u697d\uff08\u9ce5\u5929\u697d\u30fb\u4eca\u69d8\uff09",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "\u86ee\u6bbb\u4e09\u6bd2\u697d\uff08\u732a\u795e\u697d\u30fb\u4eca\u69d8\uff09",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "\u86ee\u6bbb\u4e09\u6bd2\u697d\uff08\u5927\u86c7\u821e\u30fb\u4eca\u69d8\uff09",
+    "Plaza_Fes_Day2_Fsodr": "BRANDNEW HOMETOWN \uff5e\u305d\u308c\u3088\u308a\u660e\u65e5\u306e\u8a71\u3092\uff5e",
     "Plaza_Fes_Day2_IdolSong": "\u86ee\u6bbb\u30df\u30c3\u30af\u30b9\u30e2\u30c0\u30f3",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "\u30d0\u30f3\u30ab\u30e9\u30b8\u30aa",
@@ -5999,7 +6003,6 @@
     "L_Stage_01-T_Mode_01": "\u3064\u304e",
     "L_Stage_02-T_Mode_01": "\u305d\u306e\u3064\u304e",
     "L_Stage_03-T_CoopRule_00": "\u30d0\u30a4\u30c8\u30c1\u30fc\u30e0\u30b3\u30f3\u30c6\u30b9\u30c8",
-    "L_Stage_03-T_Mode_00": "\u3044\u307e",
     "L_Tab_00-T_Text_00": "\u30de\u30c3\u30d7",
     "L_Tab_01-T_Text_00": "\u30b9\u30c6\u30fc\u30b8\u60c5\u5831",
     "L_Tab_02-T_Text_00": "\u30d7\u30ec\u30a4\u30e4\u30fc\u60c5\u5831",

@@ -1,0 +1,34 @@
+[
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "CoopItemGoldenIkura"
+  },
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "CoopItemGoldenIkuraLarge"
+  },
+  {
+    "DummyDropIkuraNum": 1,
+    "__RowId": "CoopItemIkura"
+  },
+  {
+    "DummyDropIkuraNum": 1,
+    "__RowId": "ItemIkura"
+  },
+  {
+    "DummyDropIkuraNum": 0,
+    "__RowId": "ItemParent"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "ItemWithPedestal"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "TricolNoroshi"
+  },
+  {
+    "DummyDropIkuraNum": 5,
+    "__RowId": "UseItemCardKey"
+  }
+]

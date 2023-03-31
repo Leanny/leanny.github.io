@@ -1,0 +1,16 @@
+{
+  "$parent": "Work/Component/GameParameterTable/WeaponChargerLight.game__GameParameterTable.gyml",
+  "GameParameters": {
+    "DamageParam": {
+      "$type": "spl__BulletChargerDamageParam",
+      "ValueFullCharge": 1600,
+      "ValueMaxCharge": 1600,
+      "ValueMinCharge": 600
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponChargerParam",
+      "InkConsumeFullCharge": 0.04,
+      "InkConsumeMinCharge": 0.016
+    }
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "Traits": {
+    "Action_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "ComeBack": {
+      "ConsistsOfChip": [
+        "HumanMove_Up",
+        "SquidMove_Up",
+        "SpecialIncrease_Up"
+      ],
+      "KindLimit": "Head"
+    },
+    "DeathMarking": {
+      "ConsistsOfChip": [
+        "RespawnTime_Save",
+        "SubSpec_Up",
+        "OpInkEffect_Reduction"
+      ],
+      "KindLimit": "Clothes"
+    },
+    "EndAllUp": {
+      "ConsistsOfChip": [
+        "MainInk_Save",
+        "SubInk_Save",
+        "InkRecovery_Up"
+      ],
+      "KindLimit": "Head"
+    },
+    "ExSkillDouble": {
+      "ConsistsOfChip": [],
+      "KindLimit": "Clothes"
+    },
+    "Exorcist": {
+      "ConsistsOfChip": [
+        "RespawnSpecialGauge_Save",
+        "RespawnTime_Save",
+        "SubEffect_Reduction"
+      ],
+      "KindLimit": "Clothes"
+    },
+    "HumanMove_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "InkRecovery_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "JumpTime_Save": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "MainInk_Save": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "MinorityUp": {
+      "ConsistsOfChip": [
+        "SpecialIncrease_Up",
+        "RespawnSpecialGauge_Save",
+        "SpecialSpec_Up"
+      ],
+      "KindLimit": "Head"
+    },
+    "None": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "ObjectEffect_Up": {
+      "ConsistsOfChip": [
+        "InkRecovery_Up",
+        "SpecialSpec_Up",
+        "SubSpec_Up"
+      ],
+      "KindLimit": "Shoes"
+    },
+    "OpInkEffect_Reduction": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "RespawnSpecialGauge_Save": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "RespawnTime_Save": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SomersaultLanding": {
+      "ConsistsOfChip": [
+        "JumpTime_Save",
+        "OpInkEffect_Reduction",
+        "Action_Up"
+      ],
+      "KindLimit": "Shoes"
+    },
+    "SpecialIncrease_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SpecialSpec_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SquidMoveSpatter_Reduction": {
+      "ConsistsOfChip": [
+        "InkRecovery_Up",
+        "HumanMove_Up",
+        "SquidMove_Up"
+      ],
+      "KindLimit": "Clothes"
+    },
+    "SquidMove_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "StartAllUp": {
+      "ConsistsOfChip": [
+        "HumanMove_Up",
+        "SquidMove_Up",
+        "OpInkEffect_Reduction"
+      ],
+      "KindLimit": "Head"
+    },
+    "SubEffect_Reduction": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SubInk_Save": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SubSpec_Up": {
+      "ConsistsOfChip": [],
+      "KindLimit": "None"
+    },
+    "SuperJumpSign_Hide": {
+      "ConsistsOfChip": [
+        "JumpTime_Save",
+        "SubEffect_Reduction",
+        "Action_Up"
+      ],
+      "KindLimit": "Shoes"
+    },
+    "ThermalInk": {
+      "ConsistsOfChip": [
+        "MainInk_Save",
+        "SubInk_Save",
+        "Action_Up"
+      ],
+      "KindLimit": "Clothes"
+    }
+  }
+}

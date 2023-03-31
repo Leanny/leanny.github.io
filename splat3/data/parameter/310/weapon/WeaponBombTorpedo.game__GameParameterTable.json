@@ -1,0 +1,121 @@
+{
+  "GameParameters": {
+    "BlastParamChase": {
+      "$type": "spl__BulletBombTorpedoChaseBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 600,
+          "Distance": 2.6
+        },
+        {
+          "Damage": 350,
+          "Distance": 6.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 230.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintRadius": 3.5,
+      "SplashAroundParam": {
+        "Num": 8,
+        "PaintRadius": 0.0,
+        "PitchMax": 65.0,
+        "PitchMin": 65.0,
+        "VelocityMax": 0.48,
+        "VelocityMin": 0.42
+      },
+      "SplashBlastParam": {
+        "CrossPaintCheckLength": 1.0,
+        "CrossPaintRadius": 1.0,
+        "DistanceDamage": [
+          {
+            "Damage": 120,
+            "Distance": 2.6
+          }
+        ],
+        "KnockBackParam": {
+          "Accel": 0.0
+        },
+        "PaintRadius": 2.0
+      }
+    },
+    "BlastParamThrow": {
+      "$type": "spl__BulletBlastParam",
+      "DistanceDamage": [
+        {
+          "Damage": 600,
+          "Distance": 2.6
+        },
+        {
+          "Damage": 350,
+          "Distance": 6.0
+        }
+      ],
+      "KnockBackParam": {
+        "Accel": 700.0,
+        "Bias": 0.8,
+        "Distance": 12.0
+      },
+      "PaintOffsetY": 0.1,
+      "PaintRadius": 3.5,
+      "SplashAroundParam": {
+        "Num": 0,
+        "PaintRadius": 0.6,
+        "PitchMax": 45.0,
+        "VelocityMax": 0.35,
+        "VelocityMin": 0.3
+      }
+    },
+    "MoveParam": {
+      "$type": "spl__BulletBombTorpedoParam",
+      "BurstFrame": 30,
+      "CollisionSESpanFrame": 8,
+      "CollisionSEVelDotGroundNrm": -1.0,
+      "FindCollisionStartRadiusRate": 0.55555,
+      "FindSpawnSplashAroundParam": {
+        "Num": 6,
+        "PaintRadius": 0.7,
+        "PitchMax": 45.0,
+        "PitchMin": 30.0,
+        "VelocityMax": 0.23,
+        "VelocityMin": 0.15
+      },
+      "FlyRotateAirResist": 0.018,
+      "GroundPositionDeg50AirResist": 0.3,
+      "GroundPositionHorizonAirResist": 0.3,
+      "GroundRotateDeg50AirResist": 0.5,
+      "GroundRotateHorizonAirResist": 0.35,
+      "GuideHitCollisionType": "EnemyOffFenceOn",
+      "GuideRadius": 0.575,
+      "HitVerticalWallReboundMaxRate": 0.7,
+      "SpawnRotateRoll": 0.2,
+      "SpawnSpeedY": 0.24,
+      "SpawnSpeedYWorldMin": -0.4,
+      "SpawnSpeedZSpecUp": {
+        "High": 1.84,
+        "Low": 1.36,
+        "Mid": 1.6
+      },
+      "WarningSERestFrame": 30
+    },
+    "SplashNearest": {
+      "$type": "spl__BulletSplashBombTorpedoNearestParam"
+    },
+    "SubWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_SubWeaponSetting"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponSubParam",
+      "InkConsume": 0.65,
+      "InkRecoverStop": 88
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "XRate": 1.6,
+      "YMax": 0.32,
+      "YPlusRate": 4.0
+    }
+  }
+}

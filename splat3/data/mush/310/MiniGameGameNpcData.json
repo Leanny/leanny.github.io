@@ -1,0 +1,986 @@
+[
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameAori.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.15,
+      "Z": -0.3
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Aori.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Aori.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Aori.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Aori.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Square",
+      "Square",
+      "Square"
+    ],
+    "Name": "Aori",
+    "NameHash": 670544705,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "Yes_Fs",
+    "Order": 16,
+    "Talker": "Ichigou",
+    "__RowId": "MiniGame_Aori"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameCommander.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 1.5,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Atarime.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Atarime.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Atarime.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Atarime.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Cross",
+      "Cross",
+      "Cross"
+    ],
+    "Name": "Atarime",
+    "NameHash": 3204290234,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 15,
+    "Talker": "Atarime",
+    "__RowId": "MiniGame_Atarime"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopClothes.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": -0.05,
+      "Y": 0.4,
+      "Z": -0.5
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopClothes.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopClothes.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopClothes.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopClothes.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Square",
+      "Square",
+      "Square"
+    ],
+    "Name": "GearShopClothes",
+    "NameHash": 3683294991,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 5,
+    "Talker": "GearShopClothes",
+    "__RowId": "MiniGame_GearShopClothes"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopClothes_Fsodr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.5,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopClothes_Fsodr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopClothes_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopClothes_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopClothes_Fsodr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "Fs",
+    "IsAppearDefault": true,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "CenterHole",
+      "CenterHole",
+      "CenterHole"
+    ],
+    "Name": "GearShopClothes_Fsodr",
+    "NameHash": 2259451452,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 105,
+    "Talker": "GearShopClothesFsodr",
+    "__RowId": "MiniGame_GearShopClothes_Fsodr"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopHead.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.2,
+      "Z": -0.2
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopHead.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopHead.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopHead.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopHead.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Zigzag",
+      "Zigzag",
+      "Zigzag"
+    ],
+    "Name": "GearShopHead",
+    "NameHash": 2400758748,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 4,
+    "Talker": "GearShopHead",
+    "__RowId": "MiniGame_GearShopHead"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopHead_Fsodr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.2,
+      "Z": -0.2
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopHead_Fsodr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopHead_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopHead_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopHead_Fsodr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "Fs",
+    "IsAppearDefault": true,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "SShape",
+      "SShape",
+      "SShape"
+    ],
+    "Name": "GearShopHead_Fsodr",
+    "NameHash": 2835188193,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 104,
+    "Talker": "GearShopHeadFsodr",
+    "__RowId": "MiniGame_GearShopHead_Fsodr"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopShoes.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -1.05
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopShoes.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopShoes.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopShoes.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopShoes.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Square",
+      "Square",
+      "Square"
+    ],
+    "Name": "GearShopShoes",
+    "NameHash": 2374761189,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 6,
+    "Talker": "GearShopShoes",
+    "__RowId": "MiniGame_GearShopShoes"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGearShopShoes_Fsodr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.2,
+      "Z": -0.5
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GearShopShoes_Fsodr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GearShopShoes_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopShoes_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GearShopShoes_Fsodr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "Fs",
+    "IsAppearDefault": true,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "SmallSquare",
+      "SmallSquare",
+      "SmallSquare"
+    ],
+    "Name": "GearShopShoes_Fsodr",
+    "NameHash": 4224936037,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 106,
+    "Talker": "GearShopShoesFsodr",
+    "__RowId": "MiniGame_GearShopShoes_Fsodr"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameGoodsShop.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.3,
+      "Z": 0.15
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_GoodsShop.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_GoodsShop.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GoodsShop.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_GoodsShop.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "CenterHole",
+      "CenterHole",
+      "CenterHole"
+    ],
+    "Name": "GoodsShop",
+    "NameHash": 2775905864,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 7,
+    "Talker": "GoodsShop",
+    "__RowId": "MiniGame_GoodsShop"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameHotaru.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.15,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Hotaru.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Hotaru.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Hotaru.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Hotaru.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "SShape",
+      "SShape",
+      "SShape"
+    ],
+    "Name": "Hotaru",
+    "NameHash": 637914098,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "Yes_Fs",
+    "Order": 17,
+    "Talker": "Nigou",
+    "__RowId": "MiniGame_Hotaru"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameIdolA.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": -0.13,
+      "Y": 0.6,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_IdolA.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Fuka.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "SShape",
+      "SShape",
+      "SShape"
+    ],
+    "Name": "IdolA",
+    "NameHash": 4188543714,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "Yes",
+    "Order": 11,
+    "Talker": "IdolA",
+    "__RowId": "MiniGame_IdolA"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameIdolB.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.6,
+      "Z": -0.3
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_IdolB.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Utsuho.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Rectangle",
+      "Rectangle",
+      "Rectangle"
+    ],
+    "Name": "IdolB",
+    "NameHash": 427814477,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "Yes",
+    "Order": 12,
+    "Talker": "IdolB",
+    "__RowId": "MiniGame_IdolB"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameIdolC.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -1.5
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_IdolC.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Mantaro.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Zigzag",
+      "Zigzag",
+      "Zigzag"
+    ],
+    "Name": "IdolC",
+    "NameHash": 2885007182,
+    "NeedClearMission": true,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "Yes",
+    "Order": 13,
+    "Talker": "IdolC",
+    "__RowId": "MiniGame_IdolC"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJudge.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.5,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Judge.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Judge.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Judge.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Judge.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Cross",
+      "Cross",
+      "Cross"
+    ],
+    "Name": "Judge",
+    "NameHash": 1879234327,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 8,
+    "Talker": "Judge",
+    "__RowId": "MiniGame_Judge"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJudgeJr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.75,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_JudgeJr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_JudgeJr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_JudgeJr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_JudgeJr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "WDiamond",
+      "WDiamond",
+      "WDiamond"
+    ],
+    "Name": "JudgeJr",
+    "NameHash": 3211052158,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 9,
+    "Talker": "JudgeJr",
+    "__RowId": "MiniGame_JudgeJr"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "AccumulateSpecial",
+      "AccumulateSpecial",
+      "AccumulateSpecial"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJerry0.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.55,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Default.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Kurage0.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage0.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage0.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": true,
+    "IsNoTalk": true,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Rectangle",
+      "Rectangle",
+      "Rectangle"
+    ],
+    "Name": "MiniGameKurage0",
+    "NameHash": 2933521380,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 0,
+    "Talker": "MiniGameKurage0",
+    "__RowId": "MiniGame_MiniGameKurage0"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJerry1.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.3
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Default.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Kurage1.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage1.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage1.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": true,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Rectangle",
+      "Rectangle",
+      "Rectangle"
+    ],
+    "Name": "MiniGameKurage1",
+    "NameHash": 2043143289,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 1,
+    "Talker": "MiniGameKurage1",
+    "__RowId": "MiniGame_MiniGameKurage1"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJerry2.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 1.1,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Default.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Kurage2.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage2.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage2.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": true,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Zigzag",
+      "Zigzag",
+      "Zigzag"
+    ],
+    "Name": "MiniGameKurage2",
+    "NameHash": 3183799690,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 2,
+    "Talker": "MiniGameKurage2",
+    "__RowId": "MiniGame_MiniGameKurage2"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameJerry3.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.75,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Default.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Kurage3.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage3.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Kurage3.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": true,
+    "IsPlayerDeck": true,
+    "Map": [
+      "Rectangle",
+      "Rectangle",
+      "Rectangle"
+    ],
+    "Name": "MiniGameKurage3",
+    "NameHash": 4202287516,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 18,
+    "Talker": "MiniGameKurage3",
+    "__RowId": "MiniGame_MiniGameKurage3"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameMother.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.0,
+      "Z": -0.5
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Mother.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Mother.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Mother.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Mother.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "SmallSquare",
+      "SmallSquare",
+      "SmallSquare"
+    ],
+    "Name": "Mother",
+    "NameHash": 1068154643,
+    "NeedClearMission": false,
+    "NeedFirstMsg": false,
+    "NeedNotFes": "",
+    "Order": 14,
+    "Talker": "MotherMiniGame",
+    "__RowId": "MiniGame_Mother"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameVendor.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": -1.3,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Vendor.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Vendor.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Vendor.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Vendor.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "CenterHole",
+      "CenterHole",
+      "CenterHole"
+    ],
+    "Name": "Vendor",
+    "NameHash": 3435528187,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 10,
+    "Talker": "Vendor",
+    "__RowId": "MiniGame_Vendor"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Aggressive",
+      "Aggressive",
+      "Aggressive"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameVendor_Fsodr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.7,
+      "Z": -0.2
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_Vendor_Fsodr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_Vendor_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Vendor_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_Vendor_Fsodr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "Fs",
+    "IsAppearDefault": true,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Square",
+      "Square",
+      "Square"
+    ],
+    "Name": "Vendor_Fsodr",
+    "NameHash": 1506207758,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 110,
+    "Talker": "VendorFsodr",
+    "__RowId": "MiniGame_Vendor_Fsodr"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "AccumulateSpecial",
+      "AccumulateSpecial",
+      "AccumulateSpecial"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameWeaponShop.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.35,
+      "Z": -0.3
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_WeaponShop.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_WeaponShop.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_WeaponShop.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_WeaponShop.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "",
+    "IsAppearDefault": false,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "Cross",
+      "Cross",
+      "Cross"
+    ],
+    "Name": "WeaponShop",
+    "NameHash": 527212727,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 3,
+    "Talker": "WeaponShop",
+    "__RowId": "MiniGame_WeaponShop"
+  },
+  {
+    "AILevel": [
+      0,
+      1,
+      2
+    ],
+    "AIType": [
+      "Balance",
+      "Balance",
+      "Balance"
+    ],
+    "Actor": "Work/Actor/NpcMiniGameWeaponShop_Fsodr.engine__actor__ActorParam.gyml",
+    "ActorPosOffset": {
+      "X": 0.0,
+      "Y": 0.7,
+      "Z": 0.0
+    },
+    "CardSleeve": "Work/Gyml/MiniGameCardSleeve_WeaponShop_Fsodr.spl__MiniGameCardSleeve.gyml",
+    "Deck": [
+      "Work/Gyml/MiniGame_WeaponShop_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_WeaponShop_Fsodr.spl__MiniGamePresetDeck.gyml",
+      "Work/Gyml/MiniGame_WeaponShop_Fsodr.spl__MiniGamePresetDeck.gyml"
+    ],
+    "ExtraData": "Fs",
+    "IsAppearDefault": true,
+    "IsNoTalk": false,
+    "IsPlayerDeck": false,
+    "Map": [
+      "WDiamond",
+      "WDiamond",
+      "WDiamond"
+    ],
+    "Name": "WeaponShop_Fsodr",
+    "NameHash": 3930977601,
+    "NeedClearMission": false,
+    "NeedFirstMsg": true,
+    "NeedNotFes": "",
+    "Order": 103,
+    "Talker": "WeaponShopFsodr",
+    "__RowId": "MiniGame_WeaponShop_Fsodr"
+  }
+]

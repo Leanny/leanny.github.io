@@ -1,0 +1,698 @@
+[
+  {
+    "HowToGet": "Other",
+    "Id": 1300026,
+    "LObjParam": "Work/Gyml/LObj_Fig_BigLantern.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～魚～",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_BigLantern/output/Fig_BigLantern.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BigLantern"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300021,
+    "LObjParam": "Work/Gyml/LObj_Fig_BigLanternSakura.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～桜～",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_BigLanternSakura/output/Fig_BigLanternSakura.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_BigLanternSakura"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300022,
+    "LObjParam": "Work/Gyml/LObj_Fig_ConcreteBlockSq.spl__LockerObjParam.gyml",
+    "Label": "コンクリートのかたまり",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_ConcreteBlockSq/output/Fig_ConcreteBlockSq.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ConcreteBlockSq"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300023,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisHydrant.spl__LockerObjParam.gyml",
+    "Label": "しょうかせん",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MegapolisHydrant/output/Fig_MegapolisHydrant.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisHydrant"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300018,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisTrashBin.spl__LockerObjParam.gyml",
+    "Label": "ダストカート",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MegapolisTrashBin/output/Fig_MegapolisTrashBin.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisTrashBin"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300019,
+    "LObjParam": "Work/Gyml/LObj_Fig_MegapolisWoodPallet.spl__LockerObjParam.gyml",
+    "Label": "もくせいパレット",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_MegapolisWoodPallet/output/Fig_MegapolisWoodPallet.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MegapolisWoodPallet"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300000,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj00.spl__LockerObjParam.gyml",
+    "Label": "でんちゃん",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_NamazuDummy/output/Fig_NamazuDummy.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj00"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300001,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj01.spl__LockerObjParam.gyml",
+    "Label": "いにしえのかお",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Moai/output/Fig_Moai.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj01"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300002,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj02.spl__LockerObjParam.gyml",
+    "Label": "せつじょうしゃ",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Snowmobile/output/Fig_Snowmobile.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300003,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj03.spl__LockerObjParam.gyml",
+    "Label": "アンプ S",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AmplifierS/output/Fig_AmplifierS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj03"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300004,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj04.spl__LockerObjParam.gyml",
+    "Label": "ドラムかん ブルー",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AltanaDrumA/output/Fig_AltanaDrumA.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj04"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300005,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj05.spl__LockerObjParam.gyml",
+    "Label": "ドラムかん レッド",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AltanaDrumB/output/Fig_AltanaDrumB.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj05"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300006,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj06.spl__LockerObjParam.gyml",
+    "Label": "いにしえのポーズ",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Thinker/output/Fig_Thinker.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj06"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300007,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj07.spl__LockerObjParam.gyml",
+    "Label": "3Dプリンター",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Printer/output/Fig_Printer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj07"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300008,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj08.spl__LockerObjParam.gyml",
+    "Label": "アンプ M",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AmplifierM/output/Fig_AmplifierM.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj08"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300009,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj09.spl__LockerObjParam.gyml",
+    "Label": "だんめんもけい K",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_BiopsyBean/output/Fig_BiopsyBean.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj09"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300010,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj10.spl__LockerObjParam.gyml",
+    "Label": "だんめんもけい E",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_BiopsyEye/output/Fig_BiopsyEye.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj10"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300011,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj11.spl__LockerObjParam.gyml",
+    "Label": "シェルター",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Shelter/output/Fig_Shelter.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj11"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300012,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj12.spl__LockerObjParam.gyml",
+    "Label": "コンテナ",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_WorldContainer/output/Fig_WorldContainer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj12"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300013,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj13.spl__LockerObjParam.gyml",
+    "Label": "アンプ L",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AmplifierL/output/Fig_AmplifierL.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj13"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300014,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj14.spl__LockerObjParam.gyml",
+    "Label": "はつでんき",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Generator/output/Fig_Generator.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj14"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300015,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj16.spl__LockerObjParam.gyml",
+    "Label": "せんすいかん",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Submarine/output/Fig_Submarine.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj16"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300016,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj17.spl__LockerObjParam.gyml",
+    "Label": "提灯 ～竜～",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_BigLanternSun/output/Fig_BigLanternSun.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj17"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300017,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj18.spl__LockerObjParam.gyml",
+    "Label": "スポーツカー",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_CarMegapolis/output/Fig_CarMegapolis.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj18"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300024,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj26.spl__LockerObjParam.gyml",
+    "Label": "サーバー",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_ServerRoom/output/Fig_ServerRoom.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj26"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300025,
+    "LObjParam": "Work/Gyml/LObj_Fig_MsnFindObj27.spl__LockerObjParam.gyml",
+    "Label": "レコードプレーヤー",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_AltanaRecordPlayer/output/Fig_AltanaRecordPlayer.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_MsnFindObj27"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300020,
+    "LObjParam": "Work/Gyml/LObj_Fig_ParabolicAntenna.spl__LockerObjParam.gyml",
+    "Label": "パラボラアンテナ",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_ParabolicAntenna/output/Fig_ParabolicAntenna.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_ParabolicAntenna"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300027,
+    "LObjParam": "Work/Gyml/LObj_Fig_Torii.spl__LockerObjParam.gyml",
+    "Label": "鳥居",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_Torii/output/Fig_Torii.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_Torii"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 1300028,
+    "LObjParam": "Work/Gyml/LObj_Fig_UmbrellaNostalgia.spl__LockerObjParam.gyml",
+    "Label": "和傘",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_UmbrellaNostalgia/output/Fig_UmbrellaNostalgia.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 1.0,
+      "G": 1.0,
+      "R": 1.0
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 0,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UmbrellaNostalgia"
+  }
+]

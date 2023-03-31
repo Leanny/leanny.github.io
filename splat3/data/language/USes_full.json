@@ -2038,6 +2038,7 @@
     "RewardEmote_01": "Puedes recogerla en el [color=0001]terminal del vest\u00edbulo[color=ffff].\nAccede a la pantalla de Equipar con [group=0003 type=0005 params=ae 47 61 3f 00 00 00 00] para usarla.",
     "RewardFoodTicket_00": "\u00a1Un boleto de comida!",
     "RewardFoodTicket_01": "Puedes recogerlo en el [color=0001]terminal del vest\u00edbulo[color=ffff]\n\u00a1y canjearlo por algo rico!",
+    "RewardGearSkillChip_00": "\u00a1Fragmentos de potenciador!",
     "RewardGear_Clothes_00": "\u00a1[group=0004 type=0002 params=00 00 00 00]!",
     "RewardGear_Clothes_01": "Puedes recoger este art\u00edculo en el [color=0001]terminal del\nvest\u00edbulo[color=ffff]. \u00a1\u00dasalo en combates multijugador!",
     "RewardGear_Head_00": "\u00a1[group=0004 type=0002 params=00 00 00 00]!",
@@ -3866,9 +3867,9 @@
   "CommonMsg/Manual/ManualMiiverse": {
     "Miiverse_FAQButton": "Dudas",
     "Miiverse_FAQManual00": "\u30fb \u00bfC\u00f3mo publico mi imagen en internet?\n    Para compartir tu creaci\u00f3n en redes sociales, elige \"[group=0003 type=0005 params=52 b8 5e 3f 03 00 00 00] Publicar\" en la\n    pantalla de dibujo. Aseg\u00farate de que tu consola est\u00e1 conectada a internet.\n    Ser\u00e1 necesario disponer de una cuenta en redes sociales.",
-    "Miiverse_FAQManual01": "\u30fb \u00bfC\u00f3mo publico un mensaje festivo?\n    En cuanto se anuncie el tema del festival, acude al kiosco del festival en\n    la plaza y elige un equipo para poder publicar algo. No podr\u00e1s publicar\n    mensajes festivos si no has elegido un equipo.",
-    "Miiverse_FAQManual02": "\u30fb Vi un dibujo que infringe las normas. \u00bfQu\u00e9 hago?\n    Reporta todo el contenido inapropiado que veas.\n\n\u30fb \u00bfC\u00f3mo lo reporto?\n    Cuando est\u00e9s en la plaza, selecciona alguno de los grafitis que veas en\n    las paredes o en otras superficies y luego usa \"[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00] Reportar\" para\n    reportarlos. Elige el motivo por el que quieres informar sobre el dibujo\n    y luego env\u00eda el reporte.",
-    "Miiverse_FAQManual03": "\u30fb \u00bfPuedo hacer que no aparezcan im\u00e1genes en la plaza?\n    No existe ning\u00fan modo de impedir que los dibujos aparezcan en la plaza,\n    aunque puedes elegir que se muestren solo los dise\u00f1os que ha creado\n    Nintendo. Abre el men\u00fa, selecciona \"Ajustes\" y desactiva la opci\u00f3n\n    \"Ver publicaciones\".",
+    "Miiverse_FAQManual01": "\u30fb \u00bfC\u00f3mo publico un mensaje festivo?\n    En cuanto se anuncie el tema del festival, acude al kiosco del festival\n    y elige un equipo para poder publicar algo. No podr\u00e1s publicar mensajes\n    festivos si no has elegido un equipo.",
+    "Miiverse_FAQManual02": "\u30fb Vi un dibujo que infringe las normas. \u00bfQu\u00e9 hago?\n    Reporta todo el contenido inapropiado que veas.\n\n\u30fb \u00bfC\u00f3mo lo reporto?\n    Selecciona alguno de los grafitis que veas en las paredes\n    o en otras superficies y luego usa \"[group=0003 type=0006 params=52 b8 5e 3f 03 00 00 00] Reportar\" para\n    reportarlos. Elige el motivo por el que quieres informar\n    sobre el dibujo y luego env\u00eda el reporte.",
+    "Miiverse_FAQManual03": "\u30fb \u00bfPuedo hacer que no aparezcan im\u00e1genes?\n    No existe ning\u00fan modo de impedir que los dibujos aparezcan,\n    aunque puedes elegir que se muestren solo los dise\u00f1os que ha\n    creado Nintendo. Abre el men\u00fa, selecciona \"Ajustes\" y desactiva\n    la opci\u00f3n \"Ver publicaciones\".",
     "Miiverse_FAQTitle": "Dudas",
     "Miiverse_RuleButton": "Normas",
     "Miiverse_RuleManual00": "Ten en cuenta las siguientes normas. Las publicaciones que infrinjan estas\nnormas [color=0001]podr\u00edan ocultarse a otros usuarios[color=ffff].",
@@ -3884,7 +3885,7 @@
   },
   "CommonMsg/Manual/ManualMiniGame": {
     "Minigame_Manual00": "\u00a1Prep\u00e1rate para el juego de cartas m\u00e1s competitivo de la regi\u00f3n de Tintelia!",
-    "Minigame_Manual01": "En este duelo con cartas tendr\u00e1s que entintar todo el territorio que puedas\nantes de que se acaben los turnos. [color=0001]\u00a1Gana qui\u00e9n m\u00e1s territorio haya entintado![color=ffff]",
+    "Minigame_Manual01": "En este duelo con cartas tendr\u00e1s que entintar todo el territorio que puedas\nantes de que se acaben los turnos. [color=0001]\u00a1Gana quien m\u00e1s territorio haya entintado![color=ffff]",
     "Minigame_Manual02": "En cada turno, los jugadores eligen a la vez una carta que usar\u00e1n para entintar\nel escenario, cubriendo un cierto patr\u00f3n de casillas. \u00a1Hay [color=0001]12 turnos[color=ffff]!",
     "Minigame_Manual03": "Solo puedes entintar casillas [color=0001]adyacentes a una que ya sea tuya[color=ffff].\nEn principio, una casilla ya cubierta no se puede volver a entintar.",
     "Minigame_Manual04": "Si ambos jugadores intentan entintar la misma casilla, se impone [color=0001]la carta con\nel n\u00famero m\u00e1s bajo[color=ffff]. Si tienen el mismo n\u00famero, \u00a1se formar\u00e1 un muro antitinta!",
@@ -5588,7 +5589,7 @@
     "Tips_58_Trial": "\u00a1Oprime [group=0003 type=000a params=29 5c 0f 40 05 00 00 00] para lanzar una [color=0001]bomba pegajosa[color=ffff] contra los\nblancos! Si le aciertas a una [color=0001]barricada[color=ffff], explotar\u00e1 al instante.",
     "Tips_59": "\u00bfMiau? (\u00bfYa pasaste por la [color=0001]tienda [color=ffff]que hay\nen el vest\u00edbulo?)[page break]Fff... (La [color=0001]comida [color=ffff]y [color=0001]bebida [color=ffff]que venden ah\u00ed ayudan\na ganar m\u00e1s [color=0001]experiencia [color=ffff]y [color=0001]dinero[color=ffff] en combate).[page break]Maooo. (Pero te har\u00e1n falta [color=0001]boletos [color=ffff]para\nobtenerlas. \u00a1Ve cuando tengas alguno!)",
     "Tips_60": "Mia. (Para revisar tus combates, usa la opci\u00f3n\n[color=0001]Repeticiones [color=ffff]en el terminal del vest\u00edbulo).[page break]Rorrr... (Esta permite [color=0001]ver tus actuaciones [color=ffff]en\nlos combates en los que hayas participado).[page break]Fu. (Tambi\u00e9n puedes ver repeticiones de otros\njugadores al [color=0001]introducir un c\u00f3digo[color=ffff] en el terminal).[page break]\u00a1\u00d1aaa! (\u00a1Observar a otros en acci\u00f3n puede\nservirte para mejorar tu propio estilo de juego!)",
-    "Tips_61": "\u00bfMiaaa? (\u00bfA veces te desorientas durante\nel combate?)[page break]Fff. (Intenta [color=0001]explorar[color=ffff] los escenarios que a\u00fan no\nconoces bien).[page break]Rooor. (Para ello, habla con la [color=0001]gu\u00eda[color=ffff] en la plaza.\n\u00a1As\u00ed podr\u00e1s combatir conociendo el terreno!)",
+    "Tips_61": "\u00bfMiaaa? (\u00bfA veces te desorientas durante\nel combate?)[page break]Fff. (Intenta [color=0001]explorar[color=ffff] los escenarios que a\u00fan no\nconoces bien).[page break]Rooor. (Para ello, habla con la [color=0001]gu\u00eda[color=ffff]. \u00a1As\u00ed podr\u00e1s\ncombatir conociendo el terreno!)",
     "Tips_62": "Miau. (\u00bfTe has fijado en las \u2605 que tienen los\nart\u00edculos? Esas estrellas denotan su calidad).[page break]Rrr... (Los art\u00edculos con tres estrellas pueden\ntener hasta [color=0001]tres[color=ffff] potenciadores).[page break]\u00a1Fu! (Si compras en las tiendas [color=0001]el mismo objeto\nvarias veces[color=ffff], \u00a1adquirir\u00e1 m\u00e1s estrellas!)[page break]\u00d1aaa. (Y recuerda hablar con [color=0001]Enrizo[color=ffff] en la plaza.\n\u00a1A\u00f1ade estrellas a tus art\u00edculos favoritos!)",
     "Tips_63": "Mia. (Seg\u00fan uses cada arma, se indicar\u00e1 con \u2605\nla [color=0001]destreza[color=ffff] que vas adquiriendo con ella).[page break]\u00a1\u00d1a! (Cuando esta aumente, obtendr\u00e1s [color=0001]licencias de\nJairo[color=ffff], [color=0001]calcoman\u00edas[color=ffff], [color=0001]distintivos[color=ffff] y otros premios).[page break]Fuuu... (Las calcoman\u00edas y los distintivos son\nideales para demostrar tus armas favoritas).",
     "Tips_64": "\u00bf\u00d1iaaa? (\u00bfSabes que puedes personalizar\ntu [color=0001]placa [color=ffff]en el terminal del vest\u00edbulo?)[page break]Fuuu. (Elige [color=0001]fondo[color=ffff], [color=0001]distintivos [color=ffff]y [color=0001]apodo[color=ffff] para\ndarle tu toque personal e inconfundible).[page break]Rrr... (Podr\u00e1s obtener distintivos al lograr\nciertos objetivos).[page break]Fff. (Los apodos, por otro lado, se consiguen a\ntrav\u00e9s del [color=0001]cat\u00e1logo[color=ffff] o el [color=0001]premiotr\u00f3n[color=ffff]).",
@@ -5939,7 +5940,7 @@
     "Marina_WantFollow": "\u00a1Ay! \u00a1Qu\u00e9 estilo tan ch\u00e9vere el tuyo![page break]\u00bfQu\u00e9 te parecer\u00eda tenerme como\n[color=0001]amiga[color=ffff]? A m\u00ed me encantar\u00eda.[page break]Me aprender\u00e9 tus [color=0001]ajustes de la\nc\u00e1mara[color=ffff] y tu [color=0001]equipamiento[color=ffff] \nde memoria.[page break]Ah, y tambi\u00e9n [color=0001]tus atuendos[color=ffff],\npor supuesto.[page break]As\u00ed podr\u00e1s elegirlos r\u00e1pidamente\nen la pantalla de [color=0001]Equipar[color=ffff].[page break]\u00bfQu\u00e9 te parece? \u00a1No te\narrepentir\u00e1s!",
     "Marina_WhatDo": "\u00bfNecesitas ayuda con algo?",
     "Msg_CstAmiibo_Success": "Se escribieron los datos.\n\nCuando veas el \u00edcono [group=0003 type=0021 params=9a 99 59 3f fc ff ff ff], mant\u00e9n el amiibo\nsobre el punto de contacto NFC para importar\nsus datos.",
-    "Msg_Cst_Amiibo_NotSigned": "Primero debes registrar el amiibo en la plaza.",
+    "Msg_Cst_Amiibo_NotSigned": "Primero debes registrar el amiibo.",
     "Msg_Cst_Amiibo_OtherSigned": "Otro usuario ya registr\u00f3 este amiibo.",
     "Msg_DeleteOtherAppData": "El amiibo contiene datos de otro programa.\n\u00bfQuieres borrarlos y sobrescribirlos\ncon los datos actuales?",
     "Msg_FestIdle": "No se puede llamar a ning\u00fan amiibo a esta\nciudad durante un festival.",
@@ -6279,9 +6280,11 @@
     "044": "Angie",
     "045": "Rayan",
     "046": " ",
-    "047": "Octoplush"
+    "047": "Octoplush",
+    "048": "Calamarci\u00f1as con NAYAR"
   },
   "CommonMsg/Sound/MusicName": {
+    "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
     "Blitz_ABXY_01": "Blitz It!",
     "Blitz_ABXY_02": "Wave Prism",
     "Blitz_CurrentRip_01": "Broken Coral",
@@ -6369,9 +6372,11 @@
     "Mission_World_Alterna_5_03": "Whirlpool Tune",
     "Mission_World_Alterna_6_03": "Hyper Diver",
     "Mission_World_Crater_01": "El Cr\u00e1ter",
+    "Plaza_Fes_Day1_Fsodr": "City of Color (2023)",
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Radio ca\u00f3tica",
@@ -6542,7 +6547,7 @@
     "Msg_MemberFixing": "Cerrando el grupo...",
     "Msg_MemberShortage": "A\u00fan no hay suficientes jugadores.\nEspera a que se unan m\u00e1s.",
     "Msg_MiniGame_AnyoneInBattle": "No puedes cerrar un grupo en el que\nhay jugadores combatiendo.",
-    "Msg_NeedVote": "Para participar en el festival, dir\u00edgete\nal kiosco que est\u00e1 en la plaza y \u00fanete\na uno de los equipos.",
+    "Msg_NeedVote": "Para participar en el festival, dir\u00edgete\nal kiosco y \u00fanete a uno de los equipos.",
     "Msg_NetworkReady_Lan": "Preparando la conexi\u00f3n local...",
     "Msg_NetworkReady_Local": "Preparando la partida local...",
     "Msg_NotAllReady": "Espera a que todo el mundo est\u00e9 listo...",
@@ -7400,6 +7405,7 @@
     "BOT023": "botas martillo rojas",
     "BOT025": "botas roqueras rosas",
     "BOT026": "botas de abrigo",
+    "BOT027": "botas camuflaje con colgante",
     "CFS000": "zapatos azules",
     "CFS001": "zapatos p\u00farpura",
     "COP101": "botas enojonas",
@@ -7496,6 +7502,7 @@
     "SLP000": "mocasines azules",
     "SLP001": "mocasines rojos",
     "SLP002": "mocasines bicolor",
+    "SLP004": "mocasines Zofrito",
     "TRG000": "tenis FTR",
     "TRS000": "botas de monta\u00f1a",
     "TRS001": "botas de monta\u00f1a especiales"
@@ -8246,7 +8253,7 @@
     "FirstEnter_03": "Para empezar, \u00e9chale un ojo al [color=0001]hervidor de\ncombate[color=ffff] y selecciona [color=0001]Combate amistoso[color=ffff].[page break]Eso te llevar\u00e1 a un combate [color=0001]territorial[color=ffff].[page break]Tu equipo tendr\u00e1 3 minutos para entintar\nm\u00e1s territorio que el rival.",
     "FirstEnter_03_Fest": "\u00a1Qu\u00e9 emoci\u00f3n! \u00a1En este momento se est\u00e1\ncelebrando un [color=0001]festival[color=ffff]![page break]Si te interesa, ve al [color=0001]hervidor de combate[color=ffff]\ny selecciona [color=0001]Combate tem\u00e1tico [size=75%](informal)[size=100%][color=ffff].[page break]Ir\u00e1s a un [color=0001]combate territorial[color=ffff], \u00a1donde tu equipo\ntendr\u00e1 3 minutos para entintar el territorio!",
     "FirstEnter_04": "Bueno, menos hablar y m\u00e1s entintar. \u00a1Vamos!",
-    "FirstEnter_FestVote_00": "\u00a1Oh, hay un [color=0001]festival [color=ffff]en marcha ahora mismo![page break]Eso significa que para poder unirte a la fiesta\ntendr\u00e1s que [color=0001]elegir un equipo[color=ffff].[page break]\u00a1Vuelve a la plaza y ve al [color=0001]kiosco del festival[color=ffff]\npara hacer tu elecci\u00f3n!",
+    "FirstEnter_FestVote_00": "\u00a1Oh, hay un [color=0001]festival [color=ffff]en marcha ahora mismo![page break]Eso significa que para poder unirte a la fiesta\ntendr\u00e1s que [color=0001]elegir un equipo[color=ffff].[page break]\u00a1Ve al [color=0001]kiosco del festival [color=ffff]para hacer tu elecci\u00f3n!",
     "Msg_Eve00": "Ojo: al participar en este festival, no obtendr\u00e1s\nninguna experiencia ni dinero ni supermoluscos.\n\nTampoco se transferir\u00e1n los datos de guardado\ndel festival a la versi\u00f3n completa de Splatoon 3.",
     "Msg_Legal00": "Cuando juegues en l\u00ednea, se aplicar\u00e1n las directrices\nde la comunidad de Nintendo, que se encuentran en\nnuestro sitio web. Juega de manera respetuosa\nhacia los dem\u00e1s usuarios.\n\nAl jugar en l\u00ednea, el nombre que elegiste y tus datos\nde jugador podr\u00edan verse p\u00fablicamente."
   },
@@ -8260,7 +8267,7 @@
     "NamePlate_01": "Recuerda que puedes modificar tu placa en\ncualquier momento en el terminal del vest\u00edbulo.[page break]Puedes cambiarle el [color=0001]fondo[color=ffff], ponerle [color=0001]distintivos[color=ffff]\ny darte a conocer con un [color=0001]apodo[color=ffff] gracioso."
   },
   "EventFlowMsg/LobbyVersus_IntroduceWeaponShop": {
-    "WeaponShop_00": "\u00a1Felicidades! \u00a1Subiste de nivel![page break]Sabes que puedes usar la [color=0001]licencia de Jairo[color=ffff] [group=0003 type=001c params=00 00 80 3f 00 00 00 00]\npara obtener nuevas [color=0001]armas[color=ffff], \u00bfno? \u00a1Pues s\u00ed![page break]Ve a la plaza y date una vuelta por [color=0001]Armer\u00eda\nTodotinta[color=ffff]. \u00a1Compra con gusto!"
+    "WeaponShop_00": "\u00a1Felicidades! \u00a1Subiste de nivel![page break]Sabes que puedes usar la [color=0001]licencia de Jairo[color=ffff] [group=0003 type=001c params=00 00 80 3f 00 00 00 00]\npara obtener nuevas [color=0001]armas[color=ffff], \u00bfno? \u00a1Pues s\u00ed![page break]Date una vuelta por [color=0001]Armer\u00eda Todotinta[color=ffff]\n\u00a1y compra con gusto!"
   },
   "EventFlowMsg/LobbyVersus_IntrouceShop": {
     "Shop_00": "Disculpa que te interrumpa, pero es que\n\u00faltimamente emanas una vibra muy ch\u00e9vere...[page break]\u00bfSab\u00edas que por aqu\u00ed hay unas [color=0001]tiendas [color=ffff]con\n[color=0001]equipamiento [color=ffff]que te puede resultar muy \u00fatil?[page break]Me refiero a [color=0001]ropa[color=ffff], [color=0001]calzado[color=ffff], [color=0001]accesorios[color=ffff] e incluso\nnuevas [color=0001]armas[color=ffff]. \u00a1Y tambi\u00e9n una [color=0001]tienda de todito[color=ffff]![page break]Pasa cuando quieras y diles que vas de parte\nde esta voz que te habla en tu cabeza."
@@ -9784,7 +9791,6 @@
     "L_Stage_01-T_Mode_01": "Siguiente",
     "L_Stage_02-T_Mode_01": "Posteriores",
     "L_Stage_03-T_CoopRule_00": "Recolecci\u00f3n extra",
-    "L_Stage_03-T_Mode_00": "Actual",
     "L_Tab_00-T_Text_00": "Mapa",
     "L_Tab_01-T_Text_00": "Escenarios",
     "L_Tab_02-T_Text_00": "Estado",
@@ -11443,11 +11449,11 @@
     "L_FestA_00-T_Unit_00": "%",
     "L_FestA_02-T_Unit_00": "p.",
     "L_FestA_02-T_WinNum_00": "\u00a1Victoria!",
-    "L_FestResult_00-T_Num_00": "\uff18",
-    "L_FestResult_00-T_Num_01": "\uff11\uff10",
+    "L_FestResult_00-T_Num_00": "\uff17",
+    "L_FestResult_00-T_Num_01": "\uff18",
     "L_FestResult_00-T_Num_02": "\uff11\uff12",
     "L_FestResult_00-T_Num_03": "\uff11\uff12",
-    "L_FestResult_00-T_Num_04": "\uff11\uff15",
+    "L_FestResult_00-T_Num_04": "\uff11\uff18",
     "L_FestResult_00-T_Point_00": "p.",
     "L_FestResult_00-T_Title_00": "Prefestival",
     "L_FestResult_00-T_Title_01": "Votos",

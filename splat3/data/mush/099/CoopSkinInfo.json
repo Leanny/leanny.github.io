@@ -1,0 +1,15 @@
+[
+  {
+    "GearClothesName": "Clt_COP001",
+    "GearHeadName": "Hed_COP001",
+    "Id": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "COP001"
+  }
+]

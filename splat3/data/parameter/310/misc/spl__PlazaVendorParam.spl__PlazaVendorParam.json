@@ -1,0 +1,68 @@
+{
+  "CleanSlotCost": 20000,
+  "CleanSlotCost_FestT": 2000,
+  "ExSkillNeedChipNum": [
+    10,
+    20,
+    30
+  ],
+  "ExSkillNeedChipNum_FestT": [
+    3,
+    6,
+    9
+  ],
+  "ExSkillToChipNum": 1,
+  "MainSkillNeedChipNum": 45,
+  "MainSkillNeedChipNum_FestT": 6,
+  "MainSkillToChipNum": 6,
+  "OrderPrice": [
+    {
+      "X": 1000,
+      "Y": 5000,
+      "Z": 15000
+    },
+    {
+      "X": 2000,
+      "Y": 10000,
+      "Z": 30000
+    },
+    {
+      "X": 0,
+      "Y": 20000,
+      "Z": 50000
+    },
+    {
+      "X": 0,
+      "Y": 0,
+      "Z": 100000
+    }
+  ],
+  "OrderPriceMulAsMainNotShop": 2,
+  "OrderSameRate": [
+    {
+      "X": 30.0,
+      "Y": 0.0
+    },
+    {
+      "X": 60.0,
+      "Y": 0.0
+    },
+    {
+      "X": 7.5,
+      "Y": 1.5
+    },
+    {
+      "X": 0.5,
+      "Y": 0.5
+    }
+  ],
+  "RandSkillNeedShellNum": 1,
+  "RarityNeedShellNum": [
+    0,
+    1,
+    1,
+    5,
+    10,
+    20
+  ]
+}

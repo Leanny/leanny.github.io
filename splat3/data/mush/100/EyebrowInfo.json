@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 20,
+    "IsSquid": false,
+    "Label": "普通(タコ)",
+    "Order": 100,
+    "__RowId": "Eyb_OCT000"
+  },
+  {
+    "Id": 21,
+    "IsSquid": false,
+    "Label": "剃りこみ(タコ)",
+    "Order": 101,
+    "__RowId": "Eyb_OCT001"
+  },
+  {
+    "Id": 22,
+    "IsSquid": false,
+    "Label": "太眉(タコ)",
+    "Order": 102,
+    "__RowId": "Eyb_OCT002"
+  },
+  {
+    "Id": 23,
+    "IsSquid": false,
+    "Label": "細眉(タコ)",
+    "Order": 103,
+    "__RowId": "Eyb_OCT003"
+  },
+  {
+    "Id": 0,
+    "IsSquid": true,
+    "Label": "普通(イカ)",
+    "Order": 0,
+    "__RowId": "Eyb_SQD000"
+  },
+  {
+    "Id": 1,
+    "IsSquid": true,
+    "Label": "剃りこみ(イカ)",
+    "Order": 1,
+    "__RowId": "Eyb_SQD001"
+  },
+  {
+    "Id": 2,
+    "IsSquid": true,
+    "Label": "太眉(イカ)",
+    "Order": 2,
+    "__RowId": "Eyb_SQD002"
+  },
+  {
+    "Id": 3,
+    "IsSquid": true,
+    "Label": "細眉(イカ)",
+    "Order": 3,
+    "__RowId": "Eyb_SQD003"
+  }
+]

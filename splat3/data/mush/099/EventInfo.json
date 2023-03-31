@@ -1,0 +1,674 @@
+[
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_AfterFirstBattle.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_AfterFirstBattle.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_FirstEnter.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_FirstEnter.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_FirstLocker.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_FirstLocker.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_IntroduceNamePlate.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_IntroduceNamePlate.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_IntrouceShop.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_IntroduceShop.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_IntroduceWeaponShop.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_IntroduceWeaponShop.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_UnlockBankaraMatch.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_UnlockBankaraMatch.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/LobbyVersus_UnlockXMatch.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/LobbyVersus_UnlockXMatch.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_BigRunAnnounce.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_BigRunAnnounce.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_BigRunBeingHeld.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_BigRunBeingHeld.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_BigRunResult.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_BigRunResult.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_Coop.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_Coop.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_Ending.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_Ending.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestAnnounce.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestAnnounce.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestAnnounceEnd.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestAnnounceEnd.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestBeingHeld.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestBeingHeld.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestEnd.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestEnd.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestIntermediate.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestIntermediate.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestMatchVersusStage.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestMatchVersusStage.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FestResult.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FestResult.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_FirstBoot.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_FirstBoot.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_LimitedCoop.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_LimitedCoop.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_MissionEnding.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_MissionEnding.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_Opening.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_Opening.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_TricolorVersusStage.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_TricolorVersusStage.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_UpdateInfo.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_UpdateInfo.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_VersionUp.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_VersionUp.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "AllMode",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/News_VersusStage.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/News_VersusStage.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": "Demo_Cmn_WorldMute"
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/PlayerMake_ToPlaza_FlowChart.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "PlayEnvSetting": {
+      "IsAutoFade": false,
+      "IsBeforehandLoadTerrain": false,
+      "IsDisableAnmDriven": false,
+      "IsDisableIK": false,
+      "IsDisablePreLoad": false,
+      "IsEffectEventMode": false,
+      "IsFadeInWhenFinish": true,
+      "IsFixedTerrainCalcCenter": false,
+      "IsHideSameNameAsEventMember": false,
+      "IsResidentToDynamicCreatActor": false,
+      "IsSleepAllBullet": true,
+      "IsUseTransAnimation": false,
+      "NeedWaitStableTraverseJumpDis": 100.0
+    },
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/PlayerMake_ToPlaza_FlowChart.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": false,
+      "IsResumeInGameBgmOnFinish": false,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/PlayerMake_TrainArrival_FlowChart.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "PlayEnvSetting": {
+      "IsAutoFade": true,
+      "IsBeforehandLoadTerrain": false,
+      "IsDisableAnmDriven": false,
+      "IsDisableIK": false,
+      "IsDisablePreLoad": false,
+      "IsEffectEventMode": false,
+      "IsFadeInWhenFinish": false,
+      "IsFixedTerrainCalcCenter": false,
+      "IsHideSameNameAsEventMember": false,
+      "IsResidentToDynamicCreatActor": false,
+      "IsSleepAllBullet": true,
+      "IsUseTransAnimation": false,
+      "NeedWaitStableTraverseJumpDis": 100.0
+    },
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/PlayerMake_TrainArrival_FlowChart.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint0",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/PlayerMake_WeaponGet.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "PlayEnvSetting": {
+      "IsAutoFade": false,
+      "IsBeforehandLoadTerrain": false,
+      "IsDisableAnmDriven": false,
+      "IsDisableIK": false,
+      "IsDisablePreLoad": false,
+      "IsEffectEventMode": false,
+      "IsFadeInWhenFinish": true,
+      "IsFixedTerrainCalcCenter": false,
+      "IsHideSameNameAsEventMember": false,
+      "IsResidentToDynamicCreatActor": false,
+      "IsSleepAllBullet": true,
+      "IsUseTransAnimation": false,
+      "NeedWaitStableTraverseJumpDis": 100.0
+    },
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/PlayerMake_WeaponGet.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": "Demo_Plaza_Intro"
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/Plaza_Intro.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/Plaza_Intro.engine__event__EventSettingParam.gyml"
+  },
+  {
+    "AutoPlayNextEventName": "",
+    "EntryPointName": "EntryPoint",
+    "EventFileType": "Flowchart",
+    "EventSoundSetting": {
+      "IsFadeInGameBgmOnStart": false,
+      "IsFadeSEOnFinish": true,
+      "IsFadeSEOnStart": true,
+      "IsResumeInGameBgmOnFinish": true,
+      "ManualDucking": ""
+    },
+    "FlowchartFileName": "Work/Event/EventFlow/Plaza_Overview.evfc",
+    "MovieFileName": "",
+    "NonEventMemberPauseType": "None",
+    "StartWaitFrame": 0,
+    "TimelineFileName": "",
+    "TimelineFileNameSyncMovie": "",
+    "__RowId": "Work/Event/EventSetting/Plaza_Overview.engine__event__EventSettingParam.gyml"
+  }
+]

@@ -4573,9 +4573,11 @@
     "044": "Angie",
     "045": "Rayan",
     "046": " ",
-    "047": "Octoplush"
+    "047": "Octoplush",
+    "048": "Calamarci\u00f1as con NAYAR"
   },
   "CommonMsg/Sound/MusicName": {
+    "BGM_Versus_Fes_Thunder_04": "Liquid Sunshine",
     "Blitz_ABXY_01": "Blitz It!",
     "Blitz_ABXY_02": "Wave Prism",
     "Blitz_CurrentRip_01": "Broken Coral",
@@ -4663,9 +4665,11 @@
     "Mission_World_Alterna_5_03": "Whirlpool Tune",
     "Mission_World_Alterna_6_03": "Hyper Diver",
     "Mission_World_Crater_01": "El Cr\u00e1ter",
+    "Plaza_Fes_Day1_Fsodr": "City of Color (2023)",
     "Plaza_Fes_Day1_Mikoshi_Fuuka": "Anarchy Poisons (Bird Mix)",
     "Plaza_Fes_Day1_Mikoshi_Mantaro": "Anarchy Poisons (Boar Mix)",
     "Plaza_Fes_Day1_Mikoshi_Utsuho": "Anarchy Poisons (Snake Mix)",
+    "Plaza_Fes_Day2_Fsodr": "Tomorrow's Nostalgia Today",
     "Plaza_Fes_Day2_IdolSong": "Anarchy Rainbow",
     "Plaza_GearShop": "Dripping with Style",
     "Plaza_News": "Tintelia en la Onda",
@@ -5999,7 +6003,6 @@
     "L_Stage_01-T_Mode_01": "Pr\u00f3ximo",
     "L_Stage_02-T_Mode_01": "Posteriores",
     "L_Stage_03-T_CoopRule_00": "Alianza alev\u00ednica",
-    "L_Stage_03-T_Mode_00": "Actuales",
     "L_Tab_00-T_Text_00": "Mapa",
     "L_Tab_01-T_Text_00": "Escenarios",
     "L_Tab_02-T_Text_00": "Jugador",

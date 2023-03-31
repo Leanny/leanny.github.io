@@ -1,0 +1,639 @@
+{
+  "AlternaMap": [
+    {
+      "Id": 4000,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap00.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4001,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap01.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4002,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap02.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4003,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap03.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4004,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap04.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4005,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnAlterMap05.spl__LockerGoodsStickerInfo.gyml",
+        "Num": 1,
+        "Type": "LockerSticker"
+      }
+    }
+  ],
+  "AncientDocument": [
+    {
+      "Id": 0,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile00.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 1,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile01.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 2,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile02.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 3,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile03.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 4,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile04.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 5,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile05.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 6,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile06.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 7,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile07.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 8,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile08.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 9,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile09.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 10,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile10.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 11,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile11.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 12,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile12.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 13,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile13.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 14,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile14.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 15,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile15.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 16,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile16.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 17,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile17.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 18,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile18.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 19,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile19.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 20,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile20.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 21,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile21.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 22,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile22.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    },
+    {
+      "Id": 23,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnMysteryFile23.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    }
+  ],
+  "BoostTicket": [
+    {
+      "Id": 2000,
+      "RewardParam": {
+        "BoostType": "ExpParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2001,
+      "RewardParam": {
+        "BoostType": "MoneyParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2002,
+      "RewardParam": {
+        "BoostType": "ExpParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2003,
+      "RewardParam": {
+        "BoostType": "MoneyParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2004,
+      "RewardParam": {
+        "BoostType": "ExpParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2005,
+      "RewardParam": {
+        "BoostType": "MoneyParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    },
+    {
+      "Id": 2006,
+      "RewardParam": {
+        "BoostType": "ExpParty",
+        "Num": 1,
+        "Type": "FoodTicket"
+      }
+    }
+  ],
+  "CardPack": [
+    {
+      "Id": 3000,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3001,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3002,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3003,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3004,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3005,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    },
+    {
+      "Id": 3006,
+      "RewardParam": {
+        "Num": 1,
+        "Type": "MiniGameCardPack"
+      }
+    }
+  ],
+  "ExStageClear": [
+    {
+      "Id": 6000,
+      "RewardParam": {
+        "Byname_Adjective": "Work/Gyml/Byname/3100.spl__BynameAdjectiveInfo.gyml",
+        "Byname_Subject": "Work/Gyml/Byname/3100.spl__BynameSubjectInfo.gyml",
+        "Type": "Byname"
+      }
+    },
+    {
+      "Id": 6001,
+      "RewardParam": {
+        "GearInfo": "Work/Gyml/Hed_MSN109.spl__GearInfo.gyml",
+        "Type": "Gear_Head"
+      }
+    }
+  ],
+  "LockerTreasure": [
+    {
+      "Id": 1000,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj00.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1001,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj01.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1002,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj02.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1003,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj03.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1004,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj04.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1005,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj05.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1006,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj06.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1007,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj07.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1008,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj08.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1009,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj09.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1010,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj10.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1011,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj11.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1012,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj12.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1013,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj13.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1014,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj14.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1015,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj18.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1016,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj16.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1017,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj17.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1018,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MegapolisTrashBin.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1019,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MegapolisWoodPallet.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1020,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_ParabolicAntenna.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1021,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_BigLanternSakura.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1022,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_ConcreteBlockSq.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1023,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MegapolisHydrant.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1024,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj26.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1025,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_MsnFindObj27.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1026,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_BigLantern.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1027,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_Torii.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    },
+    {
+      "Id": 1028,
+      "RewardParam": {
+        "LockerGoodsFigureInfo": "Work/Gyml/Fig_UmbrellaNostalgia.spl__LockerGoodsFigureInfo.gyml",
+        "Num": 1,
+        "Type": "LockerFigure"
+      }
+    }
+  ],
+  "StoryClear": [
+    {
+      "Id": 5000,
+      "RewardParam": {
+        "GearInfo": "Work/Gyml/Hed_MSN306.spl__GearInfo.gyml",
+        "Type": "Gear_Head"
+      }
+    },
+    {
+      "Id": 5001,
+      "RewardParam": {
+        "GearInfo": "Work/Gyml/Clt_MSN306.spl__GearInfo.gyml",
+        "Type": "Gear_Clothes"
+      }
+    },
+    {
+      "Id": 5002,
+      "RewardParam": {
+        "GearInfo": "Work/Gyml/Shs_MSN306.spl__GearInfo.gyml",
+        "Type": "Gear_Shoes"
+      }
+    },
+    {
+      "Id": 5003,
+      "RewardParam": {
+        "Type": "Weapon",
+        "WeaponInfo": "Work/Gyml/Shooter_Normal_H.spl__WeaponInfoMain.gyml"
+      }
+    },
+    {
+      "Id": 5004,
+      "RewardParam": {
+        "LockerGoodsStickerInfo": "Work/Gyml/Sti_MsnClearPhot.spl__LockerGoodsStickerInfo.gyml",
+        "Type": "LockerSticker"
+      }
+    }
+  ],
+  "WorldLotteryDrone": [
+    {
+      "Percent": 70.0,
+      "Type": "LockerFigure"
+    },
+    {
+      "Percent": 10.0,
+      "Type": "FoodTicket"
+    },
+    {
+      "Num": 5,
+      "Percent": 10.0,
+      "Type": "GearSkillChip"
+    },
+    {
+      "Num": 10000,
+      "Percent": 10.0,
+      "Type": "Money"
+    }
+  ]
+}

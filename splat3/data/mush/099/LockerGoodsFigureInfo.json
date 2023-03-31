@@ -1,0 +1,98 @@
+[
+  {
+    "HowToGet": "Other",
+    "Id": 300004,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv01.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー S+",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.9375,
+      "G": 0.9375,
+      "R": 0.9375
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv01"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300003,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv02.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー S",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.5625,
+      "G": 0.8125,
+      "R": 0.8125
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv02"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300002,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv03.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー A",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.0625,
+      "G": 0.0625,
+      "R": 0.0625
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv03"
+  },
+  {
+    "HowToGet": "Other",
+    "Id": 300001,
+    "LObjParam": "Work/Gyml/LObj_Fig_UdemaeReward_Lv04.spl__LockerObjParam.gyml",
+    "Label": "ウデマエトロフィー B",
+    "MaxNumberOfPossessions": 1,
+    "Model": "Work/Model/Locker/Fig_TrophyVS/output/Fig_TrophyVS.fmdb",
+    "ModelColor": {
+      "A": 1.0,
+      "B": 0.25,
+      "G": 0.375,
+      "R": 0.625
+    },
+    "Price": 0,
+    "Rarity": 1,
+    "Season": 1,
+    "UrokoPrice": {
+      "BronzeUrokoNum": 0,
+      "GoldUrokoNum": 0,
+      "SilverUrokoNum": 0
+    },
+    "UrokoUnlockLevel": 1,
+    "__RowId": "Fig_UdemaeReward_Lv04"
+  }
+]

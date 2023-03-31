@@ -1,0 +1,77 @@
+{
+  "GameParameters": {
+    "spl__BulletSpGreatBarrierMoveParam": {
+      "$type": "spl__BulletSpGreatBarrierMoveParam",
+      "BarrierParam": {
+        "CanopyKnockBack": 700.0,
+        "DamgeRatio": 0.5,
+        "MaxFieldHP": {
+          "High": 28800.0,
+          "Low": 24000.0,
+          "Mid": 26400.0
+        },
+        "MaxHP": {
+          "High": 14400.0,
+          "Low": 12000.0,
+          "Mid": 13200.0
+        },
+        "MaxRadius": 6.0,
+        "MinRadius": 2.255,
+        "RadiusRatioCurve": {
+          "Data": [
+            0.1940299,
+            0.0,
+            0.0,
+            0.6522388,
+            0.3726415,
+            -0.02766653,
+            0.8723881,
+            0.75,
+            1.1808,
+            1.0,
+            1.0,
+            4.740566
+          ],
+          "MaxX": 1.0,
+          "Type": "Hermit2DSmooth"
+        },
+        "TimeDamage": 720,
+        "TimeDamageOnVLift": 1440
+      },
+      "DroneParam": {
+        "AscendCurve": {
+          "Data": [
+            0.0,
+            0.0,
+            0.0,
+            0.25,
+            0.1122642,
+            0.8181818,
+            0.5,
+            0.5,
+            2.926098,
+            0.6830189,
+            0.8556603,
+            1.395833,
+            1.0,
+            1.0,
+            0.0
+          ],
+          "MaxX": 1.0,
+          "Type": "Hermit2DSmooth"
+        },
+        "AscendHeight": 7.0,
+        "FieldCollisionRadius": 0.4,
+        "IgnitionFrame": 15,
+        "OverlapFieldDamage": 5,
+        "OverlapFieldDamageInterval": 5
+      }
+    },
+    "spl__WeaponSpGreatBarrierParam": {
+      "$type": "spl__WeaponSpGreatBarrierParam",
+      "KnockBackParam": {
+        "ImpactValue": 0.05
+      }
+    }
+  }
+}

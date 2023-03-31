@@ -1,0 +1,102 @@
+{
+  "GameParameters": {
+    "CollisionParam": {
+      "$type": "spl__BulletSimpleCollisionParam",
+      "ChangeFrameForField": 0,
+      "EndRadiusForField": 0.2,
+      "EndRadiusForPlayer": 0.2,
+      "FriendThroughFrameForPlayer": 0,
+      "InitRadiusForField": 0.2,
+      "InitRadiusForPlayer": 0.2
+    },
+    "DamageParam": {
+      "$type": "spl__BulletShooterDamageParam",
+      "ReduceEndFrame": 24,
+      "ReduceStartFrame": 8,
+      "ValueMax": 280,
+      "ValueMin": 140
+    },
+    "MainEffectiveRangeUpParam": {
+      "$type": "spl__PlayerGearSkillParam_MainEffectiveRangeUp"
+    },
+    "MainWeaponSetting": {
+      "$type": "spl__PlayerGearSkillParam_MainWeaponSetting",
+      "WeaponSpeedType": "Fast"
+    },
+    "MoveParam": {
+      "$type": "spl__BulletSimpleMoveParam",
+      "FreeGravity": 0.016,
+      "GoStraightStateEndMaxSpeed": 1.8945,
+      "GoStraightToBrakeStateFrame": 3,
+      "SpawnSpeed": 2.2
+    },
+    "PaintParam": {
+      "$type": "spl__BulletShooterPaintParam",
+      "DepthScaleMax": 2.62,
+      "DepthScaleMaxBreakFree": 2.62,
+      "DepthScaleMin": 1.31,
+      "DepthScaleMinBreakFree": 1.12,
+      "DistanceMiddle": 1.1,
+      "WidthHalfFar": 1.77,
+      "WidthHalfMiddle": 2.11,
+      "WidthHalfNear": 2.11
+    },
+    "SplashPaintParam": {
+      "$type": "spl__BulletSplashShooterPaintParam",
+      "DepthMaxDropHeight": 3.0,
+      "DepthMinDropHeight": 10.0,
+      "WidthHalf": 1.4835,
+      "WidthHalfNearest": 2.0769
+    },
+    "SplashSpawnParam": {
+      "$type": "spl__BulletSplashShooterSpawnParam",
+      "ForceSpawnNearestAddNumArray": [
+        3
+      ],
+      "SpawnBetweenLength": 9.5,
+      "SpawnNearestLength": 1.2,
+      "SpawnNum": 1.4,
+      "SplitNum": 7
+    },
+    "WallDropCollisionPaintParam": {
+      "$type": "spl__BulletWallDropCollisionPaintParam",
+      "PaintRadiusFall": 0.65,
+      "PaintRadiusGround": 0.6,
+      "PaintRadiusShock": 1.56
+    },
+    "WallDropMoveParam": {
+      "$type": "spl__BulletWallDropMoveParam",
+      "FallPeriodFirstFrameMax": 40,
+      "FallPeriodFirstFrameMin": 20,
+      "FallPeriodFirstTargetSpeed": 0.06,
+      "FallPeriodLastFrameMax": 35,
+      "FallPeriodLastFrameMin": 15,
+      "FallPeriodSecondFrame": 10,
+      "FallPeriodSecondTargetSpeed": 0.06,
+      "FreeGravityType": "value_0_008"
+    },
+    "WeaponParam": {
+      "$type": "spl__WeaponShooterParam",
+      "InkConsume": 0.0043,
+      "InkRecoverStop": 15,
+      "Jump_DegBiasDecreaseStartFrame": 25,
+      "Jump_DegBiasEndFrame": 70,
+      "Jump_DegBiasMax": 0.4,
+      "Jump_DegSwerve": 15.0,
+      "MoveSpeed": 0.072,
+      "PostDelayFrame": 2,
+      "RepeatFrame": 5,
+      "ShotGuideFrame": 8,
+      "SquidShotShorteningFrame": 2,
+      "Stand_DegBiasDecrease": 0.01,
+      "Stand_DegBiasKf": 0.02,
+      "Stand_DegBiasMax": 0.4,
+      "Stand_DegBiasMin": 0.04,
+      "Stand_DegSwerve": 12.0
+    },
+    "spl__SpawnBulletAdditionMovePlayerParam": {
+      "$type": "spl__SpawnBulletAdditionMovePlayerParam",
+      "ZRate": 2.0
+    }
+  }
+}

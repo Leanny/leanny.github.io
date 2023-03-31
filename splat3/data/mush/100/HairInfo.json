@@ -1,0 +1,218 @@
+[
+  {
+    "Id": 30,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "ワンレン(タコ)",
+    "Order": 120,
+    "__RowId": "Har_OCT000"
+  },
+  {
+    "Id": 31,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "タコポニテ(タコ)",
+    "Order": 122,
+    "__RowId": "Har_OCT001"
+  },
+  {
+    "Id": 32,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "モヒカン(タコ)",
+    "Order": 121,
+    "__RowId": "Har_OCT002"
+  },
+  {
+    "Id": 33,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "アフロ(タコ)",
+    "Order": 123,
+    "__RowId": "Har_OCT003"
+  },
+  {
+    "Id": 34,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "タテロール(タコ)",
+    "Order": 100,
+    "__RowId": "Har_OCT004"
+  },
+  {
+    "Id": 35,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "ドレッド(タコ)",
+    "Order": 102,
+    "__RowId": "Har_OCT005"
+  },
+  {
+    "Id": 36,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "ロンゲ(タコ)",
+    "Order": 101,
+    "__RowId": "Har_OCT006"
+  },
+  {
+    "Id": 37,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "リーゼント(タコ)",
+    "Order": 103,
+    "__RowId": "Har_OCT007"
+  },
+  {
+    "Id": 600,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "タコゾネス",
+    "Order": -1,
+    "__RowId": "Har_OCT_RVL000"
+  },
+  {
+    "Id": 601,
+    "IsLong": false,
+    "IsSquid": false,
+    "Label": "デラタコゾネス",
+    "Order": -1,
+    "__RowId": "Har_OCT_RVL001"
+  },
+  {
+    "Id": 0,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ロング(イカ)",
+    "Order": 20,
+    "__RowId": "Har_SQD000"
+  },
+  {
+    "Id": 1,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ショート(イカ)",
+    "Order": 40,
+    "__RowId": "Har_SQD001"
+  },
+  {
+    "Id": 2,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "オダンゴ(イカ)",
+    "Order": 44,
+    "__RowId": "Har_SQD002"
+  },
+  {
+    "Id": 3,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ウェーブ(イカ)",
+    "Order": 42,
+    "__RowId": "Har_SQD003"
+  },
+  {
+    "Id": 4,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ツインテ(イカ)",
+    "Order": 48,
+    "__RowId": "Har_SQD004"
+  },
+  {
+    "Id": 5,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "パッツン(イカ)",
+    "Order": 46,
+    "__RowId": "Har_SQD005"
+  },
+  {
+    "Id": 6,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "チョンマゲ(イカ)",
+    "Order": 21,
+    "__RowId": "Har_SQD006"
+  },
+  {
+    "Id": 7,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ツンツン(イカ)",
+    "Order": 41,
+    "__RowId": "Har_SQD007"
+  },
+  {
+    "Id": 8,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ボウズ(イカ)",
+    "Order": 43,
+    "__RowId": "Har_SQD008"
+  },
+  {
+    "Id": 9,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "イカポニテ(イカ)",
+    "Order": 45,
+    "__RowId": "Har_SQD009"
+  },
+  {
+    "Id": 10,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "トゲトゲ(イカ)",
+    "Order": 47,
+    "__RowId": "Har_SQD010"
+  },
+  {
+    "Id": 11,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "マッシュ(イカ)",
+    "Order": 49,
+    "__RowId": "Har_SQD011"
+  },
+  {
+    "Id": 12,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ミツアミ(イカ)",
+    "Order": 0,
+    "__RowId": "Har_SQD012"
+  },
+  {
+    "Id": 13,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ムゾウサ(イカ)",
+    "Order": 2,
+    "__RowId": "Har_SQD013"
+  },
+  {
+    "Id": 14,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "ウェット(イカ)",
+    "Order": 3,
+    "__RowId": "Har_SQD014"
+  },
+  {
+    "Id": 15,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "コーンロウ(イカ)",
+    "Order": 1,
+    "__RowId": "Har_SQD015"
+  },
+  {
+    "Id": 500,
+    "IsLong": false,
+    "IsSquid": true,
+    "Label": "Msn司令",
+    "Order": -1,
+    "__RowId": "Har_SQD_MSN310"
+  }
+]
