@@ -1,0 +1,3 @@
+*.py
+/backup
+/data/*.json

@@ -108,6 +108,7 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="col-sm-8 mx-auto">
+                    <div id="updateNote"></div>
                     <h1>Splatoon 3 - Misc Database</h1>
                     <select class="form-control" id="version"></select>
                     <ul class="nav nav-tabs" id="modes" role="tablist"></ul>
@@ -133,8 +134,10 @@
                     reward_type_formatter,
                     nameplate_full_formatter,
                     byname_full_formatter,
+                    generate_migration_info,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
+                generate_migration_info($("#updateNote"))
 
                 const prefix = get_prefix()
                 window.version = "100"

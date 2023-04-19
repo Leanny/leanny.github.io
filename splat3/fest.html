@@ -121,6 +121,7 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="col-sm-8 mx-auto">
+                    <div id="updateNote"></div>
                     <h1>Splatoon 3 - Splatfest Database</h1>
                     <select class="form-control" id="version"></select>
                     <ul class="nav nav-tabs" id="modes" role="tablist"></ul>
@@ -146,8 +147,10 @@
                     card_sleeve_formatter,
                     card_reward_formatter,
                     add_to_dict,
+                    generate_migration_info,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
+                generate_migration_info($("#updateNote"))
 
                 const prefix = get_prefix()
                 let version = "100"

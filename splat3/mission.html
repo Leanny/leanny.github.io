@@ -71,7 +71,7 @@
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-            <a class="navbar-brand" href="#">Misc Database</a>
+            <a class="navbar-brand" href="#">Mission Database</a>
             <button
                 class="navbar-toggler"
                 type="button"
@@ -88,6 +88,7 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="col-sm-8 mx-auto">
+                    <div id="updateNote"></div>
                     <h1>Splatoon 3 - Story Mode Related Content</h1>
                     <select class="form-control" id="version"></select>
                     <ul class="nav nav-tabs" id="modes" role="tablist"></ul>
@@ -111,8 +112,10 @@
                     reward_formatter,
                     gear_name_formatter,
                     gear_image_formatter,
+                    generate_migration_info,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
+                generate_migration_info($("#updateNote"))
 
                 const prefix = get_prefix()
                 window.version = "100"

@@ -71,6 +71,7 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="col-sm-8 mx-auto">
+                    <div id="updateNote"></div>
                     <h1>Splatoon 3 - Weapon and Gear Database</h1>
                     <div class="toolbar">
                         <select class="form-control" id="language"></select>
@@ -466,8 +467,9 @@
             </div>
         </main>
         <script type="module">
-            import { generateHeader } from "./js/Utility.js"
+            import { generateHeader, generate_migration_info } from "./js/Utility.js"
             generateHeader($("#navbarCollapse"))
+            generate_migration_info($("#updateNote"))
         </script>
         <script>
             let prefix = ""

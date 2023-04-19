@@ -88,6 +88,7 @@
         <main role="main">
             <div class="jumbotron">
                 <div class="col-sm-8 mx-auto">
+                    <div id="updateNote"></div>
                     <h1>Splatoon 3 - Collectibles Database</h1>
                     <select class="form-control" id="language"></select>
                     <select class="form-control" id="version"></select>
@@ -119,8 +120,10 @@
                     locker_figure_name_formatter,
                     emote_image_formatter,
                     emote_name_formatter,
+                    generate_migration_info,
                 } from "./js/Utility.js"
                 generateHeader($("#navbarCollapse"))
+                generate_migration_info($("#updateNote"))
 
                 const prefix = get_prefix()
                 let version = "100"

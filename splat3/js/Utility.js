@@ -44,6 +44,12 @@ export function generateHeader(elem) {
 </ul>`)
 }
 
+export function generate_migration_info(elem) {
+    elem.append(
+        '<div style="background-color: white; padding:10px; border: 1px solid black; border-radius: 10px;"><h2>Note for developers</h2>If you are using the raw github JSON files from this repository, please consider changing the prefix <code>https://raw.githubusercontent.com/Leanny/leanny.github.io/master/splat3/</code> to either <code>https://raw.githubusercontent.com/Leanny/splat3/master/</code> or <code>https://leanny.github.io/splat3/</code>. The old URLs will become invalid on April 25th.</div>'
+    )
+}
+
 export function generateFooter(elem) {
     elem.append(`<div class="container text-muted">
     <div class="footer-notice">
