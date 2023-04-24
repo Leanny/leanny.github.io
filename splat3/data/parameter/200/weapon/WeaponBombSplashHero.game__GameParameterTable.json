@@ -1,9 +1,0 @@
-{
-  "$parent": "Work/Component/GameParameterTable/WeaponBombSplashMission.game__GameParameterTable.gyml",
-  "GameParameters": {
-    "WeaponParam": {
-      "$type": "spl__WeaponSubParam",
-      "InkRecoverStop": 60
-    }
-  }
-}

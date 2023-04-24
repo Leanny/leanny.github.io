@@ -1,9 +1,0 @@
-{
-  "$parent": "Work/Component/GameParameterTable/WeaponShooterQuickMiddle.game__GameParameterTable.gyml",
-  "GameParameters": {
-    "DamageParam": {
-      "$type": "spl__BulletShooterDamageParam",
-      "ValueMin": 200
-    }
-  }
-}

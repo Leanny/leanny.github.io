@@ -1,9 +1,0 @@
-{
-  "$parent": "Work/Component/GameParameterTable/WeaponShooterGravity.game__GameParameterTable.gyml",
-  "GameParameters": {
-    "DamageParam": {
-      "$type": "spl__BulletShooterDamageParam",
-      "ValueMin": 350
-    }
-  }
-}
